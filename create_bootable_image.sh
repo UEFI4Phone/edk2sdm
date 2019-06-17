@@ -17,7 +17,7 @@ case "$platform_num" in
       ;;
 esac
 uid=$(id -u)
-if [ $uid == 0 ]; then
+if [ "$uid" -eq "0" ]; then
     echo "Installing dependencies"
     apt-get install build-essential uuid-dev iasl git nasm python3-distutils gcc-aarch64-linux-gnu python gcc make -y
 else
@@ -26,6 +26,7 @@ else
 fi
 rm -f zImage fdt.img $platform/uefi.img
 tools/writedtb.sh fdt.img
+rm -Rf edk2/Conf
 mkdir -m 755 edk2/Conf
 echo "Building UEFI"
 cd $platform
