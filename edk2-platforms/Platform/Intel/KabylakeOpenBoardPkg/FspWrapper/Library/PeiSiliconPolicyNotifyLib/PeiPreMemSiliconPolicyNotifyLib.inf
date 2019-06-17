@@ -1,0 +1,43 @@
+## @file
+# Component information file for Silicon Policy Notify Library.
+# This library implements constructor function to register notify call back
+# when policy PPI installed.
+#
+# Copyright (c) 2019, Intel Corporation. All rights reserved.<BR>
+#
+# SPDX-License-Identifier: BSD-2-Clause-Patent
+#
+##
+
+[Defines]
+  INF_VERSION                    = 0x00010005
+  BASE_NAME                      = PeiPreMemSiliconPolicyNotifyLib
+  FILE_GUID                      = 6D231E12-C088-47C8-8B16-61F07293EEF8
+  MODULE_TYPE                    = PEIM
+  VERSION_STRING                 = 1.0
+  LIBRARY_CLASS                  = NULL
+  CONSTRUCTOR                    = PeiPreMemSiliconPolicyNotifyLibConstructor
+
+[LibraryClasses]
+  BaseLib
+
+[Packages]
+  MdePkg/MdePkg.dec
+  KabylakeOpenBoardPkg/OpenBoardPkg.dec
+  KabylakeSiliconPkg/SiPkg.dec
+
+[Sources]
+  PeiPreMemSiliconPolicyNotifyLib.c
+
+[Guids]
+  gSaMiscPeiPreMemConfigGuid
+
+[Ppis]
+  gSiPreMemPolicyPpiGuid
+
+[Pcd]
+  # SPD Address Table
+  gBoardModuleTokenSpaceGuid.PcdMrcSpdAddressTable0
+  gBoardModuleTokenSpaceGuid.PcdMrcSpdAddressTable1
+  gBoardModuleTokenSpaceGuid.PcdMrcSpdAddressTable2
+  gBoardModuleTokenSpaceGuid.PcdMrcSpdAddressTable3

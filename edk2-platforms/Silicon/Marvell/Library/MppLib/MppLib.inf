@@ -1,0 +1,111 @@
+#
+# Marvell BSD License Option
+#
+# If you received this File from Marvell, you may opt to use, redistribute
+# and/or modify this File under the following licensing terms.
+# Redistribution and use in source and binary forms, with or without
+# modification, are permitted provided that the following conditions are met:
+#
+# * Redistributions of source code must retain the above copyright notice,
+# this list of conditions and the following disclaimer.
+#
+# * Redistributions in binary form must reproduce the above copyright
+# notice, this list of conditions and the following disclaimer in the
+# documentation and/or other materials provided with the distribution.
+#
+# * Neither the name of Marvell nor the names of its contributors may be
+# used to endorse or promote products derived from this software without
+# specific prior written permission.
+#
+# THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS"
+# AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
+# IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE
+# DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT OWNER OR CONTRIBUTORS BE LIABLE
+# FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL
+# DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR
+# SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER
+# CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY,
+# OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
+# OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+#
+
+[Defines]
+  INF_VERSION                    = 0x00010005
+  BASE_NAME                      = MarvellMppLib
+  FILE_GUID                      = 3f19b642-4a49-4dfd-8f4a-205dd38432bb
+  MODULE_TYPE                    = BASE
+  VERSION_STRING                 = 1.0
+  LIBRARY_CLASS                  = MppLib
+
+[Packages]
+  MdePkg/MdePkg.dec
+  MdeModulePkg/MdeModulePkg.dec
+  ArmPkg/ArmPkg.dec
+  ArmPlatformPkg/ArmPlatformPkg.dec
+  Silicon/Marvell/Marvell.dec
+
+[LibraryClasses]
+  ArmLib
+  DebugLib
+  MemoryAllocationLib
+  PcdLib
+  IoLib
+
+[Sources.common]
+  MppLib.c
+
+[FixedPcd]
+  gMarvellTokenSpaceGuid.PcdMppChipCount
+
+  gMarvellTokenSpaceGuid.PcdChip0MppReverseFlag
+  gMarvellTokenSpaceGuid.PcdChip0MppBaseAddress
+  gMarvellTokenSpaceGuid.PcdChip0MppPinCount
+  gMarvellTokenSpaceGuid.PcdChip0MppSel0
+  gMarvellTokenSpaceGuid.PcdChip0MppSel1
+  gMarvellTokenSpaceGuid.PcdChip0MppSel2
+  gMarvellTokenSpaceGuid.PcdChip0MppSel3
+  gMarvellTokenSpaceGuid.PcdChip0MppSel4
+  gMarvellTokenSpaceGuid.PcdChip0MppSel5
+  gMarvellTokenSpaceGuid.PcdChip0MppSel6
+  gMarvellTokenSpaceGuid.PcdChip0MppSel7
+
+  gMarvellTokenSpaceGuid.PcdChip1MppReverseFlag
+  gMarvellTokenSpaceGuid.PcdChip1MppBaseAddress
+  gMarvellTokenSpaceGuid.PcdChip1MppPinCount
+  gMarvellTokenSpaceGuid.PcdChip1MppSel0
+  gMarvellTokenSpaceGuid.PcdChip1MppSel1
+  gMarvellTokenSpaceGuid.PcdChip1MppSel2
+  gMarvellTokenSpaceGuid.PcdChip1MppSel3
+  gMarvellTokenSpaceGuid.PcdChip1MppSel4
+  gMarvellTokenSpaceGuid.PcdChip1MppSel5
+  gMarvellTokenSpaceGuid.PcdChip1MppSel6
+  gMarvellTokenSpaceGuid.PcdChip1MppSel7
+
+  gMarvellTokenSpaceGuid.PcdChip2MppReverseFlag
+  gMarvellTokenSpaceGuid.PcdChip2MppBaseAddress
+  gMarvellTokenSpaceGuid.PcdChip2MppPinCount
+  gMarvellTokenSpaceGuid.PcdChip2MppSel0
+  gMarvellTokenSpaceGuid.PcdChip2MppSel1
+  gMarvellTokenSpaceGuid.PcdChip2MppSel2
+  gMarvellTokenSpaceGuid.PcdChip2MppSel3
+  gMarvellTokenSpaceGuid.PcdChip2MppSel4
+  gMarvellTokenSpaceGuid.PcdChip2MppSel5
+  gMarvellTokenSpaceGuid.PcdChip2MppSel6
+  gMarvellTokenSpaceGuid.PcdChip2MppSel7
+
+  gMarvellTokenSpaceGuid.PcdChip3MppReverseFlag
+  gMarvellTokenSpaceGuid.PcdChip3MppBaseAddress
+  gMarvellTokenSpaceGuid.PcdChip3MppPinCount
+  gMarvellTokenSpaceGuid.PcdChip3MppSel0
+  gMarvellTokenSpaceGuid.PcdChip3MppSel1
+  gMarvellTokenSpaceGuid.PcdChip3MppSel2
+  gMarvellTokenSpaceGuid.PcdChip3MppSel3
+  gMarvellTokenSpaceGuid.PcdChip3MppSel4
+  gMarvellTokenSpaceGuid.PcdChip3MppSel5
+  gMarvellTokenSpaceGuid.PcdChip3MppSel6
+  gMarvellTokenSpaceGuid.PcdChip3MppSel7
+
+  gMarvellTokenSpaceGuid.PcdPciESdhci
+
+[BuildOptions]
+  *_*_*_CC_FLAGS = -fno-stack-protector

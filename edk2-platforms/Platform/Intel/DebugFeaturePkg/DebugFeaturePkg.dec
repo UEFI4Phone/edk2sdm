@@ -1,0 +1,65 @@
+## @file
+# This package provides the modules that build for debug feature.
+# This DebugFeaturePkg should only depend on EDKII Core packages and MinPlatformPkg.
+#
+# The DEC files are used by the utilities that parse DSC and
+# INF files to generate AutoGen.c and AutoGen.h files
+# for the build infrastructure.
+#
+# Copyright (c) 2019, Intel Corporation. All rights reserved.<BR>
+#
+# SPDX-License-Identifier: BSD-2-Clause-Patent
+#
+##
+
+[Defines]
+  DEC_SPECIFICATION              = 0x00010005
+  PACKAGE_NAME                   = DebugFeaturePkg
+  PACKAGE_GUID                   = 58B6F2BB-A94F-4EB9-89DA-2F06ED59CE39
+  PACKAGE_VERSION                = 0.1
+
+[Includes]
+  Include
+
+[LibraryClasses]
+  ##  @libraryclass    Provide capability to get/set USB3 debug port parameter.
+  Usb3DebugPortParameterLib|Include/Library/Usb3DebugPortParameterLib.h
+
+  ##  @libraryclass    Provide common USB3 debug port functions.
+  Usb3DebugPortLib|Include/Library/Usb3DebugPortLib.h
+
+[Guids]
+  gDebugFeaturePkgTokenSpaceGuid      = { 0xdbf3ac70, 0x3f73, 0x40aa, { 0xbd, 0xd6, 0xac, 0xf2, 0x1a, 0x1b, 0x2f, 0xe2 } }
+
+[PcdsFixedAtBuild]
+  ## These PCD specify XHCI controller Bus/Device/Function, which are used to enable
+  #  XHCI debug device.
+  gDebugFeaturePkgTokenSpaceGuid.PcdUsbSerialXhciBus|0x00|UINT8|0x00000001
+  gDebugFeaturePkgTokenSpaceGuid.PcdUsbSerialXhciDev|0x14|UINT8|0x00000002
+  gDebugFeaturePkgTokenSpaceGuid.PcdUsbSerialXhciFunc|0x00|UINT8|0x00000003
+  gDebugFeaturePkgTokenSpaceGuid.PcdXhciDefaultBaseAddress|0xFEA10000|UINT32|0x00000004
+
+  ## This PCD specifies the wait timeout value in microsecond if USB debug cable is detected but host not connected.
+  #  Default timeout value is 2000000 microseconds.
+  #  If user does not want system stall for long time, it can be set to small value.
+  gDebugFeaturePkgTokenSpaceGuid.PcdXhciHostWaitTimeout|2000000|UINT64|0x00000005
+
+  ## This PCD sepcifies the start index in CMOS, it will occupy 1 bytes space.
+  gDebugFeaturePkgTokenSpaceGuid.PcdUsb3DebugPortBusIndex|0x59|UINT8|0x00000006
+  ## This PCD sepcifies the start index in CMOS, it will occupy 1 bytes space.
+  gDebugFeaturePkgTokenSpaceGuid.PcdUsb3DebugPortDeviceIndex|0x5A|UINT8|0x00000007
+  ## This PCD sepcifies the start index in CMOS, it will occupy 1 bytes space.
+  gDebugFeaturePkgTokenSpaceGuid.PcdUsb3DebugPortFunctionIndex|0x5B|UINT8|0x00000008
+
+  ## This PCD specifies AcpiDebug feature is enable/disable.
+  gDebugFeaturePkgTokenSpaceGuid.PcdAcpiDebugEnable|FALSE|BOOLEAN|0x00000009
+  ## This PCD specifies AcpiDebug buffer size.
+  gDebugFeaturePkgTokenSpaceGuid.PcdAcpiDebugBufferSize|0x10000|UINT32|0x0000000A
+
+[PcdsDynamic, PcdsDynamicEx]
+  ## This PCD specifies AcpiDebug buffer address
+  gDebugFeaturePkgTokenSpaceGuid.PcdAcpiDebugAddress|0|UINT32|0x0000000B
+
+[PcdsFeatureFlag]
+  ## This PCD specifies whether StatusCode is reported via USB3 Serial port.
+  gDebugFeaturePkgTokenSpaceGuid.PcdStatusCodeUseUsb3Serial|TRUE|BOOLEAN|0x0000000C

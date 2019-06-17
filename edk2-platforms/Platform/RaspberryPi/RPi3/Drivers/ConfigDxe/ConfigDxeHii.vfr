@@ -1,0 +1,300 @@
+/** @file
+ *
+ *  Copyright (c) 2018 Andrei Warkentin <andrey.warkentin@gmail.com>
+ *
+ *  SPDX-License-Identifier: BSD-2-Clause-Patent
+ *
+ **/
+
+#include <Guid/HiiPlatformSetupFormset.h>
+#include "ConfigDxeFormSetGuid.h"
+
+typedef struct {
+  /*
+   * 0 - One mode for the boot resolution.
+   * 1 - Adds additional "typical" resolutions like
+   *     640x480, 800x600, 1024 x 768, 720p and 1080p.
+   */
+   UINT32 Enable;
+} DISPLAY_ENABLE_VMODES_VARSTORE_DATA;
+
+typedef struct {
+  /*
+   * 0 - No screenshot support.
+   * 1 - Screenshot support via hotkey.
+   */
+   UINT32 Enable;
+} DISPLAY_ENABLE_SSHOT_VARSTORE_DATA;
+
+typedef struct {
+  /*
+   * 0 - No JTAG.
+   * 1 - JTAG mode.
+   */
+   UINT32 Enable;
+} DEBUG_ENABLE_JTAG_VARSTORE_DATA;
+
+typedef struct {
+  /*
+   * 0 - Don't show UEFI exit message.
+   * 1 - Show UEFI exit message.
+   */
+   UINT32 Show;
+} DEBUG_SHOW_UEFI_EXIT_VARSTORE_DATA;
+
+typedef struct {
+  /*
+   * 0 - don't change the clock rate.
+   * 1 - 600MHz.
+   * 2 - maximum.
+   */
+  UINT32 Clock;
+} CHIPSET_CPU_CLOCK_VARSTORE_DATA;
+
+typedef struct {
+  /*
+   * 0 - uSD slot routed to Broadcom SDHOST.
+   * 1 - uSD slot routed to Arasan SDHCI.
+   */
+  UINT32 Routing;
+} CHIPSET_SD_VARSTORE_DATA;
+
+typedef struct {
+  /*
+   * 0 - Don't disable multi-block.
+   * 1 - Disable multi-block commands.
+   */
+  UINT32 DisableMulti;
+} MMC_DISMULTI_VARSTORE_DATA;
+
+typedef struct {
+  /*
+   * 0 - Don't force 1 bit mode.
+   * 1 - Force 1 bit mode.
+   */
+  UINT32 Force1Bit;
+} MMC_FORCE1BIT_VARSTORE_DATA;
+
+typedef struct {
+  /*
+   * 0 - Don't force default speed.
+   * 1 - Force default speed.
+   */
+  UINT32 ForceDS;
+} MMC_FORCEDS_VARSTORE_DATA;
+
+typedef struct {
+  /*
+   * Default Speed MHz override (25MHz default).
+   */
+  UINT32 MHz;
+} MMC_SD_DS_MHZ_VARSTORE_DATA;
+
+typedef struct {
+  /*
+   * High Speed MHz override (50MHz default).
+   */
+  UINT32 MHz;
+} MMC_SD_HS_MHZ_VARSTORE_DATA;
+
+//
+// EFI Variable attributes
+//
+#define EFI_VARIABLE_NON_VOLATILE       0x00000001
+#define EFI_VARIABLE_BOOTSERVICE_ACCESS 0x00000002
+#define EFI_VARIABLE_RUNTIME_ACCESS     0x00000004
+#define EFI_VARIABLE_READ_ONLY          0x00000008
+
+formset
+    guid      = CONFIGDXE_FORM_SET_GUID,
+    title     = STRING_TOKEN(STR_FORM_SET_TITLE),
+    help      = STRING_TOKEN(STR_FORM_SET_TITLE_HELP),
+    classguid = EFI_HII_PLATFORM_SETUP_FORMSET_GUID,
+
+    efivarstore CHIPSET_CPU_CLOCK_VARSTORE_DATA,
+      attribute = EFI_VARIABLE_BOOTSERVICE_ACCESS | EFI_VARIABLE_RUNTIME_ACCESS | EFI_VARIABLE_NON_VOLATILE,
+      name  = CpuClock,
+      guid  = CONFIGDXE_FORM_SET_GUID;
+
+    efivarstore CHIPSET_SD_VARSTORE_DATA,
+      attribute = EFI_VARIABLE_BOOTSERVICE_ACCESS | EFI_VARIABLE_RUNTIME_ACCESS | EFI_VARIABLE_NON_VOLATILE,
+      name  = SdIsArasan,
+      guid  = CONFIGDXE_FORM_SET_GUID;
+
+    efivarstore MMC_DISMULTI_VARSTORE_DATA,
+      attribute = EFI_VARIABLE_BOOTSERVICE_ACCESS | EFI_VARIABLE_RUNTIME_ACCESS | EFI_VARIABLE_NON_VOLATILE,
+      name  = MmcDisableMulti,
+      guid  = CONFIGDXE_FORM_SET_GUID;
+
+    efivarstore MMC_FORCE1BIT_VARSTORE_DATA,
+      attribute = EFI_VARIABLE_BOOTSERVICE_ACCESS | EFI_VARIABLE_RUNTIME_ACCESS | EFI_VARIABLE_NON_VOLATILE,
+      name  = MmcForce1Bit,
+      guid  = CONFIGDXE_FORM_SET_GUID;
+
+    efivarstore MMC_FORCEDS_VARSTORE_DATA,
+      attribute = EFI_VARIABLE_BOOTSERVICE_ACCESS | EFI_VARIABLE_RUNTIME_ACCESS | EFI_VARIABLE_NON_VOLATILE,
+      name  = MmcForceDefaultSpeed,
+      guid  = CONFIGDXE_FORM_SET_GUID;
+
+    efivarstore MMC_SD_DS_MHZ_VARSTORE_DATA,
+      attribute = EFI_VARIABLE_BOOTSERVICE_ACCESS | EFI_VARIABLE_RUNTIME_ACCESS | EFI_VARIABLE_NON_VOLATILE,
+      name  = MmcSdDefaultSpeedMHz,
+      guid  = CONFIGDXE_FORM_SET_GUID;
+
+    efivarstore MMC_SD_HS_MHZ_VARSTORE_DATA,
+      attribute = EFI_VARIABLE_BOOTSERVICE_ACCESS | EFI_VARIABLE_RUNTIME_ACCESS | EFI_VARIABLE_NON_VOLATILE,
+      name  = MmcSdHighSpeedMHz,
+      guid  = CONFIGDXE_FORM_SET_GUID;
+
+    efivarstore DEBUG_ENABLE_JTAG_VARSTORE_DATA,
+      attribute = EFI_VARIABLE_BOOTSERVICE_ACCESS | EFI_VARIABLE_RUNTIME_ACCESS | EFI_VARIABLE_NON_VOLATILE,
+      name  = DebugEnableJTAG,
+      guid  = CONFIGDXE_FORM_SET_GUID;
+
+    efivarstore DEBUG_SHOW_UEFI_EXIT_VARSTORE_DATA,
+      attribute = EFI_VARIABLE_BOOTSERVICE_ACCESS | EFI_VARIABLE_RUNTIME_ACCESS | EFI_VARIABLE_NON_VOLATILE,
+      name  = DebugShowUEFIExit,
+      guid  = CONFIGDXE_FORM_SET_GUID;
+
+    efivarstore DISPLAY_ENABLE_VMODES_VARSTORE_DATA,
+      attribute = EFI_VARIABLE_BOOTSERVICE_ACCESS | EFI_VARIABLE_RUNTIME_ACCESS | EFI_VARIABLE_NON_VOLATILE,
+      name  = DisplayEnableVModes,
+      guid  = CONFIGDXE_FORM_SET_GUID;
+
+    efivarstore DISPLAY_ENABLE_SSHOT_VARSTORE_DATA,
+      attribute = EFI_VARIABLE_BOOTSERVICE_ACCESS | EFI_VARIABLE_RUNTIME_ACCESS | EFI_VARIABLE_NON_VOLATILE,
+      name  = DisplayEnableSShot,
+      guid  = CONFIGDXE_FORM_SET_GUID;
+
+    form formid = 1,
+        title  = STRING_TOKEN(STR_FORM_SET_TITLE);
+        subtitle text = STRING_TOKEN(STR_NULL_STRING);
+
+        goto 0x1002,
+           prompt = STRING_TOKEN(STR_CHIPSET_FORM_TITLE),
+           help = STRING_TOKEN(STR_NULL_STRING);
+
+        goto 0x1003,
+           prompt = STRING_TOKEN(STR_MMC_FORM_TITLE),
+           help = STRING_TOKEN(STR_NULL_STRING);
+
+        goto 0x1004,
+            prompt = STRING_TOKEN(STR_DISPLAY_FORM_TITLE),
+            help = STRING_TOKEN(STR_NULL_STRING);
+
+        goto 0x1005,
+            prompt = STRING_TOKEN(STR_DEBUG_FORM_TITLE),
+            help = STRING_TOKEN(STR_NULL_STRING);
+    endform;
+
+    form formid = 0x1002,
+        title  = STRING_TOKEN(STR_CHIPSET_FORM_TITLE);
+        subtitle text = STRING_TOKEN(STR_CHIPSET_FORM_SUBTITLE);
+
+        oneof varid = CpuClock.Clock,
+            prompt      = STRING_TOKEN(STR_CHIPSET_CLOCK_CPU_PROMPT),
+            help        = STRING_TOKEN(STR_CHIPSET_CLOCK_CPU_HELP),
+            flags       = NUMERIC_SIZE_4 | INTERACTIVE | RESET_REQUIRED,
+            option text = STRING_TOKEN(STR_CHIPSET_CLOCK_CPU_NA), value = 0, flags = DEFAULT;
+            option text = STRING_TOKEN(STR_CHIPSET_CLOCK_CPU_600MHZ), value = 1, flags = 0;
+            option text = STRING_TOKEN(STR_CHIPSET_CLOCK_CPU_MAX), value = 2, flags = 0;
+        endoneof;
+
+        oneof varid = SdIsArasan.Routing,
+            prompt      = STRING_TOKEN(STR_CHIPSET_SD_PROMPT),
+            help        = STRING_TOKEN(STR_CHIPSET_SD_HELP),
+            flags       = NUMERIC_SIZE_4 | INTERACTIVE | RESET_REQUIRED,
+            option text = STRING_TOKEN(STR_CHIPSET_SD_ARASAN), value = 1, flags = 0;
+            option text = STRING_TOKEN(STR_CHIPSET_SD_SDHOST), value = 0, flags = DEFAULT;
+        endoneof;
+    endform;
+
+    form formid = 0x1003,
+        title  = STRING_TOKEN(STR_MMC_FORM_TITLE);
+        subtitle text = STRING_TOKEN(STR_MMC_FORM_SUBTITLE);
+
+        oneof varid = MmcDisableMulti.DisableMulti,
+            prompt      = STRING_TOKEN(STR_MMC_DISMULTI_PROMPT),
+            help        = STRING_TOKEN(STR_MMC_DISMULTI_HELP),
+            flags       = NUMERIC_SIZE_4 | INTERACTIVE | RESET_REQUIRED,
+            option text = STRING_TOKEN(STR_MMC_DISMULTI_N), value = 0, flags = DEFAULT;
+            option text = STRING_TOKEN(STR_MMC_DISMULTI_Y), value = 1, flags = 0;
+        endoneof;
+
+        oneof varid = MmcForce1Bit.Force1Bit,
+            prompt      = STRING_TOKEN(STR_MMC_FORCE1BIT_PROMPT),
+            help        = STRING_TOKEN(STR_MMC_FORCE1BIT_HELP),
+            flags       = NUMERIC_SIZE_4 | INTERACTIVE | RESET_REQUIRED,
+            option text = STRING_TOKEN(STR_MMC_FORCE1BIT_N), value = 0, flags = DEFAULT;
+            option text = STRING_TOKEN(STR_MMC_FORCE1BIT_Y), value = 1, flags = 0;
+        endoneof;
+
+        oneof varid = MmcForceDefaultSpeed.ForceDS,
+            prompt      = STRING_TOKEN(STR_MMC_FORCEDS_PROMPT),
+            help        = STRING_TOKEN(STR_MMC_FORCEDS_HELP),
+            flags       = NUMERIC_SIZE_4 | INTERACTIVE | RESET_REQUIRED,
+            option text = STRING_TOKEN(STR_MMC_FORCEDS_N), value = 0, flags = DEFAULT;
+            option text = STRING_TOKEN(STR_MMC_FORCEDS_Y), value = 1, flags = 0;
+        endoneof;
+
+        numeric varid = MmcSdDefaultSpeedMHz.MHz,
+             prompt  = STRING_TOKEN(STR_MMC_SD_DS_PROMPT),
+             help    = STRING_TOKEN(STR_MMC_SD_DS_HELP),
+             flags   = DISPLAY_UINT_DEC | NUMERIC_SIZE_4 | INTERACTIVE | RESET_REQUIRED,
+             minimum = 25,
+             maximum = 100,
+             default = 25,
+        endnumeric;
+
+        numeric varid = MmcSdHighSpeedMHz.MHz,
+             prompt  = STRING_TOKEN(STR_MMC_SD_HS_PROMPT),
+             help    = STRING_TOKEN(STR_MMC_SD_HS_HELP),
+             flags   = DISPLAY_UINT_DEC | NUMERIC_SIZE_4 | INTERACTIVE | RESET_REQUIRED,
+             minimum = 50,
+             maximum = 100,
+             default = 50,
+        endnumeric;
+    endform;
+
+    form formid = 0x1004,
+        title  = STRING_TOKEN(STR_DISPLAY_FORM_TITLE);
+        subtitle text = STRING_TOKEN(STR_DISPLAY_FORM_SUBTITLE);
+
+        oneof varid = DisplayEnableVModes.Enable,
+            prompt      = STRING_TOKEN(STR_DISPLAY_VMODES_PROMPT),
+            help        = STRING_TOKEN(STR_DISPLAY_VMODES_HELP),
+            flags       = NUMERIC_SIZE_4 | INTERACTIVE | RESET_REQUIRED,
+            option text = STRING_TOKEN(STR_DISPLAY_VMODES_ENABLE), value = 1, flags = DEFAULT;
+            option text = STRING_TOKEN(STR_DISPLAY_VMODES_DISABLE), value = 0, flags = 0;
+        endoneof;
+
+        oneof varid = DisplayEnableSShot.Enable,
+            prompt      = STRING_TOKEN(STR_DISPLAY_SSHOT_PROMPT),
+            help        = STRING_TOKEN(STR_DISPLAY_SSHOT_HELP),
+            flags       = NUMERIC_SIZE_4 | INTERACTIVE | RESET_REQUIRED,
+            option text = STRING_TOKEN(STR_DISPLAY_SSHOT_ENABLE), value = 1, flags = DEFAULT;
+            option text = STRING_TOKEN(STR_DISPLAY_SSHOT_DISABLE), value = 0, flags = 0;
+        endoneof;
+    endform;
+
+    form formid = 0x1005,
+        title  = STRING_TOKEN(STR_DEBUG_FORM_TITLE);
+        subtitle text = STRING_TOKEN(STR_DEBUG_FORM_SUBTITLE);
+
+        oneof varid = DebugEnableJTAG.Enable,
+            prompt      = STRING_TOKEN(STR_DEBUG_JTAG_PROMPT),
+            help        = STRING_TOKEN(STR_DEBUG_JTAG_HELP),
+            flags       = NUMERIC_SIZE_4 | INTERACTIVE | RESET_REQUIRED,
+            option text = STRING_TOKEN(STR_DEBUG_JTAG_ENABLE), value = 1, flags = 0;
+            option text = STRING_TOKEN(STR_DEBUG_JTAG_DISABLE), value = 0, flags = DEFAULT;
+        endoneof;
+
+        oneof varid = DebugShowUEFIExit.Show,
+            prompt      = STRING_TOKEN(STR_DEBUG_EXIT_SHOW_PROMPT),
+            help        = STRING_TOKEN(STR_DEBUG_EXIT_SHOW_HELP),
+            flags       = NUMERIC_SIZE_4 | INTERACTIVE,
+            option text = STRING_TOKEN(STR_DEBUG_EXIT_SHOW_NO), value = 0, flags = DEFAULT;
+            option text = STRING_TOKEN(STR_DEBUG_EXIT_SHOW_YES), value = 1, flags = 0;
+        endoneof;
+    endform;
+endformset;

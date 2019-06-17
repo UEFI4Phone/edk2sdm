@@ -1,0 +1,86 @@
+### @file
+# Component information file for silicon policy update library
+#
+# Copyright (c) 2019, Intel Corporation. All rights reserved.<BR>
+#
+# SPDX-License-Identifier: BSD-2-Clause-Patent
+#
+##
+
+[Defines]
+  INF_VERSION                    = 0x00010005
+  BASE_NAME                      = PeiSiliconPolicyUpdateLib
+  FILE_GUID                      = 14F5D83D-76A5-4241-BEC5-987E70E233D5
+  MODULE_TYPE                    = BASE
+  VERSION_STRING                 = 1.0
+  LIBRARY_CLASS                  = SiliconPolicyUpdateLib
+
+[LibraryClasses]
+  BaseLib
+  PcdLib
+  DebugLib
+  ConfigBlockLib
+  BaseMemoryLib
+  MemoryAllocationLib
+  PeiLib
+  CpuPlatformLib
+  PchPcieRpLib
+  PchInfoLib
+  MmPciLib
+  IoLib
+  PchHsioLib
+
+[Packages]
+  MinPlatformPkg/MinPlatformPkg.dec
+  MdePkg/MdePkg.dec
+  UefiCpuPkg/UefiCpuPkg.dec
+  KabylakeSiliconPkg/SiPkg.dec
+  KabylakeOpenBoardPkg/OpenBoardPkg.dec
+
+[Sources]
+  PeiSiliconPolicyUpdateLib.c
+
+[Guids]
+  gMemoryConfigNoCrcGuid
+  gTianoLogoGuid                                ## CONSUMES
+  gGraphicsPeiConfigGuid                        ## CONSUMES
+  gCpuConfigGuid                                ## CONSUMES
+  gHsioPciePreMemConfigGuid                     ## CONSUMES
+  gHsioSataPreMemConfigGuid                     ## CONSUMES
+  gSaMiscPeiPreMemConfigGuid                    ## CONSUMES
+
+[Pcd]
+  gSiPkgTokenSpaceGuid.PcdPeiMinMemorySize
+  gSiPkgTokenSpaceGuid.PcdFlashMicrocodeFvBase
+  gSiPkgTokenSpaceGuid.PcdFlashMicrocodeFvSize
+  gBoardModuleTokenSpaceGuid.PcdGraphicsVbtGuid
+  gBoardModuleTokenSpaceGuid.PcdMrcRcompResistor       ## CONSUMES
+  gBoardModuleTokenSpaceGuid.PcdMrcRcompTarget         ## CONSUMES
+  gBoardModuleTokenSpaceGuid.PcdMrcDqByteMap           ## CONSUMES
+  gBoardModuleTokenSpaceGuid.PcdMrcDqsMapCpu2Dram      ## CONSUMES
+  gBoardModuleTokenSpaceGuid.PcdMrcSpdData
+  gBoardModuleTokenSpaceGuid.PcdMrcSpdDataSize
+
+  gBoardModuleTokenSpaceGuid.PcdUnknowLpHsioPtssTable1
+  gBoardModuleTokenSpaceGuid.PcdUnknowLpHsioPtssTable2
+  gBoardModuleTokenSpaceGuid.PcdUnknowLpHsioPtssTable1Size
+  gBoardModuleTokenSpaceGuid.PcdUnknowLpHsioPtssTable2Size
+  gBoardModuleTokenSpaceGuid.PcdSpecificLpHsioPtssTable1
+  gBoardModuleTokenSpaceGuid.PcdSpecificLpHsioPtssTable2
+  gBoardModuleTokenSpaceGuid.PcdSpecificLpHsioPtssTable1Size
+  gBoardModuleTokenSpaceGuid.PcdSpecificLpHsioPtssTable2Size
+
+  gBoardModuleTokenSpaceGuid.PcdUnknowHHsioPtssTable1
+  gBoardModuleTokenSpaceGuid.PcdUnknowHHsioPtssTable2
+  gBoardModuleTokenSpaceGuid.PcdUnknowHHsioPtssTable1Size
+  gBoardModuleTokenSpaceGuid.PcdUnknowHHsioPtssTable2Size
+  gBoardModuleTokenSpaceGuid.PcdSpecificHHsioPtssTable1
+  gBoardModuleTokenSpaceGuid.PcdSpecificHHsioPtssTable2
+  gBoardModuleTokenSpaceGuid.PcdSpecificHHsioPtssTable1Size
+  gBoardModuleTokenSpaceGuid.PcdSpecificHHsioPtssTable2Size
+
+  # SPD Address Table
+  gBoardModuleTokenSpaceGuid.PcdMrcSpdAddressTable0
+  gBoardModuleTokenSpaceGuid.PcdMrcSpdAddressTable1
+  gBoardModuleTokenSpaceGuid.PcdMrcSpdAddressTable2
+  gBoardModuleTokenSpaceGuid.PcdMrcSpdAddressTable3

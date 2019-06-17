@@ -1,0 +1,39 @@
+#/** @file
+#
+#  Copyright (c) 2019 Linaro, Ltd. All rights reserved.
+#
+#  SPDX-License-Identifier: BSD-2-Clause-Patent
+#
+#**/
+
+[Defines]
+  INF_VERSION                    = 0x0001001B
+  BASE_NAME                      = RngDxe
+  FILE_GUID                      = 9743084e-c82a-4714-b2ba-f571f81cb021
+  MODULE_TYPE                    = DXE_DRIVER
+  VERSION_STRING                 = 1.0
+  ENTRY_POINT                    = Bcm2836RngEntryPoint
+
+[Sources]
+  RngDxe.c
+
+[Packages]
+  MdePkg/MdePkg.dec
+  Silicon/Broadcom/Bcm283x/Bcm283x.dec
+
+[LibraryClasses]
+  BaseLib
+  BaseMemoryLib
+  DebugLib
+  IoLib
+  UefiBootServicesTableLib
+  UefiDriverEntryPoint
+
+[Protocols]
+  gEfiRngProtocolGuid              ## PRODUCES
+
+[Guids]
+  gEfiRngAlgorithmRaw
+
+[Depex]
+  TRUE

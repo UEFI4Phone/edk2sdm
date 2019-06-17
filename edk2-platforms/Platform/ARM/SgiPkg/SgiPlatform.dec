@@ -1,0 +1,52 @@
+#
+#  Copyright (c) 2018, ARM Limited. All rights reserved.
+#
+#  SPDX-License-Identifier: BSD-2-Clause-Patent
+#
+
+[Defines]
+  DEC_SPECIFICATION              = 0x0001001A
+  PACKAGE_NAME                   = SgiPkg
+  PACKAGE_GUID                   = e6e0f26c-0df9-4f6c-a382-37ded896c6e9
+  PACKAGE_VERSION                = 0.1
+
+################################################################################
+#
+# Include Section - list of Include Paths that are provided by this package.
+#                   Comments are used for Keywords and Module Types.
+#
+# Supported Module Types:
+#  BASE SEC PEI_CORE PEIM DXE_CORE DXE_DRIVER DXE_RUNTIME_DRIVER DXE_SMM_DRIVER DXE_SAL_DRIVER UEFI_DRIVER UEFI_APPLICATION
+#
+################################################################################
+[Includes.common]
+  Include                        # Root include for the package
+
+[Guids.common]
+  # ARM Sgi Platform ID descriptor
+  gArmSgiPlatformIdDescriptorGuid = { 0xf56f152a, 0xad2a, 0x11e6, { 0xb1, 0xa7, 0x00, 0x50, 0x56, 0x3c, 0x44, 0xcc } }
+  gArmSgiTokenSpaceGuid      = { 0x577d6941, 0xaea1, 0x40b4, { 0x90, 0x93, 0x2a, 0x86, 0x61, 0x72, 0x5a, 0x57 } }
+  gSgi575AcpiTablesFileGuid  = { 0xc712719a, 0x0aaf, 0x438c, { 0x9c, 0xdd, 0x35, 0xab, 0x4d, 0x60, 0x20, 0x7d } }
+  gRdN1EdgeAcpiTablesFileGuid = { 0x4b0b91d0, 0x4a05, 0x45c4, { 0x88, 0xa7, 0x88, 0xe1, 0x70, 0xe7, 0x66, 0x94 } }
+  gRdE1EdgeAcpiTablesFileGuid = { 0x2af40815, 0xa84e, 0x4de9, { 0x8c, 0x38, 0x91, 0x40, 0xb3, 0x54, 0x40, 0x73 } }
+
+[PcdsFeatureFlag.common]
+  gArmSgiTokenSpaceGuid.PcdVirtioBlkSupported|FALSE|BOOLEAN|0x00000001
+  gArmSgiTokenSpaceGuid.PcdVirtioNetSupported|FALSE|BOOLEAN|0x00000010
+
+[PcdsFixedAtBuild]
+  gArmSgiTokenSpaceGuid.PcdDramBlock2Base|0|UINT64|0x00000002
+  gArmSgiTokenSpaceGuid.PcdDramBlock2Size|0|UINT64|0x00000003
+
+  # Virtio Block device
+  gArmSgiTokenSpaceGuid.PcdVirtioBlkBaseAddress|0x00000000|UINT32|0x00000004
+  gArmSgiTokenSpaceGuid.PcdVirtioBlkSize|0x00000000|UINT32|0x00000005
+  gArmSgiTokenSpaceGuid.PcdVirtioBlkInterrupt|0x00000000|UINT32|0x00000006
+
+  # Virtio Network device
+  gArmSgiTokenSpaceGuid.PcdVirtioNetBaseAddress|0x00000000|UINT32|0x00000007
+  gArmSgiTokenSpaceGuid.PcdVirtioNetSize|0x00000000|UINT32|0x00000008
+  gArmSgiTokenSpaceGuid.PcdVirtioNetInterrupt|0x00000000|UINT32|0x00000009
+
+[Ppis]
+  gNtFwConfigDtInfoPpiGuid     = { 0x6f606eb3, 0x9123, 0x4e15, { 0xa8, 0x9b, 0x0f, 0xac, 0x66, 0xef, 0xd0, 0x17 } }

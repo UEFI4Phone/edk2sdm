@@ -1,0 +1,141 @@
+EDK II Maintainers
+==================
+
+This file provides information about the primary maintainers for
+EDK II Platforms.
+
+In general, you should not privately email the maintainer. You should
+email the edk2-devel list, but you can also Cc the maintainer.
+
+Descriptions of section entries:
+
+  L: Mailing list that is relevant to this area (default is edk2-devel)
+     Patches and questions should be sent to the email list.
+  M: Cc address for patches and questions (ie, the package maintainer)
+  R: Package Reviewer: Cc address for patches and questions. Reviewers help
+     maintainers review code, but don't have push access. A designated Package
+     Reviewer is reasonably familiar with the Package (or some modules
+     thereof), and/or provides testing or regression testing for the Package
+     (or some modules thereof), in certain platforms and environments.
+  W: Web-page with status/info
+  T: SCM tree type and location.  Type is one of: git, svn.
+  S: Status, one of the following:
+     Supported:  Someone is actually paid to look after this.
+     Maintained: Someone actually looks after it.
+     Odd Fixes:  It has a maintainer but they don't have time to do
+                 much other than throw the odd patch in. See below.
+     Orphan:     No current maintainer [but maybe you could take the
+                 role as you write your new code].
+     Obsolete:   Old code. Something tagged obsolete generally means
+                 it has been replaced by a better system and you
+                 should be using that.
+
+EDK II
+------
+W: https://github.com/tianocore/tianocore.github.io/wiki/EDK-II
+L: https://edk2.groups.io/g/devel/
+T: git - https://github.com/tianocore/edk2-platforms.git
+
+Responsible Disclosure, Reporting Security Issues
+-------------------------------------------------
+W: https://github.com/tianocore/tianocore.github.io/wiki/Security
+
+EDK II Packages:
+----------------
+
+Drivers/OptionRomPkg
+W: https://github.com/tianocore/tianocore.github.io/wiki/OptionRomPkg
+M: Ray Ni <ray.ni@intel.com>
+
+Platform
+M: Ard Biesheuvel <ard.biesheuvel@linaro.org>
+M: Leif Lindholm <leif.lindholm@linaro.org>
+M: Michael D Kinney <michael.d.kinney@intel.com>
+
+Platform/Intel/QuarkPlatformPkg
+M: Michael D Kinney <michael.d.kinney@intel.com>
+M: Kelly Steele <kelly.steele@intel.com>
+
+Platform/Intel/Vlv2TbltDevicePkg
+M: Zailiang Sun <zailiang.sun@intel.com>
+M: Yi Qian <yi.qian@intel.com>
+
+Platform/Intel/AdvancedFeaturePkg
+M: Michael Kubacki <michael.a.kubacki@intel.com>
+M: Sai Chaganty <rangasai.v.chaganty@intel.com>
+R: Liming Gao <liming.gao@intel.com>
+
+Platform/Intel/BoardModulePkg
+M: Eric Dong <eric.dong@intel.com>
+R: Liming Gao <liming.gao@intel.com>
+
+Platform/Intel/DebugFeaturePkg
+M: Eric Dong <eric.dong@intel.com>
+R: Liming Gao <liming.gao@intel.com>
+
+Platform/Intel/ClevoOpenBoardPkg
+M: Michael Kubacki <michael.a.kubacki@intel.com>
+M: Ankit Sinha <ankit.sinha@intel.com>
+M: Nate DeSimone <nathaniel.l.desimone@intel.com>
+
+Platform/Intel/KabylakeOpenBoardPkg
+M: Chasel Chiu <chasel.chiu@intel.com>
+M: Michael Kubacki <michael.a.kubacki@intel.com>
+M: Nate DeSimone <nathaniel.l.desimone@intel.com>
+
+Platform/Intel/MinPlatformPkg
+M: Michael Kubacki <michael.a.kubacki@intel.com>
+M: Chasel Chiu <chasel.chiu@intel.com>
+M: Nate DeSimone <nathaniel.l.desimone@intel.com>
+R: Liming Gao <liming.gao@intel.com>
+
+Platform/Intel/PurleyOpenBoardPkg
+M: Shifei A Lu <shifei.a.lu@intel.com>
+M: Xiaohu Zhou <bowen.zhou@intel.com>
+M: Isaac W Oram <isaac.w.oram@intel.com>
+
+Platform/Marvell
+R: Marcin Wojtas <mw@semihalf.com>
+
+Platform/SolidRun/Armada80x0McBin
+R: Marcin Wojtas <mw@semihalf.com>
+
+Silicon
+M: Ard Biesheuvel <ard.biesheuvel@linaro.org>
+M: Leif Lindholm <leif.lindholm@linaro.org>
+M: Michael D Kinney <michael.d.kinney@intel.com>
+
+Silicon/Intel/IntelSiliconPkg
+M: Ray Ni <ray.ni@intel.com>
+M: Rangasai V Chaganty <rangasai.v.chaganty@intel.com>
+
+Silicon/Intel/QuarkSocPkg
+M: Michael D Kinney <michael.d.kinney@intel.com>
+M: Kelly Steele <kelly.steele@intel.com>
+
+Silicon/Intel/Vlv2DeviceRefCodePkg
+M: Zailiang Sun <zailiang.sun@intel.com>
+M: Yi Qian <yi.qian@intel.com>
+
+Silicon/Intel/KabylakeSiliconPkg
+M: Chasel Chiu <chasel.chiu@intel.com>
+M: Michael A Kubacki <michael.a.kubacki@intel.com>
+M: Sai Chaganty <rangasai.v.chaganty@intel.com>
+
+Silicon/Intel/LewisburgPkg
+M: Piwko, Maciej <maciej.piwko@intel.com>
+M: Bu, Daocheng <daocheng.bu@intel.com>
+M: Oram, Isaac W <isaac.w.oram@intel.com>
+
+Silicon/Intel/PurleyRcPkg
+M: Gillispie, Thad <thad.gillispie@intel.com>
+M: Bu, Daocheng <daocheng.bu@intel.com>
+M: Oram, Isaac W <isaac.w.oram@intel.com>
+
+Silicon/Intel/PurleySktPkg
+M: Gillispie, Thad <thad.gillispie@intel.com>
+M: Bu, Daocheng <daocheng.bu@intel.com>
+M: Oram, Isaac W <isaac.w.oram@intel.com>
+
+Silicon/Marvell
+R: Marcin Wojtas <mw@semihalf.com>

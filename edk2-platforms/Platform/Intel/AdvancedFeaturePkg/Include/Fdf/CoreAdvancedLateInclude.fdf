@@ -1,0 +1,20 @@
+## @file
+#  FDF file of Platform.
+#
+# Copyright (c) 2017 - 2018, Intel Corporation. All rights reserved.<BR>
+#
+# SPDX-License-Identifier: BSD-2-Clause-Patent
+#
+##
+
+
+#
+# UEFI network modules
+#
+!include NetworkPkg/Network.fdf.inc
+
+!if gAdvancedFeaturePkgTokenSpaceGuid.PcdSmbiosEnable == TRUE
+INF  MdeModulePkg/Universal/SmbiosDxe/SmbiosDxe.inf
+!endif
+
+

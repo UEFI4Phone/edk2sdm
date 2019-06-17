@@ -1,0 +1,94 @@
+/** @file
+ *
+ *  Copyright (c) 2018, Andrei Warkentin <andrey.warkentin@gmail.com>
+ *
+ *  SPDX-License-Identifier: BSD-2-Clause-Patent
+ *
+ **/
+
+#langdef en-US  "English"
+
+#string STR_NULL_STRING          #language en-US ""
+
+#string STR_FORM_SET_TITLE       #language en-US "Raspberry Pi Configuration"
+#string STR_FORM_SET_TITLE_HELP  #language en-US "Press <Enter> to configure system settings."
+
+/*
+ * Chipset config.
+ */
+
+#string STR_CHIPSET_FORM_TITLE      #language en-US "Chipset Configuration"
+#string STR_CHIPSET_FORM_SUBTITLE   #language en-US "Note: OS may override settings when booted."
+
+#string STR_CHIPSET_CLOCK_CPU_PROMPT #language en-US "CPU Clock"
+#string STR_CHIPSET_CLOCK_CPU_HELP   #language en-US "CPU Speed"
+#string STR_CHIPSET_CLOCK_CPU_NA     #language en-US "Don't Override"
+#string STR_CHIPSET_CLOCK_CPU_600MHZ #language en-US "Min (600MHz)"
+#string STR_CHIPSET_CLOCK_CPU_MAX    #language en-US "Max"
+
+#string STR_CHIPSET_SD_PROMPT        #language en-US "uSD Routing"
+#string STR_CHIPSET_SD_HELP          #language en-US "Choose host controller to drive uSD slot"
+#string STR_CHIPSET_SD_SDHOST        #language en-US "Broadcom SDHOST"
+#string STR_CHIPSET_SD_ARASAN        #language en-US "Arasan SDHCI"
+
+/*
+ * MMC/SD configuration.
+ */
+
+#string STR_MMC_FORM_TITLE       #language en-US "SD/MMC Tweaks"
+#string STR_MMC_FORM_SUBTITLE    #language en-US "Note: UEFI only, OS will override settings when booted."
+
+#string STR_MMC_DISMULTI_PROMPT  #language en-US "Multi-Block Support"
+#string STR_MMC_DISMULTI_HELP    #language en-US "Use CMD18/CMD25 for transfers when possible"
+#string STR_MMC_DISMULTI_N       #language en-US "Multi-block transfers"
+#string STR_MMC_DISMULTI_Y       #language en-US "Single-block transfers"
+
+#string STR_MMC_FORCE1BIT_PROMPT #language en-US "uSD Max Bus Width"
+#string STR_MMC_FORCE1BIT_HELP   #language en-US "Tweak for bad media"
+#string STR_MMC_FORCE1BIT_Y      #language en-US "1 Bit Mode"
+#string STR_MMC_FORCE1BIT_N      #language en-US "4 Bit Mode"
+
+#string STR_MMC_FORCEDS_PROMPT   #language en-US "uSD Force Default Speed"
+#string STR_MMC_FORCEDS_HELP     #language en-US "Tweak for bad media"
+#string STR_MMC_FORCEDS_Y        #language en-US "Force Default Speed"
+#string STR_MMC_FORCEDS_N        #language en-US "Allow High Speed"
+
+#string STR_MMC_SD_DS_PROMPT     #language en-US "SD Default Speed (MHz)"
+#string STR_MMC_SD_DS_HELP       #language en-US "Override default 25Mhz"
+
+#string STR_MMC_SD_HS_PROMPT     #language en-US "SD High Speed (MHz)"
+#string STR_MMC_SD_HS_HELP       #language en-US "Override default 50Mhz"
+
+
+/*
+ * Display settings.
+ */
+
+#string STR_DISPLAY_FORM_TITLE      #language en-US "Display"
+#string STR_DISPLAY_FORM_SUBTITLE   #language en-US "UEFI video driver settings"
+
+#string STR_DISPLAY_VMODES_PROMPT   #language en-US "Resolutions"
+#string STR_DISPLAY_VMODES_HELP     #language en-US "Support for non-native modes"
+#string STR_DISPLAY_VMODES_ENABLE   #language en-US "Also support 640x480, 800x600, 1024x768, 720p and 1080p"
+#string STR_DISPLAY_VMODES_DISABLE  #language en-US "Only native resolution"
+
+#string STR_DISPLAY_SSHOT_PROMPT    #language en-US "Screenshot Support"
+#string STR_DISPLAY_SSHOT_HELP      #language en-US "Save screen capture as a BMP on the first writable file system found"
+#string STR_DISPLAY_SSHOT_ENABLE    #language en-US "Control-Alt-F12"
+#string STR_DISPLAY_SSHOT_DISABLE   #language en-US "Not Enabled"
+
+/*
+ * Debugging settings go here.
+ */
+#string STR_DEBUG_FORM_TITLE        #language en-US "Debugging"
+#string STR_DEBUG_FORM_SUBTITLE     #language en-US "For UEFI/OS Developers"
+
+#string STR_DEBUG_JTAG_PROMPT       #language en-US "JTAG Routing"
+#string STR_DEBUG_JTAG_HELP         #language en-US "Signals (nTRST, TDI, TMS, TCK, RTCK, TDO) -> Header pins (15, 7, 13, 22, 16, 18)"
+#string STR_DEBUG_JTAG_ENABLE       #language en-US "Enable JTAG via GPIO"
+#string STR_DEBUG_JTAG_DISABLE      #language en-US "Disable JTAG"
+
+#string STR_DEBUG_EXIT_SHOW_PROMPT  #language en-US "Verbose ExitBootServices"
+#string STR_DEBUG_EXIT_SHOW_HELP    #language en-US "Show message when UEFI hands off to OS"
+#string STR_DEBUG_EXIT_SHOW_NO      #language en-US "Do nothing"
+#string STR_DEBUG_EXIT_SHOW_YES     #language en-US "Show farewell message"

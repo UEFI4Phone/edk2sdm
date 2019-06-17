@@ -1,0 +1,71 @@
+#/** @file
+#
+#  Copyright (c) 2018, Andrei Warkentin <andrey.warkentin@gmail.com>
+#
+#  SPDX-License-Identifier: BSD-2-Clause-Patent
+#
+#**/
+
+[Defines]
+  INF_VERSION                    = 0x0001001A
+  BASE_NAME                      = ConfigDxe
+  FILE_GUID                      = 755cbac2-b23f-4b92-bc8e-fb01ce5907b7
+  MODULE_TYPE                    = DXE_DRIVER
+  VERSION_STRING                 = 1.0
+  ENTRY_POINT                    = ConfigInitialize
+
+#
+# The following information is for reference only and not required by the build
+# tools.
+#
+#  VALID_ARCHITECTURES           = AARCH64
+#
+
+[Sources]
+  ConfigDxe.c
+  ConfigDxeHii.vfr
+  ConfigDxeHii.uni
+
+[Packages]
+  ArmPkg/ArmPkg.dec
+  ArmPlatformPkg/ArmPlatformPkg.dec
+  MdePkg/MdePkg.dec
+  MdeModulePkg/MdeModulePkg.dec
+  Silicon/Broadcom/Bcm283x/Bcm283x.dec
+  Platform/RaspberryPi/RPi3/RPi3.dec
+
+[LibraryClasses]
+  BaseLib
+  DebugLib
+  DxeServicesTableLib
+  PcdLib
+  UefiBootServicesTableLib
+  UefiRuntimeServicesTableLib
+  UefiDriverEntryPoint
+  HiiLib
+  GpioLib
+
+[Guids]
+  gConfigDxeFormSetGuid
+
+[Protocols]
+  gRaspberryPiFirmwareProtocolGuid ## CONSUMES
+  gRaspberryPiConfigAppliedProtocolGuid ## PRODUCES
+
+[Pcd]
+  gRaspberryPiTokenSpaceGuid.PcdCpuClock
+  gRaspberryPiTokenSpaceGuid.PcdSdIsArasan
+  gRaspberryPiTokenSpaceGuid.PcdMmcForce1Bit
+  gRaspberryPiTokenSpaceGuid.PcdMmcForceDefaultSpeed
+  gRaspberryPiTokenSpaceGuid.PcdMmcSdDefaultSpeedMHz
+  gRaspberryPiTokenSpaceGuid.PcdMmcSdHighSpeedMHz
+  gRaspberryPiTokenSpaceGuid.PcdMmcDisableMulti
+  gRaspberryPiTokenSpaceGuid.PcdDebugEnableJTAG
+  gRaspberryPiTokenSpaceGuid.PcdDebugShowUEFIExit
+  gRaspberryPiTokenSpaceGuid.PcdDisplayEnableVModes
+  gRaspberryPiTokenSpaceGuid.PcdDisplayEnableSShot
+
+[FeaturePcd]
+
+[Depex]
+  gPcdProtocolGuid AND gRaspberryPiFirmwareProtocolGuid

@@ -1,0 +1,12 @@
+/** @file
+ *
+ *  Copyright (c) 2006-2014, Intel Corporation. All rights reserved.
+ *  Copyright (c) 2018, Andrei Warkentin <andrey.warkentin@gmail.com>
+ *
+ *  SPDX-License-Identifier: BSD-2-Clause-Patent
+ *
+ **/
+
+#string STR_MODULE_ABSTRACT             #language en-US "Console support on graphic devices"
+
+#string STR_MODULE_DESCRIPTION          #language en-US "Install SimpleTextOutputProtocol on GraphicsOutputProtocol devices\n"

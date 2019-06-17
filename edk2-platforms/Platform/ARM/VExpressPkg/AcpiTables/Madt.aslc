@@ -1,0 +1,85 @@
+/** @file
+*  Multiple APIC Description Table (MADT)
+*
+*  Copyright (c) 2012 - 2015, ARM Limited. All rights reserved.
+*  Copyright (c) 2016 Linaro Ltd. All rights reserved.
+*
+*  SPDX-License-Identifier: BSD-2-Clause-Patent
+*
+**/
+
+#include "FvpPlatform.h"
+#include <Library/AcpiLib.h>
+#include <Library/ArmLib.h>
+#include <Library/PcdLib.h>
+#include <IndustryStandard/Acpi61.h>
+
+//
+// Multiple APIC Description Table
+//
+#pragma pack (1)
+
+typedef struct {
+  EFI_ACPI_6_1_MULTIPLE_APIC_DESCRIPTION_TABLE_HEADER   Header;
+  EFI_ACPI_6_1_GIC_STRUCTURE                            GicInterfaces[8];
+  EFI_ACPI_6_1_GIC_DISTRIBUTOR_STRUCTURE                GicDistributor;
+  EFI_ACPI_6_1_GICR_STRUCTURE                           Gicr;
+} FVP_MULTIPLE_APIC_DESCRIPTION_TABLE;
+
+#pragma pack ()
+
+FVP_MULTIPLE_APIC_DESCRIPTION_TABLE Madt = {
+  {
+    ARM_ACPI_HEADER (
+      EFI_ACPI_6_1_MULTIPLE_APIC_DESCRIPTION_TABLE_SIGNATURE,
+      FVP_MULTIPLE_APIC_DESCRIPTION_TABLE,
+      EFI_ACPI_6_1_MULTIPLE_APIC_DESCRIPTION_TABLE_REVISION
+    ),
+    //
+    // MADT specific fields
+    //
+    0, // LocalApicAddress
+    0, // Flags
+  },
+  {
+    EFI_ACPI_6_0_GICC_STRUCTURE_INIT(
+        0, 0, GET_MPID(0, 0), EFI_ACPI_6_0_GIC_ENABLED, 0, FixedPcdGet64 (PcdGicInterruptInterfaceBase),
+        0x2C02F000, 0x2C010000, 0x19, 0, 0),
+    EFI_ACPI_6_0_GICC_STRUCTURE_INIT(
+        1, 1, GET_MPID(0, 1),  EFI_ACPI_6_0_GIC_ENABLED, 0, FixedPcdGet64 (PcdGicInterruptInterfaceBase),
+        0x2C02F000, 0x2C010000, 0x19, 0, 0),
+    EFI_ACPI_6_0_GICC_STRUCTURE_INIT(
+        2, 2, GET_MPID(0, 2),  EFI_ACPI_6_0_GIC_ENABLED, 0, FixedPcdGet64 (PcdGicInterruptInterfaceBase),
+        0x2C02F000, 0x2C010000, 0x19, 0, 0),
+    EFI_ACPI_6_0_GICC_STRUCTURE_INIT(
+        3, 3, GET_MPID(0, 3),  EFI_ACPI_6_0_GIC_ENABLED, 0, FixedPcdGet64 (PcdGicInterruptInterfaceBase),
+        0x2C02F000, 0x2C010000, 0x19, 0, 0),
+    EFI_ACPI_6_0_GICC_STRUCTURE_INIT(
+        4, 4, GET_MPID(1, 0),  EFI_ACPI_6_0_GIC_ENABLED, 0, FixedPcdGet64 (PcdGicInterruptInterfaceBase),
+        0x2C02F000, 0x2C010000, 0x19, 0, 0),
+    EFI_ACPI_6_0_GICC_STRUCTURE_INIT(
+        5, 5, GET_MPID(1, 1),  EFI_ACPI_6_0_GIC_ENABLED, 0, FixedPcdGet64 (PcdGicInterruptInterfaceBase),
+        0x2C02F000, 0x2C010000, 0x19, 0, 0),
+    EFI_ACPI_6_0_GICC_STRUCTURE_INIT(
+        6, 6, GET_MPID(1, 2),  EFI_ACPI_6_0_GIC_ENABLED, 0, FixedPcdGet64 (PcdGicInterruptInterfaceBase),
+        0x2C02F000, 0x2C010000, 0x19, 0, 0),
+    EFI_ACPI_6_0_GICC_STRUCTURE_INIT(
+        7, 7, GET_MPID(1, 3),  EFI_ACPI_6_0_GIC_ENABLED, 0, FixedPcdGet64 (PcdGicInterruptInterfaceBase),
+        0x2C02F000, 0x2C010000, 0x19, 0, 0),
+  },
+  EFI_ACPI_6_0_GIC_DISTRIBUTOR_INIT(0, FixedPcdGet64 (PcdGicDistributorBase), 0, 3),
+  /* GIC Redistributor */
+  {
+    EFI_ACPI_6_1_GICR,                         // UINT8 Type
+    sizeof(EFI_ACPI_6_1_GICR_STRUCTURE),       // UINT8 Length
+    EFI_ACPI_RESERVED_WORD,                    // UINT16 Reserved
+    FixedPcdGet64 (PcdGicRedistributorsBase),  // UINT64 DiscoveryRangeBaseAddress
+    0x00200000,                                // UINT32 DiscoveryRangeLength
+  }
+};
+
+//
+// Reference the table being generated to prevent the optimizer from removing the
+// data structure from the executable
+//
+VOID* CONST ReferenceAcpiTable = &Madt;
