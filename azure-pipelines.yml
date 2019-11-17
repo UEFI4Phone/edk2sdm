@@ -6,5 +6,5 @@ pool:
 
 steps:
 - script: |
-    .Sdm835/ci-build.sh
-  displayName: 'ci-build'
+    ./build.sh
+  displayName: 'fv build'
