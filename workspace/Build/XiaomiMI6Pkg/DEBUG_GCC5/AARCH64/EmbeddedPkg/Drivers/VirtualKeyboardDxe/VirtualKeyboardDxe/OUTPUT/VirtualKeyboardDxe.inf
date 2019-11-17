@@ -15,7 +15,7 @@
   INF_VERSION                = 0x00010019
   BASE_NAME                  = VirtualKeyboardDxe
   FILE_GUID                  = 88079b18-b42b-44aa-a6f2-b83911075e89
-  MODULE_TYPE                = DXE_DRIVER
+  MODULE_TYPE                = UEFI_DRIVER
   VERSION_STRING             = 1.0
   ENTRY_POINT                = InitializeVirtualKeyboard
 
