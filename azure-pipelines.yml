@@ -11,10 +11,6 @@ steps:
 
 - task: GitHubRelease@0
   inputs:
-    gitHubConnection: 
-    repositoryName: '$(Build.Repository.Name)'
-- task: GitHubRelease@0
-  inputs:
     gitHubConnection: 'edk2sdm release'
     repositoryName: '$(Build.Repository.Name)'
     changeLogCompareToRelease: 'lastFullRelease'
