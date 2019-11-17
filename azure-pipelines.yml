@@ -13,9 +13,9 @@ steps:
   inputs:
     gitHubConnection: 'edk2sdm release'
     repositoryName: '$(Build.Repository.Name)'
+    action: 'create'
+    target: '$(Build.SourceVersion)'
+    tagSource: 'auto'
+    assets: '$(Build.ArtifactStagingDirectory)/boot.img-zImage'
     changeLogCompareToRelease: 'lastFullRelease'
     changeLogType: 'commitBased'
-    action: create
-    target: '$(Build.SourceVersion)'
-    tagSource: auto
-    assets: $(Build.ArtifactStagingDirectory)/boot.img-zImage 
