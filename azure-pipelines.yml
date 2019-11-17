@@ -8,3 +8,12 @@ steps:
 - script: |
     ./build.sh
   displayName: 'fv build'
+
+- task: GitHubRelease@0
+  inputs:
+    gitHubConnection: 
+    repositoryName: '$(Build.Repository.Name)'
+    action: create
+    target: '$(Build.SourceVersion)'
+    tagSource: auto
+    assets: $(Build.ArtifactStagingDirectory)/boot.img-zImage 
