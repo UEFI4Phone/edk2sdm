@@ -9,16 +9,16 @@ steps:
     ./build.sh
   displayName: 'fv build'
 
-- task: GitHubRelease@0
-  inputs:
-    gitHubConnection: 'edk2sdm release'
-    repositoryName: 'Evsio0n/edk2sdm'
-    action: 'create'
-    target: 'Evsio0n/edk2sdm'
-    tagSource: 'manual'
-    tag: 'Evsio0n/edk2sdm'
-    releaseNotesSource: 'input'
-    releaseNotes: 'Evsio0n/edk2sdm'
-    assets: '$(Build.ArtifactStagingDirectory)/boot.img-zImage'
-    changeLogCompareToRelease: 'lastFullRelease'
-    changeLogType: 'commitBased'
+#- task: GitHubRelease@0
+#  inputs:
+#    gitHubConnection: 'edk2sdm release'
+#    repositoryName: 'Evsio0n/edk2sdm'
+#    action: 'create'
+#    target: 'Evsio0n/edk2sdm'
+#    tagSource: 'manual'
+#    tag: 'Evsio0n/edk2sdm'
+#    releaseNotesSource: 'input'
+#    releaseNotes: 'Evsio0n/edk2sdm'
+#    assets: '$(Build.ArtifactStagingDirectory)/boot.img-zImage'
+#    changeLogCompareToRelease: 'lastFullRelease'
+#    changeLogType: 'commitBased'
