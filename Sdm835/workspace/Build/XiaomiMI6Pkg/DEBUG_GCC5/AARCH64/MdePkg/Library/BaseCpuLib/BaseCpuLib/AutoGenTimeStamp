@@ -1,0 +1,8 @@
+/home/evsio0n/src/edk2sdm/edk2/MdePkg/Library/BaseCpuLib/AArch64/CpuFlushTlb.asm
+/home/evsio0n/src/edk2sdm/edk2/MdePkg/Library/BaseCpuLib/AArch64/CpuFlushTlb.S
+/home/evsio0n/src/edk2sdm/edk2/MdePkg/Library/BaseCpuLib/AArch64/CpuSleep.asm
+/home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/AArch64/ProcessorBind.h
+/home/evsio0n/src/edk2sdm/edk2/MdePkg/Library/BaseCpuLib/AArch64/CpuSleep.S
+/home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Base.h
+/home/evsio0n/src/edk2sdm/Sdm835/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseCpuLib/BaseCpuLib/DEBUG/AutoGen.h
+/home/evsio0n/src/edk2sdm/edk2/MdePkg/Library/BaseCpuLib/BaseCpuLib.inf

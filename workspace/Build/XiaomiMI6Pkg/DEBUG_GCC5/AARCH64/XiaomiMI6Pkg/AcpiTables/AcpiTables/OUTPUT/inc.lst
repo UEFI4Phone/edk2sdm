@@ -1,0 +1,15 @@
+-I/home/evsio0n/src/edk2sdm/Sdm835/XiaomiMI6Pkg/AcpiTables
+-I/home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/XiaomiMI6Pkg/AcpiTables/AcpiTables/DEBUG
+-I/home/evsio0n/src/edk2sdm/edk2/ArmPkg
+-I/home/evsio0n/src/edk2sdm/edk2/ArmPkg/Include
+-I/home/evsio0n/src/edk2sdm/edk2/ArmPlatformPkg
+-I/home/evsio0n/src/edk2sdm/edk2/ArmPlatformPkg/Include
+-I/home/evsio0n/src/edk2sdm/edk2/EmbeddedPkg
+-I/home/evsio0n/src/edk2sdm/edk2/EmbeddedPkg/Include
+-I/home/evsio0n/src/edk2sdm/edk2/MdePkg
+-I/home/evsio0n/src/edk2sdm/edk2/MdePkg/Include
+-I/home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/AArch64
+-I/home/evsio0n/src/edk2sdm/edk2/MdeModulePkg
+-I/home/evsio0n/src/edk2sdm/edk2/MdeModulePkg/Include
+-I/home/evsio0n/src/edk2sdm/Sdm835/XiaomiMI6Pkg
+-I/home/evsio0n/src/edk2sdm/Sdm835/XiaomiMI6Pkg/Include

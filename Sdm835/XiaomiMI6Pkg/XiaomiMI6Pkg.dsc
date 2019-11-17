@@ -140,8 +140,8 @@
   gEfiMdeModulePkgTokenSpaceGuid.PcdEmuVariableNvModeEnable|TRUE
 
   gXiaomiMI6PkgTokenSpaceGuid.PcdMipiFrameBufferAddress|0x9d400000
-  gXiaomiMI6PkgTokenSpaceGuid.PcdMipiFrameBufferWidth|1080
-  gXiaomiMI6PkgTokenSpaceGuid.PcdMipiFrameBufferHeight|1920
+  gXiaomiMI6PkgTokenSpaceGuid.PcdMipiFrameBufferWidth|1440
+  gXiaomiMI6PkgTokenSpaceGuid.PcdMipiFrameBufferHeight|2960
 
   gEfiMdeModulePkgTokenSpaceGuid.PcdAcpiExposedTableVersions|0x20
 

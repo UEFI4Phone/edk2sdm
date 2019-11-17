@@ -1,0 +1,1134 @@
+由于文件 (符号) 而包含了归档成员
+
+/home/evsio0n/src/edk2sdm/Sdm835/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/CompilerIntrinsicsLib/CompilerIntrinsicsLib/OUTPUT/CompilerIntrinsicsLib.lib(memcpy.obj)
+                              /home/evsio0n/src/edk2sdm/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a (memcpy)
+/home/evsio0n/src/edk2sdm/Sdm835/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/CompilerIntrinsicsLib/CompilerIntrinsicsLib/OUTPUT/CompilerIntrinsicsLib.lib(memset.obj)
+                              /home/evsio0n/src/edk2sdm/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a (memset)
+/home/evsio0n/src/edk2sdm/Sdm835/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/UefiDriverEntryPoint/UefiDriverEntryPoint/OUTPUT/UefiDriverEntryPoint.lib(DriverEntryPoint.obj)
+                              (_ModuleEntryPoint)
+/home/evsio0n/src/edk2sdm/Sdm835/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseStackCheckLib/BaseStackCheckLib/OUTPUT/BaseStackCheckLib.lib(BaseStackCheckGcc.obj)
+                              /home/evsio0n/src/edk2sdm/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a (__stack_chk_fail)
+/home/evsio0n/src/edk2sdm/Sdm835/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/MdeModulePkg/Universal/DisplayEngineDxe/DisplayEngineDxe/OUTPUT/DisplayEngine.lib(AutoGen.obj)
+                              DriverEntryPoint.obj (symbol from plugin) (ProcessLibraryConstructorList)
+/home/evsio0n/src/edk2sdm/Sdm835/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/MdeModulePkg/Universal/DisplayEngineDxe/DisplayEngineDxe/OUTPUT/DisplayEngine.lib(FormDisplay.obj)
+                              AutoGen.obj (symbol from plugin) (InitializeDisplayEngine)
+/home/evsio0n/src/edk2sdm/Sdm835/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/MdeModulePkg/Universal/DisplayEngineDxe/DisplayEngineDxe/OUTPUT/DisplayEngine.lib(ProcessOptions.obj)
+                              FormDisplay.obj (symbol from plugin) (EmptyEventProcess)
+/home/evsio0n/src/edk2sdm/Sdm835/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/MdeModulePkg/Universal/DisplayEngineDxe/DisplayEngineDxe/OUTPUT/DisplayEngine.lib(InputHandler.obj)
+                              ProcessOptions.obj (symbol from plugin) (ReadString)
+/home/evsio0n/src/edk2sdm/Sdm835/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/MdeModulePkg/Universal/DisplayEngineDxe/DisplayEngineDxe/OUTPUT/DisplayEngine.lib(Popup.obj)
+                              FormDisplay.obj (symbol from plugin) (CreatePopup)
+/home/evsio0n/src/edk2sdm/Sdm835/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(MultU64x32.obj)
+                              InputHandler.obj (symbol from plugin) (MultU64x32)
+/home/evsio0n/src/edk2sdm/Sdm835/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(LShiftU64.obj)
+                              InputHandler.obj (symbol from plugin) (LShiftU64)
+/home/evsio0n/src/edk2sdm/Sdm835/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(CpuDeadLoop.obj)
+                              BaseStackCheckGcc.obj (symbol from plugin) (CpuDeadLoop)
+/home/evsio0n/src/edk2sdm/Sdm835/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(LinkedList.obj)
+                              FormDisplay.obj (symbol from plugin) (InitializeListHead)
+/home/evsio0n/src/edk2sdm/Sdm835/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(SafeString.obj)
+                              FormDisplay.obj (symbol from plugin) (StrCpyS)
+/home/evsio0n/src/edk2sdm/Sdm835/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(String.obj)
+                              FormDisplay.obj (symbol from plugin) (StrLen)
+/home/evsio0n/src/edk2sdm/Sdm835/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(Math64.obj)
+                              LShiftU64.obj (symbol from plugin) (InternalMathLShiftU64)
+/home/evsio0n/src/edk2sdm/Sdm835/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(CpuBreakpoint.obj)
+                              BaseStackCheckGcc.obj (symbol from plugin) (CpuBreakpoint)
+/home/evsio0n/src/edk2sdm/Sdm835/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(SwapBytes32.obj)
+                              SafeString.obj (symbol from plugin) (SwapBytes32)
+/home/evsio0n/src/edk2sdm/Sdm835/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(SwapBytes16.obj)
+                              SafeString.obj (symbol from plugin) (SwapBytes16)
+/home/evsio0n/src/edk2sdm/Sdm835/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(RShiftU64.obj)
+                              SafeString.obj (symbol from plugin) (RShiftU64)
+/home/evsio0n/src/edk2sdm/Sdm835/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(DivU64x32.obj)
+                              SafeString.obj (symbol from plugin) (DivU64x32)
+/home/evsio0n/src/edk2sdm/Sdm835/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(MemLibGuid.obj)
+                              FormDisplay.obj (symbol from plugin) (CopyGuid)
+/home/evsio0n/src/edk2sdm/Sdm835/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(ZeroMemWrapper.obj)
+                              FormDisplay.obj (symbol from plugin) (ZeroMem)
+/home/evsio0n/src/edk2sdm/Sdm835/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(CompareMemWrapper.obj)
+                              FormDisplay.obj (symbol from plugin) (CompareMem)
+/home/evsio0n/src/edk2sdm/Sdm835/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(CopyMemWrapper.obj)
+                              FormDisplay.obj (symbol from plugin) (CopyMem)
+/home/evsio0n/src/edk2sdm/Sdm835/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(SetMem.obj)
+                              ZeroMemWrapper.obj (symbol from plugin) (InternalMemZeroMem)
+/home/evsio0n/src/edk2sdm/Sdm835/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(CopyMem.obj)
+                              MemLibGuid.obj (symbol from plugin) (InternalMemCopyMem)
+/home/evsio0n/src/edk2sdm/Sdm835/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(CompareMem.obj)
+                              CompareMemWrapper.obj (symbol from plugin) (InternalMemCompareMem)
+/home/evsio0n/src/edk2sdm/Sdm835/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(CompareGuid.obj)
+                              MemLibGuid.obj (symbol from plugin) (InternalMemCompareGuid)
+/home/evsio0n/src/edk2sdm/Sdm835/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/BasePrintLib/BasePrintLib/OUTPUT/BasePrintLib.lib(PrintLib.obj)
+                              ProcessOptions.obj (symbol from plugin) (UnicodeSPrint)
+/home/evsio0n/src/edk2sdm/Sdm835/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/BasePrintLib/BasePrintLib/OUTPUT/BasePrintLib.lib(PrintLibInternal.obj)
+                              PrintLib.obj (symbol from plugin) (BasePrintLibConvertValueToString)
+/home/evsio0n/src/edk2sdm/Sdm835/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseDebugLibSerialPort/BaseDebugLibSerialPort/OUTPUT/BaseDebugLibSerialPort.lib(DebugLib.obj)
+                              AutoGen.obj (symbol from plugin) (BaseDebugLibSerialPortConstructor)
+/home/evsio0n/src/edk2sdm/Sdm835/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/UefiBootServicesTableLib/UefiBootServicesTableLib/OUTPUT/UefiBootServicesTableLib.lib(UefiBootServicesTableLib.obj)
+                              AutoGen.obj (symbol from plugin) (UefiBootServicesTableLibConstructor)
+/home/evsio0n/src/edk2sdm/Sdm835/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/UefiMemoryAllocationLib/UefiMemoryAllocationLib/OUTPUT/UefiMemoryAllocationLib.lib(MemoryAllocationLib.obj)
+                              FormDisplay.obj (symbol from plugin) (AllocateZeroPool)
+/home/evsio0n/src/edk2sdm/Sdm835/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/UefiRuntimeServicesTableLib/UefiRuntimeServicesTableLib/OUTPUT/UefiRuntimeServicesTableLib.lib(UefiRuntimeServicesTableLib.obj)
+                              AutoGen.obj (symbol from plugin) (UefiRuntimeServicesTableLibConstructor)
+/home/evsio0n/src/edk2sdm/Sdm835/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/UefiLib/UefiLib/OUTPUT/UefiLib.lib(UefiLib.obj)
+                              AutoGen.obj (symbol from plugin) (UefiLibConstructor)
+/home/evsio0n/src/edk2sdm/Sdm835/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/DxeHobLib/DxeHobLib/OUTPUT/DxeHobLib.lib(HobLib.obj)
+                              AutoGen.obj (symbol from plugin) (HobLibConstructor)
+/home/evsio0n/src/edk2sdm/Sdm835/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/MdeModulePkg/Library/UefiHiiServicesLib/UefiHiiServicesLib/OUTPUT/UefiHiiServicesLib.lib(UefiHiiServicesLib.obj)
+                              AutoGen.obj (symbol from plugin) (UefiHiiServicesLibConstructor)
+/home/evsio0n/src/edk2sdm/Sdm835/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/MdeModulePkg/Library/UefiHiiLib/UefiHiiLib/OUTPUT/UefiHiiLib.lib(HiiLib.obj)
+                              FormDisplay.obj (symbol from plugin) (HiiAddPackages)
+/home/evsio0n/src/edk2sdm/Sdm835/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/MdeModulePkg/Library/UefiHiiLib/UefiHiiLib/OUTPUT/UefiHiiLib.lib(HiiString.obj)
+                              ProcessOptions.obj (symbol from plugin) (HiiSetString)
+/home/evsio0n/src/edk2sdm/Sdm835/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/MdeModulePkg/Library/UefiHiiLib/UefiHiiLib/OUTPUT/UefiHiiLib.lib(HiiLanguage.obj)
+                              HiiString.obj (symbol from plugin) (HiiGetSupportedLanguages)
+/home/evsio0n/src/edk2sdm/Sdm835/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/MdeModulePkg/Library/CustomizedDisplayLib/CustomizedDisplayLib/OUTPUT/CustomizedDisplayLib.lib(CustomizedDisplayLib.obj)
+                              FormDisplay.obj (symbol from plugin) (FormExitPolicy)
+/home/evsio0n/src/edk2sdm/Sdm835/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/MdeModulePkg/Library/CustomizedDisplayLib/CustomizedDisplayLib/OUTPUT/CustomizedDisplayLib.lib(CustomizedDisplayLibInternal.obj)
+                              CustomizedDisplayLib.obj (symbol from plugin) (ProcessExternedOpcode)
+/home/evsio0n/src/edk2sdm/Sdm835/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/MdeModulePkg/Library/CustomizedDisplayLib/CustomizedDisplayLib/OUTPUT/CustomizedDisplayLib.lib(AutoGen.obj)
+                              CustomizedDisplayLib.obj (symbol from plugin) (CustomizedDisplayLibStrings)
+/home/evsio0n/src/edk2sdm/Sdm835/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(DivU64x32Remainder.obj)
+                              PrintLibInternal.obj (symbol from plugin) (DivU64x32Remainder)
+/home/evsio0n/src/edk2sdm/Sdm835/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(BitField.obj)
+                              HiiLib.obj (symbol from plugin) (BitFieldRead32)
+/home/evsio0n/src/edk2sdm/Sdm835/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(Unaligned.obj)
+                              PrintLibInternal.obj (symbol from plugin) (ReadUnaligned16)
+/home/evsio0n/src/edk2sdm/Sdm835/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(SetMemWrapper.obj)
+                              DebugLib.obj (symbol from plugin) (SetMem)
+/home/evsio0n/src/edk2sdm/Sdm835/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(SetMem64Wrapper.obj)
+                              SetMemWrapper.obj (symbol from plugin) (SetMem64)
+/home/evsio0n/src/edk2sdm/Sdm835/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseDebugPrintErrorLevelLib/BaseDebugPrintErrorLevelLib/OUTPUT/BaseDebugPrintErrorLevelLib.lib(BaseDebugPrintErrorLevelLib.obj)
+                              DebugLib.obj (symbol from plugin) (GetDebugPrintErrorLevel)
+/home/evsio0n/src/edk2sdm/Sdm835/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/XiaomiMI6Pkg/Library/FrameBufferSerialPortLib/FrameBufferSerialPortLib/OUTPUT/FrameBufferSerialPortLib.lib(FrameBufferSerialPortLib.obj)
+                              DebugLib.obj (symbol from plugin) (SerialPortInitialize)
+/home/evsio0n/src/edk2sdm/Sdm835/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/UefiDevicePathLib/UefiDevicePathLib/OUTPUT/UefiDevicePathLib.lib(DevicePathUtilities.obj)
+                              UefiLib.obj (symbol from plugin) (DevicePathType)
+/home/evsio0n/src/edk2sdm/Sdm835/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/UefiDevicePathLib/UefiDevicePathLib/OUTPUT/UefiDevicePathLib.lib(UefiDevicePathLib.obj)
+                              HiiLib.obj (symbol from plugin) (GetDevicePathSize)
+/home/evsio0n/src/edk2sdm/Sdm835/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/UefiDevicePathLib/UefiDevicePathLib/OUTPUT/UefiDevicePathLib.lib(DevicePathToText.obj)
+                              UefiDevicePathLib.obj (symbol from plugin) (UefiDevicePathLibConvertDeviceNodeToText)
+/home/evsio0n/src/edk2sdm/Sdm835/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/UefiDevicePathLib/UefiDevicePathLib/OUTPUT/UefiDevicePathLib.lib(DevicePathFromText.obj)
+                              UefiDevicePathLib.obj (symbol from plugin) (UefiDevicePathLibConvertTextToDeviceNode)
+/home/evsio0n/src/edk2sdm/Sdm835/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(SwapBytes64.obj)
+                              DevicePathFromText.obj (symbol from plugin) (SwapBytes64)
+/home/evsio0n/src/edk2sdm/Sdm835/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(ArmLibSupport.obj)
+                              FrameBufferSerialPortLib.obj (symbol from plugin) (ArmGetInterruptState)
+/home/evsio0n/src/edk2sdm/Sdm835/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(ArmLibSupportV8.obj)
+                              FrameBufferSerialPortLib.obj (symbol from plugin) (ArmEnableInterrupts)
+/home/evsio0n/src/edk2sdm/Sdm835/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmCacheMaintenanceLib/ArmCacheMaintenanceLib/OUTPUT/ArmCacheMaintenanceLib.lib(ArmCacheMaintenanceLib.obj)
+                              FrameBufferSerialPortLib.obj (symbol from plugin) (WriteBackInvalidateDataCacheRange)
+/home/evsio0n/src/edk2sdm/Sdm835/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(ArmLib.obj)
+                              ArmCacheMaintenanceLib.obj (symbol from plugin) (ArmDataCacheLineLength)
+/home/evsio0n/src/edk2sdm/Sdm835/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(AArch64Support.obj)
+                              ArmCacheMaintenanceLib.obj (symbol from plugin) (ArmInvalidateDataCacheEntryByMVA)
+
+舍弃的输入节
+
+ .text          0x0000000000000000       0x10 /home/evsio0n/src/edk2sdm/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
+ .data          0x0000000000000000        0x0 /home/evsio0n/src/edk2sdm/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
+ .bss           0x0000000000000000        0x0 /home/evsio0n/src/edk2sdm/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
+ .text          0x0000000000000000        0x0 /tmp/ccm5Mr2c.ltrans0.ltrans.o
+ .data          0x0000000000000000        0x0 /tmp/ccm5Mr2c.ltrans0.ltrans.o
+ .bss           0x0000000000000000        0x0 /tmp/ccm5Mr2c.ltrans0.ltrans.o
+ .text.IsNodeInList
+                0x0000000000000000       0xb0 /tmp/ccm5Mr2c.ltrans0.ltrans.o
+ .text.__memset
+                0x0000000000000000       0x1c /tmp/ccm5Mr2c.ltrans0.ltrans.o
+ .comment       0x0000000000000000       0x33 /tmp/ccm5Mr2c.ltrans0.ltrans.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccm5Mr2c.ltrans0.ltrans.o
+ .text          0x0000000000000000        0x8 /home/evsio0n/src/edk2sdm/Sdm835/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(CpuBreakpoint.obj)
+ .data          0x0000000000000000        0x0 /home/evsio0n/src/edk2sdm/Sdm835/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(CpuBreakpoint.obj)
+ .bss           0x0000000000000000        0x0 /home/evsio0n/src/edk2sdm/Sdm835/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(CpuBreakpoint.obj)
+ .data          0x0000000000000000        0x0 /home/evsio0n/src/edk2sdm/Sdm835/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(SetMem.obj)
+ .bss           0x0000000000000000        0x0 /home/evsio0n/src/edk2sdm/Sdm835/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(SetMem.obj)
+ .data          0x0000000000000000        0x0 /home/evsio0n/src/edk2sdm/Sdm835/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(CopyMem.obj)
+ .bss           0x0000000000000000        0x0 /home/evsio0n/src/edk2sdm/Sdm835/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(CopyMem.obj)
+ .data          0x0000000000000000        0x0 /home/evsio0n/src/edk2sdm/Sdm835/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(CompareMem.obj)
+ .bss           0x0000000000000000        0x0 /home/evsio0n/src/edk2sdm/Sdm835/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(CompareMem.obj)
+ .data          0x0000000000000000        0x0 /home/evsio0n/src/edk2sdm/Sdm835/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(CompareGuid.obj)
+ .bss           0x0000000000000000        0x0 /home/evsio0n/src/edk2sdm/Sdm835/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(CompareGuid.obj)
+ .text          0x0000000000000000        0x0 /home/evsio0n/src/edk2sdm/Sdm835/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(ArmLibSupport.obj)
+ .data          0x0000000000000000        0x0 /home/evsio0n/src/edk2sdm/Sdm835/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(ArmLibSupport.obj)
+ .bss           0x0000000000000000        0x0 /home/evsio0n/src/edk2sdm/Sdm835/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(ArmLibSupport.obj)
+ .text.ArmReadMidr
+                0x0000000000000000        0x8 /home/evsio0n/src/edk2sdm/Sdm835/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(ArmLibSupport.obj)
+ .text.ArmGetFiqState
+                0x0000000000000000       0x10 /home/evsio0n/src/edk2sdm/Sdm835/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(ArmLibSupport.obj)
+ .text.ArmWriteCpacr
+                0x0000000000000000        0x8 /home/evsio0n/src/edk2sdm/Sdm835/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(ArmLibSupport.obj)
+ .text.ArmWriteAuxCr
+                0x0000000000000000       0x28 /home/evsio0n/src/edk2sdm/Sdm835/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(ArmLibSupport.obj)
+ .text.ArmReadAuxCr
+                0x0000000000000000       0x28 /home/evsio0n/src/edk2sdm/Sdm835/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(ArmLibSupport.obj)
+ .text.ArmSetTTBR0
+                0x0000000000000000       0x34 /home/evsio0n/src/edk2sdm/Sdm835/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(ArmLibSupport.obj)
+ .text.ArmGetTTBR0BaseAddress
+                0x0000000000000000       0x30 /home/evsio0n/src/edk2sdm/Sdm835/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(ArmLibSupport.obj)
+ .text.ArmGetTCR
+                0x0000000000000000       0x34 /home/evsio0n/src/edk2sdm/Sdm835/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(ArmLibSupport.obj)
+ .text.ArmSetTCR
+                0x0000000000000000       0x34 /home/evsio0n/src/edk2sdm/Sdm835/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(ArmLibSupport.obj)
+ .text.ArmGetMAIR
+                0x0000000000000000       0x34 /home/evsio0n/src/edk2sdm/Sdm835/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(ArmLibSupport.obj)
+ .text.ArmSetMAIR
+                0x0000000000000000       0x34 /home/evsio0n/src/edk2sdm/Sdm835/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(ArmLibSupport.obj)
+ .text.ArmUpdateTranslationTableEntry
+                0x0000000000000000       0x40 /home/evsio0n/src/edk2sdm/Sdm835/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(ArmLibSupport.obj)
+ .text.ArmInvalidateTlb
+                0x0000000000000000       0x38 /home/evsio0n/src/edk2sdm/Sdm835/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(ArmLibSupport.obj)
+ .text.ArmWriteCptr
+                0x0000000000000000        0x8 /home/evsio0n/src/edk2sdm/Sdm835/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(ArmLibSupport.obj)
+ .text.ArmWriteScr
+                0x0000000000000000        0xc /home/evsio0n/src/edk2sdm/Sdm835/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(ArmLibSupport.obj)
+ .text.ArmWriteMVBar
+                0x0000000000000000        0x8 /home/evsio0n/src/edk2sdm/Sdm835/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(ArmLibSupport.obj)
+ .text.ArmCallWFE
+                0x0000000000000000        0x8 /home/evsio0n/src/edk2sdm/Sdm835/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(ArmLibSupport.obj)
+ .text.ArmCallSEV
+                0x0000000000000000        0x8 /home/evsio0n/src/edk2sdm/Sdm835/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(ArmLibSupport.obj)
+ .text.ArmReadCpuActlr
+                0x0000000000000000        0x8 /home/evsio0n/src/edk2sdm/Sdm835/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(ArmLibSupport.obj)
+ .text.ArmWriteCpuActlr
+                0x0000000000000000       0x10 /home/evsio0n/src/edk2sdm/Sdm835/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(ArmLibSupport.obj)
+ .text.ArmReadSctlr
+                0x0000000000000000       0x30 /home/evsio0n/src/edk2sdm/Sdm835/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(ArmLibSupport.obj)
+ .text.ArmWriteSctlr
+                0x0000000000000000       0x30 /home/evsio0n/src/edk2sdm/Sdm835/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(ArmLibSupport.obj)
+ .text.ArmGetPhysicalAddressBits
+                0x0000000000000000       0x24 /home/evsio0n/src/edk2sdm/Sdm835/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(ArmLibSupport.obj)
+ .text          0x0000000000000000        0x0 /home/evsio0n/src/edk2sdm/Sdm835/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(ArmLibSupportV8.obj)
+ .data          0x0000000000000000        0x0 /home/evsio0n/src/edk2sdm/Sdm835/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(ArmLibSupportV8.obj)
+ .bss           0x0000000000000000        0x0 /home/evsio0n/src/edk2sdm/Sdm835/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(ArmLibSupportV8.obj)
+ .text.ArmIsMpCore
+                0x0000000000000000       0x14 /home/evsio0n/src/edk2sdm/Sdm835/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(ArmLibSupportV8.obj)
+ .text.ArmEnableAsynchronousAbort
+                0x0000000000000000        0xc /home/evsio0n/src/edk2sdm/Sdm835/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(ArmLibSupportV8.obj)
+ .text.ArmDisableAsynchronousAbort
+                0x0000000000000000        0xc /home/evsio0n/src/edk2sdm/Sdm835/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(ArmLibSupportV8.obj)
+ .text.ArmEnableIrq
+                0x0000000000000000        0xc /home/evsio0n/src/edk2sdm/Sdm835/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(ArmLibSupportV8.obj)
+ .text.ArmDisableIrq
+                0x0000000000000000        0xc /home/evsio0n/src/edk2sdm/Sdm835/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(ArmLibSupportV8.obj)
+ .text.ArmEnableFiq
+                0x0000000000000000        0xc /home/evsio0n/src/edk2sdm/Sdm835/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(ArmLibSupportV8.obj)
+ .text.ArmDisableFiq
+                0x0000000000000000        0xc /home/evsio0n/src/edk2sdm/Sdm835/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(ArmLibSupportV8.obj)
+ .text.ArmDisableAllExceptions
+                0x0000000000000000        0xc /home/evsio0n/src/edk2sdm/Sdm835/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(ArmLibSupportV8.obj)
+ .text.ReadCCSIDR
+                0x0000000000000000       0x10 /home/evsio0n/src/edk2sdm/Sdm835/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(ArmLibSupportV8.obj)
+ .text.ReadCLIDR
+                0x0000000000000000        0x8 /home/evsio0n/src/edk2sdm/Sdm835/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(ArmLibSupportV8.obj)
+ .text          0x0000000000000000        0x0 /home/evsio0n/src/edk2sdm/Sdm835/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(AArch64Support.obj)
+ .data          0x0000000000000000        0x0 /home/evsio0n/src/edk2sdm/Sdm835/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(AArch64Support.obj)
+ .bss           0x0000000000000000        0x0 /home/evsio0n/src/edk2sdm/Sdm835/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(AArch64Support.obj)
+ .text.ArmInvalidateDataCacheEntryByMVA
+                0x0000000000000000        0x8 /home/evsio0n/src/edk2sdm/Sdm835/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(AArch64Support.obj)
+ .text.ArmCleanDataCacheEntryByMVA
+                0x0000000000000000        0x8 /home/evsio0n/src/edk2sdm/Sdm835/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(AArch64Support.obj)
+ .text.ArmCleanDataCacheEntryToPoUByMVA
+                0x0000000000000000        0x8 /home/evsio0n/src/edk2sdm/Sdm835/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(AArch64Support.obj)
+ .text.ArmInvalidateInstructionCacheEntryToPoUByMVA
+                0x0000000000000000        0x8 /home/evsio0n/src/edk2sdm/Sdm835/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(AArch64Support.obj)
+ .text.ArmInvalidateDataCacheEntryBySetWay
+                0x0000000000000000        0x8 /home/evsio0n/src/edk2sdm/Sdm835/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(AArch64Support.obj)
+ .text.ArmCleanInvalidateDataCacheEntryBySetWay
+                0x0000000000000000        0x8 /home/evsio0n/src/edk2sdm/Sdm835/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(AArch64Support.obj)
+ .text.ArmCleanDataCacheEntryBySetWay
+                0x0000000000000000        0x8 /home/evsio0n/src/edk2sdm/Sdm835/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(AArch64Support.obj)
+ .text.ArmInvalidateInstructionCache
+                0x0000000000000000       0x10 /home/evsio0n/src/edk2sdm/Sdm835/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(AArch64Support.obj)
+ .text.ArmEnableMmu
+                0x0000000000000000       0x88 /home/evsio0n/src/edk2sdm/Sdm835/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(AArch64Support.obj)
+ .text.ArmDisableMmu
+                0x0000000000000000       0x74 /home/evsio0n/src/edk2sdm/Sdm835/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(AArch64Support.obj)
+ .text.ArmDisableCachesAndMmu
+                0x0000000000000000       0x6c /home/evsio0n/src/edk2sdm/Sdm835/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(AArch64Support.obj)
+ .text.ArmMmuEnabled
+                0x0000000000000000       0x34 /home/evsio0n/src/edk2sdm/Sdm835/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(AArch64Support.obj)
+ .text.ArmEnableDataCache
+                0x0000000000000000       0x68 /home/evsio0n/src/edk2sdm/Sdm835/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(AArch64Support.obj)
+ .text.ArmDisableDataCache
+                0x0000000000000000       0x68 /home/evsio0n/src/edk2sdm/Sdm835/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(AArch64Support.obj)
+ .text.ArmEnableInstructionCache
+                0x0000000000000000       0x68 /home/evsio0n/src/edk2sdm/Sdm835/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(AArch64Support.obj)
+ .text.ArmDisableInstructionCache
+                0x0000000000000000       0x68 /home/evsio0n/src/edk2sdm/Sdm835/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(AArch64Support.obj)
+ .text.ArmEnableAlignmentCheck
+                0x0000000000000000       0x58 /home/evsio0n/src/edk2sdm/Sdm835/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(AArch64Support.obj)
+ .text.ArmDisableAlignmentCheck
+                0x0000000000000000       0x68 /home/evsio0n/src/edk2sdm/Sdm835/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(AArch64Support.obj)
+ .text.ArmEnableStackAlignmentCheck
+                0x0000000000000000       0x58 /home/evsio0n/src/edk2sdm/Sdm835/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(AArch64Support.obj)
+ .text.ArmDisableStackAlignmentCheck
+                0x0000000000000000       0x68 /home/evsio0n/src/edk2sdm/Sdm835/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(AArch64Support.obj)
+ .text.ArmEnableBranchPrediction
+                0x0000000000000000        0x4 /home/evsio0n/src/edk2sdm/Sdm835/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(AArch64Support.obj)
+ .text.ArmDisableBranchPrediction
+                0x0000000000000000        0x4 /home/evsio0n/src/edk2sdm/Sdm835/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(AArch64Support.obj)
+ .text.AArch64AllDataCachesOperation
+                0x0000000000000000       0xa8 /home/evsio0n/src/edk2sdm/Sdm835/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(AArch64Support.obj)
+ .text.ArmDataMemoryBarrier
+                0x0000000000000000        0x8 /home/evsio0n/src/edk2sdm/Sdm835/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(AArch64Support.obj)
+ .text.ArmInstructionSynchronizationBarrier
+                0x0000000000000000        0x8 /home/evsio0n/src/edk2sdm/Sdm835/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(AArch64Support.obj)
+ .text.ArmWriteVBar
+                0x0000000000000000       0x34 /home/evsio0n/src/edk2sdm/Sdm835/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(AArch64Support.obj)
+ .text.ArmReadVBar
+                0x0000000000000000       0x30 /home/evsio0n/src/edk2sdm/Sdm835/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(AArch64Support.obj)
+ .text.ArmEnableVFP
+                0x0000000000000000       0x64 /home/evsio0n/src/edk2sdm/Sdm835/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(AArch64Support.obj)
+ .text.ArmCallWFI
+                0x0000000000000000        0x8 /home/evsio0n/src/edk2sdm/Sdm835/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(AArch64Support.obj)
+ .text.ArmReadMpidr
+                0x0000000000000000        0x8 /home/evsio0n/src/edk2sdm/Sdm835/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(AArch64Support.obj)
+ .text.ArmReadTpidrurw
+                0x0000000000000000        0x8 /home/evsio0n/src/edk2sdm/Sdm835/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(AArch64Support.obj)
+ .text.ArmWriteTpidrurw
+                0x0000000000000000        0x8 /home/evsio0n/src/edk2sdm/Sdm835/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(AArch64Support.obj)
+ .text.ArmIsArchTimerImplemented
+                0x0000000000000000        0x8 /home/evsio0n/src/edk2sdm/Sdm835/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(AArch64Support.obj)
+ .text.ArmReadIdPfr0
+                0x0000000000000000        0x8 /home/evsio0n/src/edk2sdm/Sdm835/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(AArch64Support.obj)
+ .text.ArmReadIdPfr1
+                0x0000000000000000        0x8 /home/evsio0n/src/edk2sdm/Sdm835/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(AArch64Support.obj)
+ .text.ArmWriteHcr
+                0x0000000000000000        0x8 /home/evsio0n/src/edk2sdm/Sdm835/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(AArch64Support.obj)
+ .text.ArmReadHcr
+                0x0000000000000000        0x8 /home/evsio0n/src/edk2sdm/Sdm835/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(AArch64Support.obj)
+ .text.ArmReadCurrentEL
+                0x0000000000000000        0x8 /home/evsio0n/src/edk2sdm/Sdm835/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(AArch64Support.obj)
+ .text.ArmReadCntHctl
+                0x0000000000000000        0x8 /home/evsio0n/src/edk2sdm/Sdm835/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(AArch64Support.obj)
+ .text.ArmWriteCntHctl
+                0x0000000000000000        0x8 /home/evsio0n/src/edk2sdm/Sdm835/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(AArch64Support.obj)
+
+内存配置
+
+名称           来源             长度             属性
+*default*        0x0000000000000000 0xffffffffffffffff
+
+链结器命令稿和内存映射
+
+LOAD /home/evsio0n/src/edk2sdm/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
+LOAD /tmp/ccm5Mr2c.ltrans0.ltrans.o
+START GROUP
+LOAD /home/evsio0n/src/edk2sdm/Sdm835/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/DxePcdLib/DxePcdLib/OUTPUT/DxePcdLib.lib
+LOAD /home/evsio0n/src/edk2sdm/Sdm835/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib
+LOAD /home/evsio0n/src/edk2sdm/Sdm835/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib
+LOAD /home/evsio0n/src/edk2sdm/Sdm835/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib
+LOAD /home/evsio0n/src/edk2sdm/Sdm835/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmCacheMaintenanceLib/ArmCacheMaintenanceLib/OUTPUT/ArmCacheMaintenanceLib.lib
+LOAD /home/evsio0n/src/edk2sdm/Sdm835/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseIoLibIntrinsic/BaseIoLibIntrinsic/OUTPUT/BaseIoLibIntrinsic.lib
+LOAD /home/evsio0n/src/edk2sdm/Sdm835/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/CompilerIntrinsicsLib/CompilerIntrinsicsLib/OUTPUT/CompilerIntrinsicsLib.lib
+LOAD /home/evsio0n/src/edk2sdm/Sdm835/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseDebugPrintErrorLevelLib/BaseDebugPrintErrorLevelLib/OUTPUT/BaseDebugPrintErrorLevelLib.lib
+LOAD /home/evsio0n/src/edk2sdm/Sdm835/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/XiaomiMI6Pkg/Library/FrameBufferSerialPortLib/FrameBufferSerialPortLib/OUTPUT/FrameBufferSerialPortLib.lib
+LOAD /home/evsio0n/src/edk2sdm/Sdm835/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/BasePrintLib/BasePrintLib/OUTPUT/BasePrintLib.lib
+LOAD /home/evsio0n/src/edk2sdm/Sdm835/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseDebugLibSerialPort/BaseDebugLibSerialPort/OUTPUT/BaseDebugLibSerialPort.lib
+LOAD /home/evsio0n/src/edk2sdm/Sdm835/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/UefiBootServicesTableLib/UefiBootServicesTableLib/OUTPUT/UefiBootServicesTableLib.lib
+LOAD /home/evsio0n/src/edk2sdm/Sdm835/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/UefiMemoryAllocationLib/UefiMemoryAllocationLib/OUTPUT/UefiMemoryAllocationLib.lib
+LOAD /home/evsio0n/src/edk2sdm/Sdm835/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/UefiDevicePathLib/UefiDevicePathLib/OUTPUT/UefiDevicePathLib.lib
+LOAD /home/evsio0n/src/edk2sdm/Sdm835/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/UefiRuntimeServicesTableLib/UefiRuntimeServicesTableLib/OUTPUT/UefiRuntimeServicesTableLib.lib
+LOAD /home/evsio0n/src/edk2sdm/Sdm835/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/UefiLib/UefiLib/OUTPUT/UefiLib.lib
+LOAD /home/evsio0n/src/edk2sdm/Sdm835/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/DxeHobLib/DxeHobLib/OUTPUT/DxeHobLib.lib
+LOAD /home/evsio0n/src/edk2sdm/Sdm835/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/MdeModulePkg/Library/UefiHiiServicesLib/UefiHiiServicesLib/OUTPUT/UefiHiiServicesLib.lib
+LOAD /home/evsio0n/src/edk2sdm/Sdm835/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/MdeModulePkg/Library/UefiHiiLib/UefiHiiLib/OUTPUT/UefiHiiLib.lib
+LOAD /home/evsio0n/src/edk2sdm/Sdm835/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/UefiDriverEntryPoint/UefiDriverEntryPoint/OUTPUT/UefiDriverEntryPoint.lib
+LOAD /home/evsio0n/src/edk2sdm/Sdm835/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/MdeModulePkg/Library/CustomizedDisplayLib/CustomizedDisplayLib/OUTPUT/CustomizedDisplayLib.lib
+LOAD /home/evsio0n/src/edk2sdm/Sdm835/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseStackCheckLib/BaseStackCheckLib/OUTPUT/BaseStackCheckLib.lib
+LOAD /home/evsio0n/src/edk2sdm/Sdm835/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/MdeModulePkg/Universal/DisplayEngineDxe/DisplayEngineDxe/OUTPUT/DisplayEngine.lib
+END GROUP
+                0x0000000000000228                . = PECOFF_HEADER_SIZE
+
+.gnu.version_d  0x0000000000000228        0x0
+ .gnu.version_d
+                0x0000000000000228        0x0 /home/evsio0n/src/edk2sdm/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
+
+.gnu.version    0x0000000000000228        0x0
+ .gnu.version   0x0000000000000228        0x0 /home/evsio0n/src/edk2sdm/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
+
+.gnu.version_r  0x0000000000000228        0x0
+ .gnu.version_r
+                0x0000000000000228        0x0 /home/evsio0n/src/edk2sdm/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
+
+.text           0x0000000000001000    0x11b58
+ *(.text .text.* .stub .gnu.linkonce.t.*)
+ .text.DebugPrintLevelEnabled.constprop.35
+                0x0000000000001000        0x8 /tmp/ccm5Mr2c.ltrans0.ltrans.o
+ .text.InternalAllocatePool.constprop.32
+                0x0000000000001008       0x6c /tmp/ccm5Mr2c.ltrans0.ltrans.o
+ .text.SetUnicodeMem.constprop.24
+                0x0000000000001074       0x20 /tmp/ccm5Mr2c.ltrans0.ltrans.o
+ .text.MultU64x32.constprop.13
+                0x0000000000001094        0xc /tmp/ccm5Mr2c.ltrans0.ltrans.o
+ .text.GetStringWidth.part.2
+                0x00000000000010a0       0x5c /tmp/ccm5Mr2c.ltrans0.ltrans.o
+ .text.WaitForKeyStroke
+                0x00000000000010fc       0xb0 /tmp/ccm5Mr2c.ltrans0.ltrans.o
+ .text.GetFieldFromNum
+                0x00000000000011ac       0x40 /tmp/ccm5Mr2c.ltrans0.ltrans.o
+ .text.DebugPrintEnabled
+                0x00000000000011ec        0x8 /tmp/ccm5Mr2c.ltrans0.ltrans.o
+ .text.DebugAssertEnabled
+                0x00000000000011f4        0x8 /tmp/ccm5Mr2c.ltrans0.ltrans.o
+ .text.BasePrintLibFillBuffer
+                0x00000000000011fc       0x34 /tmp/ccm5Mr2c.ltrans0.ltrans.o
+ .text.AsciiStrnLenS
+                0x0000000000001230       0x3c /tmp/ccm5Mr2c.ltrans0.ltrans.o
+ .text.InternalSafeStringNoStrOverlap
+                0x000000000000126c       0x3c /tmp/ccm5Mr2c.ltrans0.ltrans.o
+ .text.EmptyEventProcess
+                0x00000000000012a8        0x4 /tmp/ccm5Mr2c.ltrans0.ltrans.o
+ .text.HiiValueToUINT64
+                0x00000000000012ac       0x50 /tmp/ccm5Mr2c.ltrans0.ltrans.o
+ .text.DriverClearDisplayPage
+                0x00000000000012fc       0x54 /tmp/ccm5Mr2c.ltrans0.ltrans.o
+ .text.SetDisplayAttribute
+                0x0000000000001350       0x58 /tmp/ccm5Mr2c.ltrans0.ltrans.o
+ .text.LShiftU64.constprop.11
+                0x00000000000013a8        0x8 /tmp/ccm5Mr2c.ltrans0.ltrans.o
+ .text.BaseDebugLibSerialPortConstructor
+                0x00000000000013b0       0x84 /tmp/ccm5Mr2c.ltrans0.ltrans.o
+ .text.FbConFlush
+                0x0000000000001434       0x54 /tmp/ccm5Mr2c.ltrans0.ltrans.o
+ .text.SerialPortWrite
+                0x0000000000001488      0x418 /tmp/ccm5Mr2c.ltrans0.ltrans.o
+ .text.DebugAssert
+                0x00000000000018a0       0x7c /tmp/ccm5Mr2c.ltrans0.ltrans.o
+ .text.ReadUnaligned16
+                0x000000000000191c       0x68 /tmp/ccm5Mr2c.ltrans0.ltrans.o
+ .text.ReadUnaligned32
+                0x0000000000001984       0x5c /tmp/ccm5Mr2c.ltrans0.ltrans.o
+ .text.LibGetStringWidth
+                0x00000000000019e0       0x50 /tmp/ccm5Mr2c.ltrans0.ltrans.o
+ .text.AsciiStrLen
+                0x0000000000001a30       0xa0 /tmp/ccm5Mr2c.ltrans0.ltrans.o
+ .text.AsciiStrnCmp
+                0x0000000000001ad0       0xf0 /tmp/ccm5Mr2c.ltrans0.ltrans.o
+ .text.StrLen   0x0000000000001bc0       0xbc /tmp/ccm5Mr2c.ltrans0.ltrans.o
+ .text.StrSize  0x0000000000001c7c       0x1c /tmp/ccm5Mr2c.ltrans0.ltrans.o
+ .text.StrCmp   0x0000000000001c98       0x98 /tmp/ccm5Mr2c.ltrans0.ltrans.o
+ .text.StrnLenS
+                0x0000000000001d30       0x7c /tmp/ccm5Mr2c.ltrans0.ltrans.o
+ .text.BasePrintLibSPrintMarker.constprop.42
+                0x0000000000001dac      0xe98 /tmp/ccm5Mr2c.ltrans0.ltrans.o
+ .text.unlikely.BasePrintLibSPrint.constprop.43
+                0x0000000000002c44       0x9c /tmp/ccm5Mr2c.ltrans0.ltrans.o
+ .text.DebugPrint.constprop.36
+                0x0000000000002ce0       0xbc /tmp/ccm5Mr2c.ltrans0.ltrans.o
+ .text.HiiRemovePackages
+                0x0000000000002d9c       0xac /tmp/ccm5Mr2c.ltrans0.ltrans.o
+ .text.FreePool
+                0x0000000000002e48       0x78 /tmp/ccm5Mr2c.ltrans0.ltrans.o
+ .text.AsciiSPrint.constprop.40
+                0x0000000000002ec0       0xa8 /tmp/ccm5Mr2c.ltrans0.ltrans.o
+ .text.UnicodeVSPrint
+                0x0000000000002f68       0x9c /tmp/ccm5Mr2c.ltrans0.ltrans.o
+ .text.UnicodeSPrint
+                0x0000000000003004       0xa0 /tmp/ccm5Mr2c.ltrans0.ltrans.o
+ .text.PrintFormattedNumber.constprop.9
+                0x00000000000030a4       0xa8 /tmp/ccm5Mr2c.ltrans0.ltrans.o
+ .text.StrCatS  0x000000000000314c      0x224 /tmp/ccm5Mr2c.ltrans0.ltrans.o
+ .text.StrnCpyS
+                0x0000000000003370      0x214 /tmp/ccm5Mr2c.ltrans0.ltrans.o
+ .text.StrCpyS  0x0000000000003584      0x1cc /tmp/ccm5Mr2c.ltrans0.ltrans.o
+ .text.NewStrCat
+                0x0000000000003750       0x30 /tmp/ccm5Mr2c.ltrans0.ltrans.o
+ .text.InitializeListHead
+                0x0000000000003780        0x8 /tmp/ccm5Mr2c.ltrans0.ltrans.o
+ .text.InternalBaseLibIsListValid
+                0x0000000000003788       0xb8 /tmp/ccm5Mr2c.ltrans0.ltrans.o
+ .text.IsListEmpty
+                0x0000000000003840       0x5c /tmp/ccm5Mr2c.ltrans0.ltrans.o
+ .text.RemoveEntryList
+                0x000000000000389c       0x64 /tmp/ccm5Mr2c.ltrans0.ltrans.o
+ .text.GetFirstNode
+                0x0000000000003900       0x54 /tmp/ccm5Mr2c.ltrans0.ltrans.o
+ .text.IsNull   0x0000000000003954       0x5c /tmp/ccm5Mr2c.ltrans0.ltrans.o
+ .text.GetNextNode
+                0x00000000000039b0       0x58 /tmp/ccm5Mr2c.ltrans0.ltrans.o
+ .text.InsertTailList
+                0x0000000000003a08       0x6c /tmp/ccm5Mr2c.ltrans0.ltrans.o
+ .text.InsertHeadList
+                0x0000000000003a74       0x68 /tmp/ccm5Mr2c.ltrans0.ltrans.o
+ .text.SwapListEntries
+                0x0000000000003adc       0xc0 /tmp/ccm5Mr2c.ltrans0.ltrans.o
+ .text.SetValuesByType
+                0x0000000000003b9c       0x8c /tmp/ccm5Mr2c.ltrans0.ltrans.o
+ .text.SetArrayData
+                0x0000000000003c28       0x94 /tmp/ccm5Mr2c.ltrans0.ltrans.o
+ .text.GetArrayData
+                0x0000000000003cbc       0x98 /tmp/ccm5Mr2c.ltrans0.ltrans.o
+ .text.AdjustDateAndTimePosition
+                0x0000000000003d54      0x130 /tmp/ccm5Mr2c.ltrans0.ltrans.o
+ .text.GetStringWidth
+                0x0000000000003e84       0x50 /tmp/ccm5Mr2c.ltrans0.ltrans.o
+ .text.ProcessLibraryDestructorList
+                0x0000000000003ed4       0xfc /tmp/ccm5Mr2c.ltrans0.ltrans.o
+ .text._DriverUnloadHandler
+                0x0000000000003fd0      0x2c8 /tmp/ccm5Mr2c.ltrans0.ltrans.o
+ .text.CopyMem  0x0000000000004298       0xb0 /tmp/ccm5Mr2c.ltrans0.ltrans.o
+ .text.InternalAllocateCopyPool.constprop.26
+                0x0000000000004348       0x8c /tmp/ccm5Mr2c.ltrans0.ltrans.o
+ .text.CopyGuid
+                0x00000000000043d4       0x58 /tmp/ccm5Mr2c.ltrans0.ltrans.o
+ .text.CompareMem
+                0x000000000000442c       0xe4 /tmp/ccm5Mr2c.ltrans0.ltrans.o
+ .text.GetIndexInfoForOpcode
+                0x0000000000004510       0xd4 /tmp/ccm5Mr2c.ltrans0.ltrans.o
+ .text.UpdateHighlightMenuInfo
+                0x00000000000045e4      0x248 /tmp/ccm5Mr2c.ltrans0.ltrans.o
+ .text.FindHighLightMenuOption
+                0x000000000000482c      0x214 /tmp/ccm5Mr2c.ltrans0.ltrans.o
+ .text.ZeroMem  0x0000000000004a40       0x7c /tmp/ccm5Mr2c.ltrans0.ltrans.o
+ .text.AllocateZeroPool
+                0x0000000000004abc       0x34 /tmp/ccm5Mr2c.ltrans0.ltrans.o
+ .text.GetBestLanguage.constprop.30
+                0x0000000000004af0      0x1bc /tmp/ccm5Mr2c.ltrans0.ltrans.o
+ .text.PrintAt  0x0000000000004cac      0x2e8 /tmp/ccm5Mr2c.ltrans0.ltrans.o
+ .text.PrintCharAt
+                0x0000000000004f94       0x1c /tmp/ccm5Mr2c.ltrans0.ltrans.o
+ .text.PrintStringAtWithWidth
+                0x0000000000004fb0       0x20 /tmp/ccm5Mr2c.ltrans0.ltrans.o
+ .text.PrintHotKeyHelpString
+                0x0000000000004fd0      0x260 /tmp/ccm5Mr2c.ltrans0.ltrans.o
+ .text.PrintStringAt
+                0x0000000000005230       0x1c /tmp/ccm5Mr2c.ltrans0.ltrans.o
+ .text.UpdateStatusBar
+                0x000000000000524c      0x170 /tmp/ccm5Mr2c.ltrans0.ltrans.o
+ .text.DisplayMenuString
+                0x00000000000053bc       0x94 /tmp/ccm5Mr2c.ltrans0.ltrans.o
+ .text.RefreshKeyHelp
+                0x0000000000005450      0x674 /tmp/ccm5Mr2c.ltrans0.ltrans.o
+ .text.ClearLines
+                0x0000000000005ac4       0xdc /tmp/ccm5Mr2c.ltrans0.ltrans.o
+ .text.CreateMultiStringPopUp.constprop.15
+                0x0000000000005ba0      0x2f4 /tmp/ccm5Mr2c.ltrans0.ltrans.o
+ .text.CreateDialog
+                0x0000000000005e94      0x468 /tmp/ccm5Mr2c.ltrans0.ltrans.o
+ .text.ConfirmDataChange
+                0x00000000000062fc       0xf0 /tmp/ccm5Mr2c.ltrans0.ltrans.o
+ .text.RefreshTimeOutProcess
+                0x00000000000063ec       0xd0 /tmp/ccm5Mr2c.ltrans0.ltrans.o
+ .text.HiiGetSupportedLanguages
+                0x00000000000064bc       0xf4 /tmp/ccm5Mr2c.ltrans0.ltrans.o
+ .text.HiiGetString.constprop.27
+                0x00000000000065b0      0x254 /tmp/ccm5Mr2c.ltrans0.ltrans.o
+ .text.LibGetToken
+                0x0000000000006804       0x74 /tmp/ccm5Mr2c.ltrans0.ltrans.o
+ .text.GetToken
+                0x0000000000006878       0x74 /tmp/ccm5Mr2c.ltrans0.ltrans.o
+ .text.CompareHiiValue.constprop.8
+                0x00000000000068ec      0x260 /tmp/ccm5Mr2c.ltrans0.ltrans.o
+ .text.GetWidth
+                0x0000000000006b4c      0x140 /tmp/ccm5Mr2c.ltrans0.ltrans.o
+ .text.HiiSetString.constprop.17
+                0x0000000000006c8c      0x164 /tmp/ccm5Mr2c.ltrans0.ltrans.o
+ .text.HiiAddPackages
+                0x0000000000006df0      0x1c0 /tmp/ccm5Mr2c.ltrans0.ltrans.o
+ .text.ParseMessageString.part.0
+                0x0000000000006fb0      0x114 /tmp/ccm5Mr2c.ltrans0.ltrans.o
+ .text.AddOneSelectableOption
+                0x00000000000070c4       0xf0 /tmp/ccm5Mr2c.ltrans0.ltrans.o
+ .text.CreatePopup
+                0x00000000000071b4      0xc18 /tmp/ccm5Mr2c.ltrans0.ltrans.o
+ .text.ReadString
+                0x0000000000007dcc      0x818 /tmp/ccm5Mr2c.ltrans0.ltrans.o
+ .text.GetLineByWidth
+                0x00000000000085e4      0x230 /tmp/ccm5Mr2c.ltrans0.ltrans.o
+ .text.ProcessHelpString.constprop.4
+                0x0000000000008814      0x168 /tmp/ccm5Mr2c.ltrans0.ltrans.o
+ .text.UpdateSkipInfoForMenu
+                0x000000000000897c       0xec /tmp/ccm5Mr2c.ltrans0.ltrans.o
+ .text.UiAddMenuOption
+                0x0000000000008a68      0x2c0 /tmp/ccm5Mr2c.ltrans0.ltrans.o
+ .text.GetNumericInput
+                0x0000000000008d28      0xe44 /tmp/ccm5Mr2c.ltrans0.ltrans.o
+ .text.ValueToOption
+                0x0000000000009b6c      0x134 /tmp/ccm5Mr2c.ltrans0.ltrans.o
+ .text.GetSelectionInputPopUp
+                0x0000000000009ca0      0xcb0 /tmp/ccm5Mr2c.ltrans0.ltrans.o
+ .text.ProcessOptions
+                0x000000000000a950     0x1104 /tmp/ccm5Mr2c.ltrans0.ltrans.o
+ .text.DisplayOneMenu
+                0x000000000000ba54      0x66c /tmp/ccm5Mr2c.ltrans0.ltrans.o
+ .text.IsSelectable
+                0x000000000000c0c0      0x118 /tmp/ccm5Mr2c.ltrans0.ltrans.o
+ .text.UpdateOptionSkipLines
+                0x000000000000c1d8       0xbc /tmp/ccm5Mr2c.ltrans0.ltrans.o
+ .text.FindTopOfScreenMenuOption
+                0x000000000000c294      0x1f0 /tmp/ccm5Mr2c.ltrans0.ltrans.o
+ .text.FindTopOfScreenMenu
+                0x000000000000c484      0x100 /tmp/ccm5Mr2c.ltrans0.ltrans.o
+ .text.MoveToNextStatement
+                0x000000000000c584      0x170 /tmp/ccm5Mr2c.ltrans0.ltrans.o
+ .text.CompareGuid
+                0x000000000000c6f4       0x54 /tmp/ccm5Mr2c.ltrans0.ltrans.o
+ .text.ProcessUserOpcode
+                0x000000000000c748      0x15c /tmp/ccm5Mr2c.ltrans0.ltrans.o
+ .text.FormDisplay
+                0x000000000000c8a4     0x34a8 /tmp/ccm5Mr2c.ltrans0.ltrans.o
+ .text.__stack_chk_fail
+                0x000000000000fd4c       0x34 /tmp/ccm5Mr2c.ltrans0.ltrans.o
+                0x000000000000fd4c                __stack_chk_fail
+ .text._ModuleEntryPoint
+                0x000000000000fd80      0xc80 /tmp/ccm5Mr2c.ltrans0.ltrans.o
+                0x000000000000fd80                _ModuleEntryPoint
+ .text.memcpy   0x0000000000010a00       0x20 /tmp/ccm5Mr2c.ltrans0.ltrans.o
+                0x0000000000010a00                memcpy
+ .text          0x0000000000010a20      0x200 /home/evsio0n/src/edk2sdm/Sdm835/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(SetMem.obj)
+                0x0000000000010a20                InternalMemSetMem16
+                0x0000000000010a2c                InternalMemSetMem32
+                0x0000000000010a38                InternalMemSetMem64
+                0x0000000000010a44                InternalMemZeroMem
+                0x0000000000010a4c                InternalMemSetMem
+ .text          0x0000000000010c20      0x218 /home/evsio0n/src/edk2sdm/Sdm835/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(CopyMem.obj)
+                0x0000000000010d8c                InternalMemCopyMem
+ *fill*         0x0000000000010e38        0x8 
+ .text          0x0000000000010e40       0xe0 /home/evsio0n/src/edk2sdm/Sdm835/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(CompareMem.obj)
+                0x0000000000010e40                InternalMemCompareMem
+ .text          0x0000000000010f20       0x20 /home/evsio0n/src/edk2sdm/Sdm835/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(CompareGuid.obj)
+                0x0000000000010f20                InternalMemCompareGuid
+ .text.ArmCacheInfo
+                0x0000000000010f40        0x8 /home/evsio0n/src/edk2sdm/Sdm835/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(ArmLibSupport.obj)
+                0x0000000000010f40                ArmCacheInfo
+ .text.ArmGetInterruptState
+                0x0000000000010f48       0x10 /home/evsio0n/src/edk2sdm/Sdm835/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(ArmLibSupport.obj)
+                0x0000000000010f48                ArmGetInterruptState
+ .text.ArmEnableInterrupts
+                0x0000000000010f58        0xc /home/evsio0n/src/edk2sdm/Sdm835/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(ArmLibSupportV8.obj)
+                0x0000000000010f58                ArmEnableInterrupts
+ .text.ArmDisableInterrupts
+                0x0000000000010f64        0xc /home/evsio0n/src/edk2sdm/Sdm835/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(ArmLibSupportV8.obj)
+                0x0000000000010f64                ArmDisableInterrupts
+ .text.ArmCleanInvalidateDataCacheEntryByMVA
+                0x0000000000010f70        0x8 /home/evsio0n/src/edk2sdm/Sdm835/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(AArch64Support.obj)
+                0x0000000000010f70                ArmCleanInvalidateDataCacheEntryByMVA
+ .text.ArmDataSynchronizationBarrier
+                0x0000000000010f78        0x8 /home/evsio0n/src/edk2sdm/Sdm835/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(AArch64Support.obj)
+                0x0000000000010f78                ArmDataSynchronizationBarrier
+ *(.rodata .rodata.* .gnu.linkonce.r.*)
+ .rodata.HiiValueToUINT64
+                0x0000000000010f80        0x7 /tmp/ccm5Mr2c.ltrans0.ltrans.o
+ *fill*         0x0000000000010f87        0x1 
+ .rodata.SetValuesByType
+                0x0000000000010f88        0x5 /tmp/ccm5Mr2c.ltrans0.ltrans.o
+ *fill*         0x0000000000010f8d        0x3 
+ .rodata.SetArrayData
+                0x0000000000010f90        0x4 /tmp/ccm5Mr2c.ltrans0.ltrans.o
+ .rodata.GetArrayData
+                0x0000000000010f94        0x4 /tmp/ccm5Mr2c.ltrans0.ltrans.o
+ .rodata.CompareHiiValue.constprop.8
+                0x0000000000010f98       0x18 /tmp/ccm5Mr2c.ltrans0.ltrans.o
+ .rodata.AddOneSelectableOption
+                0x0000000000010fb0        0x4 /tmp/ccm5Mr2c.ltrans0.ltrans.o
+ .rodata.GetSelectionInputPopUp
+                0x0000000000010fb4        0x5 /tmp/ccm5Mr2c.ltrans0.ltrans.o
+ *fill*         0x0000000000010fb9        0x3 
+ .rodata.ProcessOptions
+                0x0000000000010fbc        0x8 /tmp/ccm5Mr2c.ltrans0.ltrans.o
+ .rodata.FormDisplay
+                0x0000000000010fc4       0x32 /tmp/ccm5Mr2c.ltrans0.ltrans.o
+ .rodata.AdjustDateAndTimePosition.str1.1
+                0x0000000000010ff6       0x6a /tmp/ccm5Mr2c.ltrans0.ltrans.o
+ .rodata.AsciiStrLen.str1.1
+                0x0000000000011060       0x77 /tmp/ccm5Mr2c.ltrans0.ltrans.o
+ .rodata.AsciiStrnCmp.str1.1
+                0x00000000000110d7       0x70 /tmp/ccm5Mr2c.ltrans0.ltrans.o
+ .rodata.BasePrintLibSPrintMarker.constprop.42.str1.1
+                0x0000000000011147      0x20a /tmp/ccm5Mr2c.ltrans0.ltrans.o
+ .rodata.CSWTCH.185
+                0x0000000000011351        0x8 /tmp/ccm5Mr2c.ltrans0.ltrans.o
+ .rodata.CompareGuid.str1.1
+                0x0000000000011359       0x16 /tmp/ccm5Mr2c.ltrans0.ltrans.o
+ .rodata.CompareMem.str1.1
+                0x000000000001136f       0x95 /tmp/ccm5Mr2c.ltrans0.ltrans.o
+ .rodata.CopyGuid.str1.1
+                0x0000000000011404       0x6e /tmp/ccm5Mr2c.ltrans0.ltrans.o
+ .rodata.CopyMem.str1.1
+                0x0000000000011472       0xd4 /tmp/ccm5Mr2c.ltrans0.ltrans.o
+ .rodata.CreatePopup.str1.1
+                0x0000000000011546       0x4f /tmp/ccm5Mr2c.ltrans0.ltrans.o
+ *fill*         0x0000000000011595        0x1 
+ .rodata.CreatePopup.str2.2
+                0x0000000000011596        0xe /tmp/ccm5Mr2c.ltrans0.ltrans.o
+                                         0x16 (松开之前的大小)
+ .rodata.DebugAssert.str1.1
+                0x00000000000115a4       0x26 /tmp/ccm5Mr2c.ltrans0.ltrans.o
+ .rodata.DisplayMenuString.str2.2
+                0x00000000000115ca        0xe /tmp/ccm5Mr2c.ltrans0.ltrans.o
+                                          0x2 (松开之前的大小)
+ .rodata.FindHighLightMenuOption.str1.1
+                0x00000000000115ca       0x17 /tmp/ccm5Mr2c.ltrans0.ltrans.o
+ .rodata.FormDisplay.str1.1
+                0x00000000000115e1      0x1f6 /tmp/ccm5Mr2c.ltrans0.ltrans.o
+ .rodata.FreePool.str1.1
+                0x00000000000117d7       0x5c /tmp/ccm5Mr2c.ltrans0.ltrans.o
+ .rodata.GetBestLanguage.constprop.30.str1.1
+                0x0000000000011833       0x63 /tmp/ccm5Mr2c.ltrans0.ltrans.o
+ .rodata.GetFirstNode.str1.1
+                0x0000000000011896       0x22 /tmp/ccm5Mr2c.ltrans0.ltrans.o
+ .rodata.GetNumericInput.str1.1
+                0x00000000000118b8       0xd5 /tmp/ccm5Mr2c.ltrans0.ltrans.o
+ *fill*         0x000000000001198d        0x1 
+ .rodata.GetNumericInput.str2.2
+                0x000000000001198e       0x14 /tmp/ccm5Mr2c.ltrans0.ltrans.o
+                                         0x18 (松开之前的大小)
+ .rodata.GetSelectionInputPopUp.str1.1
+                0x00000000000119a2       0x76 /tmp/ccm5Mr2c.ltrans0.ltrans.o
+                                         0x90 (松开之前的大小)
+ .rodata.HiiGetString.constprop.27.str1.1
+                0x0000000000011a18       0x70 /tmp/ccm5Mr2c.ltrans0.ltrans.o
+                                         0x71 (松开之前的大小)
+ .rodata.HiiGetString.constprop.27.str2.2
+                0x0000000000011a88       0x1a /tmp/ccm5Mr2c.ltrans0.ltrans.o
+ .rodata.HiiGetSupportedLanguages.str1.1
+                0x0000000000011aa2       0x4d /tmp/ccm5Mr2c.ltrans0.ltrans.o
+ .rodata.HiiRemovePackages.str1.1
+                0x0000000000011aef       0x7d /tmp/ccm5Mr2c.ltrans0.ltrans.o
+                                         0x97 (松开之前的大小)
+ .rodata.HiiSetString.constprop.17.str1.1
+                0x0000000000011b6c        0x7 /tmp/ccm5Mr2c.ltrans0.ltrans.o
+ .rodata.InternalAllocateCopyPool.constprop.26.str1.1
+                0x0000000000011b73       0x3f /tmp/ccm5Mr2c.ltrans0.ltrans.o
+ .rodata.InternalBaseLibIsListValid.str1.1
+                0x0000000000011bb2       0x84 /tmp/ccm5Mr2c.ltrans0.ltrans.o
+                                         0x99 (松开之前的大小)
+ .rodata.IsListEmpty.str1.1
+                0x0000000000011c36       0x26 /tmp/ccm5Mr2c.ltrans0.ltrans.o
+ .rodata.IsNodeInList.str1.1
+                0x0000000000011c5c       0x44 /tmp/ccm5Mr2c.ltrans0.ltrans.o
+ .rodata.IsSelectable.str1.1
+                0x0000000000011ca0       0x1d /tmp/ccm5Mr2c.ltrans0.ltrans.o
+ .rodata.LibGetStringWidth.str1.1
+                0x0000000000011cbd       0x68 /tmp/ccm5Mr2c.ltrans0.ltrans.o
+                                         0x7f (松开之前的大小)
+ .rodata.PrintAt.str1.1
+                0x0000000000011d25        0xd /tmp/ccm5Mr2c.ltrans0.ltrans.o
+                                         0x14 (松开之前的大小)
+ .rodata.PrintCharAt.str2.2
+                0x0000000000011d32        0x6 /tmp/ccm5Mr2c.ltrans0.ltrans.o
+ .rodata.PrintFormattedNumber.constprop.9.str2.2
+                0x0000000000011d38       0x12 /tmp/ccm5Mr2c.ltrans0.ltrans.o
+                                         0x1a (松开之前的大小)
+ .rodata.PrintStringAtWithWidth.str2.2
+                0x0000000000011d4a       0x12 /tmp/ccm5Mr2c.ltrans0.ltrans.o
+                                          0x6 (松开之前的大小)
+ .rodata.ProcessHelpString.constprop.4.str1.1
+                0x0000000000011d4a       0x21 /tmp/ccm5Mr2c.ltrans0.ltrans.o
+ .rodata.ProcessOptions.str1.1
+                0x0000000000011d6b       0x18 /tmp/ccm5Mr2c.ltrans0.ltrans.o
+                                         0x33 (松开之前的大小)
+ *fill*         0x0000000000011d83        0x1 
+ .rodata.ProcessOptions.str2.2
+                0x0000000000011d84        0xa /tmp/ccm5Mr2c.ltrans0.ltrans.o
+                                         0x10 (松开之前的大小)
+ .rodata.ProcessUserOpcode.str1.1
+                0x0000000000011d8e       0x1c /tmp/ccm5Mr2c.ltrans0.ltrans.o
+ .rodata.ReadString.str1.1
+                0x0000000000011daa       0x1a /tmp/ccm5Mr2c.ltrans0.ltrans.o
+ .rodata.ReadUnaligned16.str1.1
+                0x0000000000011dc4       0x46 /tmp/ccm5Mr2c.ltrans0.ltrans.o
+                                         0x5d (松开之前的大小)
+ .rodata.RefreshKeyHelp.str1.1
+                0x0000000000011e0a       0x79 /tmp/ccm5Mr2c.ltrans0.ltrans.o
+ *fill*         0x0000000000011e83        0x1 
+ .rodata.RefreshKeyHelp.str2.2
+                0x0000000000011e84       0x16 /tmp/ccm5Mr2c.ltrans0.ltrans.o
+                                         0x24 (松开之前的大小)
+ .rodata.RefreshTimeOutProcess.str2.2
+                0x0000000000011e9a        0x6 /tmp/ccm5Mr2c.ltrans0.ltrans.o
+ .rodata.RemoveEntryList.str1.1
+                0x0000000000011ea0       0x15 /tmp/ccm5Mr2c.ltrans0.ltrans.o
+ .rodata.SetArrayData.str1.1
+                0x0000000000011eb5       0x58 /tmp/ccm5Mr2c.ltrans0.ltrans.o
+                                         0x6e (松开之前的大小)
+ .rodata.SetValuesByType.str1.1
+                0x0000000000011f0d       0x68 /tmp/ccm5Mr2c.ltrans0.ltrans.o
+ .rodata.StrCatS.str1.1
+                0x0000000000011f75      0x14d /tmp/ccm5Mr2c.ltrans0.ltrans.o
+ .rodata.StrCmp.str1.1
+                0x00000000000120c2       0x37 /tmp/ccm5Mr2c.ltrans0.ltrans.o
+ .rodata.StrLen.str1.1
+                0x00000000000120f9       0x5d /tmp/ccm5Mr2c.ltrans0.ltrans.o
+ .rodata.StrnCpyS.str1.1
+                0x0000000000012156       0x55 /tmp/ccm5Mr2c.ltrans0.ltrans.o
+ .rodata.StrnLenS.str1.1
+                0x00000000000121ab       0x43 /tmp/ccm5Mr2c.ltrans0.ltrans.o
+ .rodata.UiAddMenuOption.str1.1
+                0x00000000000121ee        0xe /tmp/ccm5Mr2c.ltrans0.ltrans.o
+                                         0x19 (松开之前的大小)
+ .rodata.UnicodeVSPrint.str1.1
+                0x00000000000121fc       0x95 /tmp/ccm5Mr2c.ltrans0.ltrans.o
+ .rodata.UpdateHighlightMenuInfo.str1.1
+                0x0000000000012291       0x5a /tmp/ccm5Mr2c.ltrans0.ltrans.o
+ *fill*         0x00000000000122eb        0x1 
+ .rodata.UpdateStatusBar.str2.2
+                0x00000000000122ec        0x6 /tmp/ccm5Mr2c.ltrans0.ltrans.o
+ .rodata.ZeroMem.str1.1
+                0x00000000000122f2       0x89 /tmp/ccm5Mr2c.ltrans0.ltrans.o
+ .rodata._ModuleEntryPoint.str1.1
+                0x000000000001237b      0x37b /tmp/ccm5Mr2c.ltrans0.ltrans.o
+ .rodata._ModuleEntryPoint.str2.2
+                0x00000000000126f6        0x4 /tmp/ccm5Mr2c.ltrans0.ltrans.o
+ .rodata.__stack_chk_fail.str1.1
+                0x00000000000126fa       0x2e /tmp/ccm5Mr2c.ltrans0.ltrans.o
+ .rodata._gPcd_FixedAtBuild_PcdFrontPageFormSetGuid
+                0x0000000000012728       0x10 /tmp/ccm5Mr2c.ltrans0.ltrans.o
+ .rodata.gScanCodeToOperation
+                0x0000000000012738       0x38 /tmp/ccm5Mr2c.ltrans0.ltrans.o
+ .rodata.gScreenOperationToControlFlag
+                0x0000000000012770       0x50 /tmp/ccm5Mr2c.ltrans0.ltrans.o
+ .rodata.mEndOfPakageList
+                0x00000000000127c0        0x4 /tmp/ccm5Mr2c.ltrans0.ltrans.o
+ .rodata.mHexStr
+                0x00000000000127c4       0x10 /tmp/ccm5Mr2c.ltrans0.ltrans.o
+ *fill*         0x00000000000127d4        0x4 
+ .rodata.mStatusString
+                0x00000000000127d8      0x138 /tmp/ccm5Mr2c.ltrans0.ltrans.o
+ .rodata.str1.1
+                0x0000000000012910      0x224 /tmp/ccm5Mr2c.ltrans0.ltrans.o
+                                        0x235 (松开之前的大小)
+ *(.got .got.*)
+ *fill*         0x0000000000012b34        0x4 
+ .got           0x0000000000012b38        0x8 /home/evsio0n/src/edk2sdm/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
+                0x0000000000012b38                _GLOBAL_OFFSET_TABLE_
+ .got.plt       0x0000000000012b40       0x18 /home/evsio0n/src/edk2sdm/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
+ *:AutoGen.obj(.data.g*Guid)
+
+.plt            0x0000000000012b58        0x0
+ .plt           0x0000000000012b58        0x0 /home/evsio0n/src/edk2sdm/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
+
+.data           0x0000000000013000     0x2510
+ *(.data .data.* .gnu.linkonce.d.*)
+ .data.rel.ro   0x0000000000013000        0x0 /home/evsio0n/src/edk2sdm/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
+ .data.CustomizedDisplayLibStrings
+                0x0000000000013000      0x6ea /tmp/ccm5Mr2c.ltrans0.ltrans.o
+ .data.DisplayEngineStrings
+                0x00000000000136ea     0x15c6 /tmp/ccm5Mr2c.ltrans0.ltrans.o
+ .data.__stack_chk_guard
+                0x0000000000014cb0        0x8 /tmp/ccm5Mr2c.ltrans0.ltrans.o
+                0x0000000000014cb0                __stack_chk_guard
+ .data.font5x12
+                0x0000000000014cb8      0x300 /tmp/ccm5Mr2c.ltrans0.ltrans.o
+ .data.gCustomizedDisplayLibGuid
+                0x0000000000014fb8       0x10 /tmp/ccm5Mr2c.ltrans0.ltrans.o
+ .data.gDisplayEngineGuid
+                0x0000000000014fc8       0x10 /tmp/ccm5Mr2c.ltrans0.ltrans.o
+ .data.gEdkiiFormBrowserEx2ProtocolGuid
+                0x0000000000014fd8       0x10 /tmp/ccm5Mr2c.ltrans0.ltrans.o
+ .data.gEdkiiFormDisplayEngineProtocolGuid
+                0x0000000000014fe8       0x10 /tmp/ccm5Mr2c.ltrans0.ltrans.o
+ .data.gEfiGlobalVariableGuid
+                0x0000000000014ff8       0x10 /tmp/ccm5Mr2c.ltrans0.ltrans.o
+ .data.gEfiHiiConfigRoutingProtocolGuid
+                0x0000000000015008       0x10 /tmp/ccm5Mr2c.ltrans0.ltrans.o
+ .data.gEfiHiiDatabaseProtocolGuid
+                0x0000000000015018       0x10 /tmp/ccm5Mr2c.ltrans0.ltrans.o
+ .data.gEfiHiiFontProtocolGuid
+                0x0000000000015028       0x10 /tmp/ccm5Mr2c.ltrans0.ltrans.o
+ .data.gEfiHiiImageProtocolGuid
+                0x0000000000015038       0x10 /tmp/ccm5Mr2c.ltrans0.ltrans.o
+ .data.gEfiHiiPopupProtocolGuid
+                0x0000000000015048       0x10 /tmp/ccm5Mr2c.ltrans0.ltrans.o
+ .data.gEfiHiiStringProtocolGuid
+                0x0000000000015058       0x10 /tmp/ccm5Mr2c.ltrans0.ltrans.o
+ .data.gEfiHobListGuid
+                0x0000000000015068       0x10 /tmp/ccm5Mr2c.ltrans0.ltrans.o
+ .data.gEfiIfrTianoGuid
+                0x0000000000015078       0x10 /tmp/ccm5Mr2c.ltrans0.ltrans.o
+ .data.gEfiLoadedImageProtocolGuid
+                0x0000000000015088       0x10 /tmp/ccm5Mr2c.ltrans0.ltrans.o
+ .data.gLibIsFirstForm
+                0x0000000000015098        0x1 /tmp/ccm5Mr2c.ltrans0.ltrans.o
+ .data.mIsFirstForm
+                0x0000000000015099        0x1 /tmp/ccm5Mr2c.ltrans0.ltrans.o
+ *fill*         0x000000000001509a        0x6 
+ .data.mPrivateData
+                0x00000000000150a0       0x38 /tmp/ccm5Mr2c.ltrans0.ltrans.o
+ *(.bss .bss.*)
+ .bss.gAdjustNumber
+                0x00000000000150d8        0x8 /tmp/ccm5Mr2c.ltrans0.ltrans.o
+ .bss.gAreYouSure
+                0x00000000000150e0        0x8 /tmp/ccm5Mr2c.ltrans0.ltrans.o
+ .bss.gBS       0x00000000000150e8        0x8 /tmp/ccm5Mr2c.ltrans0.ltrans.o
+ .bss.gBannerData
+                0x00000000000150f0        0x8 /tmp/ccm5Mr2c.ltrans0.ltrans.o
+ .bss.gBrowserError
+                0x00000000000150f8        0x8 /tmp/ccm5Mr2c.ltrans0.ltrans.o
+ .bss.gCancelOption
+                0x0000000000015100        0x8 /tmp/ccm5Mr2c.ltrans0.ltrans.o
+ .bss.gChangesOpt
+                0x0000000000015108        0x8 /tmp/ccm5Mr2c.ltrans0.ltrans.o
+ .bss.gCheckError
+                0x0000000000015110        0x8 /tmp/ccm5Mr2c.ltrans0.ltrans.o
+ .bss.gClassOfVfr
+                0x0000000000015118        0x2 /tmp/ccm5Mr2c.ltrans0.ltrans.o
+ *fill*         0x000000000001511a        0x6 
+ .bss.gConfirmDefaultMsg
+                0x0000000000015120        0x8 /tmp/ccm5Mr2c.ltrans0.ltrans.o
+ .bss.gConfirmDefaultMsg2nd
+                0x0000000000015128        0x8 /tmp/ccm5Mr2c.ltrans0.ltrans.o
+ .bss.gConfirmDiscardMsg
+                0x0000000000015130        0x8 /tmp/ccm5Mr2c.ltrans0.ltrans.o
+ .bss.gConfirmError
+                0x0000000000015138        0x8 /tmp/ccm5Mr2c.ltrans0.ltrans.o
+ .bss.gConfirmExitMsg
+                0x0000000000015140        0x8 /tmp/ccm5Mr2c.ltrans0.ltrans.o
+ .bss.gConfirmExitMsg2nd
+                0x0000000000015148        0x8 /tmp/ccm5Mr2c.ltrans0.ltrans.o
+ .bss.gConfirmMsgConnect
+                0x0000000000015150        0x8 /tmp/ccm5Mr2c.ltrans0.ltrans.o
+ .bss.gConfirmMsgEnd
+                0x0000000000015158        0x8 /tmp/ccm5Mr2c.ltrans0.ltrans.o
+ .bss.gConfirmOpt
+                0x0000000000015160        0x8 /tmp/ccm5Mr2c.ltrans0.ltrans.o
+ .bss.gConfirmOptCancel
+                0x0000000000015168        0x8 /tmp/ccm5Mr2c.ltrans0.ltrans.o
+ .bss.gConfirmOptNo
+                0x0000000000015170        0x8 /tmp/ccm5Mr2c.ltrans0.ltrans.o
+ .bss.gConfirmOptOk
+                0x0000000000015178        0x8 /tmp/ccm5Mr2c.ltrans0.ltrans.o
+ .bss.gConfirmOptYes
+                0x0000000000015180        0x8 /tmp/ccm5Mr2c.ltrans0.ltrans.o
+ .bss.gConfirmPassword
+                0x0000000000015188        0x8 /tmp/ccm5Mr2c.ltrans0.ltrans.o
+ .bss.gConfirmResetMsg
+                0x0000000000015190        0x8 /tmp/ccm5Mr2c.ltrans0.ltrans.o
+ .bss.gConfirmResetMsg2nd
+                0x0000000000015198        0x8 /tmp/ccm5Mr2c.ltrans0.ltrans.o
+ .bss.gConfirmSubmitMsg
+                0x00000000000151a0        0x8 /tmp/ccm5Mr2c.ltrans0.ltrans.o
+ .bss.gConfirmSubmitMsg2nd
+                0x00000000000151a8        0x8 /tmp/ccm5Mr2c.ltrans0.ltrans.o
+ .bss.gDecNumericInput
+                0x00000000000151b0        0x8 /tmp/ccm5Mr2c.ltrans0.ltrans.o
+ .bss.gDirection
+                0x00000000000151b8        0x2 /tmp/ccm5Mr2c.ltrans0.ltrans.o
+ *fill*         0x00000000000151ba        0x6 
+ .bss.gDiscardChange
+                0x00000000000151c0        0x8 /tmp/ccm5Mr2c.ltrans0.ltrans.o
+ .bss.gEmptyString
+                0x00000000000151c8        0x8 /tmp/ccm5Mr2c.ltrans0.ltrans.o
+ .bss.gEnterCommitString
+                0x00000000000151d0        0x8 /tmp/ccm5Mr2c.ltrans0.ltrans.o
+ .bss.gEnterEscapeString
+                0x00000000000151d8        0x8 /tmp/ccm5Mr2c.ltrans0.ltrans.o
+ .bss.gEnterString
+                0x00000000000151e0        0x8 /tmp/ccm5Mr2c.ltrans0.ltrans.o
+ .bss.gErrorPopup
+                0x00000000000151e8        0x8 /tmp/ccm5Mr2c.ltrans0.ltrans.o
+ .bss.gEscapeString
+                0x00000000000151f0        0x8 /tmp/ccm5Mr2c.ltrans0.ltrans.o
+ .bss.gFooterHeight
+                0x00000000000151f8        0x8 /tmp/ccm5Mr2c.ltrans0.ltrans.o
+ .bss.gFormData
+                0x0000000000015200        0x8 /tmp/ccm5Mr2c.ltrans0.ltrans.o
+ .bss.gFormNotFound
+                0x0000000000015208        0x8 /tmp/ccm5Mr2c.ltrans0.ltrans.o
+ .bss.gFormSuppress
+                0x0000000000015210        0x8 /tmp/ccm5Mr2c.ltrans0.ltrans.o
+ .bss.gHelpBlockWidth
+                0x0000000000015218        0x2 /tmp/ccm5Mr2c.ltrans0.ltrans.o
+ *fill*         0x000000000001521a        0x6 
+ .bss.gHexNumericInput
+                0x0000000000015220        0x8 /tmp/ccm5Mr2c.ltrans0.ltrans.o
+ .bss.gHighligthMenuInfo
+                0x0000000000015228       0x48 /tmp/ccm5Mr2c.ltrans0.ltrans.o
+ .bss.gHiiConfigRouting
+                0x0000000000015270        0x8 /tmp/ccm5Mr2c.ltrans0.ltrans.o
+ .bss.gHiiDatabase
+                0x0000000000015278        0x8 /tmp/ccm5Mr2c.ltrans0.ltrans.o
+ .bss.gHiiFont  0x0000000000015280        0x8 /tmp/ccm5Mr2c.ltrans0.ltrans.o
+ .bss.gHiiHandle
+                0x0000000000015288        0x8 /tmp/ccm5Mr2c.ltrans0.ltrans.o
+ .bss.gHiiImage
+                0x0000000000015290        0x8 /tmp/ccm5Mr2c.ltrans0.ltrans.o
+ .bss.gHiiString
+                0x0000000000015298        0x8 /tmp/ccm5Mr2c.ltrans0.ltrans.o
+ .bss.gImageHandle
+                0x00000000000152a0        0x8 /tmp/ccm5Mr2c.ltrans0.ltrans.o
+ .bss.gInfoPopup
+                0x00000000000152a8        0x8 /tmp/ccm5Mr2c.ltrans0.ltrans.o
+ .bss.gInputErrorMessage
+                0x00000000000152b0        0x8 /tmp/ccm5Mr2c.ltrans0.ltrans.o
+ .bss.gJumpToFormSet
+                0x00000000000152b8        0x8 /tmp/ccm5Mr2c.ltrans0.ltrans.o
+ .bss.gLibEmptyString
+                0x00000000000152c0        0x8 /tmp/ccm5Mr2c.ltrans0.ltrans.o
+ .bss.gMaxRowWidth
+                0x00000000000152c8        0x8 /tmp/ccm5Mr2c.ltrans0.ltrans.o
+ .bss.gMenuOption
+                0x00000000000152d0       0x10 /tmp/ccm5Mr2c.ltrans0.ltrans.o
+ .bss.gMesStrLineNum
+                0x00000000000152e0        0x8 /tmp/ccm5Mr2c.ltrans0.ltrans.o
+ .bss.gMessageString
+                0x00000000000152e8        0x8 /tmp/ccm5Mr2c.ltrans0.ltrans.o
+ .bss.gMiniString
+                0x00000000000152f0        0x8 /tmp/ccm5Mr2c.ltrans0.ltrans.o
+ .bss.gMinusString
+                0x00000000000152f8        0x8 /tmp/ccm5Mr2c.ltrans0.ltrans.o
+ .bss.gMisMatch
+                0x0000000000015300        0x1 /tmp/ccm5Mr2c.ltrans0.ltrans.o
+ *fill*         0x0000000000015301        0x1 
+ .bss.gModalSkipColumn
+                0x0000000000015302        0x2 /tmp/ccm5Mr2c.ltrans0.ltrans.o
+ *fill*         0x0000000000015304        0x4 
+ .bss.gMoveHighlight
+                0x0000000000015308        0x8 /tmp/ccm5Mr2c.ltrans0.ltrans.o
+ .bss.gNoOption
+                0x0000000000015310        0x8 /tmp/ccm5Mr2c.ltrans0.ltrans.o
+ .bss.gNoResponse
+                0x0000000000015318        0x8 /tmp/ccm5Mr2c.ltrans0.ltrans.o
+ .bss.gNoSubmitIf
+                0x0000000000015320        0x8 /tmp/ccm5Mr2c.ltrans0.ltrans.o
+ .bss.gNoSubmitIfFailed
+                0x0000000000015328        0x8 /tmp/ccm5Mr2c.ltrans0.ltrans.o
+ .bss.gNvUpdateMessage
+                0x0000000000015330        0x8 /tmp/ccm5Mr2c.ltrans0.ltrans.o
+ .bss.gOkOption
+                0x0000000000015338        0x8 /tmp/ccm5Mr2c.ltrans0.ltrans.o
+ .bss.gOldFormEntry
+                0x0000000000015340       0x38 /tmp/ccm5Mr2c.ltrans0.ltrans.o
+ .bss.gOptionBlockWidth
+                0x0000000000015378        0x2 /tmp/ccm5Mr2c.ltrans0.ltrans.o
+ *fill*         0x000000000001537a        0x6 
+ .bss.gOptionMismatch
+                0x0000000000015380        0x8 /tmp/ccm5Mr2c.ltrans0.ltrans.o
+ .bss.gPassowordInvalid
+                0x0000000000015388        0x8 /tmp/ccm5Mr2c.ltrans0.ltrans.o
+ .bss.gPasswordUnsupported
+                0x0000000000015390        0x8 /tmp/ccm5Mr2c.ltrans0.ltrans.o
+ .bss.gPlusString
+                0x0000000000015398        0x8 /tmp/ccm5Mr2c.ltrans0.ltrans.o
+ .bss.gPopupDimensions
+                0x00000000000153a0       0x20 /tmp/ccm5Mr2c.ltrans0.ltrans.o
+ .bss.gPressEnter
+                0x00000000000153c0        0x8 /tmp/ccm5Mr2c.ltrans0.ltrans.o
+ .bss.gPromptBlockWidth
+                0x00000000000153c8        0x2 /tmp/ccm5Mr2c.ltrans0.ltrans.o
+ *fill*         0x00000000000153ca        0x6 
+ .bss.gPromptForData
+                0x00000000000153d0        0x8 /tmp/ccm5Mr2c.ltrans0.ltrans.o
+ .bss.gPromptForNewPassword
+                0x00000000000153d8        0x8 /tmp/ccm5Mr2c.ltrans0.ltrans.o
+ .bss.gPromptForPassword
+                0x00000000000153e0        0x8 /tmp/ccm5Mr2c.ltrans0.ltrans.o
+ .bss.gProtocolNotFound
+                0x00000000000153e8        0x8 /tmp/ccm5Mr2c.ltrans0.ltrans.o
+ .bss.gRT       0x00000000000153f0        0x8 /tmp/ccm5Mr2c.ltrans0.ltrans.o
+ .bss.gReconnectConfirmChanges
+                0x00000000000153f8        0x8 /tmp/ccm5Mr2c.ltrans0.ltrans.o
+ .bss.gReconnectFail
+                0x0000000000015400        0x8 /tmp/ccm5Mr2c.ltrans0.ltrans.o
+ .bss.gReconnectRequired
+                0x0000000000015408        0x8 /tmp/ccm5Mr2c.ltrans0.ltrans.o
+ .bss.gST       0x0000000000015410        0x8 /tmp/ccm5Mr2c.ltrans0.ltrans.o
+ .bss.gSaveChanges
+                0x0000000000015418        0x8 /tmp/ccm5Mr2c.ltrans0.ltrans.o
+ .bss.gSaveFailed
+                0x0000000000015420        0x8 /tmp/ccm5Mr2c.ltrans0.ltrans.o
+ .bss.gSaveNoSubmitProcess
+                0x0000000000015428        0x8 /tmp/ccm5Mr2c.ltrans0.ltrans.o
+ .bss.gSaveProcess
+                0x0000000000015430        0x8 /tmp/ccm5Mr2c.ltrans0.ltrans.o
+ .bss.gScreenDimensions
+                0x0000000000015438       0x20 /tmp/ccm5Mr2c.ltrans0.ltrans.o
+ .bss.gStatementDimensions
+                0x0000000000015458       0x20 /tmp/ccm5Mr2c.ltrans0.ltrans.o
+ .bss.gToggleCheckBox
+                0x0000000000015478        0x8 /tmp/ccm5Mr2c.ltrans0.ltrans.o
+ .bss.gUserInput
+                0x0000000000015480        0x8 /tmp/ccm5Mr2c.ltrans0.ltrans.o
+ .bss.gUserSelectableOptions
+                0x0000000000015488       0x10 /tmp/ccm5Mr2c.ltrans0.ltrans.o
+ .bss.gWarningPopup
+                0x0000000000015498        0x8 /tmp/ccm5Mr2c.ltrans0.ltrans.o
+ .bss.gYesOption
+                0x00000000000154a0        0x8 /tmp/ccm5Mr2c.ltrans0.ltrans.o
+ .bss.gYesResponse
+                0x00000000000154a8        0x8 /tmp/ccm5Mr2c.ltrans0.ltrans.o
+ .bss.mCDLStringPackHandle
+                0x00000000000154b0        0x8 /tmp/ccm5Mr2c.ltrans0.ltrans.o
+ .bss.mHobList  0x00000000000154b8        0x8 /tmp/ccm5Mr2c.ltrans0.ltrans.o
+ .bss.mLibUnknownString
+                0x00000000000154c0        0x8 /tmp/ccm5Mr2c.ltrans0.ltrans.o
+ .bss.mSpaceBuffer
+                0x00000000000154c8        0x8 /tmp/ccm5Mr2c.ltrans0.ltrans.o
+ .bss.mUnknownString
+                0x00000000000154d0        0x8 /tmp/ccm5Mr2c.ltrans0.ltrans.o
+ .bss.m_Color   0x00000000000154d8       0x10 /tmp/ccm5Mr2c.ltrans0.ltrans.o
+ .bss.m_Initialized
+                0x00000000000154e8        0x1 /tmp/ccm5Mr2c.ltrans0.ltrans.o
+ *fill*         0x00000000000154e9        0x7 
+ .bss.m_MaxPosition
+                0x00000000000154f0       0x10 /tmp/ccm5Mr2c.ltrans0.ltrans.o
+ .bss.m_Position
+                0x0000000000015500       0x10 /tmp/ccm5Mr2c.ltrans0.ltrans.o
+
+.dynbss         0x0000000000015510        0x0
+ .dynbss        0x0000000000015510        0x0 /home/evsio0n/src/edk2sdm/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
+
+.eh_frame
+ *(.eh_frame)
+
+.rela           0x0000000000015510      0x408
+ *(.rela .rela.*)
+ .rela.got      0x0000000000015510        0x0 /home/evsio0n/src/edk2sdm/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
+ .rela.plt      0x0000000000015510        0x0 /home/evsio0n/src/edk2sdm/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
+ .rela.bss      0x0000000000015510        0x0 /home/evsio0n/src/edk2sdm/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
+ .rela.data.rel.ro
+                0x0000000000015510        0x0 /home/evsio0n/src/edk2sdm/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
+ .rela.ifunc    0x0000000000015510        0x0 /home/evsio0n/src/edk2sdm/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
+ .rela.data.mPrivateData
+                0x0000000000015510       0x60 /home/evsio0n/src/edk2sdm/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
+ .rela.rodata.mStatusString
+                0x0000000000015570      0x3a8 /home/evsio0n/src/edk2sdm/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
+
+.hii
+ *(.hii)
+
+.build-id       0x0000000000015918       0x24
+ *(.note.gnu.build-id)
+ .note.gnu.build-id
+                0x0000000000015918       0x24 /home/evsio0n/src/edk2sdm/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
+
+/DISCARD/
+ *(.note.GNU-stack)
+ *(.gnu_debuglink)
+ *(.interp)
+ *(.dynsym)
+ *(.dynstr)
+ *(.dynamic)
+ *(.hash .gnu.hash)
+ *(.comment)
+ *(COMMON)
+                0x0000000000000228                PECOFF_HEADER_SIZE = 0x228
+OUTPUT(/home/evsio0n/src/edk2sdm/Sdm835/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/MdeModulePkg/Universal/DisplayEngineDxe/DisplayEngineDxe/DEBUG/DisplayEngine.dll elf64-littleaarch64)
+
+.debug_info     0x0000000000000000    0x17044
+ .debug_info    0x0000000000000000    0x17044 /tmp/ccm5Mr2c.ltrans0.ltrans.o
+
+.debug_abbrev   0x0000000000000000      0x78e
+ .debug_abbrev  0x0000000000000000      0x78e /tmp/ccm5Mr2c.ltrans0.ltrans.o
+
+.debug_loc      0x0000000000000000    0x18680
+ .debug_loc     0x0000000000000000    0x18680 /tmp/ccm5Mr2c.ltrans0.ltrans.o
+
+.debug_aranges  0x0000000000000000      0x770
+ .debug_aranges
+                0x0000000000000000      0x770 /tmp/ccm5Mr2c.ltrans0.ltrans.o
+
+.debug_ranges   0x0000000000000000     0x2390
+ .debug_ranges  0x0000000000000000     0x2390 /tmp/ccm5Mr2c.ltrans0.ltrans.o
+
+.debug_line     0x0000000000000000     0x399a
+ .debug_line    0x0000000000000000     0x399a /tmp/ccm5Mr2c.ltrans0.ltrans.o
+
+.debug_str      0x0000000000000000     0x5219
+ .debug_str     0x0000000000000000     0x5219 /tmp/ccm5Mr2c.ltrans0.ltrans.o
+                                       0x5ad0 (松开之前的大小)
+
+.debug_frame    0x0000000000000000     0x1990
+ .debug_frame   0x0000000000000000     0x1990 /tmp/ccm5Mr2c.ltrans0.ltrans.o

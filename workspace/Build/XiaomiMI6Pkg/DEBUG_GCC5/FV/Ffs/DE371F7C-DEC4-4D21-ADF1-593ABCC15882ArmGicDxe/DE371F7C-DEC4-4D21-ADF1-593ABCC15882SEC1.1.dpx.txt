@@ -1,0 +1,1 @@
+GenSec -s EFI_SECTION_DXE_DEPEX -o /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/FV/Ffs/DE371F7C-DEC4-4D21-ADF1-593ABCC15882ArmGicDxe/DE371F7C-DEC4-4D21-ADF1-593ABCC15882SEC1.1.dpx /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Drivers/ArmGic/ArmGicDxe/OUTPUT/ArmGicDxe.depex

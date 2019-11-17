@@ -1,0 +1,1 @@
+GenSec -s EFI_SECTION_DXE_DEPEX -o /home/evsio0n/src/edk2sdm/Sdm835/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/FV/Ffs/2a7b4bef-80cd-49e1-b473-374ba4d673fcFVMAIN/2a7b4bef-80cd-49e1-b473-374ba4d673fcSEC1.dpx /home/evsio0n/src/edk2sdm/Sdm835/XiaomiMI6Pkg/Binary/SPMI/SPMI.depex

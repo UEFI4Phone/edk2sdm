@@ -1,0 +1,9 @@
+/home/evsio0n/src/edk2sdm/edk2/MdePkg/Library/BaseStackCheckLib/BaseStackCheckLib.inf
+/home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Library/PcdLib.h
+/home/evsio0n/src/edk2sdm/edk2/MdePkg/Library/BaseStackCheckLib/BaseStackCheckGcc.c
+/home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/AArch64/ProcessorBind.h
+/home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Library/BaseLib.h
+/home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Library/DebugLib.h
+/home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Base.h
+/home/evsio0n/src/edk2sdm/Sdm835/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseStackCheckLib/BaseStackCheckLib/DEBUG/AutoGen.h
+/home/evsio0n/src/edk2sdm/edk2/MdePkg/Library/BaseStackCheckLib/BaseStackCheckNull.c

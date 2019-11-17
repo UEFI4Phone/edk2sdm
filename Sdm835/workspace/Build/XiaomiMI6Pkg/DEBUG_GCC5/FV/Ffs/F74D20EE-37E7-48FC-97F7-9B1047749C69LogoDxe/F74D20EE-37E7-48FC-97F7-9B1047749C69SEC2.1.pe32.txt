@@ -1,0 +1,1 @@
+GenSec -s EFI_SECTION_PE32 -o /home/evsio0n/src/edk2sdm/Sdm835/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/FV/Ffs/F74D20EE-37E7-48FC-97F7-9B1047749C69LogoDxe/F74D20EE-37E7-48FC-97F7-9B1047749C69SEC2.1.pe32 /home/evsio0n/src/edk2sdm/Sdm835/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/XiaomiMI6Pkg/Drivers/LogoDxe/LogoDxe/OUTPUT/LogoDxe.efi

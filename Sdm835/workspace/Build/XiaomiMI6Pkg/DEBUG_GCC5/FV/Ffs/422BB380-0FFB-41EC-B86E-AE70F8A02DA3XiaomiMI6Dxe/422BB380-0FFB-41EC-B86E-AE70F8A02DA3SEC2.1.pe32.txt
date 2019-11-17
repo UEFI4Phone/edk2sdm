@@ -1,0 +1,1 @@
+GenSec -s EFI_SECTION_PE32 -o /home/evsio0n/src/edk2sdm/Sdm835/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/FV/Ffs/422BB380-0FFB-41EC-B86E-AE70F8A02DA3XiaomiMI6Dxe/422BB380-0FFB-41EC-B86E-AE70F8A02DA3SEC2.1.pe32 /home/evsio0n/src/edk2sdm/Sdm835/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/XiaomiMI6Pkg/XiaomiMI6Dxe/XiaomiMI6Dxe/OUTPUT/XiaomiMI6Dxe.efi
