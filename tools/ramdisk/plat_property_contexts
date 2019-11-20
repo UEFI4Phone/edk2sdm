@@ -1,0 +1,488 @@
+#line 1 "system/sepolicy/private/property_contexts"
+##########################
+# property service keys
+#
+#
+net.rmnet               u:object_r:net_radio_prop:s0
+net.gprs                u:object_r:net_radio_prop:s0
+net.ppp                 u:object_r:net_radio_prop:s0
+net.qmi                 u:object_r:net_radio_prop:s0
+net.lte                 u:object_r:net_radio_prop:s0
+net.cdma                u:object_r:net_radio_prop:s0
+net.dns                 u:object_r:net_dns_prop:s0
+sys.usb.config          u:object_r:system_radio_prop:s0
+ril.                    u:object_r:radio_prop:s0
+ro.ril.                 u:object_r:radio_prop:s0
+gsm.                    u:object_r:radio_prop:s0
+persist.radio           u:object_r:radio_prop:s0
+
+net.                    u:object_r:system_prop:s0
+dev.                    u:object_r:system_prop:s0
+ro.runtime.             u:object_r:system_prop:s0
+ro.runtime.firstboot    u:object_r:firstboot_prop:s0
+hw.                     u:object_r:system_prop:s0
+ro.hw.                  u:object_r:system_prop:s0
+sys.                    u:object_r:system_prop:s0
+sys.cppreopt            u:object_r:cppreopt_prop:s0
+sys.powerctl            u:object_r:powerctl_prop:s0
+sys.usb.ffs.            u:object_r:ffs_prop:s0
+service.                u:object_r:system_prop:s0
+dhcp.                   u:object_r:dhcp_prop:s0
+dhcp.bt-pan.result      u:object_r:pan_result_prop:s0
+bluetooth.              u:object_r:bluetooth_prop:s0
+
+debug.                  u:object_r:debug_prop:s0
+debug.db.               u:object_r:debuggerd_prop:s0
+dumpstate.              u:object_r:dumpstate_prop:s0
+dumpstate.options       u:object_r:dumpstate_options_prop:s0
+log.                    u:object_r:log_prop:s0
+log.tag                 u:object_r:log_tag_prop:s0
+log.tag.WifiHAL         u:object_r:wifi_log_prop:s0
+security.perf_harden    u:object_r:shell_prop:s0
+service.adb.root        u:object_r:shell_prop:s0
+service.adb.tcp.port    u:object_r:shell_prop:s0
+
+persist.audio.          u:object_r:audio_prop:s0
+persist.bluetooth.      u:object_r:bluetooth_prop:s0
+persist.debug.          u:object_r:persist_debug_prop:s0
+persist.logd.           u:object_r:logd_prop:s0
+ro.logd.                u:object_r:logd_prop:s0
+persist.logd.security   u:object_r:device_logging_prop:s0
+persist.logd.logpersistd        u:object_r:logpersistd_logging_prop:s0
+logd.logpersistd        u:object_r:logpersistd_logging_prop:s0
+persist.log.tag         u:object_r:log_tag_prop:s0
+persist.mmc.            u:object_r:mmc_prop:s0
+persist.netd.stable_secret      u:object_r:netd_stable_secret_prop:s0
+persist.sys.            u:object_r:system_prop:s0
+persist.sys.safemode    u:object_r:safemode_prop:s0
+ro.sys.safemode         u:object_r:safemode_prop:s0
+persist.sys.audit_safemode      u:object_r:safemode_prop:s0
+persist.service.        u:object_r:system_prop:s0
+persist.service.bdroid. u:object_r:bluetooth_prop:s0
+persist.security.       u:object_r:system_prop:s0
+persist.traced.enable   u:object_r:traced_enabled_prop:s0
+persist.vendor.overlay.  u:object_r:overlay_prop:s0
+ro.boot.vendor.overlay.  u:object_r:overlay_prop:s0
+ro.boottime.             u:object_r:boottime_prop:s0
+ro.serialno             u:object_r:serialno_prop:s0
+ro.boot.btmacaddr       u:object_r:bluetooth_prop:s0
+ro.boot.serialno        u:object_r:serialno_prop:s0
+ro.bt.                  u:object_r:bluetooth_prop:s0
+ro.boot.bootreason      u:object_r:bootloader_boot_reason_prop:s0
+persist.sys.boot.reason u:object_r:last_boot_reason_prop:s0
+sys.boot.reason         u:object_r:system_boot_reason_prop:s0
+pm.                     u:object_r:pm_prop:s0
+test.sys.boot.reason    u:object_r:test_boot_reason_prop:s0
+
+# Boolean property set by system server upon boot indicating
+# if device owner is provisioned.
+ro.device_owner         u:object_r:device_logging_prop:s0
+
+# selinux non-persistent properties
+selinux.restorecon_recursive   u:object_r:restorecon_prop:s0
+
+# default property context
+*                       u:object_r:default_prop:s0
+
+# data partition encryption properties
+vold.                   u:object_r:vold_prop:s0
+ro.crypto.              u:object_r:vold_prop:s0
+
+# ro.build.fingerprint is either set in /system/build.prop, or is
+# set at runtime by system_server.
+ro.build.fingerprint    u:object_r:fingerprint_prop:s0
+
+ro.persistent_properties.ready  u:object_r:persistent_properties_ready_prop:s0
+
+# ctl properties
+ctl.bootanim            u:object_r:ctl_bootanim_prop:s0
+ctl.android.hardware.dumpstate u:object_r:ctl_dumpstate_prop:s0
+ctl.dumpstate           u:object_r:ctl_dumpstate_prop:s0
+ctl.fuse_               u:object_r:ctl_fuse_prop:s0
+ctl.mdnsd               u:object_r:ctl_mdnsd_prop:s0
+ctl.ril-daemon          u:object_r:ctl_rildaemon_prop:s0
+ctl.bugreport           u:object_r:ctl_bugreport_prop:s0
+ctl.console             u:object_r:ctl_console_prop:s0
+ctl.                    u:object_r:ctl_default_prop:s0
+
+# Don't allow blind access to all services
+ctl.sigstop_on$         u:object_r:ctl_sigstop_prop:s0
+ctl.sigstop_off$        u:object_r:ctl_sigstop_prop:s0
+ctl.start$              u:object_r:ctl_start_prop:s0
+ctl.stop$               u:object_r:ctl_stop_prop:s0
+ctl.restart$            u:object_r:ctl_restart_prop:s0
+ctl.interface_start$    u:object_r:ctl_interface_start_prop:s0
+ctl.interface_stop$     u:object_r:ctl_interface_stop_prop:s0
+ctl.interface_restart$  u:object_r:ctl_interface_restart_prop:s0
+
+# NFC properties
+nfc.                    u:object_r:nfc_prop:s0
+
+# These properties are not normally set by processes other than init.
+# They are only distinguished here for setting by qemu-props on the
+# emulator/goldfish.
+config.                 u:object_r:config_prop:s0
+ro.config.              u:object_r:config_prop:s0
+dalvik.                 u:object_r:dalvik_prop:s0
+ro.dalvik.              u:object_r:dalvik_prop:s0
+
+# Shared between system server and wificond
+wlan.                   u:object_r:wifi_prop:s0
+
+# Lowpan properties
+lowpan.                 u:object_r:lowpan_prop:s0
+ro.lowpan.              u:object_r:lowpan_prop:s0
+
+# hwservicemanager properties
+hwservicemanager.       u:object_r:hwservicemanager_prop:s0
+
+# Common default properties for vendor and odm.
+init.svc.odm.           u:object_r:vendor_default_prop:s0
+init.svc.vendor.        u:object_r:vendor_default_prop:s0
+ro.hardware.            u:object_r:vendor_default_prop:s0
+ro.odm.                 u:object_r:vendor_default_prop:s0
+ro.vendor.              u:object_r:vendor_default_prop:s0
+odm.                    u:object_r:vendor_default_prop:s0
+persist.odm.            u:object_r:vendor_default_prop:s0
+persist.vendor.         u:object_r:vendor_default_prop:s0
+vendor.                 u:object_r:vendor_default_prop:s0
+#line 1 "vendor/samsung/system/sepolicy/private/samsung/property_contexts"
+# http://mobilerndhub.sec.samsung.net/hub/site/seandroid/board/O_review_request/view/22169392
+secmm.player.aiastate	u:object_r:secmm_prop:s0
+secmm.                  u:object_r:secmm_prop:s0
+
+# http://mobilerndhub.sec.samsung.net/hub/site/seandroid/board/O_review_request/view/22225424/?page=1
+ctl.factory_ssc                                 u:object_r:ctl_factory_ssc_prop:s0
+
+# http://mobilerndhub.sec.samsung.net/hub/site/seandroid/board/O_review_request/view/22302925
+persist.log.seclevel		u:object_r:seclevel_prop:s0
+
+# http://mobilerndhub.sec.samsung.net/hub/site/seandroid/board/O_review_request/view/22317020
+ctl.redsocks             u:object_r:ctl_redsocks_prop:s0
+
+# http://mobilerndhub.sec.samsung.net/hub/site/seandroid/board/O_review_request/view/22340846
+# # board/N_review_request/view/21944881
+ctl.apexserver			 u:object_r:ctl_apexserver_prop:s0
+
+# http://mobilerndhub.sec.samsung.net/hub/site/seandroid/board/O_review_request/view/22413194
+persist.security.ccmextra	 u:object_r:ccm_prop:s0
+
+# http://mobilerndhub.sec.samsung.net/hub/site/seandroid/board/O_review_request/view/22416016
+sys.tzdaemon                    u:object_r:tzdaemon_prop:s0
+
+# http://mobilerndhub.sec.samsung.net/hub/site/seandroid/board/N_review_request/view/22409724
+ro.boot.cp_reserved_mem          u:object_r:cp_reserved_mem_prop:s0
+
+# http://mobilerndhub.sec.samsung.net/hub/site/seandroid/board/O_review_request/view/22466456
+# Requester: sy.csy.cheon@samsung.com
+facm.           u:object_r:facm_prop:s0
+
+# SPD Setup; O OS
+selinux.                       u:object_r:security_prop:s0
+
+# http://mobilerndhub.sec.samsung.net/hub/site/seandroid/board/O_treble_review_request/view/22616833
+vendor.sensor.                       u:object_r:vendor_sensor_prop:s0
+
+# http://mobilerndhub.sec.samsung.net/its/browse/SEANDROID-1170
+ro.factory.sensor.                       u:object_r:vendor_sensor_prop:s0
+
+# http://mobilerndhub.sec.samsung.net/hub/site/seandroid/board/O_review_request/view/22721715
+sec.factory.facm.                      u:object_r:sec_factory_facm_prop:s0
+
+# http://mobilerndhub.sec.samsung.net/hub/site/seandroid/board/O_review_request/view/22726878
+# vendor.vidc.enc. has been managed as system_prop by qualcomm
+vendor.vidc.enc.csc.enable             u:object_r:system_prop:s0
+
+# mdm reload property, it never used on User binary
+persist.security.mdm.policy             u:object_r:security_sepolicy_prop:s0
+
+# http://mobilerndhub.sec.samsung.net/hub/site/seandroid/board/O_review_request/view/22963489
+persist.vendor.camera.feature.cac    u:object_r:sec_camera_prop:s0
+
+# P OS Setup from SLSI BSP
+# persist.ril. u:object_r:rild_prop:s0
+
+# http://mobilerndhub.sec.samsung.net/hub/site/seandroid/board/P_review_request/view/23181792/?page=1
+# CSC feature related peroperty
+persist.sys.omc_byod                     u:object_r:csc_prop:s0
+persist.sys.omc_etcpath                  u:object_r:csc_prop:s0
+persist.sys.omc_path                     u:object_r:csc_prop:s0
+persist.sys.omc_respath                  u:object_r:csc_prop:s0
+persist.sys.omc_support                  u:object_r:csc_prop:s0
+persist.sys.omcnw_path                   u:object_r:csc_prop:s0
+persist.sys.omcnw_path2                  u:object_r:csc_prop:s0
+ril.official_cscver                      u:object_r:csc_prop:s0
+ro.csc.country_code                      u:object_r:csc_prop:s0
+ro.csc.countryiso_code                   u:object_r:csc_prop:s0
+ro.csc.omcnw_code                        u:object_r:csc_prop:s0
+ro.csc.omcnw_code2                       u:object_r:csc_prop:s0
+ro.csc.sales_code                        u:object_r:csc_prop:s0
+ro.omc.img_mount                         u:object_r:csc_prop:s0
+ro.omc.build.version                     u:object_r:csc_prop:s0
+ro.omc.build.id                          u:object_r:csc_prop:s0
+ro.omc.changetype                        u:object_r:csc_prop:s0
+ro.simbased.changetype                   u:object_r:csc_prop:s0
+ro.omc.disabler                          u:object_r:csc_prop:s0
+ro.omc.region                            u:object_r:csc_prop:s0
+# http://mobilerndhub.sec.samsung.net/hub/site/seandroid/board/P_review_request/view/23444079
+persist.sys.omc_root                     u:object_r:csc_prop:s0
+# http://mobilerndhub.sec.samsung.net/hub/site/seandroid/board/P_review_request/view/23423477
+ro.csc.facebook.partnerid                u:object_r:csc_prop:s0
+
+# http://mobilerndhub.sec.samsung.net/hub/site/seandroid/board/P_review_request/view/23226025/?page=1
+# denial notice : audit.ondenial
+audit.ondenial                           u:object_r:denial_prop:s0
+
+# http://mobilerndhub.sec.samsung.net/hub/site/seandroid/board/P_review_request/view/23226493/?page=1
+persist.ril.                             u:object_r:radio_prop:s0
+
+
+# http://mobilerndhub.sec.samsung.net/hub/site/seandroid/board/P_review_request/view/23248420/?page=1
+persist.sys.members.logging              u:object_r:radio_prop:s0
+dev.silentlog.on                         u:object_r:radio_prop:s0
+persist.sys.softsim.status               u:object_r:radio_prop:s0
+
+# http://mobilerndhub.sec.samsung.net/hub/site/seandroid/board/P_review_request/view/23249017
+system.camera.CC.                            u:object_r:sec_camera_prop:s0
+service.camera.                              u:object_r:sec_camera_prop:s0
+
+# http://mobilerndhub.sec.samsung.net/hub/site/seandroid/board/P_review_request/view/23259367
+recovery.                       u:object_r:recovery_prop:s0
+security.                       u:object_r:system_security_prop:s0
+
+# http://mobilerndhub.sec.samsung.net/its/browse/SEANDROID-816
+ro.recovery.                    u:object_r:recovery_prop:s0
+
+# http://mobilerndhub.sec.samsung.net/hub/site/seandroid/board/P_review_request/view/23261543
+# http://mobilerndhub.sec.samsung.net/hub/site/seandroid/board/P_review_request/view/23261444
+# http://mobilerndhub.sec.samsung.net/its/browse/SEANDROID-845
+vendor.sys.mobicoredaemon.      u:object_r:mobicore_prop:s0
+vendor.sys.mobicore.            u:object_r:mobicore_prop:s0
+sys.mobicoredaemon.             u:object_r:mobicore_prop:s0
+
+# http://mobilerndhub.sec.samsung.net/hub/site/seandroid/board/P_review_request/view/23278971
+persist.sys.camera.                      u:object_r:sec_camera_prop:s0
+
+# http://mobilerndhub.sec.samsung.net/hub/site/seandroid/board/P_review_request/view/23288143
+ro.security.                    u:object_r:system_security_prop:s0
+
+# http://mobilerndhub.sec.samsung.net/hub/site/seandroid/board/P_review_request/view/23277007
+ro.multisim.                     u:object_r:multisim_prop:s0
+
+# http://mobilerndhub.sec.samsung.net/hub/site/seandroid/board/P_review_request/view/23320157
+ril.NwNmId                     u:object_r:csc_prop:s0
+ril.NwNmId2                    u:object_r:csc_prop:s0
+
+# http://mobilerndhub.sec.samsung.net/hub/site/seandroid/board/P_review_request/view/23324212
+persist.timed.enable           u:object_r:sec_timed_prop:s0
+
+# http://mobilerndhub.sec.samsung.net/hub/site/seandroid/board/P_review_request/view/23344749
+ro.product_ship                          u:object_r:product_ship_prop:s0
+ro.boot.debug_level                      u:object_r:debug_level_prop:s0
+
+# http://mobilerndhub.sec.samsung.net/hub/site/seandroid/board/P_review_request/view/23360849
+persist.app.permission.monitor u:object_r:apm_prop:s0
+
+# http://mobilerndhub.sec.samsung.net/hub/site/seandroid/board/P_review_request/view/23364999/?page=1
+sec.fle.encryption.status               u:object_r:encryption_prop:s0
+
+# For Linux_on_Dex
+# http://mobilerndhub.sec.samsung.net/hub/site/seandroid/board/P_review_request/view/23373465
+linux_on_dex	                        u:object_r:lxd_prop:s0
+linux_on_dex_version	                u:object_r:lxd_prop:s0
+lxd.                                    u:object_r:lxd_prop:s0
+
+# http://mobilerndhub.sec.samsung.net/hub/site/seandroid/board/P_review_request/view/23366478
+ro.hardware.chipname          u:object_r:exported_default_prop:s0 exact string
+
+# http://mobilerndhub.sec.samsung.net/hub/site/seandroid/board/P_review_request/view/23387748
+storage.support.              u:object_r:storage_support_prop:s0
+
+# http://mobilerndhub.sec.samsung.net/hub/site/seandroid/board/P_review_request/view/23388835/?page=1
+ro.rfkilldisabled             u:object_r:rfkilldisabled_prop:s0
+
+# http://mobilerndhub.sec.samsung.net/hub/site/seandroid/board/P_review_request/view/23387618
+# http://mobilerndhub.sec.samsung.net/hub/site/seandroid/board/P_review_request/view/23402441
+ro.vzw.sys.sw_ver                           u:object_r:vzw_sys_prop:s0
+ro.vzw.sys.hw_ver                           u:object_r:vzw_sys_prop:s0
+ro.vzw.sys.singlesku                        u:object_r:vzw_sys_prop:s0
+
+# http://mobilerndhub.sec.samsung.net/hub/site/seandroid/board/P_review_request/view/23389976/?page=1
+persist.crypto.ucs                          u:object_r:ucs_prop:s0
+persist.crypto.aid.ucs                      u:object_r:ucs_prop:s0
+persist.keyguard.ucs                        u:object_r:ucs_prop:s0
+persist.keyguard.ucs.csname                 u:object_r:ucs_prop:s0
+persist.security.ucs                        u:object_r:ucs_prop:s0
+persist.security.ucs.csname                 u:object_r:ucs_prop:s0
+
+# http://mobilerndhub.sec.samsung.net/hub/site/seandroid/board/P_review_request/view/23388835
+sys.bluetooth.tty                           u:object_r:sec_bluetooth_prop:s0
+
+# http://mobilerndhub.sec.samsung.net/hub/site/seandroid/board/P_review_request/view/23389695
+hostapd.                                    u:object_r:sec_wifi_prop:s0
+
+# http://mobilerndhub.sec.samsung.net/hub/site/seandroid/board/P_review_request/view/23391608
+ro.csc.oath.partnerid                      u:object_r:csc_prop:s0
+ro.csc.amazon.partnerid                    u:object_r:csc_prop:s0
+
+# http://mobilerndhub.sec.samsung.net/hub/site/seandroid/board/P_review_request/view/23406684
+ro.config.systemaudiodebug                 u:object_r:exported_config_prop:s0 exact string
+
+# http://mobilerndhub.sec.samsung.net/hub/site/seandroid/board/P_review_request/view/23408427
+ro.com.google.clientidbase            u:object_r:clientidbase_prop:s0
+
+# http://mobilerndhub.sec.samsung.net/hub/site/seandroid/board/P_review_request/view/23439247/?page=1
+ro.setupwizard.                       u:object_r:setupwizard_prop:s0
+setupwizard.                          u:object_r:setupwizard_prop:s0
+ro.com.google.gmsversion              u:object_r:exported3_default_prop:s0
+
+# http://mobilerndhub.sec.samsung.net/hub/site/seandroid/board/P_review_request/view/23421198
+ro.hardware.face          u:object_r:exported_default_prop:s0 exact string
+
+# http://mobilerndhub.sec.samsung.net/hub/site/seandroid/board/P_review_request/view/23445085
+persist.ims.mock.               u:object_r:sec_ims_prop:s0
+persist.ims.gcfmode             u:object_r:sec_ims_prop:s0
+# http://mobilerndhub.sec.samsung.net/its/browse/SEANDROID-663
+persist.ims.pctmode             u:object_r:sec_ims_prop:s0
+
+# http://mobilerndhub.sec.samsung.net/hub/site/seandroid/board/P_review_request/view/23452236/?page=1
+ro.product.first_api_level      u:object_r:domain_read_prop:s0
+
+# http://mobilerndhub.sec.samsung.net/hub/site/seandroid/board/P_review_request/view/23486707
+ro.em.version                   u:object_r:em_version_prop:s0
+
+# http://mobilerndhub.sec.samsung.net/hub/site/seandroid/board/P_review_request/view/23485755
+sys.tzts_daemon           u:object_r:tztsdaemon_prop:s0
+
+# http://mobilerndhub.sec.samsung.net/hub/site/seandroid/board/P_review_request/view/23525660
+score.time                u:object_r:score_prop:s0
+
+# http://mobilerndhub.sec.samsung.net/hub/site/seandroid/board/P_review_request/view/23586059
+ro.storage.support.sdcard        u:object_r:storage_support_prop:s0
+
+# http://mobilerndhub.sec.samsung.net/hub/site/seandroid/board/P_review_request/view/23614465 
+ro.sts.property                 u:object_r:sts_prop:s0
+
+# http://mobilerndhub.sec.samsung.net/its/browse/SEANDROID-315
+ro.cfg.                         u:object_r:config_prop:s0
+
+# http://mobilerndhub.sec.samsung.net/its/browse/SEANDROID-330
+sys.cameramode.                     u:object_r:sec_camera_prop:s0
+ro.build.PDA                        u:object_r:exported2_default_prop:s0 exact string
+# http://mobilerndhub.sec.samsung.net/its/browse/SEANDROID-1149
+ro.boot.cpboot                      u:object_r:exported2_default_prop:s0 exact string
+
+ro.camera.res.fmq.size              u:object_r:sec_camera_prop:s0
+ro.camera.req.fmq.size              u:object_r:sec_camera_prop:s0
+
+# http://mobilerndhub.sec.samsung.net/its/browse/SEANDROID-411
+persist.nfc.                        u:object_r:nfc_prop:s0
+
+# http://mobilerndhub.sec.samsung.net/its/browse/SEANDROID-405
+vzw.os.rooted                       u:object_r:vzw_os_prop:s0
+
+# http://mobilerndhub.sec.samsung.net/its/browse/SEANDROID-470
+net.knox.nap                   u:object_r:knox_npa_prop:s0
+
+# http://mobilerndhub.sec.samsung.net/its/browse/SEANDROID-503
+ro.device.wapprofile.url       u:object_r:wapprofile_prop:s0
+
+# http://mobilerndhub.sec.samsung.net/its/browse/SEANDROID-570
+persist.omc.skip_code           u:object_r:csc_prop:s0
+
+# http://mobilerndhub.sec.samsung.net/its/browse/SEANDROID-583
+ro.product.brand1           u:object_r:system_prop:s0
+
+# http://mobilerndhub.sec.samsung.net/its/browse/SEANDROID-557
+boot.sfbootcomplete            u:object_r:sec_bootanim_prop:s0
+service.bootanim.exit          u:object_r:sec_bootanim_prop:s0
+
+# http://mobilerndhub.sec.samsung.net/its/browse/SEANDROID-622
+iwc.                  u:object_r:debug_prop:s0
+
+# http://mobilerndhub.sec.samsung.net/its/browse/SEANDROID-235
+ro.csc.rsuenabled            u:object_r:csc_prop:s0
+
+# http://mobilerndhub.sec.samsung.net/its/browse/SEANDROID-705
+ro.vramdiskd.               u:object_r:vramdiskd_prop:s0
+
+# http://mobilerndhub.sec.samsung.net/its/browse/SEANDROID-737
+ro.sf.init.lcd_density      u:object_r:exported3_default_prop:s0 exact int
+
+# http://mobilerndhub.sec.samsung.net/its/browse/SEANDROID-736
+ro.hardware.audio.tms                 u:object_r:exported_default_prop:s0 exact string
+ro.hardware.audio.playback_record     u:object_r:exported_default_prop:s0 exact string
+
+# http://mobilerndhub.sec.samsung.net/its/browse/SEANDROID-849
+ro.vendor.camera.wrapper.hal3TrebleMinorVersion   u:object_r:sec_camera_prop:s0
+
+# http://mobilerndhub.sec.samsung.net/its/browse/SEANDROID-941
+cameradaemon.SaveMemAtBoot        u:object_r:sec_camera_prop:s0
+persist.capture.burst.exposures   u:object_r:sec_camera_prop:s0
+persist.denoise.process.plates    u:object_r:sec_camera_prop:s0
+persist.partial.skip              u:object_r:sec_camera_prop:s0
+persist.tnr.process.plates        u:object_r:sec_camera_prop:s0
+disable.cpp.power.collapse        u:object_r:sec_camera_prop:s0
+cpp.set.clock                     u:object_r:sec_camera_prop:s0
+
+# http://mobilerndhub.sec.samsung.net/its/browse/SEANDROID-1003
+sys.lmk.minfree_levels            u:object_r:lmk_prop:s0
+
+# http://mobilerndhub.sec.samsung.net/its/browse/SEANDROID-1050
+ssu.                             u:object_r:ssud_prop:s0
+
+# http://mobilerndhub.sec.samsung.net/its/browse/SEANDROID-1188
+astar.cam                     u:object_r:sec_camera_prop:s0
+persist.debug.sf.showfps                     u:object_r:sec_camera_prop:s0
+persist.cam.pp.feat.mask                     u:object_r:sec_camera_prop:s0
+persist.enable.max.pending.buf              u:object_r:sec_camera_prop:s0
+
+# http://mobilerndhub.sec.samsung.net/its/browse/SEANDROID-1300
+ro.fm_record_volume                     u:object_r:sec_audio_prop:s0
+ro.audio.usb.period_us                  u:object_r:sec_audio_prop:s0
+
+# http://mobilerndhub.sec.samsung.net/its/browse/SEANDROID-1386
+ofi.dal.time                     u:object_r:vendor_ofi_prop:s0
+vendor.ofi.rt_framework.dbgmask  u:object_r:vendor_ofi_prop:s0
+
+#line 1 "vendor/samsung/system/sepolicy/BSP/qcom/sepolicy/common/private/property_contexts"
+# http://mobilerndhub.sec.samsung.net/hub/site/seandroid/board/P_review_request/view/23261381
+vendor.sys.pvclicense.               u:object_r:system_prop:s0
+#line 1 "device/qcom/sepolicy/private/property_contexts"
+# Copyright (c) 2017, The Linux Foundation. All rights reserved.
+#
+# Redistribution and use in source and binary forms, with or without
+# modification, are permitted provided that the following conditions are
+# met:
+#     * Redistributions of source code must retain the above copyright
+#       notice, this list of conditions and the following disclaimer.
+#     * Redistributions in binary form must reproduce the above
+#       copyright notice, this list of conditions and the following
+#       disclaimer in the documentation and/or other materials provided
+#       with the distribution.
+#     * Neither the name of The Linux Foundation nor the names of its
+#       contributors may be used to endorse or promote products derived
+#       from this software without specific prior written permission.
+#
+# THIS SOFTWARE IS PROVIDED "AS IS" AND ANY EXPRESS OR IMPLIED
+# WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF
+# MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NON-INFRINGEMENT
+# ARE DISCLAIMED.  IN NO EVENT SHALL THE COPYRIGHT OWNER OR CONTRIBUTORS
+# BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR
+# CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF
+# SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR
+# BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY,
+# WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE
+# OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN
+# IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+
+persist.vendor.dpm.        u:object_r:persist_dpm_prop:s0
+persist.vendor.khung.disable u:object_r:persist_khung_prop:s0
+#persist.vendor.bluetooth.  u:object_r:vendor_bt_prop:s0
+persist.vendor.btstack      u:object_r:bluetooth_prop:s0
+persist.vendor.bluetooth.emailaccountcount u:object_r:bluetooth_prop:s0
+persist.vendor.bt.a2dp.    u:object_r:bluetooth_prop:s0
+vendor.bt.pts.             u:object_r:bluetooth_prop:s0
+persist.vendor.service.bt. u:object_r:bluetooth_prop:s0
+ro.vendor.btstack.         u:object_r:bluetooth_prop:s0
+vendor.bluetooth.          u:object_r:bluetooth_prop:s0

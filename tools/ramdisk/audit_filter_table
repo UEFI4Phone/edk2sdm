@@ -1,0 +1,440 @@
+#
+# usage : auditfilter source(group) target(group):class(group) permission(group);	[dev|path|name|comm|mlscheck]=value(including " character) - each item should be devided by ' ' or '\t'.
+# ex) auditfilter { system_app platform_app } { app_data_file system_app_data_file }:{ dir file } { read write };	dev="proc"	name="com.sec.android.inputmethod"	path="/data/system/users/100.xml"	mlscheck=2
+#
+# ex) auditfilter * * *: *; //this means will be filtered all of denials
+# please don't use * value on the scontexts as possible.
+#
+# mlscheck = 0 - don't compare security level
+#            1 - will be filtered when source and target security level are same.
+#            2 - will be filtered when source and target security level are NOT same.
+#
+#
+########### WARNING ###########
+#
+# 1. source and target SHOULD be TYPE, not ATTRIBUTE.
+# 2. SHOULD NOT use '~' character and '{ domain -domain }' statement.
+# 3. count(source) * count(target) * count(class) * count(perm) MUST BE LESS THAN THRESHOLD(100000)
+#
+
+# P180807-04836
+auditfilter hal_wifi_supplicant_default product_ship_prop:file { read }; comm="wpa_supplicant"
+# P180807-04786
+auditfilter radio sysfs_android_usb:dir search; comm="m.android.phone"
+
+# http://mobilerndhub.sec.samsung.net/hub/site/seandroid/board/P_review_request/view/23399073
+auditfilter hal_drm_default media_data_file:dir search;
+# http://mobilerndhub.sec.samsung.net/its/browse/SEANDROID-326
+auditfilter hal_drm_default apk_data_file:dir search;
+
+# http://mobilerndhub.sec.samsung.net/hub/site/seandroid/board/P_review_request/view/23485627
+auditfilter webview_zygote users_system_data_file:dir search; comm="webview_zygote"
+
+# http://mobilerndhub.sec.samsung.net/hub/site/seandroid/board/P_review_request/view/23571183
+auditfilter radio radio_data_file:file execute;
+
+# http://mobilerndhub.sec.samsung.net/hub/site/seandroid/board/P_review_request/view/23610533 
+auditfilter system_app apk_data_file:dir write;
+
+# http://mobilerndhub.sec.samsung.net/hub/site/seandroid/board/P_review_request/view/23611821/ 
+auditfilter system_app system_app:capability net_admin;
+
+# P180928-07044
+auditfilter platform_app sec_ims_prop:file read;
+
+# P181002-05622
+auditfilter radio sec_wifi_data_file:dir search;
+auditfilter radio bluetooth_prop:file read;
+
+# http://mobilerndhub.sec.samsung.net/its/browse/SEANDROID-88
+auditfilter storaged knox_system_misc_file:dir { search read write };
+
+# http://mobilerndhub.sec.samsung.net/hub/site/seandroid/board/P_review_request/view/23673888
+auditfilter webview_zygote zygote:unix_dgram_socket write; comm="webview_zygote"
+
+# http://mobilerndhub.sec.samsung.net/hub/site/seandroid/board/P_review_request/view/23674224
+auditfilter zygote untrusted_app_27:process ptrace;
+
+# http://mobilerndhub.sec.samsung.net/its/browse/SEANDROID-383
+auditfilter platform_app proc_version:file read;
+
+# http://mobilerndhub.sec.samsung.net/its/browse/SEANDROID-407
+auditfilter platform_app asec_apk_file:dir read;
+
+# request :cklim63@samsung.com
+auditfilter shell mnt_vendor_file:dir search; 
+
+# http://mobilerndhub.sec.samsung.net/its/browse/SEANDROID-423
+auditfilter hal_drm_default system_app_data_file:file write;
+
+# http://mobilerndhub.sec.samsung.net/its/browse/SEANDROID-454
+auditfilter netd proc_net:dir add_name;
+
+# http://mobilerndhub.sec.samsung.net/its/browse/SEANDROID-444
+auditfilter vold mnt_vendor_file:dir search;
+# http://mobilerndhub.sec.samsung.net/its/browse/SEANDROID-853
+auditfilter vold firmware_file:filesystem getattr;
+auditfilter vold carrier_file:dir getattr;
+
+# http://mobilerndhub.sec.samsung.net/its/browse/SEANDROID-430
+# Neverallow
+auditfilter hal_configstore_default dumpstate:unix_stream_socket { read write };
+
+# http://mobilerndhub.sec.samsung.net/its/browse/SEANDROID-527
+auditfilter fsck_untrusted steady_block_device:blk_file read;
+
+# http://mobilerndhub.sec.samsung.net/its/browse/SEANDROID-536
+auditfilter platform_app rootfs:dir read;
+auditfilter platform_app mobicore_file:dir { getattr read open };
+auditfilter platform_app mobicore_file:file getattr;
+auditfilter platform_app security_system_file:dir getattr;
+
+# http://mobilerndhub.sec.samsung.net/its/browse/SEANDROID-547
+auditfilter system_app encryption_prop:file { getattr read open };
+
+# http://mobilerndhub.sec.samsung.net/its/browse/SEANDROID-555
+auditfilter hal_camera_default vendor_debug_egl_prop:file read;
+
+# http://mobilerndhub.sec.samsung.net/its/browse/SEANDROID-566
+auditfilter hal_perf_default hal_perf_default:capability dac_override;
+
+# http://mobilerndhub.sec.samsung.net/its/browse/SEANDROID-450
+auditfilter system_app perfprofd:binder call;
+
+# http://mobilerndhub.sec.samsung.net/its/browse/SEANDROID-595
+auditfilter platform_app sepolicy_file:file getattr;
+auditfilter platform_app file_contexts_file:file getattr;
+auditfilter platform_app info_extra_system_file:file getattr;
+auditfilter platform_app hwservice_contexts_file:file getattr;
+auditfilter platform_app service_contexts_file:file getattr;
+auditfilter platform_app seapp_contexts_file:file getattr;
+auditfilter platform_app mac_perms_file:file getattr;
+auditfilter platform_app mnt_vendor_file:dir getattr;
+auditfilter platform_app mobicore_file:dir { read getattr };
+auditfilter platform_app vendor_firmware_file:dir { read getattr };
+auditfilter platform_app security_system_file:dir { getattr read };
+auditfilter platform_app dqmdbgblk_file:dir getattr;
+
+# http://mobilerndhub.sec.samsung.net/its/browse/SEANDROID-536
+auditfilter platform_app keydata_data_file:dir getattr;
+auditfilter platform_app keyrefuge_data_file:dir getattr;
+auditfilter platform_app configfs:dir read;
+
+# http://mobilerndhub.sec.samsung.net/its/browse/SEANDROID-613
+auditfilter apexserver dumplog_data_file:dir write;
+
+# http://mobilerndhub.sec.samsung.net/its/browse/SEANDROID-645
+# avc:  denied  { relabelfrom } for  pid=11106 comm="rild" scontext=u:r:rild:s0 tcontext=u:r:eris:s0 tclass=tun_socket permissive=0 SEPF_SM-N960F_9_0000 unfiltered
+auditfilter rild eris:tun_socket relabelfrom; comm="rild"
+
+# http://mobilerndhub.sec.samsung.net/its/browse/SEANDROID-678
+auditfilter hal_perf_default dumpstate:fd use;
+
+# http://mobilerndhub.sec.samsung.net/its/browse/SEANDROID-393
+auditfilter platform_app debugfs:dir read;
+
+# http://mobilerndhub.sec.samsung.net/its/browse/SEANDROID-703
+auditfilter tzdaemon system_app:unix_stream_socket connectto;
+
+# DEV P181025-06269
+auditfilter idmap sdcardfs:file read;
+# http://mobilerndhub.sec.samsung.net/its/browse/SEANDROID-1095
+auditfilter idmap dalvikcache_data_file:file { read write };
+
+# http://mobilerndhub.sec.samsung.net/its/browse/SEANDROID-724
+auditfilter radio app_data_file:file execute;
+ 
+# P181106-05697
+auditfilter platform_app proc_asound:dir search;
+auditfilter platform_app proc_fslog:dir search;
+auditfilter platform_app proc_meminfo:dir search;
+
+# http://mobilerndhub.sec.samsung.net/its/browse/SEANDROID-747
+auditfilter hal_sensors_default system_data_file:dir write;
+
+# http://mobilerndhub.sec.samsung.net/its/browse/SEANDROID-766
+auditfilter qti_init_shell qti_init_shell:capability dac_override;
+
+# http://mobilerndhub.sec.samsung.net/its/browse/SEANDROID-813
+auditfilter hal_graphics_composer_default dumplog_data_file:dir search;
+
+# P181116-05496, P181108-00729 
+auditfilter qti_init_shell default_prop:file { open read getattr };
+
+# http://mobilerndhub.sec.samsung.net/its/browse/SEANDROID-834
+auditfilter system_app vendor_firmware_file:file read;
+
+# P181116-08061 
+auditfilter shell mnt_vendor_file:lnk_file { open read getattr };
+
+# http://mobilerndhub.sec.samsung.net/its/browse/SEANDROID-899
+auditfilter system_app dalvikcache_data_file:file write;
+
+# http://mobilerndhub.sec.samsung.net/its/browse/SEANDROID-911
+auditfilter platform_app mnt_vendor_file:lnk_file read;
+auditfilter platform_app mnt_vendor_file:dir search;
+auditfilter platform_app tee_file:dir getattr;
+
+# http://mobilerndhub.sec.samsung.net/its/browse/SEANDROID-926
+auditfilter platform_app tee_file:dir { open read getattr search };
+auditfilter platform_app tee_file:file { open read getattr };
+auditfilter platform_app security_system_file:dir { open read getattr search };
+auditfilter platform_app security_system_file:file { open read getattr };
+auditfilter platform_app debugfs:dir open;
+auditfilter platform_app debugfs:file getattr;
+auditfilter platform_app debugfs_wakeup_sources:file getattr;
+auditfilter platform_app vendor_regmap_debugfs:file getattr;
+auditfilter platform_app vendor_ion_debugfs:file getattr;
+auditfilter platform_app sec_debugfs:dir { read open };
+auditfilter platform_app sec_debugfs:file getattr;
+auditfilter platform_app debugfs_tracing_debug:dir { read open getattr };
+auditfilter platform_app debugfs_tracing:file getattr;
+auditfilter platform_app debugfs_trace_marker:file getattr;
+
+# http://mobilerndhub.sec.samsung.net/its/browse/SEANDROID-935
+auditfilter hal_audio_default diag_device:chr_file { read write };
+
+# http://mobilerndhub.sec.samsung.net/its/browse/SEANDROID-936
+auditfilter dmb dumplog_data_file:dir search;
+
+# http://mobilerndhub.sec.samsung.net/its/browse/SEANDROID-958
+auditfilter webview_zygote users_system_data_file:dir search;
+auditfilter platform_app sysfs_lcd_writable:dir search;
+auditfilter platform_app sysfs_lcd_writable:file { read open getattr };
+
+# http://mobilerndhub.sec.samsung.net/its/browse/SEANDROID-989 / P181205-05163
+auditfilter crash_dump vendor_log_file:dir search;
+
+# P181210-06496
+auditfilter platform_app proc_loadavg:file read;
+auditfilter platform_app proc_interrupts:file read;
+
+# http://mobilerndhub.sec.samsung.net/its/browse/SEANDROID-1023
+auditfilter vendor_shell cpk_efs_file:dir search;
+
+# P181211-06503
+auditfilter netd sysfs:file write;
+
+# http://mobilerndhub.sec.samsung.net/its/browse/SEANDROID-1049
+auditfilter system_app socket_device:sock_file write;
+
+# P181214-06771 
+auditfilter filtered_untrusted_app proc_stat:file read;
+
+# P181215-00720, P181215-00423 
+auditfilter adpl device:chr_file { read write };
+auditfilter adpl diag_device:chr_file { read write };
+
+# http://mobilerndhub.sec.samsung.net/its/browse/SEANDROID-1067
+auditfilter crash_dump crash_dump:capability dac_override;
+
+# http://mobilerndhub.sec.samsung.net/its/browse/SEANDROID-1131
+auditfilter qti diag_device:chr_file { read write };
+auditfilter qti vendor_data_file:dir read;
+
+# http://mobilerndhub.sec.samsung.net/its/browse/SEANDROID-1140
+auditfilter cameraserver vendor_camera_data_file:dir search;
+auditfilter cameraserver sysfs_switch:dir search;
+
+# P181221-06614 
+auditfilter platform_app firmware_file:dir getattr;
+auditfilter platform_app firmware_file:file getattr;
+auditfilter platform_app firmware_file:filesystem getattr;
+
+# http://mobilerndhub.sec.samsung.net/its/browse/SEANDROID-1144
+auditfilter crash_dump crash_dump:capability dac_read_search;
+
+# http://mobilerndhub.sec.samsung.net/its/browse/SEANDROID-1163
+auditfilter platform_app bt_firmware_file:dir getattr;
+auditfilter platform_app vendor_tombstone_data_file:dir search;
+
+# http://mobilerndhub.sec.samsung.net/its/browse/SEANDROID-1169
+auditfilter clatd untrusted_app_25:file read;
+auditfilter clatd untrusted_app_26:file read;
+auditfilter clatd untrusted_app_27:file read;
+auditfilter clatd untrusted_app:file read;
+
+# http://mobilerndhub.sec.samsung.net/its/browse/SEANDROID-1173
+auditfilter hal_wifi_supplicant_default dumplog_data_file:dir search;
+
+# P181228-00203
+auditfilter tzdaemon unlabeled:dir search;
+
+# http://mobilerndhub.sec.samsung.net/its/browse/SEANDROID-1187
+auditfilter surfaceflinger vendor_log_file:dir write;
+
+# http://mobilerndhub.sec.samsung.net/its/browse/SEANDROID-1197
+auditfilter ipacm-diag diag_device:chr_file { read write };
+
+# http://mobilerndhub.sec.samsung.net/its/browse/SEANDROID-1034, P190105-01080
+auditfilter idledefrag idledefrag:capability { dac_override dac_read_search };
+auditfilter idledefrag sysfs:file { write open read };
+
+# P190104-06297, P190102-08287, P190104-08905
+auditfilter hal_wifi_supplicant_default default_prop:file read;
+auditfilter platform_app policyloader_app_data_file:file getattr;
+
+# P190104-08421
+auditfilter qti_init_shell system_prop:file read;
+auditfilter qti_init_shell exported_system_radio_prop:file read;
+
+# P190107-07445
+auditfilter system_app vendor_default_prop:file read;
+
+# P190108-03025 
+auditfilter idledefrag configfs:dir search;
+
+# P190108-03956 
+auditfilter shell hwservice_contexts_file:file getattr;
+auditfilter shell vndservice_contexts_file:file getattr;
+auditfilter shell nonplat_service_contexts_file:file getattr;
+
+# P190109-06577
+auditfilter pageboostd asec_apk_file:dir search;
+# P190109-06524
+auditfilter connfwexe sysfs_net:dir search;
+auditfilter connfwexe connfwexe:packet_socket ioctl;
+# P190109-03980
+auditfilter diagexe diagexe:capability dac_override;
+auditfilter system_app sysfs:file read;
+# P190109-06836
+auditfilter scs scs:capability dac_override;
+auditfilter macloader macloader:capability dac_override;
+auditfilter storaged debugfs_mmc:file read;
+
+# P190109-08193, P190109-08858 
+auditfilter qti_init_shell rootfs:dir read;
+
+# http://mobilerndhub.sec.samsung.net/its/browse/SEANDROID-1252
+auditfilter statsd debugfs_tracing_debug:filesystem mount;
+auditfilter mediadrmserver debugfs_tracing_debug:filesystem mount;
+# http://mobilerndhub.sec.samsung.net/its/browse/SEANDROID-1260
+auditfilter system_app debugfs_tracing_debug:filesystem mount;
+
+# P190110-07465   name="/" dev="sda31" ino=2
+auditfilter logd unlabeled:dir search;
+
+# P190110-06895, P190110-02666
+auditfilter idledefrag apk_data_file:dir search;
+
+# http://mobilerndhub.sec.samsung.net/its/browse/SEANDROID-1253
+auditfilter system_app system_data_file:dir write;
+
+# http://mobilerndhub.sec.samsung.net/its/browse/SEANDROID-1263
+auditfilter crash_dump debugfs_tracing_debug:filesystem mount;
+
+# http://mobilerndhub.sec.samsung.net/its/browse/SEANDROID-1273
+auditfilter system_app sysfs:file read;
+
+# http://mobilerndhub.sec.samsung.net/its/browse/SEANDROID-1290
+auditfilter hal_drm_default dumplog_data_file:dir search;
+
+# P190116-02012
+auditfilter radio vendor_default_prop:file read;
+
+# http://mobilerndhub.sec.samsung.net/its/browse/SEANDROID-1265
+auditfilter platform_app system_data_file:dir setattr;
+
+# http://mobilerndhub.sec.samsung.net/its/browse/SEANDROID-1317
+auditfilter mediacodec dumplog_data_file:dir search;
+
+# P190118-07586
+auditfilter system_app null_device:chr_file setattr;
+# P190118-06405
+auditfilter system_app input_device:chr_file { read write };
+
+# P190121-01045, P190121-00790
+auditfilter platform_app knox_system_misc_file:dir getattr;
+auditfilter platform_app sysfs:file read;
+
+# http://mobilerndhub.sec.samsung.net/its/browse/SEANDROID-1323
+auditfilter platform_app nonplat_service_contexts_file:file getattr;
+auditfilter platform_app vndservice_contexts_file:file getattr;
+auditfilter platform_app hidden_file:dir getattr;
+
+# http://mobilerndhub.sec.samsung.net/its/browse/SEANDROID-1325
+auditfilter surfaceflinger sysfs_ss_writable:dir search;
+auditfilter surfaceflinger vendor_log_file:file vendor_log_file;
+
+# http://mobilerndhub.sec.samsung.net/its/browse/SEANDROID-1338
+auditfilter umount_service hiddenblk_device:blk_file read;
+
+# P190123-05913
+auditfilter lxd_cont_app lxd_cont_app:netlink_audit_socket create;
+
+# http://mobilerndhub.sec.samsung.net/its/browse/SEANDROID-1360
+auditfilter platform_app bluetooth_data_file:dir getattr;
+
+# http://mobilerndhub.sec.samsung.net/its/browse/SEANDROID-1377
+auditfilter dumpstate hidl_base_hwservice:hwservice_manager find;
+auditfilter wlbtd shell_exec:file execute;
+
+# P190118-05272
+auditfilter shell remotedisplay:binder call;
+auditfilter shell wificond:binder call;
+auditfilter shell netd:binder call;
+auditfilter shell vaultkeeperd:binder call;
+
+# P190207-05505
+auditfilter hal_fingerprint_default dumplog_data_file:dir search;
+
+# P190208-00234
+auditfilter mobicore apk_data_file:dir search;
+
+# P190211-07285
+auditfilter system_app rootfs:dir read;
+
+# P190217-01262 P190216-00013 
+auditfilter ueventd ueventd:capability kill;
+# P190216-02075
+auditfilter installd installd:capability kill;
+# P190218-07040
+auditfilter hal_usb_default hal_usb_default:capability kill;
+# http://mobilerndhub.sec.samsung.net/its/browse/SEANDROID-1478
+auditfilter thermal-engine thermal-engine:capability kill;
+
+# P190216-03096 
+auditfilter adbd oemfs:dir search;
+
+# http://mobilerndhub.sec.samsung.net/its/browse/SEANDROID-1470
+auditfilter statsd debugfs_trace_marker:file getattr;
+
+# P190218-00586 
+auditfilter hwservicemanager proc_avc_msg:file getattr;
+
+# P190218-08158 
+auditfilter vendor_init unlabeled:dir search;
+
+# http://mobilerndhub.sec.samsung.net/its/browse/SEANDROID-1490
+auditfilter policyloader_app dalvikcache_data_file:file write;
+
+# http://mobilerndhub.sec.samsung.net/its/browse/SEANDROID-1498
+auditfilter aasa_service_app dalvikcache_data_file:file write;
+
+# http://mobilerndhub.sec.samsung.net/its/browse/SEANDROID-1489
+auditfilter hal_neuralnetworks_default default_prop:file read;
+
+# http://mobilerndhub.sec.samsung.net/its/browse/SEANDROID-1516
+auditfilter ephemeral_app proc_vmstat:file read;
+
+# http://mobilerndhub.sec.samsung.net/its/browse/SEANDROID-1523
+auditfilter adsprpcd adsprpcd:capability kill;
+
+# http://mobilerndhub.sec.samsung.net/its/browse/SEANDROID-1543
+auditfilter hal_camera_default unlabeled:file read;
+
+# http://mobilerndhub.sec.samsung.net/its/browse/SEANDROID-1545
+auditfilter sec_diag sec_diag:capability kill;
+
+# http://mobilerndhub.sec.samsung.net/its/browse/SEANDROID-1540
+auditfilter hal_ofi_default dumplog_data_file:dir search;
+
+# P190312-02781
+auditfilter timeservice_app vendor_factory_prop:file read;
+
+# http://mobilerndhub.sec.samsung.net/its/browse/SEANDROID-1577
+auditfilter digital_tv_fullseg dtv_data_file:dir search;
+
+# http://mobilerndhub.sec.samsung.net/its/browse/SEANDROID-1590
+auditfilter hal_wifi_hostapd_default system_prop:file read;
+
