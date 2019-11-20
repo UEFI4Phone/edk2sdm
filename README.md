@@ -6,3 +6,9 @@ Build status:
 
 ## Screen is Up
 Most of things seems fine now!
+
+## Flash instructions 
+
+Flash a newest official rom with TWRP recovery, then download boot.img at release page flash it then you can get UEFI loader now.  
+
+Status: I'm building recovery with Mass storage gadget so that some work can be done for Windows ARM64 : )
