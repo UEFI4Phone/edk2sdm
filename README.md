@@ -9,7 +9,11 @@ Build status:
 
 [![Build Status](https://dev.azure.com/1344729087/edk2sdm/_apis/build/status/Evsio0n.edk2sdm?branchName=master)](https://dev.azure.com/1344729087/edk2sdm/_build/latest?definitionId=2&branchName=master)
 
-## Screen is Up
+## Screenshots
+[![1](https://i.loli.net/2019/11/22/pnwQi7y3JFUHBuL.jpg)](https://i.loli.net/2019/11/22/pnwQi7y3JFUHBuL.jpg)
+[![2](https://i.loli.net/2019/11/22/LsuYZFVDx1Cf83b.jpg)](https://i.loli.net/2019/11/22/LsuYZFVDx1Cf83b.jpg)
+[![3](https://i.loli.net/2019/11/22/2h4zTZyNIqGv9Dx.jpg)](https://i.loli.net/2019/11/22/2h4zTZyNIqGv9Dx.jpg)
+Screen is Up.
 Most of things seems fine now!
 
 ## Flash instructions 
