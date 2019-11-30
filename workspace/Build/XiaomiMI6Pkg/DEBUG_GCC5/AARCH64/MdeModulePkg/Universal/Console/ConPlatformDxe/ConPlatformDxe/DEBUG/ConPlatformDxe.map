@@ -122,34 +122,34 @@
  .text          0x0000000000000000       0x10 /home/evsio0n/src/edk2sdm/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
  .data          0x0000000000000000        0x0 /home/evsio0n/src/edk2sdm/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
  .bss           0x0000000000000000        0x0 /home/evsio0n/src/edk2sdm/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
- .text          0x0000000000000000        0x0 /tmp/cc4O6EJR.ltrans0.ltrans.o
- .data          0x0000000000000000        0x0 /tmp/cc4O6EJR.ltrans0.ltrans.o
- .bss           0x0000000000000000        0x0 /tmp/cc4O6EJR.ltrans0.ltrans.o
+ .text          0x0000000000000000        0x0 /tmp/cc6dUjF8.ltrans0.ltrans.o
+ .data          0x0000000000000000        0x0 /tmp/cc6dUjF8.ltrans0.ltrans.o
+ .bss           0x0000000000000000        0x0 /tmp/cc6dUjF8.ltrans0.ltrans.o
  .text.ConPlatformComponentNameGetControllerName
-                0x0000000000000000        0x8 /tmp/cc4O6EJR.ltrans0.ltrans.o
+                0x0000000000000000        0x8 /tmp/cc6dUjF8.ltrans0.ltrans.o
  .text._DriverUnloadHandler
-                0x0000000000000000        0x8 /tmp/cc4O6EJR.ltrans0.ltrans.o
+                0x0000000000000000        0x8 /tmp/cc6dUjF8.ltrans0.ltrans.o
  .text.ReadUnaligned24
-                0x0000000000000000       0x54 /tmp/cc4O6EJR.ltrans0.ltrans.o
+                0x0000000000000000       0x54 /tmp/cc6dUjF8.ltrans0.ltrans.o
  .text.StrnLenS
-                0x0000000000000000       0x7c /tmp/cc4O6EJR.ltrans0.ltrans.o
+                0x0000000000000000       0x7c /tmp/cc6dUjF8.ltrans0.ltrans.o
  .text.AsciiStrnCmp
-                0x0000000000000000       0xf0 /tmp/cc4O6EJR.ltrans0.ltrans.o
+                0x0000000000000000       0xf0 /tmp/cc6dUjF8.ltrans0.ltrans.o
  .text.ConPlatformComponentNameGetDriverName
-                0x0000000000000000      0x154 /tmp/cc4O6EJR.ltrans0.ltrans.o
+                0x0000000000000000      0x154 /tmp/cc6dUjF8.ltrans0.ltrans.o
  .text.__memset
-                0x0000000000000000       0x1c /tmp/cc4O6EJR.ltrans0.ltrans.o
+                0x0000000000000000       0x1c /tmp/cc6dUjF8.ltrans0.ltrans.o
  .data.gConPlatformComponentName
-                0x0000000000000000       0x18 /tmp/cc4O6EJR.ltrans0.ltrans.o
+                0x0000000000000000       0x18 /tmp/cc6dUjF8.ltrans0.ltrans.o
  .data.mConPlatformDriverNameTable
-                0x0000000000000000       0x20 /tmp/cc4O6EJR.ltrans0.ltrans.o
+                0x0000000000000000       0x20 /tmp/cc6dUjF8.ltrans0.ltrans.o
  .rodata.AsciiStrnCmp.str1.1
-                0x0000000000000000       0x70 /tmp/cc4O6EJR.ltrans0.ltrans.o
+                0x0000000000000000       0x70 /tmp/cc6dUjF8.ltrans0.ltrans.o
  .rodata.str2.2
-                0x0000000000000000       0x46 /tmp/cc4O6EJR.ltrans0.ltrans.o
- .comment       0x0000000000000000       0x33 /tmp/cc4O6EJR.ltrans0.ltrans.o
+                0x0000000000000000       0x46 /tmp/cc6dUjF8.ltrans0.ltrans.o
+ .comment       0x0000000000000000       0x33 /tmp/cc6dUjF8.ltrans0.ltrans.o
  .note.GNU-stack
-                0x0000000000000000        0x0 /tmp/cc4O6EJR.ltrans0.ltrans.o
+                0x0000000000000000        0x0 /tmp/cc6dUjF8.ltrans0.ltrans.o
  .text          0x0000000000000000        0x8 /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(CpuBreakpoint.obj)
  .data          0x0000000000000000        0x0 /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(CpuBreakpoint.obj)
  .bss           0x0000000000000000        0x0 /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(CpuBreakpoint.obj)
@@ -326,7 +326,7 @@
 链结器命令稿和内存映射
 
 LOAD /home/evsio0n/src/edk2sdm/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
-LOAD /tmp/cc4O6EJR.ltrans0.ltrans.o
+LOAD /tmp/cc6dUjF8.ltrans0.ltrans.o
 START GROUP
 LOAD /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/DxePcdLib/DxePcdLib/OUTPUT/DxePcdLib.lib
 LOAD /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib
@@ -374,100 +374,100 @@ END GROUP
 .text           0x0000000000001000     0x4860
  *(.text .text.* .stub .gnu.linkonce.t.*)
  .text.InternalAllocatePool.constprop.5
-                0x0000000000001000       0x6c /tmp/cc4O6EJR.ltrans0.ltrans.o
+                0x0000000000001000       0x6c /tmp/cc6dUjF8.ltrans0.ltrans.o
  .text.BasePrintLibFillBuffer
-                0x000000000000106c       0x34 /tmp/cc4O6EJR.ltrans0.ltrans.o
+                0x000000000000106c       0x34 /tmp/cc6dUjF8.ltrans0.ltrans.o
  .text.DebugPrintLevelEnabled
-                0x00000000000010a0        0x8 /tmp/cc4O6EJR.ltrans0.ltrans.o
+                0x00000000000010a0        0x8 /tmp/cc6dUjF8.ltrans0.ltrans.o
  .text.DebugPrintEnabled
-                0x00000000000010a8        0x8 /tmp/cc4O6EJR.ltrans0.ltrans.o
+                0x00000000000010a8        0x8 /tmp/cc6dUjF8.ltrans0.ltrans.o
  .text.DebugAssertEnabled
-                0x00000000000010b0        0x8 /tmp/cc4O6EJR.ltrans0.ltrans.o
+                0x00000000000010b0        0x8 /tmp/cc6dUjF8.ltrans0.ltrans.o
  .text.AsciiStrnLenS
-                0x00000000000010b8       0x3c /tmp/cc4O6EJR.ltrans0.ltrans.o
+                0x00000000000010b8       0x3c /tmp/cc6dUjF8.ltrans0.ltrans.o
  .text.ConPlatformUnInstallProtocol
-                0x00000000000010f4       0x7c /tmp/cc4O6EJR.ltrans0.ltrans.o
+                0x00000000000010f4       0x7c /tmp/cc6dUjF8.ltrans0.ltrans.o
  .text.ConPlatformDriverBindingSupported
-                0x0000000000001170       0xd8 /tmp/cc4O6EJR.ltrans0.ltrans.o
+                0x0000000000001170       0xd8 /tmp/cc6dUjF8.ltrans0.ltrans.o
  .text.ConPlatformTextOutDriverBindingSupported
-                0x0000000000001248        0xc /tmp/cc4O6EJR.ltrans0.ltrans.o
+                0x0000000000001248        0xc /tmp/cc6dUjF8.ltrans0.ltrans.o
  .text.ConPlatformTextInDriverBindingSupported
-                0x0000000000001254        0xc /tmp/cc4O6EJR.ltrans0.ltrans.o
+                0x0000000000001254        0xc /tmp/cc6dUjF8.ltrans0.ltrans.o
  .text.BaseDebugLibSerialPortConstructor
-                0x0000000000001260       0x84 /tmp/cc4O6EJR.ltrans0.ltrans.o
+                0x0000000000001260       0x84 /tmp/cc6dUjF8.ltrans0.ltrans.o
  .text.FbConFlush
-                0x00000000000012e4       0x54 /tmp/cc4O6EJR.ltrans0.ltrans.o
+                0x00000000000012e4       0x54 /tmp/cc6dUjF8.ltrans0.ltrans.o
  .text.SerialPortWrite
-                0x0000000000001338      0x418 /tmp/cc4O6EJR.ltrans0.ltrans.o
+                0x0000000000001338      0x418 /tmp/cc6dUjF8.ltrans0.ltrans.o
  .text.DebugAssert
-                0x0000000000001750       0x7c /tmp/cc4O6EJR.ltrans0.ltrans.o
+                0x0000000000001750       0x7c /tmp/cc6dUjF8.ltrans0.ltrans.o
  .text.ReadUnaligned16
-                0x00000000000017cc       0x68 /tmp/cc4O6EJR.ltrans0.ltrans.o
+                0x00000000000017cc       0x68 /tmp/cc6dUjF8.ltrans0.ltrans.o
  .text.DevicePathNodeLength
-                0x0000000000001834       0x50 /tmp/cc4O6EJR.ltrans0.ltrans.o
+                0x0000000000001834       0x50 /tmp/cc6dUjF8.ltrans0.ltrans.o
  .text.NextDevicePathNode
-                0x0000000000001884       0x50 /tmp/cc4O6EJR.ltrans0.ltrans.o
+                0x0000000000001884       0x50 /tmp/cc6dUjF8.ltrans0.ltrans.o
  .text.DevicePathSubType
-                0x00000000000018d4       0x48 /tmp/cc4O6EJR.ltrans0.ltrans.o
+                0x00000000000018d4       0x48 /tmp/cc6dUjF8.ltrans0.ltrans.o
  .text.DevicePathType
-                0x000000000000191c       0x48 /tmp/cc4O6EJR.ltrans0.ltrans.o
+                0x000000000000191c       0x48 /tmp/cc6dUjF8.ltrans0.ltrans.o
  .text.IsDevicePathEndType
-                0x0000000000001964       0x58 /tmp/cc4O6EJR.ltrans0.ltrans.o
+                0x0000000000001964       0x58 /tmp/cc6dUjF8.ltrans0.ltrans.o
  .text.IsDevicePathEnd
-                0x00000000000019bc       0x70 /tmp/cc4O6EJR.ltrans0.ltrans.o
+                0x00000000000019bc       0x70 /tmp/cc6dUjF8.ltrans0.ltrans.o
  .text.IsDevicePathValid.part.0.constprop.3
-                0x0000000000001a2c       0xbc /tmp/cc4O6EJR.ltrans0.ltrans.o
+                0x0000000000001a2c       0xbc /tmp/cc6dUjF8.ltrans0.ltrans.o
  .text.UefiDevicePathLibGetDevicePathSize
-                0x0000000000001ae8       0x6c /tmp/cc4O6EJR.ltrans0.ltrans.o
+                0x0000000000001ae8       0x6c /tmp/cc6dUjF8.ltrans0.ltrans.o
  .text.BasePrintLibSPrintMarker.constprop.16
-                0x0000000000001b54      0xcbc /tmp/cc4O6EJR.ltrans0.ltrans.o
+                0x0000000000001b54      0xcbc /tmp/cc6dUjF8.ltrans0.ltrans.o
  .text.unlikely.BasePrintLibSPrint.constprop.17
-                0x0000000000002810       0x98 /tmp/cc4O6EJR.ltrans0.ltrans.o
+                0x0000000000002810       0x98 /tmp/cc6dUjF8.ltrans0.ltrans.o
  .text.AsciiSPrint.constprop.14
-                0x00000000000028a8       0xa4 /tmp/cc4O6EJR.ltrans0.ltrans.o
+                0x00000000000028a8       0xa4 /tmp/cc6dUjF8.ltrans0.ltrans.o
  .text.AsciiStrLen
-                0x000000000000294c       0xa0 /tmp/cc4O6EJR.ltrans0.ltrans.o
- .text.StrLen   0x00000000000029ec       0xbc /tmp/cc4O6EJR.ltrans0.ltrans.o
+                0x000000000000294c       0xa0 /tmp/cc6dUjF8.ltrans0.ltrans.o
+ .text.StrLen   0x00000000000029ec       0xbc /tmp/cc6dUjF8.ltrans0.ltrans.o
  .text.DebugPrint
-                0x0000000000002aa8       0xb8 /tmp/cc4O6EJR.ltrans0.ltrans.o
+                0x0000000000002aa8       0xb8 /tmp/cc6dUjF8.ltrans0.ltrans.o
  .text.EfiLibInstallDriverBindingComponentName2.constprop.11
-                0x0000000000002b60       0xa8 /tmp/cc4O6EJR.ltrans0.ltrans.o
+                0x0000000000002b60       0xa8 /tmp/cc6dUjF8.ltrans0.ltrans.o
  .text.FreePool
-                0x0000000000002c08       0x7c /tmp/cc4O6EJR.ltrans0.ltrans.o
- .text.CopyMem  0x0000000000002c84       0xb0 /tmp/cc4O6EJR.ltrans0.ltrans.o
+                0x0000000000002c08       0x7c /tmp/cc6dUjF8.ltrans0.ltrans.o
+ .text.CopyMem  0x0000000000002c84       0xb0 /tmp/cc6dUjF8.ltrans0.ltrans.o
  .text.UefiDevicePathLibDuplicateDevicePath
-                0x0000000000002d34       0x98 /tmp/cc4O6EJR.ltrans0.ltrans.o
+                0x0000000000002d34       0x98 /tmp/cc6dUjF8.ltrans0.ltrans.o
  .text.UefiDevicePathLibGetNextDevicePathInstance
-                0x0000000000002dcc       0xcc /tmp/cc4O6EJR.ltrans0.ltrans.o
+                0x0000000000002dcc       0xcc /tmp/cc6dUjF8.ltrans0.ltrans.o
  .text.UefiDevicePathLibAppendDevicePathInstance
-                0x0000000000002e98       0xd4 /tmp/cc4O6EJR.ltrans0.ltrans.o
+                0x0000000000002e98       0xd4 /tmp/cc6dUjF8.ltrans0.ltrans.o
  .text.EfiBootManagerGetGopDevicePath
-                0x0000000000002f6c      0x2a4 /tmp/cc4O6EJR.ltrans0.ltrans.o
+                0x0000000000002f6c      0x2a4 /tmp/cc6dUjF8.ltrans0.ltrans.o
  .text.CompareMem
-                0x0000000000003210       0xe4 /tmp/cc4O6EJR.ltrans0.ltrans.o
+                0x0000000000003210       0xe4 /tmp/cc6dUjF8.ltrans0.ltrans.o
  .text.ConPlatformMatchDevicePaths.part.2
-                0x00000000000032f4      0x634 /tmp/cc4O6EJR.ltrans0.ltrans.o
+                0x00000000000032f4      0x634 /tmp/cc6dUjF8.ltrans0.ltrans.o
  .text.ConPlatformUpdateDeviceVariable
-                0x0000000000003928      0x1f0 /tmp/cc4O6EJR.ltrans0.ltrans.o
+                0x0000000000003928      0x1f0 /tmp/cc6dUjF8.ltrans0.ltrans.o
  .text.ConPlatformTextOutDriverBindingStop
-                0x0000000000003b18       0xf8 /tmp/cc4O6EJR.ltrans0.ltrans.o
+                0x0000000000003b18       0xf8 /tmp/cc6dUjF8.ltrans0.ltrans.o
  .text.ConPlatformTextInDriverBindingStop
-                0x0000000000003c10       0xd0 /tmp/cc4O6EJR.ltrans0.ltrans.o
+                0x0000000000003c10       0xd0 /tmp/cc6dUjF8.ltrans0.ltrans.o
  .text.ConPlatformTextOutDriverBindingStart
-                0x0000000000003ce0      0x1f4 /tmp/cc4O6EJR.ltrans0.ltrans.o
+                0x0000000000003ce0      0x1f4 /tmp/cc6dUjF8.ltrans0.ltrans.o
  .text.ConPlatformTextInDriverBindingStart
-                0x0000000000003ed4      0x128 /tmp/cc4O6EJR.ltrans0.ltrans.o
+                0x0000000000003ed4      0x128 /tmp/cc6dUjF8.ltrans0.ltrans.o
  .text.CompareGuid
-                0x0000000000003ffc       0x54 /tmp/cc4O6EJR.ltrans0.ltrans.o
+                0x0000000000003ffc       0x54 /tmp/cc6dUjF8.ltrans0.ltrans.o
  .text.EfiGetSystemConfigurationTable
-                0x0000000000004050       0x94 /tmp/cc4O6EJR.ltrans0.ltrans.o
+                0x0000000000004050       0x94 /tmp/cc6dUjF8.ltrans0.ltrans.o
  .text.__stack_chk_fail
-                0x00000000000040e4       0x34 /tmp/cc4O6EJR.ltrans0.ltrans.o
+                0x00000000000040e4       0x34 /tmp/cc6dUjF8.ltrans0.ltrans.o
                 0x00000000000040e4                __stack_chk_fail
  .text._ModuleEntryPoint
-                0x0000000000004118      0x524 /tmp/cc4O6EJR.ltrans0.ltrans.o
+                0x0000000000004118      0x524 /tmp/cc6dUjF8.ltrans0.ltrans.o
                 0x0000000000004118                _ModuleEntryPoint
- .text.memcpy   0x000000000000463c       0x20 /tmp/cc4O6EJR.ltrans0.ltrans.o
+ .text.memcpy   0x000000000000463c       0x20 /tmp/cc6dUjF8.ltrans0.ltrans.o
                 0x000000000000463c                memcpy
  *fill*         0x000000000000465c        0x4 
  .text          0x0000000000004660      0x218 /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(CopyMem.obj)
@@ -497,56 +497,56 @@ END GROUP
                 0x00000000000049b8                ArmDataSynchronizationBarrier
  *(.rodata .rodata.* .gnu.linkonce.r.*)
  .rodata.AsciiStrLen.str1.1
-                0x00000000000049c0       0x8e /tmp/cc4O6EJR.ltrans0.ltrans.o
+                0x00000000000049c0       0x8e /tmp/cc6dUjF8.ltrans0.ltrans.o
  .rodata.BasePrintLibSPrintMarker.constprop.16.str1.1
-                0x0000000000004a4e      0x17e /tmp/cc4O6EJR.ltrans0.ltrans.o
+                0x0000000000004a4e      0x17e /tmp/cc6dUjF8.ltrans0.ltrans.o
  .rodata.CompareGuid.str1.1
-                0x0000000000004bcc       0x69 /tmp/cc4O6EJR.ltrans0.ltrans.o
+                0x0000000000004bcc       0x69 /tmp/cc6dUjF8.ltrans0.ltrans.o
  .rodata.CompareMem.str1.1
-                0x0000000000004c35       0x95 /tmp/cc4O6EJR.ltrans0.ltrans.o
+                0x0000000000004c35       0x95 /tmp/cc6dUjF8.ltrans0.ltrans.o
  .rodata.ConPlatformMatchDevicePaths.part.2.str1.1
-                0x0000000000004cca       0x5b /tmp/cc4O6EJR.ltrans0.ltrans.o
+                0x0000000000004cca       0x5b /tmp/cc6dUjF8.ltrans0.ltrans.o
  *fill*         0x0000000000004d25        0x1 
  .rodata.ConPlatformTextInDriverBindingStart.str2.2
-                0x0000000000004d26        0xc /tmp/cc4O6EJR.ltrans0.ltrans.o
+                0x0000000000004d26        0xc /tmp/cc6dUjF8.ltrans0.ltrans.o
  .rodata.ConPlatformTextInDriverBindingStop.str2.2
-                0x0000000000004d32       0x12 /tmp/cc4O6EJR.ltrans0.ltrans.o
+                0x0000000000004d32       0x12 /tmp/cc6dUjF8.ltrans0.ltrans.o
  .rodata.ConPlatformTextOutDriverBindingStart.str2.2
-                0x0000000000004d44       0x1c /tmp/cc4O6EJR.ltrans0.ltrans.o
+                0x0000000000004d44       0x1c /tmp/cc6dUjF8.ltrans0.ltrans.o
  .rodata.ConPlatformTextOutDriverBindingStop.str2.2
-                0x0000000000004d60       0x28 /tmp/cc4O6EJR.ltrans0.ltrans.o
+                0x0000000000004d60       0x28 /tmp/cc6dUjF8.ltrans0.ltrans.o
  .rodata.CopyMem.str1.1
-                0x0000000000004d88       0xd4 /tmp/cc4O6EJR.ltrans0.ltrans.o
+                0x0000000000004d88       0xd4 /tmp/cc6dUjF8.ltrans0.ltrans.o
  .rodata.DebugAssert.str1.1
-                0x0000000000004e5c       0x27 /tmp/cc4O6EJR.ltrans0.ltrans.o
+                0x0000000000004e5c       0x27 /tmp/cc6dUjF8.ltrans0.ltrans.o
  .rodata.DevicePathNodeLength.str1.1
-                0x0000000000004e83       0x6b /tmp/cc4O6EJR.ltrans0.ltrans.o
+                0x0000000000004e83       0x6b /tmp/cc6dUjF8.ltrans0.ltrans.o
  .rodata.EfiBootManagerGetGopDevicePath.str1.1
-                0x0000000000004eee       0x95 /tmp/cc4O6EJR.ltrans0.ltrans.o
+                0x0000000000004eee       0x95 /tmp/cc6dUjF8.ltrans0.ltrans.o
  .rodata.EfiLibInstallDriverBindingComponentName2.constprop.11.str1.1
-                0x0000000000004f83       0x7d /tmp/cc4O6EJR.ltrans0.ltrans.o
+                0x0000000000004f83       0x7d /tmp/cc6dUjF8.ltrans0.ltrans.o
  .rodata.FreePool.str1.1
-                0x0000000000005000       0x5c /tmp/cc4O6EJR.ltrans0.ltrans.o
+                0x0000000000005000       0x5c /tmp/cc6dUjF8.ltrans0.ltrans.o
  .rodata.ReadUnaligned16.str1.1
-                0x000000000000505c       0x46 /tmp/cc4O6EJR.ltrans0.ltrans.o
+                0x000000000000505c       0x46 /tmp/cc6dUjF8.ltrans0.ltrans.o
                                          0x5d (松开之前的大小)
  .rodata.StrLen.str1.1
-                0x00000000000050a2       0x3a /tmp/cc4O6EJR.ltrans0.ltrans.o
+                0x00000000000050a2       0x3a /tmp/cc6dUjF8.ltrans0.ltrans.o
  .rodata.StrnLenS.str1.1
-                0x00000000000050dc       0x66 /tmp/cc4O6EJR.ltrans0.ltrans.o
+                0x00000000000050dc       0x66 /tmp/cc6dUjF8.ltrans0.ltrans.o
  .rodata.UefiDevicePathLibDuplicateDevicePath.str1.1
-                0x0000000000005142       0x3f /tmp/cc4O6EJR.ltrans0.ltrans.o
+                0x0000000000005142       0x3f /tmp/cc6dUjF8.ltrans0.ltrans.o
  .rodata._ModuleEntryPoint.str1.1
-                0x0000000000005181      0x317 /tmp/cc4O6EJR.ltrans0.ltrans.o
+                0x0000000000005181      0x317 /tmp/cc6dUjF8.ltrans0.ltrans.o
  .rodata.__stack_chk_fail.str1.1
-                0x0000000000005498       0x2e /tmp/cc4O6EJR.ltrans0.ltrans.o
+                0x0000000000005498       0x2e /tmp/cc6dUjF8.ltrans0.ltrans.o
  .rodata.mHexStr
-                0x00000000000054c6       0x10 /tmp/cc4O6EJR.ltrans0.ltrans.o
+                0x00000000000054c6       0x10 /tmp/cc6dUjF8.ltrans0.ltrans.o
  *fill*         0x00000000000054d6        0x2 
  .rodata.mStatusString
-                0x00000000000054d8      0x138 /tmp/cc4O6EJR.ltrans0.ltrans.o
+                0x00000000000054d8      0x138 /tmp/cc6dUjF8.ltrans0.ltrans.o
  .rodata.str1.1
-                0x0000000000005610      0x22f /tmp/cc4O6EJR.ltrans0.ltrans.o
+                0x0000000000005610      0x22f /tmp/cc6dUjF8.ltrans0.ltrans.o
                                         0x240 (松开之前的大小)
  *(.got .got.*)
  *fill*         0x000000000000583f        0x1 
@@ -562,75 +562,75 @@ END GROUP
  *(.data .data.* .gnu.linkonce.d.*)
  .data.rel.ro   0x0000000000006000        0x0 /home/evsio0n/src/edk2sdm/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
  .data.__stack_chk_guard
-                0x0000000000006000        0x8 /tmp/cc4O6EJR.ltrans0.ltrans.o
+                0x0000000000006000        0x8 /tmp/cc6dUjF8.ltrans0.ltrans.o
                 0x0000000000006000                __stack_chk_guard
  .data.font5x12
-                0x0000000000006008      0x300 /tmp/cc4O6EJR.ltrans0.ltrans.o
+                0x0000000000006008      0x300 /tmp/cc6dUjF8.ltrans0.ltrans.o
  .data.gConPlatformTextInDriverBinding
-                0x0000000000006308       0x30 /tmp/cc4O6EJR.ltrans0.ltrans.o
+                0x0000000000006308       0x30 /tmp/cc6dUjF8.ltrans0.ltrans.o
  .data.gConPlatformTextOutDriverBinding
-                0x0000000000006338       0x30 /tmp/cc4O6EJR.ltrans0.ltrans.o
+                0x0000000000006338       0x30 /tmp/cc6dUjF8.ltrans0.ltrans.o
  .data.gEfiConsoleInDeviceGuid
-                0x0000000000006368       0x10 /tmp/cc4O6EJR.ltrans0.ltrans.o
+                0x0000000000006368       0x10 /tmp/cc6dUjF8.ltrans0.ltrans.o
  .data.gEfiConsoleOutDeviceGuid
-                0x0000000000006378       0x10 /tmp/cc4O6EJR.ltrans0.ltrans.o
+                0x0000000000006378       0x10 /tmp/cc6dUjF8.ltrans0.ltrans.o
  .data.gEfiDevicePathProtocolGuid
-                0x0000000000006388       0x10 /tmp/cc4O6EJR.ltrans0.ltrans.o
+                0x0000000000006388       0x10 /tmp/cc6dUjF8.ltrans0.ltrans.o
  .data.gEfiDriverBindingProtocolGuid
-                0x0000000000006398       0x10 /tmp/cc4O6EJR.ltrans0.ltrans.o
+                0x0000000000006398       0x10 /tmp/cc6dUjF8.ltrans0.ltrans.o
  .data.gEfiDxeServicesTableGuid
-                0x00000000000063a8       0x10 /tmp/cc4O6EJR.ltrans0.ltrans.o
+                0x00000000000063a8       0x10 /tmp/cc6dUjF8.ltrans0.ltrans.o
  .data.gEfiGlobalVariableGuid
-                0x00000000000063b8       0x10 /tmp/cc4O6EJR.ltrans0.ltrans.o
+                0x00000000000063b8       0x10 /tmp/cc6dUjF8.ltrans0.ltrans.o
  .data.gEfiGraphicsOutputProtocolGuid
-                0x00000000000063c8       0x10 /tmp/cc4O6EJR.ltrans0.ltrans.o
+                0x00000000000063c8       0x10 /tmp/cc6dUjF8.ltrans0.ltrans.o
  .data.gEfiHiiConfigRoutingProtocolGuid
-                0x00000000000063d8       0x10 /tmp/cc4O6EJR.ltrans0.ltrans.o
+                0x00000000000063d8       0x10 /tmp/cc6dUjF8.ltrans0.ltrans.o
  .data.gEfiHiiDatabaseProtocolGuid
-                0x00000000000063e8       0x10 /tmp/cc4O6EJR.ltrans0.ltrans.o
+                0x00000000000063e8       0x10 /tmp/cc6dUjF8.ltrans0.ltrans.o
  .data.gEfiHiiFontProtocolGuid
-                0x00000000000063f8       0x10 /tmp/cc4O6EJR.ltrans0.ltrans.o
+                0x00000000000063f8       0x10 /tmp/cc6dUjF8.ltrans0.ltrans.o
  .data.gEfiHiiImageProtocolGuid
-                0x0000000000006408       0x10 /tmp/cc4O6EJR.ltrans0.ltrans.o
+                0x0000000000006408       0x10 /tmp/cc6dUjF8.ltrans0.ltrans.o
  .data.gEfiHiiStringProtocolGuid
-                0x0000000000006418       0x10 /tmp/cc4O6EJR.ltrans0.ltrans.o
+                0x0000000000006418       0x10 /tmp/cc6dUjF8.ltrans0.ltrans.o
  .data.gEfiHobListGuid
-                0x0000000000006428       0x10 /tmp/cc4O6EJR.ltrans0.ltrans.o
+                0x0000000000006428       0x10 /tmp/cc6dUjF8.ltrans0.ltrans.o
  .data.gEfiPciIoProtocolGuid
-                0x0000000000006438       0x10 /tmp/cc4O6EJR.ltrans0.ltrans.o
+                0x0000000000006438       0x10 /tmp/cc6dUjF8.ltrans0.ltrans.o
  .data.gEfiSimpleTextInProtocolGuid
-                0x0000000000006448       0x10 /tmp/cc4O6EJR.ltrans0.ltrans.o
+                0x0000000000006448       0x10 /tmp/cc6dUjF8.ltrans0.ltrans.o
  .data.gEfiSimpleTextOutProtocolGuid
-                0x0000000000006458       0x10 /tmp/cc4O6EJR.ltrans0.ltrans.o
+                0x0000000000006458       0x10 /tmp/cc6dUjF8.ltrans0.ltrans.o
  .data.gEfiStandardErrorDeviceGuid
-                0x0000000000006468       0x10 /tmp/cc4O6EJR.ltrans0.ltrans.o
+                0x0000000000006468       0x10 /tmp/cc6dUjF8.ltrans0.ltrans.o
  .data.gEfiUsbIoProtocolGuid
-                0x0000000000006478       0x10 /tmp/cc4O6EJR.ltrans0.ltrans.o
+                0x0000000000006478       0x10 /tmp/cc6dUjF8.ltrans0.ltrans.o
  *(.bss .bss.*)
- .bss.gBS       0x0000000000006488        0x8 /tmp/cc4O6EJR.ltrans0.ltrans.o
- .bss.gDS       0x0000000000006490        0x8 /tmp/cc4O6EJR.ltrans0.ltrans.o
+ .bss.gBS       0x0000000000006488        0x8 /tmp/cc6dUjF8.ltrans0.ltrans.o
+ .bss.gDS       0x0000000000006490        0x8 /tmp/cc6dUjF8.ltrans0.ltrans.o
  .bss.gHiiConfigRouting
-                0x0000000000006498        0x8 /tmp/cc4O6EJR.ltrans0.ltrans.o
+                0x0000000000006498        0x8 /tmp/cc6dUjF8.ltrans0.ltrans.o
  .bss.gHiiDatabase
-                0x00000000000064a0        0x8 /tmp/cc4O6EJR.ltrans0.ltrans.o
- .bss.gHiiFont  0x00000000000064a8        0x8 /tmp/cc4O6EJR.ltrans0.ltrans.o
+                0x00000000000064a0        0x8 /tmp/cc6dUjF8.ltrans0.ltrans.o
+ .bss.gHiiFont  0x00000000000064a8        0x8 /tmp/cc6dUjF8.ltrans0.ltrans.o
  .bss.gHiiImage
-                0x00000000000064b0        0x8 /tmp/cc4O6EJR.ltrans0.ltrans.o
+                0x00000000000064b0        0x8 /tmp/cc6dUjF8.ltrans0.ltrans.o
  .bss.gHiiString
-                0x00000000000064b8        0x8 /tmp/cc4O6EJR.ltrans0.ltrans.o
+                0x00000000000064b8        0x8 /tmp/cc6dUjF8.ltrans0.ltrans.o
  .bss.gImageHandle
-                0x00000000000064c0        0x8 /tmp/cc4O6EJR.ltrans0.ltrans.o
- .bss.gRT       0x00000000000064c8        0x8 /tmp/cc4O6EJR.ltrans0.ltrans.o
- .bss.gST       0x00000000000064d0        0x8 /tmp/cc4O6EJR.ltrans0.ltrans.o
- .bss.mHobList  0x00000000000064d8        0x8 /tmp/cc4O6EJR.ltrans0.ltrans.o
- .bss.m_Color   0x00000000000064e0       0x10 /tmp/cc4O6EJR.ltrans0.ltrans.o
+                0x00000000000064c0        0x8 /tmp/cc6dUjF8.ltrans0.ltrans.o
+ .bss.gRT       0x00000000000064c8        0x8 /tmp/cc6dUjF8.ltrans0.ltrans.o
+ .bss.gST       0x00000000000064d0        0x8 /tmp/cc6dUjF8.ltrans0.ltrans.o
+ .bss.mHobList  0x00000000000064d8        0x8 /tmp/cc6dUjF8.ltrans0.ltrans.o
+ .bss.m_Color   0x00000000000064e0       0x10 /tmp/cc6dUjF8.ltrans0.ltrans.o
  .bss.m_Initialized
-                0x00000000000064f0        0x1 /tmp/cc4O6EJR.ltrans0.ltrans.o
+                0x00000000000064f0        0x1 /tmp/cc6dUjF8.ltrans0.ltrans.o
  *fill*         0x00000000000064f1        0x7 
  .bss.m_MaxPosition
-                0x00000000000064f8       0x10 /tmp/cc4O6EJR.ltrans0.ltrans.o
+                0x00000000000064f8       0x10 /tmp/cc6dUjF8.ltrans0.ltrans.o
  .bss.m_Position
-                0x0000000000006508       0x10 /tmp/cc4O6EJR.ltrans0.ltrans.o
+                0x0000000000006508       0x10 /tmp/cc6dUjF8.ltrans0.ltrans.o
 
 .dynbss         0x0000000000006518        0x0
  .dynbss        0x0000000000006518        0x0 /home/evsio0n/src/edk2sdm/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
@@ -675,27 +675,27 @@ END GROUP
 OUTPUT(/home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/MdeModulePkg/Universal/Console/ConPlatformDxe/ConPlatformDxe/DEBUG/ConPlatformDxe.dll elf64-littleaarch64)
 
 .debug_info     0x0000000000000000     0x9981
- .debug_info    0x0000000000000000     0x9981 /tmp/cc4O6EJR.ltrans0.ltrans.o
+ .debug_info    0x0000000000000000     0x9981 /tmp/cc6dUjF8.ltrans0.ltrans.o
 
 .debug_abbrev   0x0000000000000000      0x635
- .debug_abbrev  0x0000000000000000      0x635 /tmp/cc4O6EJR.ltrans0.ltrans.o
+ .debug_abbrev  0x0000000000000000      0x635 /tmp/cc6dUjF8.ltrans0.ltrans.o
 
 .debug_loc      0x0000000000000000     0x7370
- .debug_loc     0x0000000000000000     0x7370 /tmp/cc4O6EJR.ltrans0.ltrans.o
+ .debug_loc     0x0000000000000000     0x7370 /tmp/cc6dUjF8.ltrans0.ltrans.o
 
 .debug_aranges  0x0000000000000000      0x390
  .debug_aranges
-                0x0000000000000000      0x390 /tmp/cc4O6EJR.ltrans0.ltrans.o
+                0x0000000000000000      0x390 /tmp/cc6dUjF8.ltrans0.ltrans.o
 
 .debug_ranges   0x0000000000000000      0xc00
- .debug_ranges  0x0000000000000000      0xc00 /tmp/cc4O6EJR.ltrans0.ltrans.o
+ .debug_ranges  0x0000000000000000      0xc00 /tmp/cc6dUjF8.ltrans0.ltrans.o
 
 .debug_line     0x0000000000000000     0x1b24
- .debug_line    0x0000000000000000     0x1b24 /tmp/cc4O6EJR.ltrans0.ltrans.o
+ .debug_line    0x0000000000000000     0x1b24 /tmp/cc6dUjF8.ltrans0.ltrans.o
 
 .debug_str      0x0000000000000000     0x3dbe
- .debug_str     0x0000000000000000     0x3dbe /tmp/cc4O6EJR.ltrans0.ltrans.o
+ .debug_str     0x0000000000000000     0x3dbe /tmp/cc6dUjF8.ltrans0.ltrans.o
                                        0x43ae (松开之前的大小)
 
 .debug_frame    0x0000000000000000      0xb58
- .debug_frame   0x0000000000000000      0xb58 /tmp/cc4O6EJR.ltrans0.ltrans.o
+ .debug_frame   0x0000000000000000      0xb58 /tmp/cc6dUjF8.ltrans0.ltrans.o

@@ -59,14 +59,14 @@ extern const UINT32 _gPcd_FixedAtBuild_PcdMipiFrameBufferPixelBpp;
 extern const UINT32 _gPcd_FixedAtBuild_PcdMipiFrameBufferVisibleWidth;
 #define _PCD_GET_MODE_32_PcdMipiFrameBufferVisibleWidth  _gPcd_FixedAtBuild_PcdMipiFrameBufferVisibleWidth
 //#define _PCD_SET_MODE_32_PcdMipiFrameBufferVisibleWidth  ASSERT(FALSE)  // It is not allowed to set value for a FIXED_AT_BUILD PCD
-#define _PCD_VALUE_PcdMipiFrameBufferVisibleWidth 1080
+#define _PCD_VALUE_PcdMipiFrameBufferVisibleWidth 1440
 #define _PCD_SIZE_PcdMipiFrameBufferVisibleWidth 4
 #define _PCD_GET_MODE_SIZE_PcdMipiFrameBufferVisibleWidth _PCD_SIZE_PcdMipiFrameBufferVisibleWidth
 #define _PCD_TOKEN_PcdMipiFrameBufferVisibleHeight  40U
 extern const UINT32 _gPcd_FixedAtBuild_PcdMipiFrameBufferVisibleHeight;
 #define _PCD_GET_MODE_32_PcdMipiFrameBufferVisibleHeight  _gPcd_FixedAtBuild_PcdMipiFrameBufferVisibleHeight
 //#define _PCD_SET_MODE_32_PcdMipiFrameBufferVisibleHeight  ASSERT(FALSE)  // It is not allowed to set value for a FIXED_AT_BUILD PCD
-#define _PCD_VALUE_PcdMipiFrameBufferVisibleHeight 1920
+#define _PCD_VALUE_PcdMipiFrameBufferVisibleHeight 2960
 #define _PCD_SIZE_PcdMipiFrameBufferVisibleHeight 4
 #define _PCD_GET_MODE_SIZE_PcdMipiFrameBufferVisibleHeight _PCD_SIZE_PcdMipiFrameBufferVisibleHeight
 

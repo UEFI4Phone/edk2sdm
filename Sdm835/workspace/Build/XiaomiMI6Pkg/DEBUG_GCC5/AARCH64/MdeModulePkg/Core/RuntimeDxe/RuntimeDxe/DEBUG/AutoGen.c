@@ -18,7 +18,6 @@ GLOBAL_REMOVE_IF_UNREFERENCED CHAR8 *gEfiCallerBaseName = "RuntimeDxe";
 // Guids
 GLOBAL_REMOVE_IF_UNREFERENCED EFI_GUID gEfiMdePkgTokenSpaceGuid = { 0x914AEBE7, 0x4635, 0x459b, { 0xAA, 0x1C, 0x11, 0xE2, 0x19, 0xB0, 0x3A, 0x10 }};
 GLOBAL_REMOVE_IF_UNREFERENCED EFI_GUID gXiaomiMI6PkgTokenSpaceGuid = { 0x99a14446, 0xaad7, 0xe460, {0xb4, 0xe5, 0x1f, 0x79, 0xaa, 0xa4, 0x93, 0xfd } };
-GLOBAL_REMOVE_IF_UNREFERENCED EFI_GUID gEfiEventExitBootServicesGuid = { 0x27ABF055, 0xB1B8, 0x4C26, { 0x80, 0x48, 0x74, 0x8F, 0x37, 0xBA, 0xA2, 0xDF }};
 GLOBAL_REMOVE_IF_UNREFERENCED EFI_GUID gEfiVTUTF8Guid = { 0xAD15A0D6, 0x8BEC, 0x4ACF, { 0xA0, 0x73, 0xD0, 0x1D, 0xE7, 0x7E, 0x2D, 0x88 }};
 GLOBAL_REMOVE_IF_UNREFERENCED EFI_GUID gEfiVT100Guid = { 0xDFA66065, 0xB419, 0x11D3, { 0x9A, 0x2D, 0x00, 0x90, 0x27, 0x3F, 0xC1, 0x4D }};
 GLOBAL_REMOVE_IF_UNREFERENCED EFI_GUID gEfiVT100PlusGuid = { 0x7BAEC70B, 0x57E0, 0x4C76, { 0x8E, 0x87, 0x2F, 0x9E, 0x28, 0x08, 0x83, 0x43 }};
@@ -35,6 +34,7 @@ GLOBAL_REMOVE_IF_UNREFERENCED EFI_GUID gEfiGlobalVariableGuid = { 0x8BE4DF61, 0x
 GLOBAL_REMOVE_IF_UNREFERENCED EFI_GUID gEfiAcpi20TableGuid = { 0x8868E871, 0xE4F1, 0x11D3, { 0xBC, 0x22, 0x00, 0x80, 0xC7, 0x3C, 0x88, 0x81 }};
 GLOBAL_REMOVE_IF_UNREFERENCED EFI_GUID gEfiAcpi10TableGuid = { 0xEB9D2D30, 0x2D88, 0x11D3, { 0x9A, 0x16, 0x00, 0x90, 0x27, 0x3F, 0xC1, 0x4D }};
 GLOBAL_REMOVE_IF_UNREFERENCED EFI_GUID gEfiHobListGuid = { 0x7739F24C, 0x93D7, 0x11D4, { 0x9A, 0x3A, 0x00, 0x90, 0x27, 0x3F, 0xC1, 0x4D }};
+GLOBAL_REMOVE_IF_UNREFERENCED EFI_GUID gEfiEventExitBootServicesGuid = { 0x27ABF055, 0xB1B8, 0x4C26, { 0x80, 0x48, 0x74, 0x8F, 0x37, 0xBA, 0xA2, 0xDF }};
 GLOBAL_REMOVE_IF_UNREFERENCED EFI_GUID gEfiEventVirtualAddressChangeGuid = { 0x13FA7698, 0xC831, 0x49C7, { 0x87, 0xEA, 0x8F, 0x43, 0xFC, 0xC2, 0x51, 0x96 }};
 GLOBAL_REMOVE_IF_UNREFERENCED EFI_GUID gEfiStatusCodeSpecificDataGuid = { 0x335984BD, 0xE805, 0x409A, { 0xB8, 0xF8, 0xD2, 0x7E, 0xCE, 0x5F, 0xF7, 0xA6 }};
 GLOBAL_REMOVE_IF_UNREFERENCED EFI_GUID gEfiStatusCodeDataTypeDebugGuid = { 0x9A4E9246, 0xD553, 0x11D5, { 0x87, 0xE2, 0x00, 0x06, 0x29, 0x45, 0xC3, 0xB9 }};
@@ -113,6 +113,15 @@ extern const  UINT32  _gPcd_FixedAtBuild_PcdControlFlowEnforcementPropertyMask;
 #define _PCD_GET_MODE_32_PcdControlFlowEnforcementPropertyMask  _gPcd_FixedAtBuild_PcdControlFlowEnforcementPropertyMask
 //#define _PCD_SET_MODE_32_PcdControlFlowEnforcementPropertyMask  ASSERT(FALSE)  // It is not allowed to set value for a FIXED_AT_BUILD PCD
 
+#define _PCD_TOKEN_PcdDebugPrintErrorLevel  34U
+#define _PCD_SIZE_PcdDebugPrintErrorLevel 4
+#define _PCD_GET_MODE_SIZE_PcdDebugPrintErrorLevel  _PCD_SIZE_PcdDebugPrintErrorLevel 
+#define _PCD_VALUE_PcdDebugPrintErrorLevel  0x800fee0fU
+GLOBAL_REMOVE_IF_UNREFERENCED const UINT32 _gPcd_FixedAtBuild_PcdDebugPrintErrorLevel = _PCD_VALUE_PcdDebugPrintErrorLevel;
+extern const  UINT32  _gPcd_FixedAtBuild_PcdDebugPrintErrorLevel;
+#define _PCD_GET_MODE_32_PcdDebugPrintErrorLevel  _gPcd_FixedAtBuild_PcdDebugPrintErrorLevel
+//#define _PCD_SET_MODE_32_PcdDebugPrintErrorLevel  ASSERT(FALSE)  // It is not allowed to set value for a FIXED_AT_BUILD PCD
+
 #define _PCD_TOKEN_PcdMipiFrameBufferAddress  35U
 #define _PCD_SIZE_PcdMipiFrameBufferAddress 4
 #define _PCD_GET_MODE_SIZE_PcdMipiFrameBufferAddress  _PCD_SIZE_PcdMipiFrameBufferAddress 
@@ -166,15 +175,6 @@ GLOBAL_REMOVE_IF_UNREFERENCED const UINT32 _gPcd_FixedAtBuild_PcdMipiFrameBuffer
 extern const  UINT32  _gPcd_FixedAtBuild_PcdMipiFrameBufferVisibleHeight;
 #define _PCD_GET_MODE_32_PcdMipiFrameBufferVisibleHeight  _gPcd_FixedAtBuild_PcdMipiFrameBufferVisibleHeight
 //#define _PCD_SET_MODE_32_PcdMipiFrameBufferVisibleHeight  ASSERT(FALSE)  // It is not allowed to set value for a FIXED_AT_BUILD PCD
-
-#define _PCD_TOKEN_PcdDebugPrintErrorLevel  34U
-#define _PCD_SIZE_PcdDebugPrintErrorLevel 4
-#define _PCD_GET_MODE_SIZE_PcdDebugPrintErrorLevel  _PCD_SIZE_PcdDebugPrintErrorLevel 
-#define _PCD_VALUE_PcdDebugPrintErrorLevel  0x80000046U
-GLOBAL_REMOVE_IF_UNREFERENCED const UINT32 _gPcd_FixedAtBuild_PcdDebugPrintErrorLevel = _PCD_VALUE_PcdDebugPrintErrorLevel;
-extern const  UINT32  _gPcd_FixedAtBuild_PcdDebugPrintErrorLevel;
-#define _PCD_GET_MODE_32_PcdDebugPrintErrorLevel  _gPcd_FixedAtBuild_PcdDebugPrintErrorLevel
-//#define _PCD_SET_MODE_32_PcdDebugPrintErrorLevel  ASSERT(FALSE)  // It is not allowed to set value for a FIXED_AT_BUILD PCD
 
 #define _PCD_TOKEN_PcdDebugClearMemoryValue  41U
 #define _PCD_SIZE_PcdDebugClearMemoryValue 1
@@ -269,18 +269,17 @@ extern const  UINT32  _gPcd_FixedAtBuild_PcdUefiLibMaxPrintBufferSize;
 #define _PCD_TOKEN_PcdReportStatusCodePropertyMask  72U
 #define _PCD_SIZE_PcdReportStatusCodePropertyMask 1
 #define _PCD_GET_MODE_SIZE_PcdReportStatusCodePropertyMask  _PCD_SIZE_PcdReportStatusCodePropertyMask 
-#define _PCD_VALUE_PcdReportStatusCodePropertyMask  0x06U
+#define _PCD_VALUE_PcdReportStatusCodePropertyMask  0x00U
 GLOBAL_REMOVE_IF_UNREFERENCED const UINT8 _gPcd_FixedAtBuild_PcdReportStatusCodePropertyMask = _PCD_VALUE_PcdReportStatusCodePropertyMask;
 extern const  UINT8  _gPcd_FixedAtBuild_PcdReportStatusCodePropertyMask;
 #define _PCD_GET_MODE_8_PcdReportStatusCodePropertyMask  _gPcd_FixedAtBuild_PcdReportStatusCodePropertyMask
 //#define _PCD_SET_MODE_8_PcdReportStatusCodePropertyMask  ASSERT(FALSE)  // It is not allowed to set value for a FIXED_AT_BUILD PCD
 
 
-EFI_STATUS
+RETURN_STATUS
 EFIAPI
-DxeRuntimeDebugLibSerialPortConstructor (
-  IN EFI_HANDLE        ImageHandle,
-  IN EFI_SYSTEM_TABLE  *SystemTable
+BaseDebugLibSerialPortConstructor (
+  VOID
   );
 
 EFI_STATUS
@@ -335,8 +334,8 @@ ProcessLibraryConstructorList (
 {
   EFI_STATUS  Status;
 
-  Status = DxeRuntimeDebugLibSerialPortConstructor (ImageHandle, SystemTable);
-  ASSERT_EFI_ERROR (Status);
+  Status = BaseDebugLibSerialPortConstructor ();
+  ASSERT_RETURN_ERROR (Status);
 
   Status = UefiBootServicesTableLibConstructor (ImageHandle, SystemTable);
   ASSERT_EFI_ERROR (Status);
@@ -373,13 +372,6 @@ RuntimeDriverLibDeconstruct (
   IN EFI_SYSTEM_TABLE  *SystemTable
   );
 
-EFI_STATUS
-EFIAPI
-DxeRuntimeDebugLibSerialPortDestructor (
-  IN EFI_HANDLE        ImageHandle,
-  IN EFI_SYSTEM_TABLE  *SystemTable
-  );
-
 
 VOID
 EFIAPI
@@ -394,9 +386,6 @@ ProcessLibraryDestructorList (
   ASSERT_EFI_ERROR (Status);
 
   Status = RuntimeDriverLibDeconstruct (ImageHandle, SystemTable);
-  ASSERT_EFI_ERROR (Status);
-
-  Status = DxeRuntimeDebugLibSerialPortDestructor (ImageHandle, SystemTable);
   ASSERT_EFI_ERROR (Status);
 
 }

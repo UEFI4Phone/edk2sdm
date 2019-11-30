@@ -8,7 +8,6 @@
 /home/evsio0n/src/edk2sdm/edk2/MdePkg/Library/UefiDriverEntryPoint/UefiDriverEntryPoint.inf
 /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/IndustryStandard/Acpi30.h
 /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Guid/PcAnsi.h
-/home/evsio0n/src/edk2sdm/edk2/MdePkg/Library/DxeRuntimeDebugLibSerialPort/DxeRuntimeDebugLibSerialPort.inf
 /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Library/BaseLib.h
 /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Pi/PiMultiPhase.h
 /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Library/UefiRuntimeLib.h
@@ -58,6 +57,7 @@
 /home/evsio0n/src/edk2sdm/edk2/MdeModulePkg/Include/Library/CapsuleLib.h
 /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Protocol/SimpleTextOut.h
 /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Guid/WinCertificate.h
+/home/evsio0n/src/edk2sdm/edk2/MdePkg/Library/BaseDebugLibSerialPort/BaseDebugLibSerialPort.inf
 /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Guid/FmpCapsule.h
 /home/evsio0n/src/edk2sdm/edk2/MdeModulePkg/Universal/CapsuleRuntimeDxe/CapsuleService.c
 /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Protocol/SimpleTextIn.h

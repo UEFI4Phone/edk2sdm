@@ -106,40 +106,40 @@
  .text          0x0000000000000000       0x10 /home/evsio0n/src/edk2sdm/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
  .data          0x0000000000000000        0x0 /home/evsio0n/src/edk2sdm/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
  .bss           0x0000000000000000        0x0 /home/evsio0n/src/edk2sdm/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
- .text          0x0000000000000000        0x0 /tmp/ccXOkU0Y.ltrans0.ltrans.o
- .data          0x0000000000000000        0x0 /tmp/ccXOkU0Y.ltrans0.ltrans.o
- .bss           0x0000000000000000        0x0 /tmp/ccXOkU0Y.ltrans0.ltrans.o
+ .text          0x0000000000000000        0x0 /tmp/ccAfPYkZ.ltrans0.ltrans.o
+ .data          0x0000000000000000        0x0 /tmp/ccAfPYkZ.ltrans0.ltrans.o
+ .bss           0x0000000000000000        0x0 /tmp/ccAfPYkZ.ltrans0.ltrans.o
  .text.DiskIoComponentNameGetControllerName
-                0x0000000000000000        0x8 /tmp/ccXOkU0Y.ltrans0.ltrans.o
+                0x0000000000000000        0x8 /tmp/ccAfPYkZ.ltrans0.ltrans.o
  .text._DriverUnloadHandler
-                0x0000000000000000        0x8 /tmp/ccXOkU0Y.ltrans0.ltrans.o
+                0x0000000000000000        0x8 /tmp/ccAfPYkZ.ltrans0.ltrans.o
  .text.StrnLenS
-                0x0000000000000000       0x7c /tmp/ccXOkU0Y.ltrans0.ltrans.o
+                0x0000000000000000       0x7c /tmp/ccAfPYkZ.ltrans0.ltrans.o
  .text.ReadUnaligned24
-                0x0000000000000000       0x54 /tmp/ccXOkU0Y.ltrans0.ltrans.o
+                0x0000000000000000       0x54 /tmp/ccAfPYkZ.ltrans0.ltrans.o
  .text.AsciiStrnCmp
-                0x0000000000000000       0xf0 /tmp/ccXOkU0Y.ltrans0.ltrans.o
+                0x0000000000000000       0xf0 /tmp/ccAfPYkZ.ltrans0.ltrans.o
  .text.DiskIoComponentNameGetDriverName
-                0x0000000000000000      0x154 /tmp/ccXOkU0Y.ltrans0.ltrans.o
+                0x0000000000000000      0x154 /tmp/ccAfPYkZ.ltrans0.ltrans.o
  .text.IsNodeInList
-                0x0000000000000000       0xb0 /tmp/ccXOkU0Y.ltrans0.ltrans.o
+                0x0000000000000000       0xb0 /tmp/ccAfPYkZ.ltrans0.ltrans.o
  .text.__memset
-                0x0000000000000000       0x1c /tmp/ccXOkU0Y.ltrans0.ltrans.o
+                0x0000000000000000       0x1c /tmp/ccAfPYkZ.ltrans0.ltrans.o
  .data.gDiskIoComponentName
-                0x0000000000000000       0x18 /tmp/ccXOkU0Y.ltrans0.ltrans.o
+                0x0000000000000000       0x18 /tmp/ccAfPYkZ.ltrans0.ltrans.o
  .data.mDiskIoDriverNameTable
-                0x0000000000000000       0x20 /tmp/ccXOkU0Y.ltrans0.ltrans.o
+                0x0000000000000000       0x20 /tmp/ccAfPYkZ.ltrans0.ltrans.o
  .rodata.AsciiStrnCmp.str1.1
-                0x0000000000000000       0x70 /tmp/ccXOkU0Y.ltrans0.ltrans.o
+                0x0000000000000000       0x70 /tmp/ccAfPYkZ.ltrans0.ltrans.o
  .rodata.IsNodeInList.str1.1
-                0x0000000000000000       0x44 /tmp/ccXOkU0Y.ltrans0.ltrans.o
+                0x0000000000000000       0x44 /tmp/ccAfPYkZ.ltrans0.ltrans.o
  .rodata.StrnLenS.str1.1
-                0x0000000000000000       0x66 /tmp/ccXOkU0Y.ltrans0.ltrans.o
+                0x0000000000000000       0x66 /tmp/ccAfPYkZ.ltrans0.ltrans.o
  .rodata.str2.2
-                0x0000000000000000       0x30 /tmp/ccXOkU0Y.ltrans0.ltrans.o
- .comment       0x0000000000000000       0x33 /tmp/ccXOkU0Y.ltrans0.ltrans.o
+                0x0000000000000000       0x30 /tmp/ccAfPYkZ.ltrans0.ltrans.o
+ .comment       0x0000000000000000       0x33 /tmp/ccAfPYkZ.ltrans0.ltrans.o
  .note.GNU-stack
-                0x0000000000000000        0x0 /tmp/ccXOkU0Y.ltrans0.ltrans.o
+                0x0000000000000000        0x0 /tmp/ccAfPYkZ.ltrans0.ltrans.o
  .text          0x0000000000000000        0x8 /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(CpuBreakpoint.obj)
  .data          0x0000000000000000        0x0 /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(CpuBreakpoint.obj)
  .bss           0x0000000000000000        0x0 /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(CpuBreakpoint.obj)
@@ -313,7 +313,7 @@
 链结器命令稿和内存映射
 
 LOAD /home/evsio0n/src/edk2sdm/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
-LOAD /tmp/ccXOkU0Y.ltrans0.ltrans.o
+LOAD /tmp/ccAfPYkZ.ltrans0.ltrans.o
 START GROUP
 LOAD /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/DxePcdLib/DxePcdLib/OUTPUT/DxePcdLib.lib
 LOAD /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib
@@ -352,110 +352,110 @@ END GROUP
 .text           0x0000000000001000     0x52a8
  *(.text .text.* .stub .gnu.linkonce.t.*)
  .text.InternalAllocatePool.constprop.8
-                0x0000000000001000       0x6c /tmp/ccXOkU0Y.ltrans0.ltrans.o
+                0x0000000000001000       0x6c /tmp/ccAfPYkZ.ltrans0.ltrans.o
  .text.BasePrintLibFillBuffer
-                0x000000000000106c       0x34 /tmp/ccXOkU0Y.ltrans0.ltrans.o
+                0x000000000000106c       0x34 /tmp/ccAfPYkZ.ltrans0.ltrans.o
  .text.AsciiStrnLenS
-                0x00000000000010a0       0x3c /tmp/ccXOkU0Y.ltrans0.ltrans.o
+                0x00000000000010a0       0x3c /tmp/ccAfPYkZ.ltrans0.ltrans.o
  .text.DebugPrintLevelEnabled
-                0x00000000000010dc        0x8 /tmp/ccXOkU0Y.ltrans0.ltrans.o
+                0x00000000000010dc        0x8 /tmp/ccAfPYkZ.ltrans0.ltrans.o
  .text.DebugPrintEnabled
-                0x00000000000010e4        0x8 /tmp/ccXOkU0Y.ltrans0.ltrans.o
+                0x00000000000010e4        0x8 /tmp/ccAfPYkZ.ltrans0.ltrans.o
  .text.DebugAssertEnabled
-                0x00000000000010ec        0x8 /tmp/ccXOkU0Y.ltrans0.ltrans.o
+                0x00000000000010ec        0x8 /tmp/ccAfPYkZ.ltrans0.ltrans.o
  .text.DiskIoDriverBindingSupported
-                0x00000000000010f4       0xb0 /tmp/ccXOkU0Y.ltrans0.ltrans.o
+                0x00000000000010f4       0xb0 /tmp/ccAfPYkZ.ltrans0.ltrans.o
  .text.BaseDebugLibSerialPortConstructor
-                0x00000000000011a4       0x84 /tmp/ccXOkU0Y.ltrans0.ltrans.o
+                0x00000000000011a4       0x84 /tmp/ccAfPYkZ.ltrans0.ltrans.o
  .text.FbConFlush
-                0x0000000000001228       0x54 /tmp/ccXOkU0Y.ltrans0.ltrans.o
+                0x0000000000001228       0x54 /tmp/ccAfPYkZ.ltrans0.ltrans.o
  .text.SerialPortWrite
-                0x000000000000127c      0x418 /tmp/ccXOkU0Y.ltrans0.ltrans.o
+                0x000000000000127c      0x418 /tmp/ccAfPYkZ.ltrans0.ltrans.o
  .text.DebugAssert
-                0x0000000000001694       0x7c /tmp/ccXOkU0Y.ltrans0.ltrans.o
+                0x0000000000001694       0x7c /tmp/ccAfPYkZ.ltrans0.ltrans.o
  .text.CompareGuid.constprop.15
-                0x0000000000001710       0x50 /tmp/ccXOkU0Y.ltrans0.ltrans.o
+                0x0000000000001710       0x50 /tmp/ccAfPYkZ.ltrans0.ltrans.o
  .text.EfiInitializeLock.constprop.9
-                0x0000000000001760       0x1c /tmp/ccXOkU0Y.ltrans0.ltrans.o
+                0x0000000000001760       0x1c /tmp/ccAfPYkZ.ltrans0.ltrans.o
  .text.ZeroMem.constprop.4
-                0x000000000000177c       0x70 /tmp/ccXOkU0Y.ltrans0.ltrans.o
+                0x000000000000177c       0x70 /tmp/ccAfPYkZ.ltrans0.ltrans.o
  .text.ReadUnaligned16
-                0x00000000000017ec       0x68 /tmp/ccXOkU0Y.ltrans0.ltrans.o
+                0x00000000000017ec       0x68 /tmp/ccAfPYkZ.ltrans0.ltrans.o
  .text.AsciiStrLen
-                0x0000000000001854       0xa0 /tmp/ccXOkU0Y.ltrans0.ltrans.o
+                0x0000000000001854       0xa0 /tmp/ccAfPYkZ.ltrans0.ltrans.o
  .text.EfiReleaseLock
-                0x00000000000018f4       0x80 /tmp/ccXOkU0Y.ltrans0.ltrans.o
+                0x00000000000018f4       0x80 /tmp/ccAfPYkZ.ltrans0.ltrans.o
  .text.EfiAcquireLock
-                0x0000000000001974       0x88 /tmp/ccXOkU0Y.ltrans0.ltrans.o
+                0x0000000000001974       0x88 /tmp/ccAfPYkZ.ltrans0.ltrans.o
  .text.InitializeListHead
-                0x00000000000019fc        0x8 /tmp/ccXOkU0Y.ltrans0.ltrans.o
+                0x00000000000019fc        0x8 /tmp/ccAfPYkZ.ltrans0.ltrans.o
  .text.InternalBaseLibIsListValid
-                0x0000000000001a04       0xb8 /tmp/ccXOkU0Y.ltrans0.ltrans.o
+                0x0000000000001a04       0xb8 /tmp/ccAfPYkZ.ltrans0.ltrans.o
  .text.IsListEmpty
-                0x0000000000001abc       0x5c /tmp/ccXOkU0Y.ltrans0.ltrans.o
+                0x0000000000001abc       0x5c /tmp/ccAfPYkZ.ltrans0.ltrans.o
  .text.RemoveEntryList
-                0x0000000000001b18       0x64 /tmp/ccXOkU0Y.ltrans0.ltrans.o
+                0x0000000000001b18       0x64 /tmp/ccAfPYkZ.ltrans0.ltrans.o
  .text.GetFirstNode
-                0x0000000000001b7c       0x54 /tmp/ccXOkU0Y.ltrans0.ltrans.o
- .text.IsNull   0x0000000000001bd0       0x5c /tmp/ccXOkU0Y.ltrans0.ltrans.o
+                0x0000000000001b7c       0x54 /tmp/ccAfPYkZ.ltrans0.ltrans.o
+ .text.IsNull   0x0000000000001bd0       0x5c /tmp/ccAfPYkZ.ltrans0.ltrans.o
  .text.GetNextNode
-                0x0000000000001c2c       0x58 /tmp/ccXOkU0Y.ltrans0.ltrans.o
+                0x0000000000001c2c       0x58 /tmp/ccAfPYkZ.ltrans0.ltrans.o
  .text.InsertTailList
-                0x0000000000001c84       0x6c /tmp/ccXOkU0Y.ltrans0.ltrans.o
+                0x0000000000001c84       0x6c /tmp/ccAfPYkZ.ltrans0.ltrans.o
  .text.DivU64x32Remainder
-                0x0000000000001cf0       0x60 /tmp/ccXOkU0Y.ltrans0.ltrans.o
+                0x0000000000001cf0       0x60 /tmp/ccAfPYkZ.ltrans0.ltrans.o
  .text.BasePrintLibSPrintMarker.constprop.21
-                0x0000000000001d50      0xd18 /tmp/ccXOkU0Y.ltrans0.ltrans.o
+                0x0000000000001d50      0xd18 /tmp/ccAfPYkZ.ltrans0.ltrans.o
  .text.unlikely.BasePrintLibSPrint.constprop.22
-                0x0000000000002a68       0x98 /tmp/ccXOkU0Y.ltrans0.ltrans.o
+                0x0000000000002a68       0x98 /tmp/ccAfPYkZ.ltrans0.ltrans.o
  .text.DebugPrint
-                0x0000000000002b00       0xcc /tmp/ccXOkU0Y.ltrans0.ltrans.o
+                0x0000000000002b00       0xcc /tmp/ccAfPYkZ.ltrans0.ltrans.o
  .text.InternalAllocateAlignedPages.constprop.10
-                0x0000000000002bcc      0x220 /tmp/ccXOkU0Y.ltrans0.ltrans.o
+                0x0000000000002bcc      0x220 /tmp/ccAfPYkZ.ltrans0.ltrans.o
  .text.FreePool
-                0x0000000000002dec       0x7c /tmp/ccXOkU0Y.ltrans0.ltrans.o
+                0x0000000000002dec       0x7c /tmp/ccAfPYkZ.ltrans0.ltrans.o
  .text.FreeAlignedPages
-                0x0000000000002e68       0xc4 /tmp/ccXOkU0Y.ltrans0.ltrans.o
+                0x0000000000002e68       0xc4 /tmp/ccAfPYkZ.ltrans0.ltrans.o
  .text.DiskIoDestroySubtask
-                0x0000000000002f2c       0xc4 /tmp/ccXOkU0Y.ltrans0.ltrans.o
+                0x0000000000002f2c       0xc4 /tmp/ccAfPYkZ.ltrans0.ltrans.o
  .text.DiskIoCreateSubtask
-                0x0000000000002ff0      0x120 /tmp/ccXOkU0Y.ltrans0.ltrans.o
+                0x0000000000002ff0      0x120 /tmp/ccAfPYkZ.ltrans0.ltrans.o
  .text.AsciiSPrint.constprop.19
-                0x0000000000003110       0xa4 /tmp/ccXOkU0Y.ltrans0.ltrans.o
+                0x0000000000003110       0xa4 /tmp/ccAfPYkZ.ltrans0.ltrans.o
  .text.DiskIo2FlushDiskEx
-                0x00000000000031b4      0x134 /tmp/ccXOkU0Y.ltrans0.ltrans.o
+                0x00000000000031b4      0x134 /tmp/ccAfPYkZ.ltrans0.ltrans.o
  .text.DiskIo2OnFlushComplete
-                0x00000000000032e8       0x84 /tmp/ccXOkU0Y.ltrans0.ltrans.o
+                0x00000000000032e8       0x84 /tmp/ccAfPYkZ.ltrans0.ltrans.o
  .text.DiskIo2RemoveCompletedTask
-                0x000000000000336c      0x124 /tmp/ccXOkU0Y.ltrans0.ltrans.o
+                0x000000000000336c      0x124 /tmp/ccAfPYkZ.ltrans0.ltrans.o
  .text.DiskIo2Cancel
-                0x0000000000003490      0x134 /tmp/ccXOkU0Y.ltrans0.ltrans.o
+                0x0000000000003490      0x134 /tmp/ccAfPYkZ.ltrans0.ltrans.o
  .text.DiskIoCreateSubtaskList
-                0x00000000000035c4      0x494 /tmp/ccXOkU0Y.ltrans0.ltrans.o
+                0x00000000000035c4      0x494 /tmp/ccAfPYkZ.ltrans0.ltrans.o
  .text.DiskIoDriverBindingStop
-                0x0000000000003a58      0x2f4 /tmp/ccXOkU0Y.ltrans0.ltrans.o
- .text.CopyMem  0x0000000000003d4c       0xb0 /tmp/ccXOkU0Y.ltrans0.ltrans.o
+                0x0000000000003a58      0x2f4 /tmp/ccAfPYkZ.ltrans0.ltrans.o
+ .text.CopyMem  0x0000000000003d4c       0xb0 /tmp/ccAfPYkZ.ltrans0.ltrans.o
  .text.DiskIo2ReadWriteDisk
-                0x0000000000003dfc      0x524 /tmp/ccXOkU0Y.ltrans0.ltrans.o
+                0x0000000000003dfc      0x524 /tmp/ccAfPYkZ.ltrans0.ltrans.o
  .text.DiskIoWriteDisk
-                0x0000000000004320       0x98 /tmp/ccXOkU0Y.ltrans0.ltrans.o
+                0x0000000000004320       0x98 /tmp/ccAfPYkZ.ltrans0.ltrans.o
  .text.DiskIoReadDisk
-                0x00000000000043b8       0x98 /tmp/ccXOkU0Y.ltrans0.ltrans.o
+                0x00000000000043b8       0x98 /tmp/ccAfPYkZ.ltrans0.ltrans.o
  .text.DiskIo2WriteDiskEx
-                0x0000000000004450       0x9c /tmp/ccXOkU0Y.ltrans0.ltrans.o
+                0x0000000000004450       0x9c /tmp/ccAfPYkZ.ltrans0.ltrans.o
  .text.DiskIo2ReadDiskEx
-                0x00000000000044ec       0x9c /tmp/ccXOkU0Y.ltrans0.ltrans.o
+                0x00000000000044ec       0x9c /tmp/ccAfPYkZ.ltrans0.ltrans.o
  .text.DiskIo2OnReadWriteComplete
-                0x0000000000004588      0x140 /tmp/ccXOkU0Y.ltrans0.ltrans.o
+                0x0000000000004588      0x140 /tmp/ccAfPYkZ.ltrans0.ltrans.o
  .text.DiskIoDriverBindingStart
-                0x00000000000046c8      0x268 /tmp/ccXOkU0Y.ltrans0.ltrans.o
+                0x00000000000046c8      0x268 /tmp/ccAfPYkZ.ltrans0.ltrans.o
  .text.__stack_chk_fail
-                0x0000000000004930       0x34 /tmp/ccXOkU0Y.ltrans0.ltrans.o
+                0x0000000000004930       0x34 /tmp/ccAfPYkZ.ltrans0.ltrans.o
                 0x0000000000004930                __stack_chk_fail
  .text._ModuleEntryPoint
-                0x0000000000004964      0x2f0 /tmp/ccXOkU0Y.ltrans0.ltrans.o
+                0x0000000000004964      0x2f0 /tmp/ccAfPYkZ.ltrans0.ltrans.o
                 0x0000000000004964                _ModuleEntryPoint
- .text.memcpy   0x0000000000004c54       0x20 /tmp/ccXOkU0Y.ltrans0.ltrans.o
+ .text.memcpy   0x0000000000004c54       0x20 /tmp/ccAfPYkZ.ltrans0.ltrans.o
                 0x0000000000004c54                memcpy
  *fill*         0x0000000000004c74        0xc 
  .text          0x0000000000004c80      0x218 /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(CopyMem.obj)
@@ -489,67 +489,67 @@ END GROUP
                 0x00000000000050f8                ArmDataSynchronizationBarrier
  *(.rodata .rodata.* .gnu.linkonce.r.*)
  .rodata.AsciiStrLen.str1.1
-                0x0000000000005100       0x8e /tmp/ccXOkU0Y.ltrans0.ltrans.o
+                0x0000000000005100       0x8e /tmp/ccAfPYkZ.ltrans0.ltrans.o
  .rodata.BasePrintLibSPrintMarker.constprop.21.str1.1
-                0x000000000000518e      0x17e /tmp/ccXOkU0Y.ltrans0.ltrans.o
+                0x000000000000518e      0x17e /tmp/ccAfPYkZ.ltrans0.ltrans.o
  .rodata.CompareGuid.constprop.15.str1.1
-                0x000000000000530c       0x69 /tmp/ccXOkU0Y.ltrans0.ltrans.o
+                0x000000000000530c       0x69 /tmp/ccAfPYkZ.ltrans0.ltrans.o
  .rodata.CopyMem.str1.1
-                0x0000000000005375       0xd4 /tmp/ccXOkU0Y.ltrans0.ltrans.o
+                0x0000000000005375       0xd4 /tmp/ccAfPYkZ.ltrans0.ltrans.o
  .rodata.DebugAssert.str1.1
-                0x0000000000005449       0x22 /tmp/ccXOkU0Y.ltrans0.ltrans.o
+                0x0000000000005449       0x22 /tmp/ccAfPYkZ.ltrans0.ltrans.o
  .rodata.DiskIo2FlushDiskEx.str1.1
-                0x000000000000546b       0x63 /tmp/ccXOkU0Y.ltrans0.ltrans.o
+                0x000000000000546b       0x63 /tmp/ccAfPYkZ.ltrans0.ltrans.o
  .rodata.DiskIo2OnFlushComplete.str1.1
-                0x00000000000054ce       0x49 /tmp/ccXOkU0Y.ltrans0.ltrans.o
+                0x00000000000054ce       0x49 /tmp/ccAfPYkZ.ltrans0.ltrans.o
  .rodata.DiskIo2OnReadWriteComplete.str1.1
-                0x0000000000005517       0xe2 /tmp/ccXOkU0Y.ltrans0.ltrans.o
+                0x0000000000005517       0xe2 /tmp/ccAfPYkZ.ltrans0.ltrans.o
  .rodata.DiskIo2ReadWriteDisk.str1.1
-                0x00000000000055f9       0xc6 /tmp/ccXOkU0Y.ltrans0.ltrans.o
+                0x00000000000055f9       0xc6 /tmp/ccAfPYkZ.ltrans0.ltrans.o
  .rodata.DiskIo2RemoveCompletedTask.str1.1
-                0x00000000000056bf       0x1c /tmp/ccXOkU0Y.ltrans0.ltrans.o
+                0x00000000000056bf       0x1c /tmp/ccAfPYkZ.ltrans0.ltrans.o
  .rodata.DiskIoCreateSubtask.str1.1
-                0x00000000000056db       0x4a /tmp/ccXOkU0Y.ltrans0.ltrans.o
+                0x00000000000056db       0x4a /tmp/ccAfPYkZ.ltrans0.ltrans.o
  .rodata.DiskIoCreateSubtaskList.str1.1
-                0x0000000000005725       0x99 /tmp/ccXOkU0Y.ltrans0.ltrans.o
+                0x0000000000005725       0x99 /tmp/ccAfPYkZ.ltrans0.ltrans.o
  .rodata.DiskIoDriverBindingStart.str1.1
-                0x00000000000057be      0x105 /tmp/ccXOkU0Y.ltrans0.ltrans.o
+                0x00000000000057be      0x105 /tmp/ccAfPYkZ.ltrans0.ltrans.o
  .rodata.DiskIoDriverBindingStop.str1.1
-                0x00000000000058c3       0x23 /tmp/ccXOkU0Y.ltrans0.ltrans.o
+                0x00000000000058c3       0x23 /tmp/ccAfPYkZ.ltrans0.ltrans.o
  .rodata.DivU64x32Remainder.str1.1
-                0x00000000000058e6       0x58 /tmp/ccXOkU0Y.ltrans0.ltrans.o
+                0x00000000000058e6       0x58 /tmp/ccAfPYkZ.ltrans0.ltrans.o
  .rodata.EfiAcquireLock.str1.1
-                0x000000000000593e       0x1e /tmp/ccXOkU0Y.ltrans0.ltrans.o
+                0x000000000000593e       0x1e /tmp/ccAfPYkZ.ltrans0.ltrans.o
  .rodata.EfiReleaseLock.str1.1
-                0x000000000000595c       0x73 /tmp/ccXOkU0Y.ltrans0.ltrans.o
+                0x000000000000595c       0x73 /tmp/ccAfPYkZ.ltrans0.ltrans.o
  .rodata.FreeAlignedPages.str1.1
-                0x00000000000059cf        0xb /tmp/ccXOkU0Y.ltrans0.ltrans.o
+                0x00000000000059cf        0xb /tmp/ccAfPYkZ.ltrans0.ltrans.o
  .rodata.GetFirstNode.str1.1
-                0x00000000000059da       0x22 /tmp/ccXOkU0Y.ltrans0.ltrans.o
+                0x00000000000059da       0x22 /tmp/ccAfPYkZ.ltrans0.ltrans.o
  .rodata.InternalAllocateAlignedPages.constprop.10.str1.1
-                0x00000000000059fc       0xc6 /tmp/ccXOkU0Y.ltrans0.ltrans.o
+                0x00000000000059fc       0xc6 /tmp/ccAfPYkZ.ltrans0.ltrans.o
  .rodata.InternalBaseLibIsListValid.str1.1
-                0x0000000000005ac2       0x84 /tmp/ccXOkU0Y.ltrans0.ltrans.o
+                0x0000000000005ac2       0x84 /tmp/ccAfPYkZ.ltrans0.ltrans.o
                                          0x99 (松开之前的大小)
  .rodata.IsListEmpty.str1.1
-                0x0000000000005b46       0x26 /tmp/ccXOkU0Y.ltrans0.ltrans.o
+                0x0000000000005b46       0x26 /tmp/ccAfPYkZ.ltrans0.ltrans.o
  .rodata.ReadUnaligned16.str1.1
-                0x0000000000005b6c       0x46 /tmp/ccXOkU0Y.ltrans0.ltrans.o
+                0x0000000000005b6c       0x46 /tmp/ccAfPYkZ.ltrans0.ltrans.o
  .rodata.RemoveEntryList.str1.1
-                0x0000000000005bb2       0x15 /tmp/ccXOkU0Y.ltrans0.ltrans.o
+                0x0000000000005bb2       0x15 /tmp/ccAfPYkZ.ltrans0.ltrans.o
  .rodata.ZeroMem.constprop.4.str1.1
-                0x0000000000005bc7       0xa0 /tmp/ccXOkU0Y.ltrans0.ltrans.o
+                0x0000000000005bc7       0xa0 /tmp/ccAfPYkZ.ltrans0.ltrans.o
  .rodata._ModuleEntryPoint.str1.1
-                0x0000000000005c67      0x276 /tmp/ccXOkU0Y.ltrans0.ltrans.o
+                0x0000000000005c67      0x276 /tmp/ccAfPYkZ.ltrans0.ltrans.o
  .rodata.__stack_chk_fail.str1.1
-                0x0000000000005edd       0x2e /tmp/ccXOkU0Y.ltrans0.ltrans.o
+                0x0000000000005edd       0x2e /tmp/ccAfPYkZ.ltrans0.ltrans.o
  .rodata.mHexStr
-                0x0000000000005f0b       0x10 /tmp/ccXOkU0Y.ltrans0.ltrans.o
+                0x0000000000005f0b       0x10 /tmp/ccAfPYkZ.ltrans0.ltrans.o
  *fill*         0x0000000000005f1b        0x5 
  .rodata.mStatusString
-                0x0000000000005f20      0x138 /tmp/ccXOkU0Y.ltrans0.ltrans.o
+                0x0000000000005f20      0x138 /tmp/ccAfPYkZ.ltrans0.ltrans.o
  .rodata.str1.1
-                0x0000000000006058      0x22f /tmp/ccXOkU0Y.ltrans0.ltrans.o
+                0x0000000000006058      0x22f /tmp/ccAfPYkZ.ltrans0.ltrans.o
                                         0x240 (松开之前的大小)
  *(.got .got.*)
  *fill*         0x0000000000006287        0x1 
@@ -565,41 +565,41 @@ END GROUP
  *(.data .data.* .gnu.linkonce.d.*)
  .data.rel.ro   0x0000000000007000        0x0 /home/evsio0n/src/edk2sdm/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
  .data.__stack_chk_guard
-                0x0000000000007000        0x8 /tmp/ccXOkU0Y.ltrans0.ltrans.o
+                0x0000000000007000        0x8 /tmp/ccAfPYkZ.ltrans0.ltrans.o
                 0x0000000000007000                __stack_chk_guard
  .data.font5x12
-                0x0000000000007008      0x300 /tmp/ccXOkU0Y.ltrans0.ltrans.o
+                0x0000000000007008      0x300 /tmp/ccAfPYkZ.ltrans0.ltrans.o
  .data.gDiskIoDriverBinding
-                0x0000000000007308       0x30 /tmp/ccXOkU0Y.ltrans0.ltrans.o
+                0x0000000000007308       0x30 /tmp/ccAfPYkZ.ltrans0.ltrans.o
  .data.gDiskIoPrivateDataTemplate
-                0x0000000000007338       0x88 /tmp/ccXOkU0Y.ltrans0.ltrans.o
+                0x0000000000007338       0x88 /tmp/ccAfPYkZ.ltrans0.ltrans.o
  .data.gEfiBlockIo2ProtocolGuid
-                0x00000000000073c0       0x10 /tmp/ccXOkU0Y.ltrans0.ltrans.o
+                0x00000000000073c0       0x10 /tmp/ccAfPYkZ.ltrans0.ltrans.o
  .data.gEfiBlockIoProtocolGuid
-                0x00000000000073d0       0x10 /tmp/ccXOkU0Y.ltrans0.ltrans.o
+                0x00000000000073d0       0x10 /tmp/ccAfPYkZ.ltrans0.ltrans.o
  .data.gEfiDiskIo2ProtocolGuid
-                0x00000000000073e0       0x10 /tmp/ccXOkU0Y.ltrans0.ltrans.o
+                0x00000000000073e0       0x10 /tmp/ccAfPYkZ.ltrans0.ltrans.o
  .data.gEfiDiskIoProtocolGuid
-                0x00000000000073f0       0x10 /tmp/ccXOkU0Y.ltrans0.ltrans.o
+                0x00000000000073f0       0x10 /tmp/ccAfPYkZ.ltrans0.ltrans.o
  .data.gEfiDriverBindingProtocolGuid
-                0x0000000000007400       0x10 /tmp/ccXOkU0Y.ltrans0.ltrans.o
+                0x0000000000007400       0x10 /tmp/ccAfPYkZ.ltrans0.ltrans.o
  .data.gEfiHobListGuid
-                0x0000000000007410       0x10 /tmp/ccXOkU0Y.ltrans0.ltrans.o
+                0x0000000000007410       0x10 /tmp/ccAfPYkZ.ltrans0.ltrans.o
  *(.bss .bss.*)
- .bss.gBS       0x0000000000007420        0x8 /tmp/ccXOkU0Y.ltrans0.ltrans.o
+ .bss.gBS       0x0000000000007420        0x8 /tmp/ccAfPYkZ.ltrans0.ltrans.o
  .bss.gImageHandle
-                0x0000000000007428        0x8 /tmp/ccXOkU0Y.ltrans0.ltrans.o
- .bss.gRT       0x0000000000007430        0x8 /tmp/ccXOkU0Y.ltrans0.ltrans.o
- .bss.gST       0x0000000000007438        0x8 /tmp/ccXOkU0Y.ltrans0.ltrans.o
- .bss.mHobList  0x0000000000007440        0x8 /tmp/ccXOkU0Y.ltrans0.ltrans.o
- .bss.m_Color   0x0000000000007448       0x10 /tmp/ccXOkU0Y.ltrans0.ltrans.o
+                0x0000000000007428        0x8 /tmp/ccAfPYkZ.ltrans0.ltrans.o
+ .bss.gRT       0x0000000000007430        0x8 /tmp/ccAfPYkZ.ltrans0.ltrans.o
+ .bss.gST       0x0000000000007438        0x8 /tmp/ccAfPYkZ.ltrans0.ltrans.o
+ .bss.mHobList  0x0000000000007440        0x8 /tmp/ccAfPYkZ.ltrans0.ltrans.o
+ .bss.m_Color   0x0000000000007448       0x10 /tmp/ccAfPYkZ.ltrans0.ltrans.o
  .bss.m_Initialized
-                0x0000000000007458        0x1 /tmp/ccXOkU0Y.ltrans0.ltrans.o
+                0x0000000000007458        0x1 /tmp/ccAfPYkZ.ltrans0.ltrans.o
  *fill*         0x0000000000007459        0x7 
  .bss.m_MaxPosition
-                0x0000000000007460       0x10 /tmp/ccXOkU0Y.ltrans0.ltrans.o
+                0x0000000000007460       0x10 /tmp/ccAfPYkZ.ltrans0.ltrans.o
  .bss.m_Position
-                0x0000000000007470       0x10 /tmp/ccXOkU0Y.ltrans0.ltrans.o
+                0x0000000000007470       0x10 /tmp/ccAfPYkZ.ltrans0.ltrans.o
 
 .dynbss         0x0000000000007480        0x0
  .dynbss        0x0000000000007480        0x0 /home/evsio0n/src/edk2sdm/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
@@ -644,27 +644,27 @@ END GROUP
 OUTPUT(/home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/MdeModulePkg/Universal/Disk/DiskIoDxe/DiskIoDxe/DEBUG/DiskIoDxe.dll elf64-littleaarch64)
 
 .debug_info     0x0000000000000000     0x7ef3
- .debug_info    0x0000000000000000     0x7ef3 /tmp/ccXOkU0Y.ltrans0.ltrans.o
+ .debug_info    0x0000000000000000     0x7ef3 /tmp/ccAfPYkZ.ltrans0.ltrans.o
 
 .debug_abbrev   0x0000000000000000      0x628
- .debug_abbrev  0x0000000000000000      0x628 /tmp/ccXOkU0Y.ltrans0.ltrans.o
+ .debug_abbrev  0x0000000000000000      0x628 /tmp/ccAfPYkZ.ltrans0.ltrans.o
 
 .debug_loc      0x0000000000000000     0x80fe
- .debug_loc     0x0000000000000000     0x80fe /tmp/ccXOkU0Y.ltrans0.ltrans.o
+ .debug_loc     0x0000000000000000     0x80fe /tmp/ccAfPYkZ.ltrans0.ltrans.o
 
 .debug_aranges  0x0000000000000000      0x3f0
  .debug_aranges
-                0x0000000000000000      0x3f0 /tmp/ccXOkU0Y.ltrans0.ltrans.o
+                0x0000000000000000      0x3f0 /tmp/ccAfPYkZ.ltrans0.ltrans.o
 
 .debug_ranges   0x0000000000000000      0xa60
- .debug_ranges  0x0000000000000000      0xa60 /tmp/ccXOkU0Y.ltrans0.ltrans.o
+ .debug_ranges  0x0000000000000000      0xa60 /tmp/ccAfPYkZ.ltrans0.ltrans.o
 
 .debug_line     0x0000000000000000     0x18c5
- .debug_line    0x0000000000000000     0x18c5 /tmp/ccXOkU0Y.ltrans0.ltrans.o
+ .debug_line    0x0000000000000000     0x18c5 /tmp/ccAfPYkZ.ltrans0.ltrans.o
 
 .debug_str      0x0000000000000000     0x27ae
- .debug_str     0x0000000000000000     0x27ae /tmp/ccXOkU0Y.ltrans0.ltrans.o
+ .debug_str     0x0000000000000000     0x27ae /tmp/ccAfPYkZ.ltrans0.ltrans.o
                                        0x2bc1 (松开之前的大小)
 
 .debug_frame    0x0000000000000000      0xce0
- .debug_frame   0x0000000000000000      0xce0 /tmp/ccXOkU0Y.ltrans0.ltrans.o
+ .debug_frame   0x0000000000000000      0xce0 /tmp/ccAfPYkZ.ltrans0.ltrans.o

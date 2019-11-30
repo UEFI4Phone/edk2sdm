@@ -33,7 +33,7 @@
 
 [Protocols]
   gEFIDroidKeypadDeviceProtocolGuid = { 0xb27625b5, 0x0b6c, 0x4614, { 0xaa, 0x3c, 0x33, 0x13, 0xb5, 0x1d, 0x36, 0x46 } }
-
+#  gEFIDroidKeypadDeviceProtocolGuid = { 0xd7f58a0e, 0xbed2, 0x4b5a, { 0xbb, 0x43, 0x8a, 0xb2, 0x3d, 0xd0, 0xe2, 0xb0 } }
 
 [PcdsFixedAtBuild.common]
   # Simple FrameBuffer
@@ -41,5 +41,5 @@
   gXiaomiMI6PkgTokenSpaceGuid.PcdMipiFrameBufferWidth|1440|UINT32|0x0000a401
   gXiaomiMI6PkgTokenSpaceGuid.PcdMipiFrameBufferHeight|2960|UINT32|0x0000a402
   gXiaomiMI6PkgTokenSpaceGuid.PcdMipiFrameBufferPixelBpp|32|UINT32|0x0000a403
-  gXiaomiMI6PkgTokenSpaceGuid.PcdMipiFrameBufferVisibleWidth|1080|UINT32|0x0000a404
-  gXiaomiMI6PkgTokenSpaceGuid.PcdMipiFrameBufferVisibleHeight|1920|UINT32|0x0000a405
+  gXiaomiMI6PkgTokenSpaceGuid.PcdMipiFrameBufferVisibleWidth|1440|UINT32|0x0000a404
+  gXiaomiMI6PkgTokenSpaceGuid.PcdMipiFrameBufferVisibleHeight|2960|UINT32|0x0000a405

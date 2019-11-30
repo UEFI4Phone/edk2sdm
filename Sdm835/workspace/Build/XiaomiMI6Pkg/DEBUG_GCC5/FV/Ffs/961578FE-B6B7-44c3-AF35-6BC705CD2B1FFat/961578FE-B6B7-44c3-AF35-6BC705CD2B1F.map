@@ -144,34 +144,34 @@
  .text          0x0000000000000000       0x10 /home/evsio0n/src/edk2sdm/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
  .data          0x0000000000000000        0x0 /home/evsio0n/src/edk2sdm/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
  .bss           0x0000000000000000        0x0 /home/evsio0n/src/edk2sdm/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
- .text          0x0000000000000000        0x0 /tmp/ccS51Sur.ltrans0.ltrans.o
- .data          0x0000000000000000        0x0 /tmp/ccS51Sur.ltrans0.ltrans.o
- .bss           0x0000000000000000        0x0 /tmp/ccS51Sur.ltrans0.ltrans.o
+ .text          0x0000000000000000        0x0 /tmp/ccxMk8tp.ltrans0.ltrans.o
+ .data          0x0000000000000000        0x0 /tmp/ccxMk8tp.ltrans0.ltrans.o
+ .bss           0x0000000000000000        0x0 /tmp/ccxMk8tp.ltrans0.ltrans.o
  .text.ReadUnaligned24
-                0x0000000000000000       0x54 /tmp/ccS51Sur.ltrans0.ltrans.o
+                0x0000000000000000       0x54 /tmp/ccxMk8tp.ltrans0.ltrans.o
  .text.LookupUnicodeString2.part.1
-                0x0000000000000000      0x128 /tmp/ccS51Sur.ltrans0.ltrans.o
+                0x0000000000000000      0x128 /tmp/ccxMk8tp.ltrans0.ltrans.o
  .text.FatComponentNameGetControllerName
-                0x0000000000000000       0xa0 /tmp/ccS51Sur.ltrans0.ltrans.o
+                0x0000000000000000       0xa0 /tmp/ccxMk8tp.ltrans0.ltrans.o
  .text.FatComponentNameGetDriverName
-                0x0000000000000000       0x50 /tmp/ccS51Sur.ltrans0.ltrans.o
+                0x0000000000000000       0x50 /tmp/ccxMk8tp.ltrans0.ltrans.o
  .text.IsNodeInList
-                0x0000000000000000       0xb0 /tmp/ccS51Sur.ltrans0.ltrans.o
+                0x0000000000000000       0xb0 /tmp/ccxMk8tp.ltrans0.ltrans.o
  .text.__memset
-                0x0000000000000000       0x1c /tmp/ccS51Sur.ltrans0.ltrans.o
+                0x0000000000000000       0x1c /tmp/ccxMk8tp.ltrans0.ltrans.o
  .data.gFatComponentName
-                0x0000000000000000       0x18 /tmp/ccS51Sur.ltrans0.ltrans.o
+                0x0000000000000000       0x18 /tmp/ccxMk8tp.ltrans0.ltrans.o
  .data.mFatControllerNameTable
-                0x0000000000000000       0x20 /tmp/ccS51Sur.ltrans0.ltrans.o
+                0x0000000000000000       0x20 /tmp/ccxMk8tp.ltrans0.ltrans.o
  .data.mFatDriverNameTable
-                0x0000000000000000       0x20 /tmp/ccS51Sur.ltrans0.ltrans.o
+                0x0000000000000000       0x20 /tmp/ccxMk8tp.ltrans0.ltrans.o
  .rodata.IsNodeInList.str1.1
-                0x0000000000000000       0x44 /tmp/ccS51Sur.ltrans0.ltrans.o
+                0x0000000000000000       0x44 /tmp/ccxMk8tp.ltrans0.ltrans.o
  .rodata.str2.2
-                0x0000000000000000       0x4e /tmp/ccS51Sur.ltrans0.ltrans.o
- .comment       0x0000000000000000       0x33 /tmp/ccS51Sur.ltrans0.ltrans.o
+                0x0000000000000000       0x4e /tmp/ccxMk8tp.ltrans0.ltrans.o
+ .comment       0x0000000000000000       0x33 /tmp/ccxMk8tp.ltrans0.ltrans.o
  .note.GNU-stack
-                0x0000000000000000        0x0 /tmp/ccS51Sur.ltrans0.ltrans.o
+                0x0000000000000000        0x0 /tmp/ccxMk8tp.ltrans0.ltrans.o
  .text          0x0000000000000000        0x8 /home/evsio0n/src/edk2sdm/Sdm835/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(CpuBreakpoint.obj)
  .data          0x0000000000000000        0x0 /home/evsio0n/src/edk2sdm/Sdm835/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(CpuBreakpoint.obj)
  .bss           0x0000000000000000        0x0 /home/evsio0n/src/edk2sdm/Sdm835/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(CpuBreakpoint.obj)
@@ -347,7 +347,7 @@
 链结器命令稿和内存映射
 
 LOAD /home/evsio0n/src/edk2sdm/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
-LOAD /tmp/ccS51Sur.ltrans0.ltrans.o
+LOAD /tmp/ccxMk8tp.ltrans0.ltrans.o
 START GROUP
 LOAD /home/evsio0n/src/edk2sdm/Sdm835/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/DxePcdLib/DxePcdLib/OUTPUT/DxePcdLib.lib
 LOAD /home/evsio0n/src/edk2sdm/Sdm835/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib
@@ -386,274 +386,274 @@ END GROUP
 .text           0x0000000000001000     0xae30
  *(.text .text.* .stub .gnu.linkonce.t.*)
  .text.InternalAllocatePool.constprop.10
-                0x0000000000001000       0x6c /tmp/ccS51Sur.ltrans0.ltrans.o
+                0x0000000000001000       0x6c /tmp/ccxMk8tp.ltrans0.ltrans.o
  .text.BasePrintLibFillBuffer
-                0x000000000000106c       0x34 /tmp/ccS51Sur.ltrans0.ltrans.o
+                0x000000000000106c       0x34 /tmp/ccxMk8tp.ltrans0.ltrans.o
  .text.DebugPrintLevelEnabled
-                0x00000000000010a0        0x8 /tmp/ccS51Sur.ltrans0.ltrans.o
+                0x00000000000010a0        0x8 /tmp/ccxMk8tp.ltrans0.ltrans.o
  .text.DebugPrintEnabled
-                0x00000000000010a8        0x8 /tmp/ccS51Sur.ltrans0.ltrans.o
+                0x00000000000010a8        0x8 /tmp/ccxMk8tp.ltrans0.ltrans.o
  .text.DebugAssertEnabled
-                0x00000000000010b0        0x8 /tmp/ccS51Sur.ltrans0.ltrans.o
+                0x00000000000010b0        0x8 /tmp/ccxMk8tp.ltrans0.ltrans.o
  .text.AsciiStrnLenS
-                0x00000000000010b8       0x3c /tmp/ccS51Sur.ltrans0.ltrans.o
+                0x00000000000010b8       0x3c /tmp/ccxMk8tp.ltrans0.ltrans.o
  .text.InternalSafeStringNoStrOverlap
-                0x00000000000010f4       0x3c /tmp/ccS51Sur.ltrans0.ltrans.o
+                0x00000000000010f4       0x3c /tmp/ccxMk8tp.ltrans0.ltrans.o
  .text.HighBitSet32
-                0x0000000000001130       0x2c /tmp/ccS51Sur.ltrans0.ltrans.o
+                0x0000000000001130       0x2c /tmp/ccxMk8tp.ltrans0.ltrans.o
  .text.FatHashShortName
-                0x000000000000115c       0x60 /tmp/ccS51Sur.ltrans0.ltrans.o
+                0x000000000000115c       0x60 /tmp/ccxMk8tp.ltrans0.ltrans.o
  .text.FatIsValidTime
-                0x00000000000011bc       0xc8 /tmp/ccS51Sur.ltrans0.ltrans.o
+                0x00000000000011bc       0xc8 /tmp/ccxMk8tp.ltrans0.ltrans.o
  .text.FatFatTimeToEfiTime
-                0x0000000000001284       0x68 /tmp/ccS51Sur.ltrans0.ltrans.o
+                0x0000000000001284       0x68 /tmp/ccxMk8tp.ltrans0.ltrans.o
  .text.FatEfiTimeToFatTime
-                0x00000000000012ec       0x88 /tmp/ccS51Sur.ltrans0.ltrans.o
+                0x00000000000012ec       0x88 /tmp/ccxMk8tp.ltrans0.ltrans.o
  .text.FatDriverBindingSupported
-                0x0000000000001374       0xd4 /tmp/ccS51Sur.ltrans0.ltrans.o
+                0x0000000000001374       0xd4 /tmp/ccxMk8tp.ltrans0.ltrans.o
  .text.EfiTestManagedDevice.constprop.16
-                0x0000000000001448       0xc4 /tmp/ccS51Sur.ltrans0.ltrans.o
+                0x0000000000001448       0xc4 /tmp/ccxMk8tp.ltrans0.ltrans.o
  .text.BaseDebugLibSerialPortConstructor
-                0x000000000000150c       0x84 /tmp/ccS51Sur.ltrans0.ltrans.o
+                0x000000000000150c       0x84 /tmp/ccxMk8tp.ltrans0.ltrans.o
  .text.FbConFlush
-                0x0000000000001590       0x54 /tmp/ccS51Sur.ltrans0.ltrans.o
+                0x0000000000001590       0x54 /tmp/ccxMk8tp.ltrans0.ltrans.o
  .text.SerialPortWrite
-                0x00000000000015e4      0x418 /tmp/ccS51Sur.ltrans0.ltrans.o
+                0x00000000000015e4      0x418 /tmp/ccxMk8tp.ltrans0.ltrans.o
  .text.DebugAssert
-                0x00000000000019fc       0x7c /tmp/ccS51Sur.ltrans0.ltrans.o
+                0x00000000000019fc       0x7c /tmp/ccxMk8tp.ltrans0.ltrans.o
  .text.EfiAcquireLockOrFail.constprop.5
-                0x0000000000001a78       0x88 /tmp/ccS51Sur.ltrans0.ltrans.o
+                0x0000000000001a78       0x88 /tmp/ccxMk8tp.ltrans0.ltrans.o
  .text.ReadUnaligned16
-                0x0000000000001b00       0x68 /tmp/ccS51Sur.ltrans0.ltrans.o
+                0x0000000000001b00       0x68 /tmp/ccxMk8tp.ltrans0.ltrans.o
  .text.EfiReleaseLock
-                0x0000000000001b68       0x68 /tmp/ccS51Sur.ltrans0.ltrans.o
+                0x0000000000001b68       0x68 /tmp/ccxMk8tp.ltrans0.ltrans.o
  .text.FatReleaseLock
-                0x0000000000001bd0        0xc /tmp/ccS51Sur.ltrans0.ltrans.o
+                0x0000000000001bd0        0xc /tmp/ccxMk8tp.ltrans0.ltrans.o
  .text.EfiAcquireLock
-                0x0000000000001bdc       0x70 /tmp/ccS51Sur.ltrans0.ltrans.o
+                0x0000000000001bdc       0x70 /tmp/ccxMk8tp.ltrans0.ltrans.o
  .text.FatAcquireLock
-                0x0000000000001c4c        0xc /tmp/ccS51Sur.ltrans0.ltrans.o
+                0x0000000000001c4c        0xc /tmp/ccxMk8tp.ltrans0.ltrans.o
  .text.AsciiStrLen
-                0x0000000000001c58       0xa0 /tmp/ccS51Sur.ltrans0.ltrans.o
+                0x0000000000001c58       0xa0 /tmp/ccxMk8tp.ltrans0.ltrans.o
  .text.AsciiStrnCmp
-                0x0000000000001cf8       0xf0 /tmp/ccS51Sur.ltrans0.ltrans.o
- .text.StrLen   0x0000000000001de8       0xbc /tmp/ccS51Sur.ltrans0.ltrans.o
- .text.StrSize  0x0000000000001ea4       0x1c /tmp/ccS51Sur.ltrans0.ltrans.o
- .text.StrCmp   0x0000000000001ec0       0x98 /tmp/ccS51Sur.ltrans0.ltrans.o
+                0x0000000000001cf8       0xf0 /tmp/ccxMk8tp.ltrans0.ltrans.o
+ .text.StrLen   0x0000000000001de8       0xbc /tmp/ccxMk8tp.ltrans0.ltrans.o
+ .text.StrSize  0x0000000000001ea4       0x1c /tmp/ccxMk8tp.ltrans0.ltrans.o
+ .text.StrCmp   0x0000000000001ec0       0x98 /tmp/ccxMk8tp.ltrans0.ltrans.o
  .text.FatIsDotDirEnt
-                0x0000000000001f58       0x50 /tmp/ccS51Sur.ltrans0.ltrans.o
+                0x0000000000001f58       0x50 /tmp/ccxMk8tp.ltrans0.ltrans.o
  .text.StrnLenS
-                0x0000000000001fa8       0x7c /tmp/ccS51Sur.ltrans0.ltrans.o
+                0x0000000000001fa8       0x7c /tmp/ccxMk8tp.ltrans0.ltrans.o
  .text.BasePrintLibSPrintMarker.constprop.21
-                0x0000000000002024      0xcbc /tmp/ccS51Sur.ltrans0.ltrans.o
+                0x0000000000002024      0xcbc /tmp/ccxMk8tp.ltrans0.ltrans.o
  .text.unlikely.BasePrintLibSPrint.constprop.22
-                0x0000000000002ce0       0x98 /tmp/ccS51Sur.ltrans0.ltrans.o
+                0x0000000000002ce0       0x98 /tmp/ccxMk8tp.ltrans0.ltrans.o
  .text.DebugPrint
-                0x0000000000002d78       0xcc /tmp/ccS51Sur.ltrans0.ltrans.o
+                0x0000000000002d78       0xcc /tmp/ccxMk8tp.ltrans0.ltrans.o
  .text.FreePool
-                0x0000000000002e44       0x7c /tmp/ccS51Sur.ltrans0.ltrans.o
+                0x0000000000002e44       0x7c /tmp/ccxMk8tp.ltrans0.ltrans.o
  .text.FatFreeDirEnt
-                0x0000000000002ec0       0x2c /tmp/ccS51Sur.ltrans0.ltrans.o
+                0x0000000000002ec0       0x2c /tmp/ccxMk8tp.ltrans0.ltrans.o
  .text._DriverUnloadHandler
-                0x0000000000002eec      0x1c0 /tmp/ccS51Sur.ltrans0.ltrans.o
+                0x0000000000002eec      0x1c0 /tmp/ccxMk8tp.ltrans0.ltrans.o
  .text.AsciiSPrint.constprop.19
-                0x00000000000030ac       0xa4 /tmp/ccS51Sur.ltrans0.ltrans.o
+                0x00000000000030ac       0xa4 /tmp/ccxMk8tp.ltrans0.ltrans.o
  .text.StrnCpyS.constprop.4
-                0x0000000000003150      0x124 /tmp/ccS51Sur.ltrans0.ltrans.o
+                0x0000000000003150      0x124 /tmp/ccxMk8tp.ltrans0.ltrans.o
  .text.StrCatS.constprop.2
-                0x0000000000003274      0x1a4 /tmp/ccS51Sur.ltrans0.ltrans.o
- .text.StrCpyS  0x0000000000003418      0x164 /tmp/ccS51Sur.ltrans0.ltrans.o
+                0x0000000000003274      0x1a4 /tmp/ccxMk8tp.ltrans0.ltrans.o
+ .text.StrCpyS  0x0000000000003418      0x164 /tmp/ccxMk8tp.ltrans0.ltrans.o
  .text.InitializeListHead
-                0x000000000000357c       0x4c /tmp/ccS51Sur.ltrans0.ltrans.o
+                0x000000000000357c       0x4c /tmp/ccxMk8tp.ltrans0.ltrans.o
  .text.InternalBaseLibIsListValid
-                0x00000000000035c8       0xb8 /tmp/ccS51Sur.ltrans0.ltrans.o
+                0x00000000000035c8       0xb8 /tmp/ccxMk8tp.ltrans0.ltrans.o
  .text.IsListEmpty
-                0x0000000000003680       0x5c /tmp/ccS51Sur.ltrans0.ltrans.o
+                0x0000000000003680       0x5c /tmp/ccxMk8tp.ltrans0.ltrans.o
  .text.RemoveEntryList
-                0x00000000000036dc       0x64 /tmp/ccS51Sur.ltrans0.ltrans.o
+                0x00000000000036dc       0x64 /tmp/ccxMk8tp.ltrans0.ltrans.o
  .text.FatDestroySubtask
-                0x0000000000003740       0x48 /tmp/ccS51Sur.ltrans0.ltrans.o
+                0x0000000000003740       0x48 /tmp/ccxMk8tp.ltrans0.ltrans.o
  .text.FatWaitNonblockingTask
-                0x0000000000003788       0x4c /tmp/ccS51Sur.ltrans0.ltrans.o
+                0x0000000000003788       0x4c /tmp/ccxMk8tp.ltrans0.ltrans.o
  .text.GetFirstNode
-                0x00000000000037d4       0x54 /tmp/ccS51Sur.ltrans0.ltrans.o
- .text.IsNull   0x0000000000003828       0x5c /tmp/ccS51Sur.ltrans0.ltrans.o
+                0x00000000000037d4       0x54 /tmp/ccxMk8tp.ltrans0.ltrans.o
+ .text.IsNull   0x0000000000003828       0x5c /tmp/ccxMk8tp.ltrans0.ltrans.o
  .text.GetNextNode
-                0x0000000000003884       0x58 /tmp/ccS51Sur.ltrans0.ltrans.o
+                0x0000000000003884       0x58 /tmp/ccxMk8tp.ltrans0.ltrans.o
  .text.InsertTailList
-                0x00000000000038dc       0x6c /tmp/ccS51Sur.ltrans0.ltrans.o
+                0x00000000000038dc       0x6c /tmp/ccxMk8tp.ltrans0.ltrans.o
  .text.InsertHeadList
-                0x0000000000003948       0x68 /tmp/ccS51Sur.ltrans0.ltrans.o
+                0x0000000000003948       0x68 /tmp/ccxMk8tp.ltrans0.ltrans.o
  .text.LShiftU64
-                0x00000000000039b0       0x50 /tmp/ccS51Sur.ltrans0.ltrans.o
+                0x00000000000039b0       0x50 /tmp/ccxMk8tp.ltrans0.ltrans.o
  .text.RShiftU64
-                0x0000000000003a00       0x50 /tmp/ccS51Sur.ltrans0.ltrans.o
+                0x0000000000003a00       0x50 /tmp/ccxMk8tp.ltrans0.ltrans.o
  .text.FatGetPosition
-                0x0000000000003a50       0x9c /tmp/ccS51Sur.ltrans0.ltrans.o
+                0x0000000000003a50       0x9c /tmp/ccxMk8tp.ltrans0.ltrans.o
  .text.FatResetODirCursor
-                0x0000000000003aec       0x50 /tmp/ccS51Sur.ltrans0.ltrans.o
+                0x0000000000003aec       0x50 /tmp/ccxMk8tp.ltrans0.ltrans.o
  .text.FatSetPosition
-                0x0000000000003b3c       0xc4 /tmp/ccS51Sur.ltrans0.ltrans.o
+                0x0000000000003b3c       0xc4 /tmp/ccxMk8tp.ltrans0.ltrans.o
  .text.FatUpdateDirEntClusterSizeInfo
-                0x0000000000003c00       0x68 /tmp/ccS51Sur.ltrans0.ltrans.o
+                0x0000000000003c00       0x68 /tmp/ccxMk8tp.ltrans0.ltrans.o
  .text.FatFreeODir
-                0x0000000000003c68       0xc0 /tmp/ccS51Sur.ltrans0.ltrans.o
+                0x0000000000003c68       0xc0 /tmp/ccxMk8tp.ltrans0.ltrans.o
  .text.FatSetVolumeError
-                0x0000000000003d28       0xa4 /tmp/ccS51Sur.ltrans0.ltrans.o
+                0x0000000000003d28       0xa4 /tmp/ccxMk8tp.ltrans0.ltrans.o
  .text.FatIFileClose
-                0x0000000000003dcc       0x90 /tmp/ccS51Sur.ltrans0.ltrans.o
+                0x0000000000003dcc       0x90 /tmp/ccxMk8tp.ltrans0.ltrans.o
  .text.FatFreeVolume
-                0x0000000000003e5c       0xb0 /tmp/ccS51Sur.ltrans0.ltrans.o
+                0x0000000000003e5c       0xb0 /tmp/ccxMk8tp.ltrans0.ltrans.o
  .text.FatOnAccessComplete
-                0x0000000000003f0c      0x158 /tmp/ccS51Sur.ltrans0.ltrans.o
+                0x0000000000003f0c      0x158 /tmp/ccxMk8tp.ltrans0.ltrans.o
  .text.FatQueueTask
-                0x0000000000004064      0x218 /tmp/ccS51Sur.ltrans0.ltrans.o
+                0x0000000000004064      0x218 /tmp/ccxMk8tp.ltrans0.ltrans.o
  .text.FatDestroyTask
-                0x000000000000427c       0xb0 /tmp/ccS51Sur.ltrans0.ltrans.o
+                0x000000000000427c       0xb0 /tmp/ccxMk8tp.ltrans0.ltrans.o
  .text.FatStrToFat
-                0x000000000000432c       0xb0 /tmp/ccS51Sur.ltrans0.ltrans.o
+                0x000000000000432c       0xb0 /tmp/ccxMk8tp.ltrans0.ltrans.o
  .text.FatStrLwr
-                0x00000000000043dc       0x7c /tmp/ccS51Sur.ltrans0.ltrans.o
+                0x00000000000043dc       0x7c /tmp/ccxMk8tp.ltrans0.ltrans.o
  .text.FatNameToStr
-                0x0000000000004458       0xd8 /tmp/ccS51Sur.ltrans0.ltrans.o
+                0x0000000000004458       0xd8 /tmp/ccxMk8tp.ltrans0.ltrans.o
  .text.FatStrUpr
-                0x0000000000004530       0x7c /tmp/ccS51Sur.ltrans0.ltrans.o
+                0x0000000000004530       0x7c /tmp/ccxMk8tp.ltrans0.ltrans.o
  .text.FatHashLongName
-                0x00000000000045ac       0x88 /tmp/ccS51Sur.ltrans0.ltrans.o
+                0x00000000000045ac       0x88 /tmp/ccxMk8tp.ltrans0.ltrans.o
  .text.FatAddDirEnt
-                0x0000000000004634       0x78 /tmp/ccS51Sur.ltrans0.ltrans.o
+                0x0000000000004634       0x78 /tmp/ccxMk8tp.ltrans0.ltrans.o
  .text.FatCheckNameCase
-                0x00000000000046ac       0xa8 /tmp/ccS51Sur.ltrans0.ltrans.o
+                0x00000000000046ac       0xa8 /tmp/ccxMk8tp.ltrans0.ltrans.o
  .text.FatStriCmp
-                0x0000000000004754       0xb0 /tmp/ccS51Sur.ltrans0.ltrans.o
+                0x0000000000004754       0xb0 /tmp/ccxMk8tp.ltrans0.ltrans.o
  .text.FatLongNameHashSearch
-                0x0000000000004804       0x5c /tmp/ccS51Sur.ltrans0.ltrans.o
- .text.CopyMem  0x0000000000004860       0xb0 /tmp/ccS51Sur.ltrans0.ltrans.o
+                0x0000000000004804       0x5c /tmp/ccxMk8tp.ltrans0.ltrans.o
+ .text.CopyMem  0x0000000000004860       0xb0 /tmp/ccxMk8tp.ltrans0.ltrans.o
  .text.InternalAllocateCopyPool.constprop.3
-                0x0000000000004910       0x74 /tmp/ccS51Sur.ltrans0.ltrans.o
- .text.SetMem   0x0000000000004984       0x6c /tmp/ccS51Sur.ltrans0.ltrans.o
+                0x0000000000004910       0x74 /tmp/ccxMk8tp.ltrans0.ltrans.o
+ .text.SetMem   0x0000000000004984       0x6c /tmp/ccxMk8tp.ltrans0.ltrans.o
  .text.FatCheckIs8Dot3Name
-                0x00000000000049f0      0x110 /tmp/ccS51Sur.ltrans0.ltrans.o
+                0x00000000000049f0      0x110 /tmp/ccxMk8tp.ltrans0.ltrans.o
  .text.CompareMem
-                0x0000000000004b00       0xe0 /tmp/ccS51Sur.ltrans0.ltrans.o
+                0x0000000000004b00       0xe0 /tmp/ccxMk8tp.ltrans0.ltrans.o
  .text.FatShortNameHashSearch
-                0x0000000000004be0       0x64 /tmp/ccS51Sur.ltrans0.ltrans.o
- .text.ZeroMem  0x0000000000004c44       0x7c /tmp/ccS51Sur.ltrans0.ltrans.o
+                0x0000000000004be0       0x64 /tmp/ccxMk8tp.ltrans0.ltrans.o
+ .text.ZeroMem  0x0000000000004c44       0x7c /tmp/ccxMk8tp.ltrans0.ltrans.o
  .text.AllocateZeroPool
-                0x0000000000004cc0       0x34 /tmp/ccS51Sur.ltrans0.ltrans.o
+                0x0000000000004cc0       0x34 /tmp/ccxMk8tp.ltrans0.ltrans.o
  .text.GetBestLanguage
-                0x0000000000004cf4      0x1e0 /tmp/ccS51Sur.ltrans0.ltrans.o
+                0x0000000000004cf4      0x1e0 /tmp/ccxMk8tp.ltrans0.ltrans.o
  .text.InitializeUnicodeCollationSupportWorker
-                0x0000000000004ed4      0x210 /tmp/ccS51Sur.ltrans0.ltrans.o
+                0x0000000000004ed4      0x210 /tmp/ccxMk8tp.ltrans0.ltrans.o
  .text.FatAllocateIFile
-                0x00000000000050e4       0xd0 /tmp/ccS51Sur.ltrans0.ltrans.o
+                0x00000000000050e4       0xd0 /tmp/ccxMk8tp.ltrans0.ltrans.o
  .text.FatDiskIo
-                0x00000000000051b4      0x350 /tmp/ccS51Sur.ltrans0.ltrans.o
+                0x00000000000051b4      0x350 /tmp/ccxMk8tp.ltrans0.ltrans.o
  .text.FatLoadFatEntry.part.0
-                0x0000000000005504       0x78 /tmp/ccS51Sur.ltrans0.ltrans.o
+                0x0000000000005504       0x78 /tmp/ccxMk8tp.ltrans0.ltrans.o
  .text.FatGetFatEntry
-                0x000000000000557c       0xc8 /tmp/ccS51Sur.ltrans0.ltrans.o
+                0x000000000000557c       0xc8 /tmp/ccxMk8tp.ltrans0.ltrans.o
  .text.FatComputeFreeInfo.part.3
-                0x0000000000005644       0x88 /tmp/ccS51Sur.ltrans0.ltrans.o
+                0x0000000000005644       0x88 /tmp/ccxMk8tp.ltrans0.ltrans.o
  .text.FatPhysicalDirSize
-                0x00000000000056cc       0xcc /tmp/ccS51Sur.ltrans0.ltrans.o
+                0x00000000000056cc       0xcc /tmp/ccxMk8tp.ltrans0.ltrans.o
  .text.FatOpenDirEnt.part.2
-                0x0000000000005798      0x244 /tmp/ccS51Sur.ltrans0.ltrans.o
+                0x0000000000005798      0x244 /tmp/ccxMk8tp.ltrans0.ltrans.o
  .text.FatAccessOFile
-                0x00000000000059dc      0x2a4 /tmp/ccS51Sur.ltrans0.ltrans.o
+                0x00000000000059dc      0x2a4 /tmp/ccxMk8tp.ltrans0.ltrans.o
  .text.FatAccessEntry
-                0x0000000000005c80       0xb0 /tmp/ccS51Sur.ltrans0.ltrans.o
+                0x0000000000005c80       0xb0 /tmp/ccxMk8tp.ltrans0.ltrans.o
  .text.FatSeekVolumeId
-                0x0000000000005d30       0x88 /tmp/ccS51Sur.ltrans0.ltrans.o
+                0x0000000000005d30       0x88 /tmp/ccxMk8tp.ltrans0.ltrans.o
  .text.FatGetVolumeEntry
-                0x0000000000005db8       0x88 /tmp/ccS51Sur.ltrans0.ltrans.o
+                0x0000000000005db8       0x88 /tmp/ccxMk8tp.ltrans0.ltrans.o
  .text.FatLoadLongNameEntry
-                0x0000000000005e40      0x1dc /tmp/ccS51Sur.ltrans0.ltrans.o
+                0x0000000000005e40      0x1dc /tmp/ccxMk8tp.ltrans0.ltrans.o
  .text.FatLoadNextDirEnt
-                0x000000000000601c      0x188 /tmp/ccS51Sur.ltrans0.ltrans.o
+                0x000000000000601c      0x188 /tmp/ccxMk8tp.ltrans0.ltrans.o
  .text.FatLocateOFile
-                0x00000000000061a4      0x308 /tmp/ccS51Sur.ltrans0.ltrans.o
+                0x00000000000061a4      0x308 /tmp/ccxMk8tp.ltrans0.ltrans.o
  .text.FatGetNextDirEnt
-                0x00000000000064ac      0x130 /tmp/ccS51Sur.ltrans0.ltrans.o
+                0x00000000000064ac      0x130 /tmp/ccxMk8tp.ltrans0.ltrans.o
  .text.FatStoreDirEnt
-                0x00000000000065dc      0x19c /tmp/ccS51Sur.ltrans0.ltrans.o
+                0x00000000000065dc      0x19c /tmp/ccxMk8tp.ltrans0.ltrans.o
  .text.FatRemoveDirEnt
-                0x0000000000006778       0x88 /tmp/ccS51Sur.ltrans0.ltrans.o
+                0x0000000000006778       0x88 /tmp/ccxMk8tp.ltrans0.ltrans.o
  .text.FatExchangeCachePage
-                0x0000000000006800      0x134 /tmp/ccS51Sur.ltrans0.ltrans.o
+                0x0000000000006800      0x134 /tmp/ccxMk8tp.ltrans0.ltrans.o
  .text.FatAccessUnalignedCachePage
-                0x0000000000006934      0x160 /tmp/ccS51Sur.ltrans0.ltrans.o
+                0x0000000000006934      0x160 /tmp/ccxMk8tp.ltrans0.ltrans.o
  .text.FatAccessVolumeDirty
-                0x0000000000006a94       0x18 /tmp/ccS51Sur.ltrans0.ltrans.o
+                0x0000000000006a94       0x18 /tmp/ccxMk8tp.ltrans0.ltrans.o
  .text.FatSetFatEntry
-                0x0000000000006aac      0x154 /tmp/ccS51Sur.ltrans0.ltrans.o
+                0x0000000000006aac      0x154 /tmp/ccxMk8tp.ltrans0.ltrans.o
  .text.FatShrinkEof
-                0x0000000000006c00      0x16c /tmp/ccS51Sur.ltrans0.ltrans.o
+                0x0000000000006c00      0x16c /tmp/ccxMk8tp.ltrans0.ltrans.o
  .text.FatGrowEof.part.4
-                0x0000000000006d6c      0x270 /tmp/ccS51Sur.ltrans0.ltrans.o
+                0x0000000000006d6c      0x270 /tmp/ccxMk8tp.ltrans0.ltrans.o
  .text.FatExpandOFile
-                0x0000000000006fdc      0x108 /tmp/ccS51Sur.ltrans0.ltrans.o
+                0x0000000000006fdc      0x108 /tmp/ccxMk8tp.ltrans0.ltrans.o
  .text.FatCreateTask
-                0x00000000000070e4       0x5c /tmp/ccS51Sur.ltrans0.ltrans.o
+                0x00000000000070e4       0x5c /tmp/ccxMk8tp.ltrans0.ltrans.o
  .text.FatDriverBindingStart
-                0x0000000000007140      0x674 /tmp/ccS51Sur.ltrans0.ltrans.o
+                0x0000000000007140      0x674 /tmp/ccxMk8tp.ltrans0.ltrans.o
  .text.FatGetDirEntInfo
-                0x00000000000077b4      0x18c /tmp/ccS51Sur.ltrans0.ltrans.o
+                0x00000000000077b4      0x18c /tmp/ccxMk8tp.ltrans0.ltrans.o
  .text.FatGetCurrentFatTime
-                0x0000000000007940       0x88 /tmp/ccS51Sur.ltrans0.ltrans.o
+                0x0000000000007940       0x88 /tmp/ccxMk8tp.ltrans0.ltrans.o
  .text.FatNewEntryPos
-                0x00000000000079c8      0x238 /tmp/ccS51Sur.ltrans0.ltrans.o
+                0x00000000000079c8      0x238 /tmp/ccxMk8tp.ltrans0.ltrans.o
  .text.FatCreateDirEnt
-                0x0000000000007c00      0x438 /tmp/ccS51Sur.ltrans0.ltrans.o
+                0x0000000000007c00      0x438 /tmp/ccxMk8tp.ltrans0.ltrans.o
  .text.FatSetVolumeEntry
-                0x0000000000008038       0xe0 /tmp/ccS51Sur.ltrans0.ltrans.o
+                0x0000000000008038       0xe0 /tmp/ccxMk8tp.ltrans0.ltrans.o
  .text.FatOFileFlush
-                0x0000000000008118       0xec /tmp/ccS51Sur.ltrans0.ltrans.o
+                0x0000000000008118       0xec /tmp/ccxMk8tp.ltrans0.ltrans.o
  .text.FatSetFileInfo.constprop.0
-                0x0000000000008204      0x350 /tmp/ccS51Sur.ltrans0.ltrans.o
+                0x0000000000008204      0x350 /tmp/ccxMk8tp.ltrans0.ltrans.o
  .text.FatOFileOpen
-                0x0000000000008554      0x270 /tmp/ccS51Sur.ltrans0.ltrans.o
+                0x0000000000008554      0x270 /tmp/ccxMk8tp.ltrans0.ltrans.o
  .text.FatCleanupVolume
-                0x00000000000087c4      0x314 /tmp/ccS51Sur.ltrans0.ltrans.o
+                0x00000000000087c4      0x314 /tmp/ccxMk8tp.ltrans0.ltrans.o
  .text.FatDelete
-                0x0000000000008ad8      0x190 /tmp/ccS51Sur.ltrans0.ltrans.o
+                0x0000000000008ad8      0x190 /tmp/ccxMk8tp.ltrans0.ltrans.o
  .text.FatOpenEx
-                0x0000000000008c68      0x1b0 /tmp/ccS51Sur.ltrans0.ltrans.o
- .text.FatOpen  0x0000000000008e18        0x8 /tmp/ccS51Sur.ltrans0.ltrans.o
+                0x0000000000008c68      0x1b0 /tmp/ccxMk8tp.ltrans0.ltrans.o
+ .text.FatOpen  0x0000000000008e18        0x8 /tmp/ccxMk8tp.ltrans0.ltrans.o
  .text.FatOpenVolume
-                0x0000000000008e20       0xe8 /tmp/ccS51Sur.ltrans0.ltrans.o
+                0x0000000000008e20       0xe8 /tmp/ccxMk8tp.ltrans0.ltrans.o
  .text.FatIFileAccess
-                0x0000000000008f08      0x324 /tmp/ccS51Sur.ltrans0.ltrans.o
+                0x0000000000008f08      0x324 /tmp/ccxMk8tp.ltrans0.ltrans.o
  .text.FatWriteEx
-                0x000000000000922c       0x14 /tmp/ccS51Sur.ltrans0.ltrans.o
+                0x000000000000922c       0x14 /tmp/ccxMk8tp.ltrans0.ltrans.o
  .text.FatWrite
-                0x0000000000009240       0x14 /tmp/ccS51Sur.ltrans0.ltrans.o
+                0x0000000000009240       0x14 /tmp/ccxMk8tp.ltrans0.ltrans.o
  .text.FatReadEx
-                0x0000000000009254       0x14 /tmp/ccS51Sur.ltrans0.ltrans.o
- .text.FatRead  0x0000000000009268       0x14 /tmp/ccS51Sur.ltrans0.ltrans.o
+                0x0000000000009254       0x14 /tmp/ccxMk8tp.ltrans0.ltrans.o
+ .text.FatRead  0x0000000000009268       0x14 /tmp/ccxMk8tp.ltrans0.ltrans.o
  .text.FatClose
-                0x000000000000927c       0x94 /tmp/ccS51Sur.ltrans0.ltrans.o
+                0x000000000000927c       0x94 /tmp/ccxMk8tp.ltrans0.ltrans.o
  .text.FatDriverBindingStop
-                0x0000000000009310      0x2a0 /tmp/ccS51Sur.ltrans0.ltrans.o
+                0x0000000000009310      0x2a0 /tmp/ccxMk8tp.ltrans0.ltrans.o
  .text.FatFlushEx
-                0x00000000000095b0      0x144 /tmp/ccS51Sur.ltrans0.ltrans.o
+                0x00000000000095b0      0x144 /tmp/ccxMk8tp.ltrans0.ltrans.o
  .text.FatFlush
-                0x00000000000096f4        0x8 /tmp/ccS51Sur.ltrans0.ltrans.o
+                0x00000000000096f4        0x8 /tmp/ccxMk8tp.ltrans0.ltrans.o
  .text.CompareGuid
-                0x00000000000096fc       0x6c /tmp/ccS51Sur.ltrans0.ltrans.o
+                0x00000000000096fc       0x6c /tmp/ccxMk8tp.ltrans0.ltrans.o
  .text.FatSetOrGetInfo
-                0x0000000000009768      0x358 /tmp/ccS51Sur.ltrans0.ltrans.o
+                0x0000000000009768      0x358 /tmp/ccxMk8tp.ltrans0.ltrans.o
  .text.FatSetInfo
-                0x0000000000009ac0       0x30 /tmp/ccS51Sur.ltrans0.ltrans.o
+                0x0000000000009ac0       0x30 /tmp/ccxMk8tp.ltrans0.ltrans.o
  .text.FatGetInfo
-                0x0000000000009af0       0x18 /tmp/ccS51Sur.ltrans0.ltrans.o
+                0x0000000000009af0       0x18 /tmp/ccxMk8tp.ltrans0.ltrans.o
  .text.__stack_chk_fail
-                0x0000000000009b08       0x34 /tmp/ccS51Sur.ltrans0.ltrans.o
+                0x0000000000009b08       0x34 /tmp/ccxMk8tp.ltrans0.ltrans.o
                 0x0000000000009b08                __stack_chk_fail
  .text._ModuleEntryPoint
-                0x0000000000009b3c      0x3a8 /tmp/ccS51Sur.ltrans0.ltrans.o
+                0x0000000000009b3c      0x3a8 /tmp/ccxMk8tp.ltrans0.ltrans.o
                 0x0000000000009b3c                _ModuleEntryPoint
- .text.memcpy   0x0000000000009ee4       0x20 /tmp/ccS51Sur.ltrans0.ltrans.o
+ .text.memcpy   0x0000000000009ee4       0x20 /tmp/ccxMk8tp.ltrans0.ltrans.o
                 0x0000000000009ee4                memcpy
  *fill*         0x0000000000009f04        0xc 
  .text          0x0000000000009f10      0x200 /home/evsio0n/src/edk2sdm/Sdm835/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(SetMem.obj)
@@ -689,145 +689,145 @@ END GROUP
                 0x000000000000a478                ArmDataSynchronizationBarrier
  *(.rodata .rodata.* .gnu.linkonce.r.*)
  .rodata.AsciiStrLen.str1.1
-                0x000000000000a480       0x77 /tmp/ccS51Sur.ltrans0.ltrans.o
+                0x000000000000a480       0x77 /tmp/ccxMk8tp.ltrans0.ltrans.o
                                          0x8e (松开之前的大小)
  .rodata.AsciiStrnCmp.str1.1
-                0x000000000000a4f7       0x70 /tmp/ccS51Sur.ltrans0.ltrans.o
+                0x000000000000a4f7       0x70 /tmp/ccxMk8tp.ltrans0.ltrans.o
  .rodata.BasePrintLibSPrintMarker.constprop.21.str1.1
-                0x000000000000a567      0x17e /tmp/ccS51Sur.ltrans0.ltrans.o
+                0x000000000000a567      0x17e /tmp/ccxMk8tp.ltrans0.ltrans.o
  .rodata.CompareGuid.str1.1
-                0x000000000000a6e5       0x7f /tmp/ccS51Sur.ltrans0.ltrans.o
+                0x000000000000a6e5       0x7f /tmp/ccxMk8tp.ltrans0.ltrans.o
  .rodata.CompareMem.str1.1
-                0x000000000000a764       0x95 /tmp/ccS51Sur.ltrans0.ltrans.o
+                0x000000000000a764       0x95 /tmp/ccxMk8tp.ltrans0.ltrans.o
  .rodata.CopyMem.str1.1
-                0x000000000000a7f9       0xd4 /tmp/ccS51Sur.ltrans0.ltrans.o
+                0x000000000000a7f9       0xd4 /tmp/ccxMk8tp.ltrans0.ltrans.o
  .rodata.DebugAssert.str1.1
-                0x000000000000a8cd       0x1c /tmp/ccS51Sur.ltrans0.ltrans.o
+                0x000000000000a8cd       0x1c /tmp/ccxMk8tp.ltrans0.ltrans.o
  .rodata.EfiAcquireLock.str1.1
-                0x000000000000a8e9       0x1e /tmp/ccS51Sur.ltrans0.ltrans.o
+                0x000000000000a8e9       0x1e /tmp/ccxMk8tp.ltrans0.ltrans.o
  .rodata.EfiAcquireLockOrFail.constprop.5.str1.1
-                0x000000000000a907       0x63 /tmp/ccS51Sur.ltrans0.ltrans.o
+                0x000000000000a907       0x63 /tmp/ccxMk8tp.ltrans0.ltrans.o
  .rodata.EfiReleaseLock.str1.1
-                0x000000000000a96a       0x1e /tmp/ccS51Sur.ltrans0.ltrans.o
+                0x000000000000a96a       0x1e /tmp/ccxMk8tp.ltrans0.ltrans.o
  .rodata.FatAccessEntry.str1.1
-                0x000000000000a988       0x13 /tmp/ccS51Sur.ltrans0.ltrans.o
+                0x000000000000a988       0x13 /tmp/ccxMk8tp.ltrans0.ltrans.o
  .rodata.FatAccessOFile.str1.1
-                0x000000000000a99b       0x45 /tmp/ccS51Sur.ltrans0.ltrans.o
+                0x000000000000a99b       0x45 /tmp/ccxMk8tp.ltrans0.ltrans.o
  .rodata.FatAllocateIFile.str1.1
-                0x000000000000a9e0       0x3c /tmp/ccS51Sur.ltrans0.ltrans.o
+                0x000000000000a9e0       0x3c /tmp/ccxMk8tp.ltrans0.ltrans.o
  .rodata.FatCreateDirEnt.str1.1
-                0x000000000000aa1c       0xed /tmp/ccS51Sur.ltrans0.ltrans.o
+                0x000000000000aa1c       0xed /tmp/ccxMk8tp.ltrans0.ltrans.o
  .rodata.FatDelete.str1.1
-                0x000000000000ab09       0x3e /tmp/ccS51Sur.ltrans0.ltrans.o
+                0x000000000000ab09       0x3e /tmp/ccxMk8tp.ltrans0.ltrans.o
  .rodata.FatDiskIo.str1.1
-                0x000000000000ab47       0x95 /tmp/ccS51Sur.ltrans0.ltrans.o
+                0x000000000000ab47       0x95 /tmp/ccxMk8tp.ltrans0.ltrans.o
  .rodata.FatDriverBindingStart.str1.1
-                0x000000000000abdc       0x4b /tmp/ccS51Sur.ltrans0.ltrans.o
+                0x000000000000abdc       0x4b /tmp/ccxMk8tp.ltrans0.ltrans.o
  *fill*         0x000000000000ac27        0x1 
  .rodata.FatDriverBindingStart.str2.2
-                0x000000000000ac28       0x1a /tmp/ccS51Sur.ltrans0.ltrans.o
+                0x000000000000ac28       0x1a /tmp/ccxMk8tp.ltrans0.ltrans.o
                                          0x24 (松开之前的大小)
  .rodata.FatDriverBindingStop.str1.1
-                0x000000000000ac42       0x3b /tmp/ccS51Sur.ltrans0.ltrans.o
+                0x000000000000ac42       0x3b /tmp/ccxMk8tp.ltrans0.ltrans.o
  .rodata.FatExchangeCachePage.str1.1
-                0x000000000000ac7d       0x2b /tmp/ccS51Sur.ltrans0.ltrans.o
+                0x000000000000ac7d       0x2b /tmp/ccxMk8tp.ltrans0.ltrans.o
  .rodata.FatFreeODir.str1.1
-                0x000000000000aca8       0x64 /tmp/ccS51Sur.ltrans0.ltrans.o
+                0x000000000000aca8       0x64 /tmp/ccxMk8tp.ltrans0.ltrans.o
  .rodata.FatGetPosition.str1.1
-                0x000000000000ad0c       0x56 /tmp/ccS51Sur.ltrans0.ltrans.o
+                0x000000000000ad0c       0x56 /tmp/ccxMk8tp.ltrans0.ltrans.o
  .rodata.FatGrowEof.part.4.str1.1
-                0x000000000000ad62       0x5c /tmp/ccS51Sur.ltrans0.ltrans.o
+                0x000000000000ad62       0x5c /tmp/ccxMk8tp.ltrans0.ltrans.o
  .rodata.FatIFileClose.str1.1
-                0x000000000000adbe       0x16 /tmp/ccS51Sur.ltrans0.ltrans.o
+                0x000000000000adbe       0x16 /tmp/ccxMk8tp.ltrans0.ltrans.o
  .rodata.FatIsDotDirEnt.str2.2
-                0x000000000000add4        0x6 /tmp/ccS51Sur.ltrans0.ltrans.o
+                0x000000000000add4        0x6 /tmp/ccxMk8tp.ltrans0.ltrans.o
                                           0xa (松开之前的大小)
  .rodata.FatLoadNextDirEnt.str1.1
-                0x000000000000adda       0x10 /tmp/ccS51Sur.ltrans0.ltrans.o
+                0x000000000000adda       0x10 /tmp/ccxMk8tp.ltrans0.ltrans.o
  .rodata.FatNameToStr.str1.1
-                0x000000000000adea       0x1d /tmp/ccS51Sur.ltrans0.ltrans.o
+                0x000000000000adea       0x1d /tmp/ccxMk8tp.ltrans0.ltrans.o
  .rodata.FatOFileOpen.str1.1
-                0x000000000000ae07       0x2d /tmp/ccS51Sur.ltrans0.ltrans.o
+                0x000000000000ae07       0x2d /tmp/ccxMk8tp.ltrans0.ltrans.o
  .rodata.FatOnAccessComplete.str1.1
-                0x000000000000ae34       0xf8 /tmp/ccS51Sur.ltrans0.ltrans.o
+                0x000000000000ae34       0xf8 /tmp/ccxMk8tp.ltrans0.ltrans.o
  .rodata.FatOpenVolume.str1.1
-                0x000000000000af2c       0x42 /tmp/ccS51Sur.ltrans0.ltrans.o
+                0x000000000000af2c       0x42 /tmp/ccxMk8tp.ltrans0.ltrans.o
  .rodata.FatPhysicalDirSize.str1.1
-                0x000000000000af6e       0x64 /tmp/ccS51Sur.ltrans0.ltrans.o
+                0x000000000000af6e       0x64 /tmp/ccxMk8tp.ltrans0.ltrans.o
  .rodata.FatResetODirCursor.str1.1
-                0x000000000000afd2       0x5c /tmp/ccS51Sur.ltrans0.ltrans.o
+                0x000000000000afd2       0x5c /tmp/ccxMk8tp.ltrans0.ltrans.o
  .rodata.FatSetFileInfo.constprop.0.str1.1
-                0x000000000000b02e       0x5a /tmp/ccS51Sur.ltrans0.ltrans.o
+                0x000000000000b02e       0x5a /tmp/ccxMk8tp.ltrans0.ltrans.o
  .rodata.FatSetVolumeError.str1.1
-                0x000000000000b088       0x3d /tmp/ccS51Sur.ltrans0.ltrans.o
+                0x000000000000b088       0x3d /tmp/ccxMk8tp.ltrans0.ltrans.o
  .rodata.FatShrinkEof.str1.1
-                0x000000000000b0c5       0x25 /tmp/ccS51Sur.ltrans0.ltrans.o
+                0x000000000000b0c5       0x25 /tmp/ccxMk8tp.ltrans0.ltrans.o
  .rodata.FatStrToFat.str1.1
-                0x000000000000b0ea       0x9d /tmp/ccS51Sur.ltrans0.ltrans.o
+                0x000000000000b0ea       0x9d /tmp/ccxMk8tp.ltrans0.ltrans.o
  .rodata.FatStriCmp.str1.1
-                0x000000000000b187       0x24 /tmp/ccS51Sur.ltrans0.ltrans.o
+                0x000000000000b187       0x24 /tmp/ccxMk8tp.ltrans0.ltrans.o
  .rodata.FatUpdateDirEntClusterSizeInfo.str1.1
-                0x000000000000b1ab       0x1c /tmp/ccS51Sur.ltrans0.ltrans.o
+                0x000000000000b1ab       0x1c /tmp/ccxMk8tp.ltrans0.ltrans.o
  .rodata.FreePool.str1.1
-                0x000000000000b1c7       0x91 /tmp/ccS51Sur.ltrans0.ltrans.o
+                0x000000000000b1c7       0x91 /tmp/ccxMk8tp.ltrans0.ltrans.o
  .rodata.GetBestLanguage.str1.1
-                0x000000000000b258       0x23 /tmp/ccS51Sur.ltrans0.ltrans.o
+                0x000000000000b258       0x23 /tmp/ccxMk8tp.ltrans0.ltrans.o
  .rodata.GetFirstNode.str1.1
-                0x000000000000b27b       0x22 /tmp/ccS51Sur.ltrans0.ltrans.o
+                0x000000000000b27b       0x22 /tmp/ccxMk8tp.ltrans0.ltrans.o
  .rodata.InitializeListHead.str1.1
-                0x000000000000b29d       0x5c /tmp/ccS51Sur.ltrans0.ltrans.o
+                0x000000000000b29d       0x5c /tmp/ccxMk8tp.ltrans0.ltrans.o
  .rodata.InitializeUnicodeCollationSupportWorker.str1.1
-                0x000000000000b2f9       0x17 /tmp/ccS51Sur.ltrans0.ltrans.o
+                0x000000000000b2f9       0x17 /tmp/ccxMk8tp.ltrans0.ltrans.o
                                          0x18 (松开之前的大小)
  .rodata.InternalAllocateCopyPool.constprop.3.str1.1
-                0x000000000000b310       0x3f /tmp/ccS51Sur.ltrans0.ltrans.o
+                0x000000000000b310       0x3f /tmp/ccxMk8tp.ltrans0.ltrans.o
  .rodata.InternalBaseLibIsListValid.str1.1
-                0x000000000000b34f       0x41 /tmp/ccS51Sur.ltrans0.ltrans.o
+                0x000000000000b34f       0x41 /tmp/ccxMk8tp.ltrans0.ltrans.o
                                          0x56 (松开之前的大小)
  .rodata.IsListEmpty.str1.1
-                0x000000000000b390       0x26 /tmp/ccS51Sur.ltrans0.ltrans.o
+                0x000000000000b390       0x26 /tmp/ccxMk8tp.ltrans0.ltrans.o
  .rodata.LShiftU64.str1.1
-                0x000000000000b3b6       0x4d /tmp/ccS51Sur.ltrans0.ltrans.o
+                0x000000000000b3b6       0x4d /tmp/ccxMk8tp.ltrans0.ltrans.o
  .rodata.RShiftU64.str1.1
-                0x000000000000b403       0x42 /tmp/ccS51Sur.ltrans0.ltrans.o
+                0x000000000000b403       0x42 /tmp/ccxMk8tp.ltrans0.ltrans.o
  .rodata.ReadUnaligned16.str1.1
-                0x000000000000b445       0x46 /tmp/ccS51Sur.ltrans0.ltrans.o
+                0x000000000000b445       0x46 /tmp/ccxMk8tp.ltrans0.ltrans.o
                                          0x5d (松开之前的大小)
  .rodata.RemoveEntryList.str1.1
-                0x000000000000b48b       0x15 /tmp/ccS51Sur.ltrans0.ltrans.o
+                0x000000000000b48b       0x15 /tmp/ccxMk8tp.ltrans0.ltrans.o
  .rodata.SetMem.str1.1
-                0x000000000000b4a0       0x8a /tmp/ccS51Sur.ltrans0.ltrans.o
+                0x000000000000b4a0       0x8a /tmp/ccxMk8tp.ltrans0.ltrans.o
  .rodata.StrCatS.constprop.2.str1.1
-                0x000000000000b52a       0x25 /tmp/ccS51Sur.ltrans0.ltrans.o
+                0x000000000000b52a       0x25 /tmp/ccxMk8tp.ltrans0.ltrans.o
  .rodata.StrCmp.str1.1
-                0x000000000000b54f       0x37 /tmp/ccS51Sur.ltrans0.ltrans.o
+                0x000000000000b54f       0x37 /tmp/ccxMk8tp.ltrans0.ltrans.o
  .rodata.StrCpyS.str1.1
-                0x000000000000b586       0x16 /tmp/ccS51Sur.ltrans0.ltrans.o
+                0x000000000000b586       0x16 /tmp/ccxMk8tp.ltrans0.ltrans.o
  .rodata.StrLen.str1.1
-                0x000000000000b59c       0x5d /tmp/ccS51Sur.ltrans0.ltrans.o
+                0x000000000000b59c       0x5d /tmp/ccxMk8tp.ltrans0.ltrans.o
  .rodata.StrnCpyS.constprop.4.str1.1
-                0x000000000000b5f9       0xbb /tmp/ccS51Sur.ltrans0.ltrans.o
+                0x000000000000b5f9       0xbb /tmp/ccxMk8tp.ltrans0.ltrans.o
  .rodata.StrnLenS.str1.1
-                0x000000000000b6b4       0x43 /tmp/ccS51Sur.ltrans0.ltrans.o
+                0x000000000000b6b4       0x43 /tmp/ccxMk8tp.ltrans0.ltrans.o
  .rodata.ZeroMem.str1.1
-                0x000000000000b6f7       0x89 /tmp/ccS51Sur.ltrans0.ltrans.o
+                0x000000000000b6f7       0x89 /tmp/ccxMk8tp.ltrans0.ltrans.o
  .rodata._ModuleEntryPoint.str1.1
-                0x000000000000b780      0x2d1 /tmp/ccS51Sur.ltrans0.ltrans.o
+                0x000000000000b780      0x2d1 /tmp/ccxMk8tp.ltrans0.ltrans.o
  .rodata.__stack_chk_fail.str1.1
-                0x000000000000ba51       0x2e /tmp/ccS51Sur.ltrans0.ltrans.o
+                0x000000000000ba51       0x2e /tmp/ccxMk8tp.ltrans0.ltrans.o
  .rodata._gPcd_FixedAtBuild_PcdUefiVariableDefaultLang
-                0x000000000000ba7f        0x4 /tmp/ccS51Sur.ltrans0.ltrans.o
+                0x000000000000ba7f        0x4 /tmp/ccxMk8tp.ltrans0.ltrans.o
  .rodata._gPcd_FixedAtBuild_PcdUefiVariableDefaultPlatformLang
-                0x000000000000ba83        0x6 /tmp/ccS51Sur.ltrans0.ltrans.o
+                0x000000000000ba83        0x6 /tmp/ccxMk8tp.ltrans0.ltrans.o
  .rodata.mHexStr
-                0x000000000000ba89       0x10 /tmp/ccS51Sur.ltrans0.ltrans.o
+                0x000000000000ba89       0x10 /tmp/ccxMk8tp.ltrans0.ltrans.o
  .rodata.mMonthDays
-                0x000000000000ba99        0xc /tmp/ccS51Sur.ltrans0.ltrans.o
+                0x000000000000ba99        0xc /tmp/ccxMk8tp.ltrans0.ltrans.o
  *fill*         0x000000000000baa5        0x3 
  .rodata.mStatusString
-                0x000000000000baa8      0x138 /tmp/ccS51Sur.ltrans0.ltrans.o
+                0x000000000000baa8      0x138 /tmp/ccxMk8tp.ltrans0.ltrans.o
  .rodata.str1.1
-                0x000000000000bbe0      0x22f /tmp/ccS51Sur.ltrans0.ltrans.o
+                0x000000000000bbe0      0x22f /tmp/ccxMk8tp.ltrans0.ltrans.o
                                         0x240 (松开之前的大小)
  *(.got .got.*)
  *fill*         0x000000000000be0f        0x1 
@@ -843,65 +843,65 @@ END GROUP
  *(.data .data.* .gnu.linkonce.d.*)
  .data.rel.ro   0x000000000000c000        0x0 /home/evsio0n/src/edk2sdm/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
  .data.FatFileInterface
-                0x000000000000c000       0x78 /tmp/ccS51Sur.ltrans0.ltrans.o
+                0x000000000000c000       0x78 /tmp/ccxMk8tp.ltrans0.ltrans.o
  .data.FatFsLock
-                0x000000000000c078       0x18 /tmp/ccS51Sur.ltrans0.ltrans.o
+                0x000000000000c078       0x18 /tmp/ccxMk8tp.ltrans0.ltrans.o
  .data.FatTaskLock
-                0x000000000000c090       0x18 /tmp/ccS51Sur.ltrans0.ltrans.o
+                0x000000000000c090       0x18 /tmp/ccxMk8tp.ltrans0.ltrans.o
  .data.__stack_chk_guard
-                0x000000000000c0a8        0x8 /tmp/ccS51Sur.ltrans0.ltrans.o
+                0x000000000000c0a8        0x8 /tmp/ccxMk8tp.ltrans0.ltrans.o
                 0x000000000000c0a8                __stack_chk_guard
  .data.font5x12
-                0x000000000000c0b0      0x300 /tmp/ccS51Sur.ltrans0.ltrans.o
+                0x000000000000c0b0      0x300 /tmp/ccxMk8tp.ltrans0.ltrans.o
  .data.gEfiBlockIoProtocolGuid
-                0x000000000000c3b0       0x10 /tmp/ccS51Sur.ltrans0.ltrans.o
+                0x000000000000c3b0       0x10 /tmp/ccxMk8tp.ltrans0.ltrans.o
  .data.gEfiComponentName2ProtocolGuid
-                0x000000000000c3c0       0x10 /tmp/ccS51Sur.ltrans0.ltrans.o
+                0x000000000000c3c0       0x10 /tmp/ccxMk8tp.ltrans0.ltrans.o
  .data.gEfiComponentNameProtocolGuid
-                0x000000000000c3d0       0x10 /tmp/ccS51Sur.ltrans0.ltrans.o
+                0x000000000000c3d0       0x10 /tmp/ccxMk8tp.ltrans0.ltrans.o
  .data.gEfiDiskIo2ProtocolGuid
-                0x000000000000c3e0       0x10 /tmp/ccS51Sur.ltrans0.ltrans.o
+                0x000000000000c3e0       0x10 /tmp/ccxMk8tp.ltrans0.ltrans.o
  .data.gEfiDiskIoProtocolGuid
-                0x000000000000c3f0       0x10 /tmp/ccS51Sur.ltrans0.ltrans.o
+                0x000000000000c3f0       0x10 /tmp/ccxMk8tp.ltrans0.ltrans.o
  .data.gEfiDriverBindingProtocolGuid
-                0x000000000000c400       0x10 /tmp/ccS51Sur.ltrans0.ltrans.o
+                0x000000000000c400       0x10 /tmp/ccxMk8tp.ltrans0.ltrans.o
  .data.gEfiFileInfoGuid
-                0x000000000000c410       0x10 /tmp/ccS51Sur.ltrans0.ltrans.o
+                0x000000000000c410       0x10 /tmp/ccxMk8tp.ltrans0.ltrans.o
  .data.gEfiFileSystemInfoGuid
-                0x000000000000c420       0x10 /tmp/ccS51Sur.ltrans0.ltrans.o
+                0x000000000000c420       0x10 /tmp/ccxMk8tp.ltrans0.ltrans.o
  .data.gEfiFileSystemVolumeLabelInfoIdGuid
-                0x000000000000c430       0x10 /tmp/ccS51Sur.ltrans0.ltrans.o
+                0x000000000000c430       0x10 /tmp/ccxMk8tp.ltrans0.ltrans.o
  .data.gEfiGlobalVariableGuid
-                0x000000000000c440       0x10 /tmp/ccS51Sur.ltrans0.ltrans.o
+                0x000000000000c440       0x10 /tmp/ccxMk8tp.ltrans0.ltrans.o
  .data.gEfiHobListGuid
-                0x000000000000c450       0x10 /tmp/ccS51Sur.ltrans0.ltrans.o
+                0x000000000000c450       0x10 /tmp/ccxMk8tp.ltrans0.ltrans.o
  .data.gEfiLoadedImageProtocolGuid
-                0x000000000000c460       0x10 /tmp/ccS51Sur.ltrans0.ltrans.o
+                0x000000000000c460       0x10 /tmp/ccxMk8tp.ltrans0.ltrans.o
  .data.gEfiSimpleFileSystemProtocolGuid
-                0x000000000000c470       0x10 /tmp/ccS51Sur.ltrans0.ltrans.o
+                0x000000000000c470       0x10 /tmp/ccxMk8tp.ltrans0.ltrans.o
  .data.gEfiUnicodeCollation2ProtocolGuid
-                0x000000000000c480       0x10 /tmp/ccS51Sur.ltrans0.ltrans.o
+                0x000000000000c480       0x10 /tmp/ccxMk8tp.ltrans0.ltrans.o
  .data.gEfiUnicodeCollationProtocolGuid
-                0x000000000000c490       0x10 /tmp/ccS51Sur.ltrans0.ltrans.o
+                0x000000000000c490       0x10 /tmp/ccxMk8tp.ltrans0.ltrans.o
  .data.gFatDriverBinding
-                0x000000000000c4a0       0x30 /tmp/ccS51Sur.ltrans0.ltrans.o
+                0x000000000000c4a0       0x30 /tmp/ccxMk8tp.ltrans0.ltrans.o
  *(.bss .bss.*)
- .bss.gBS       0x000000000000c4d0        0x8 /tmp/ccS51Sur.ltrans0.ltrans.o
+ .bss.gBS       0x000000000000c4d0        0x8 /tmp/ccxMk8tp.ltrans0.ltrans.o
  .bss.gImageHandle
-                0x000000000000c4d8        0x8 /tmp/ccS51Sur.ltrans0.ltrans.o
- .bss.gRT       0x000000000000c4e0        0x8 /tmp/ccS51Sur.ltrans0.ltrans.o
- .bss.gST       0x000000000000c4e8        0x8 /tmp/ccS51Sur.ltrans0.ltrans.o
- .bss.mHobList  0x000000000000c4f0        0x8 /tmp/ccS51Sur.ltrans0.ltrans.o
+                0x000000000000c4d8        0x8 /tmp/ccxMk8tp.ltrans0.ltrans.o
+ .bss.gRT       0x000000000000c4e0        0x8 /tmp/ccxMk8tp.ltrans0.ltrans.o
+ .bss.gST       0x000000000000c4e8        0x8 /tmp/ccxMk8tp.ltrans0.ltrans.o
+ .bss.mHobList  0x000000000000c4f0        0x8 /tmp/ccxMk8tp.ltrans0.ltrans.o
  .bss.mUnicodeCollationInterface
-                0x000000000000c4f8        0x8 /tmp/ccS51Sur.ltrans0.ltrans.o
- .bss.m_Color   0x000000000000c500       0x10 /tmp/ccS51Sur.ltrans0.ltrans.o
+                0x000000000000c4f8        0x8 /tmp/ccxMk8tp.ltrans0.ltrans.o
+ .bss.m_Color   0x000000000000c500       0x10 /tmp/ccxMk8tp.ltrans0.ltrans.o
  .bss.m_Initialized
-                0x000000000000c510        0x1 /tmp/ccS51Sur.ltrans0.ltrans.o
+                0x000000000000c510        0x1 /tmp/ccxMk8tp.ltrans0.ltrans.o
  *fill*         0x000000000000c511        0x7 
  .bss.m_MaxPosition
-                0x000000000000c518       0x10 /tmp/ccS51Sur.ltrans0.ltrans.o
+                0x000000000000c518       0x10 /tmp/ccxMk8tp.ltrans0.ltrans.o
  .bss.m_Position
-                0x000000000000c528       0x10 /tmp/ccS51Sur.ltrans0.ltrans.o
+                0x000000000000c528       0x10 /tmp/ccxMk8tp.ltrans0.ltrans.o
 
 .dynbss         0x000000000000c538        0x0
  .dynbss        0x000000000000c538        0x0 /home/evsio0n/src/edk2sdm/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
@@ -946,27 +946,27 @@ END GROUP
 OUTPUT(/home/evsio0n/src/edk2sdm/Sdm835/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/FatPkg/EnhancedFatDxe/Fat/DEBUG/Fat.dll elf64-littleaarch64)
 
 .debug_info     0x0000000000000000    0x114ab
- .debug_info    0x0000000000000000    0x114ab /tmp/ccS51Sur.ltrans0.ltrans.o
+ .debug_info    0x0000000000000000    0x114ab /tmp/ccxMk8tp.ltrans0.ltrans.o
 
 .debug_abbrev   0x0000000000000000      0x7ce
- .debug_abbrev  0x0000000000000000      0x7ce /tmp/ccS51Sur.ltrans0.ltrans.o
+ .debug_abbrev  0x0000000000000000      0x7ce /tmp/ccxMk8tp.ltrans0.ltrans.o
 
 .debug_loc      0x0000000000000000    0x14341
- .debug_loc     0x0000000000000000    0x14341 /tmp/ccS51Sur.ltrans0.ltrans.o
+ .debug_loc     0x0000000000000000    0x14341 /tmp/ccxMk8tp.ltrans0.ltrans.o
 
 .debug_aranges  0x0000000000000000      0x930
  .debug_aranges
-                0x0000000000000000      0x930 /tmp/ccS51Sur.ltrans0.ltrans.o
+                0x0000000000000000      0x930 /tmp/ccxMk8tp.ltrans0.ltrans.o
 
 .debug_ranges   0x0000000000000000     0x1ce0
- .debug_ranges  0x0000000000000000     0x1ce0 /tmp/ccS51Sur.ltrans0.ltrans.o
+ .debug_ranges  0x0000000000000000     0x1ce0 /tmp/ccxMk8tp.ltrans0.ltrans.o
 
 .debug_line     0x0000000000000000     0x2f54
- .debug_line    0x0000000000000000     0x2f54 /tmp/ccS51Sur.ltrans0.ltrans.o
+ .debug_line    0x0000000000000000     0x2f54 /tmp/ccxMk8tp.ltrans0.ltrans.o
 
 .debug_str      0x0000000000000000     0x40f4
- .debug_str     0x0000000000000000     0x40f4 /tmp/ccS51Sur.ltrans0.ltrans.o
+ .debug_str     0x0000000000000000     0x40f4 /tmp/ccxMk8tp.ltrans0.ltrans.o
                                        0x4783 (松开之前的大小)
 
 .debug_frame    0x0000000000000000     0x1f00
- .debug_frame   0x0000000000000000     0x1f00 /tmp/ccS51Sur.ltrans0.ltrans.o
+ .debug_frame   0x0000000000000000     0x1f00 /tmp/ccxMk8tp.ltrans0.ltrans.o

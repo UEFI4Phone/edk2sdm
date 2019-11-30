@@ -112,20 +112,20 @@
  .text          0x0000000000000000       0x10 /home/evsio0n/src/edk2sdm/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
  .data          0x0000000000000000        0x0 /home/evsio0n/src/edk2sdm/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
  .bss           0x0000000000000000        0x0 /home/evsio0n/src/edk2sdm/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
- .text          0x0000000000000000        0x0 /tmp/cc8qYBMW.ltrans0.ltrans.o
- .data          0x0000000000000000        0x0 /tmp/cc8qYBMW.ltrans0.ltrans.o
- .bss           0x0000000000000000        0x0 /tmp/cc8qYBMW.ltrans0.ltrans.o
+ .text          0x0000000000000000        0x0 /tmp/ccQpUxnd.ltrans0.ltrans.o
+ .data          0x0000000000000000        0x0 /tmp/ccQpUxnd.ltrans0.ltrans.o
+ .bss           0x0000000000000000        0x0 /tmp/ccQpUxnd.ltrans0.ltrans.o
  .text._DriverUnloadHandler
-                0x0000000000000000        0x8 /tmp/cc8qYBMW.ltrans0.ltrans.o
+                0x0000000000000000        0x8 /tmp/ccQpUxnd.ltrans0.ltrans.o
  .text.StrnLenS
-                0x0000000000000000       0x7c /tmp/cc8qYBMW.ltrans0.ltrans.o
+                0x0000000000000000       0x7c /tmp/ccQpUxnd.ltrans0.ltrans.o
  .text.__memset
-                0x0000000000000000       0x1c /tmp/cc8qYBMW.ltrans0.ltrans.o
+                0x0000000000000000       0x1c /tmp/ccQpUxnd.ltrans0.ltrans.o
  .rodata.StrnLenS.str1.1
-                0x0000000000000000       0x66 /tmp/cc8qYBMW.ltrans0.ltrans.o
- .comment       0x0000000000000000       0x33 /tmp/cc8qYBMW.ltrans0.ltrans.o
+                0x0000000000000000       0x66 /tmp/ccQpUxnd.ltrans0.ltrans.o
+ .comment       0x0000000000000000       0x33 /tmp/ccQpUxnd.ltrans0.ltrans.o
  .note.GNU-stack
-                0x0000000000000000        0x0 /tmp/cc8qYBMW.ltrans0.ltrans.o
+                0x0000000000000000        0x0 /tmp/ccQpUxnd.ltrans0.ltrans.o
  .data          0x0000000000000000        0x0 /home/evsio0n/src/edk2sdm/Sdm835/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(SetMem.obj)
  .bss           0x0000000000000000        0x0 /home/evsio0n/src/edk2sdm/Sdm835/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(SetMem.obj)
  .data          0x0000000000000000        0x0 /home/evsio0n/src/edk2sdm/Sdm835/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(CopyMem.obj)
@@ -299,7 +299,7 @@
 链结器命令稿和内存映射
 
 LOAD /home/evsio0n/src/edk2sdm/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
-LOAD /tmp/cc8qYBMW.ltrans0.ltrans.o
+LOAD /tmp/ccQpUxnd.ltrans0.ltrans.o
 START GROUP
 LOAD /home/evsio0n/src/edk2sdm/Sdm835/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/DxePcdLib/DxePcdLib/OUTPUT/DxePcdLib.lib
 LOAD /home/evsio0n/src/edk2sdm/Sdm835/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib
@@ -340,74 +340,74 @@ END GROUP
 .text           0x0000000000001000     0x4618
  *(.text .text.* .stub .gnu.linkonce.t.*)
  .text.DebugPrintLevelEnabled.constprop.18
-                0x0000000000001000        0x8 /tmp/cc8qYBMW.ltrans0.ltrans.o
+                0x0000000000001000        0x8 /tmp/ccQpUxnd.ltrans0.ltrans.o
  .text.InternalAllocatePool.constprop.6
-                0x0000000000001008       0x6c /tmp/cc8qYBMW.ltrans0.ltrans.o
+                0x0000000000001008       0x6c /tmp/ccQpUxnd.ltrans0.ltrans.o
  .text.BasePrintLibFillBuffer
-                0x0000000000001074       0x34 /tmp/cc8qYBMW.ltrans0.ltrans.o
+                0x0000000000001074       0x34 /tmp/ccQpUxnd.ltrans0.ltrans.o
  .text.AsciiStrnLenS
-                0x00000000000010a8       0x3c /tmp/cc8qYBMW.ltrans0.ltrans.o
+                0x00000000000010a8       0x3c /tmp/ccQpUxnd.ltrans0.ltrans.o
  .text.SafeUintnToUint32
-                0x00000000000010e4       0x2c /tmp/cc8qYBMW.ltrans0.ltrans.o
+                0x00000000000010e4       0x2c /tmp/ccQpUxnd.ltrans0.ltrans.o
  .text.DebugPrintEnabled
-                0x0000000000001110        0x8 /tmp/cc8qYBMW.ltrans0.ltrans.o
+                0x0000000000001110        0x8 /tmp/ccQpUxnd.ltrans0.ltrans.o
  .text.DebugAssertEnabled
-                0x0000000000001118        0x8 /tmp/cc8qYBMW.ltrans0.ltrans.o
+                0x0000000000001118        0x8 /tmp/ccQpUxnd.ltrans0.ltrans.o
  .text.SafeUintnMult
-                0x0000000000001120       0x7c /tmp/cc8qYBMW.ltrans0.ltrans.o
+                0x0000000000001120       0x7c /tmp/ccQpUxnd.ltrans0.ltrans.o
  .text.BaseDebugLibSerialPortConstructor
-                0x000000000000119c       0x84 /tmp/cc8qYBMW.ltrans0.ltrans.o
+                0x000000000000119c       0x84 /tmp/ccQpUxnd.ltrans0.ltrans.o
  .text.FbConFlush
-                0x0000000000001220       0x54 /tmp/cc8qYBMW.ltrans0.ltrans.o
+                0x0000000000001220       0x54 /tmp/ccQpUxnd.ltrans0.ltrans.o
  .text.SerialPortWrite
-                0x0000000000001274      0x418 /tmp/cc8qYBMW.ltrans0.ltrans.o
+                0x0000000000001274      0x418 /tmp/ccQpUxnd.ltrans0.ltrans.o
  .text.DebugAssert
-                0x000000000000168c       0x7c /tmp/cc8qYBMW.ltrans0.ltrans.o
+                0x000000000000168c       0x7c /tmp/ccQpUxnd.ltrans0.ltrans.o
  .text.CompareGuid.constprop.13
-                0x0000000000001708       0x50 /tmp/cc8qYBMW.ltrans0.ltrans.o
+                0x0000000000001708       0x50 /tmp/ccQpUxnd.ltrans0.ltrans.o
  .text.CalculateCheckSum8.constprop.7
-                0x0000000000001758       0x78 /tmp/cc8qYBMW.ltrans0.ltrans.o
+                0x0000000000001758       0x78 /tmp/ccQpUxnd.ltrans0.ltrans.o
  .text.AsciiStrLen
-                0x00000000000017d0       0x80 /tmp/cc8qYBMW.ltrans0.ltrans.o
+                0x00000000000017d0       0x80 /tmp/ccQpUxnd.ltrans0.ltrans.o
  .text.WriteUnaligned16
-                0x0000000000001850       0x5c /tmp/cc8qYBMW.ltrans0.ltrans.o
+                0x0000000000001850       0x5c /tmp/ccQpUxnd.ltrans0.ltrans.o
  .text.WriteUnaligned32
-                0x00000000000018ac       0x64 /tmp/cc8qYBMW.ltrans0.ltrans.o
+                0x00000000000018ac       0x64 /tmp/ccQpUxnd.ltrans0.ltrans.o
  .text.WriteUnaligned64.constprop.15
-                0x0000000000001910       0x40 /tmp/cc8qYBMW.ltrans0.ltrans.o
+                0x0000000000001910       0x40 /tmp/ccQpUxnd.ltrans0.ltrans.o
  .text.unlikely.ReadUnaligned16
-                0x0000000000001950       0x68 /tmp/cc8qYBMW.ltrans0.ltrans.o
+                0x0000000000001950       0x68 /tmp/ccQpUxnd.ltrans0.ltrans.o
  .text.BasePrintLibSPrintMarker.constprop.25
-                0x00000000000019b8      0xcbc /tmp/cc8qYBMW.ltrans0.ltrans.o
+                0x00000000000019b8      0xcbc /tmp/ccQpUxnd.ltrans0.ltrans.o
  .text.unlikely.BasePrintLibSPrint.constprop.26
-                0x0000000000002674       0x98 /tmp/cc8qYBMW.ltrans0.ltrans.o
+                0x0000000000002674       0x98 /tmp/ccQpUxnd.ltrans0.ltrans.o
  .text.DebugPrint.constprop.19
-                0x000000000000270c       0xb8 /tmp/cc8qYBMW.ltrans0.ltrans.o
+                0x000000000000270c       0xb8 /tmp/ccQpUxnd.ltrans0.ltrans.o
  .text.FreePool
-                0x00000000000027c4       0x78 /tmp/cc8qYBMW.ltrans0.ltrans.o
+                0x00000000000027c4       0x78 /tmp/ccQpUxnd.ltrans0.ltrans.o
  .text.GetBootLogo2
-                0x000000000000283c       0xb0 /tmp/cc8qYBMW.ltrans0.ltrans.o
+                0x000000000000283c       0xb0 /tmp/ccQpUxnd.ltrans0.ltrans.o
  .text.AsciiSPrint.constprop.23
-                0x00000000000028ec       0xa4 /tmp/cc8qYBMW.ltrans0.ltrans.o
- .text.CopyMem  0x0000000000002990       0xb0 /tmp/cc8qYBMW.ltrans0.ltrans.o
+                0x00000000000028ec       0xa4 /tmp/ccQpUxnd.ltrans0.ltrans.o
+ .text.CopyMem  0x0000000000002990       0xb0 /tmp/ccQpUxnd.ltrans0.ltrans.o
  .text.SetBootLogo2
-                0x0000000000002a40      0x1c4 /tmp/cc8qYBMW.ltrans0.ltrans.o
+                0x0000000000002a40      0x1c4 /tmp/ccQpUxnd.ltrans0.ltrans.o
  .text.SetBootLogo
-                0x0000000000002c04        0xc /tmp/cc8qYBMW.ltrans0.ltrans.o
- .text.ZeroMem  0x0000000000002c10       0x7c /tmp/cc8qYBMW.ltrans0.ltrans.o
+                0x0000000000002c04        0xc /tmp/ccQpUxnd.ltrans0.ltrans.o
+ .text.ZeroMem  0x0000000000002c10       0x7c /tmp/ccQpUxnd.ltrans0.ltrans.o
  .text.TranslateGopBltToBmp.constprop.3
-                0x0000000000002c8c      0x22c /tmp/cc8qYBMW.ltrans0.ltrans.o
+                0x0000000000002c8c      0x22c /tmp/ccQpUxnd.ltrans0.ltrans.o
  .text.BgrtReadyToBootEventNotify
-                0x0000000000002eb8      0x1ac /tmp/cc8qYBMW.ltrans0.ltrans.o
+                0x0000000000002eb8      0x1ac /tmp/ccQpUxnd.ltrans0.ltrans.o
  .text.BgrtReadyToBootEventNotify.stub
                 0x0000000000003064        0xc linker stubs
  .text.__stack_chk_fail
-                0x0000000000004064       0x34 /tmp/cc8qYBMW.ltrans0.ltrans.o
+                0x0000000000004064       0x34 /tmp/ccQpUxnd.ltrans0.ltrans.o
                 0x0000000000004064                __stack_chk_fail
  .text._ModuleEntryPoint
-                0x0000000000004098      0x3dc /tmp/cc8qYBMW.ltrans0.ltrans.o
+                0x0000000000004098      0x3dc /tmp/ccQpUxnd.ltrans0.ltrans.o
                 0x0000000000004098                _ModuleEntryPoint
- .text.memcpy   0x0000000000004474       0x20 /tmp/cc8qYBMW.ltrans0.ltrans.o
+ .text.memcpy   0x0000000000004474       0x20 /tmp/ccQpUxnd.ltrans0.ltrans.o
                 0x0000000000004474                memcpy
  *fill*         0x0000000000004494        0xc 
  .text          0x00000000000044a0      0x200 /home/evsio0n/src/edk2sdm/Sdm835/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(SetMem.obj)
@@ -441,44 +441,44 @@ END GROUP
                 0x0000000000004918                ArmDataSynchronizationBarrier
  *(.rodata .rodata.* .gnu.linkonce.r.*)
  .rodata.AsciiStrLen.str1.1
-                0x0000000000004920       0x77 /tmp/cc8qYBMW.ltrans0.ltrans.o
+                0x0000000000004920       0x77 /tmp/ccQpUxnd.ltrans0.ltrans.o
  .rodata.BasePrintLibSPrintMarker.constprop.25.str1.1
-                0x0000000000004997      0x17e /tmp/cc8qYBMW.ltrans0.ltrans.o
+                0x0000000000004997      0x17e /tmp/ccQpUxnd.ltrans0.ltrans.o
  .rodata.CalculateCheckSum8.constprop.7.str1.1
-                0x0000000000004b15       0x7a /tmp/cc8qYBMW.ltrans0.ltrans.o
+                0x0000000000004b15       0x7a /tmp/ccQpUxnd.ltrans0.ltrans.o
  .rodata.CompareGuid.constprop.13.str1.1
-                0x0000000000004b8f       0x69 /tmp/cc8qYBMW.ltrans0.ltrans.o
+                0x0000000000004b8f       0x69 /tmp/ccQpUxnd.ltrans0.ltrans.o
  .rodata.CopyMem.str1.1
-                0x0000000000004bf8       0xd4 /tmp/cc8qYBMW.ltrans0.ltrans.o
+                0x0000000000004bf8       0xd4 /tmp/ccQpUxnd.ltrans0.ltrans.o
  .rodata.DebugAssert.str1.1
-                0x0000000000004ccc       0x35 /tmp/cc8qYBMW.ltrans0.ltrans.o
+                0x0000000000004ccc       0x35 /tmp/ccQpUxnd.ltrans0.ltrans.o
  .rodata.FreePool.str1.1
-                0x0000000000004d01       0x91 /tmp/cc8qYBMW.ltrans0.ltrans.o
+                0x0000000000004d01       0x91 /tmp/ccQpUxnd.ltrans0.ltrans.o
  .rodata.GetBootLogo2.str1.1
-                0x0000000000004d92       0x42 /tmp/cc8qYBMW.ltrans0.ltrans.o
+                0x0000000000004d92       0x42 /tmp/ccQpUxnd.ltrans0.ltrans.o
  .rodata.SetBootLogo2.str1.1
-                0x0000000000004dd4       0x3f /tmp/cc8qYBMW.ltrans0.ltrans.o
+                0x0000000000004dd4       0x3f /tmp/ccQpUxnd.ltrans0.ltrans.o
  .rodata.TranslateGopBltToBmp.constprop.3.str1.1
-                0x0000000000004e13       0x4d /tmp/cc8qYBMW.ltrans0.ltrans.o
+                0x0000000000004e13       0x4d /tmp/ccQpUxnd.ltrans0.ltrans.o
  .rodata.WriteUnaligned16.str1.1
-                0x0000000000004e60       0x5d /tmp/cc8qYBMW.ltrans0.ltrans.o
+                0x0000000000004e60       0x5d /tmp/ccQpUxnd.ltrans0.ltrans.o
  .rodata.ZeroMem.str1.1
-                0x0000000000004ebd       0x89 /tmp/cc8qYBMW.ltrans0.ltrans.o
+                0x0000000000004ebd       0x89 /tmp/ccQpUxnd.ltrans0.ltrans.o
  .rodata._ModuleEntryPoint.str1.1
-                0x0000000000004f46      0x2d2 /tmp/cc8qYBMW.ltrans0.ltrans.o
+                0x0000000000004f46      0x2d2 /tmp/ccQpUxnd.ltrans0.ltrans.o
  .rodata.__stack_chk_fail.str1.1
-                0x0000000000005218       0x2e /tmp/cc8qYBMW.ltrans0.ltrans.o
+                0x0000000000005218       0x2e /tmp/ccQpUxnd.ltrans0.ltrans.o
  .rodata._gPcd_FixedAtBuild_PcdAcpiDefaultOemId
-                0x0000000000005246        0x7 /tmp/cc8qYBMW.ltrans0.ltrans.o
+                0x0000000000005246        0x7 /tmp/ccQpUxnd.ltrans0.ltrans.o
  .rodata.mBmpImageHeaderTemplate
-                0x000000000000524d       0x36 /tmp/cc8qYBMW.ltrans0.ltrans.o
+                0x000000000000524d       0x36 /tmp/ccQpUxnd.ltrans0.ltrans.o
  .rodata.mHexStr
-                0x0000000000005283       0x10 /tmp/cc8qYBMW.ltrans0.ltrans.o
+                0x0000000000005283       0x10 /tmp/ccQpUxnd.ltrans0.ltrans.o
  *fill*         0x0000000000005293        0x5 
  .rodata.mStatusString
-                0x0000000000005298      0x138 /tmp/cc8qYBMW.ltrans0.ltrans.o
+                0x0000000000005298      0x138 /tmp/ccQpUxnd.ltrans0.ltrans.o
  .rodata.str1.1
-                0x00000000000053d0      0x224 /tmp/cc8qYBMW.ltrans0.ltrans.o
+                0x00000000000053d0      0x224 /tmp/ccQpUxnd.ltrans0.ltrans.o
                                         0x235 (松开之前的大小)
  *(.got .got.*)
  *fill*         0x00000000000055f4        0x4 
@@ -494,67 +494,67 @@ END GROUP
  *(.data .data.* .gnu.linkonce.d.*)
  .data.rel.ro   0x0000000000006000        0x0 /home/evsio0n/src/edk2sdm/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
  .data.__stack_chk_guard
-                0x0000000000006000        0x8 /tmp/cc8qYBMW.ltrans0.ltrans.o
+                0x0000000000006000        0x8 /tmp/ccQpUxnd.ltrans0.ltrans.o
                 0x0000000000006000                __stack_chk_guard
  .data.font5x12
-                0x0000000000006008      0x300 /tmp/cc8qYBMW.ltrans0.ltrans.o
+                0x0000000000006008      0x300 /tmp/ccQpUxnd.ltrans0.ltrans.o
  .data.gEdkiiBootLogo2ProtocolGuid
-                0x0000000000006308       0x10 /tmp/cc8qYBMW.ltrans0.ltrans.o
+                0x0000000000006308       0x10 /tmp/ccQpUxnd.ltrans0.ltrans.o
  .data.gEfiAcpiTableProtocolGuid
-                0x0000000000006318       0x10 /tmp/cc8qYBMW.ltrans0.ltrans.o
+                0x0000000000006318       0x10 /tmp/ccQpUxnd.ltrans0.ltrans.o
  .data.gEfiBootLogoProtocolGuid
-                0x0000000000006328       0x10 /tmp/cc8qYBMW.ltrans0.ltrans.o
+                0x0000000000006328       0x10 /tmp/ccQpUxnd.ltrans0.ltrans.o
  .data.gEfiEventReadyToBootGuid
-                0x0000000000006338       0x10 /tmp/cc8qYBMW.ltrans0.ltrans.o
+                0x0000000000006338       0x10 /tmp/ccQpUxnd.ltrans0.ltrans.o
  .data.gEfiHobListGuid
-                0x0000000000006348       0x10 /tmp/cc8qYBMW.ltrans0.ltrans.o
+                0x0000000000006348       0x10 /tmp/ccQpUxnd.ltrans0.ltrans.o
  .data.mBootGraphicsResourceTableTemplate
-                0x0000000000006358       0x38 /tmp/cc8qYBMW.ltrans0.ltrans.o
+                0x0000000000006358       0x38 /tmp/ccQpUxnd.ltrans0.ltrans.o
  .data.mBootLogo2ProtocolTemplate
-                0x0000000000006390       0x10 /tmp/cc8qYBMW.ltrans0.ltrans.o
+                0x0000000000006390       0x10 /tmp/ccQpUxnd.ltrans0.ltrans.o
  .data.mBootLogoProtocolTemplate
-                0x00000000000063a0        0x8 /tmp/cc8qYBMW.ltrans0.ltrans.o
+                0x00000000000063a0        0x8 /tmp/ccQpUxnd.ltrans0.ltrans.o
  *(.bss .bss.*)
- .bss.gBS       0x00000000000063a8        0x8 /tmp/cc8qYBMW.ltrans0.ltrans.o
+ .bss.gBS       0x00000000000063a8        0x8 /tmp/ccQpUxnd.ltrans0.ltrans.o
  .bss.gImageHandle
-                0x00000000000063b0        0x8 /tmp/cc8qYBMW.ltrans0.ltrans.o
- .bss.gRT       0x00000000000063b8        0x8 /tmp/cc8qYBMW.ltrans0.ltrans.o
- .bss.gST       0x00000000000063c0        0x8 /tmp/cc8qYBMW.ltrans0.ltrans.o
+                0x00000000000063b0        0x8 /tmp/ccQpUxnd.ltrans0.ltrans.o
+ .bss.gRT       0x00000000000063b8        0x8 /tmp/ccQpUxnd.ltrans0.ltrans.o
+ .bss.gST       0x00000000000063c0        0x8 /tmp/ccQpUxnd.ltrans0.ltrans.o
  .bss.mAcpiBgrtBufferChanged
-                0x00000000000063c8        0x1 /tmp/cc8qYBMW.ltrans0.ltrans.o
+                0x00000000000063c8        0x1 /tmp/ccQpUxnd.ltrans0.ltrans.o
  .bss.mAcpiBgrtInstalled
-                0x00000000000063c9        0x1 /tmp/cc8qYBMW.ltrans0.ltrans.o
+                0x00000000000063c9        0x1 /tmp/ccQpUxnd.ltrans0.ltrans.o
  .bss.mAcpiBgrtStatusChanged
-                0x00000000000063ca        0x1 /tmp/cc8qYBMW.ltrans0.ltrans.o
+                0x00000000000063ca        0x1 /tmp/ccQpUxnd.ltrans0.ltrans.o
  *fill*         0x00000000000063cb        0x5 
  .bss.mBootGraphicsReadyToBootEvent
-                0x00000000000063d0        0x8 /tmp/cc8qYBMW.ltrans0.ltrans.o
+                0x00000000000063d0        0x8 /tmp/ccQpUxnd.ltrans0.ltrans.o
  .bss.mBootGraphicsResourceTableKey
-                0x00000000000063d8        0x8 /tmp/cc8qYBMW.ltrans0.ltrans.o
+                0x00000000000063d8        0x8 /tmp/ccQpUxnd.ltrans0.ltrans.o
  .bss.mBootLogoHandle
-                0x00000000000063e0        0x8 /tmp/cc8qYBMW.ltrans0.ltrans.o
- .bss.mHobList  0x00000000000063e8        0x8 /tmp/cc8qYBMW.ltrans0.ltrans.o
+                0x00000000000063e0        0x8 /tmp/ccQpUxnd.ltrans0.ltrans.o
+ .bss.mHobList  0x00000000000063e8        0x8 /tmp/ccQpUxnd.ltrans0.ltrans.o
  .bss.mIsLogoValid
-                0x00000000000063f0        0x1 /tmp/cc8qYBMW.ltrans0.ltrans.o
+                0x00000000000063f0        0x1 /tmp/ccQpUxnd.ltrans0.ltrans.o
  *fill*         0x00000000000063f1        0x7 
  .bss.mLogoBltBuffer
-                0x00000000000063f8        0x8 /tmp/cc8qYBMW.ltrans0.ltrans.o
+                0x00000000000063f8        0x8 /tmp/ccQpUxnd.ltrans0.ltrans.o
  .bss.mLogoDestX
-                0x0000000000006400        0x8 /tmp/cc8qYBMW.ltrans0.ltrans.o
+                0x0000000000006400        0x8 /tmp/ccQpUxnd.ltrans0.ltrans.o
  .bss.mLogoDestY
-                0x0000000000006408        0x8 /tmp/cc8qYBMW.ltrans0.ltrans.o
+                0x0000000000006408        0x8 /tmp/ccQpUxnd.ltrans0.ltrans.o
  .bss.mLogoHeight
-                0x0000000000006410        0x8 /tmp/cc8qYBMW.ltrans0.ltrans.o
+                0x0000000000006410        0x8 /tmp/ccQpUxnd.ltrans0.ltrans.o
  .bss.mLogoWidth
-                0x0000000000006418        0x8 /tmp/cc8qYBMW.ltrans0.ltrans.o
- .bss.m_Color   0x0000000000006420       0x10 /tmp/cc8qYBMW.ltrans0.ltrans.o
+                0x0000000000006418        0x8 /tmp/ccQpUxnd.ltrans0.ltrans.o
+ .bss.m_Color   0x0000000000006420       0x10 /tmp/ccQpUxnd.ltrans0.ltrans.o
  .bss.m_Initialized
-                0x0000000000006430        0x1 /tmp/cc8qYBMW.ltrans0.ltrans.o
+                0x0000000000006430        0x1 /tmp/ccQpUxnd.ltrans0.ltrans.o
  *fill*         0x0000000000006431        0x7 
  .bss.m_MaxPosition
-                0x0000000000006438       0x10 /tmp/cc8qYBMW.ltrans0.ltrans.o
+                0x0000000000006438       0x10 /tmp/ccQpUxnd.ltrans0.ltrans.o
  .bss.m_Position
-                0x0000000000006448       0x10 /tmp/cc8qYBMW.ltrans0.ltrans.o
+                0x0000000000006448       0x10 /tmp/ccQpUxnd.ltrans0.ltrans.o
 
 .dynbss         0x0000000000006458        0x0
  .dynbss        0x0000000000006458        0x0 /home/evsio0n/src/edk2sdm/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
@@ -599,27 +599,27 @@ END GROUP
 OUTPUT(/home/evsio0n/src/edk2sdm/Sdm835/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/MdeModulePkg/Universal/Acpi/BootGraphicsResourceTableDxe/BootGraphicsResourceTableDxe/DEBUG/BootGraphicsResourceTableDxe.dll elf64-littleaarch64)
 
 .debug_info     0x0000000000000000     0x5d3b
- .debug_info    0x0000000000000000     0x5d3b /tmp/cc8qYBMW.ltrans0.ltrans.o
+ .debug_info    0x0000000000000000     0x5d3b /tmp/ccQpUxnd.ltrans0.ltrans.o
 
 .debug_abbrev   0x0000000000000000      0x61d
- .debug_abbrev  0x0000000000000000      0x61d /tmp/cc8qYBMW.ltrans0.ltrans.o
+ .debug_abbrev  0x0000000000000000      0x61d /tmp/ccQpUxnd.ltrans0.ltrans.o
 
 .debug_loc      0x0000000000000000     0x5ea9
- .debug_loc     0x0000000000000000     0x5ea9 /tmp/cc8qYBMW.ltrans0.ltrans.o
+ .debug_loc     0x0000000000000000     0x5ea9 /tmp/ccQpUxnd.ltrans0.ltrans.o
 
 .debug_aranges  0x0000000000000000      0x270
  .debug_aranges
-                0x0000000000000000      0x270 /tmp/cc8qYBMW.ltrans0.ltrans.o
+                0x0000000000000000      0x270 /tmp/ccQpUxnd.ltrans0.ltrans.o
 
 .debug_ranges   0x0000000000000000      0x960
- .debug_ranges  0x0000000000000000      0x960 /tmp/cc8qYBMW.ltrans0.ltrans.o
+ .debug_ranges  0x0000000000000000      0x960 /tmp/ccQpUxnd.ltrans0.ltrans.o
 
 .debug_line     0x0000000000000000     0x15ad
- .debug_line    0x0000000000000000     0x15ad /tmp/cc8qYBMW.ltrans0.ltrans.o
+ .debug_line    0x0000000000000000     0x15ad /tmp/ccQpUxnd.ltrans0.ltrans.o
 
 .debug_str      0x0000000000000000     0x242b
- .debug_str     0x0000000000000000     0x242b /tmp/cc8qYBMW.ltrans0.ltrans.o
+ .debug_str     0x0000000000000000     0x242b /tmp/ccQpUxnd.ltrans0.ltrans.o
                                        0x26e5 (松开之前的大小)
 
 .debug_frame    0x0000000000000000      0x6e0
- .debug_frame   0x0000000000000000      0x6e0 /tmp/cc8qYBMW.ltrans0.ltrans.o
+ .debug_frame   0x0000000000000000      0x6e0 /tmp/ccQpUxnd.ltrans0.ltrans.o

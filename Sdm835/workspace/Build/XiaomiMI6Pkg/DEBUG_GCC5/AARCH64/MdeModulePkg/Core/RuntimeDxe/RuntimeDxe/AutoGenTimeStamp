@@ -10,7 +10,6 @@
 /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/IndustryStandard/Acpi30.h
 /home/evsio0n/src/edk2sdm/edk2/MdePkg/Library/BasePeCoffLib/BasePeCoffLib.inf
 /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Guid/PcAnsi.h
-/home/evsio0n/src/edk2sdm/edk2/MdePkg/Library/DxeRuntimeDebugLibSerialPort/DxeRuntimeDebugLibSerialPort.inf
 /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Library/BaseLib.h
 /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Pi/PiMultiPhase.h
 /home/evsio0n/src/edk2sdm/edk2/ArmPkg/Library/DebugPeCoffExtraActionLib/DebugPeCoffExtraActionLib.inf
@@ -62,6 +61,7 @@
 /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Pi/PiBootMode.h
 /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Protocol/SimpleTextOut.h
 /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Guid/WinCertificate.h
+/home/evsio0n/src/edk2sdm/edk2/MdePkg/Library/BaseDebugLibSerialPort/BaseDebugLibSerialPort.inf
 /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Protocol/ComponentName.h
 /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Protocol/SimpleTextIn.h
 /home/evsio0n/src/edk2sdm/Sdm835/XiaomiMI6Pkg/Library/FrameBufferSerialPortLib/FrameBufferSerialPortLib.inf

@@ -128,36 +128,36 @@
  .text          0x0000000000000000       0x10 /home/evsio0n/src/edk2sdm/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
  .data          0x0000000000000000        0x0 /home/evsio0n/src/edk2sdm/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
  .bss           0x0000000000000000        0x0 /home/evsio0n/src/edk2sdm/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
- .text          0x0000000000000000        0x0 /tmp/ccl2sbhB.ltrans0.ltrans.o
- .data          0x0000000000000000        0x0 /tmp/ccl2sbhB.ltrans0.ltrans.o
- .bss           0x0000000000000000        0x0 /tmp/ccl2sbhB.ltrans0.ltrans.o
+ .text          0x0000000000000000        0x0 /tmp/ccARHrUn.ltrans0.ltrans.o
+ .data          0x0000000000000000        0x0 /tmp/ccARHrUn.ltrans0.ltrans.o
+ .bss           0x0000000000000000        0x0 /tmp/ccARHrUn.ltrans0.ltrans.o
  .text._DriverUnloadHandler
-                0x0000000000000000        0x8 /tmp/ccl2sbhB.ltrans0.ltrans.o
+                0x0000000000000000        0x8 /tmp/ccARHrUn.ltrans0.ltrans.o
  .text.__memset
-                0x0000000000000000       0x1c /tmp/ccl2sbhB.ltrans0.ltrans.o
- .comment       0x0000000000000000       0x33 /tmp/ccl2sbhB.ltrans0.ltrans.o
+                0x0000000000000000       0x1c /tmp/ccARHrUn.ltrans0.ltrans.o
+ .comment       0x0000000000000000       0x33 /tmp/ccARHrUn.ltrans0.ltrans.o
  .note.GNU-stack
-                0x0000000000000000        0x0 /tmp/ccl2sbhB.ltrans0.ltrans.o
- .text          0x0000000000000000        0x0 /tmp/ccl2sbhB.ltrans1.ltrans.o
- .data          0x0000000000000000        0x0 /tmp/ccl2sbhB.ltrans1.ltrans.o
- .bss           0x0000000000000000        0x0 /tmp/ccl2sbhB.ltrans1.ltrans.o
+                0x0000000000000000        0x0 /tmp/ccARHrUn.ltrans0.ltrans.o
+ .text          0x0000000000000000        0x0 /tmp/ccARHrUn.ltrans1.ltrans.o
+ .data          0x0000000000000000        0x0 /tmp/ccARHrUn.ltrans1.ltrans.o
+ .bss           0x0000000000000000        0x0 /tmp/ccARHrUn.ltrans1.ltrans.o
  .text.EfiEventEmptyFunction
-                0x0000000000000000        0x4 /tmp/ccl2sbhB.ltrans1.ltrans.o
+                0x0000000000000000        0x4 /tmp/ccARHrUn.ltrans1.ltrans.o
  .text.IsNodeInList
-                0x0000000000000000       0xb0 /tmp/ccl2sbhB.ltrans1.ltrans.o
+                0x0000000000000000       0xb0 /tmp/ccARHrUn.ltrans1.ltrans.o
  .rodata.IsNodeInList.str1.1
-                0x0000000000000000       0x44 /tmp/ccl2sbhB.ltrans1.ltrans.o
+                0x0000000000000000       0x44 /tmp/ccARHrUn.ltrans1.ltrans.o
  .rodata._gDriverUnloadImageCount
-                0x0000000000000000        0x1 /tmp/ccl2sbhB.ltrans1.ltrans.o
+                0x0000000000000000        0x1 /tmp/ccARHrUn.ltrans1.ltrans.o
  .rodata._gPcd_FixedAtBuild_PcdDebugPropertyMask
-                0x0000000000000000        0x1 /tmp/ccl2sbhB.ltrans1.ltrans.o
+                0x0000000000000000        0x1 /tmp/ccARHrUn.ltrans1.ltrans.o
  .rodata._gPcd_FixedAtBuild_PcdFixedDebugPrintErrorLevel
-                0x0000000000000000        0x4 /tmp/ccl2sbhB.ltrans1.ltrans.o
+                0x0000000000000000        0x4 /tmp/ccARHrUn.ltrans1.ltrans.o
  .rodata._gUefiDriverRevision
-                0x0000000000000000        0x4 /tmp/ccl2sbhB.ltrans1.ltrans.o
- .comment       0x0000000000000000       0x33 /tmp/ccl2sbhB.ltrans1.ltrans.o
+                0x0000000000000000        0x4 /tmp/ccARHrUn.ltrans1.ltrans.o
+ .comment       0x0000000000000000       0x33 /tmp/ccARHrUn.ltrans1.ltrans.o
  .note.GNU-stack
-                0x0000000000000000        0x0 /tmp/ccl2sbhB.ltrans1.ltrans.o
+                0x0000000000000000        0x0 /tmp/ccARHrUn.ltrans1.ltrans.o
  .data          0x0000000000000000        0x0 /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(SetMem.obj)
  .bss           0x0000000000000000        0x0 /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(SetMem.obj)
  .data          0x0000000000000000        0x0 /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(CopyMem.obj)
@@ -333,8 +333,8 @@
 链结器命令稿和内存映射
 
 LOAD /home/evsio0n/src/edk2sdm/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
-LOAD /tmp/ccl2sbhB.ltrans0.ltrans.o
-LOAD /tmp/ccl2sbhB.ltrans1.ltrans.o
+LOAD /tmp/ccARHrUn.ltrans0.ltrans.o
+LOAD /tmp/ccARHrUn.ltrans1.ltrans.o
 START GROUP
 LOAD /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/DxePcdLib/DxePcdLib/OUTPUT/DxePcdLib.lib
 LOAD /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib
@@ -373,518 +373,518 @@ END GROUP
 .text           0x0000000000001000    0x1d028
  *(.text .text.* .stub .gnu.linkonce.t.*)
  .text.IsLineBreak
-                0x0000000000001000       0xf8 /tmp/ccl2sbhB.ltrans0.ltrans.o
+                0x0000000000001000       0xf8 /tmp/ccARHrUn.ltrans0.ltrans.o
  .text.IsEfiVarStoreQuestion
-                0x00000000000010f8       0x30 /tmp/ccl2sbhB.ltrans0.ltrans.o
+                0x00000000000010f8       0x30 /tmp/ccARHrUn.ltrans0.ltrans.o
  .text.IsHiiHandleValid
-                0x0000000000001128       0x24 /tmp/ccl2sbhB.ltrans0.ltrans.o
+                0x0000000000001128       0x24 /tmp/ccARHrUn.ltrans0.ltrans.o
  .text.ProcessLibraryDestructorList
-                0x000000000000114c        0x4 /tmp/ccl2sbhB.ltrans0.ltrans.o
+                0x000000000000114c        0x4 /tmp/ccARHrUn.ltrans0.ltrans.o
                 0x000000000000114c                ProcessLibraryDestructorList
  .text.GlyphToBlt
-                0x0000000000001150      0x214 /tmp/ccl2sbhB.ltrans0.ltrans.o
+                0x0000000000001150      0x214 /tmp/ccARHrUn.ltrans0.ltrans.o
  .text.NarrowGlyphToBlt
-                0x0000000000001364      0x118 /tmp/ccl2sbhB.ltrans0.ltrans.o
+                0x0000000000001364      0x118 /tmp/ccARHrUn.ltrans0.ltrans.o
  .text.GlyphToImage
-                0x000000000000147c      0x1ac /tmp/ccl2sbhB.ltrans0.ltrans.o
+                0x000000000000147c      0x1ac /tmp/ccARHrUn.ltrans0.ltrans.o
  .text.HiiGetPackageListHandle
-                0x0000000000001628      0x128 /tmp/ccl2sbhB.ltrans0.ltrans.o
+                0x0000000000001628      0x128 /tmp/ccARHrUn.ltrans0.ltrans.o
                 0x0000000000001628                HiiGetPackageListHandle
  .text.AsciiHiiToLower
-                0x0000000000001750       0x6c /tmp/ccl2sbhB.ltrans0.ltrans.o
+                0x0000000000001750       0x6c /tmp/ccARHrUn.ltrans0.ltrans.o
  .text.HiiToLower
-                0x00000000000017bc       0x94 /tmp/ccl2sbhB.ltrans0.ltrans.o
+                0x00000000000017bc       0x94 /tmp/ccARHrUn.ltrans0.ltrans.o
  .text.HiiFindKeyboardLayouts
-                0x0000000000001850      0x234 /tmp/ccl2sbhB.ltrans0.ltrans.o
+                0x0000000000001850      0x234 /tmp/ccARHrUn.ltrans0.ltrans.o
                 0x0000000000001850                HiiFindKeyboardLayouts
  .text.InvokeRegisteredFunction
-                0x0000000000001a84      0x3f8 /tmp/ccl2sbhB.ltrans0.ltrans.o
+                0x0000000000001a84      0x3f8 /tmp/ccARHrUn.ltrans0.ltrans.o
  .text.AddDevicePathPackage
-                0x0000000000001e7c      0x160 /tmp/ccl2sbhB.ltrans0.ltrans.o
+                0x0000000000001e7c      0x160 /tmp/ccARHrUn.ltrans0.ltrans.o
  .text.RemoveDevicePathPackage
-                0x0000000000001fdc       0xa8 /tmp/ccl2sbhB.ltrans0.ltrans.o
+                0x0000000000001fdc       0xa8 /tmp/ccARHrUn.ltrans0.ltrans.o
  .text.RemoveImagePackages
-                0x0000000000002084       0x74 /tmp/ccl2sbhB.ltrans0.ltrans.o
+                0x0000000000002084       0x74 /tmp/ccARHrUn.ltrans0.ltrans.o
  .text.CopyRgbToGopPixel
-                0x00000000000020f8       0x84 /tmp/ccl2sbhB.ltrans0.ltrans.o
+                0x00000000000020f8       0x84 /tmp/ccARHrUn.ltrans0.ltrans.o
  .text.CopyGopToRgbPixel
-                0x000000000000217c       0x88 /tmp/ccl2sbhB.ltrans0.ltrans.o
+                0x000000000000217c       0x88 /tmp/ccARHrUn.ltrans0.ltrans.o
  .text.GetUnicodeStringTextOrSize
-                0x0000000000002204       0xc0 /tmp/ccl2sbhB.ltrans0.ltrans.o
+                0x0000000000002204       0xc0 /tmp/ccARHrUn.ltrans0.ltrans.o
  .text.GetSystemFont.part.1
-                0x00000000000022c4       0xc8 /tmp/ccl2sbhB.ltrans0.ltrans.o
+                0x00000000000022c4       0xc8 /tmp/ccARHrUn.ltrans0.ltrans.o
  .text.SaveFontName
-                0x000000000000238c       0x8c /tmp/ccl2sbhB.ltrans0.ltrans.o
+                0x000000000000238c       0x8c /tmp/ccARHrUn.ltrans0.ltrans.o
  .text.GetElementsFromRequest
-                0x0000000000002418       0x84 /tmp/ccl2sbhB.ltrans0.ltrans.o
+                0x0000000000002418       0x84 /tmp/ccARHrUn.ltrans0.ltrans.o
  .text.OutputConfigBody
-                0x000000000000249c       0xc8 /tmp/ccl2sbhB.ltrans0.ltrans.o
+                0x000000000000249c       0xc8 /tmp/ccARHrUn.ltrans0.ltrans.o
  .text.CalculateConfigStringLen
-                0x0000000000002564       0xac /tmp/ccl2sbhB.ltrans0.ltrans.o
+                0x0000000000002564       0xac /tmp/ccARHrUn.ltrans0.ltrans.o
  .text.GetDevicePath.part.0
-                0x0000000000002610      0x1a8 /tmp/ccl2sbhB.ltrans0.ltrans.o
+                0x0000000000002610      0x1a8 /tmp/ccARHrUn.ltrans0.ltrans.o
  .text.GetValueOfNumber
-                0x00000000000027b8      0x170 /tmp/ccl2sbhB.ltrans0.ltrans.o
+                0x00000000000027b8      0x170 /tmp/ccARHrUn.ltrans0.ltrans.o
  .text.HiiConfigToBlock
-                0x0000000000002928      0x3b8 /tmp/ccl2sbhB.ltrans0.ltrans.o
+                0x0000000000002928      0x3b8 /tmp/ccARHrUn.ltrans0.ltrans.o
                 0x0000000000002928                HiiConfigToBlock
  .text.Output8bitPixel
-                0x0000000000002ce0      0x190 /tmp/ccl2sbhB.ltrans0.ltrans.o
+                0x0000000000002ce0      0x190 /tmp/ccARHrUn.ltrans0.ltrans.o
  .text.IsFontInfoExisted
-                0x0000000000002e70      0x478 /tmp/ccl2sbhB.ltrans0.ltrans.o
+                0x0000000000002e70      0x478 /tmp/ccARHrUn.ltrans0.ltrans.o
  .text.GetGlyphBuffer
-                0x00000000000032e8      0x338 /tmp/ccl2sbhB.ltrans0.ltrans.o
+                0x00000000000032e8      0x338 /tmp/ccARHrUn.ltrans0.ltrans.o
  .text.HiiGetKeyboardLayout
-                0x0000000000003620      0x254 /tmp/ccl2sbhB.ltrans0.ltrans.o
+                0x0000000000003620      0x254 /tmp/ccARHrUn.ltrans0.ltrans.o
                 0x0000000000003620                HiiGetKeyboardLayout
  .text.ImageToBlt
-                0x0000000000003874      0x14c /tmp/ccl2sbhB.ltrans0.ltrans.o
+                0x0000000000003874      0x14c /tmp/ccARHrUn.ltrans0.ltrans.o
  .text.HiiDrawImage
-                0x00000000000039c0      0x3b8 /tmp/ccl2sbhB.ltrans0.ltrans.o
+                0x00000000000039c0      0x3b8 /tmp/ccARHrUn.ltrans0.ltrans.o
                 0x00000000000039c0                HiiDrawImage
  .text.HiiDrawImageEx
-                0x0000000000003d78       0x98 /tmp/ccl2sbhB.ltrans0.ltrans.o
+                0x0000000000003d78       0x98 /tmp/ccARHrUn.ltrans0.ltrans.o
                 0x0000000000003d78                HiiDrawImageEx
  .text.IsSystemFontInfo
-                0x0000000000003e10      0x24c /tmp/ccl2sbhB.ltrans0.ltrans.o
+                0x0000000000003e10      0x24c /tmp/ccARHrUn.ltrans0.ltrans.o
  .text.HiiGetFontInfo
-                0x000000000000405c      0x33c /tmp/ccl2sbhB.ltrans0.ltrans.o
+                0x000000000000405c      0x33c /tmp/ccARHrUn.ltrans0.ltrans.o
                 0x000000000000405c                HiiGetFontInfo
  .text.HiiGetGlyph
-                0x0000000000004398      0x33c /tmp/ccl2sbhB.ltrans0.ltrans.o
+                0x0000000000004398      0x33c /tmp/ccARHrUn.ltrans0.ltrans.o
                 0x0000000000004398                HiiGetGlyph
  .text.HiiStringToImage
-                0x00000000000046d4      0xd28 /tmp/ccl2sbhB.ltrans0.ltrans.o
+                0x00000000000046d4      0xd28 /tmp/ccARHrUn.ltrans0.ltrans.o
                 0x00000000000046d4                HiiStringToImage
  .text.HiiStringIdToImage
-                0x00000000000053fc      0x3d0 /tmp/ccl2sbhB.ltrans0.ltrans.o
+                0x00000000000053fc      0x3d0 /tmp/ccARHrUn.ltrans0.ltrans.o
                 0x00000000000053fc                HiiStringIdToImage
  .text.HiiRegisterPackageNotify
-                0x00000000000057cc      0x18c /tmp/ccl2sbhB.ltrans0.ltrans.o
+                0x00000000000057cc      0x18c /tmp/ccARHrUn.ltrans0.ltrans.o
                 0x00000000000057cc                HiiRegisterPackageNotify
  .text.ReferFontInfoLocally
-                0x0000000000005958      0x17c /tmp/ccl2sbhB.ltrans0.ltrans.o
+                0x0000000000005958      0x17c /tmp/ccARHrUn.ltrans0.ltrans.o
  .text.FindStringBlock
-                0x0000000000005ad4      0x7bc /tmp/ccl2sbhB.ltrans0.ltrans.o
+                0x0000000000005ad4      0x7bc /tmp/ccARHrUn.ltrans0.ltrans.o
  .text.GetStringWorker
-                0x0000000000006290      0x2e4 /tmp/ccl2sbhB.ltrans0.ltrans.o
+                0x0000000000006290      0x2e4 /tmp/ccARHrUn.ltrans0.ltrans.o
  .text.InsertBlockData
-                0x0000000000006574       0xa0 /tmp/ccl2sbhB.ltrans0.ltrans.o
+                0x0000000000006574       0xa0 /tmp/ccARHrUn.ltrans0.ltrans.o
  .text.InsertDefaultValue
-                0x0000000000006614       0xe4 /tmp/ccl2sbhB.ltrans0.ltrans.o
+                0x0000000000006614       0xe4 /tmp/ccARHrUn.ltrans0.ltrans.o
  .text.HiiSetKeyboardLayout
-                0x00000000000066f8      0x22c /tmp/ccl2sbhB.ltrans0.ltrans.o
+                0x00000000000066f8      0x22c /tmp/ccARHrUn.ltrans0.ltrans.o
                 0x00000000000066f8                HiiSetKeyboardLayout
  .text.LocateHiiImageDecoder
-                0x0000000000006924      0x168 /tmp/ccl2sbhB.ltrans0.ltrans.o
+                0x0000000000006924      0x168 /tmp/ccARHrUn.ltrans0.ltrans.o
  .text.HiiUnregisterPackageNotify
-                0x0000000000006a8c      0x1b8 /tmp/ccl2sbhB.ltrans0.ltrans.o
+                0x0000000000006a8c      0x1b8 /tmp/ccARHrUn.ltrans0.ltrans.o
                 0x0000000000006a8c                HiiUnregisterPackageNotify
  .text.HiiListPackageLists
-                0x0000000000006c44      0x24c /tmp/ccl2sbhB.ltrans0.ltrans.o
+                0x0000000000006c44      0x24c /tmp/ccARHrUn.ltrans0.ltrans.o
                 0x0000000000006c44                HiiListPackageLists
  .text.RemoveKeyboardLayoutPackages
-                0x0000000000006e90      0x130 /tmp/ccl2sbhB.ltrans0.ltrans.o
+                0x0000000000006e90      0x130 /tmp/ccARHrUn.ltrans0.ltrans.o
  .text.RemoveSimpleFontPackages
-                0x0000000000006fc0       0xfc /tmp/ccl2sbhB.ltrans0.ltrans.o
+                0x0000000000006fc0       0xfc /tmp/ccARHrUn.ltrans0.ltrans.o
  .text.RemoveFontPackages
-                0x00000000000070bc      0x200 /tmp/ccl2sbhB.ltrans0.ltrans.o
+                0x00000000000070bc      0x200 /tmp/ccARHrUn.ltrans0.ltrans.o
  .text.RemoveStringPackages
-                0x00000000000072bc      0x170 /tmp/ccl2sbhB.ltrans0.ltrans.o
+                0x00000000000072bc      0x170 /tmp/ccARHrUn.ltrans0.ltrans.o
  .text.RemoveFormPackages
-                0x000000000000742c      0x104 /tmp/ccl2sbhB.ltrans0.ltrans.o
+                0x000000000000742c      0x104 /tmp/ccARHrUn.ltrans0.ltrans.o
  .text.RemoveGuidPackages
-                0x0000000000007530      0x130 /tmp/ccl2sbhB.ltrans0.ltrans.o
+                0x0000000000007530      0x130 /tmp/ccARHrUn.ltrans0.ltrans.o
  .text.HiiCompareLanguage
-                0x0000000000007660      0x128 /tmp/ccl2sbhB.ltrans0.ltrans.o
+                0x0000000000007660      0x128 /tmp/ccARHrUn.ltrans0.ltrans.o
  .text.HiiGetString
-                0x0000000000007788      0x270 /tmp/ccl2sbhB.ltrans0.ltrans.o
+                0x0000000000007788      0x270 /tmp/ccARHrUn.ltrans0.ltrans.o
                 0x0000000000007788                HiiGetString
  .text.HiiGetLanguages
-                0x00000000000079f8      0x204 /tmp/ccl2sbhB.ltrans0.ltrans.o
+                0x00000000000079f8      0x204 /tmp/ccARHrUn.ltrans0.ltrans.o
                 0x00000000000079f8                HiiGetLanguages
  .text.AppendToMultiString
-                0x0000000000007bfc       0xc8 /tmp/ccl2sbhB.ltrans0.ltrans.o
+                0x0000000000007bfc       0xc8 /tmp/ccARHrUn.ltrans0.ltrans.o
  .text.HiiBlockToConfig
-                0x0000000000007cc4      0x550 /tmp/ccl2sbhB.ltrans0.ltrans.o
+                0x0000000000007cc4      0x550 /tmp/ccARHrUn.ltrans0.ltrans.o
                 0x0000000000007cc4                HiiBlockToConfig
  .text.FindQuestionDefaultSetting
-                0x0000000000008214      0x46c /tmp/ccl2sbhB.ltrans0.ltrans.o
+                0x0000000000008214      0x46c /tmp/ccARHrUn.ltrans0.ltrans.o
  .text.AddPackages
-                0x0000000000008680     0x11d8 /tmp/ccl2sbhB.ltrans0.ltrans.o
+                0x0000000000008680     0x11d8 /tmp/ccARHrUn.ltrans0.ltrans.o
  .text.HiiGetSecondaryLanguages
-                0x0000000000009858      0x208 /tmp/ccl2sbhB.ltrans0.ltrans.o
+                0x0000000000009858      0x208 /tmp/ccARHrUn.ltrans0.ltrans.o
                 0x0000000000009858                HiiGetSecondaryLanguages
  .text.MergeDefaultString
-                0x0000000000009a60      0x920 /tmp/ccl2sbhB.ltrans0.ltrans.o
+                0x0000000000009a60      0x920 /tmp/ccARHrUn.ltrans0.ltrans.o
  .text.GetImageIdOrAddress
-                0x000000000000a380      0x26c /tmp/ccl2sbhB.ltrans0.ltrans.o
+                0x000000000000a380      0x26c /tmp/ccARHrUn.ltrans0.ltrans.o
  .text.LocatePackageList
-                0x000000000000a5ec       0xc0 /tmp/ccl2sbhB.ltrans0.ltrans.o
+                0x000000000000a5ec       0xc0 /tmp/ccARHrUn.ltrans0.ltrans.o
  .text.HiiGetImageInfo
-                0x000000000000a6ac      0x19c /tmp/ccl2sbhB.ltrans0.ltrans.o
+                0x000000000000a6ac      0x19c /tmp/ccARHrUn.ltrans0.ltrans.o
                 0x000000000000a6ac                HiiGetImageInfo
  .text.IGetImage
-                0x000000000000a848      0x5bc /tmp/ccl2sbhB.ltrans0.ltrans.o
+                0x000000000000a848      0x5bc /tmp/ccARHrUn.ltrans0.ltrans.o
  .text.HiiGetImageEx
-                0x000000000000ae04       0x84 /tmp/ccl2sbhB.ltrans0.ltrans.o
+                0x000000000000ae04       0x84 /tmp/ccARHrUn.ltrans0.ltrans.o
                 0x000000000000ae04                HiiGetImageEx
  .text.HiiDrawImageIdEx
-                0x000000000000ae88       0xd4 /tmp/ccl2sbhB.ltrans0.ltrans.o
+                0x000000000000ae88       0xd4 /tmp/ccARHrUn.ltrans0.ltrans.o
                 0x000000000000ae88                HiiDrawImageIdEx
  .text.HiiGetImage
-                0x000000000000af5c       0x84 /tmp/ccl2sbhB.ltrans0.ltrans.o
+                0x000000000000af5c       0x84 /tmp/ccARHrUn.ltrans0.ltrans.o
                 0x000000000000af5c                HiiGetImage
  .text.HiiDrawImageId
-                0x000000000000afe0       0xd4 /tmp/ccl2sbhB.ltrans0.ltrans.o
+                0x000000000000afe0       0xd4 /tmp/ccARHrUn.ltrans0.ltrans.o
                 0x000000000000afe0                HiiDrawImageId
  .text.ConstructConfigHdr
-                0x000000000000b0b4      0x2e4 /tmp/ccl2sbhB.ltrans0.ltrans.o
+                0x000000000000b0b4      0x2e4 /tmp/ccARHrUn.ltrans0.ltrans.o
                 0x000000000000b0b4                ConstructConfigHdr
  .text.GetWidth
-                0x000000000000b398      0x190 /tmp/ccl2sbhB.ltrans0.ltrans.o
+                0x000000000000b398      0x190 /tmp/ccARHrUn.ltrans0.ltrans.o
                 0x000000000000b398                GetWidth
  .text.FindStorageFromVarId
-                0x000000000000b528       0xb8 /tmp/ccl2sbhB.ltrans0.ltrans.o
+                0x000000000000b528       0xb8 /tmp/ccARHrUn.ltrans0.ltrans.o
                 0x000000000000b528                FindStorageFromVarId
  .text.FindQuestionFromStringId
-                0x000000000000b5e0       0xe8 /tmp/ccl2sbhB.ltrans0.ltrans.o
+                0x000000000000b5e0       0xe8 /tmp/ccARHrUn.ltrans0.ltrans.o
                 0x000000000000b5e0                FindQuestionFromStringId
  .text.GetUnicodeStringTextAndSize
-                0x000000000000b6c8       0xb0 /tmp/ccl2sbhB.ltrans0.ltrans.o
+                0x000000000000b6c8       0xb0 /tmp/ccARHrUn.ltrans0.ltrans.o
                 0x000000000000b6c8                GetUnicodeStringTextAndSize
  .text.GetStringIdFromRecord
-                0x000000000000b778      0x670 /tmp/ccl2sbhB.ltrans0.ltrans.o
+                0x000000000000b778      0x670 /tmp/ccARHrUn.ltrans0.ltrans.o
                 0x000000000000b778                GetStringIdFromRecord
  .text.ExtractReadOnlyFromOpCode
-                0x000000000000bde8       0x4c /tmp/ccl2sbhB.ltrans0.ltrans.o
+                0x000000000000bde8       0x4c /tmp/ccARHrUn.ltrans0.ltrans.o
                 0x000000000000bde8                ExtractReadOnlyFromOpCode
  .text.ExtractKeyword
-                0x000000000000be34       0xe4 /tmp/ccl2sbhB.ltrans0.ltrans.o
+                0x000000000000be34       0xe4 /tmp/ccARHrUn.ltrans0.ltrans.o
                 0x000000000000be34                ExtractKeyword
  .text.ExtractNameSpace
-                0x000000000000bf18      0x104 /tmp/ccl2sbhB.ltrans0.ltrans.o
+                0x000000000000bf18      0x104 /tmp/ccARHrUn.ltrans0.ltrans.o
                 0x000000000000bf18                ExtractNameSpace
  .text.ExtractDevicePath
-                0x000000000000c01c      0x1f0 /tmp/ccl2sbhB.ltrans0.ltrans.o
+                0x000000000000c01c      0x1f0 /tmp/ccARHrUn.ltrans0.ltrans.o
                 0x000000000000c01c                ExtractDevicePath
- .text.GetCell  0x000000000000c20c       0xc4 /tmp/ccl2sbhB.ltrans0.ltrans.o
+ .text.GetCell  0x000000000000c20c       0xc4 /tmp/ccARHrUn.ltrans0.ltrans.o
                 0x000000000000c20c                GetCell
- .text.NewCell  0x000000000000c2d0       0xb8 /tmp/ccl2sbhB.ltrans0.ltrans.o
+ .text.NewCell  0x000000000000c2d0       0xb8 /tmp/ccARHrUn.ltrans0.ltrans.o
                 0x000000000000c2d0                NewCell
  .text.ExportFormPackages
-                0x000000000000c388      0x1b8 /tmp/ccl2sbhB.ltrans0.ltrans.o
+                0x000000000000c388      0x1b8 /tmp/ccARHrUn.ltrans0.ltrans.o
                 0x000000000000c388                ExportFormPackages
  .text.ExportPackageList
-                0x000000000000c540      0xb70 /tmp/ccl2sbhB.ltrans0.ltrans.o
+                0x000000000000c540      0xb70 /tmp/ccARHrUn.ltrans0.ltrans.o
  .text.HiiExportPackageLists
-                0x000000000000d0b0      0x2b0 /tmp/ccl2sbhB.ltrans0.ltrans.o
+                0x000000000000d0b0      0x2b0 /tmp/ccARHrUn.ltrans0.ltrans.o
                 0x000000000000d0b0                HiiExportPackageLists
  .text.HiiGetDatabaseInfo
-                0x000000000000d360      0x1d8 /tmp/ccl2sbhB.ltrans0.ltrans.o
+                0x000000000000d360      0x1d8 /tmp/ccARHrUn.ltrans0.ltrans.o
  .text.HiiSetString
-                0x000000000000d538      0x860 /tmp/ccl2sbhB.ltrans0.ltrans.o
+                0x000000000000d538      0x860 /tmp/ccARHrUn.ltrans0.ltrans.o
                 0x000000000000d538                HiiSetString
  .text.HiiNewString
-                0x000000000000dd98      0x928 /tmp/ccl2sbhB.ltrans0.ltrans.o
+                0x000000000000dd98      0x928 /tmp/ccARHrUn.ltrans0.ltrans.o
                 0x000000000000dd98                HiiNewString
  .text.HiiSetImage
-                0x000000000000e6c0      0x300 /tmp/ccl2sbhB.ltrans0.ltrans.o
+                0x000000000000e6c0      0x300 /tmp/ccARHrUn.ltrans0.ltrans.o
                 0x000000000000e6c0                HiiSetImage
  .text.HiiSetImageEx
-                0x000000000000e9c0       0x80 /tmp/ccl2sbhB.ltrans0.ltrans.o
+                0x000000000000e9c0       0x80 /tmp/ccARHrUn.ltrans0.ltrans.o
                 0x000000000000e9c0                HiiSetImageEx
  .text.HiiNewImage
-                0x000000000000ea40      0x288 /tmp/ccl2sbhB.ltrans0.ltrans.o
+                0x000000000000ea40      0x288 /tmp/ccARHrUn.ltrans0.ltrans.o
                 0x000000000000ea40                HiiNewImage
  .text.HiiNewImageEx
-                0x000000000000ecc8       0x80 /tmp/ccl2sbhB.ltrans0.ltrans.o
+                0x000000000000ecc8       0x80 /tmp/ccARHrUn.ltrans0.ltrans.o
                 0x000000000000ecc8                HiiNewImageEx
  .text.GetSupportedLanguages
-                0x000000000000ed48      0x100 /tmp/ccl2sbhB.ltrans0.ltrans.o
+                0x000000000000ed48      0x100 /tmp/ccARHrUn.ltrans0.ltrans.o
                 0x000000000000ed48                GetSupportedLanguages
  .text.InternalGetString
-                0x000000000000ee48      0x1bc /tmp/ccl2sbhB.ltrans0.ltrans.o
+                0x000000000000ee48      0x1bc /tmp/ccARHrUn.ltrans0.ltrans.o
  .text.BlockArrayCheck
-                0x000000000000f004      0x110 /tmp/ccl2sbhB.ltrans0.ltrans.o
+                0x000000000000f004      0x110 /tmp/ccARHrUn.ltrans0.ltrans.o
  .text.IsThisOpcodeRequired
-                0x000000000000f114      0x1dc /tmp/ccl2sbhB.ltrans0.ltrans.o
+                0x000000000000f114      0x1dc /tmp/ccARHrUn.ltrans0.ltrans.o
  .text.GenerateSubStr
-                0x000000000000f2f0      0x278 /tmp/ccl2sbhB.ltrans0.ltrans.o
+                0x000000000000f2f0      0x278 /tmp/ccARHrUn.ltrans0.ltrans.o
                 0x000000000000f2f0                GenerateSubStr
  .text.HiiGetAltCfg
-                0x000000000000f568      0x3e8 /tmp/ccl2sbhB.ltrans0.ltrans.o
+                0x000000000000f568      0x3e8 /tmp/ccARHrUn.ltrans0.ltrans.o
                 0x000000000000f568                HiiGetAltCfg
  .text.IsThisVarstore
-                0x000000000000f950      0x180 /tmp/ccl2sbhB.ltrans0.ltrans.o
+                0x000000000000f950      0x180 /tmp/ccARHrUn.ltrans0.ltrans.o
  .text.GetFullStringFromHiiFormPackages.part.5
-                0x000000000000fad0     0x1a4c /tmp/ccl2sbhB.ltrans0.ltrans.o
+                0x000000000000fad0     0x1a4c /tmp/ccARHrUn.ltrans0.ltrans.o
  .text.HiiConfigRoutingExportConfig
-                0x000000000001151c      0x4e8 /tmp/ccl2sbhB.ltrans0.ltrans.o
+                0x000000000001151c      0x4e8 /tmp/ccARHrUn.ltrans0.ltrans.o
                 0x000000000001151c                HiiConfigRoutingExportConfig
  .text.HiiGetConfigRespInfo
-                0x0000000000011a04      0x198 /tmp/ccl2sbhB.ltrans0.ltrans.o
+                0x0000000000011a04      0x198 /tmp/ccARHrUn.ltrans0.ltrans.o
  .text.HiiUpdatePackageList
-                0x0000000000011b9c      0x2cc /tmp/ccl2sbhB.ltrans0.ltrans.o
+                0x0000000000011b9c      0x2cc /tmp/ccARHrUn.ltrans0.ltrans.o
                 0x0000000000011b9c                HiiUpdatePackageList
  .text.HiiRemovePackageList
-                0x0000000000011e68      0x29c /tmp/ccl2sbhB.ltrans0.ltrans.o
+                0x0000000000011e68      0x29c /tmp/ccARHrUn.ltrans0.ltrans.o
                 0x0000000000011e68                HiiRemovePackageList
  .text.HiiNewPackageList
-                0x0000000000012104      0x33c /tmp/ccl2sbhB.ltrans0.ltrans.o
+                0x0000000000012104      0x33c /tmp/ccARHrUn.ltrans0.ltrans.o
                 0x0000000000012104                HiiNewPackageList
  .text.OnReadyToBoot
-                0x0000000000012440       0x50 /tmp/ccl2sbhB.ltrans0.ltrans.o
+                0x0000000000012440       0x50 /tmp/ccARHrUn.ltrans0.ltrans.o
  .text.IsThisPackageList
-                0x0000000000012490      0x1ec /tmp/ccl2sbhB.ltrans0.ltrans.o
+                0x0000000000012490      0x1ec /tmp/ccARHrUn.ltrans0.ltrans.o
  .text.GetVarStoreType
-                0x000000000001267c      0x2b0 /tmp/ccl2sbhB.ltrans0.ltrans.o
+                0x000000000001267c      0x2b0 /tmp/ccARHrUn.ltrans0.ltrans.o
  .text.HiiConfigRoutingRouteConfig
-                0x000000000001292c      0x528 /tmp/ccl2sbhB.ltrans0.ltrans.o
+                0x000000000001292c      0x528 /tmp/ccARHrUn.ltrans0.ltrans.o
                 0x000000000001292c                HiiConfigRoutingRouteConfig
  .text.HiiConfigRoutingExtractConfig
-                0x0000000000012e54      0xacc /tmp/ccl2sbhB.ltrans0.ltrans.o
+                0x0000000000012e54      0xacc /tmp/ccARHrUn.ltrans0.ltrans.o
                 0x0000000000012e54                HiiConfigRoutingExtractConfig
  .text.__stack_chk_fail
-                0x0000000000013920       0x44 /tmp/ccl2sbhB.ltrans0.ltrans.o
+                0x0000000000013920       0x44 /tmp/ccARHrUn.ltrans0.ltrans.o
                 0x0000000000013920                __stack_chk_fail
  .text._ModuleEntryPoint
-                0x0000000000013964      0x528 /tmp/ccl2sbhB.ltrans0.ltrans.o
+                0x0000000000013964      0x528 /tmp/ccARHrUn.ltrans0.ltrans.o
                 0x0000000000013964                _ModuleEntryPoint
- .text.memcpy   0x0000000000013e8c       0x20 /tmp/ccl2sbhB.ltrans0.ltrans.o
+ .text.memcpy   0x0000000000013e8c       0x20 /tmp/ccARHrUn.ltrans0.ltrans.o
                 0x0000000000013e8c                memcpy
  .text.InternalAllocatePool
-                0x0000000000013eac       0x64 /tmp/ccl2sbhB.ltrans1.ltrans.o
+                0x0000000000013eac       0x64 /tmp/ccARHrUn.ltrans1.ltrans.o
  .text.BasePrintLibFillBuffer
-                0x0000000000013f10       0x34 /tmp/ccl2sbhB.ltrans1.ltrans.o
+                0x0000000000013f10       0x34 /tmp/ccARHrUn.ltrans1.ltrans.o
  .text.AsciiStrnLenS
-                0x0000000000013f44       0x3c /tmp/ccl2sbhB.ltrans1.ltrans.o
+                0x0000000000013f44       0x3c /tmp/ccARHrUn.ltrans1.ltrans.o
  .text.InternalSafeStringIsOverlap
-                0x0000000000013f80       0x3c /tmp/ccl2sbhB.ltrans1.ltrans.o
+                0x0000000000013f80       0x3c /tmp/ccARHrUn.ltrans1.ltrans.o
  .text.InternalSafeStringNoStrOverlap
-                0x0000000000013fbc       0x24 /tmp/ccl2sbhB.ltrans1.ltrans.o
+                0x0000000000013fbc       0x24 /tmp/ccARHrUn.ltrans1.ltrans.o
  .text.FbConFlush
-                0x0000000000013fe0       0x54 /tmp/ccl2sbhB.ltrans1.ltrans.o
+                0x0000000000013fe0       0x54 /tmp/ccARHrUn.ltrans1.ltrans.o
  .text.SerialPortWrite
-                0x0000000000014034      0x418 /tmp/ccl2sbhB.ltrans1.ltrans.o
+                0x0000000000014034      0x418 /tmp/ccARHrUn.ltrans1.ltrans.o
  .text.DevicePathFromHandle
-                0x000000000001444c       0x6c /tmp/ccl2sbhB.ltrans1.ltrans.o
+                0x000000000001444c       0x6c /tmp/ccARHrUn.ltrans1.ltrans.o
                 0x000000000001444c                DevicePathFromHandle
  .text.AllocatePool
-                0x00000000000144b8        0xc /tmp/ccl2sbhB.ltrans1.ltrans.o
+                0x00000000000144b8        0xc /tmp/ccARHrUn.ltrans1.ltrans.o
                 0x00000000000144b8                AllocatePool
  .text.DebugPrintLevelEnabled
-                0x00000000000144c4        0x8 /tmp/ccl2sbhB.ltrans1.ltrans.o
+                0x00000000000144c4        0x8 /tmp/ccARHrUn.ltrans1.ltrans.o
                 0x00000000000144c4                DebugPrintLevelEnabled
  .text.DebugPrintEnabled
-                0x00000000000144cc        0x8 /tmp/ccl2sbhB.ltrans1.ltrans.o
+                0x00000000000144cc        0x8 /tmp/ccARHrUn.ltrans1.ltrans.o
                 0x00000000000144cc                DebugPrintEnabled
  .text.DebugAssertEnabled
-                0x00000000000144d4        0x8 /tmp/ccl2sbhB.ltrans1.ltrans.o
+                0x00000000000144d4        0x8 /tmp/ccARHrUn.ltrans1.ltrans.o
                 0x00000000000144d4                DebugAssertEnabled
  .text.BaseDebugLibSerialPortConstructor
-                0x00000000000144dc       0x84 /tmp/ccl2sbhB.ltrans1.ltrans.o
+                0x00000000000144dc       0x84 /tmp/ccARHrUn.ltrans1.ltrans.o
                 0x00000000000144dc                BaseDebugLibSerialPortConstructor
  .text.StrnLenS
-                0x0000000000014560       0x7c /tmp/ccl2sbhB.ltrans1.ltrans.o
+                0x0000000000014560       0x7c /tmp/ccARHrUn.ltrans1.ltrans.o
                 0x0000000000014560                StrnLenS
  .text.BasePrintLibSPrintMarker.constprop.36
-                0x00000000000145dc      0xf10 /tmp/ccl2sbhB.ltrans1.ltrans.o
+                0x00000000000145dc      0xf10 /tmp/ccARHrUn.ltrans1.ltrans.o
  .text.unlikely.BasePrintLibSPrint.constprop.37
-                0x00000000000154ec       0x9c /tmp/ccl2sbhB.ltrans1.ltrans.o
+                0x00000000000154ec       0x9c /tmp/ccARHrUn.ltrans1.ltrans.o
  .text.AsciiSPrint.constprop.34
-                0x0000000000015588       0xa8 /tmp/ccl2sbhB.ltrans1.ltrans.o
+                0x0000000000015588       0xa8 /tmp/ccARHrUn.ltrans1.ltrans.o
  .text.DebugAssert
-                0x0000000000015630       0x7c /tmp/ccl2sbhB.ltrans1.ltrans.o
+                0x0000000000015630       0x7c /tmp/ccARHrUn.ltrans1.ltrans.o
                 0x0000000000015630                DebugAssert
  .text.BitFieldWrite32.constprop.12
-                0x00000000000156ac      0x1a8 /tmp/ccl2sbhB.ltrans1.ltrans.o
+                0x00000000000156ac      0x1a8 /tmp/ccARHrUn.ltrans1.ltrans.o
                 0x00000000000156ac                BitFieldWrite32.constprop.12
  .text.EfiAcquireLock.constprop.9
-                0x0000000000015854       0x74 /tmp/ccl2sbhB.ltrans1.ltrans.o
+                0x0000000000015854       0x74 /tmp/ccARHrUn.ltrans1.ltrans.o
                 0x0000000000015854                EfiAcquireLock.constprop.9
  .text.EfiReleaseLock.constprop.8
-                0x00000000000158c8       0x6c /tmp/ccl2sbhB.ltrans1.ltrans.o
+                0x00000000000158c8       0x6c /tmp/ccARHrUn.ltrans1.ltrans.o
                 0x00000000000158c8                EfiReleaseLock.constprop.8
  .text.DevicePathSubType
-                0x0000000000015934       0x48 /tmp/ccl2sbhB.ltrans1.ltrans.o
+                0x0000000000015934       0x48 /tmp/ccARHrUn.ltrans1.ltrans.o
  .text.DevicePathType
-                0x000000000001597c       0x48 /tmp/ccl2sbhB.ltrans1.ltrans.o
+                0x000000000001597c       0x48 /tmp/ccARHrUn.ltrans1.ltrans.o
  .text.IsDevicePathEnd
-                0x00000000000159c4       0x94 /tmp/ccl2sbhB.ltrans1.ltrans.o
+                0x00000000000159c4       0x94 /tmp/ccARHrUn.ltrans1.ltrans.o
                 0x00000000000159c4                IsDevicePathEnd
  .text.BasePrintLibValueToString
-                0x0000000000015a58       0x28 /tmp/ccl2sbhB.ltrans1.ltrans.o
+                0x0000000000015a58       0x28 /tmp/ccARHrUn.ltrans1.ltrans.o
  .text.UnicodeValueToStringS.constprop.15
-                0x0000000000015a80      0x1ac /tmp/ccl2sbhB.ltrans1.ltrans.o
+                0x0000000000015a80      0x1ac /tmp/ccARHrUn.ltrans1.ltrans.o
                 0x0000000000015a80                UnicodeValueToStringS.constprop.15
  .text.WriteUnaligned16
-                0x0000000000015c2c       0x5c /tmp/ccl2sbhB.ltrans1.ltrans.o
+                0x0000000000015c2c       0x5c /tmp/ccARHrUn.ltrans1.ltrans.o
                 0x0000000000015c2c                WriteUnaligned16
  .text.ReadUnaligned16
-                0x0000000000015c88       0x68 /tmp/ccl2sbhB.ltrans1.ltrans.o
+                0x0000000000015c88       0x68 /tmp/ccARHrUn.ltrans1.ltrans.o
                 0x0000000000015c88                ReadUnaligned16
  .text.DevicePathNodeLength
-                0x0000000000015cf0       0x50 /tmp/ccl2sbhB.ltrans1.ltrans.o
+                0x0000000000015cf0       0x50 /tmp/ccARHrUn.ltrans1.ltrans.o
                 0x0000000000015cf0                DevicePathNodeLength
  .text.NextDevicePathNode
-                0x0000000000015d40       0x50 /tmp/ccl2sbhB.ltrans1.ltrans.o
+                0x0000000000015d40       0x50 /tmp/ccARHrUn.ltrans1.ltrans.o
                 0x0000000000015d40                NextDevicePathNode
  .text.UefiDevicePathLibGetDevicePathSize
-                0x0000000000015d90       0xfc /tmp/ccl2sbhB.ltrans1.ltrans.o
+                0x0000000000015d90       0xfc /tmp/ccARHrUn.ltrans1.ltrans.o
                 0x0000000000015d90                UefiDevicePathLibGetDevicePathSize
  .text.ReadUnaligned32
-                0x0000000000015e8c       0x30 /tmp/ccl2sbhB.ltrans1.ltrans.o
+                0x0000000000015e8c       0x30 /tmp/ccARHrUn.ltrans1.ltrans.o
                 0x0000000000015e8c                ReadUnaligned32
  .text.AsciiStrLen
-                0x0000000000015ebc       0xa0 /tmp/ccl2sbhB.ltrans1.ltrans.o
+                0x0000000000015ebc       0xa0 /tmp/ccARHrUn.ltrans1.ltrans.o
                 0x0000000000015ebc                AsciiStrLen
  .text.DebugPrint
-                0x0000000000015f5c       0xbc /tmp/ccl2sbhB.ltrans1.ltrans.o
+                0x0000000000015f5c       0xbc /tmp/ccARHrUn.ltrans1.ltrans.o
                 0x0000000000015f5c                DebugPrint
  .text.FreePool
-                0x0000000000016018       0x7c /tmp/ccl2sbhB.ltrans1.ltrans.o
+                0x0000000000016018       0x7c /tmp/ccARHrUn.ltrans1.ltrans.o
                 0x0000000000016018                FreePool
  .text.GetFormPackageData.part.4.constprop.23
-                0x0000000000016094       0xfc /tmp/ccl2sbhB.ltrans1.ltrans.o
+                0x0000000000016094       0xfc /tmp/ccARHrUn.ltrans1.ltrans.o
                 0x0000000000016094                GetFormPackageData.part.4.constprop.23
  .text.GetVariable2.constprop.18
-                0x0000000000016190      0x128 /tmp/ccl2sbhB.ltrans1.ltrans.o
+                0x0000000000016190      0x128 /tmp/ccARHrUn.ltrans1.ltrans.o
                 0x0000000000016190                GetVariable2.constprop.18
  .text.AsciiStrSize
-                0x00000000000162b8       0x18 /tmp/ccl2sbhB.ltrans1.ltrans.o
+                0x00000000000162b8       0x18 /tmp/ccARHrUn.ltrans1.ltrans.o
                 0x00000000000162b8                AsciiStrSize
  .text.AsciiStrStr.constprop.6
-                0x00000000000162d0       0xbc /tmp/ccl2sbhB.ltrans1.ltrans.o
+                0x00000000000162d0       0xbc /tmp/ccARHrUn.ltrans1.ltrans.o
                 0x00000000000162d0                AsciiStrStr.constprop.6
  .text.AsciiStrnCmp
-                0x000000000001638c       0xe4 /tmp/ccl2sbhB.ltrans1.ltrans.o
+                0x000000000001638c       0xe4 /tmp/ccARHrUn.ltrans1.ltrans.o
                 0x000000000001638c                AsciiStrnCmp
  .text.AsciiStrCmp
-                0x0000000000016470       0x98 /tmp/ccl2sbhB.ltrans1.ltrans.o
+                0x0000000000016470       0x98 /tmp/ccARHrUn.ltrans1.ltrans.o
                 0x0000000000016470                AsciiStrCmp
- .text.StrLen   0x0000000000016508       0xbc /tmp/ccl2sbhB.ltrans1.ltrans.o
+ .text.StrLen   0x0000000000016508       0xbc /tmp/ccARHrUn.ltrans1.ltrans.o
                 0x0000000000016508                StrLen
- .text.StrSize  0x00000000000165c4       0x1c /tmp/ccl2sbhB.ltrans1.ltrans.o
+ .text.StrSize  0x00000000000165c4       0x1c /tmp/ccARHrUn.ltrans1.ltrans.o
                 0x00000000000165c4                StrSize
- .text.StrStr   0x00000000000165e0       0xbc /tmp/ccl2sbhB.ltrans1.ltrans.o
+ .text.StrStr   0x00000000000165e0       0xbc /tmp/ccARHrUn.ltrans1.ltrans.o
                 0x00000000000165e0                StrStr
- .text.StrnCmp  0x000000000001669c       0xe4 /tmp/ccl2sbhB.ltrans1.ltrans.o
+ .text.StrnCmp  0x000000000001669c       0xe4 /tmp/ccARHrUn.ltrans1.ltrans.o
                 0x000000000001669c                StrnCmp
- .text.StrCmp   0x0000000000016780       0x98 /tmp/ccl2sbhB.ltrans1.ltrans.o
+ .text.StrCmp   0x0000000000016780       0x98 /tmp/ccARHrUn.ltrans1.ltrans.o
                 0x0000000000016780                StrCmp
  .text.AsciiStrToUnicodeStrS
-                0x0000000000016818      0x1a4 /tmp/ccl2sbhB.ltrans1.ltrans.o
+                0x0000000000016818      0x1a4 /tmp/ccARHrUn.ltrans1.ltrans.o
                 0x0000000000016818                AsciiStrToUnicodeStrS
  .text.AsciiStrCpyS
-                0x00000000000169bc      0x190 /tmp/ccl2sbhB.ltrans1.ltrans.o
+                0x00000000000169bc      0x190 /tmp/ccARHrUn.ltrans1.ltrans.o
                 0x00000000000169bc                AsciiStrCpyS
  .text.InternalBaseLibIsListValid
-                0x0000000000016b4c       0xb8 /tmp/ccl2sbhB.ltrans1.ltrans.o
+                0x0000000000016b4c       0xb8 /tmp/ccARHrUn.ltrans1.ltrans.o
  .text.UnicodeSPrint
-                0x0000000000016c04       0xfc /tmp/ccl2sbhB.ltrans1.ltrans.o
+                0x0000000000016c04       0xfc /tmp/ccARHrUn.ltrans1.ltrans.o
                 0x0000000000016c04                UnicodeSPrint
  .text.UnicodeStrToAsciiStrS
-                0x0000000000016d00      0x1f0 /tmp/ccl2sbhB.ltrans1.ltrans.o
+                0x0000000000016d00      0x1f0 /tmp/ccARHrUn.ltrans1.ltrans.o
                 0x0000000000016d00                UnicodeStrToAsciiStrS
  .text.StrnCatS
-                0x0000000000016ef0      0x268 /tmp/ccl2sbhB.ltrans1.ltrans.o
+                0x0000000000016ef0      0x268 /tmp/ccARHrUn.ltrans1.ltrans.o
                 0x0000000000016ef0                StrnCatS
- .text.StrCatS  0x0000000000017158      0x224 /tmp/ccl2sbhB.ltrans1.ltrans.o
+ .text.StrCatS  0x0000000000017158      0x224 /tmp/ccARHrUn.ltrans1.ltrans.o
                 0x0000000000017158                StrCatS
  .text.StrnCpyS
-                0x000000000001737c      0x214 /tmp/ccl2sbhB.ltrans1.ltrans.o
+                0x000000000001737c      0x214 /tmp/ccARHrUn.ltrans1.ltrans.o
                 0x000000000001737c                StrnCpyS
- .text.StrCpyS  0x0000000000017590      0x1cc /tmp/ccl2sbhB.ltrans1.ltrans.o
+ .text.StrCpyS  0x0000000000017590      0x1cc /tmp/ccARHrUn.ltrans1.ltrans.o
                 0x0000000000017590                StrCpyS
  .text.GenerateKeywordResp
-                0x000000000001775c      0x1fc /tmp/ccl2sbhB.ltrans1.ltrans.o
- .text.IsNull   0x0000000000017958       0x5c /tmp/ccl2sbhB.ltrans1.ltrans.o
+                0x000000000001775c      0x1fc /tmp/ccARHrUn.ltrans1.ltrans.o
+ .text.IsNull   0x0000000000017958       0x5c /tmp/ccARHrUn.ltrans1.ltrans.o
                 0x0000000000017958                IsNull
  .text.IsListEmpty
-                0x00000000000179b4       0x5c /tmp/ccl2sbhB.ltrans1.ltrans.o
+                0x00000000000179b4       0x5c /tmp/ccARHrUn.ltrans1.ltrans.o
                 0x00000000000179b4                IsListEmpty
  .text.RemoveEntryList
-                0x0000000000017a10       0x64 /tmp/ccl2sbhB.ltrans1.ltrans.o
+                0x0000000000017a10       0x64 /tmp/ccARHrUn.ltrans1.ltrans.o
                 0x0000000000017a10                RemoveEntryList
  .text.GetNextNode
-                0x0000000000017a74       0x58 /tmp/ccl2sbhB.ltrans1.ltrans.o
+                0x0000000000017a74       0x58 /tmp/ccARHrUn.ltrans1.ltrans.o
                 0x0000000000017a74                GetNextNode
  .text.GetFirstNode
-                0x0000000000017acc       0x54 /tmp/ccl2sbhB.ltrans1.ltrans.o
+                0x0000000000017acc       0x54 /tmp/ccARHrUn.ltrans1.ltrans.o
                 0x0000000000017acc                GetFirstNode
  .text.InsertTailList
-                0x0000000000017b20       0x6c /tmp/ccl2sbhB.ltrans1.ltrans.o
+                0x0000000000017b20       0x6c /tmp/ccARHrUn.ltrans1.ltrans.o
                 0x0000000000017b20                InsertTailList
  .text.InitializeListHead
-                0x0000000000017b8c       0x4c /tmp/ccl2sbhB.ltrans1.ltrans.o
+                0x0000000000017b8c       0x4c /tmp/ccARHrUn.ltrans1.ltrans.o
                 0x0000000000017b8c                InitializeListHead
  .text.BitFieldRead32
-                0x0000000000017bd8       0x80 /tmp/ccl2sbhB.ltrans1.ltrans.o
+                0x0000000000017bd8       0x80 /tmp/ccARHrUn.ltrans1.ltrans.o
                 0x0000000000017bd8                BitFieldRead32
  .text.LShiftU64
-                0x0000000000017c58       0x50 /tmp/ccl2sbhB.ltrans1.ltrans.o
+                0x0000000000017c58       0x50 /tmp/ccARHrUn.ltrans1.ltrans.o
                 0x0000000000017c58                LShiftU64
  .text.StrHexToUint64
-                0x0000000000017ca8      0x1bc /tmp/ccl2sbhB.ltrans1.ltrans.o
+                0x0000000000017ca8      0x1bc /tmp/ccARHrUn.ltrans1.ltrans.o
                 0x0000000000017ca8                StrHexToUint64
  .text.BitFieldRead64
-                0x0000000000017e64       0xc0 /tmp/ccl2sbhB.ltrans1.ltrans.o
+                0x0000000000017e64       0xc0 /tmp/ccARHrUn.ltrans1.ltrans.o
                 0x0000000000017e64                BitFieldRead64
- .text.CopyMem  0x0000000000017f24       0xb0 /tmp/ccl2sbhB.ltrans1.ltrans.o
+ .text.CopyMem  0x0000000000017f24       0xb0 /tmp/ccARHrUn.ltrans1.ltrans.o
                 0x0000000000017f24                CopyMem
  .text.AllocateCopyPool
-                0x0000000000017fd4       0x90 /tmp/ccl2sbhB.ltrans1.ltrans.o
+                0x0000000000017fd4       0x90 /tmp/ccARHrUn.ltrans1.ltrans.o
                 0x0000000000017fd4                AllocateCopyPool
  .text.ExtractValueFromDriver
-                0x0000000000018064      0x134 /tmp/ccl2sbhB.ltrans1.ltrans.o
+                0x0000000000018064      0x134 /tmp/ccARHrUn.ltrans1.ltrans.o
  .text.SetMem32
-                0x0000000000018198       0xd0 /tmp/ccl2sbhB.ltrans1.ltrans.o
+                0x0000000000018198       0xd0 /tmp/ccARHrUn.ltrans1.ltrans.o
                 0x0000000000018198                SetMem32
  .text.CompareMem
-                0x0000000000018268       0xe4 /tmp/ccl2sbhB.ltrans1.ltrans.o
+                0x0000000000018268       0xe4 /tmp/ccARHrUn.ltrans1.ltrans.o
                 0x0000000000018268                CompareMem
  .text.GetStringIdFromDatabase
-                0x000000000001834c      0x27c /tmp/ccl2sbhB.ltrans1.ltrans.o
- .text.ZeroMem  0x00000000000185c8       0x7c /tmp/ccl2sbhB.ltrans1.ltrans.o
+                0x000000000001834c      0x27c /tmp/ccARHrUn.ltrans1.ltrans.o
+ .text.ZeroMem  0x00000000000185c8       0x7c /tmp/ccARHrUn.ltrans1.ltrans.o
                 0x00000000000185c8                ZeroMem
  .text.InternalAllocateZeroPool
-                0x0000000000018644       0x34 /tmp/ccl2sbhB.ltrans1.ltrans.o
+                0x0000000000018644       0x34 /tmp/ccARHrUn.ltrans1.ltrans.o
                 0x0000000000018644                InternalAllocateZeroPool
  .text.ReallocatePool
-                0x0000000000018678       0x60 /tmp/ccl2sbhB.ltrans1.ltrans.o
+                0x0000000000018678       0x60 /tmp/ccARHrUn.ltrans1.ltrans.o
                 0x0000000000018678                ReallocatePool
  .text.MergeToMultiKeywordResp
-                0x00000000000186d8       0xac /tmp/ccl2sbhB.ltrans1.ltrans.o
+                0x00000000000186d8       0xac /tmp/ccARHrUn.ltrans1.ltrans.o
  .text.AllocateZeroPool
-                0x0000000000018784        0xc /tmp/ccl2sbhB.ltrans1.ltrans.o
+                0x0000000000018784        0xc /tmp/ccARHrUn.ltrans1.ltrans.o
                 0x0000000000018784                AllocateZeroPool
  .text.GetBestLanguage.constprop.19
-                0x0000000000018790      0x1bc /tmp/ccl2sbhB.ltrans1.ltrans.o
+                0x0000000000018790      0x1bc /tmp/ccARHrUn.ltrans1.ltrans.o
                 0x0000000000018790                GetBestLanguage.constprop.19
  .text.WriteOutputParam.constprop.4
-                0x000000000001894c       0x88 /tmp/ccl2sbhB.ltrans1.ltrans.o
+                0x000000000001894c       0x88 /tmp/ccARHrUn.ltrans1.ltrans.o
  .text.FindGlyphBlock.constprop.3
-                0x00000000000189d4      0x564 /tmp/ccl2sbhB.ltrans1.ltrans.o
+                0x00000000000189d4      0x564 /tmp/ccARHrUn.ltrans1.ltrans.o
                 0x00000000000189d4                FindGlyphBlock.constprop.3
  .text.GetNameFromId
-                0x0000000000018f38      0x1ac /tmp/ccl2sbhB.ltrans1.ltrans.o
+                0x0000000000018f38      0x1ac /tmp/ccARHrUn.ltrans1.ltrans.o
  .text.ConstructRequestElement
-                0x00000000000190e4       0xc0 /tmp/ccl2sbhB.ltrans1.ltrans.o
+                0x00000000000190e4       0xc0 /tmp/ccARHrUn.ltrans1.ltrans.o
  .text.EfiConfigKeywordHandlerSetData
-                0x00000000000191a4      0x72c /tmp/ccl2sbhB.ltrans1.ltrans.o
+                0x00000000000191a4      0x72c /tmp/ccARHrUn.ltrans1.ltrans.o
  .text.ExtractConfigRequest
-                0x00000000000198d0      0x280 /tmp/ccl2sbhB.ltrans1.ltrans.o
+                0x00000000000198d0      0x280 /tmp/ccARHrUn.ltrans1.ltrans.o
  .text.EfiConfigKeywordHandlerGetData
-                0x0000000000019b50      0xd78 /tmp/ccl2sbhB.ltrans1.ltrans.o
+                0x0000000000019b50      0xd78 /tmp/ccARHrUn.ltrans1.ltrans.o
  .text.CompareGuid
-                0x000000000001a8c8       0x6c /tmp/ccl2sbhB.ltrans1.ltrans.o
+                0x000000000001a8c8       0x6c /tmp/ccARHrUn.ltrans1.ltrans.o
                 0x000000000001a8c8                CompareGuid
  .text.CopyGuid
-                0x000000000001a934       0x54 /tmp/ccl2sbhB.ltrans1.ltrans.o
+                0x000000000001a934       0x54 /tmp/ccARHrUn.ltrans1.ltrans.o
                 0x000000000001a934                CopyGuid
  .text.GetPiPcdProtocol
-                0x000000000001a988       0xc0 /tmp/ccl2sbhB.ltrans1.ltrans.o
+                0x000000000001a988       0xc0 /tmp/ccARHrUn.ltrans1.ltrans.o
                 0x000000000001a988                GetPiPcdProtocol
  *fill*         0x000000000001aa48        0x8 
  .text          0x000000000001aa50      0x200 /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(SetMem.obj)
@@ -920,316 +920,316 @@ END GROUP
                 0x000000000001afb8                ArmDataSynchronizationBarrier
  *(.rodata .rodata.* .gnu.linkonce.r.*)
  .rodata.InvokeRegisteredFunction
-                0x000000000001afc0       0x12 /tmp/ccl2sbhB.ltrans0.ltrans.o
+                0x000000000001afc0       0x12 /tmp/ccARHrUn.ltrans0.ltrans.o
  *fill*         0x000000000001afd2        0x2 
  .rodata.FindStringBlock
-                0x000000000001afd4       0x46 /tmp/ccl2sbhB.ltrans0.ltrans.o
+                0x000000000001afd4       0x46 /tmp/ccARHrUn.ltrans0.ltrans.o
  *fill*         0x000000000001b01a        0x2 
  .rodata.GetStringWorker
-                0x000000000001b01c        0x8 /tmp/ccl2sbhB.ltrans0.ltrans.o
+                0x000000000001b01c        0x8 /tmp/ccARHrUn.ltrans0.ltrans.o
  .rodata.HiiListPackageLists
-                0x000000000001b024        0xa /tmp/ccl2sbhB.ltrans0.ltrans.o
+                0x000000000001b024        0xa /tmp/ccARHrUn.ltrans0.ltrans.o
  *fill*         0x000000000001b02e        0x2 
  .rodata.AddPackages
-                0x000000000001b030       0x12 /tmp/ccl2sbhB.ltrans0.ltrans.o
+                0x000000000001b030       0x12 /tmp/ccARHrUn.ltrans0.ltrans.o
  *fill*         0x000000000001b042        0x2 
  .rodata.GetImageIdOrAddress
-                0x000000000001b044       0x23 /tmp/ccl2sbhB.ltrans0.ltrans.o
+                0x000000000001b044       0x23 /tmp/ccARHrUn.ltrans0.ltrans.o
  *fill*         0x000000000001b067        0x1 
  .rodata.IGetImage
-                0x000000000001b068       0x14 /tmp/ccl2sbhB.ltrans0.ltrans.o
+                0x000000000001b068       0x14 /tmp/ccARHrUn.ltrans0.ltrans.o
  .rodata.GetWidth
-                0x000000000001b07c        0x4 /tmp/ccl2sbhB.ltrans0.ltrans.o
+                0x000000000001b07c        0x4 /tmp/ccARHrUn.ltrans0.ltrans.o
  .rodata.GetStringIdFromRecord
-                0x000000000001b080       0x46 /tmp/ccl2sbhB.ltrans0.ltrans.o
+                0x000000000001b080       0x46 /tmp/ccARHrUn.ltrans0.ltrans.o
  *fill*         0x000000000001b0c6        0x2 
  .rodata.HiiSetString
-                0x000000000001b0c8       0x10 /tmp/ccl2sbhB.ltrans0.ltrans.o
+                0x000000000001b0c8       0x10 /tmp/ccARHrUn.ltrans0.ltrans.o
  .rodata.HiiSetImage
-                0x000000000001b0d8        0xa /tmp/ccl2sbhB.ltrans0.ltrans.o
+                0x000000000001b0d8        0xa /tmp/ccARHrUn.ltrans0.ltrans.o
  *fill*         0x000000000001b0e2        0x2 
  .rodata.HiiUpdatePackageList
-                0x000000000001b0e4        0x9 /tmp/ccl2sbhB.ltrans0.ltrans.o
+                0x000000000001b0e4        0x9 /tmp/ccARHrUn.ltrans0.ltrans.o
  .rodata.AddDevicePathPackage.str1.1
-                0x000000000001b0ed       0x37 /tmp/ccl2sbhB.ltrans0.ltrans.o
+                0x000000000001b0ed       0x37 /tmp/ccARHrUn.ltrans0.ltrans.o
  .rodata.AppendToMultiString.str1.1
-                0x000000000001b124       0x1d /tmp/ccl2sbhB.ltrans0.ltrans.o
+                0x000000000001b124       0x1d /tmp/ccARHrUn.ltrans0.ltrans.o
  .rodata.AsciiHiiToLower.str1.1
-                0x000000000001b141       0x6b /tmp/ccl2sbhB.ltrans0.ltrans.o
+                0x000000000001b141       0x6b /tmp/ccARHrUn.ltrans0.ltrans.o
  .rodata.CalculateConfigStringLen.str1.1
-                0x000000000001b1ac       0x33 /tmp/ccl2sbhB.ltrans0.ltrans.o
+                0x000000000001b1ac       0x33 /tmp/ccARHrUn.ltrans0.ltrans.o
                                          0x4a (松开之前的大小)
  *fill*         0x000000000001b1df        0x1 
  .rodata.CalculateConfigStringLen.str2.2
-                0x000000000001b1e0        0xe /tmp/ccl2sbhB.ltrans0.ltrans.o
+                0x000000000001b1e0        0xe /tmp/ccARHrUn.ltrans0.ltrans.o
  .rodata.ConstructConfigHdr.str1.1
-                0x000000000001b1ee       0x8c /tmp/ccl2sbhB.ltrans0.ltrans.o
+                0x000000000001b1ee       0x8c /tmp/ccARHrUn.ltrans0.ltrans.o
  .rodata.CopyRgbToGopPixel.str1.1
-                0x000000000001b27a       0x83 /tmp/ccl2sbhB.ltrans0.ltrans.o
+                0x000000000001b27a       0x83 /tmp/ccARHrUn.ltrans0.ltrans.o
  .rodata.ExportPackageList.str1.1
-                0x000000000001b2fd       0xeb /tmp/ccl2sbhB.ltrans0.ltrans.o
+                0x000000000001b2fd       0xeb /tmp/ccARHrUn.ltrans0.ltrans.o
                                         0x137 (松开之前的大小)
  .rodata.ExtractKeyword.str2.2
-                0x000000000001b3e8       0x12 /tmp/ccl2sbhB.ltrans0.ltrans.o
+                0x000000000001b3e8       0x12 /tmp/ccARHrUn.ltrans0.ltrans.o
  .rodata.ExtractNameSpace.str2.2
-                0x000000000001b3fa       0x16 /tmp/ccl2sbhB.ltrans0.ltrans.o
+                0x000000000001b3fa       0x16 /tmp/ccARHrUn.ltrans0.ltrans.o
  .rodata.FindQuestionDefaultSetting.str1.1
-                0x000000000001b410       0x7f /tmp/ccl2sbhB.ltrans0.ltrans.o
+                0x000000000001b410       0x7f /tmp/ccARHrUn.ltrans0.ltrans.o
  .rodata.FindStorageFromVarId.str1.1
-                0x000000000001b48f       0x1c /tmp/ccl2sbhB.ltrans0.ltrans.o
+                0x000000000001b48f       0x1c /tmp/ccARHrUn.ltrans0.ltrans.o
  .rodata.FindStringBlock.str1.1
-                0x000000000001b4ab       0xcf /tmp/ccl2sbhB.ltrans0.ltrans.o
+                0x000000000001b4ab       0xcf /tmp/ccARHrUn.ltrans0.ltrans.o
                                          0xed (松开之前的大小)
  .rodata.GenerateSubStr.str1.1
-                0x000000000001b57a       0x4a /tmp/ccl2sbhB.ltrans0.ltrans.o
+                0x000000000001b57a       0x4a /tmp/ccARHrUn.ltrans0.ltrans.o
                                          0x5e (松开之前的大小)
  .rodata.GetElementsFromRequest.str1.1
-                0x000000000001b5c4       0x1b /tmp/ccl2sbhB.ltrans0.ltrans.o
+                0x000000000001b5c4       0x1b /tmp/ccARHrUn.ltrans0.ltrans.o
  *fill*         0x000000000001b5df        0x1 
  .rodata.GetElementsFromRequest.str2.2
-                0x000000000001b5e0       0x12 /tmp/ccl2sbhB.ltrans0.ltrans.o
+                0x000000000001b5e0       0x12 /tmp/ccARHrUn.ltrans0.ltrans.o
                                          0x22 (松开之前的大小)
  .rodata.GetFullStringFromHiiFormPackages.part.5.str1.1
-                0x000000000001b5f2       0x34 /tmp/ccl2sbhB.ltrans0.ltrans.o
+                0x000000000001b5f2       0x34 /tmp/ccARHrUn.ltrans0.ltrans.o
  .rodata.GetFullStringFromHiiFormPackages.part.5.str2.2
-                0x000000000001b626       0xa0 /tmp/ccl2sbhB.ltrans0.ltrans.o
+                0x000000000001b626       0xa0 /tmp/ccARHrUn.ltrans0.ltrans.o
  .rodata.GetImageIdOrAddress.str1.1
-                0x000000000001b6c6       0x60 /tmp/ccl2sbhB.ltrans0.ltrans.o
+                0x000000000001b6c6       0x60 /tmp/ccARHrUn.ltrans0.ltrans.o
  .rodata.GetStringIdFromRecord.str1.1
-                0x000000000001b726       0xbd /tmp/ccl2sbhB.ltrans0.ltrans.o
+                0x000000000001b726       0xbd /tmp/ccARHrUn.ltrans0.ltrans.o
  .rodata.GetStringWorker.str1.1
-                0x000000000001b7e3       0x40 /tmp/ccl2sbhB.ltrans0.ltrans.o
+                0x000000000001b7e3       0x40 /tmp/ccARHrUn.ltrans0.ltrans.o
  .rodata.GetSupportedLanguages.str1.1
-                0x000000000001b823       0x1a /tmp/ccl2sbhB.ltrans0.ltrans.o
+                0x000000000001b823       0x1a /tmp/ccARHrUn.ltrans0.ltrans.o
  *fill*         0x000000000001b83d        0x1 
  .rodata.GetSystemFont.part.1.str2.2
-                0x000000000001b83e       0x16 /tmp/ccl2sbhB.ltrans0.ltrans.o
+                0x000000000001b83e       0x16 /tmp/ccARHrUn.ltrans0.ltrans.o
  .rodata.GetUnicodeStringTextAndSize.str1.1
-                0x000000000001b854       0x56 /tmp/ccl2sbhB.ltrans0.ltrans.o
+                0x000000000001b854       0x56 /tmp/ccARHrUn.ltrans0.ltrans.o
  .rodata.GetUnicodeStringTextOrSize.str1.1
-                0x000000000001b8aa       0x38 /tmp/ccl2sbhB.ltrans0.ltrans.o
+                0x000000000001b8aa       0x38 /tmp/ccARHrUn.ltrans0.ltrans.o
  .rodata.GetWidth.str1.1
-                0x000000000001b8e2       0x37 /tmp/ccl2sbhB.ltrans0.ltrans.o
+                0x000000000001b8e2       0x37 /tmp/ccARHrUn.ltrans0.ltrans.o
  .rodata.GlyphToBlt.str1.1
-                0x000000000001b919       0x96 /tmp/ccl2sbhB.ltrans0.ltrans.o
+                0x000000000001b919       0x96 /tmp/ccARHrUn.ltrans0.ltrans.o
  .rodata.HiiBlockToConfig.str2.2
-                0x000000000001b9af       0x16 /tmp/ccl2sbhB.ltrans0.ltrans.o
+                0x000000000001b9af       0x16 /tmp/ccARHrUn.ltrans0.ltrans.o
                                          0x1e (松开之前的大小)
  .rodata.HiiCompareLanguage.str1.1
-                0x000000000001b9af       0x2a /tmp/ccl2sbhB.ltrans0.ltrans.o
+                0x000000000001b9af       0x2a /tmp/ccARHrUn.ltrans0.ltrans.o
  .rodata.HiiConfigRoutingExtractConfig.str1.1
-                0x000000000001b9d9       0x15 /tmp/ccl2sbhB.ltrans0.ltrans.o
+                0x000000000001b9d9       0x15 /tmp/ccARHrUn.ltrans0.ltrans.o
  .rodata.HiiConfigRoutingRouteConfig.str1.1
-                0x000000000001b9ee       0x55 /tmp/ccl2sbhB.ltrans0.ltrans.o
+                0x000000000001b9ee       0x55 /tmp/ccARHrUn.ltrans0.ltrans.o
  *fill*         0x000000000001ba43        0x1 
  .rodata.HiiConfigToBlock.str2.2
-                0x000000000001ba44       0x10 /tmp/ccl2sbhB.ltrans0.ltrans.o
+                0x000000000001ba44       0x10 /tmp/ccARHrUn.ltrans0.ltrans.o
                                          0x20 (松开之前的大小)
  .rodata.HiiDrawImageEx.str1.1
-                0x000000000001ba54       0x4f /tmp/ccl2sbhB.ltrans0.ltrans.o
+                0x000000000001ba54       0x4f /tmp/ccARHrUn.ltrans0.ltrans.o
  .rodata.HiiGetAltCfg.str2.2
-                0x000000000001baa3       0x10 /tmp/ccl2sbhB.ltrans0.ltrans.o
+                0x000000000001baa3       0x10 /tmp/ccARHrUn.ltrans0.ltrans.o
                                          0x1c (松开之前的大小)
  .rodata.HiiGetConfigRespInfo.str1.1
-                0x000000000001baa3       0x4a /tmp/ccl2sbhB.ltrans0.ltrans.o
+                0x000000000001baa3       0x4a /tmp/ccARHrUn.ltrans0.ltrans.o
  .rodata.HiiGetDatabaseInfo.str1.1
-                0x000000000001baed       0xfa /tmp/ccl2sbhB.ltrans0.ltrans.o
+                0x000000000001baed       0xfa /tmp/ccARHrUn.ltrans0.ltrans.o
  .rodata.HiiGetFontInfo.str1.1
-                0x000000000001bbe7       0x1d /tmp/ccl2sbhB.ltrans0.ltrans.o
+                0x000000000001bbe7       0x1d /tmp/ccARHrUn.ltrans0.ltrans.o
  .rodata.HiiGetGlyph.str1.1
-                0x000000000001bc04       0x3c /tmp/ccl2sbhB.ltrans0.ltrans.o
+                0x000000000001bc04       0x3c /tmp/ccARHrUn.ltrans0.ltrans.o
  .rodata.HiiGetPackageListHandle.str1.1
-                0x000000000001bc40       0x65 /tmp/ccl2sbhB.ltrans0.ltrans.o
+                0x000000000001bc40       0x65 /tmp/ccARHrUn.ltrans0.ltrans.o
  .rodata.HiiRemovePackageList.str1.1
-                0x000000000001bca5       0x39 /tmp/ccl2sbhB.ltrans0.ltrans.o
+                0x000000000001bca5       0x39 /tmp/ccARHrUn.ltrans0.ltrans.o
  .rodata.HiiSetKeyboardLayout.str1.1
-                0x000000000001bcde       0x1f /tmp/ccl2sbhB.ltrans0.ltrans.o
+                0x000000000001bcde       0x1f /tmp/ccARHrUn.ltrans0.ltrans.o
  .rodata.HiiStringIdToImage.str1.1
-                0x000000000001bcfd       0x1f /tmp/ccl2sbhB.ltrans0.ltrans.o
+                0x000000000001bcfd       0x1f /tmp/ccARHrUn.ltrans0.ltrans.o
                                           0x1 (松开之前的大小)
  .rodata.HiiStringToImage.str1.1
-                0x000000000001bcfd       0x4f /tmp/ccl2sbhB.ltrans0.ltrans.o
+                0x000000000001bcfd       0x4f /tmp/ccARHrUn.ltrans0.ltrans.o
                                          0x64 (松开之前的大小)
  .rodata.HiiToLower.str1.1
-                0x000000000001bd4c       0x55 /tmp/ccl2sbhB.ltrans0.ltrans.o
+                0x000000000001bd4c       0x55 /tmp/ccARHrUn.ltrans0.ltrans.o
  .rodata.IGetImage.str1.1
-                0x000000000001bda1       0x26 /tmp/ccl2sbhB.ltrans0.ltrans.o
+                0x000000000001bda1       0x26 /tmp/ccARHrUn.ltrans0.ltrans.o
  .rodata.InsertDefaultValue.str1.1
-                0x000000000001bdc7       0x22 /tmp/ccl2sbhB.ltrans0.ltrans.o
+                0x000000000001bdc7       0x22 /tmp/ccARHrUn.ltrans0.ltrans.o
  .rodata.InternalGetString.str1.1
-                0x000000000001bde9        0xe /tmp/ccl2sbhB.ltrans0.ltrans.o
+                0x000000000001bde9        0xe /tmp/ccARHrUn.ltrans0.ltrans.o
  .rodata.InvokeRegisteredFunction.str1.1
-                0x000000000001bdf7        0xe /tmp/ccl2sbhB.ltrans0.ltrans.o
+                0x000000000001bdf7        0xe /tmp/ccARHrUn.ltrans0.ltrans.o
                                          0x17 (松开之前的大小)
  .rodata.IsFontInfoExisted.str1.1
-                0x000000000001bdf7       0x67 /tmp/ccl2sbhB.ltrans0.ltrans.o
+                0x000000000001bdf7       0x67 /tmp/ccARHrUn.ltrans0.ltrans.o
                                          0x80 (松开之前的大小)
  .rodata.IsSystemFontInfo.str1.1
-                0x000000000001be5e       0x6a /tmp/ccl2sbhB.ltrans0.ltrans.o
+                0x000000000001be5e       0x6a /tmp/ccARHrUn.ltrans0.ltrans.o
  .rodata.IsThisVarstore.str2.2
-                0x000000000001bec8        0xe /tmp/ccl2sbhB.ltrans0.ltrans.o
+                0x000000000001bec8        0xe /tmp/ccARHrUn.ltrans0.ltrans.o
  .rodata.LocateHiiImageDecoder.str1.1
-                0x000000000001bed6       0x12 /tmp/ccl2sbhB.ltrans0.ltrans.o
+                0x000000000001bed6       0x12 /tmp/ccARHrUn.ltrans0.ltrans.o
  .rodata.MergeDefaultString.str1.1
-                0x000000000001bee8       0x92 /tmp/ccl2sbhB.ltrans0.ltrans.o
+                0x000000000001bee8       0x92 /tmp/ccARHrUn.ltrans0.ltrans.o
  .rodata.MergeDefaultString.str2.2
-                0x000000000001bf7a       0x28 /tmp/ccl2sbhB.ltrans0.ltrans.o
+                0x000000000001bf7a       0x28 /tmp/ccARHrUn.ltrans0.ltrans.o
                                          0x2c (松开之前的大小)
  .rodata.NarrowGlyphToBlt.str1.1
-                0x000000000001bfa2       0x51 /tmp/ccl2sbhB.ltrans0.ltrans.o
+                0x000000000001bfa2       0x51 /tmp/ccARHrUn.ltrans0.ltrans.o
  .rodata.NewCell.str1.1
-                0x000000000001bff3       0x36 /tmp/ccl2sbhB.ltrans0.ltrans.o
+                0x000000000001bff3       0x36 /tmp/ccARHrUn.ltrans0.ltrans.o
  .rodata.Output8bitPixel.str1.1
-                0x000000000001c029       0x65 /tmp/ccl2sbhB.ltrans0.ltrans.o
+                0x000000000001c029       0x65 /tmp/ccARHrUn.ltrans0.ltrans.o
  .rodata.OutputConfigBody.str2.2
-                0x000000000001c08e       0x12 /tmp/ccl2sbhB.ltrans0.ltrans.o
+                0x000000000001c08e       0x12 /tmp/ccARHrUn.ltrans0.ltrans.o
                                          0x1e (松开之前的大小)
  .rodata.ReferFontInfoLocally.str1.1
-                0x000000000001c0a0       0x96 /tmp/ccl2sbhB.ltrans0.ltrans.o
+                0x000000000001c0a0       0x96 /tmp/ccARHrUn.ltrans0.ltrans.o
  .rodata.SaveFontName.str1.1
-                0x000000000001c136       0x35 /tmp/ccl2sbhB.ltrans0.ltrans.o
+                0x000000000001c136       0x35 /tmp/ccARHrUn.ltrans0.ltrans.o
  .rodata._ModuleEntryPoint.str1.1
-                0x000000000001c16b      0x45e /tmp/ccl2sbhB.ltrans0.ltrans.o
+                0x000000000001c16b      0x45e /tmp/ccARHrUn.ltrans0.ltrans.o
  .rodata.__stack_chk_fail.str1.1
-                0x000000000001c5c9       0x2e /tmp/ccl2sbhB.ltrans0.ltrans.o
+                0x000000000001c5c9       0x2e /tmp/ccARHrUn.ltrans0.ltrans.o
  .rodata._gPcd_FixedAtBuild_PcdUefiVariableDefaultPlatformLang
-                0x000000000001c5f7        0x6 /tmp/ccl2sbhB.ltrans0.ltrans.o
+                0x000000000001c5f7        0x6 /tmp/ccARHrUn.ltrans0.ltrans.o
  .rodata.mHiiEfiColors
-                0x000000000001c5fd       0x40 /tmp/ccl2sbhB.ltrans0.ltrans.o
+                0x000000000001c5fd       0x40 /tmp/ccARHrUn.ltrans0.ltrans.o
  *fill*         0x000000000001c63d        0x3 
  .rodata.EfiConfigKeywordHandlerGetData
-                0x000000000001c640       0x4e /tmp/ccl2sbhB.ltrans1.ltrans.o
+                0x000000000001c640       0x4e /tmp/ccARHrUn.ltrans1.ltrans.o
  .rodata.AllocateCopyPool.str1.1
-                0x000000000001c68e       0x3f /tmp/ccl2sbhB.ltrans1.ltrans.o
+                0x000000000001c68e       0x3f /tmp/ccARHrUn.ltrans1.ltrans.o
  .rodata.AsciiSPrint.constprop.34.str1.1
-                0x000000000001c6cd       0x18 /tmp/ccl2sbhB.ltrans1.ltrans.o
+                0x000000000001c6cd       0x18 /tmp/ccARHrUn.ltrans1.ltrans.o
  .rodata.AsciiStrCpyS.str1.1
-                0x000000000001c6e5       0x99 /tmp/ccl2sbhB.ltrans1.ltrans.o
+                0x000000000001c6e5       0x99 /tmp/ccARHrUn.ltrans1.ltrans.o
  .rodata.AsciiStrLen.str1.1
-                0x000000000001c77e       0x77 /tmp/ccl2sbhB.ltrans1.ltrans.o
+                0x000000000001c77e       0x77 /tmp/ccARHrUn.ltrans1.ltrans.o
                                          0x8e (松开之前的大小)
  .rodata.AsciiStrStr.constprop.6.str1.1
-                0x000000000001c7f5       0x3e /tmp/ccl2sbhB.ltrans1.ltrans.o
+                0x000000000001c7f5       0x3e /tmp/ccARHrUn.ltrans1.ltrans.o
  .rodata.AsciiStrToUnicodeStrS.str1.1
-                0x000000000001c833      0x128 /tmp/ccl2sbhB.ltrans1.ltrans.o
+                0x000000000001c833      0x128 /tmp/ccARHrUn.ltrans1.ltrans.o
  .rodata.AsciiStrnCmp.str1.1
-                0x000000000001c95b       0x70 /tmp/ccl2sbhB.ltrans1.ltrans.o
+                0x000000000001c95b       0x70 /tmp/ccARHrUn.ltrans1.ltrans.o
  .rodata.BasePrintLibSPrintMarker.constprop.36.str1.1
-                0x000000000001c9cb      0x28e /tmp/ccl2sbhB.ltrans1.ltrans.o
+                0x000000000001c9cb      0x28e /tmp/ccARHrUn.ltrans1.ltrans.o
                                         0x2a5 (松开之前的大小)
  .rodata.BitFieldRead64.str1.1
-                0x000000000001cc59       0x4e /tmp/ccl2sbhB.ltrans1.ltrans.o
+                0x000000000001cc59       0x4e /tmp/ccARHrUn.ltrans1.ltrans.o
  .rodata.BitFieldWrite32.constprop.12.str1.1
-                0x000000000001cca7       0xa9 /tmp/ccl2sbhB.ltrans1.ltrans.o
+                0x000000000001cca7       0xa9 /tmp/ccARHrUn.ltrans1.ltrans.o
  .rodata.CompareGuid.str1.1
-                0x000000000001cd50       0x7f /tmp/ccl2sbhB.ltrans1.ltrans.o
+                0x000000000001cd50       0x7f /tmp/ccARHrUn.ltrans1.ltrans.o
  .rodata.CompareMem.str1.1
-                0x000000000001cdcf       0x95 /tmp/ccl2sbhB.ltrans1.ltrans.o
+                0x000000000001cdcf       0x95 /tmp/ccARHrUn.ltrans1.ltrans.o
  .rodata.ConstructRequestElement.str2.2
-                0x000000000001ce64       0x12 /tmp/ccl2sbhB.ltrans1.ltrans.o
+                0x000000000001ce64       0x12 /tmp/ccARHrUn.ltrans1.ltrans.o
                                          0x34 (松开之前的大小)
  .rodata.CopyGuid.str1.1
-                0x000000000001ce64       0x20 /tmp/ccl2sbhB.ltrans1.ltrans.o
+                0x000000000001ce64       0x20 /tmp/ccARHrUn.ltrans1.ltrans.o
  .rodata.CopyMem.str1.1
-                0x000000000001ce84       0xd4 /tmp/ccl2sbhB.ltrans1.ltrans.o
+                0x000000000001ce84       0xd4 /tmp/ccARHrUn.ltrans1.ltrans.o
  .rodata.DebugAssert.str1.1
-                0x000000000001cf58        0xc /tmp/ccl2sbhB.ltrans1.ltrans.o
+                0x000000000001cf58        0xc /tmp/ccARHrUn.ltrans1.ltrans.o
  .rodata.DevicePathSubType.str1.1
-                0x000000000001cf64       0x6b /tmp/ccl2sbhB.ltrans1.ltrans.o
+                0x000000000001cf64       0x6b /tmp/ccARHrUn.ltrans1.ltrans.o
  .rodata.EfiAcquireLock.constprop.9.str1.1
-                0x000000000001cfcf       0x5e /tmp/ccl2sbhB.ltrans1.ltrans.o
+                0x000000000001cfcf       0x5e /tmp/ccARHrUn.ltrans1.ltrans.o
  .rodata.EfiConfigKeywordHandlerGetData.str1.1
-                0x000000000001d02d       0x1b /tmp/ccl2sbhB.ltrans1.ltrans.o
+                0x000000000001d02d       0x1b /tmp/ccARHrUn.ltrans1.ltrans.o
                                          0x6d (松开之前的大小)
  .rodata.EfiConfigKeywordHandlerGetData.str2.2
-                0x000000000001d048       0x62 /tmp/ccl2sbhB.ltrans1.ltrans.o
+                0x000000000001d048       0x62 /tmp/ccARHrUn.ltrans1.ltrans.o
  .rodata.EfiConfigKeywordHandlerSetData.str1.1
-                0x000000000001d0aa      0x151 /tmp/ccl2sbhB.ltrans1.ltrans.o
+                0x000000000001d0aa      0x151 /tmp/ccARHrUn.ltrans1.ltrans.o
                                         0x170 (松开之前的大小)
  .rodata.EfiConfigKeywordHandlerSetData.str2.2
-                0x000000000001d1fb        0xe /tmp/ccl2sbhB.ltrans1.ltrans.o
+                0x000000000001d1fb        0xe /tmp/ccARHrUn.ltrans1.ltrans.o
  .rodata.EfiReleaseLock.constprop.8.str1.1
-                0x000000000001d1fb       0x1e /tmp/ccl2sbhB.ltrans1.ltrans.o
+                0x000000000001d1fb       0x1e /tmp/ccARHrUn.ltrans1.ltrans.o
  .rodata.ExtractConfigRequest.str1.1
-                0x000000000001d219       0x5e /tmp/ccl2sbhB.ltrans1.ltrans.o
+                0x000000000001d219       0x5e /tmp/ccARHrUn.ltrans1.ltrans.o
  .rodata.ExtractValueFromDriver.str1.1
-                0x000000000001d277       0x42 /tmp/ccl2sbhB.ltrans1.ltrans.o
+                0x000000000001d277       0x42 /tmp/ccARHrUn.ltrans1.ltrans.o
                                          0x5c (松开之前的大小)
  .rodata.ExtractValueFromDriver.str2.2
-                0x000000000001d2b9       0x14 /tmp/ccl2sbhB.ltrans1.ltrans.o
+                0x000000000001d2b9       0x14 /tmp/ccARHrUn.ltrans1.ltrans.o
  .rodata.FindGlyphBlock.constprop.3.str1.1
-                0x000000000001d2b9       0x6c /tmp/ccl2sbhB.ltrans1.ltrans.o
+                0x000000000001d2b9       0x6c /tmp/ccARHrUn.ltrans1.ltrans.o
                                          0xb8 (松开之前的大小)
  .rodata.FreePool.str1.1
-                0x000000000001d325       0x5c /tmp/ccl2sbhB.ltrans1.ltrans.o
+                0x000000000001d325       0x5c /tmp/ccARHrUn.ltrans1.ltrans.o
                                          0x91 (松开之前的大小)
  .rodata.GenerateKeywordResp.str1.1
-                0x000000000001d381       0x9c /tmp/ccl2sbhB.ltrans1.ltrans.o
+                0x000000000001d381       0x9c /tmp/ccARHrUn.ltrans1.ltrans.o
                                          0xf8 (松开之前的大小)
  *fill*         0x000000000001d41d        0x1 
  .rodata.GenerateKeywordResp.str2.2
-                0x000000000001d41e       0x14 /tmp/ccl2sbhB.ltrans1.ltrans.o
+                0x000000000001d41e       0x14 /tmp/ccARHrUn.ltrans1.ltrans.o
                                          0x4a (松开之前的大小)
  .rodata.GetBestLanguage.constprop.19.str1.1
-                0x000000000001d432       0x23 /tmp/ccl2sbhB.ltrans1.ltrans.o
+                0x000000000001d432       0x23 /tmp/ccARHrUn.ltrans1.ltrans.o
  .rodata.GetNameFromId.str1.1
-                0x000000000001d455       0x23 /tmp/ccl2sbhB.ltrans1.ltrans.o
+                0x000000000001d455       0x23 /tmp/ccARHrUn.ltrans1.ltrans.o
                                          0x24 (松开之前的大小)
  .rodata.GetPiPcdProtocol.str1.1
-                0x000000000001d478       0x17 /tmp/ccl2sbhB.ltrans1.ltrans.o
+                0x000000000001d478       0x17 /tmp/ccARHrUn.ltrans1.ltrans.o
                                          0x5b (松开之前的大小)
  .rodata.GetStringIdFromDatabase.str1.1
-                0x000000000001d48f       0xc2 /tmp/ccl2sbhB.ltrans1.ltrans.o
+                0x000000000001d48f       0xc2 /tmp/ccARHrUn.ltrans1.ltrans.o
                                          0xe9 (松开之前的大小)
  .rodata.GetVariable2.constprop.18.str1.1
-                0x000000000001d551       0x17 /tmp/ccl2sbhB.ltrans1.ltrans.o
+                0x000000000001d551       0x17 /tmp/ccARHrUn.ltrans1.ltrans.o
  .rodata.GetVariable2.constprop.18.str2.2
-                0x000000000001d568       0x1a /tmp/ccl2sbhB.ltrans1.ltrans.o
+                0x000000000001d568       0x1a /tmp/ccARHrUn.ltrans1.ltrans.o
  .rodata.InitializeListHead.str1.1
-                0x000000000001d582       0x19 /tmp/ccl2sbhB.ltrans1.ltrans.o
+                0x000000000001d582       0x19 /tmp/ccARHrUn.ltrans1.ltrans.o
  .rodata.InternalBaseLibIsListValid.str1.1
-                0x000000000001d59b       0x84 /tmp/ccl2sbhB.ltrans1.ltrans.o
+                0x000000000001d59b       0x84 /tmp/ccARHrUn.ltrans1.ltrans.o
                                          0x99 (松开之前的大小)
  .rodata.IsListEmpty.str1.1
-                0x000000000001d61f       0x26 /tmp/ccl2sbhB.ltrans1.ltrans.o
+                0x000000000001d61f       0x26 /tmp/ccARHrUn.ltrans1.ltrans.o
  .rodata.IsNull.str1.1
-                0x000000000001d645       0x22 /tmp/ccl2sbhB.ltrans1.ltrans.o
+                0x000000000001d645       0x22 /tmp/ccARHrUn.ltrans1.ltrans.o
  .rodata.LShiftU64.str1.1
-                0x000000000001d667       0x4d /tmp/ccl2sbhB.ltrans1.ltrans.o
+                0x000000000001d667       0x4d /tmp/ccARHrUn.ltrans1.ltrans.o
  .rodata.RemoveEntryList.str1.1
-                0x000000000001d6b4       0x15 /tmp/ccl2sbhB.ltrans1.ltrans.o
+                0x000000000001d6b4       0x15 /tmp/ccARHrUn.ltrans1.ltrans.o
  .rodata.SetMem32.str1.1
-                0x000000000001d6c9       0xdf /tmp/ccl2sbhB.ltrans1.ltrans.o
+                0x000000000001d6c9       0xdf /tmp/ccARHrUn.ltrans1.ltrans.o
  .rodata.StrHexToUint64.str1.1
-                0x000000000001d7a8       0x82 /tmp/ccl2sbhB.ltrans1.ltrans.o
+                0x000000000001d7a8       0x82 /tmp/ccARHrUn.ltrans1.ltrans.o
  .rodata.StrLen.str1.1
-                0x000000000001d82a       0x3a /tmp/ccl2sbhB.ltrans1.ltrans.o
+                0x000000000001d82a       0x3a /tmp/ccARHrUn.ltrans1.ltrans.o
  .rodata.StrStr.str1.1
-                0x000000000001d864       0x3a /tmp/ccl2sbhB.ltrans1.ltrans.o
+                0x000000000001d864       0x3a /tmp/ccARHrUn.ltrans1.ltrans.o
                                          0x32 (松开之前的大小)
  .rodata.StrnCatS.str1.1
-                0x000000000001d864       0xbb /tmp/ccl2sbhB.ltrans1.ltrans.o
+                0x000000000001d864       0xbb /tmp/ccARHrUn.ltrans1.ltrans.o
  .rodata.StrnCmp.str1.1
-                0x000000000001d91f       0x72 /tmp/ccl2sbhB.ltrans1.ltrans.o
+                0x000000000001d91f       0x72 /tmp/ccARHrUn.ltrans1.ltrans.o
  .rodata.StrnLenS.str1.1
-                0x000000000001d991       0x66 /tmp/ccl2sbhB.ltrans1.ltrans.o
+                0x000000000001d991       0x66 /tmp/ccARHrUn.ltrans1.ltrans.o
  .rodata.UnicodeSPrint.str1.1
-                0x000000000001d9f7       0x4f /tmp/ccl2sbhB.ltrans1.ltrans.o
+                0x000000000001d9f7       0x4f /tmp/ccARHrUn.ltrans1.ltrans.o
  .rodata.UnicodeStrToAsciiStrS.str1.1
-                0x000000000001da46       0x99 /tmp/ccl2sbhB.ltrans1.ltrans.o
+                0x000000000001da46       0x99 /tmp/ccARHrUn.ltrans1.ltrans.o
  .rodata.UnicodeValueToStringS.constprop.15.str1.1
-                0x000000000001dadf       0xe8 /tmp/ccl2sbhB.ltrans1.ltrans.o
+                0x000000000001dadf       0xe8 /tmp/ccARHrUn.ltrans1.ltrans.o
  .rodata.WriteUnaligned16.str1.1
-                0x000000000001dbc7       0x46 /tmp/ccl2sbhB.ltrans1.ltrans.o
+                0x000000000001dbc7       0x46 /tmp/ccARHrUn.ltrans1.ltrans.o
  .rodata.ZeroMem.str1.1
-                0x000000000001dc0d       0x89 /tmp/ccl2sbhB.ltrans1.ltrans.o
+                0x000000000001dc0d       0x89 /tmp/ccARHrUn.ltrans1.ltrans.o
  .rodata.mHexStr
-                0x000000000001dc96       0x10 /tmp/ccl2sbhB.ltrans1.ltrans.o
+                0x000000000001dc96       0x10 /tmp/ccARHrUn.ltrans1.ltrans.o
  *fill*         0x000000000001dca6        0x2 
  .rodata.mStatusString
-                0x000000000001dca8      0x138 /tmp/ccl2sbhB.ltrans1.ltrans.o
+                0x000000000001dca8      0x138 /tmp/ccARHrUn.ltrans1.ltrans.o
  .rodata.str1.1
-                0x000000000001dde0      0x224 /tmp/ccl2sbhB.ltrans1.ltrans.o
+                0x000000000001dde0      0x224 /tmp/ccARHrUn.ltrans1.ltrans.o
                                         0x235 (松开之前的大小)
  *(.got .got.*)
  *fill*         0x000000000001e004        0x4 
@@ -1245,102 +1245,102 @@ END GROUP
  *(.data .data.* .gnu.linkonce.d.*)
  .data.rel.ro   0x000000000001f000        0x0 /home/evsio0n/src/edk2sdm/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
  .data.__stack_chk_guard
-                0x000000000001f000        0x8 /tmp/ccl2sbhB.ltrans0.ltrans.o
+                0x000000000001f000        0x8 /tmp/ccARHrUn.ltrans0.ltrans.o
                 0x000000000001f000                __stack_chk_guard
  .data.gEdkiiIfrBitVarstoreGuid
-                0x000000000001f008       0x10 /tmp/ccl2sbhB.ltrans0.ltrans.o
+                0x000000000001f008       0x10 /tmp/ccARHrUn.ltrans0.ltrans.o
  .data.gEfiCallerIdGuid
-                0x000000000001f018       0x10 /tmp/ccl2sbhB.ltrans0.ltrans.o
+                0x000000000001f018       0x10 /tmp/ccARHrUn.ltrans0.ltrans.o
  .data.gEfiConfigKeywordHandlerProtocolGuid
-                0x000000000001f028       0x10 /tmp/ccl2sbhB.ltrans0.ltrans.o
+                0x000000000001f028       0x10 /tmp/ccARHrUn.ltrans0.ltrans.o
  .data.gEfiEventReadyToBootGuid
-                0x000000000001f038       0x10 /tmp/ccl2sbhB.ltrans0.ltrans.o
+                0x000000000001f038       0x10 /tmp/ccARHrUn.ltrans0.ltrans.o
  .data.gEfiGetPcdInfoProtocolGuid
-                0x000000000001f048       0x10 /tmp/ccl2sbhB.ltrans0.ltrans.o
+                0x000000000001f048       0x10 /tmp/ccARHrUn.ltrans0.ltrans.o
  .data.gEfiHiiConfigAccessProtocolGuid
-                0x000000000001f058       0x10 /tmp/ccl2sbhB.ltrans0.ltrans.o
+                0x000000000001f058       0x10 /tmp/ccARHrUn.ltrans0.ltrans.o
  .data.gEfiHiiConfigRoutingProtocolGuid
-                0x000000000001f068       0x10 /tmp/ccl2sbhB.ltrans0.ltrans.o
+                0x000000000001f068       0x10 /tmp/ccARHrUn.ltrans0.ltrans.o
  .data.gEfiHiiDatabaseProtocolGuid
-                0x000000000001f078       0x10 /tmp/ccl2sbhB.ltrans0.ltrans.o
+                0x000000000001f078       0x10 /tmp/ccARHrUn.ltrans0.ltrans.o
  .data.gEfiHiiFontProtocolGuid
-                0x000000000001f088       0x10 /tmp/ccl2sbhB.ltrans0.ltrans.o
+                0x000000000001f088       0x10 /tmp/ccARHrUn.ltrans0.ltrans.o
  .data.gEfiHiiImageDecoderNameJpegGuid
-                0x000000000001f098       0x10 /tmp/ccl2sbhB.ltrans0.ltrans.o
+                0x000000000001f098       0x10 /tmp/ccARHrUn.ltrans0.ltrans.o
  .data.gEfiHiiImageDecoderNamePngGuid
-                0x000000000001f0a8       0x10 /tmp/ccl2sbhB.ltrans0.ltrans.o
+                0x000000000001f0a8       0x10 /tmp/ccARHrUn.ltrans0.ltrans.o
  .data.gEfiHiiImageDecoderProtocolGuid
-                0x000000000001f0b8       0x10 /tmp/ccl2sbhB.ltrans0.ltrans.o
+                0x000000000001f0b8       0x10 /tmp/ccARHrUn.ltrans0.ltrans.o
  .data.gEfiHiiImageExProtocolGuid
-                0x000000000001f0c8       0x10 /tmp/ccl2sbhB.ltrans0.ltrans.o
+                0x000000000001f0c8       0x10 /tmp/ccARHrUn.ltrans0.ltrans.o
  .data.gEfiHiiImageProtocolGuid
-                0x000000000001f0d8       0x10 /tmp/ccl2sbhB.ltrans0.ltrans.o
+                0x000000000001f0d8       0x10 /tmp/ccARHrUn.ltrans0.ltrans.o
  .data.gEfiHiiKeyBoardLayoutGuid
-                0x000000000001f0e8       0x10 /tmp/ccl2sbhB.ltrans0.ltrans.o
+                0x000000000001f0e8       0x10 /tmp/ccARHrUn.ltrans0.ltrans.o
  .data.gEfiHiiStringProtocolGuid
-                0x000000000001f0f8       0x10 /tmp/ccl2sbhB.ltrans0.ltrans.o
+                0x000000000001f0f8       0x10 /tmp/ccARHrUn.ltrans0.ltrans.o
  .data.gEfiHobListGuid
-                0x000000000001f108       0x10 /tmp/ccl2sbhB.ltrans0.ltrans.o
+                0x000000000001f108       0x10 /tmp/ccARHrUn.ltrans0.ltrans.o
  .data.gEfiMdeModulePkgTokenSpaceGuid
-                0x000000000001f118       0x10 /tmp/ccl2sbhB.ltrans0.ltrans.o
- .data.gSkuId   0x000000000001f128        0x8 /tmp/ccl2sbhB.ltrans0.ltrans.o
+                0x000000000001f118       0x10 /tmp/ccARHrUn.ltrans0.ltrans.o
+ .data.gSkuId   0x000000000001f128        0x8 /tmp/ccARHrUn.ltrans0.ltrans.o
  .data.gVarStorageList
-                0x000000000001f130       0x10 /tmp/ccl2sbhB.ltrans0.ltrans.o
+                0x000000000001f130       0x10 /tmp/ccARHrUn.ltrans0.ltrans.o
  .data.mLanguageWindow
-                0x000000000001f140       0x20 /tmp/ccl2sbhB.ltrans0.ltrans.o
+                0x000000000001f140       0x20 /tmp/ccARHrUn.ltrans0.ltrans.o
  .data.font5x12
-                0x000000000001f160      0x300 /tmp/ccl2sbhB.ltrans1.ltrans.o
+                0x000000000001f160      0x300 /tmp/ccARHrUn.ltrans1.ltrans.o
  .data.gEfiDevicePathProtocolGuid
-                0x000000000001f460       0x10 /tmp/ccl2sbhB.ltrans1.ltrans.o
+                0x000000000001f460       0x10 /tmp/ccARHrUn.ltrans1.ltrans.o
                 0x000000000001f460                gEfiDevicePathProtocolGuid
  .data.gEfiGlobalVariableGuid
-                0x000000000001f470       0x10 /tmp/ccl2sbhB.ltrans1.ltrans.o
+                0x000000000001f470       0x10 /tmp/ccARHrUn.ltrans1.ltrans.o
                 0x000000000001f470                gEfiGlobalVariableGuid
  .data.gEfiPcdProtocolGuid
-                0x000000000001f480       0x10 /tmp/ccl2sbhB.ltrans1.ltrans.o
+                0x000000000001f480       0x10 /tmp/ccARHrUn.ltrans1.ltrans.o
  .data.mHiiDatabaseLock
-                0x000000000001f490       0x18 /tmp/ccl2sbhB.ltrans1.ltrans.o
+                0x000000000001f490       0x18 /tmp/ccARHrUn.ltrans1.ltrans.o
                 0x000000000001f490                mHiiDatabaseLock
  .data.mPrivate
-                0x000000000001f4a8      0x1a8 /tmp/ccl2sbhB.ltrans1.ltrans.o
+                0x000000000001f4a8      0x1a8 /tmp/ccARHrUn.ltrans1.ltrans.o
                 0x000000000001f4a8                mPrivate
  *(.bss .bss.*)
  .bss.gConfigRespSize
-                0x000000000001f650        0x8 /tmp/ccl2sbhB.ltrans0.ltrans.o
+                0x000000000001f650        0x8 /tmp/ccARHrUn.ltrans0.ltrans.o
  .bss.gDatabaseInfoSize
-                0x000000000001f658        0x8 /tmp/ccl2sbhB.ltrans0.ltrans.o
+                0x000000000001f658        0x8 /tmp/ccARHrUn.ltrans0.ltrans.o
  .bss.gExportAfterReadyToBoot
-                0x000000000001f660        0x1 /tmp/ccl2sbhB.ltrans0.ltrans.o
+                0x000000000001f660        0x1 /tmp/ccARHrUn.ltrans0.ltrans.o
  .bss.gExportConfigResp
-                0x000000000001f661        0x1 /tmp/ccl2sbhB.ltrans0.ltrans.o
+                0x000000000001f661        0x1 /tmp/ccARHrUn.ltrans0.ltrans.o
  *fill*         0x000000000001f662        0x6 
  .bss.gHiiKeyboardLayoutChanged
-                0x000000000001f668        0x8 /tmp/ccl2sbhB.ltrans0.ltrans.o
+                0x000000000001f668        0x8 /tmp/ccARHrUn.ltrans0.ltrans.o
  .bss.gImageHandle
-                0x000000000001f670        0x8 /tmp/ccl2sbhB.ltrans0.ltrans.o
+                0x000000000001f670        0x8 /tmp/ccARHrUn.ltrans0.ltrans.o
  .bss.gNvDefaultStoreSize
-                0x000000000001f678        0x8 /tmp/ccl2sbhB.ltrans0.ltrans.o
+                0x000000000001f678        0x8 /tmp/ccARHrUn.ltrans0.ltrans.o
  .bss.gRTConfigRespBuffer
-                0x000000000001f680        0x8 /tmp/ccl2sbhB.ltrans0.ltrans.o
+                0x000000000001f680        0x8 /tmp/ccARHrUn.ltrans0.ltrans.o
  .bss.gRTDatabaseInfoBuffer
-                0x000000000001f688        0x8 /tmp/ccl2sbhB.ltrans0.ltrans.o
- .bss.gST       0x000000000001f690        0x8 /tmp/ccl2sbhB.ltrans0.ltrans.o
- .bss.mHobList  0x000000000001f698        0x8 /tmp/ccl2sbhB.ltrans0.ltrans.o
+                0x000000000001f688        0x8 /tmp/ccARHrUn.ltrans0.ltrans.o
+ .bss.gST       0x000000000001f690        0x8 /tmp/ccARHrUn.ltrans0.ltrans.o
+ .bss.mHobList  0x000000000001f698        0x8 /tmp/ccARHrUn.ltrans0.ltrans.o
  .bss.mPiPcdInfo
-                0x000000000001f6a0        0x8 /tmp/ccl2sbhB.ltrans0.ltrans.o
- .bss.gBS       0x000000000001f6a8        0x8 /tmp/ccl2sbhB.ltrans1.ltrans.o
+                0x000000000001f6a0        0x8 /tmp/ccARHrUn.ltrans0.ltrans.o
+ .bss.gBS       0x000000000001f6a8        0x8 /tmp/ccARHrUn.ltrans1.ltrans.o
                 0x000000000001f6a8                gBS
- .bss.gRT       0x000000000001f6b0        0x8 /tmp/ccl2sbhB.ltrans1.ltrans.o
+ .bss.gRT       0x000000000001f6b0        0x8 /tmp/ccARHrUn.ltrans1.ltrans.o
                 0x000000000001f6b0                gRT
- .bss.mPiPcd    0x000000000001f6b8        0x8 /tmp/ccl2sbhB.ltrans1.ltrans.o
- .bss.m_Color   0x000000000001f6c0       0x10 /tmp/ccl2sbhB.ltrans1.ltrans.o
+ .bss.mPiPcd    0x000000000001f6b8        0x8 /tmp/ccARHrUn.ltrans1.ltrans.o
+ .bss.m_Color   0x000000000001f6c0       0x10 /tmp/ccARHrUn.ltrans1.ltrans.o
  .bss.m_Initialized
-                0x000000000001f6d0        0x1 /tmp/ccl2sbhB.ltrans1.ltrans.o
+                0x000000000001f6d0        0x1 /tmp/ccARHrUn.ltrans1.ltrans.o
  *fill*         0x000000000001f6d1        0x7 
  .bss.m_MaxPosition
-                0x000000000001f6d8       0x10 /tmp/ccl2sbhB.ltrans1.ltrans.o
+                0x000000000001f6d8       0x10 /tmp/ccARHrUn.ltrans1.ltrans.o
  .bss.m_Position
-                0x000000000001f6e8       0x10 /tmp/ccl2sbhB.ltrans1.ltrans.o
+                0x000000000001f6e8       0x10 /tmp/ccARHrUn.ltrans1.ltrans.o
 
 .dynbss         0x000000000001f6f8        0x0
  .dynbss        0x000000000001f6f8        0x0 /home/evsio0n/src/edk2sdm/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
@@ -1385,37 +1385,37 @@ END GROUP
 OUTPUT(/home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/MdeModulePkg/Universal/HiiDatabaseDxe/HiiDatabaseDxe/DEBUG/HiiDatabase.dll elf64-littleaarch64)
 
 .debug_info     0x0000000000000000    0x2ce83
- .debug_info    0x0000000000000000    0x1fb57 /tmp/ccl2sbhB.ltrans0.ltrans.o
- .debug_info    0x000000000001fb57     0xd32c /tmp/ccl2sbhB.ltrans1.ltrans.o
+ .debug_info    0x0000000000000000    0x1fb57 /tmp/ccARHrUn.ltrans0.ltrans.o
+ .debug_info    0x000000000001fb57     0xd32c /tmp/ccARHrUn.ltrans1.ltrans.o
 
 .debug_abbrev   0x0000000000000000      0xd57
- .debug_abbrev  0x0000000000000000      0x679 /tmp/ccl2sbhB.ltrans0.ltrans.o
- .debug_abbrev  0x0000000000000679      0x6de /tmp/ccl2sbhB.ltrans1.ltrans.o
+ .debug_abbrev  0x0000000000000000      0x679 /tmp/ccARHrUn.ltrans0.ltrans.o
+ .debug_abbrev  0x0000000000000679      0x6de /tmp/ccARHrUn.ltrans1.ltrans.o
 
 .debug_loc      0x0000000000000000    0x37d44
- .debug_loc     0x0000000000000000    0x2a208 /tmp/ccl2sbhB.ltrans0.ltrans.o
- .debug_loc     0x000000000002a208     0xdb3c /tmp/ccl2sbhB.ltrans1.ltrans.o
+ .debug_loc     0x0000000000000000    0x2a208 /tmp/ccARHrUn.ltrans0.ltrans.o
+ .debug_loc     0x000000000002a208     0xdb3c /tmp/ccARHrUn.ltrans1.ltrans.o
 
 .debug_aranges  0x0000000000000000      0xd20
  .debug_aranges
-                0x0000000000000000      0x760 /tmp/ccl2sbhB.ltrans0.ltrans.o
+                0x0000000000000000      0x760 /tmp/ccARHrUn.ltrans0.ltrans.o
  .debug_aranges
-                0x0000000000000760      0x5c0 /tmp/ccl2sbhB.ltrans1.ltrans.o
+                0x0000000000000760      0x5c0 /tmp/ccARHrUn.ltrans1.ltrans.o
 
 .debug_ranges   0x0000000000000000     0x40e0
- .debug_ranges  0x0000000000000000     0x2c60 /tmp/ccl2sbhB.ltrans0.ltrans.o
- .debug_ranges  0x0000000000002c60     0x1480 /tmp/ccl2sbhB.ltrans1.ltrans.o
+ .debug_ranges  0x0000000000000000     0x2c60 /tmp/ccARHrUn.ltrans0.ltrans.o
+ .debug_ranges  0x0000000000002c60     0x1480 /tmp/ccARHrUn.ltrans1.ltrans.o
 
 .debug_line     0x0000000000000000     0x5d6a
- .debug_line    0x0000000000000000     0x3c5b /tmp/ccl2sbhB.ltrans0.ltrans.o
- .debug_line    0x0000000000003c5b     0x210f /tmp/ccl2sbhB.ltrans1.ltrans.o
+ .debug_line    0x0000000000000000     0x3c5b /tmp/ccARHrUn.ltrans0.ltrans.o
+ .debug_line    0x0000000000003c5b     0x210f /tmp/ccARHrUn.ltrans1.ltrans.o
 
 .debug_str      0x0000000000000000     0x6c7e
- .debug_str     0x0000000000000000     0x5925 /tmp/ccl2sbhB.ltrans0.ltrans.o
+ .debug_str     0x0000000000000000     0x5925 /tmp/ccARHrUn.ltrans0.ltrans.o
                                        0x6952 (松开之前的大小)
- .debug_str     0x0000000000005925     0x1359 /tmp/ccl2sbhB.ltrans1.ltrans.o
+ .debug_str     0x0000000000005925     0x1359 /tmp/ccARHrUn.ltrans1.ltrans.o
                                        0x42f0 (松开之前的大小)
 
 .debug_frame    0x0000000000000000     0x3318
- .debug_frame   0x0000000000000000     0x1fc0 /tmp/ccl2sbhB.ltrans0.ltrans.o
- .debug_frame   0x0000000000001fc0     0x1358 /tmp/ccl2sbhB.ltrans1.ltrans.o
+ .debug_frame   0x0000000000000000     0x1fc0 /tmp/ccARHrUn.ltrans0.ltrans.o
+ .debug_frame   0x0000000000001fc0     0x1358 /tmp/ccARHrUn.ltrans1.ltrans.o

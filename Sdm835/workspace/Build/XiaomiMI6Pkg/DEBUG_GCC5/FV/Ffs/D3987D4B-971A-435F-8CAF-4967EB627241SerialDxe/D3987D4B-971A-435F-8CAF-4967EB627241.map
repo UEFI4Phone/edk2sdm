@@ -100,22 +100,22 @@
  .text          0x0000000000000000       0x10 /home/evsio0n/src/edk2sdm/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
  .data          0x0000000000000000        0x0 /home/evsio0n/src/edk2sdm/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
  .bss           0x0000000000000000        0x0 /home/evsio0n/src/edk2sdm/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
- .text          0x0000000000000000        0x0 /tmp/ccHjB6qy.ltrans0.ltrans.o
- .data          0x0000000000000000        0x0 /tmp/ccHjB6qy.ltrans0.ltrans.o
- .bss           0x0000000000000000        0x0 /tmp/ccHjB6qy.ltrans0.ltrans.o
+ .text          0x0000000000000000        0x0 /tmp/cc5Fcb0s.ltrans0.ltrans.o
+ .data          0x0000000000000000        0x0 /tmp/cc5Fcb0s.ltrans0.ltrans.o
+ .bss           0x0000000000000000        0x0 /tmp/cc5Fcb0s.ltrans0.ltrans.o
  .text.SerialPortRead.constprop.0
-                0x0000000000000000        0x8 /tmp/ccHjB6qy.ltrans0.ltrans.o
+                0x0000000000000000        0x8 /tmp/cc5Fcb0s.ltrans0.ltrans.o
  .text._DriverUnloadHandler
-                0x0000000000000000        0x8 /tmp/ccHjB6qy.ltrans0.ltrans.o
+                0x0000000000000000        0x8 /tmp/cc5Fcb0s.ltrans0.ltrans.o
  .text.StrnLenS
-                0x0000000000000000       0x7c /tmp/ccHjB6qy.ltrans0.ltrans.o
+                0x0000000000000000       0x7c /tmp/cc5Fcb0s.ltrans0.ltrans.o
  .text.__memset
-                0x0000000000000000       0x1c /tmp/ccHjB6qy.ltrans0.ltrans.o
+                0x0000000000000000       0x1c /tmp/cc5Fcb0s.ltrans0.ltrans.o
  .rodata.StrnLenS.str1.1
-                0x0000000000000000       0x66 /tmp/ccHjB6qy.ltrans0.ltrans.o
- .comment       0x0000000000000000       0x33 /tmp/ccHjB6qy.ltrans0.ltrans.o
+                0x0000000000000000       0x66 /tmp/cc5Fcb0s.ltrans0.ltrans.o
+ .comment       0x0000000000000000       0x33 /tmp/cc5Fcb0s.ltrans0.ltrans.o
  .note.GNU-stack
-                0x0000000000000000        0x0 /tmp/ccHjB6qy.ltrans0.ltrans.o
+                0x0000000000000000        0x0 /tmp/cc5Fcb0s.ltrans0.ltrans.o
  .text          0x0000000000000000        0x8 /home/evsio0n/src/edk2sdm/Sdm835/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(CpuBreakpoint.obj)
  .data          0x0000000000000000        0x0 /home/evsio0n/src/edk2sdm/Sdm835/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(CpuBreakpoint.obj)
  .bss           0x0000000000000000        0x0 /home/evsio0n/src/edk2sdm/Sdm835/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(CpuBreakpoint.obj)
@@ -291,7 +291,7 @@
 链结器命令稿和内存映射
 
 LOAD /home/evsio0n/src/edk2sdm/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
-LOAD /tmp/ccHjB6qy.ltrans0.ltrans.o
+LOAD /tmp/cc5Fcb0s.ltrans0.ltrans.o
 START GROUP
 LOAD /home/evsio0n/src/edk2sdm/Sdm835/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib
 LOAD /home/evsio0n/src/edk2sdm/Sdm835/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib
@@ -330,66 +330,66 @@ END GROUP
 .text           0x0000000000001000     0x2620
  *(.text .text.* .stub .gnu.linkonce.t.*)
  .text.DebugPrintLevelEnabled.constprop.10
-                0x0000000000001000        0x8 /tmp/ccHjB6qy.ltrans0.ltrans.o
+                0x0000000000001000        0x8 /tmp/cc5Fcb0s.ltrans0.ltrans.o
  .text.SerialPortSetAttributes.constprop.3
-                0x0000000000001008        0x8 /tmp/ccHjB6qy.ltrans0.ltrans.o
+                0x0000000000001008        0x8 /tmp/cc5Fcb0s.ltrans0.ltrans.o
  .text.SerialPortSetControl.constprop.2
-                0x0000000000001010        0x8 /tmp/ccHjB6qy.ltrans0.ltrans.o
+                0x0000000000001010        0x8 /tmp/cc5Fcb0s.ltrans0.ltrans.o
  .text.SerialPortGetControl.constprop.1
-                0x0000000000001018        0x8 /tmp/ccHjB6qy.ltrans0.ltrans.o
+                0x0000000000001018        0x8 /tmp/cc5Fcb0s.ltrans0.ltrans.o
  .text.BasePrintLibFillBuffer
-                0x0000000000001020       0x34 /tmp/ccHjB6qy.ltrans0.ltrans.o
+                0x0000000000001020       0x34 /tmp/cc5Fcb0s.ltrans0.ltrans.o
  .text.AsciiStrnLenS
-                0x0000000000001054       0x3c /tmp/ccHjB6qy.ltrans0.ltrans.o
+                0x0000000000001054       0x3c /tmp/cc5Fcb0s.ltrans0.ltrans.o
  .text.DebugPrintEnabled
-                0x0000000000001090        0x8 /tmp/ccHjB6qy.ltrans0.ltrans.o
+                0x0000000000001090        0x8 /tmp/cc5Fcb0s.ltrans0.ltrans.o
  .text.DebugAssertEnabled
-                0x0000000000001098        0x8 /tmp/ccHjB6qy.ltrans0.ltrans.o
+                0x0000000000001098        0x8 /tmp/cc5Fcb0s.ltrans0.ltrans.o
  .text.SerialPortPoll
-                0x00000000000010a0        0x8 /tmp/ccHjB6qy.ltrans0.ltrans.o
+                0x00000000000010a0        0x8 /tmp/cc5Fcb0s.ltrans0.ltrans.o
  .text.SerialRead
-                0x00000000000010a8       0xa4 /tmp/ccHjB6qy.ltrans0.ltrans.o
+                0x00000000000010a8       0xa4 /tmp/cc5Fcb0s.ltrans0.ltrans.o
  .text.SerialGetControl
-                0x000000000000114c        0x4 /tmp/ccHjB6qy.ltrans0.ltrans.o
+                0x000000000000114c        0x4 /tmp/cc5Fcb0s.ltrans0.ltrans.o
  .text.SerialSetControl
-                0x0000000000001150        0x4 /tmp/ccHjB6qy.ltrans0.ltrans.o
+                0x0000000000001150        0x4 /tmp/cc5Fcb0s.ltrans0.ltrans.o
  .text.SerialSetAttributes
-                0x0000000000001154      0x1c0 /tmp/ccHjB6qy.ltrans0.ltrans.o
+                0x0000000000001154      0x1c0 /tmp/cc5Fcb0s.ltrans0.ltrans.o
  .text.SerialPortInitialize
-                0x0000000000001314       0x84 /tmp/ccHjB6qy.ltrans0.ltrans.o
+                0x0000000000001314       0x84 /tmp/cc5Fcb0s.ltrans0.ltrans.o
  .text.BaseDebugLibSerialPortConstructor
-                0x0000000000001398        0x4 /tmp/ccHjB6qy.ltrans0.ltrans.o
+                0x0000000000001398        0x4 /tmp/cc5Fcb0s.ltrans0.ltrans.o
  .text.SerialReset
-                0x000000000000139c       0x58 /tmp/ccHjB6qy.ltrans0.ltrans.o
+                0x000000000000139c       0x58 /tmp/cc5Fcb0s.ltrans0.ltrans.o
  .text.FbConFlush
-                0x00000000000013f4       0x54 /tmp/ccHjB6qy.ltrans0.ltrans.o
+                0x00000000000013f4       0x54 /tmp/cc5Fcb0s.ltrans0.ltrans.o
  .text.SerialPortWrite
-                0x0000000000001448      0x418 /tmp/ccHjB6qy.ltrans0.ltrans.o
+                0x0000000000001448      0x418 /tmp/cc5Fcb0s.ltrans0.ltrans.o
  .text.DebugAssert
-                0x0000000000001860       0x7c /tmp/ccHjB6qy.ltrans0.ltrans.o
+                0x0000000000001860       0x7c /tmp/cc5Fcb0s.ltrans0.ltrans.o
  .text.CompareGuid.constprop.8
-                0x00000000000018dc       0x50 /tmp/ccHjB6qy.ltrans0.ltrans.o
+                0x00000000000018dc       0x50 /tmp/cc5Fcb0s.ltrans0.ltrans.o
  .text.unlikely.ReadUnaligned16
-                0x000000000000192c       0x68 /tmp/ccHjB6qy.ltrans0.ltrans.o
+                0x000000000000192c       0x68 /tmp/cc5Fcb0s.ltrans0.ltrans.o
  .text.BasePrintLibSPrintMarker.constprop.17
-                0x0000000000001994      0xcbc /tmp/ccHjB6qy.ltrans0.ltrans.o
+                0x0000000000001994      0xcbc /tmp/cc5Fcb0s.ltrans0.ltrans.o
  .text.unlikely.BasePrintLibSPrint.constprop.18
-                0x0000000000002650       0x98 /tmp/ccHjB6qy.ltrans0.ltrans.o
+                0x0000000000002650       0x98 /tmp/cc5Fcb0s.ltrans0.ltrans.o
  .text.AsciiSPrint.constprop.15
-                0x00000000000026e8       0xa4 /tmp/ccHjB6qy.ltrans0.ltrans.o
+                0x00000000000026e8       0xa4 /tmp/cc5Fcb0s.ltrans0.ltrans.o
  .text.AsciiStrLen
-                0x000000000000278c       0x80 /tmp/ccHjB6qy.ltrans0.ltrans.o
+                0x000000000000278c       0x80 /tmp/cc5Fcb0s.ltrans0.ltrans.o
  .text.DebugPrint.constprop.11
-                0x000000000000280c       0xb8 /tmp/ccHjB6qy.ltrans0.ltrans.o
+                0x000000000000280c       0xb8 /tmp/cc5Fcb0s.ltrans0.ltrans.o
  .text.SerialWrite
-                0x00000000000028c4       0x48 /tmp/ccHjB6qy.ltrans0.ltrans.o
+                0x00000000000028c4       0x48 /tmp/cc5Fcb0s.ltrans0.ltrans.o
  .text.__stack_chk_fail
-                0x000000000000290c       0x34 /tmp/ccHjB6qy.ltrans0.ltrans.o
+                0x000000000000290c       0x34 /tmp/cc5Fcb0s.ltrans0.ltrans.o
                 0x000000000000290c                __stack_chk_fail
  .text._ModuleEntryPoint
-                0x0000000000002940      0x2e4 /tmp/ccHjB6qy.ltrans0.ltrans.o
+                0x0000000000002940      0x2e4 /tmp/cc5Fcb0s.ltrans0.ltrans.o
                 0x0000000000002940                _ModuleEntryPoint
- .text.memcpy   0x0000000000002c24       0x20 /tmp/ccHjB6qy.ltrans0.ltrans.o
+ .text.memcpy   0x0000000000002c24       0x20 /tmp/cc5Fcb0s.ltrans0.ltrans.o
                 0x0000000000002c24                memcpy
  *fill*         0x0000000000002c44       0x1c 
  .text          0x0000000000002c60       0x20 /home/evsio0n/src/edk2sdm/Sdm835/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(CompareGuid.obj)
@@ -414,26 +414,26 @@ END GROUP
                 0x0000000000002cb8                ArmDataSynchronizationBarrier
  *(.rodata .rodata.* .gnu.linkonce.r.*)
  .rodata.AsciiStrLen.str1.1
-                0x0000000000002cc0       0x77 /tmp/ccHjB6qy.ltrans0.ltrans.o
+                0x0000000000002cc0       0x77 /tmp/cc5Fcb0s.ltrans0.ltrans.o
  .rodata.BasePrintLibSPrintMarker.constprop.17.str1.1
-                0x0000000000002d37      0x17e /tmp/ccHjB6qy.ltrans0.ltrans.o
+                0x0000000000002d37      0x17e /tmp/cc5Fcb0s.ltrans0.ltrans.o
  .rodata.CompareGuid.constprop.8.str1.1
-                0x0000000000002eb5       0x69 /tmp/ccHjB6qy.ltrans0.ltrans.o
+                0x0000000000002eb5       0x69 /tmp/cc5Fcb0s.ltrans0.ltrans.o
  .rodata.DebugAssert.str1.1
-                0x0000000000002f1e       0x22 /tmp/ccHjB6qy.ltrans0.ltrans.o
+                0x0000000000002f1e       0x22 /tmp/cc5Fcb0s.ltrans0.ltrans.o
  .rodata.ReadUnaligned16.str1.1
-                0x0000000000002f40       0x5d /tmp/ccHjB6qy.ltrans0.ltrans.o
+                0x0000000000002f40       0x5d /tmp/cc5Fcb0s.ltrans0.ltrans.o
  .rodata._ModuleEntryPoint.str1.1
-                0x0000000000002f9d      0x2c4 /tmp/ccHjB6qy.ltrans0.ltrans.o
+                0x0000000000002f9d      0x2c4 /tmp/cc5Fcb0s.ltrans0.ltrans.o
  .rodata.__stack_chk_fail.str1.1
-                0x0000000000003261       0x2e /tmp/ccHjB6qy.ltrans0.ltrans.o
+                0x0000000000003261       0x2e /tmp/cc5Fcb0s.ltrans0.ltrans.o
  .rodata.mHexStr
-                0x000000000000328f       0x10 /tmp/ccHjB6qy.ltrans0.ltrans.o
+                0x000000000000328f       0x10 /tmp/cc5Fcb0s.ltrans0.ltrans.o
  *fill*         0x000000000000329f        0x1 
  .rodata.mStatusString
-                0x00000000000032a0      0x138 /tmp/ccHjB6qy.ltrans0.ltrans.o
+                0x00000000000032a0      0x138 /tmp/cc5Fcb0s.ltrans0.ltrans.o
  .rodata.str1.1
-                0x00000000000033d8      0x224 /tmp/ccHjB6qy.ltrans0.ltrans.o
+                0x00000000000033d8      0x224 /tmp/cc5Fcb0s.ltrans0.ltrans.o
                                         0x235 (松开之前的大小)
  *(.got .got.*)
  *fill*         0x00000000000035fc        0x4 
@@ -449,40 +449,40 @@ END GROUP
  *(.data .data.* .gnu.linkonce.d.*)
  .data.rel.ro   0x0000000000004000        0x0 /home/evsio0n/src/edk2sdm/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
  .data.__stack_chk_guard
-                0x0000000000004000        0x8 /tmp/ccHjB6qy.ltrans0.ltrans.o
+                0x0000000000004000        0x8 /tmp/cc5Fcb0s.ltrans0.ltrans.o
                 0x0000000000004000                __stack_chk_guard
  .data.font5x12
-                0x0000000000004008      0x300 /tmp/ccHjB6qy.ltrans0.ltrans.o
+                0x0000000000004008      0x300 /tmp/cc5Fcb0s.ltrans0.ltrans.o
  .data.gEfiDevicePathProtocolGuid
-                0x0000000000004308       0x10 /tmp/ccHjB6qy.ltrans0.ltrans.o
+                0x0000000000004308       0x10 /tmp/cc5Fcb0s.ltrans0.ltrans.o
  .data.gEfiHobListGuid
-                0x0000000000004318       0x10 /tmp/ccHjB6qy.ltrans0.ltrans.o
+                0x0000000000004318       0x10 /tmp/cc5Fcb0s.ltrans0.ltrans.o
  .data.gEfiSerialIoProtocolGuid
-                0x0000000000004328       0x10 /tmp/ccHjB6qy.ltrans0.ltrans.o
+                0x0000000000004328       0x10 /tmp/cc5Fcb0s.ltrans0.ltrans.o
  .data.mSerialDevicePath
-                0x0000000000004338       0x2b /tmp/ccHjB6qy.ltrans0.ltrans.o
+                0x0000000000004338       0x2b /tmp/cc5Fcb0s.ltrans0.ltrans.o
  *fill*         0x0000000000004363        0x5 
  .data.mSerialIoMode
-                0x0000000000004368       0x20 /tmp/ccHjB6qy.ltrans0.ltrans.o
+                0x0000000000004368       0x20 /tmp/cc5Fcb0s.ltrans0.ltrans.o
  .data.mSerialIoTemplate
-                0x0000000000004388       0x40 /tmp/ccHjB6qy.ltrans0.ltrans.o
+                0x0000000000004388       0x40 /tmp/cc5Fcb0s.ltrans0.ltrans.o
  *(.bss .bss.*)
- .bss.gBS       0x00000000000043c8        0x8 /tmp/ccHjB6qy.ltrans0.ltrans.o
+ .bss.gBS       0x00000000000043c8        0x8 /tmp/cc5Fcb0s.ltrans0.ltrans.o
  .bss.gImageHandle
-                0x00000000000043d0        0x8 /tmp/ccHjB6qy.ltrans0.ltrans.o
- .bss.gRT       0x00000000000043d8        0x8 /tmp/ccHjB6qy.ltrans0.ltrans.o
- .bss.gST       0x00000000000043e0        0x8 /tmp/ccHjB6qy.ltrans0.ltrans.o
- .bss.mHobList  0x00000000000043e8        0x8 /tmp/ccHjB6qy.ltrans0.ltrans.o
+                0x00000000000043d0        0x8 /tmp/cc5Fcb0s.ltrans0.ltrans.o
+ .bss.gRT       0x00000000000043d8        0x8 /tmp/cc5Fcb0s.ltrans0.ltrans.o
+ .bss.gST       0x00000000000043e0        0x8 /tmp/cc5Fcb0s.ltrans0.ltrans.o
+ .bss.mHobList  0x00000000000043e8        0x8 /tmp/cc5Fcb0s.ltrans0.ltrans.o
  .bss.mSerialHandle
-                0x00000000000043f0        0x8 /tmp/ccHjB6qy.ltrans0.ltrans.o
- .bss.m_Color   0x00000000000043f8       0x10 /tmp/ccHjB6qy.ltrans0.ltrans.o
+                0x00000000000043f0        0x8 /tmp/cc5Fcb0s.ltrans0.ltrans.o
+ .bss.m_Color   0x00000000000043f8       0x10 /tmp/cc5Fcb0s.ltrans0.ltrans.o
  .bss.m_Initialized
-                0x0000000000004408        0x1 /tmp/ccHjB6qy.ltrans0.ltrans.o
+                0x0000000000004408        0x1 /tmp/cc5Fcb0s.ltrans0.ltrans.o
  *fill*         0x0000000000004409        0x7 
  .bss.m_MaxPosition
-                0x0000000000004410       0x10 /tmp/ccHjB6qy.ltrans0.ltrans.o
+                0x0000000000004410       0x10 /tmp/cc5Fcb0s.ltrans0.ltrans.o
  .bss.m_Position
-                0x0000000000004420       0x10 /tmp/ccHjB6qy.ltrans0.ltrans.o
+                0x0000000000004420       0x10 /tmp/cc5Fcb0s.ltrans0.ltrans.o
 
 .dynbss         0x0000000000004430        0x0
  .dynbss        0x0000000000004430        0x0 /home/evsio0n/src/edk2sdm/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
@@ -525,27 +525,27 @@ END GROUP
 OUTPUT(/home/evsio0n/src/edk2sdm/Sdm835/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/MdeModulePkg/Universal/SerialDxe/SerialDxe/DEBUG/SerialDxe.dll elf64-littleaarch64)
 
 .debug_info     0x0000000000000000     0x45ee
- .debug_info    0x0000000000000000     0x45ee /tmp/ccHjB6qy.ltrans0.ltrans.o
+ .debug_info    0x0000000000000000     0x45ee /tmp/cc5Fcb0s.ltrans0.ltrans.o
 
 .debug_abbrev   0x0000000000000000      0x5df
- .debug_abbrev  0x0000000000000000      0x5df /tmp/ccHjB6qy.ltrans0.ltrans.o
+ .debug_abbrev  0x0000000000000000      0x5df /tmp/cc5Fcb0s.ltrans0.ltrans.o
 
 .debug_loc      0x0000000000000000     0x427f
- .debug_loc     0x0000000000000000     0x427f /tmp/ccHjB6qy.ltrans0.ltrans.o
+ .debug_loc     0x0000000000000000     0x427f /tmp/cc5Fcb0s.ltrans0.ltrans.o
 
 .debug_aranges  0x0000000000000000      0x240
  .debug_aranges
-                0x0000000000000000      0x240 /tmp/ccHjB6qy.ltrans0.ltrans.o
+                0x0000000000000000      0x240 /tmp/cc5Fcb0s.ltrans0.ltrans.o
 
 .debug_ranges   0x0000000000000000      0x640
- .debug_ranges  0x0000000000000000      0x640 /tmp/ccHjB6qy.ltrans0.ltrans.o
+ .debug_ranges  0x0000000000000000      0x640 /tmp/cc5Fcb0s.ltrans0.ltrans.o
 
 .debug_line     0x0000000000000000     0x110a
- .debug_line    0x0000000000000000     0x110a /tmp/ccHjB6qy.ltrans0.ltrans.o
+ .debug_line    0x0000000000000000     0x110a /tmp/cc5Fcb0s.ltrans0.ltrans.o
 
 .debug_str      0x0000000000000000     0x1fa2
- .debug_str     0x0000000000000000     0x1fa2 /tmp/ccHjB6qy.ltrans0.ltrans.o
+ .debug_str     0x0000000000000000     0x1fa2 /tmp/cc5Fcb0s.ltrans0.ltrans.o
                                        0x21fa (松开之前的大小)
 
 .debug_frame    0x0000000000000000      0x5a8
- .debug_frame   0x0000000000000000      0x5a8 /tmp/ccHjB6qy.ltrans0.ltrans.o
+ .debug_frame   0x0000000000000000      0x5a8 /tmp/cc5Fcb0s.ltrans0.ltrans.o

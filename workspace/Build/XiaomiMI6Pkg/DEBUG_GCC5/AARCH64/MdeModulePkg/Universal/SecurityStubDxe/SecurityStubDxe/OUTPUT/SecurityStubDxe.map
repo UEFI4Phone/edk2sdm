@@ -114,30 +114,30 @@
  .text          0x0000000000000000       0x10 /home/evsio0n/src/edk2sdm/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
  .data          0x0000000000000000        0x0 /home/evsio0n/src/edk2sdm/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
  .bss           0x0000000000000000        0x0 /home/evsio0n/src/edk2sdm/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
- .text          0x0000000000000000        0x0 /tmp/ccK5opwz.ltrans0.ltrans.o
- .data          0x0000000000000000        0x0 /tmp/ccK5opwz.ltrans0.ltrans.o
- .bss           0x0000000000000000        0x0 /tmp/ccK5opwz.ltrans0.ltrans.o
+ .text          0x0000000000000000        0x0 /tmp/cc6SV7xS.ltrans0.ltrans.o
+ .data          0x0000000000000000        0x0 /tmp/cc6SV7xS.ltrans0.ltrans.o
+ .bss           0x0000000000000000        0x0 /tmp/cc6SV7xS.ltrans0.ltrans.o
  .text.ExecuteSecurity2Handlers.part.2
-                0x0000000000000000        0x8 /tmp/ccK5opwz.ltrans0.ltrans.o
+                0x0000000000000000        0x8 /tmp/cc6SV7xS.ltrans0.ltrans.o
  .text._DriverUnloadHandler
-                0x0000000000000000        0x8 /tmp/ccK5opwz.ltrans0.ltrans.o
+                0x0000000000000000        0x8 /tmp/cc6SV7xS.ltrans0.ltrans.o
  .text.GetFileBufferByFilePath
-                0x0000000000000000      0x540 /tmp/ccK5opwz.ltrans0.ltrans.o
+                0x0000000000000000      0x540 /tmp/cc6SV7xS.ltrans0.ltrans.o
  .text.__memset
-                0x0000000000000000       0x1c /tmp/ccK5opwz.ltrans0.ltrans.o
+                0x0000000000000000       0x1c /tmp/cc6SV7xS.ltrans0.ltrans.o
  .data.gEfiFileInfoGuid
-                0x0000000000000000       0x10 /tmp/ccK5opwz.ltrans0.ltrans.o
+                0x0000000000000000       0x10 /tmp/cc6SV7xS.ltrans0.ltrans.o
  .data.gEfiLoadFile2ProtocolGuid
-                0x0000000000000000       0x10 /tmp/ccK5opwz.ltrans0.ltrans.o
+                0x0000000000000000       0x10 /tmp/cc6SV7xS.ltrans0.ltrans.o
  .data.gEfiLoadFileProtocolGuid
-                0x0000000000000000       0x10 /tmp/ccK5opwz.ltrans0.ltrans.o
+                0x0000000000000000       0x10 /tmp/cc6SV7xS.ltrans0.ltrans.o
  .data.gEfiSimpleFileSystemProtocolGuid
-                0x0000000000000000       0x10 /tmp/ccK5opwz.ltrans0.ltrans.o
+                0x0000000000000000       0x10 /tmp/cc6SV7xS.ltrans0.ltrans.o
  .rodata.GetFileBufferByFilePath.str1.1
-                0x0000000000000000       0x66 /tmp/ccK5opwz.ltrans0.ltrans.o
- .comment       0x0000000000000000       0x33 /tmp/ccK5opwz.ltrans0.ltrans.o
+                0x0000000000000000       0x66 /tmp/cc6SV7xS.ltrans0.ltrans.o
+ .comment       0x0000000000000000       0x33 /tmp/cc6SV7xS.ltrans0.ltrans.o
  .note.GNU-stack
-                0x0000000000000000        0x0 /tmp/ccK5opwz.ltrans0.ltrans.o
+                0x0000000000000000        0x0 /tmp/cc6SV7xS.ltrans0.ltrans.o
  .data          0x0000000000000000        0x0 /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(CopyMem.obj)
  .bss           0x0000000000000000        0x0 /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(CopyMem.obj)
  .data          0x0000000000000000        0x0 /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(CompareMem.obj)
@@ -313,7 +313,7 @@
 链结器命令稿和内存映射
 
 LOAD /home/evsio0n/src/edk2sdm/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
-LOAD /tmp/ccK5opwz.ltrans0.ltrans.o
+LOAD /tmp/cc6SV7xS.ltrans0.ltrans.o
 START GROUP
 LOAD /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib
 LOAD /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/DxePcdLib/DxePcdLib/OUTPUT/DxePcdLib.lib
@@ -352,548 +352,542 @@ END GROUP
  .gnu.version_r
                 0x0000000000000228        0x0 /home/evsio0n/src/edk2sdm/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
 
-.text           0x0000000000001000     0x74c0
+.text           0x0000000000001000     0x7440
  *(.text .text.* .stub .gnu.linkonce.t.*)
  .text.InternalAllocatePool.constprop.12
-                0x0000000000001000       0x6c /tmp/ccK5opwz.ltrans0.ltrans.o
+                0x0000000000001000       0x6c /tmp/cc6SV7xS.ltrans0.ltrans.o
  .text.BasePrintLibFillBuffer
-                0x000000000000106c       0x34 /tmp/ccK5opwz.ltrans0.ltrans.o
+                0x000000000000106c       0x34 /tmp/cc6SV7xS.ltrans0.ltrans.o
  .text.AsciiStrnLenS
-                0x00000000000010a0       0x3c /tmp/ccK5opwz.ltrans0.ltrans.o
+                0x00000000000010a0       0x3c /tmp/cc6SV7xS.ltrans0.ltrans.o
  .text.DebugPrintLevelEnabled
-                0x00000000000010dc        0x8 /tmp/ccK5opwz.ltrans0.ltrans.o
+                0x00000000000010dc        0x8 /tmp/cc6SV7xS.ltrans0.ltrans.o
  .text.DebugCodeEnabled
-                0x00000000000010e4        0x8 /tmp/ccK5opwz.ltrans0.ltrans.o
+                0x00000000000010e4        0x8 /tmp/cc6SV7xS.ltrans0.ltrans.o
  .text.DebugPrintEnabled
-                0x00000000000010ec        0x8 /tmp/ccK5opwz.ltrans0.ltrans.o
+                0x00000000000010ec        0x8 /tmp/cc6SV7xS.ltrans0.ltrans.o
  .text.DebugAssertEnabled
-                0x00000000000010f4        0x8 /tmp/ccK5opwz.ltrans0.ltrans.o
+                0x00000000000010f4        0x8 /tmp/cc6SV7xS.ltrans0.ltrans.o
  .text.CpuDeadLoop
-                0x00000000000010fc       0x18 /tmp/ccK5opwz.ltrans0.ltrans.o
+                0x00000000000010fc       0x18 /tmp/cc6SV7xS.ltrans0.ltrans.o
  .text.EndOfDxe
-                0x0000000000001114       0x10 /tmp/ccK5opwz.ltrans0.ltrans.o
+                0x0000000000001114       0x10 /tmp/cc6SV7xS.ltrans0.ltrans.o
  .text.LShiftU64.constprop.1
-                0x0000000000001124        0x8 /tmp/ccK5opwz.ltrans0.ltrans.o
+                0x0000000000001124        0x8 /tmp/cc6SV7xS.ltrans0.ltrans.o
  .text.BaseDebugLibSerialPortConstructor
-                0x000000000000112c       0x84 /tmp/ccK5opwz.ltrans0.ltrans.o
+                0x000000000000112c       0x84 /tmp/cc6SV7xS.ltrans0.ltrans.o
  .text.FbConFlush
-                0x00000000000011b0       0x54 /tmp/ccK5opwz.ltrans0.ltrans.o
+                0x00000000000011b0       0x54 /tmp/cc6SV7xS.ltrans0.ltrans.o
  .text.SerialPortWrite
-                0x0000000000001204      0x418 /tmp/ccK5opwz.ltrans0.ltrans.o
+                0x0000000000001204      0x418 /tmp/cc6SV7xS.ltrans0.ltrans.o
  .text.DebugAssert
-                0x000000000000161c       0x7c /tmp/ccK5opwz.ltrans0.ltrans.o
+                0x000000000000161c       0x7c /tmp/cc6SV7xS.ltrans0.ltrans.o
  .text.ReadUnaligned16
-                0x0000000000001698       0x68 /tmp/ccK5opwz.ltrans0.ltrans.o
+                0x0000000000001698       0x68 /tmp/cc6SV7xS.ltrans0.ltrans.o
  .text.ReadUnaligned32
-                0x0000000000001700       0x5c /tmp/ccK5opwz.ltrans0.ltrans.o
+                0x0000000000001700       0x5c /tmp/cc6SV7xS.ltrans0.ltrans.o
  .text.ReadUnaligned64
-                0x000000000000175c       0x38 /tmp/ccK5opwz.ltrans0.ltrans.o
+                0x000000000000175c       0x38 /tmp/cc6SV7xS.ltrans0.ltrans.o
  .text.AsciiStrLen
-                0x0000000000001794       0xa0 /tmp/ccK5opwz.ltrans0.ltrans.o
+                0x0000000000001794       0xa0 /tmp/cc6SV7xS.ltrans0.ltrans.o
  .text.StrnLenS
-                0x0000000000001834       0x7c /tmp/ccK5opwz.ltrans0.ltrans.o
+                0x0000000000001834       0x7c /tmp/cc6SV7xS.ltrans0.ltrans.o
  .text.BasePrintLibSPrintMarker.constprop.25
-                0x00000000000018b0     0x1058 /tmp/ccK5opwz.ltrans0.ltrans.o
+                0x00000000000018b0     0x1058 /tmp/cc6SV7xS.ltrans0.ltrans.o
  .text.unlikely.BasePrintLibSPrint.constprop.26
-                0x0000000000002908       0x9c /tmp/ccK5opwz.ltrans0.ltrans.o
+                0x0000000000002908       0x9c /tmp/cc6SV7xS.ltrans0.ltrans.o
  .text.AsciiSPrint.constprop.23
-                0x00000000000029a4       0xa8 /tmp/ccK5opwz.ltrans0.ltrans.o
+                0x00000000000029a4       0xa8 /tmp/cc6SV7xS.ltrans0.ltrans.o
  .text.SPrintLength
-                0x0000000000002a4c       0x70 /tmp/ccK5opwz.ltrans0.ltrans.o
+                0x0000000000002a4c       0x70 /tmp/cc6SV7xS.ltrans0.ltrans.o
  .text.UnicodeVSPrint
-                0x0000000000002abc       0x9c /tmp/ccK5opwz.ltrans0.ltrans.o
+                0x0000000000002abc       0x9c /tmp/cc6SV7xS.ltrans0.ltrans.o
  .text.UnicodeSPrint.constprop.0
-                0x0000000000002b58       0x94 /tmp/ccK5opwz.ltrans0.ltrans.o
- .text.ZeroMem  0x0000000000002bec       0x7c /tmp/ccK5opwz.ltrans0.ltrans.o
+                0x0000000000002b58       0x94 /tmp/cc6SV7xS.ltrans0.ltrans.o
+ .text.ZeroMem  0x0000000000002bec       0x7c /tmp/cc6SV7xS.ltrans0.ltrans.o
  .text.CompareGuid
-                0x0000000000002c68       0x6c /tmp/ccK5opwz.ltrans0.ltrans.o
+                0x0000000000002c68       0x6c /tmp/cc6SV7xS.ltrans0.ltrans.o
  .text.DevicePathNodeLength
-                0x0000000000002cd4       0x50 /tmp/ccK5opwz.ltrans0.ltrans.o
+                0x0000000000002cd4       0x50 /tmp/cc6SV7xS.ltrans0.ltrans.o
  .text.NextDevicePathNode
-                0x0000000000002d24       0x50 /tmp/ccK5opwz.ltrans0.ltrans.o
+                0x0000000000002d24       0x50 /tmp/cc6SV7xS.ltrans0.ltrans.o
  .text.DevicePathSubType
-                0x0000000000002d74       0x48 /tmp/ccK5opwz.ltrans0.ltrans.o
+                0x0000000000002d74       0x48 /tmp/cc6SV7xS.ltrans0.ltrans.o
  .text.DevicePathType
-                0x0000000000002dbc       0x48 /tmp/ccK5opwz.ltrans0.ltrans.o
+                0x0000000000002dbc       0x48 /tmp/cc6SV7xS.ltrans0.ltrans.o
  .text.IsDevicePathEnd
-                0x0000000000002e04       0x94 /tmp/ccK5opwz.ltrans0.ltrans.o
+                0x0000000000002e04       0x94 /tmp/cc6SV7xS.ltrans0.ltrans.o
  .text.IsDevicePathValid.part.0.constprop.14
-                0x0000000000002e98       0xbc /tmp/ccK5opwz.ltrans0.ltrans.o
+                0x0000000000002e98       0xbc /tmp/cc6SV7xS.ltrans0.ltrans.o
  .text.UefiDevicePathLibGetDevicePathSize
-                0x0000000000002f54       0x6c /tmp/ccK5opwz.ltrans0.ltrans.o
+                0x0000000000002f54       0x6c /tmp/cc6SV7xS.ltrans0.ltrans.o
  .text.DebugPrint
-                0x0000000000002fc0       0xbc /tmp/ccK5opwz.ltrans0.ltrans.o
+                0x0000000000002fc0       0xbc /tmp/cc6SV7xS.ltrans0.ltrans.o
  .text.FreePool
-                0x000000000000307c       0x7c /tmp/ccK5opwz.ltrans0.ltrans.o
+                0x000000000000307c       0x7c /tmp/cc6SV7xS.ltrans0.ltrans.o
  .text.DxeSmmReadyToLock
-                0x00000000000030f8      0x178 /tmp/ccK5opwz.ltrans0.ltrans.o
- .text.CopyMem  0x0000000000003270       0xb0 /tmp/ccK5opwz.ltrans0.ltrans.o
+                0x00000000000030f8       0xe0 /tmp/cc6SV7xS.ltrans0.ltrans.o
+ .text.CopyMem  0x00000000000031d8       0xb0 /tmp/cc6SV7xS.ltrans0.ltrans.o
  .text.InternalAllocateCopyPool.constprop.11
-                0x0000000000003320       0x8c /tmp/ccK5opwz.ltrans0.ltrans.o
+                0x0000000000003288       0x8c /tmp/cc6SV7xS.ltrans0.ltrans.o
  .text.UefiDevicePathLibDuplicateDevicePath
-                0x00000000000033ac       0x34 /tmp/ccK5opwz.ltrans0.ltrans.o
+                0x0000000000003314       0x34 /tmp/cc6SV7xS.ltrans0.ltrans.o
  .text.InternalReallocatePool.constprop.8
-                0x00000000000033e0       0x6c /tmp/ccK5opwz.ltrans0.ltrans.o
+                0x0000000000003348       0x6c /tmp/cc6SV7xS.ltrans0.ltrans.o
  .text.UefiDevicePathLibCatPrint
-                0x000000000000344c      0x188 /tmp/ccK5opwz.ltrans0.ltrans.o
+                0x00000000000033b4      0x188 /tmp/cc6SV7xS.ltrans0.ltrans.o
  .text.DevPathToTextNodeGeneric
-                0x00000000000035d4      0x104 /tmp/ccK5opwz.ltrans0.ltrans.o
+                0x000000000000353c      0x104 /tmp/cc6SV7xS.ltrans0.ltrans.o
  .text.DevPathToTextEndInstance
-                0x00000000000036d8        0xc /tmp/ccK5opwz.ltrans0.ltrans.o
+                0x0000000000003640        0xc /tmp/cc6SV7xS.ltrans0.ltrans.o
  .text.DevPathToTextBBS
-                0x00000000000036e4       0xec /tmp/ccK5opwz.ltrans0.ltrans.o
+                0x000000000000364c       0xec /tmp/cc6SV7xS.ltrans0.ltrans.o
  .text.DevPathToTextRamDisk
-                0x00000000000037d0      0x17c /tmp/ccK5opwz.ltrans0.ltrans.o
+                0x0000000000003738      0x17c /tmp/cc6SV7xS.ltrans0.ltrans.o
  .text.DevPathRelativeOffsetRange
-                0x000000000000394c       0x10 /tmp/ccK5opwz.ltrans0.ltrans.o
+                0x00000000000038b4       0x10 /tmp/cc6SV7xS.ltrans0.ltrans.o
  .text.DevPathToTextFvFile
-                0x000000000000395c       0x10 /tmp/ccK5opwz.ltrans0.ltrans.o
+                0x00000000000038c4       0x10 /tmp/cc6SV7xS.ltrans0.ltrans.o
  .text.DevPathToTextFv
-                0x000000000000396c       0x10 /tmp/ccK5opwz.ltrans0.ltrans.o
+                0x00000000000038d4       0x10 /tmp/cc6SV7xS.ltrans0.ltrans.o
  .text.DevPathToTextMediaProtocol
-                0x000000000000397c       0x10 /tmp/ccK5opwz.ltrans0.ltrans.o
+                0x00000000000038e4       0x10 /tmp/cc6SV7xS.ltrans0.ltrans.o
  .text.DevPathToTextFilePath
-                0x000000000000398c       0x10 /tmp/ccK5opwz.ltrans0.ltrans.o
+                0x00000000000038f4       0x10 /tmp/cc6SV7xS.ltrans0.ltrans.o
  .text.DevPathToTextCDROM
-                0x000000000000399c       0x30 /tmp/ccK5opwz.ltrans0.ltrans.o
+                0x0000000000003904       0x30 /tmp/cc6SV7xS.ltrans0.ltrans.o
  .text.DevPathToTextHardDrive
-                0x00000000000039cc       0x8c /tmp/ccK5opwz.ltrans0.ltrans.o
+                0x0000000000003934       0x8c /tmp/cc6SV7xS.ltrans0.ltrans.o
  .text.DevPathToTextBluetoothLE
-                0x0000000000003a58       0x44 /tmp/ccK5opwz.ltrans0.ltrans.o
+                0x00000000000039c0       0x44 /tmp/cc6SV7xS.ltrans0.ltrans.o
  .text.DevPathToTextBluetooth
-                0x0000000000003a9c       0x24 /tmp/ccK5opwz.ltrans0.ltrans.o
+                0x0000000000003a04       0x24 /tmp/cc6SV7xS.ltrans0.ltrans.o
  .text.DevPathToTextVlan
-                0x0000000000003ac0       0x10 /tmp/ccK5opwz.ltrans0.ltrans.o
+                0x0000000000003a28       0x10 /tmp/cc6SV7xS.ltrans0.ltrans.o
  .text.DevPathToTextiSCSI
-                0x0000000000003ad0      0x110 /tmp/ccK5opwz.ltrans0.ltrans.o
+                0x0000000000003a38      0x110 /tmp/cc6SV7xS.ltrans0.ltrans.o
  .text.DevPathToTextUart
-                0x0000000000003be0      0x118 /tmp/ccK5opwz.ltrans0.ltrans.o
+                0x0000000000003b48      0x118 /tmp/cc6SV7xS.ltrans0.ltrans.o
  .text.DevPathToTextInfiniBand
-                0x0000000000003cf8       0x1c /tmp/ccK5opwz.ltrans0.ltrans.o
+                0x0000000000003c60       0x1c /tmp/cc6SV7xS.ltrans0.ltrans.o
  .text.CatIPv6Address
-                0x0000000000003d14       0x8c /tmp/ccK5opwz.ltrans0.ltrans.o
+                0x0000000000003c7c       0x8c /tmp/cc6SV7xS.ltrans0.ltrans.o
  .text.CatIPv4Address
-                0x0000000000003da0       0x1c /tmp/ccK5opwz.ltrans0.ltrans.o
+                0x0000000000003d08       0x1c /tmp/cc6SV7xS.ltrans0.ltrans.o
  .text.DevPathToTextDns
-                0x0000000000003dbc       0xc0 /tmp/ccK5opwz.ltrans0.ltrans.o
+                0x0000000000003d24       0xc0 /tmp/cc6SV7xS.ltrans0.ltrans.o
  .text.CatNetworkProtocol
-                0x0000000000003e7c       0x38 /tmp/ccK5opwz.ltrans0.ltrans.o
+                0x0000000000003de4       0x38 /tmp/cc6SV7xS.ltrans0.ltrans.o
  .text.DevPathToTextIPv6
-                0x0000000000003eb4       0xe8 /tmp/ccK5opwz.ltrans0.ltrans.o
+                0x0000000000003e1c       0xe8 /tmp/cc6SV7xS.ltrans0.ltrans.o
  .text.DevPathToTextIPv4
-                0x0000000000003f9c       0xf0 /tmp/ccK5opwz.ltrans0.ltrans.o
+                0x0000000000003f04       0xf0 /tmp/cc6SV7xS.ltrans0.ltrans.o
  .text.DevPathToTextMacAddr
-                0x000000000000408c       0x8c /tmp/ccK5opwz.ltrans0.ltrans.o
+                0x0000000000003ff4       0x8c /tmp/cc6SV7xS.ltrans0.ltrans.o
  .text.DevPathToTextI2O
-                0x0000000000004118       0x10 /tmp/ccK5opwz.ltrans0.ltrans.o
+                0x0000000000004080       0x10 /tmp/cc6SV7xS.ltrans0.ltrans.o
  .text.DevPathToTextSata
-                0x0000000000004128       0x18 /tmp/ccK5opwz.ltrans0.ltrans.o
+                0x0000000000004090       0x18 /tmp/cc6SV7xS.ltrans0.ltrans.o
  .text.DevPathToTextUsbClass
-                0x0000000000004140      0x1bc /tmp/ccK5opwz.ltrans0.ltrans.o
+                0x00000000000040a8      0x1bc /tmp/cc6SV7xS.ltrans0.ltrans.o
  .text.DevPathToTextLogicalUnit
-                0x00000000000042fc       0x10 /tmp/ccK5opwz.ltrans0.ltrans.o
+                0x0000000000004264       0x10 /tmp/cc6SV7xS.ltrans0.ltrans.o
  .text.DevPathToTextUsbWWID
-                0x000000000000430c       0xb0 /tmp/ccK5opwz.ltrans0.ltrans.o
+                0x0000000000004274       0xb0 /tmp/cc6SV7xS.ltrans0.ltrans.o
  .text.DevPathToTextUsb
-                0x00000000000043bc       0x14 /tmp/ccK5opwz.ltrans0.ltrans.o
+                0x0000000000004324       0x14 /tmp/cc6SV7xS.ltrans0.ltrans.o
  .text.DevPathToText1394
-                0x00000000000043d0       0x10 /tmp/ccK5opwz.ltrans0.ltrans.o
+                0x0000000000004338       0x10 /tmp/cc6SV7xS.ltrans0.ltrans.o
  .text.DevPathToTextEmmc
-                0x00000000000043e0       0x10 /tmp/ccK5opwz.ltrans0.ltrans.o
+                0x0000000000004348       0x10 /tmp/cc6SV7xS.ltrans0.ltrans.o
  .text.DevPathToTextSd
-                0x00000000000043f0       0x10 /tmp/ccK5opwz.ltrans0.ltrans.o
+                0x0000000000004358       0x10 /tmp/cc6SV7xS.ltrans0.ltrans.o
  .text.DevPathToTextUfs
-                0x0000000000004400       0x14 /tmp/ccK5opwz.ltrans0.ltrans.o
+                0x0000000000004368       0x14 /tmp/cc6SV7xS.ltrans0.ltrans.o
  .text.DevPathToTextNVMe
-                0x0000000000004414       0x54 /tmp/ccK5opwz.ltrans0.ltrans.o
+                0x000000000000437c       0x54 /tmp/cc6SV7xS.ltrans0.ltrans.o
  .text.DevPathToTextSasEx
-                0x0000000000004468      0x184 /tmp/ccK5opwz.ltrans0.ltrans.o
+                0x00000000000043d0      0x184 /tmp/cc6SV7xS.ltrans0.ltrans.o
  .text.DevPathToTextFibreEx
-                0x00000000000045ec       0xa0 /tmp/ccK5opwz.ltrans0.ltrans.o
+                0x0000000000004554       0xa0 /tmp/cc6SV7xS.ltrans0.ltrans.o
  .text.DevPathToTextFibre
-                0x000000000000468c       0x10 /tmp/ccK5opwz.ltrans0.ltrans.o
+                0x00000000000045f4       0x10 /tmp/cc6SV7xS.ltrans0.ltrans.o
  .text.DevPathToTextScsi
-                0x000000000000469c       0x14 /tmp/ccK5opwz.ltrans0.ltrans.o
+                0x0000000000004604       0x14 /tmp/cc6SV7xS.ltrans0.ltrans.o
  .text.DevPathToTextAtapi
-                0x00000000000046b0       0x60 /tmp/ccK5opwz.ltrans0.ltrans.o
+                0x0000000000004618       0x60 /tmp/cc6SV7xS.ltrans0.ltrans.o
  .text.DevPathToTextAcpiAdr
-                0x0000000000004710       0x90 /tmp/ccK5opwz.ltrans0.ltrans.o
+                0x0000000000004678       0x90 /tmp/cc6SV7xS.ltrans0.ltrans.o
  .text.DevPathToTextAcpiEx
-                0x00000000000047a0      0x28c /tmp/ccK5opwz.ltrans0.ltrans.o
+                0x0000000000004708      0x28c /tmp/cc6SV7xS.ltrans0.ltrans.o
  .text.DevPathToTextAcpi
-                0x0000000000004a2c       0xc0 /tmp/ccK5opwz.ltrans0.ltrans.o
+                0x0000000000004994       0xc0 /tmp/cc6SV7xS.ltrans0.ltrans.o
  .text.DevPathToTextBmc
-                0x0000000000004aec       0x3c /tmp/ccK5opwz.ltrans0.ltrans.o
+                0x0000000000004a54       0x3c /tmp/cc6SV7xS.ltrans0.ltrans.o
  .text.DevPathToTextController
-                0x0000000000004b28       0x10 /tmp/ccK5opwz.ltrans0.ltrans.o
+                0x0000000000004a90       0x10 /tmp/cc6SV7xS.ltrans0.ltrans.o
  .text.DevPathToTextVendor
-                0x0000000000004b38      0x350 /tmp/ccK5opwz.ltrans0.ltrans.o
+                0x0000000000004aa0      0x350 /tmp/cc6SV7xS.ltrans0.ltrans.o
  .text.DevPathToTextMemMap
-                0x0000000000004e88       0x14 /tmp/ccK5opwz.ltrans0.ltrans.o
+                0x0000000000004df0       0x14 /tmp/cc6SV7xS.ltrans0.ltrans.o
  .text.DevPathToTextPccard
-                0x0000000000004e9c       0x10 /tmp/ccK5opwz.ltrans0.ltrans.o
+                0x0000000000004e04       0x10 /tmp/cc6SV7xS.ltrans0.ltrans.o
  .text.DevPathToTextPci
-                0x0000000000004eac       0x14 /tmp/ccK5opwz.ltrans0.ltrans.o
+                0x0000000000004e14       0x14 /tmp/cc6SV7xS.ltrans0.ltrans.o
  .text.DevPathToTextUri
-                0x0000000000004ec0       0x94 /tmp/ccK5opwz.ltrans0.ltrans.o
+                0x0000000000004e28       0x94 /tmp/cc6SV7xS.ltrans0.ltrans.o
  .text.DevPathToTextWiFi
-                0x0000000000004f54       0x6c /tmp/ccK5opwz.ltrans0.ltrans.o
+                0x0000000000004ebc       0x6c /tmp/cc6SV7xS.ltrans0.ltrans.o
  .text.GetDefferedImageInfo
-                0x0000000000004fc0      0x108 /tmp/ccK5opwz.ltrans0.ltrans.o
+                0x0000000000004f28      0x108 /tmp/cc6SV7xS.ltrans0.ltrans.o
  .text.SecurityStubAuthenticateState
-                0x00000000000050c8       0x14 /tmp/ccK5opwz.ltrans0.ltrans.o
+                0x0000000000005030       0x14 /tmp/cc6SV7xS.ltrans0.ltrans.o
  .text.CompareMem
-                0x00000000000050dc       0xe4 /tmp/ccK5opwz.ltrans0.ltrans.o
+                0x0000000000005044       0xe4 /tmp/cc6SV7xS.ltrans0.ltrans.o
  .text.Security2StubAuthenticate
-                0x00000000000051c0      0x380 /tmp/ccK5opwz.ltrans0.ltrans.o
+                0x0000000000005128      0x380 /tmp/cc6SV7xS.ltrans0.ltrans.o
  .text.__stack_chk_fail
-                0x0000000000005540       0x34 /tmp/ccK5opwz.ltrans0.ltrans.o
-                0x0000000000005540                __stack_chk_fail
+                0x00000000000054a8       0x34 /tmp/cc6SV7xS.ltrans0.ltrans.o
+                0x00000000000054a8                __stack_chk_fail
  .text._ModuleEntryPoint
-                0x0000000000005574      0x540 /tmp/ccK5opwz.ltrans0.ltrans.o
-                0x0000000000005574                _ModuleEntryPoint
- .text.memcpy   0x0000000000005ab4       0x20 /tmp/ccK5opwz.ltrans0.ltrans.o
-                0x0000000000005ab4                memcpy
- *fill*         0x0000000000005ad4        0xc 
- .text          0x0000000000005ae0      0x218 /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(CopyMem.obj)
-                0x0000000000005c4c                InternalMemCopyMem
- *fill*         0x0000000000005cf8        0x8 
- .text          0x0000000000005d00       0xe0 /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(CompareMem.obj)
-                0x0000000000005d00                InternalMemCompareMem
- .text          0x0000000000005de0      0x200 /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(SetMem.obj)
-                0x0000000000005de0                InternalMemSetMem16
-                0x0000000000005dec                InternalMemSetMem32
-                0x0000000000005df8                InternalMemSetMem64
-                0x0000000000005e04                InternalMemZeroMem
-                0x0000000000005e0c                InternalMemSetMem
- .text          0x0000000000005fe0       0x20 /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(CompareGuid.obj)
-                0x0000000000005fe0                InternalMemCompareGuid
+                0x00000000000054dc      0x540 /tmp/cc6SV7xS.ltrans0.ltrans.o
+                0x00000000000054dc                _ModuleEntryPoint
+ .text.memcpy   0x0000000000005a1c       0x20 /tmp/cc6SV7xS.ltrans0.ltrans.o
+                0x0000000000005a1c                memcpy
+ *fill*         0x0000000000005a3c        0x4 
+ .text          0x0000000000005a40      0x218 /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(CopyMem.obj)
+                0x0000000000005bac                InternalMemCopyMem
+ *fill*         0x0000000000005c58       0x28 
+ .text          0x0000000000005c80       0xe0 /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(CompareMem.obj)
+                0x0000000000005c80                InternalMemCompareMem
+ .text          0x0000000000005d60      0x200 /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(SetMem.obj)
+                0x0000000000005d60                InternalMemSetMem16
+                0x0000000000005d6c                InternalMemSetMem32
+                0x0000000000005d78                InternalMemSetMem64
+                0x0000000000005d84                InternalMemZeroMem
+                0x0000000000005d8c                InternalMemSetMem
+ .text          0x0000000000005f60       0x20 /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(CompareGuid.obj)
+                0x0000000000005f60                InternalMemCompareGuid
  .text.ArmCacheInfo
-                0x0000000000006000        0x8 /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(ArmLibSupport.obj)
-                0x0000000000006000                ArmCacheInfo
+                0x0000000000005f80        0x8 /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(ArmLibSupport.obj)
+                0x0000000000005f80                ArmCacheInfo
  .text.ArmGetInterruptState
-                0x0000000000006008       0x10 /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(ArmLibSupport.obj)
-                0x0000000000006008                ArmGetInterruptState
+                0x0000000000005f88       0x10 /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(ArmLibSupport.obj)
+                0x0000000000005f88                ArmGetInterruptState
  .text.ArmEnableInterrupts
-                0x0000000000006018        0xc /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(ArmLibSupportV8.obj)
-                0x0000000000006018                ArmEnableInterrupts
+                0x0000000000005f98        0xc /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(ArmLibSupportV8.obj)
+                0x0000000000005f98                ArmEnableInterrupts
  .text.ArmDisableInterrupts
-                0x0000000000006024        0xc /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(ArmLibSupportV8.obj)
-                0x0000000000006024                ArmDisableInterrupts
+                0x0000000000005fa4        0xc /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(ArmLibSupportV8.obj)
+                0x0000000000005fa4                ArmDisableInterrupts
  .text.ArmCleanInvalidateDataCacheEntryByMVA
-                0x0000000000006030        0x8 /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(AArch64Support.obj)
-                0x0000000000006030                ArmCleanInvalidateDataCacheEntryByMVA
+                0x0000000000005fb0        0x8 /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(AArch64Support.obj)
+                0x0000000000005fb0                ArmCleanInvalidateDataCacheEntryByMVA
  .text.ArmDataSynchronizationBarrier
-                0x0000000000006038        0x8 /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(AArch64Support.obj)
-                0x0000000000006038                ArmDataSynchronizationBarrier
+                0x0000000000005fb8        0x8 /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(AArch64Support.obj)
+                0x0000000000005fb8                ArmDataSynchronizationBarrier
  *(.rodata .rodata.* .gnu.linkonce.r.*)
  .rodata.DevPathToTextBBS
-                0x0000000000006040        0x6 /tmp/ccK5opwz.ltrans0.ltrans.o
- *fill*         0x0000000000006046        0x2 
+                0x0000000000005fc0        0x6 /tmp/cc6SV7xS.ltrans0.ltrans.o
+ *fill*         0x0000000000005fc6        0x2 
  .rodata.DevPathToTextUart
-                0x0000000000006048        0x4 /tmp/ccK5opwz.ltrans0.ltrans.o
+                0x0000000000005fc8        0x4 /tmp/cc6SV7xS.ltrans0.ltrans.o
  .rodata.AsciiStrLen.str1.1
-                0x000000000000604c       0x8e /tmp/ccK5opwz.ltrans0.ltrans.o
+                0x0000000000005fcc       0x8e /tmp/cc6SV7xS.ltrans0.ltrans.o
  .rodata.BasePrintLibSPrintMarker.constprop.25.str1.1
-                0x00000000000060da      0x28e /tmp/ccK5opwz.ltrans0.ltrans.o
+                0x000000000000605a      0x28e /tmp/cc6SV7xS.ltrans0.ltrans.o
  .rodata.CSWTCH.42
-                0x0000000000006368        0x6 /tmp/ccK5opwz.ltrans0.ltrans.o
+                0x00000000000062e8        0x6 /tmp/cc6SV7xS.ltrans0.ltrans.o
  .rodata.CatIPv4Address.str2.2
-                0x000000000000636e       0x18 /tmp/ccK5opwz.ltrans0.ltrans.o
+                0x00000000000062ee       0x18 /tmp/cc6SV7xS.ltrans0.ltrans.o
  .rodata.CatIPv6Address.str2.2
-                0x0000000000006386       0x90 /tmp/ccK5opwz.ltrans0.ltrans.o
+                0x0000000000006306       0x90 /tmp/cc6SV7xS.ltrans0.ltrans.o
  .rodata.CatNetworkProtocol.str2.2
-                0x0000000000006416        0x8 /tmp/ccK5opwz.ltrans0.ltrans.o
+                0x0000000000006396        0x8 /tmp/cc6SV7xS.ltrans0.ltrans.o
                                          0x12 (松开之前的大小)
  .rodata.CompareGuid.str1.1
-                0x000000000000641e       0x7f /tmp/ccK5opwz.ltrans0.ltrans.o
+                0x000000000000639e       0x7f /tmp/cc6SV7xS.ltrans0.ltrans.o
  .rodata.CompareMem.str1.1
-                0x000000000000649d       0x95 /tmp/ccK5opwz.ltrans0.ltrans.o
+                0x000000000000641d       0x95 /tmp/cc6SV7xS.ltrans0.ltrans.o
  .rodata.CopyMem.str1.1
-                0x0000000000006532       0xd4 /tmp/ccK5opwz.ltrans0.ltrans.o
+                0x00000000000064b2       0xd4 /tmp/cc6SV7xS.ltrans0.ltrans.o
  .rodata.DebugAssert.str1.1
-                0x0000000000006606       0x28 /tmp/ccK5opwz.ltrans0.ltrans.o
+                0x0000000000006586       0x28 /tmp/cc6SV7xS.ltrans0.ltrans.o
  .rodata.DevPathRelativeOffsetRange.str2.2
-                0x000000000000662e       0x28 /tmp/ccK5opwz.ltrans0.ltrans.o
+                0x00000000000065ae       0x28 /tmp/cc6SV7xS.ltrans0.ltrans.o
  .rodata.DevPathToText1394.str2.2
-                0x0000000000006656       0x1c /tmp/ccK5opwz.ltrans0.ltrans.o
+                0x00000000000065d6       0x1c /tmp/cc6SV7xS.ltrans0.ltrans.o
  .rodata.DevPathToTextAcpi.str2.2
-                0x0000000000006672       0xc2 /tmp/ccK5opwz.ltrans0.ltrans.o
+                0x00000000000065f2       0xc2 /tmp/cc6SV7xS.ltrans0.ltrans.o
  .rodata.DevPathToTextAcpiAdr.str2.2
-                0x0000000000006734       0x26 /tmp/ccK5opwz.ltrans0.ltrans.o
+                0x00000000000066b4       0x26 /tmp/cc6SV7xS.ltrans0.ltrans.o
  .rodata.DevPathToTextAcpiEx.str2.2
-                0x000000000000675a      0x116 /tmp/ccK5opwz.ltrans0.ltrans.o
+                0x00000000000066da      0x116 /tmp/cc6SV7xS.ltrans0.ltrans.o
                                         0x132 (松开之前的大小)
  .rodata.DevPathToTextAtapi.str2.2
-                0x0000000000006870       0x72 /tmp/ccK5opwz.ltrans0.ltrans.o
+                0x00000000000067f0       0x72 /tmp/cc6SV7xS.ltrans0.ltrans.o
  .rodata.DevPathToTextBBS.str2.2
-                0x00000000000068e2       0x72 /tmp/ccK5opwz.ltrans0.ltrans.o
+                0x0000000000006862       0x72 /tmp/cc6SV7xS.ltrans0.ltrans.o
                                          0x80 (松开之前的大小)
  .rodata.DevPathToTextBluetooth.str2.2
-                0x0000000000006954       0x48 /tmp/ccK5opwz.ltrans0.ltrans.o
+                0x00000000000068d4       0x48 /tmp/cc6SV7xS.ltrans0.ltrans.o
  .rodata.DevPathToTextBluetoothLE.str2.2
-                0x000000000000699c       0x5a /tmp/ccK5opwz.ltrans0.ltrans.o
+                0x000000000000691c       0x5a /tmp/cc6SV7xS.ltrans0.ltrans.o
  .rodata.DevPathToTextBmc.str2.2
-                0x00000000000069f6       0x20 /tmp/ccK5opwz.ltrans0.ltrans.o
+                0x0000000000006976       0x20 /tmp/cc6SV7xS.ltrans0.ltrans.o
  .rodata.DevPathToTextCDROM.str2.2
-                0x0000000000006a16       0x48 /tmp/ccK5opwz.ltrans0.ltrans.o
+                0x0000000000006996       0x48 /tmp/cc6SV7xS.ltrans0.ltrans.o
  .rodata.DevPathToTextController.str2.2
-                0x0000000000006a5e       0x16 /tmp/ccK5opwz.ltrans0.ltrans.o
+                0x00000000000069de       0x16 /tmp/cc6SV7xS.ltrans0.ltrans.o
  .rodata.DevPathToTextDns.str2.2
-                0x0000000000006a74        0xa /tmp/ccK5opwz.ltrans0.ltrans.o
+                0x00000000000069f4        0xa /tmp/cc6SV7xS.ltrans0.ltrans.o
  .rodata.DevPathToTextEmmc.str2.2
-                0x0000000000006a7e       0x16 /tmp/ccK5opwz.ltrans0.ltrans.o
+                0x00000000000069fe       0x16 /tmp/cc6SV7xS.ltrans0.ltrans.o
  .rodata.DevPathToTextFibre.str2.2
-                0x0000000000006a94       0x26 /tmp/ccK5opwz.ltrans0.ltrans.o
+                0x0000000000006a14       0x26 /tmp/cc6SV7xS.ltrans0.ltrans.o
  .rodata.DevPathToTextFibreEx.str2.2
-                0x0000000000006aba       0x16 /tmp/ccK5opwz.ltrans0.ltrans.o
+                0x0000000000006a3a       0x16 /tmp/cc6SV7xS.ltrans0.ltrans.o
  .rodata.DevPathToTextFilePath.str2.2
-                0x0000000000006ad0        0x6 /tmp/ccK5opwz.ltrans0.ltrans.o
+                0x0000000000006a50        0x6 /tmp/cc6SV7xS.ltrans0.ltrans.o
  .rodata.DevPathToTextFv.str2.2
-                0x0000000000006ad6        0xe /tmp/ccK5opwz.ltrans0.ltrans.o
+                0x0000000000006a56        0xe /tmp/cc6SV7xS.ltrans0.ltrans.o
  .rodata.DevPathToTextFvFile.str2.2
-                0x0000000000006ae4       0x16 /tmp/ccK5opwz.ltrans0.ltrans.o
+                0x0000000000006a64       0x16 /tmp/cc6SV7xS.ltrans0.ltrans.o
  .rodata.DevPathToTextHardDrive.str2.2
-                0x0000000000006afa       0x64 /tmp/ccK5opwz.ltrans0.ltrans.o
+                0x0000000000006a7a       0x64 /tmp/cc6SV7xS.ltrans0.ltrans.o
                                          0x7e (松开之前的大小)
  .rodata.DevPathToTextI2O.str2.2
-                0x0000000000006b5e       0x14 /tmp/ccK5opwz.ltrans0.ltrans.o
+                0x0000000000006ade       0x14 /tmp/cc6SV7xS.ltrans0.ltrans.o
  .rodata.DevPathToTextIPv4.str2.2
-                0x0000000000006b72       0x24 /tmp/ccK5opwz.ltrans0.ltrans.o
+                0x0000000000006af2       0x24 /tmp/cc6SV7xS.ltrans0.ltrans.o
  .rodata.DevPathToTextIPv6.str2.2
-                0x0000000000006b96       0x80 /tmp/ccK5opwz.ltrans0.ltrans.o
+                0x0000000000006b16       0x80 /tmp/cc6SV7xS.ltrans0.ltrans.o
                                          0x8e (松开之前的大小)
  .rodata.DevPathToTextInfiniBand.str2.2
-                0x0000000000006c16       0x4c /tmp/ccK5opwz.ltrans0.ltrans.o
+                0x0000000000006b96       0x4c /tmp/cc6SV7xS.ltrans0.ltrans.o
  .rodata.DevPathToTextLogicalUnit.str2.2
-                0x0000000000006c62       0x16 /tmp/ccK5opwz.ltrans0.ltrans.o
+                0x0000000000006be2       0x16 /tmp/cc6SV7xS.ltrans0.ltrans.o
  .rodata.DevPathToTextMacAddr.str2.2
-                0x0000000000006c78        0xa /tmp/ccK5opwz.ltrans0.ltrans.o
+                0x0000000000006bf8        0xa /tmp/cc6SV7xS.ltrans0.ltrans.o
  .rodata.DevPathToTextMediaProtocol.str2.2
-                0x0000000000006c82       0x14 /tmp/ccK5opwz.ltrans0.ltrans.o
+                0x0000000000006c02       0x14 /tmp/cc6SV7xS.ltrans0.ltrans.o
  .rodata.DevPathToTextMemMap.str2.2
-                0x0000000000006c96       0x3e /tmp/ccK5opwz.ltrans0.ltrans.o
+                0x0000000000006c16       0x3e /tmp/cc6SV7xS.ltrans0.ltrans.o
  .rodata.DevPathToTextNVMe.str2.2
-                0x0000000000006cd4       0x66 /tmp/ccK5opwz.ltrans0.ltrans.o
+                0x0000000000006c54       0x66 /tmp/cc6SV7xS.ltrans0.ltrans.o
  .rodata.DevPathToTextNodeGeneric.str2.2
-                0x0000000000006d3a       0x22 /tmp/ccK5opwz.ltrans0.ltrans.o
+                0x0000000000006cba       0x22 /tmp/cc6SV7xS.ltrans0.ltrans.o
                                          0x34 (松开之前的大小)
  .rodata.DevPathToTextPccard.str2.2
-                0x0000000000006d5c       0x1a /tmp/ccK5opwz.ltrans0.ltrans.o
+                0x0000000000006cdc       0x1a /tmp/cc6SV7xS.ltrans0.ltrans.o
  .rodata.DevPathToTextPci.str2.2
-                0x0000000000006d76       0x1e /tmp/ccK5opwz.ltrans0.ltrans.o
+                0x0000000000006cf6       0x1e /tmp/cc6SV7xS.ltrans0.ltrans.o
  .rodata.DevPathToTextRamDisk.str2.2
-                0x0000000000006d94       0xca /tmp/ccK5opwz.ltrans0.ltrans.o
+                0x0000000000006d14       0xca /tmp/cc6SV7xS.ltrans0.ltrans.o
                                         0x136 (松开之前的大小)
  .rodata.DevPathToTextSasEx.str2.2
-                0x0000000000006e5e       0xb4 /tmp/ccK5opwz.ltrans0.ltrans.o
+                0x0000000000006dde       0xb4 /tmp/cc6SV7xS.ltrans0.ltrans.o
                                          0xc0 (松开之前的大小)
  .rodata.DevPathToTextSata.str2.2
-                0x0000000000006f12       0x2a /tmp/ccK5opwz.ltrans0.ltrans.o
+                0x0000000000006e92       0x2a /tmp/cc6SV7xS.ltrans0.ltrans.o
  .rodata.DevPathToTextScsi.str2.2
-                0x0000000000006f3c       0x20 /tmp/ccK5opwz.ltrans0.ltrans.o
+                0x0000000000006ebc       0x20 /tmp/cc6SV7xS.ltrans0.ltrans.o
  .rodata.DevPathToTextSd.str2.2
-                0x0000000000006f5c       0x12 /tmp/ccK5opwz.ltrans0.ltrans.o
+                0x0000000000006edc       0x12 /tmp/cc6SV7xS.ltrans0.ltrans.o
  .rodata.DevPathToTextUart.str2.2
-                0x0000000000006f6e       0x5c /tmp/ccK5opwz.ltrans0.ltrans.o
+                0x0000000000006eee       0x5c /tmp/cc6SV7xS.ltrans0.ltrans.o
                                          0x74 (松开之前的大小)
  .rodata.DevPathToTextUfs.str2.2
-                0x0000000000006fca       0x1e /tmp/ccK5opwz.ltrans0.ltrans.o
+                0x0000000000006f4a       0x1e /tmp/cc6SV7xS.ltrans0.ltrans.o
  .rodata.DevPathToTextUri.str1.1
-                0x0000000000006fe8       0x17 /tmp/ccK5opwz.ltrans0.ltrans.o
- *fill*         0x0000000000006fff        0x1 
+                0x0000000000006f68       0x17 /tmp/cc6SV7xS.ltrans0.ltrans.o
+ *fill*         0x0000000000006f7f        0x1 
  .rodata.DevPathToTextUri.str2.2
-                0x0000000000007000       0x10 /tmp/ccK5opwz.ltrans0.ltrans.o
+                0x0000000000006f80       0x10 /tmp/cc6SV7xS.ltrans0.ltrans.o
  .rodata.DevPathToTextUsb.str2.2
-                0x0000000000007010       0x1e /tmp/ccK5opwz.ltrans0.ltrans.o
+                0x0000000000006f90       0x1e /tmp/cc6SV7xS.ltrans0.ltrans.o
  .rodata.DevPathToTextUsbClass.str2.2
-                0x000000000000702e      0x250 /tmp/ccK5opwz.ltrans0.ltrans.o
+                0x0000000000006fae      0x250 /tmp/cc6SV7xS.ltrans0.ltrans.o
  .rodata.DevPathToTextUsbWWID.str1.1
-                0x000000000000727e       0x17 /tmp/ccK5opwz.ltrans0.ltrans.o
- *fill*         0x0000000000007295        0x1 
+                0x00000000000071fe       0x17 /tmp/cc6SV7xS.ltrans0.ltrans.o
+ *fill*         0x0000000000007215        0x1 
  .rodata.DevPathToTextUsbWWID.str2.2
-                0x0000000000007296       0x3a /tmp/ccK5opwz.ltrans0.ltrans.o
+                0x0000000000007216       0x3a /tmp/cc6SV7xS.ltrans0.ltrans.o
  .rodata.DevPathToTextVendor.str2.2
-                0x00000000000072d0      0x154 /tmp/ccK5opwz.ltrans0.ltrans.o
+                0x0000000000007250      0x154 /tmp/cc6SV7xS.ltrans0.ltrans.o
                                         0x166 (松开之前的大小)
  .rodata.DevPathToTextVlan.str2.2
-                0x0000000000007424       0x12 /tmp/ccK5opwz.ltrans0.ltrans.o
+                0x00000000000073a4       0x12 /tmp/cc6SV7xS.ltrans0.ltrans.o
  .rodata.DevPathToTextWiFi.str2.2
-                0x0000000000007436       0x14 /tmp/ccK5opwz.ltrans0.ltrans.o
+                0x00000000000073b6       0x14 /tmp/cc6SV7xS.ltrans0.ltrans.o
  .rodata.DevPathToTextiSCSI.str2.2
-                0x000000000000744a       0x76 /tmp/ccK5opwz.ltrans0.ltrans.o
+                0x00000000000073ca       0x76 /tmp/cc6SV7xS.ltrans0.ltrans.o
                                          0x90 (松开之前的大小)
  .rodata.DevicePathNodeLength.str1.1
-                0x00000000000074c0       0x6b /tmp/ccK5opwz.ltrans0.ltrans.o
+                0x0000000000007440       0x6b /tmp/cc6SV7xS.ltrans0.ltrans.o
  .rodata.DxeSmmReadyToLock.str1.1
-                0x000000000000752b       0xd0 /tmp/ccK5opwz.ltrans0.ltrans.o
+                0x00000000000074ab       0xd0 /tmp/cc6SV7xS.ltrans0.ltrans.o
  .rodata.FreePool.str1.1
-                0x00000000000075fb       0x91 /tmp/ccK5opwz.ltrans0.ltrans.o
+                0x000000000000757b       0x91 /tmp/cc6SV7xS.ltrans0.ltrans.o
  .rodata.InternalAllocateCopyPool.constprop.11.str1.1
-                0x000000000000768c       0x3f /tmp/ccK5opwz.ltrans0.ltrans.o
+                0x000000000000760c       0x3f /tmp/cc6SV7xS.ltrans0.ltrans.o
  .rodata.ReadUnaligned16.str1.1
-                0x00000000000076cb       0x46 /tmp/ccK5opwz.ltrans0.ltrans.o
+                0x000000000000764b       0x46 /tmp/cc6SV7xS.ltrans0.ltrans.o
                                          0x5d (松开之前的大小)
  .rodata.SPrintLength.str1.1
-                0x0000000000007711       0x6d /tmp/ccK5opwz.ltrans0.ltrans.o
+                0x0000000000007691       0x6d /tmp/cc6SV7xS.ltrans0.ltrans.o
  .rodata.Security2StubAuthenticate.str1.1
-                0x000000000000777e       0x72 /tmp/ccK5opwz.ltrans0.ltrans.o
+                0x00000000000076fe       0x72 /tmp/cc6SV7xS.ltrans0.ltrans.o
  .rodata.Security2StubAuthenticate.str2.2
-                0x00000000000077f0       0x62 /tmp/ccK5opwz.ltrans0.ltrans.o
+                0x0000000000007770       0x62 /tmp/cc6SV7xS.ltrans0.ltrans.o
  .rodata.StrnLenS.str1.1
-                0x0000000000007852       0x66 /tmp/ccK5opwz.ltrans0.ltrans.o
+                0x00000000000077d2       0x66 /tmp/cc6SV7xS.ltrans0.ltrans.o
  .rodata.UefiDevicePathLibCatPrint.str1.1
-                0x00000000000078b8       0x6c /tmp/ccK5opwz.ltrans0.ltrans.o
+                0x0000000000007838       0x6c /tmp/cc6SV7xS.ltrans0.ltrans.o
  .rodata.UnicodeSPrint.constprop.0.str2.2
-                0x0000000000007924       0x16 /tmp/ccK5opwz.ltrans0.ltrans.o
+                0x00000000000078a4       0x16 /tmp/cc6SV7xS.ltrans0.ltrans.o
  .rodata.UnicodeVSPrint.str1.1
-                0x000000000000793a       0x28 /tmp/ccK5opwz.ltrans0.ltrans.o
+                0x00000000000078ba       0x28 /tmp/cc6SV7xS.ltrans0.ltrans.o
  .rodata.ZeroMem.str1.1
-                0x0000000000007962       0x89 /tmp/ccK5opwz.ltrans0.ltrans.o
+                0x00000000000078e2       0x89 /tmp/cc6SV7xS.ltrans0.ltrans.o
  .rodata._ModuleEntryPoint.str1.1
-                0x00000000000079eb      0x343 /tmp/ccK5opwz.ltrans0.ltrans.o
+                0x000000000000796b      0x343 /tmp/cc6SV7xS.ltrans0.ltrans.o
  .rodata.__stack_chk_fail.str1.1
-                0x0000000000007d2e       0x2e /tmp/ccK5opwz.ltrans0.ltrans.o
+                0x0000000000007cae       0x2e /tmp/cc6SV7xS.ltrans0.ltrans.o
  .rodata.mHexStr
-                0x0000000000007d5c       0x10 /tmp/ccK5opwz.ltrans0.ltrans.o
- *fill*         0x0000000000007d6c        0x4 
+                0x0000000000007cdc       0x10 /tmp/cc6SV7xS.ltrans0.ltrans.o
+ *fill*         0x0000000000007cec        0x4 
  .rodata.mStatusString
-                0x0000000000007d70      0x138 /tmp/ccK5opwz.ltrans0.ltrans.o
+                0x0000000000007cf0      0x138 /tmp/cc6SV7xS.ltrans0.ltrans.o
  .rodata.mUefiDevicePathLibToTextTable
-                0x0000000000007ea8      0x320 /tmp/ccK5opwz.ltrans0.ltrans.o
+                0x0000000000007e28      0x320 /tmp/cc6SV7xS.ltrans0.ltrans.o
  .rodata.mUefiDevicePathLibToTextTableGeneric
-                0x00000000000081c8       0x60 /tmp/ccK5opwz.ltrans0.ltrans.o
+                0x0000000000008148       0x60 /tmp/cc6SV7xS.ltrans0.ltrans.o
  .rodata.str1.1
-                0x0000000000008228      0x224 /tmp/ccK5opwz.ltrans0.ltrans.o
+                0x00000000000081a8      0x224 /tmp/cc6SV7xS.ltrans0.ltrans.o
                                         0x235 (松开之前的大小)
  .rodata.str2.2
-                0x000000000000844c       0x50 /tmp/ccK5opwz.ltrans0.ltrans.o
+                0x00000000000083cc       0x50 /tmp/cc6SV7xS.ltrans0.ltrans.o
  *(.got .got.*)
- *fill*         0x000000000000849c        0x4 
- .got           0x00000000000084a0        0x8 /home/evsio0n/src/edk2sdm/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
-                0x00000000000084a0                _GLOBAL_OFFSET_TABLE_
- .got.plt       0x00000000000084a8       0x18 /home/evsio0n/src/edk2sdm/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
+ *fill*         0x000000000000841c        0x4 
+ .got           0x0000000000008420        0x8 /home/evsio0n/src/edk2sdm/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
+                0x0000000000008420                _GLOBAL_OFFSET_TABLE_
+ .got.plt       0x0000000000008428       0x18 /home/evsio0n/src/edk2sdm/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
  *:AutoGen.obj(.data.g*Guid)
 
-.plt            0x00000000000084c0        0x0
- .plt           0x00000000000084c0        0x0 /home/evsio0n/src/edk2sdm/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
+.plt            0x0000000000008440        0x0
+ .plt           0x0000000000008440        0x0 /home/evsio0n/src/edk2sdm/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
 
-.data           0x0000000000009000      0x4f0
+.data           0x0000000000009000      0x4c8
  *(.data .data.* .gnu.linkonce.d.*)
  .data.rel.ro   0x0000000000009000        0x0 /home/evsio0n/src/edk2sdm/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
  .data.__stack_chk_guard
-                0x0000000000009000        0x8 /tmp/ccK5opwz.ltrans0.ltrans.o
+                0x0000000000009000        0x8 /tmp/cc6SV7xS.ltrans0.ltrans.o
                 0x0000000000009000                __stack_chk_guard
  .data.font5x12
-                0x0000000000009008      0x300 /tmp/ccK5opwz.ltrans0.ltrans.o
- .data.gEfiCallerIdGuid
-                0x0000000000009308       0x10 /tmp/ccK5opwz.ltrans0.ltrans.o
+                0x0000000000009008      0x300 /tmp/cc6SV7xS.ltrans0.ltrans.o
  .data.gEfiDebugPortProtocolGuid
-                0x0000000000009318       0x10 /tmp/ccK5opwz.ltrans0.ltrans.o
+                0x0000000000009308       0x10 /tmp/cc6SV7xS.ltrans0.ltrans.o
  .data.gEfiDeferredImageLoadProtocolGuid
-                0x0000000000009328       0x10 /tmp/ccK5opwz.ltrans0.ltrans.o
+                0x0000000000009318       0x10 /tmp/cc6SV7xS.ltrans0.ltrans.o
  .data.gEfiDxeSmmReadyToLockProtocolGuid
-                0x0000000000009338       0x10 /tmp/ccK5opwz.ltrans0.ltrans.o
+                0x0000000000009328       0x10 /tmp/cc6SV7xS.ltrans0.ltrans.o
  .data.gEfiEndOfDxeEventGroupGuid
-                0x0000000000009348       0x10 /tmp/ccK5opwz.ltrans0.ltrans.o
+                0x0000000000009338       0x10 /tmp/cc6SV7xS.ltrans0.ltrans.o
  .data.gEfiFirmwareVolume2ProtocolGuid
-                0x0000000000009358       0x10 /tmp/ccK5opwz.ltrans0.ltrans.o
+                0x0000000000009348       0x10 /tmp/cc6SV7xS.ltrans0.ltrans.o
  .data.gEfiHobListGuid
-                0x0000000000009368       0x10 /tmp/ccK5opwz.ltrans0.ltrans.o
+                0x0000000000009358       0x10 /tmp/cc6SV7xS.ltrans0.ltrans.o
  .data.gEfiPcAnsiGuid
-                0x0000000000009378       0x10 /tmp/ccK5opwz.ltrans0.ltrans.o
+                0x0000000000009368       0x10 /tmp/cc6SV7xS.ltrans0.ltrans.o
  .data.gEfiPersistentVirtualCdGuid
-                0x0000000000009388       0x10 /tmp/ccK5opwz.ltrans0.ltrans.o
+                0x0000000000009378       0x10 /tmp/cc6SV7xS.ltrans0.ltrans.o
  .data.gEfiPersistentVirtualDiskGuid
-                0x0000000000009398       0x10 /tmp/ccK5opwz.ltrans0.ltrans.o
+                0x0000000000009388       0x10 /tmp/cc6SV7xS.ltrans0.ltrans.o
  .data.gEfiSasDevicePathGuid
-                0x00000000000093a8       0x10 /tmp/ccK5opwz.ltrans0.ltrans.o
+                0x0000000000009398       0x10 /tmp/cc6SV7xS.ltrans0.ltrans.o
  .data.gEfiSecurity2ArchProtocolGuid
-                0x00000000000093b8       0x10 /tmp/ccK5opwz.ltrans0.ltrans.o
+                0x00000000000093a8       0x10 /tmp/cc6SV7xS.ltrans0.ltrans.o
  .data.gEfiSecurityArchProtocolGuid
-                0x00000000000093c8       0x10 /tmp/ccK5opwz.ltrans0.ltrans.o
- .data.gEfiStatusCodeRuntimeProtocolGuid
-                0x00000000000093d8       0x10 /tmp/ccK5opwz.ltrans0.ltrans.o
+                0x00000000000093b8       0x10 /tmp/cc6SV7xS.ltrans0.ltrans.o
  .data.gEfiUartDevicePathGuid
-                0x00000000000093e8       0x10 /tmp/ccK5opwz.ltrans0.ltrans.o
+                0x00000000000093c8       0x10 /tmp/cc6SV7xS.ltrans0.ltrans.o
  .data.gEfiVT100Guid
-                0x00000000000093f8       0x10 /tmp/ccK5opwz.ltrans0.ltrans.o
+                0x00000000000093d8       0x10 /tmp/cc6SV7xS.ltrans0.ltrans.o
  .data.gEfiVT100PlusGuid
-                0x0000000000009408       0x10 /tmp/ccK5opwz.ltrans0.ltrans.o
+                0x00000000000093e8       0x10 /tmp/cc6SV7xS.ltrans0.ltrans.o
  .data.gEfiVTUTF8Guid
-                0x0000000000009418       0x10 /tmp/ccK5opwz.ltrans0.ltrans.o
+                0x00000000000093f8       0x10 /tmp/cc6SV7xS.ltrans0.ltrans.o
  .data.gEfiVirtualCdGuid
-                0x0000000000009428       0x10 /tmp/ccK5opwz.ltrans0.ltrans.o
+                0x0000000000009408       0x10 /tmp/cc6SV7xS.ltrans0.ltrans.o
  .data.gEfiVirtualDiskGuid
-                0x0000000000009438       0x10 /tmp/ccK5opwz.ltrans0.ltrans.o
+                0x0000000000009418       0x10 /tmp/cc6SV7xS.ltrans0.ltrans.o
  .data.mDeferredImageLoad
-                0x0000000000009448        0x8 /tmp/ccK5opwz.ltrans0.ltrans.o
+                0x0000000000009428        0x8 /tmp/cc6SV7xS.ltrans0.ltrans.o
  .data.mSecurity2Stub
-                0x0000000000009450        0x8 /tmp/ccK5opwz.ltrans0.ltrans.o
+                0x0000000000009430        0x8 /tmp/cc6SV7xS.ltrans0.ltrans.o
  .data.mSecurityStub
-                0x0000000000009458        0x8 /tmp/ccK5opwz.ltrans0.ltrans.o
+                0x0000000000009438        0x8 /tmp/cc6SV7xS.ltrans0.ltrans.o
  *(.bss .bss.*)
- .bss.gBS       0x0000000000009460        0x8 /tmp/ccK5opwz.ltrans0.ltrans.o
+ .bss.gBS       0x0000000000009440        0x8 /tmp/cc6SV7xS.ltrans0.ltrans.o
  .bss.gImageHandle
-                0x0000000000009468        0x8 /tmp/ccK5opwz.ltrans0.ltrans.o
- .bss.gRT       0x0000000000009470        0x8 /tmp/ccK5opwz.ltrans0.ltrans.o
- .bss.gST       0x0000000000009478        0x8 /tmp/ccK5opwz.ltrans0.ltrans.o
+                0x0000000000009448        0x8 /tmp/cc6SV7xS.ltrans0.ltrans.o
+ .bss.gRT       0x0000000000009450        0x8 /tmp/cc6SV7xS.ltrans0.ltrans.o
+ .bss.gST       0x0000000000009458        0x8 /tmp/cc6SV7xS.ltrans0.ltrans.o
  .bss.mDeferred3rdPartyImage
-                0x0000000000009480       0x10 /tmp/ccK5opwz.ltrans0.ltrans.o
+                0x0000000000009460       0x10 /tmp/cc6SV7xS.ltrans0.ltrans.o
  .bss.mEndOfDxe
-                0x0000000000009490        0x1 /tmp/ccK5opwz.ltrans0.ltrans.o
- *fill*         0x0000000000009491        0x7 
- .bss.mHobList  0x0000000000009498        0x8 /tmp/ccK5opwz.ltrans0.ltrans.o
+                0x0000000000009470        0x1 /tmp/cc6SV7xS.ltrans0.ltrans.o
+ *fill*         0x0000000000009471        0x7 
+ .bss.mHobList  0x0000000000009478        0x8 /tmp/cc6SV7xS.ltrans0.ltrans.o
  .bss.mImageLoadedAfterEndOfDxe
-                0x00000000000094a0        0x1 /tmp/ccK5opwz.ltrans0.ltrans.o
- *fill*         0x00000000000094a1        0x7 
- .bss.mReportStatusCode
-                0x00000000000094a8        0x8 /tmp/ccK5opwz.ltrans0.ltrans.o
+                0x0000000000009480        0x1 /tmp/cc6SV7xS.ltrans0.ltrans.o
+ *fill*         0x0000000000009481        0x7 
  .bss.mSecurityArchProtocolHandle
-                0x00000000000094b0        0x8 /tmp/ccK5opwz.ltrans0.ltrans.o
- .bss.m_Color   0x00000000000094b8       0x10 /tmp/ccK5opwz.ltrans0.ltrans.o
+                0x0000000000009488        0x8 /tmp/cc6SV7xS.ltrans0.ltrans.o
+ .bss.m_Color   0x0000000000009490       0x10 /tmp/cc6SV7xS.ltrans0.ltrans.o
  .bss.m_Initialized
-                0x00000000000094c8        0x1 /tmp/ccK5opwz.ltrans0.ltrans.o
- *fill*         0x00000000000094c9        0x7 
+                0x00000000000094a0        0x1 /tmp/cc6SV7xS.ltrans0.ltrans.o
+ *fill*         0x00000000000094a1        0x7 
  .bss.m_MaxPosition
-                0x00000000000094d0       0x10 /tmp/ccK5opwz.ltrans0.ltrans.o
+                0x00000000000094a8       0x10 /tmp/cc6SV7xS.ltrans0.ltrans.o
  .bss.m_Position
-                0x00000000000094e0       0x10 /tmp/ccK5opwz.ltrans0.ltrans.o
+                0x00000000000094b8       0x10 /tmp/cc6SV7xS.ltrans0.ltrans.o
 
-.dynbss         0x00000000000094f0        0x0
- .dynbss        0x00000000000094f0        0x0 /home/evsio0n/src/edk2sdm/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
+.dynbss         0x00000000000094c8        0x0
+ .dynbss        0x00000000000094c8        0x0 /home/evsio0n/src/edk2sdm/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
 
 .eh_frame
  *(.eh_frame)
 
-.rela           0x00000000000094f0      0x900
+.rela           0x00000000000094c8      0x900
  *(.rela .rela.*)
- .rela.got      0x00000000000094f0        0x0 /home/evsio0n/src/edk2sdm/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
- .rela.plt      0x00000000000094f0        0x0 /home/evsio0n/src/edk2sdm/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
- .rela.bss      0x00000000000094f0        0x0 /home/evsio0n/src/edk2sdm/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
+ .rela.got      0x00000000000094c8        0x0 /home/evsio0n/src/edk2sdm/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
+ .rela.plt      0x00000000000094c8        0x0 /home/evsio0n/src/edk2sdm/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
+ .rela.bss      0x00000000000094c8        0x0 /home/evsio0n/src/edk2sdm/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
  .rela.data.rel.ro
-                0x00000000000094f0        0x0 /home/evsio0n/src/edk2sdm/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
- .rela.ifunc    0x00000000000094f0        0x0 /home/evsio0n/src/edk2sdm/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
+                0x00000000000094c8        0x0 /home/evsio0n/src/edk2sdm/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
+ .rela.ifunc    0x00000000000094c8        0x0 /home/evsio0n/src/edk2sdm/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
  .rela.data.mDeferredImageLoad
-                0x00000000000094f0       0x18 /home/evsio0n/src/edk2sdm/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
+                0x00000000000094c8       0x18 /home/evsio0n/src/edk2sdm/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
  .rela.data.mSecurity2Stub
-                0x0000000000009508       0x18 /home/evsio0n/src/edk2sdm/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
+                0x00000000000094e0       0x18 /home/evsio0n/src/edk2sdm/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
  .rela.data.mSecurityStub
-                0x0000000000009520       0x18 /home/evsio0n/src/edk2sdm/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
+                0x00000000000094f8       0x18 /home/evsio0n/src/edk2sdm/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
  .rela.rodata.mStatusString
-                0x0000000000009538      0x3a8 /home/evsio0n/src/edk2sdm/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
+                0x0000000000009510      0x3a8 /home/evsio0n/src/edk2sdm/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
  .rela.rodata.mUefiDevicePathLibToTextTable
-                0x00000000000098e0      0x498 /home/evsio0n/src/edk2sdm/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
+                0x00000000000098b8      0x498 /home/evsio0n/src/edk2sdm/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
  .rela.rodata.mUefiDevicePathLibToTextTableGeneric
-                0x0000000000009d78       0x78 /home/evsio0n/src/edk2sdm/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
+                0x0000000000009d50       0x78 /home/evsio0n/src/edk2sdm/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
 
 .hii
  *(.hii)
 
-.build-id       0x0000000000009df0       0x24
+.build-id       0x0000000000009dc8       0x24
  *(.note.gnu.build-id)
  .note.gnu.build-id
-                0x0000000000009df0       0x24 /home/evsio0n/src/edk2sdm/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
+                0x0000000000009dc8       0x24 /home/evsio0n/src/edk2sdm/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
 
 /DISCARD/
  *(.note.GNU-stack)
@@ -908,28 +902,28 @@ END GROUP
                 0x0000000000000228                PECOFF_HEADER_SIZE = 0x228
 OUTPUT(/home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/MdeModulePkg/Universal/SecurityStubDxe/SecurityStubDxe/DEBUG/SecurityStubDxe.dll elf64-littleaarch64)
 
-.debug_info     0x0000000000000000     0xc0d0
- .debug_info    0x0000000000000000     0xc0d0 /tmp/ccK5opwz.ltrans0.ltrans.o
+.debug_info     0x0000000000000000     0xbf52
+ .debug_info    0x0000000000000000     0xbf52 /tmp/cc6SV7xS.ltrans0.ltrans.o
 
 .debug_abbrev   0x0000000000000000      0x6bc
- .debug_abbrev  0x0000000000000000      0x6bc /tmp/ccK5opwz.ltrans0.ltrans.o
+ .debug_abbrev  0x0000000000000000      0x6bc /tmp/cc6SV7xS.ltrans0.ltrans.o
 
-.debug_loc      0x0000000000000000     0xc250
- .debug_loc     0x0000000000000000     0xc250 /tmp/ccK5opwz.ltrans0.ltrans.o
+.debug_loc      0x0000000000000000     0xc00d
+ .debug_loc     0x0000000000000000     0xc00d /tmp/cc6SV7xS.ltrans0.ltrans.o
 
 .debug_aranges  0x0000000000000000      0x6a0
  .debug_aranges
-                0x0000000000000000      0x6a0 /tmp/ccK5opwz.ltrans0.ltrans.o
+                0x0000000000000000      0x6a0 /tmp/cc6SV7xS.ltrans0.ltrans.o
 
-.debug_ranges   0x0000000000000000     0x11b0
- .debug_ranges  0x0000000000000000     0x11b0 /tmp/ccK5opwz.ltrans0.ltrans.o
+.debug_ranges   0x0000000000000000     0x1150
+ .debug_ranges  0x0000000000000000     0x1150 /tmp/cc6SV7xS.ltrans0.ltrans.o
 
-.debug_line     0x0000000000000000     0x22e5
- .debug_line    0x0000000000000000     0x22e5 /tmp/ccK5opwz.ltrans0.ltrans.o
+.debug_line     0x0000000000000000     0x22c1
+ .debug_line    0x0000000000000000     0x22c1 /tmp/cc6SV7xS.ltrans0.ltrans.o
 
-.debug_str      0x0000000000000000     0x3a9f
- .debug_str     0x0000000000000000     0x3a9f /tmp/ccK5opwz.ltrans0.ltrans.o
-                                       0x4061 (松开之前的大小)
+.debug_str      0x0000000000000000     0x3a5a
+ .debug_str     0x0000000000000000     0x3a5a /tmp/cc6SV7xS.ltrans0.ltrans.o
+                                       0x401c (松开之前的大小)
 
 .debug_frame    0x0000000000000000     0x1288
- .debug_frame   0x0000000000000000     0x1288 /tmp/ccK5opwz.ltrans0.ltrans.o
+ .debug_frame   0x0000000000000000     0x1288 /tmp/cc6SV7xS.ltrans0.ltrans.o

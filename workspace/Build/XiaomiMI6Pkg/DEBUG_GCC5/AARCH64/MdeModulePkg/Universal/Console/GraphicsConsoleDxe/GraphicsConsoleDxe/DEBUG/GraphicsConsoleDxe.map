@@ -122,36 +122,36 @@
  .text          0x0000000000000000       0x10 /home/evsio0n/src/edk2sdm/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
  .data          0x0000000000000000        0x0 /home/evsio0n/src/edk2sdm/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
  .bss           0x0000000000000000        0x0 /home/evsio0n/src/edk2sdm/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
- .text          0x0000000000000000        0x0 /tmp/cc5Z9E9w.ltrans0.ltrans.o
- .data          0x0000000000000000        0x0 /tmp/cc5Z9E9w.ltrans0.ltrans.o
- .bss           0x0000000000000000        0x0 /tmp/cc5Z9E9w.ltrans0.ltrans.o
+ .text          0x0000000000000000        0x0 /tmp/cc0xfPBW.ltrans0.ltrans.o
+ .data          0x0000000000000000        0x0 /tmp/cc0xfPBW.ltrans0.ltrans.o
+ .bss           0x0000000000000000        0x0 /tmp/cc0xfPBW.ltrans0.ltrans.o
  .text.GraphicsConsoleComponentNameGetControllerName
-                0x0000000000000000        0x8 /tmp/cc5Z9E9w.ltrans0.ltrans.o
+                0x0000000000000000        0x8 /tmp/cc0xfPBW.ltrans0.ltrans.o
  .text._DriverUnloadHandler
-                0x0000000000000000        0x8 /tmp/cc5Z9E9w.ltrans0.ltrans.o
+                0x0000000000000000        0x8 /tmp/cc0xfPBW.ltrans0.ltrans.o
  .text.AsciiStrnCmp
-                0x0000000000000000       0xf0 /tmp/cc5Z9E9w.ltrans0.ltrans.o
+                0x0000000000000000       0xf0 /tmp/cc0xfPBW.ltrans0.ltrans.o
  .text.StrnLenS
-                0x0000000000000000       0x7c /tmp/cc5Z9E9w.ltrans0.ltrans.o
+                0x0000000000000000       0x7c /tmp/cc0xfPBW.ltrans0.ltrans.o
  .text.ReadUnaligned24
-                0x0000000000000000       0x54 /tmp/cc5Z9E9w.ltrans0.ltrans.o
+                0x0000000000000000       0x54 /tmp/cc0xfPBW.ltrans0.ltrans.o
  .text.GraphicsConsoleComponentNameGetDriverName
-                0x0000000000000000      0x154 /tmp/cc5Z9E9w.ltrans0.ltrans.o
+                0x0000000000000000      0x154 /tmp/cc0xfPBW.ltrans0.ltrans.o
  .text.__memset
-                0x0000000000000000       0x1c /tmp/cc5Z9E9w.ltrans0.ltrans.o
+                0x0000000000000000       0x1c /tmp/cc0xfPBW.ltrans0.ltrans.o
  .data.gGraphicsConsoleComponentName
-                0x0000000000000000       0x18 /tmp/cc5Z9E9w.ltrans0.ltrans.o
+                0x0000000000000000       0x18 /tmp/cc0xfPBW.ltrans0.ltrans.o
  .data.mGraphicsConsoleDriverNameTable
-                0x0000000000000000       0x20 /tmp/cc5Z9E9w.ltrans0.ltrans.o
+                0x0000000000000000       0x20 /tmp/cc0xfPBW.ltrans0.ltrans.o
  .rodata.AsciiStrnCmp.str1.1
-                0x0000000000000000       0x70 /tmp/cc5Z9E9w.ltrans0.ltrans.o
+                0x0000000000000000       0x70 /tmp/cc0xfPBW.ltrans0.ltrans.o
  .rodata.StrnLenS.str1.1
-                0x0000000000000000       0x66 /tmp/cc5Z9E9w.ltrans0.ltrans.o
+                0x0000000000000000       0x66 /tmp/cc0xfPBW.ltrans0.ltrans.o
  .rodata.str2.2
-                0x0000000000000000       0x30 /tmp/cc5Z9E9w.ltrans0.ltrans.o
- .comment       0x0000000000000000       0x33 /tmp/cc5Z9E9w.ltrans0.ltrans.o
+                0x0000000000000000       0x30 /tmp/cc0xfPBW.ltrans0.ltrans.o
+ .comment       0x0000000000000000       0x33 /tmp/cc0xfPBW.ltrans0.ltrans.o
  .note.GNU-stack
-                0x0000000000000000        0x0 /tmp/cc5Z9E9w.ltrans0.ltrans.o
+                0x0000000000000000        0x0 /tmp/cc0xfPBW.ltrans0.ltrans.o
  .text          0x0000000000000000        0x8 /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(CpuBreakpoint.obj)
  .data          0x0000000000000000        0x0 /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(CpuBreakpoint.obj)
  .bss           0x0000000000000000        0x0 /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(CpuBreakpoint.obj)
@@ -328,7 +328,7 @@
 链结器命令稿和内存映射
 
 LOAD /home/evsio0n/src/edk2sdm/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
-LOAD /tmp/cc5Z9E9w.ltrans0.ltrans.o
+LOAD /tmp/cc0xfPBW.ltrans0.ltrans.o
 START GROUP
 LOAD /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib
 LOAD /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/DxePcdLib/DxePcdLib/OUTPUT/DxePcdLib.lib
@@ -369,98 +369,98 @@ END GROUP
 .text           0x0000000000001000     0x50f0
  *(.text .text.* .stub .gnu.linkonce.t.*)
  .text.InternalAllocatePool.constprop.6
-                0x0000000000001000       0x6c /tmp/cc5Z9E9w.ltrans0.ltrans.o
+                0x0000000000001000       0x6c /tmp/cc0xfPBW.ltrans0.ltrans.o
  .text.BasePrintLibFillBuffer
-                0x000000000000106c       0x34 /tmp/cc5Z9E9w.ltrans0.ltrans.o
+                0x000000000000106c       0x34 /tmp/cc0xfPBW.ltrans0.ltrans.o
  .text.AsciiStrnLenS
-                0x00000000000010a0       0x3c /tmp/cc5Z9E9w.ltrans0.ltrans.o
+                0x00000000000010a0       0x3c /tmp/cc0xfPBW.ltrans0.ltrans.o
  .text.DebugPrintLevelEnabled
-                0x00000000000010dc        0x8 /tmp/cc5Z9E9w.ltrans0.ltrans.o
+                0x00000000000010dc        0x8 /tmp/cc0xfPBW.ltrans0.ltrans.o
  .text.DebugCodeEnabled
-                0x00000000000010e4        0x8 /tmp/cc5Z9E9w.ltrans0.ltrans.o
+                0x00000000000010e4        0x8 /tmp/cc0xfPBW.ltrans0.ltrans.o
  .text.DebugPrintEnabled
-                0x00000000000010ec        0x8 /tmp/cc5Z9E9w.ltrans0.ltrans.o
+                0x00000000000010ec        0x8 /tmp/cc0xfPBW.ltrans0.ltrans.o
  .text.DebugAssertEnabled
-                0x00000000000010f4        0x8 /tmp/cc5Z9E9w.ltrans0.ltrans.o
+                0x00000000000010f4        0x8 /tmp/cc0xfPBW.ltrans0.ltrans.o
  .text.GetTextColors
-                0x00000000000010fc       0x30 /tmp/cc5Z9E9w.ltrans0.ltrans.o
+                0x00000000000010fc       0x30 /tmp/cc0xfPBW.ltrans0.ltrans.o
  .text.GraphicsConsoleConOutReset
-                0x000000000000112c       0x4c /tmp/cc5Z9E9w.ltrans0.ltrans.o
+                0x000000000000112c       0x4c /tmp/cc0xfPBW.ltrans0.ltrans.o
  .text.GraphicsConsoleControllerDriverSupported
-                0x0000000000001178      0x198 /tmp/cc5Z9E9w.ltrans0.ltrans.o
+                0x0000000000001178      0x198 /tmp/cc0xfPBW.ltrans0.ltrans.o
  .text.BaseDebugLibSerialPortConstructor
-                0x0000000000001310       0x84 /tmp/cc5Z9E9w.ltrans0.ltrans.o
+                0x0000000000001310       0x84 /tmp/cc0xfPBW.ltrans0.ltrans.o
  .text.FbConFlush
-                0x0000000000001394       0x54 /tmp/cc5Z9E9w.ltrans0.ltrans.o
+                0x0000000000001394       0x54 /tmp/cc0xfPBW.ltrans0.ltrans.o
  .text.SerialPortWrite
-                0x00000000000013e8      0x418 /tmp/cc5Z9E9w.ltrans0.ltrans.o
+                0x00000000000013e8      0x418 /tmp/cc0xfPBW.ltrans0.ltrans.o
  .text.DebugAssert
-                0x0000000000001800       0x7c /tmp/cc5Z9E9w.ltrans0.ltrans.o
+                0x0000000000001800       0x7c /tmp/cc0xfPBW.ltrans0.ltrans.o
  .text.CompareGuid.constprop.11
-                0x000000000000187c       0x50 /tmp/cc5Z9E9w.ltrans0.ltrans.o
+                0x000000000000187c       0x50 /tmp/cc0xfPBW.ltrans0.ltrans.o
  .text.CopyGuid.constprop.4
-                0x00000000000018cc       0x10 /tmp/cc5Z9E9w.ltrans0.ltrans.o
- .text.ZeroMem  0x00000000000018dc       0x7c /tmp/cc5Z9E9w.ltrans0.ltrans.o
+                0x00000000000018cc       0x10 /tmp/cc0xfPBW.ltrans0.ltrans.o
+ .text.ZeroMem  0x00000000000018dc       0x7c /tmp/cc0xfPBW.ltrans0.ltrans.o
  .text.AllocateZeroPool
-                0x0000000000001958       0x34 /tmp/cc5Z9E9w.ltrans0.ltrans.o
+                0x0000000000001958       0x34 /tmp/cc0xfPBW.ltrans0.ltrans.o
  .text.AsciiStrLen
-                0x000000000000198c       0xa0 /tmp/cc5Z9E9w.ltrans0.ltrans.o
- .text.CopyMem  0x0000000000001a2c       0xb0 /tmp/cc5Z9E9w.ltrans0.ltrans.o
+                0x000000000000198c       0xa0 /tmp/cc0xfPBW.ltrans0.ltrans.o
+ .text.CopyMem  0x0000000000001a2c       0xb0 /tmp/cc0xfPBW.ltrans0.ltrans.o
  .text.InternalAllocateCopyPool.constprop.2
-                0x0000000000001adc       0x8c /tmp/cc5Z9E9w.ltrans0.ltrans.o
+                0x0000000000001adc       0x8c /tmp/cc0xfPBW.ltrans0.ltrans.o
  .text.WriteUnaligned16
-                0x0000000000001b68       0x5c /tmp/cc5Z9E9w.ltrans0.ltrans.o
+                0x0000000000001b68       0x5c /tmp/cc0xfPBW.ltrans0.ltrans.o
  .text.WriteUnaligned32
-                0x0000000000001bc4       0x64 /tmp/cc5Z9E9w.ltrans0.ltrans.o
+                0x0000000000001bc4       0x64 /tmp/cc0xfPBW.ltrans0.ltrans.o
  .text.ReadUnaligned16
-                0x0000000000001c28       0x68 /tmp/cc5Z9E9w.ltrans0.ltrans.o
+                0x0000000000001c28       0x68 /tmp/cc0xfPBW.ltrans0.ltrans.o
  .text.ReadUnaligned32
-                0x0000000000001c90       0x5c /tmp/cc5Z9E9w.ltrans0.ltrans.o
+                0x0000000000001c90       0x5c /tmp/cc0xfPBW.ltrans0.ltrans.o
  .text.BasePrintLibSPrintMarker.constprop.19
-                0x0000000000001cec      0xca4 /tmp/cc5Z9E9w.ltrans0.ltrans.o
+                0x0000000000001cec      0xca4 /tmp/cc0xfPBW.ltrans0.ltrans.o
  .text.unlikely.BasePrintLibSPrint.constprop.20
-                0x0000000000002990       0x98 /tmp/cc5Z9E9w.ltrans0.ltrans.o
+                0x0000000000002990       0x98 /tmp/cc0xfPBW.ltrans0.ltrans.o
  .text.DebugPrint
-                0x0000000000002a28       0xb8 /tmp/cc5Z9E9w.ltrans0.ltrans.o
+                0x0000000000002a28       0xb8 /tmp/cc0xfPBW.ltrans0.ltrans.o
  .text.FreePool
-                0x0000000000002ae0       0x7c /tmp/cc5Z9E9w.ltrans0.ltrans.o
+                0x0000000000002ae0       0x7c /tmp/cc0xfPBW.ltrans0.ltrans.o
  .text.GraphicsConsoleConOutTestString
-                0x0000000000002b5c       0xbc /tmp/cc5Z9E9w.ltrans0.ltrans.o
+                0x0000000000002b5c       0xbc /tmp/cc0xfPBW.ltrans0.ltrans.o
  .text.CheckModeSupported
-                0x0000000000002c18      0x130 /tmp/cc5Z9E9w.ltrans0.ltrans.o
+                0x0000000000002c18      0x130 /tmp/cc0xfPBW.ltrans0.ltrans.o
  .text.AsciiSPrint.constprop.17
-                0x0000000000002d48       0xa4 /tmp/cc5Z9E9w.ltrans0.ltrans.o
+                0x0000000000002d48       0xa4 /tmp/cc0xfPBW.ltrans0.ltrans.o
  .text.HiiAddPackages.constprop.3
-                0x0000000000002dec      0x1b4 /tmp/cc5Z9E9w.ltrans0.ltrans.o
+                0x0000000000002dec      0x1b4 /tmp/cc0xfPBW.ltrans0.ltrans.o
  .text.RegisterFontPackage
-                0x0000000000002fa0      0x11c /tmp/cc5Z9E9w.ltrans0.ltrans.o
+                0x0000000000002fa0      0x11c /tmp/cc0xfPBW.ltrans0.ltrans.o
  .text.FlushCursor
-                0x00000000000030bc      0x200 /tmp/cc5Z9E9w.ltrans0.ltrans.o
+                0x00000000000030bc      0x200 /tmp/cc0xfPBW.ltrans0.ltrans.o
  .text.GraphicsConsoleConOutEnableCursor
-                0x00000000000032bc       0x84 /tmp/cc5Z9E9w.ltrans0.ltrans.o
+                0x00000000000032bc       0x84 /tmp/cc0xfPBW.ltrans0.ltrans.o
  .text.GraphicsConsoleConOutSetAttribute
-                0x0000000000003340       0x98 /tmp/cc5Z9E9w.ltrans0.ltrans.o
+                0x0000000000003340       0x98 /tmp/cc0xfPBW.ltrans0.ltrans.o
  .text.GraphicsConsoleConOutSetCursorPosition
-                0x00000000000033d8      0x130 /tmp/cc5Z9E9w.ltrans0.ltrans.o
+                0x00000000000033d8      0x130 /tmp/cc0xfPBW.ltrans0.ltrans.o
  .text.GraphicsConsoleConOutClearScreen
-                0x0000000000003508      0x18c /tmp/cc5Z9E9w.ltrans0.ltrans.o
+                0x0000000000003508      0x18c /tmp/cc0xfPBW.ltrans0.ltrans.o
  .text.GraphicsConsoleConOutSetMode
-                0x0000000000003694      0x29c /tmp/cc5Z9E9w.ltrans0.ltrans.o
+                0x0000000000003694      0x29c /tmp/cc0xfPBW.ltrans0.ltrans.o
  .text.GraphicsConsoleConOutQueryMode
-                0x0000000000003930       0xfc /tmp/cc5Z9E9w.ltrans0.ltrans.o
+                0x0000000000003930       0xfc /tmp/cc0xfPBW.ltrans0.ltrans.o
  .text.GraphicsConsoleConOutOutputString
-                0x0000000000003a2c      0x7a0 /tmp/cc5Z9E9w.ltrans0.ltrans.o
+                0x0000000000003a2c      0x7a0 /tmp/cc0xfPBW.ltrans0.ltrans.o
  .text.GraphicsConsoleControllerDriverStop
-                0x00000000000041cc      0x158 /tmp/cc5Z9E9w.ltrans0.ltrans.o
+                0x00000000000041cc      0x158 /tmp/cc0xfPBW.ltrans0.ltrans.o
  .text.GraphicsConsoleControllerDriverStart
-                0x0000000000004324      0x590 /tmp/cc5Z9E9w.ltrans0.ltrans.o
+                0x0000000000004324      0x590 /tmp/cc0xfPBW.ltrans0.ltrans.o
  .text.__stack_chk_fail
-                0x00000000000048b4       0x34 /tmp/cc5Z9E9w.ltrans0.ltrans.o
+                0x00000000000048b4       0x34 /tmp/cc0xfPBW.ltrans0.ltrans.o
                 0x00000000000048b4                __stack_chk_fail
  .text._ModuleEntryPoint
-                0x00000000000048e8      0x588 /tmp/cc5Z9E9w.ltrans0.ltrans.o
+                0x00000000000048e8      0x588 /tmp/cc0xfPBW.ltrans0.ltrans.o
                 0x00000000000048e8                _ModuleEntryPoint
- .text.memcpy   0x0000000000004e70       0x20 /tmp/cc5Z9E9w.ltrans0.ltrans.o
+ .text.memcpy   0x0000000000004e70       0x20 /tmp/cc0xfPBW.ltrans0.ltrans.o
                 0x0000000000004e70                memcpy
  .text          0x0000000000004e90      0x218 /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(CopyMem.obj)
                 0x0000000000004ffc                InternalMemCopyMem
@@ -494,50 +494,50 @@ END GROUP
                 0x0000000000005318                ArmDataSynchronizationBarrier
  *(.rodata .rodata.* .gnu.linkonce.r.*)
  .rodata.AsciiStrLen.str1.1
-                0x0000000000005320       0x8e /tmp/cc5Z9E9w.ltrans0.ltrans.o
+                0x0000000000005320       0x8e /tmp/cc0xfPBW.ltrans0.ltrans.o
  .rodata.BasePrintLibSPrintMarker.constprop.19.str1.1
-                0x00000000000053ae      0x17e /tmp/cc5Z9E9w.ltrans0.ltrans.o
+                0x00000000000053ae      0x17e /tmp/cc0xfPBW.ltrans0.ltrans.o
  .rodata.CompareGuid.constprop.11.str1.1
-                0x000000000000552c       0x69 /tmp/cc5Z9E9w.ltrans0.ltrans.o
+                0x000000000000552c       0x69 /tmp/cc0xfPBW.ltrans0.ltrans.o
  .rodata.CopyMem.str1.1
-                0x0000000000005595       0xd4 /tmp/cc5Z9E9w.ltrans0.ltrans.o
+                0x0000000000005595       0xd4 /tmp/cc0xfPBW.ltrans0.ltrans.o
  .rodata.DebugAssert.str1.1
-                0x0000000000005669       0x2b /tmp/cc5Z9E9w.ltrans0.ltrans.o
+                0x0000000000005669       0x2b /tmp/cc0xfPBW.ltrans0.ltrans.o
  .rodata.FlushCursor.str1.1
-                0x0000000000005694       0x15 /tmp/cc5Z9E9w.ltrans0.ltrans.o
+                0x0000000000005694       0x15 /tmp/cc0xfPBW.ltrans0.ltrans.o
  .rodata.FreePool.str1.1
-                0x00000000000056a9       0x35 /tmp/cc5Z9E9w.ltrans0.ltrans.o
+                0x00000000000056a9       0x35 /tmp/cc0xfPBW.ltrans0.ltrans.o
  .rodata.GraphicsConsoleConOutOutputString.str1.1
-                0x00000000000056de       0x36 /tmp/cc5Z9E9w.ltrans0.ltrans.o
+                0x00000000000056de       0x36 /tmp/cc0xfPBW.ltrans0.ltrans.o
  .rodata.GraphicsConsoleControllerDriverStart.str1.1
-                0x0000000000005714       0x99 /tmp/cc5Z9E9w.ltrans0.ltrans.o
+                0x0000000000005714       0x99 /tmp/cc0xfPBW.ltrans0.ltrans.o
  *fill*         0x00000000000057ad        0x1 
  .rodata.GraphicsConsoleControllerDriverStart.str2.2
-                0x00000000000057ae       0x36 /tmp/cc5Z9E9w.ltrans0.ltrans.o
+                0x00000000000057ae       0x36 /tmp/cc0xfPBW.ltrans0.ltrans.o
  .rodata.InternalAllocateCopyPool.constprop.2.str1.1
-                0x00000000000057e4       0x9b /tmp/cc5Z9E9w.ltrans0.ltrans.o
+                0x00000000000057e4       0x9b /tmp/cc0xfPBW.ltrans0.ltrans.o
  .rodata.RegisterFontPackage.str1.1
-                0x000000000000587f       0x96 /tmp/cc5Z9E9w.ltrans0.ltrans.o
+                0x000000000000587f       0x96 /tmp/cc0xfPBW.ltrans0.ltrans.o
  .rodata.WriteUnaligned16.str1.1
-                0x0000000000005915       0x46 /tmp/cc5Z9E9w.ltrans0.ltrans.o
+                0x0000000000005915       0x46 /tmp/cc0xfPBW.ltrans0.ltrans.o
  .rodata.ZeroMem.str1.1
-                0x000000000000595b       0x89 /tmp/cc5Z9E9w.ltrans0.ltrans.o
+                0x000000000000595b       0x89 /tmp/cc0xfPBW.ltrans0.ltrans.o
                                          0xa0 (松开之前的大小)
  .rodata._ModuleEntryPoint.str1.1
-                0x00000000000059e4      0x327 /tmp/cc5Z9E9w.ltrans0.ltrans.o
+                0x00000000000059e4      0x327 /tmp/cc0xfPBW.ltrans0.ltrans.o
  .rodata.__stack_chk_fail.str1.1
-                0x0000000000005d0b       0x2e /tmp/cc5Z9E9w.ltrans0.ltrans.o
+                0x0000000000005d0b       0x2e /tmp/cc0xfPBW.ltrans0.ltrans.o
  .rodata.mCursorGlyph
-                0x0000000000005d39       0x16 /tmp/cc5Z9E9w.ltrans0.ltrans.o
+                0x0000000000005d39       0x16 /tmp/cc0xfPBW.ltrans0.ltrans.o
  .rodata.mEndOfPakageList
-                0x0000000000005d4f        0x4 /tmp/cc5Z9E9w.ltrans0.ltrans.o
+                0x0000000000005d4f        0x4 /tmp/cc0xfPBW.ltrans0.ltrans.o
  .rodata.mHexStr
-                0x0000000000005d53       0x10 /tmp/cc5Z9E9w.ltrans0.ltrans.o
+                0x0000000000005d53       0x10 /tmp/cc0xfPBW.ltrans0.ltrans.o
  *fill*         0x0000000000005d63        0x5 
  .rodata.mStatusString
-                0x0000000000005d68      0x138 /tmp/cc5Z9E9w.ltrans0.ltrans.o
+                0x0000000000005d68      0x138 /tmp/cc0xfPBW.ltrans0.ltrans.o
  .rodata.str1.1
-                0x0000000000005ea0      0x22f /tmp/cc5Z9E9w.ltrans0.ltrans.o
+                0x0000000000005ea0      0x22f /tmp/cc0xfPBW.ltrans0.ltrans.o
                                         0x240 (松开之前的大小)
  *(.got .got.*)
  *fill*         0x00000000000060cf        0x1 
@@ -553,86 +553,86 @@ END GROUP
  *(.data .data.* .gnu.linkonce.d.*)
  .data.rel.ro   0x0000000000007000        0x0 /home/evsio0n/src/edk2sdm/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
  .data.SpaceStr
-                0x0000000000007000        0x6 /tmp/cc5Z9E9w.ltrans0.ltrans.o
+                0x0000000000007000        0x6 /tmp/cc0xfPBW.ltrans0.ltrans.o
  *fill*         0x0000000000007006        0x2 
  .data.__stack_chk_guard
-                0x0000000000007008        0x8 /tmp/cc5Z9E9w.ltrans0.ltrans.o
+                0x0000000000007008        0x8 /tmp/cc0xfPBW.ltrans0.ltrans.o
                 0x0000000000007008                __stack_chk_guard
  .data._gPcd_BinaryPatch_PcdVideoHorizontalResolution
-                0x0000000000007010        0x4 /tmp/cc5Z9E9w.ltrans0.ltrans.o
+                0x0000000000007010        0x4 /tmp/cc0xfPBW.ltrans0.ltrans.o
  .data._gPcd_BinaryPatch_PcdVideoVerticalResolution
-                0x0000000000007014        0x4 /tmp/cc5Z9E9w.ltrans0.ltrans.o
+                0x0000000000007014        0x4 /tmp/cc0xfPBW.ltrans0.ltrans.o
  .data.font5x12
-                0x0000000000007018      0x300 /tmp/cc5Z9E9w.ltrans0.ltrans.o
+                0x0000000000007018      0x300 /tmp/cc0xfPBW.ltrans0.ltrans.o
  .data.gEfiDevicePathProtocolGuid
-                0x0000000000007318       0x10 /tmp/cc5Z9E9w.ltrans0.ltrans.o
+                0x0000000000007318       0x10 /tmp/cc0xfPBW.ltrans0.ltrans.o
  .data.gEfiDriverBindingProtocolGuid
-                0x0000000000007328       0x10 /tmp/cc5Z9E9w.ltrans0.ltrans.o
+                0x0000000000007328       0x10 /tmp/cc0xfPBW.ltrans0.ltrans.o
  .data.gEfiGraphicsOutputProtocolGuid
-                0x0000000000007338       0x10 /tmp/cc5Z9E9w.ltrans0.ltrans.o
+                0x0000000000007338       0x10 /tmp/cc0xfPBW.ltrans0.ltrans.o
  .data.gEfiHiiConfigRoutingProtocolGuid
-                0x0000000000007348       0x10 /tmp/cc5Z9E9w.ltrans0.ltrans.o
+                0x0000000000007348       0x10 /tmp/cc0xfPBW.ltrans0.ltrans.o
  .data.gEfiHiiDatabaseProtocolGuid
-                0x0000000000007358       0x10 /tmp/cc5Z9E9w.ltrans0.ltrans.o
+                0x0000000000007358       0x10 /tmp/cc0xfPBW.ltrans0.ltrans.o
  .data.gEfiHiiFontProtocolGuid
-                0x0000000000007368       0x10 /tmp/cc5Z9E9w.ltrans0.ltrans.o
+                0x0000000000007368       0x10 /tmp/cc0xfPBW.ltrans0.ltrans.o
  .data.gEfiHiiImageProtocolGuid
-                0x0000000000007378       0x10 /tmp/cc5Z9E9w.ltrans0.ltrans.o
+                0x0000000000007378       0x10 /tmp/cc0xfPBW.ltrans0.ltrans.o
  .data.gEfiHiiStringProtocolGuid
-                0x0000000000007388       0x10 /tmp/cc5Z9E9w.ltrans0.ltrans.o
+                0x0000000000007388       0x10 /tmp/cc0xfPBW.ltrans0.ltrans.o
  .data.gEfiHobListGuid
-                0x0000000000007398       0x10 /tmp/cc5Z9E9w.ltrans0.ltrans.o
+                0x0000000000007398       0x10 /tmp/cc0xfPBW.ltrans0.ltrans.o
  .data.gEfiSimpleTextOutProtocolGuid
-                0x00000000000073a8       0x10 /tmp/cc5Z9E9w.ltrans0.ltrans.o
+                0x00000000000073a8       0x10 /tmp/cc0xfPBW.ltrans0.ltrans.o
  .data.gEfiUgaDrawProtocolGuid
-                0x00000000000073b8       0x10 /tmp/cc5Z9E9w.ltrans0.ltrans.o
+                0x00000000000073b8       0x10 /tmp/cc0xfPBW.ltrans0.ltrans.o
  .data.gGraphicsConsoleDriverBinding
-                0x00000000000073c8       0x30 /tmp/cc5Z9E9w.ltrans0.ltrans.o
+                0x00000000000073c8       0x30 /tmp/cc0xfPBW.ltrans0.ltrans.o
  .data.gUsStdNarrowGlyphData
-                0x00000000000073f8     0x14cc /tmp/cc5Z9E9w.ltrans0.ltrans.o
+                0x00000000000073f8     0x14cc /tmp/cc0xfPBW.ltrans0.ltrans.o
  .data.mCrLfString
-                0x00000000000088c4        0x6 /tmp/cc5Z9E9w.ltrans0.ltrans.o
+                0x00000000000088c4        0x6 /tmp/cc0xfPBW.ltrans0.ltrans.o
  *fill*         0x00000000000088ca        0x2 
  .data.mFontPackageListGuid
-                0x00000000000088cc       0x10 /tmp/cc5Z9E9w.ltrans0.ltrans.o
+                0x00000000000088cc       0x10 /tmp/cc0xfPBW.ltrans0.ltrans.o
  *fill*         0x00000000000088dc        0x4 
  .data.mGraphicsConsoleDevTemplate
-                0x00000000000088e0       0x90 /tmp/cc5Z9E9w.ltrans0.ltrans.o
+                0x00000000000088e0       0x90 /tmp/cc0xfPBW.ltrans0.ltrans.o
  .data.mGraphicsConsoleModeData
-                0x0000000000008970       0x60 /tmp/cc5Z9E9w.ltrans0.ltrans.o
+                0x0000000000008970       0x60 /tmp/cc0xfPBW.ltrans0.ltrans.o
  .data.mGraphicsEfiColors
-                0x00000000000089d0       0x40 /tmp/cc5Z9E9w.ltrans0.ltrans.o
+                0x00000000000089d0       0x40 /tmp/cc0xfPBW.ltrans0.ltrans.o
  *(.bss .bss.*)
- .bss.gBS       0x0000000000008a10        0x8 /tmp/cc5Z9E9w.ltrans0.ltrans.o
+ .bss.gBS       0x0000000000008a10        0x8 /tmp/cc0xfPBW.ltrans0.ltrans.o
  .bss.gHiiConfigRouting
-                0x0000000000008a18        0x8 /tmp/cc5Z9E9w.ltrans0.ltrans.o
+                0x0000000000008a18        0x8 /tmp/cc0xfPBW.ltrans0.ltrans.o
  .bss.gHiiDatabase
-                0x0000000000008a20        0x8 /tmp/cc5Z9E9w.ltrans0.ltrans.o
- .bss.gHiiFont  0x0000000000008a28        0x8 /tmp/cc5Z9E9w.ltrans0.ltrans.o
+                0x0000000000008a20        0x8 /tmp/cc0xfPBW.ltrans0.ltrans.o
+ .bss.gHiiFont  0x0000000000008a28        0x8 /tmp/cc0xfPBW.ltrans0.ltrans.o
  .bss.gHiiImage
-                0x0000000000008a30        0x8 /tmp/cc5Z9E9w.ltrans0.ltrans.o
+                0x0000000000008a30        0x8 /tmp/cc0xfPBW.ltrans0.ltrans.o
  .bss.gHiiString
-                0x0000000000008a38        0x8 /tmp/cc5Z9E9w.ltrans0.ltrans.o
+                0x0000000000008a38        0x8 /tmp/cc0xfPBW.ltrans0.ltrans.o
  .bss.gImageHandle
-                0x0000000000008a40        0x8 /tmp/cc5Z9E9w.ltrans0.ltrans.o
- .bss.gRT       0x0000000000008a48        0x8 /tmp/cc5Z9E9w.ltrans0.ltrans.o
- .bss.gST       0x0000000000008a50        0x8 /tmp/cc5Z9E9w.ltrans0.ltrans.o
+                0x0000000000008a40        0x8 /tmp/cc0xfPBW.ltrans0.ltrans.o
+ .bss.gRT       0x0000000000008a48        0x8 /tmp/cc0xfPBW.ltrans0.ltrans.o
+ .bss.gST       0x0000000000008a50        0x8 /tmp/cc0xfPBW.ltrans0.ltrans.o
  .bss.mHiiDatabase
-                0x0000000000008a58        0x8 /tmp/cc5Z9E9w.ltrans0.ltrans.o
- .bss.mHiiFont  0x0000000000008a60        0x8 /tmp/cc5Z9E9w.ltrans0.ltrans.o
+                0x0000000000008a58        0x8 /tmp/cc0xfPBW.ltrans0.ltrans.o
+ .bss.mHiiFont  0x0000000000008a60        0x8 /tmp/cc0xfPBW.ltrans0.ltrans.o
  .bss.mHiiHandle
-                0x0000000000008a68        0x8 /tmp/cc5Z9E9w.ltrans0.ltrans.o
+                0x0000000000008a68        0x8 /tmp/cc0xfPBW.ltrans0.ltrans.o
  .bss.mHiiRegistration
-                0x0000000000008a70        0x8 /tmp/cc5Z9E9w.ltrans0.ltrans.o
- .bss.mHobList  0x0000000000008a78        0x8 /tmp/cc5Z9E9w.ltrans0.ltrans.o
- .bss.m_Color   0x0000000000008a80       0x10 /tmp/cc5Z9E9w.ltrans0.ltrans.o
+                0x0000000000008a70        0x8 /tmp/cc0xfPBW.ltrans0.ltrans.o
+ .bss.mHobList  0x0000000000008a78        0x8 /tmp/cc0xfPBW.ltrans0.ltrans.o
+ .bss.m_Color   0x0000000000008a80       0x10 /tmp/cc0xfPBW.ltrans0.ltrans.o
  .bss.m_Initialized
-                0x0000000000008a90        0x1 /tmp/cc5Z9E9w.ltrans0.ltrans.o
+                0x0000000000008a90        0x1 /tmp/cc0xfPBW.ltrans0.ltrans.o
  *fill*         0x0000000000008a91        0x7 
  .bss.m_MaxPosition
-                0x0000000000008a98       0x10 /tmp/cc5Z9E9w.ltrans0.ltrans.o
+                0x0000000000008a98       0x10 /tmp/cc0xfPBW.ltrans0.ltrans.o
  .bss.m_Position
-                0x0000000000008aa8       0x10 /tmp/cc5Z9E9w.ltrans0.ltrans.o
+                0x0000000000008aa8       0x10 /tmp/cc0xfPBW.ltrans0.ltrans.o
 
 .dynbss         0x0000000000008ab8        0x0
  .dynbss        0x0000000000008ab8        0x0 /home/evsio0n/src/edk2sdm/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
@@ -677,27 +677,27 @@ END GROUP
 OUTPUT(/home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/MdeModulePkg/Universal/Console/GraphicsConsoleDxe/GraphicsConsoleDxe/DEBUG/GraphicsConsoleDxe.dll elf64-littleaarch64)
 
 .debug_info     0x0000000000000000     0x8b31
- .debug_info    0x0000000000000000     0x8b31 /tmp/cc5Z9E9w.ltrans0.ltrans.o
+ .debug_info    0x0000000000000000     0x8b31 /tmp/cc0xfPBW.ltrans0.ltrans.o
 
 .debug_abbrev   0x0000000000000000      0x66f
- .debug_abbrev  0x0000000000000000      0x66f /tmp/cc5Z9E9w.ltrans0.ltrans.o
+ .debug_abbrev  0x0000000000000000      0x66f /tmp/cc0xfPBW.ltrans0.ltrans.o
 
 .debug_loc      0x0000000000000000     0x75b0
- .debug_loc     0x0000000000000000     0x75b0 /tmp/cc5Z9E9w.ltrans0.ltrans.o
+ .debug_loc     0x0000000000000000     0x75b0 /tmp/cc0xfPBW.ltrans0.ltrans.o
 
 .debug_aranges  0x0000000000000000      0x380
  .debug_aranges
-                0x0000000000000000      0x380 /tmp/cc5Z9E9w.ltrans0.ltrans.o
+                0x0000000000000000      0x380 /tmp/cc0xfPBW.ltrans0.ltrans.o
 
 .debug_ranges   0x0000000000000000      0xa40
- .debug_ranges  0x0000000000000000      0xa40 /tmp/cc5Z9E9w.ltrans0.ltrans.o
+ .debug_ranges  0x0000000000000000      0xa40 /tmp/cc0xfPBW.ltrans0.ltrans.o
 
 .debug_line     0x0000000000000000     0x1a1b
- .debug_line    0x0000000000000000     0x1a1b /tmp/cc5Z9E9w.ltrans0.ltrans.o
+ .debug_line    0x0000000000000000     0x1a1b /tmp/cc0xfPBW.ltrans0.ltrans.o
 
 .debug_str      0x0000000000000000     0x33b5
- .debug_str     0x0000000000000000     0x33b5 /tmp/cc5Z9E9w.ltrans0.ltrans.o
+ .debug_str     0x0000000000000000     0x33b5 /tmp/cc0xfPBW.ltrans0.ltrans.o
                                        0x392f (松开之前的大小)
 
 .debug_frame    0x0000000000000000      0xb28
- .debug_frame   0x0000000000000000      0xb28 /tmp/cc5Z9E9w.ltrans0.ltrans.o
+ .debug_frame   0x0000000000000000      0xb28 /tmp/cc0xfPBW.ltrans0.ltrans.o

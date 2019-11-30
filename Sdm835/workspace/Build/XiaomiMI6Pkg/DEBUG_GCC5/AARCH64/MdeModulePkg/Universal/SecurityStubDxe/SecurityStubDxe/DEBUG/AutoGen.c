@@ -122,7 +122,7 @@ extern const  UINT32  _gPcd_FixedAtBuild_PcdControlFlowEnforcementPropertyMask;
 #define _PCD_TOKEN_PcdDebugPrintErrorLevel  34U
 #define _PCD_SIZE_PcdDebugPrintErrorLevel 4
 #define _PCD_GET_MODE_SIZE_PcdDebugPrintErrorLevel  _PCD_SIZE_PcdDebugPrintErrorLevel 
-#define _PCD_VALUE_PcdDebugPrintErrorLevel  0x80000046U
+#define _PCD_VALUE_PcdDebugPrintErrorLevel  0x800fee0fU
 GLOBAL_REMOVE_IF_UNREFERENCED const UINT32 _gPcd_FixedAtBuild_PcdDebugPrintErrorLevel = _PCD_VALUE_PcdDebugPrintErrorLevel;
 extern const  UINT32  _gPcd_FixedAtBuild_PcdDebugPrintErrorLevel;
 #define _PCD_GET_MODE_32_PcdDebugPrintErrorLevel  _gPcd_FixedAtBuild_PcdDebugPrintErrorLevel
@@ -275,7 +275,7 @@ extern const  UINT32  _gPcd_FixedAtBuild_PcdUefiLibMaxPrintBufferSize;
 #define _PCD_TOKEN_PcdReportStatusCodePropertyMask  72U
 #define _PCD_SIZE_PcdReportStatusCodePropertyMask 1
 #define _PCD_GET_MODE_SIZE_PcdReportStatusCodePropertyMask  _PCD_SIZE_PcdReportStatusCodePropertyMask 
-#define _PCD_VALUE_PcdReportStatusCodePropertyMask  0x06U
+#define _PCD_VALUE_PcdReportStatusCodePropertyMask  0x00U
 GLOBAL_REMOVE_IF_UNREFERENCED const UINT8 _gPcd_FixedAtBuild_PcdReportStatusCodePropertyMask = _PCD_VALUE_PcdReportStatusCodePropertyMask;
 extern const  UINT8  _gPcd_FixedAtBuild_PcdReportStatusCodePropertyMask;
 #define _PCD_GET_MODE_8_PcdReportStatusCodePropertyMask  _gPcd_FixedAtBuild_PcdReportStatusCodePropertyMask

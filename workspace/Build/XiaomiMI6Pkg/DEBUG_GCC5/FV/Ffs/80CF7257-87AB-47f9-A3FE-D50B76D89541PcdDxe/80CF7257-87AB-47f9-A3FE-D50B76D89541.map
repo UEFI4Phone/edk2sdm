@@ -108,22 +108,22 @@
  .text          0x0000000000000000       0x10 /home/evsio0n/src/edk2sdm/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
  .data          0x0000000000000000        0x0 /home/evsio0n/src/edk2sdm/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
  .bss           0x0000000000000000        0x0 /home/evsio0n/src/edk2sdm/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
- .text          0x0000000000000000        0x0 /tmp/ccixa8PF.ltrans0.ltrans.o
- .data          0x0000000000000000        0x0 /tmp/ccixa8PF.ltrans0.ltrans.o
- .bss           0x0000000000000000        0x0 /tmp/ccixa8PF.ltrans0.ltrans.o
+ .text          0x0000000000000000        0x0 /tmp/ccLiYYv9.ltrans0.ltrans.o
+ .data          0x0000000000000000        0x0 /tmp/ccLiYYv9.ltrans0.ltrans.o
+ .bss           0x0000000000000000        0x0 /tmp/ccLiYYv9.ltrans0.ltrans.o
  .text._DriverUnloadHandler
-                0x0000000000000000        0x8 /tmp/ccixa8PF.ltrans0.ltrans.o
+                0x0000000000000000        0x8 /tmp/ccLiYYv9.ltrans0.ltrans.o
  .text.StrnLenS
-                0x0000000000000000       0x7c /tmp/ccixa8PF.ltrans0.ltrans.o
+                0x0000000000000000       0x7c /tmp/ccLiYYv9.ltrans0.ltrans.o
  .text.IsNodeInList
-                0x0000000000000000       0xb0 /tmp/ccixa8PF.ltrans0.ltrans.o
+                0x0000000000000000       0xb0 /tmp/ccLiYYv9.ltrans0.ltrans.o
  .text.__memset
-                0x0000000000000000       0x1c /tmp/ccixa8PF.ltrans0.ltrans.o
+                0x0000000000000000       0x1c /tmp/ccLiYYv9.ltrans0.ltrans.o
  .rodata.IsNodeInList.str1.1
-                0x0000000000000000       0x44 /tmp/ccixa8PF.ltrans0.ltrans.o
- .comment       0x0000000000000000       0x33 /tmp/ccixa8PF.ltrans0.ltrans.o
+                0x0000000000000000       0x44 /tmp/ccLiYYv9.ltrans0.ltrans.o
+ .comment       0x0000000000000000       0x33 /tmp/ccLiYYv9.ltrans0.ltrans.o
  .note.GNU-stack
-                0x0000000000000000        0x0 /tmp/ccixa8PF.ltrans0.ltrans.o
+                0x0000000000000000        0x0 /tmp/ccLiYYv9.ltrans0.ltrans.o
  .text          0x0000000000000000        0x8 /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(CpuBreakpoint.obj)
  .data          0x0000000000000000        0x0 /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(CpuBreakpoint.obj)
  .bss           0x0000000000000000        0x0 /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(CpuBreakpoint.obj)
@@ -297,7 +297,7 @@
 链结器命令稿和内存映射
 
 LOAD /home/evsio0n/src/edk2sdm/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
-LOAD /tmp/ccixa8PF.ltrans0.ltrans.o
+LOAD /tmp/ccLiYYv9.ltrans0.ltrans.o
 START GROUP
 LOAD /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/DxePcdLib/DxePcdLib/OUTPUT/DxePcdLib.lib
 LOAD /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib
@@ -337,192 +337,192 @@ END GROUP
 .text           0x0000000000001000     0x6920
  *(.text .text.* .stub .gnu.linkonce.t.*)
  .text.InternalAllocatePool.constprop.14
-                0x0000000000001000       0x6c /tmp/ccixa8PF.ltrans0.ltrans.o
+                0x0000000000001000       0x6c /tmp/ccLiYYv9.ltrans0.ltrans.o
  .text.BasePrintLibFillBuffer
-                0x000000000000106c       0x34 /tmp/ccixa8PF.ltrans0.ltrans.o
+                0x000000000000106c       0x34 /tmp/ccLiYYv9.ltrans0.ltrans.o
  .text.DebugPrintLevelEnabled
-                0x00000000000010a0        0x8 /tmp/ccixa8PF.ltrans0.ltrans.o
+                0x00000000000010a0        0x8 /tmp/ccLiYYv9.ltrans0.ltrans.o
  .text.DebugPrintEnabled
-                0x00000000000010a8        0x8 /tmp/ccixa8PF.ltrans0.ltrans.o
+                0x00000000000010a8        0x8 /tmp/ccLiYYv9.ltrans0.ltrans.o
  .text.DebugAssertEnabled
-                0x00000000000010b0        0x8 /tmp/ccixa8PF.ltrans0.ltrans.o
+                0x00000000000010b0        0x8 /tmp/ccLiYYv9.ltrans0.ltrans.o
  .text.AsciiStrnLenS
-                0x00000000000010b8       0x3c /tmp/ccixa8PF.ltrans0.ltrans.o
+                0x00000000000010b8       0x3c /tmp/ccLiYYv9.ltrans0.ltrans.o
  .text.GetSizeTableIndex
-                0x00000000000010f4       0x54 /tmp/ccixa8PF.ltrans0.ltrans.o
+                0x00000000000010f4       0x54 /tmp/ccLiYYv9.ltrans0.ltrans.o
  .text.UpdatePcdDatabase
-                0x0000000000001148      0x124 /tmp/ccixa8PF.ltrans0.ltrans.o
+                0x0000000000001148      0x124 /tmp/ccLiYYv9.ltrans0.ltrans.o
  .text.GetLocalTokenNumber
-                0x000000000000126c       0x44 /tmp/ccixa8PF.ltrans0.ltrans.o
+                0x000000000000126c       0x44 /tmp/ccLiYYv9.ltrans0.ltrans.o
  .text.DxeGetPcdInfoGetSku
-                0x00000000000012b0       0x10 /tmp/ccixa8PF.ltrans0.ltrans.o
+                0x00000000000012b0       0x10 /tmp/ccLiYYv9.ltrans0.ltrans.o
  .text.BaseDebugLibSerialPortConstructor
-                0x00000000000012c0       0x84 /tmp/ccixa8PF.ltrans0.ltrans.o
+                0x00000000000012c0       0x84 /tmp/ccLiYYv9.ltrans0.ltrans.o
  .text.FbConFlush
-                0x0000000000001344       0x54 /tmp/ccixa8PF.ltrans0.ltrans.o
+                0x0000000000001344       0x54 /tmp/ccLiYYv9.ltrans0.ltrans.o
  .text.SerialPortWrite
-                0x0000000000001398      0x418 /tmp/ccixa8PF.ltrans0.ltrans.o
+                0x0000000000001398      0x418 /tmp/ccLiYYv9.ltrans0.ltrans.o
  .text.DebugAssert
-                0x00000000000017b0       0x7c /tmp/ccixa8PF.ltrans0.ltrans.o
+                0x00000000000017b0       0x7c /tmp/ccLiYYv9.ltrans0.ltrans.o
  .text.EfiReleaseLock.constprop.17
-                0x000000000000182c       0x6c /tmp/ccixa8PF.ltrans0.ltrans.o
+                0x000000000000182c       0x6c /tmp/ccLiYYv9.ltrans0.ltrans.o
  .text.EfiAcquireLock.constprop.13
-                0x0000000000001898       0x74 /tmp/ccixa8PF.ltrans0.ltrans.o
+                0x0000000000001898       0x74 /tmp/ccLiYYv9.ltrans0.ltrans.o
  .text.ReadUnaligned16
-                0x000000000000190c       0x68 /tmp/ccixa8PF.ltrans0.ltrans.o
+                0x000000000000190c       0x68 /tmp/ccLiYYv9.ltrans0.ltrans.o
  .text.ReadUnaligned32
-                0x0000000000001974       0x5c /tmp/ccixa8PF.ltrans0.ltrans.o
+                0x0000000000001974       0x5c /tmp/ccLiYYv9.ltrans0.ltrans.o
  .text.ReadUnaligned64
-                0x00000000000019d0       0x5c /tmp/ccixa8PF.ltrans0.ltrans.o
+                0x00000000000019d0       0x5c /tmp/ccLiYYv9.ltrans0.ltrans.o
  .text.AsciiStrLen
-                0x0000000000001a2c       0xa0 /tmp/ccixa8PF.ltrans0.ltrans.o
+                0x0000000000001a2c       0xa0 /tmp/ccLiYYv9.ltrans0.ltrans.o
  .text.AsciiStrSize
-                0x0000000000001acc       0x18 /tmp/ccixa8PF.ltrans0.ltrans.o
- .text.StrLen   0x0000000000001ae4       0xbc /tmp/ccixa8PF.ltrans0.ltrans.o
- .text.StrCmp   0x0000000000001ba0       0xa8 /tmp/ccixa8PF.ltrans0.ltrans.o
+                0x0000000000001acc       0x18 /tmp/ccLiYYv9.ltrans0.ltrans.o
+ .text.StrLen   0x0000000000001ae4       0xbc /tmp/ccLiYYv9.ltrans0.ltrans.o
+ .text.StrCmp   0x0000000000001ba0       0xa8 /tmp/ccLiYYv9.ltrans0.ltrans.o
  .text.AsciiStrCatS
-                0x0000000000001c48      0x1f4 /tmp/ccixa8PF.ltrans0.ltrans.o
+                0x0000000000001c48      0x1f4 /tmp/ccLiYYv9.ltrans0.ltrans.o
  .text.BasePrintLibSPrintMarker.constprop.21
-                0x0000000000001e3c      0xca4 /tmp/ccixa8PF.ltrans0.ltrans.o
+                0x0000000000001e3c      0xca4 /tmp/ccLiYYv9.ltrans0.ltrans.o
  .text.unlikely.BasePrintLibSPrint.constprop.22
-                0x0000000000002ae0       0x98 /tmp/ccixa8PF.ltrans0.ltrans.o
+                0x0000000000002ae0       0x98 /tmp/ccLiYYv9.ltrans0.ltrans.o
  .text.DebugPrint
-                0x0000000000002b78       0xb8 /tmp/ccixa8PF.ltrans0.ltrans.o
+                0x0000000000002b78       0xb8 /tmp/ccLiYYv9.ltrans0.ltrans.o
  .text.FreePool
-                0x0000000000002c30       0x7c /tmp/ccixa8PF.ltrans0.ltrans.o
+                0x0000000000002c30       0x7c /tmp/ccLiYYv9.ltrans0.ltrans.o
  .text.AsciiSPrint.constprop.19
-                0x0000000000002cac       0xa4 /tmp/ccixa8PF.ltrans0.ltrans.o
+                0x0000000000002cac       0xa4 /tmp/ccLiYYv9.ltrans0.ltrans.o
  .text.InitializeListHead
-                0x0000000000002d50       0x4c /tmp/ccixa8PF.ltrans0.ltrans.o
+                0x0000000000002d50       0x4c /tmp/ccLiYYv9.ltrans0.ltrans.o
  .text.InternalBaseLibIsListValid
-                0x0000000000002d9c       0xb8 /tmp/ccixa8PF.ltrans0.ltrans.o
+                0x0000000000002d9c       0xb8 /tmp/ccLiYYv9.ltrans0.ltrans.o
  .text.RemoveEntryList
-                0x0000000000002e54       0x88 /tmp/ccixa8PF.ltrans0.ltrans.o
+                0x0000000000002e54       0x88 /tmp/ccLiYYv9.ltrans0.ltrans.o
  .text.GetFirstNode
-                0x0000000000002edc       0x54 /tmp/ccixa8PF.ltrans0.ltrans.o
+                0x0000000000002edc       0x54 /tmp/ccLiYYv9.ltrans0.ltrans.o
  .text.GetNextNode
-                0x0000000000002f30       0x58 /tmp/ccixa8PF.ltrans0.ltrans.o
+                0x0000000000002f30       0x58 /tmp/ccLiYYv9.ltrans0.ltrans.o
  .text.InvokeCallbackOnSet
-                0x0000000000002f88       0xa0 /tmp/ccixa8PF.ltrans0.ltrans.o
+                0x0000000000002f88       0xa0 /tmp/ccLiYYv9.ltrans0.ltrans.o
  .text.InsertTailList
-                0x0000000000003028       0x6c /tmp/ccixa8PF.ltrans0.ltrans.o
+                0x0000000000003028       0x6c /tmp/ccLiYYv9.ltrans0.ltrans.o
  .text.VariableLockDynamicHiiPcd
-                0x0000000000003094      0x144 /tmp/ccixa8PF.ltrans0.ltrans.o
+                0x0000000000003094      0x144 /tmp/ccLiYYv9.ltrans0.ltrans.o
  .text.VariableLockCallBack
-                0x00000000000031d8       0x7c /tmp/ccixa8PF.ltrans0.ltrans.o
+                0x00000000000031d8       0x7c /tmp/ccLiYYv9.ltrans0.ltrans.o
  .text.SetPtrTypeSize
-                0x0000000000003254      0x104 /tmp/ccixa8PF.ltrans0.ltrans.o
+                0x0000000000003254      0x104 /tmp/ccLiYYv9.ltrans0.ltrans.o
  .text.GetPtrTypeSize
-                0x0000000000003358       0xc8 /tmp/ccixa8PF.ltrans0.ltrans.o
+                0x0000000000003358       0xc8 /tmp/ccLiYYv9.ltrans0.ltrans.o
  .text.GetPcdType
-                0x0000000000003420       0xa0 /tmp/ccixa8PF.ltrans0.ltrans.o
+                0x0000000000003420       0xa0 /tmp/ccLiYYv9.ltrans0.ltrans.o
  .text.DxePcdGetSize
-                0x00000000000034c0       0xec /tmp/ccixa8PF.ltrans0.ltrans.o
+                0x00000000000034c0       0xec /tmp/ccLiYYv9.ltrans0.ltrans.o
  .text.DxePcdSetSku
-                0x00000000000035ac      0x1fc /tmp/ccixa8PF.ltrans0.ltrans.o
- .text.CopyMem  0x00000000000037a8       0xb0 /tmp/ccixa8PF.ltrans0.ltrans.o
+                0x00000000000035ac      0x1fc /tmp/ccLiYYv9.ltrans0.ltrans.o
+ .text.CopyMem  0x00000000000037a8       0xb0 /tmp/ccLiYYv9.ltrans0.ltrans.o
  .text.GetWorker
-                0x0000000000003858      0x39c /tmp/ccixa8PF.ltrans0.ltrans.o
+                0x0000000000003858      0x39c /tmp/ccLiYYv9.ltrans0.ltrans.o
  .text.DxePcdGetPtr
-                0x0000000000003bf4        0x8 /tmp/ccixa8PF.ltrans0.ltrans.o
+                0x0000000000003bf4        0x8 /tmp/ccLiYYv9.ltrans0.ltrans.o
  .text.DxePcdGet64
-                0x0000000000003bfc       0x18 /tmp/ccixa8PF.ltrans0.ltrans.o
+                0x0000000000003bfc       0x18 /tmp/ccLiYYv9.ltrans0.ltrans.o
  .text.DxePcdGet32
-                0x0000000000003c14       0x18 /tmp/ccixa8PF.ltrans0.ltrans.o
+                0x0000000000003c14       0x18 /tmp/ccLiYYv9.ltrans0.ltrans.o
  .text.DxePcdGet16
-                0x0000000000003c2c       0x18 /tmp/ccixa8PF.ltrans0.ltrans.o
+                0x0000000000003c2c       0x18 /tmp/ccLiYYv9.ltrans0.ltrans.o
  .text.DxePcdGet8
-                0x0000000000003c44       0x1c /tmp/ccixa8PF.ltrans0.ltrans.o
+                0x0000000000003c44       0x1c /tmp/ccLiYYv9.ltrans0.ltrans.o
  .text.DxePcdGetBool
-                0x0000000000003c60        0x4 /tmp/ccixa8PF.ltrans0.ltrans.o
- .text.ZeroMem  0x0000000000003c64       0x7c /tmp/ccixa8PF.ltrans0.ltrans.o
+                0x0000000000003c60        0x4 /tmp/ccLiYYv9.ltrans0.ltrans.o
+ .text.ZeroMem  0x0000000000003c64       0x7c /tmp/ccLiYYv9.ltrans0.ltrans.o
  .text.AllocateZeroPool
-                0x0000000000003ce0       0x34 /tmp/ccixa8PF.ltrans0.ltrans.o
+                0x0000000000003ce0       0x34 /tmp/ccLiYYv9.ltrans0.ltrans.o
  .text.GetPcdName
-                0x0000000000003d14      0x19c /tmp/ccixa8PF.ltrans0.ltrans.o
+                0x0000000000003d14      0x19c /tmp/ccLiYYv9.ltrans0.ltrans.o
  .text.GetDistinctTokenSpace
-                0x0000000000003eb0       0xc8 /tmp/ccixa8PF.ltrans0.ltrans.o
+                0x0000000000003eb0       0xc8 /tmp/ccLiYYv9.ltrans0.ltrans.o
  .text.ScanGuid
-                0x0000000000003f78       0xd0 /tmp/ccixa8PF.ltrans0.ltrans.o
+                0x0000000000003f78       0xd0 /tmp/ccLiYYv9.ltrans0.ltrans.o
  .text.GetExPcdTokenNumber
-                0x0000000000004048      0x188 /tmp/ccixa8PF.ltrans0.ltrans.o
+                0x0000000000004048      0x188 /tmp/ccLiYYv9.ltrans0.ltrans.o
  .text.ExGetWorker
-                0x00000000000041d0       0x24 /tmp/ccixa8PF.ltrans0.ltrans.o
+                0x00000000000041d0       0x24 /tmp/ccLiYYv9.ltrans0.ltrans.o
  .text.DxePcdGetPtrEx
-                0x00000000000041f4        0x8 /tmp/ccixa8PF.ltrans0.ltrans.o
+                0x00000000000041f4        0x8 /tmp/ccLiYYv9.ltrans0.ltrans.o
  .text.DxePcdGet64Ex
-                0x00000000000041fc       0x18 /tmp/ccixa8PF.ltrans0.ltrans.o
+                0x00000000000041fc       0x18 /tmp/ccLiYYv9.ltrans0.ltrans.o
  .text.DxePcdGet32Ex
-                0x0000000000004214       0x18 /tmp/ccixa8PF.ltrans0.ltrans.o
+                0x0000000000004214       0x18 /tmp/ccLiYYv9.ltrans0.ltrans.o
  .text.DxePcdGet16Ex
-                0x000000000000422c       0x18 /tmp/ccixa8PF.ltrans0.ltrans.o
+                0x000000000000422c       0x18 /tmp/ccLiYYv9.ltrans0.ltrans.o
  .text.DxePcdGet8Ex
-                0x0000000000004244       0x1c /tmp/ccixa8PF.ltrans0.ltrans.o
+                0x0000000000004244       0x1c /tmp/ccLiYYv9.ltrans0.ltrans.o
  .text.DxePcdGetBoolEx
-                0x0000000000004260        0x4 /tmp/ccixa8PF.ltrans0.ltrans.o
+                0x0000000000004260        0x4 /tmp/ccLiYYv9.ltrans0.ltrans.o
  .text.DxeUnRegisterCallBackOnSet
-                0x0000000000004264       0xc0 /tmp/ccixa8PF.ltrans0.ltrans.o
+                0x0000000000004264       0xc0 /tmp/ccLiYYv9.ltrans0.ltrans.o
  .text.DxeRegisterCallBackOnSet
-                0x0000000000004324       0xe0 /tmp/ccixa8PF.ltrans0.ltrans.o
+                0x0000000000004324       0xe0 /tmp/ccLiYYv9.ltrans0.ltrans.o
  .text.DxePcdGetSizeEx
-                0x0000000000004404       0x14 /tmp/ccixa8PF.ltrans0.ltrans.o
+                0x0000000000004404       0x14 /tmp/ccLiYYv9.ltrans0.ltrans.o
  .text.ExGetNextTokeNumber
-                0x0000000000004418      0x10c /tmp/ccixa8PF.ltrans0.ltrans.o
+                0x0000000000004418      0x10c /tmp/ccLiYYv9.ltrans0.ltrans.o
  .text.DxePcdGetNextToken
-                0x0000000000004524      0x150 /tmp/ccixa8PF.ltrans0.ltrans.o
+                0x0000000000004524      0x150 /tmp/ccLiYYv9.ltrans0.ltrans.o
  .text.ExGetPcdInfo
-                0x0000000000004674      0x10c /tmp/ccixa8PF.ltrans0.ltrans.o
+                0x0000000000004674      0x10c /tmp/ccLiYYv9.ltrans0.ltrans.o
  .text.DxeGetPcdInfo
-                0x0000000000004780      0x16c /tmp/ccixa8PF.ltrans0.ltrans.o
+                0x0000000000004780      0x16c /tmp/ccLiYYv9.ltrans0.ltrans.o
  .text.DxeGetPcdInfoGetInfoEx
-                0x00000000000048ec        0x4 /tmp/ccixa8PF.ltrans0.ltrans.o
+                0x00000000000048ec        0x4 /tmp/ccLiYYv9.ltrans0.ltrans.o
  .text.DxeGetPcdInfoGetInfo
-                0x00000000000048f0       0x10 /tmp/ccixa8PF.ltrans0.ltrans.o
+                0x00000000000048f0       0x10 /tmp/ccLiYYv9.ltrans0.ltrans.o
  .text.CompareGuid
-                0x0000000000004900       0x6c /tmp/ccixa8PF.ltrans0.ltrans.o
+                0x0000000000004900       0x6c /tmp/ccLiYYv9.ltrans0.ltrans.o
  .text.GetNextGuidHob.constprop.9
-                0x000000000000496c       0xa4 /tmp/ccixa8PF.ltrans0.ltrans.o
+                0x000000000000496c       0xa4 /tmp/ccLiYYv9.ltrans0.ltrans.o
  .text.GetHobList
-                0x0000000000004a10      0x118 /tmp/ccixa8PF.ltrans0.ltrans.o
+                0x0000000000004a10      0x118 /tmp/ccLiYYv9.ltrans0.ltrans.o
  .text.GetVariableSizeAndDataFromHiiPcd
-                0x0000000000004b28      0x150 /tmp/ccixa8PF.ltrans0.ltrans.o
+                0x0000000000004b28      0x150 /tmp/ccLiYYv9.ltrans0.ltrans.o
  .text.SetWorker
-                0x0000000000004c78      0x548 /tmp/ccixa8PF.ltrans0.ltrans.o
+                0x0000000000004c78      0x548 /tmp/ccLiYYv9.ltrans0.ltrans.o
  .text.ExSetWorker
-                0x00000000000051c0       0x74 /tmp/ccixa8PF.ltrans0.ltrans.o
+                0x00000000000051c0       0x74 /tmp/ccLiYYv9.ltrans0.ltrans.o
  .text.DxePcdSetPtrEx
-                0x0000000000005234       0x20 /tmp/ccixa8PF.ltrans0.ltrans.o
+                0x0000000000005234       0x20 /tmp/ccLiYYv9.ltrans0.ltrans.o
  .text.DxePcdSet64Ex
-                0x0000000000005254       0x68 /tmp/ccixa8PF.ltrans0.ltrans.o
+                0x0000000000005254       0x68 /tmp/ccLiYYv9.ltrans0.ltrans.o
  .text.DxePcdSet32Ex
-                0x00000000000052bc       0x68 /tmp/ccixa8PF.ltrans0.ltrans.o
+                0x00000000000052bc       0x68 /tmp/ccLiYYv9.ltrans0.ltrans.o
  .text.DxePcdSet8Ex
-                0x0000000000005324       0x68 /tmp/ccixa8PF.ltrans0.ltrans.o
+                0x0000000000005324       0x68 /tmp/ccLiYYv9.ltrans0.ltrans.o
  .text.DxePcdSetBoolEx
-                0x000000000000538c        0x4 /tmp/ccixa8PF.ltrans0.ltrans.o
+                0x000000000000538c        0x4 /tmp/ccLiYYv9.ltrans0.ltrans.o
  .text.DxePcdSetPtr
-                0x0000000000005390       0x14 /tmp/ccixa8PF.ltrans0.ltrans.o
+                0x0000000000005390       0x14 /tmp/ccLiYYv9.ltrans0.ltrans.o
  .text.DxePcdSet64
-                0x00000000000053a4       0x5c /tmp/ccixa8PF.ltrans0.ltrans.o
+                0x00000000000053a4       0x5c /tmp/ccLiYYv9.ltrans0.ltrans.o
  .text.DxePcdSet32
-                0x0000000000005400       0x5c /tmp/ccixa8PF.ltrans0.ltrans.o
+                0x0000000000005400       0x5c /tmp/ccLiYYv9.ltrans0.ltrans.o
  .text.DxePcdSet16
-                0x000000000000545c       0x5c /tmp/ccixa8PF.ltrans0.ltrans.o
+                0x000000000000545c       0x5c /tmp/ccLiYYv9.ltrans0.ltrans.o
  .text.DxePcdSet8
-                0x00000000000054b8       0x5c /tmp/ccixa8PF.ltrans0.ltrans.o
+                0x00000000000054b8       0x5c /tmp/ccLiYYv9.ltrans0.ltrans.o
  .text.DxePcdSetBool
-                0x0000000000005514        0x4 /tmp/ccixa8PF.ltrans0.ltrans.o
+                0x0000000000005514        0x4 /tmp/ccLiYYv9.ltrans0.ltrans.o
  .text.DxePcdGetNextTokenSpace
-                0x0000000000005518      0x234 /tmp/ccixa8PF.ltrans0.ltrans.o
+                0x0000000000005518      0x234 /tmp/ccLiYYv9.ltrans0.ltrans.o
  .text.DxePcdSet16Ex
-                0x000000000000574c       0xc0 /tmp/ccixa8PF.ltrans0.ltrans.o
+                0x000000000000574c       0xc0 /tmp/ccLiYYv9.ltrans0.ltrans.o
  .text.__stack_chk_fail
-                0x000000000000580c       0x34 /tmp/ccixa8PF.ltrans0.ltrans.o
+                0x000000000000580c       0x34 /tmp/ccLiYYv9.ltrans0.ltrans.o
                 0x000000000000580c                __stack_chk_fail
  .text._ModuleEntryPoint
-                0x0000000000005840      0x804 /tmp/ccixa8PF.ltrans0.ltrans.o
+                0x0000000000005840      0x804 /tmp/ccLiYYv9.ltrans0.ltrans.o
                 0x0000000000005840                _ModuleEntryPoint
- .text.memcpy   0x0000000000006044       0x20 /tmp/ccixa8PF.ltrans0.ltrans.o
+ .text.memcpy   0x0000000000006044       0x20 /tmp/ccLiYYv9.ltrans0.ltrans.o
                 0x0000000000006044                memcpy
  *fill*         0x0000000000006064        0xc 
  .text          0x0000000000006070      0x200 /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(SetMem.obj)
@@ -556,85 +556,85 @@ END GROUP
                 0x00000000000064f8                ArmDataSynchronizationBarrier
  *(.rodata .rodata.* .gnu.linkonce.r.*)
  .rodata.SetWorker
-                0x0000000000006500        0x8 /tmp/ccixa8PF.ltrans0.ltrans.o
+                0x0000000000006500        0x8 /tmp/ccLiYYv9.ltrans0.ltrans.o
  .rodata.AsciiStrCatS.str1.1
-                0x0000000000006508      0x147 /tmp/ccixa8PF.ltrans0.ltrans.o
+                0x0000000000006508      0x147 /tmp/ccLiYYv9.ltrans0.ltrans.o
  .rodata.AsciiStrLen.str1.1
-                0x000000000000664f       0x8e /tmp/ccixa8PF.ltrans0.ltrans.o
+                0x000000000000664f       0x8e /tmp/ccLiYYv9.ltrans0.ltrans.o
  .rodata.BasePrintLibSPrintMarker.constprop.21.str1.1
-                0x00000000000066dd      0x17e /tmp/ccixa8PF.ltrans0.ltrans.o
+                0x00000000000066dd      0x17e /tmp/ccLiYYv9.ltrans0.ltrans.o
  .rodata.CompareGuid.str1.1
-                0x000000000000685b       0x2c /tmp/ccixa8PF.ltrans0.ltrans.o
+                0x000000000000685b       0x2c /tmp/ccLiYYv9.ltrans0.ltrans.o
  .rodata.CopyMem.str1.1
-                0x0000000000006887       0xd4 /tmp/ccixa8PF.ltrans0.ltrans.o
+                0x0000000000006887       0xd4 /tmp/ccLiYYv9.ltrans0.ltrans.o
  .rodata.DebugAssert.str1.1
-                0x000000000000695b       0x1f /tmp/ccixa8PF.ltrans0.ltrans.o
+                0x000000000000695b       0x1f /tmp/ccLiYYv9.ltrans0.ltrans.o
  .rodata.DxeGetPcdInfo.str1.1
-                0x000000000000697a       0x18 /tmp/ccixa8PF.ltrans0.ltrans.o
+                0x000000000000697a       0x18 /tmp/ccLiYYv9.ltrans0.ltrans.o
  .rodata.DxePcdGetNextTokenSpace.str1.1
-                0x0000000000006992       0x18 /tmp/ccixa8PF.ltrans0.ltrans.o
+                0x0000000000006992       0x18 /tmp/ccLiYYv9.ltrans0.ltrans.o
                                          0x15 (松开之前的大小)
  .rodata.DxePcdGetSize.str1.1
-                0x0000000000006992       0x6e /tmp/ccixa8PF.ltrans0.ltrans.o
+                0x0000000000006992       0x6e /tmp/ccLiYYv9.ltrans0.ltrans.o
  .rodata.DxePcdSet16Ex.str1.1
-                0x0000000000006a00       0x55 /tmp/ccixa8PF.ltrans0.ltrans.o
+                0x0000000000006a00       0x55 /tmp/ccLiYYv9.ltrans0.ltrans.o
  .rodata.DxePcdSetSku.str1.1
-                0x0000000000006a55      0x16e /tmp/ccixa8PF.ltrans0.ltrans.o
+                0x0000000000006a55      0x16e /tmp/ccLiYYv9.ltrans0.ltrans.o
  .rodata.DxeRegisterCallBackOnSet.str1.1
-                0x0000000000006bc3       0x1d /tmp/ccixa8PF.ltrans0.ltrans.o
+                0x0000000000006bc3       0x1d /tmp/ccLiYYv9.ltrans0.ltrans.o
  .rodata.EfiAcquireLock.constprop.13.str1.1
-                0x0000000000006be0       0x1e /tmp/ccixa8PF.ltrans0.ltrans.o
+                0x0000000000006be0       0x1e /tmp/ccLiYYv9.ltrans0.ltrans.o
  .rodata.EfiReleaseLock.constprop.17.str1.1
-                0x0000000000006bfe       0x5e /tmp/ccixa8PF.ltrans0.ltrans.o
+                0x0000000000006bfe       0x5e /tmp/ccLiYYv9.ltrans0.ltrans.o
  .rodata.FreePool.str1.1
-                0x0000000000006c5c       0x91 /tmp/ccixa8PF.ltrans0.ltrans.o
+                0x0000000000006c5c       0x91 /tmp/ccLiYYv9.ltrans0.ltrans.o
  .rodata.GetDistinctTokenSpace.str1.1
-                0x0000000000006ced       0x23 /tmp/ccixa8PF.ltrans0.ltrans.o
+                0x0000000000006ced       0x23 /tmp/ccLiYYv9.ltrans0.ltrans.o
  .rodata.GetExPcdTokenNumber.str1.1
-                0x0000000000006d10       0x1a /tmp/ccixa8PF.ltrans0.ltrans.o
+                0x0000000000006d10       0x1a /tmp/ccLiYYv9.ltrans0.ltrans.o
  .rodata.GetFirstNode.str1.1
-                0x0000000000006d2a       0x22 /tmp/ccixa8PF.ltrans0.ltrans.o
+                0x0000000000006d2a       0x22 /tmp/ccLiYYv9.ltrans0.ltrans.o
  .rodata.GetHobList.str1.1
-                0x0000000000006d4c       0x19 /tmp/ccixa8PF.ltrans0.ltrans.o
+                0x0000000000006d4c       0x19 /tmp/ccLiYYv9.ltrans0.ltrans.o
  .rodata.GetNextGuidHob.constprop.9.str1.1
-                0x0000000000006d65       0x5a /tmp/ccixa8PF.ltrans0.ltrans.o
+                0x0000000000006d65       0x5a /tmp/ccLiYYv9.ltrans0.ltrans.o
  .rodata.GetPcdName.str1.1
-                0x0000000000006dbf       0x54 /tmp/ccixa8PF.ltrans0.ltrans.o
+                0x0000000000006dbf       0x54 /tmp/ccLiYYv9.ltrans0.ltrans.o
  .rodata.GetWorker.str1.1
-                0x0000000000006e13       0xaa /tmp/ccixa8PF.ltrans0.ltrans.o
+                0x0000000000006e13       0xaa /tmp/ccLiYYv9.ltrans0.ltrans.o
  .rodata.InitializeListHead.str1.1
-                0x0000000000006ebd       0x5c /tmp/ccixa8PF.ltrans0.ltrans.o
+                0x0000000000006ebd       0x5c /tmp/ccLiYYv9.ltrans0.ltrans.o
  .rodata.InternalBaseLibIsListValid.str1.1
-                0x0000000000006f19       0x41 /tmp/ccixa8PF.ltrans0.ltrans.o
+                0x0000000000006f19       0x41 /tmp/ccLiYYv9.ltrans0.ltrans.o
                                          0x56 (松开之前的大小)
  .rodata.ReadUnaligned16.str1.1
-                0x0000000000006f5a       0x5d /tmp/ccixa8PF.ltrans0.ltrans.o
+                0x0000000000006f5a       0x5d /tmp/ccLiYYv9.ltrans0.ltrans.o
  .rodata.RemoveEntryList.str1.1
-                0x0000000000006fb7       0x3b /tmp/ccixa8PF.ltrans0.ltrans.o
+                0x0000000000006fb7       0x3b /tmp/ccLiYYv9.ltrans0.ltrans.o
  .rodata.ScanGuid.str1.1
-                0x0000000000006ff2       0xad /tmp/ccixa8PF.ltrans0.ltrans.o
+                0x0000000000006ff2       0xad /tmp/ccLiYYv9.ltrans0.ltrans.o
  .rodata.SetPtrTypeSize.str1.1
-                0x000000000000709f       0x82 /tmp/ccixa8PF.ltrans0.ltrans.o
+                0x000000000000709f       0x82 /tmp/ccLiYYv9.ltrans0.ltrans.o
  .rodata.StrCmp.str1.1
-                0x0000000000007121       0x37 /tmp/ccixa8PF.ltrans0.ltrans.o
+                0x0000000000007121       0x37 /tmp/ccLiYYv9.ltrans0.ltrans.o
  .rodata.StrLen.str1.1
-                0x0000000000007158       0x5d /tmp/ccixa8PF.ltrans0.ltrans.o
+                0x0000000000007158       0x5d /tmp/ccLiYYv9.ltrans0.ltrans.o
  .rodata.VariableLockDynamicHiiPcd.str1.1
-                0x00000000000071b5       0x48 /tmp/ccixa8PF.ltrans0.ltrans.o
+                0x00000000000071b5       0x48 /tmp/ccLiYYv9.ltrans0.ltrans.o
  .rodata.ZeroMem.str1.1
-                0x00000000000071fd       0x89 /tmp/ccixa8PF.ltrans0.ltrans.o
+                0x00000000000071fd       0x89 /tmp/ccLiYYv9.ltrans0.ltrans.o
  .rodata._ModuleEntryPoint.str1.1
-                0x0000000000007286      0x2d9 /tmp/ccixa8PF.ltrans0.ltrans.o
+                0x0000000000007286      0x2d9 /tmp/ccLiYYv9.ltrans0.ltrans.o
                                         0x2f5 (松开之前的大小)
  .rodata.__stack_chk_fail.str1.1
-                0x000000000000755f       0x2e /tmp/ccixa8PF.ltrans0.ltrans.o
+                0x000000000000755f       0x2e /tmp/ccLiYYv9.ltrans0.ltrans.o
  .rodata.mHexStr
-                0x000000000000758d       0x10 /tmp/ccixa8PF.ltrans0.ltrans.o
+                0x000000000000758d       0x10 /tmp/ccLiYYv9.ltrans0.ltrans.o
  *fill*         0x000000000000759d        0x3 
  .rodata.mStatusString
-                0x00000000000075a0      0x138 /tmp/ccixa8PF.ltrans0.ltrans.o
+                0x00000000000075a0      0x138 /tmp/ccLiYYv9.ltrans0.ltrans.o
  .rodata.str1.1
-                0x00000000000076d8      0x224 /tmp/ccixa8PF.ltrans0.ltrans.o
+                0x00000000000076d8      0x224 /tmp/ccLiYYv9.ltrans0.ltrans.o
                                         0x235 (松开之前的大小)
  *(.got .got.*)
  *fill*         0x00000000000078fc        0x4 
@@ -650,106 +650,106 @@ END GROUP
  *(.data .data.* .gnu.linkonce.d.*)
  .data.rel.ro   0x0000000000008000        0x0 /home/evsio0n/src/edk2sdm/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
  .data.__stack_chk_guard
-                0x0000000000008000        0x8 /tmp/ccixa8PF.ltrans0.ltrans.o
+                0x0000000000008000        0x8 /tmp/ccLiYYv9.ltrans0.ltrans.o
                 0x0000000000008000                __stack_chk_guard
  .data.font5x12
-                0x0000000000008008      0x300 /tmp/ccixa8PF.ltrans0.ltrans.o
+                0x0000000000008008      0x300 /tmp/ccLiYYv9.ltrans0.ltrans.o
  .data.gEdkiiVariableLockProtocolGuid
-                0x0000000000008308       0x10 /tmp/ccixa8PF.ltrans0.ltrans.o
+                0x0000000000008308       0x10 /tmp/ccLiYYv9.ltrans0.ltrans.o
  .data.gEfiCallerIdGuid
-                0x0000000000008318       0x10 /tmp/ccixa8PF.ltrans0.ltrans.o
+                0x0000000000008318       0x10 /tmp/ccLiYYv9.ltrans0.ltrans.o
  .data.gEfiFirmwareVolume2ProtocolGuid
-                0x0000000000008328       0x10 /tmp/ccixa8PF.ltrans0.ltrans.o
+                0x0000000000008328       0x10 /tmp/ccLiYYv9.ltrans0.ltrans.o
  .data.gEfiGetPcdInfoProtocolGuid
-                0x0000000000008338       0x10 /tmp/ccixa8PF.ltrans0.ltrans.o
+                0x0000000000008338       0x10 /tmp/ccLiYYv9.ltrans0.ltrans.o
  .data.gEfiHobListGuid
-                0x0000000000008348       0x10 /tmp/ccixa8PF.ltrans0.ltrans.o
+                0x0000000000008348       0x10 /tmp/ccLiYYv9.ltrans0.ltrans.o
  .data.gEfiLoadedImageProtocolGuid
-                0x0000000000008358       0x10 /tmp/ccixa8PF.ltrans0.ltrans.o
+                0x0000000000008358       0x10 /tmp/ccLiYYv9.ltrans0.ltrans.o
  .data.gEfiMdeModulePkgTokenSpaceGuid
-                0x0000000000008368       0x10 /tmp/ccixa8PF.ltrans0.ltrans.o
+                0x0000000000008368       0x10 /tmp/ccLiYYv9.ltrans0.ltrans.o
  .data.gEfiPcdProtocolGuid
-                0x0000000000008378       0x10 /tmp/ccixa8PF.ltrans0.ltrans.o
+                0x0000000000008378       0x10 /tmp/ccLiYYv9.ltrans0.ltrans.o
  .data.gGetPcdInfoProtocolGuid
-                0x0000000000008388       0x10 /tmp/ccixa8PF.ltrans0.ltrans.o
+                0x0000000000008388       0x10 /tmp/ccLiYYv9.ltrans0.ltrans.o
  .data.gPcdDataBaseHobGuid
-                0x0000000000008398       0x10 /tmp/ccixa8PF.ltrans0.ltrans.o
+                0x0000000000008398       0x10 /tmp/ccLiYYv9.ltrans0.ltrans.o
  .data.gPcdDataBaseSignatureGuid
-                0x00000000000083a8       0x10 /tmp/ccixa8PF.ltrans0.ltrans.o
+                0x00000000000083a8       0x10 /tmp/ccLiYYv9.ltrans0.ltrans.o
  .data.gPcdProtocolGuid
-                0x00000000000083b8       0x10 /tmp/ccixa8PF.ltrans0.ltrans.o
+                0x00000000000083b8       0x10 /tmp/ccLiYYv9.ltrans0.ltrans.o
  .data.mEfiGetPcdInfoInstance
-                0x00000000000083c8       0x10 /tmp/ccixa8PF.ltrans0.ltrans.o
+                0x00000000000083c8       0x10 /tmp/ccLiYYv9.ltrans0.ltrans.o
  .data.mEfiPcdInstance
-                0x00000000000083d8       0x90 /tmp/ccixa8PF.ltrans0.ltrans.o
+                0x00000000000083d8       0x90 /tmp/ccLiYYv9.ltrans0.ltrans.o
  .data.mGetPcdInfoInstance
-                0x0000000000008468       0x18 /tmp/ccixa8PF.ltrans0.ltrans.o
+                0x0000000000008468       0x18 /tmp/ccLiYYv9.ltrans0.ltrans.o
  .data.mPcdDatabaseLock
-                0x0000000000008480       0x18 /tmp/ccixa8PF.ltrans0.ltrans.o
+                0x0000000000008480       0x18 /tmp/ccLiYYv9.ltrans0.ltrans.o
  .data.mPcdInstance
-                0x0000000000008498       0xf8 /tmp/ccixa8PF.ltrans0.ltrans.o
+                0x0000000000008498       0xf8 /tmp/ccLiYYv9.ltrans0.ltrans.o
  *(.bss .bss.*)
  .bss.TmpTokenSpaceBuffer
-                0x0000000000008590        0x8 /tmp/ccixa8PF.ltrans0.ltrans.o
+                0x0000000000008590        0x8 /tmp/ccLiYYv9.ltrans0.ltrans.o
  .bss.TmpTokenSpaceBufferCount
-                0x0000000000008598        0x8 /tmp/ccixa8PF.ltrans0.ltrans.o
- .bss.gBS       0x00000000000085a0        0x8 /tmp/ccixa8PF.ltrans0.ltrans.o
+                0x0000000000008598        0x8 /tmp/ccLiYYv9.ltrans0.ltrans.o
+ .bss.gBS       0x00000000000085a0        0x8 /tmp/ccLiYYv9.ltrans0.ltrans.o
  .bss.gImageHandle
-                0x00000000000085a8        0x8 /tmp/ccixa8PF.ltrans0.ltrans.o
- .bss.gRT       0x00000000000085b0        0x8 /tmp/ccixa8PF.ltrans0.ltrans.o
- .bss.gST       0x00000000000085b8        0x8 /tmp/ccixa8PF.ltrans0.ltrans.o
+                0x00000000000085a8        0x8 /tmp/ccLiYYv9.ltrans0.ltrans.o
+ .bss.gRT       0x00000000000085b0        0x8 /tmp/ccLiYYv9.ltrans0.ltrans.o
+ .bss.gST       0x00000000000085b8        0x8 /tmp/ccLiYYv9.ltrans0.ltrans.o
  .bss.mCallbackFnTable
-                0x00000000000085c0        0x8 /tmp/ccixa8PF.ltrans0.ltrans.o
+                0x00000000000085c0        0x8 /tmp/ccLiYYv9.ltrans0.ltrans.o
  .bss.mDxeExMapTableEmpty
-                0x00000000000085c8        0x1 /tmp/ccixa8PF.ltrans0.ltrans.o
+                0x00000000000085c8        0x1 /tmp/ccLiYYv9.ltrans0.ltrans.o
  *fill*         0x00000000000085c9        0x3 
  .bss.mDxeExMapppingTableSize
-                0x00000000000085cc        0x4 /tmp/ccixa8PF.ltrans0.ltrans.o
+                0x00000000000085cc        0x4 /tmp/ccLiYYv9.ltrans0.ltrans.o
  .bss.mDxeGuidTableSize
-                0x00000000000085d0        0x4 /tmp/ccixa8PF.ltrans0.ltrans.o
+                0x00000000000085d0        0x4 /tmp/ccLiYYv9.ltrans0.ltrans.o
  .bss.mDxeLocalTokenCount
-                0x00000000000085d4        0x4 /tmp/ccixa8PF.ltrans0.ltrans.o
+                0x00000000000085d4        0x4 /tmp/ccLiYYv9.ltrans0.ltrans.o
  .bss.mDxeNexTokenCount
-                0x00000000000085d8        0x4 /tmp/ccixa8PF.ltrans0.ltrans.o
+                0x00000000000085d8        0x4 /tmp/ccLiYYv9.ltrans0.ltrans.o
  *fill*         0x00000000000085dc        0x4 
  .bss.mDxePcdDbBinary
-                0x00000000000085e0        0x8 /tmp/ccixa8PF.ltrans0.ltrans.o
+                0x00000000000085e0        0x8 /tmp/ccLiYYv9.ltrans0.ltrans.o
  .bss.mDxePcdDbSize
-                0x00000000000085e8        0x8 /tmp/ccixa8PF.ltrans0.ltrans.o
- .bss.mHobList  0x00000000000085f0        0x8 /tmp/ccixa8PF.ltrans0.ltrans.o
+                0x00000000000085e8        0x8 /tmp/ccLiYYv9.ltrans0.ltrans.o
+ .bss.mHobList  0x00000000000085f0        0x8 /tmp/ccLiYYv9.ltrans0.ltrans.o
  .bss.mPcdDatabase
-                0x00000000000085f8       0x10 /tmp/ccixa8PF.ltrans0.ltrans.o
+                0x00000000000085f8       0x10 /tmp/ccLiYYv9.ltrans0.ltrans.o
  .bss.mPcdHandle
-                0x0000000000008608        0x8 /tmp/ccixa8PF.ltrans0.ltrans.o
+                0x0000000000008608        0x8 /tmp/ccLiYYv9.ltrans0.ltrans.o
  .bss.mPcdTotalTokenCount
-                0x0000000000008610        0x4 /tmp/ccixa8PF.ltrans0.ltrans.o
+                0x0000000000008610        0x4 /tmp/ccLiYYv9.ltrans0.ltrans.o
  .bss.mPeiDatabaseEmpty
-                0x0000000000008614        0x1 /tmp/ccixa8PF.ltrans0.ltrans.o
+                0x0000000000008614        0x1 /tmp/ccLiYYv9.ltrans0.ltrans.o
  .bss.mPeiExMapTableEmpty
-                0x0000000000008615        0x1 /tmp/ccixa8PF.ltrans0.ltrans.o
+                0x0000000000008615        0x1 /tmp/ccLiYYv9.ltrans0.ltrans.o
  *fill*         0x0000000000008616        0x2 
  .bss.mPeiExMapppingTableSize
-                0x0000000000008618        0x4 /tmp/ccixa8PF.ltrans0.ltrans.o
+                0x0000000000008618        0x4 /tmp/ccLiYYv9.ltrans0.ltrans.o
  .bss.mPeiGuidTableSize
-                0x000000000000861c        0x4 /tmp/ccixa8PF.ltrans0.ltrans.o
+                0x000000000000861c        0x4 /tmp/ccLiYYv9.ltrans0.ltrans.o
  .bss.mPeiLocalTokenCount
-                0x0000000000008620        0x4 /tmp/ccixa8PF.ltrans0.ltrans.o
+                0x0000000000008620        0x4 /tmp/ccLiYYv9.ltrans0.ltrans.o
  .bss.mPeiNexTokenCount
-                0x0000000000008624        0x4 /tmp/ccixa8PF.ltrans0.ltrans.o
+                0x0000000000008624        0x4 /tmp/ccLiYYv9.ltrans0.ltrans.o
  .bss.mPeiPcdDbBinary
-                0x0000000000008628        0x8 /tmp/ccixa8PF.ltrans0.ltrans.o
+                0x0000000000008628        0x8 /tmp/ccLiYYv9.ltrans0.ltrans.o
  .bss.mPeiPcdDbSize
-                0x0000000000008630        0x8 /tmp/ccixa8PF.ltrans0.ltrans.o
+                0x0000000000008630        0x8 /tmp/ccLiYYv9.ltrans0.ltrans.o
  .bss.mVpdBaseAddress
-                0x0000000000008638        0x8 /tmp/ccixa8PF.ltrans0.ltrans.o
- .bss.m_Color   0x0000000000008640       0x10 /tmp/ccixa8PF.ltrans0.ltrans.o
+                0x0000000000008638        0x8 /tmp/ccLiYYv9.ltrans0.ltrans.o
+ .bss.m_Color   0x0000000000008640       0x10 /tmp/ccLiYYv9.ltrans0.ltrans.o
  .bss.m_Initialized
-                0x0000000000008650        0x1 /tmp/ccixa8PF.ltrans0.ltrans.o
+                0x0000000000008650        0x1 /tmp/ccLiYYv9.ltrans0.ltrans.o
  *fill*         0x0000000000008651        0x7 
  .bss.m_MaxPosition
-                0x0000000000008658       0x10 /tmp/ccixa8PF.ltrans0.ltrans.o
+                0x0000000000008658       0x10 /tmp/ccLiYYv9.ltrans0.ltrans.o
  .bss.m_Position
-                0x0000000000008668       0x10 /tmp/ccixa8PF.ltrans0.ltrans.o
+                0x0000000000008668       0x10 /tmp/ccLiYYv9.ltrans0.ltrans.o
 
 .dynbss         0x0000000000008678        0x0
  .dynbss        0x0000000000008678        0x0 /home/evsio0n/src/edk2sdm/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
@@ -798,27 +798,27 @@ END GROUP
 OUTPUT(/home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/MdeModulePkg/Universal/PCD/Dxe/Pcd/DEBUG/PcdDxe.dll elf64-littleaarch64)
 
 .debug_info     0x0000000000000000     0xaa33
- .debug_info    0x0000000000000000     0xaa33 /tmp/ccixa8PF.ltrans0.ltrans.o
+ .debug_info    0x0000000000000000     0xaa33 /tmp/ccLiYYv9.ltrans0.ltrans.o
 
 .debug_abbrev   0x0000000000000000      0x68a
- .debug_abbrev  0x0000000000000000      0x68a /tmp/ccixa8PF.ltrans0.ltrans.o
+ .debug_abbrev  0x0000000000000000      0x68a /tmp/ccLiYYv9.ltrans0.ltrans.o
 
 .debug_loc      0x0000000000000000     0xae2e
- .debug_loc     0x0000000000000000     0xae2e /tmp/ccixa8PF.ltrans0.ltrans.o
+ .debug_loc     0x0000000000000000     0xae2e /tmp/ccLiYYv9.ltrans0.ltrans.o
 
 .debug_aranges  0x0000000000000000      0x610
  .debug_aranges
-                0x0000000000000000      0x610 /tmp/ccixa8PF.ltrans0.ltrans.o
+                0x0000000000000000      0x610 /tmp/ccLiYYv9.ltrans0.ltrans.o
 
 .debug_ranges   0x0000000000000000      0xdc0
- .debug_ranges  0x0000000000000000      0xdc0 /tmp/ccixa8PF.ltrans0.ltrans.o
+ .debug_ranges  0x0000000000000000      0xdc0 /tmp/ccLiYYv9.ltrans0.ltrans.o
 
 .debug_line     0x0000000000000000     0x2060
- .debug_line    0x0000000000000000     0x2060 /tmp/ccixa8PF.ltrans0.ltrans.o
+ .debug_line    0x0000000000000000     0x2060 /tmp/ccLiYYv9.ltrans0.ltrans.o
 
 .debug_str      0x0000000000000000     0x3642
- .debug_str     0x0000000000000000     0x3642 /tmp/ccixa8PF.ltrans0.ltrans.o
+ .debug_str     0x0000000000000000     0x3642 /tmp/ccLiYYv9.ltrans0.ltrans.o
                                        0x3cce (松开之前的大小)
 
 .debug_frame    0x0000000000000000     0x1300
- .debug_frame   0x0000000000000000     0x1300 /tmp/ccixa8PF.ltrans0.ltrans.o
+ .debug_frame   0x0000000000000000     0x1300 /tmp/ccLiYYv9.ltrans0.ltrans.o

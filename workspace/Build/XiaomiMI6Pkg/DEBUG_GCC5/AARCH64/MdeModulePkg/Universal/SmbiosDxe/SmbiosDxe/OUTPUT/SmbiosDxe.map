@@ -104,20 +104,20 @@
  .text          0x0000000000000000       0x10 /home/evsio0n/src/edk2sdm/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
  .data          0x0000000000000000        0x0 /home/evsio0n/src/edk2sdm/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
  .bss           0x0000000000000000        0x0 /home/evsio0n/src/edk2sdm/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
- .text          0x0000000000000000        0x0 /tmp/ccETBpSM.ltrans0.ltrans.o
- .data          0x0000000000000000        0x0 /tmp/ccETBpSM.ltrans0.ltrans.o
- .bss           0x0000000000000000        0x0 /tmp/ccETBpSM.ltrans0.ltrans.o
+ .text          0x0000000000000000        0x0 /tmp/ccMTWelV.ltrans0.ltrans.o
+ .data          0x0000000000000000        0x0 /tmp/ccMTWelV.ltrans0.ltrans.o
+ .bss           0x0000000000000000        0x0 /tmp/ccMTWelV.ltrans0.ltrans.o
  .text._DriverUnloadHandler
-                0x0000000000000000        0x8 /tmp/ccETBpSM.ltrans0.ltrans.o
+                0x0000000000000000        0x8 /tmp/ccMTWelV.ltrans0.ltrans.o
  .text.StrnLenS
-                0x0000000000000000       0x7c /tmp/ccETBpSM.ltrans0.ltrans.o
+                0x0000000000000000       0x7c /tmp/ccMTWelV.ltrans0.ltrans.o
  .text.__memset
-                0x0000000000000000       0x1c /tmp/ccETBpSM.ltrans0.ltrans.o
+                0x0000000000000000       0x1c /tmp/ccMTWelV.ltrans0.ltrans.o
  .rodata.StrnLenS.str1.1
-                0x0000000000000000       0x23 /tmp/ccETBpSM.ltrans0.ltrans.o
- .comment       0x0000000000000000       0x33 /tmp/ccETBpSM.ltrans0.ltrans.o
+                0x0000000000000000       0x23 /tmp/ccMTWelV.ltrans0.ltrans.o
+ .comment       0x0000000000000000       0x33 /tmp/ccMTWelV.ltrans0.ltrans.o
  .note.GNU-stack
-                0x0000000000000000        0x0 /tmp/ccETBpSM.ltrans0.ltrans.o
+                0x0000000000000000        0x0 /tmp/ccMTWelV.ltrans0.ltrans.o
  .text          0x0000000000000000        0x8 /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(CpuBreakpoint.obj)
  .data          0x0000000000000000        0x0 /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(CpuBreakpoint.obj)
  .bss           0x0000000000000000        0x0 /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(CpuBreakpoint.obj)
@@ -291,7 +291,7 @@
 链结器命令稿和内存映射
 
 LOAD /home/evsio0n/src/edk2sdm/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
-LOAD /tmp/ccETBpSM.ltrans0.ltrans.o
+LOAD /tmp/ccMTWelV.ltrans0.ltrans.o
 START GROUP
 LOAD /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/DxePcdLib/DxePcdLib/OUTPUT/DxePcdLib.lib
 LOAD /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib
@@ -330,84 +330,84 @@ END GROUP
 .text           0x0000000000001000     0x4e38
  *(.text .text.* .stub .gnu.linkonce.t.*)
  .text.BasePrintLibFillBuffer
-                0x0000000000001000       0x34 /tmp/ccETBpSM.ltrans0.ltrans.o
+                0x0000000000001000       0x34 /tmp/ccMTWelV.ltrans0.ltrans.o
  .text.DebugPrintLevelEnabled
-                0x0000000000001034        0x8 /tmp/ccETBpSM.ltrans0.ltrans.o
+                0x0000000000001034        0x8 /tmp/ccMTWelV.ltrans0.ltrans.o
  .text.DebugPrintEnabled
-                0x000000000000103c        0x8 /tmp/ccETBpSM.ltrans0.ltrans.o
+                0x000000000000103c        0x8 /tmp/ccMTWelV.ltrans0.ltrans.o
  .text.DebugAssertEnabled
-                0x0000000000001044        0x8 /tmp/ccETBpSM.ltrans0.ltrans.o
+                0x0000000000001044        0x8 /tmp/ccMTWelV.ltrans0.ltrans.o
  .text.AsciiStrnLenS
-                0x000000000000104c       0x3c /tmp/ccETBpSM.ltrans0.ltrans.o
+                0x000000000000104c       0x3c /tmp/ccMTWelV.ltrans0.ltrans.o
  .text.GetSmbiosStructureSize.part.0
-                0x0000000000001088       0xc4 /tmp/ccETBpSM.ltrans0.ltrans.o
+                0x0000000000001088       0xc4 /tmp/ccMTWelV.ltrans0.ltrans.o
  .text.BaseDebugLibSerialPortConstructor
-                0x000000000000114c       0x84 /tmp/ccETBpSM.ltrans0.ltrans.o
+                0x000000000000114c       0x84 /tmp/ccMTWelV.ltrans0.ltrans.o
  .text.FbConFlush
-                0x00000000000011d0       0x54 /tmp/ccETBpSM.ltrans0.ltrans.o
+                0x00000000000011d0       0x54 /tmp/ccMTWelV.ltrans0.ltrans.o
  .text.SerialPortWrite
-                0x0000000000001224      0x418 /tmp/ccETBpSM.ltrans0.ltrans.o
+                0x0000000000001224      0x418 /tmp/ccMTWelV.ltrans0.ltrans.o
  .text.DebugAssert
-                0x000000000000163c       0x7c /tmp/ccETBpSM.ltrans0.ltrans.o
+                0x000000000000163c       0x7c /tmp/ccMTWelV.ltrans0.ltrans.o
  .text.CompareGuid.constprop.8
-                0x00000000000016b8       0x50 /tmp/ccETBpSM.ltrans0.ltrans.o
+                0x00000000000016b8       0x50 /tmp/ccMTWelV.ltrans0.ltrans.o
  .text.GetNextSmbiosRecord.constprop.2
-                0x0000000000001708       0xf4 /tmp/ccETBpSM.ltrans0.ltrans.o
+                0x0000000000001708       0xf4 /tmp/ccMTWelV.ltrans0.ltrans.o
  .text.unlikely.ReadUnaligned16
-                0x00000000000017fc       0x68 /tmp/ccETBpSM.ltrans0.ltrans.o
+                0x00000000000017fc       0x68 /tmp/ccMTWelV.ltrans0.ltrans.o
  .text.EfiReleaseLock
-                0x0000000000001864       0x80 /tmp/ccETBpSM.ltrans0.ltrans.o
+                0x0000000000001864       0x80 /tmp/ccMTWelV.ltrans0.ltrans.o
  .text.EfiAcquireLockOrFail
-                0x00000000000018e4       0x9c /tmp/ccETBpSM.ltrans0.ltrans.o
+                0x00000000000018e4       0x9c /tmp/ccMTWelV.ltrans0.ltrans.o
  .text.AsciiStrLen
-                0x0000000000001980       0xa0 /tmp/ccETBpSM.ltrans0.ltrans.o
+                0x0000000000001980       0xa0 /tmp/ccMTWelV.ltrans0.ltrans.o
  .text.AsciiStrCpyS
-                0x0000000000001a20      0x1b4 /tmp/ccETBpSM.ltrans0.ltrans.o
+                0x0000000000001a20      0x1b4 /tmp/ccMTWelV.ltrans0.ltrans.o
  .text.BasePrintLibSPrintMarker.constprop.15
-                0x0000000000001bd4      0xcbc /tmp/ccETBpSM.ltrans0.ltrans.o
+                0x0000000000001bd4      0xcbc /tmp/ccMTWelV.ltrans0.ltrans.o
  .text.unlikely.BasePrintLibSPrint.constprop.16
-                0x0000000000002890       0x98 /tmp/ccETBpSM.ltrans0.ltrans.o
+                0x0000000000002890       0x98 /tmp/ccMTWelV.ltrans0.ltrans.o
  .text.DebugPrint
-                0x0000000000002928       0xb8 /tmp/ccETBpSM.ltrans0.ltrans.o
+                0x0000000000002928       0xb8 /tmp/ccMTWelV.ltrans0.ltrans.o
  .text.FreePool
-                0x00000000000029e0       0x7c /tmp/ccETBpSM.ltrans0.ltrans.o
+                0x00000000000029e0       0x7c /tmp/ccMTWelV.ltrans0.ltrans.o
  .text.FreePages
-                0x0000000000002a5c       0xc4 /tmp/ccETBpSM.ltrans0.ltrans.o
+                0x0000000000002a5c       0xc4 /tmp/ccMTWelV.ltrans0.ltrans.o
  .text.AsciiSPrint.constprop.13
-                0x0000000000002b20       0xa4 /tmp/ccETBpSM.ltrans0.ltrans.o
+                0x0000000000002b20       0xa4 /tmp/ccMTWelV.ltrans0.ltrans.o
  .text.InitializeListHead
-                0x0000000000002bc4        0x8 /tmp/ccETBpSM.ltrans0.ltrans.o
+                0x0000000000002bc4        0x8 /tmp/ccMTWelV.ltrans0.ltrans.o
  .text.InternalBaseLibIsListValid
-                0x0000000000002bcc       0xb8 /tmp/ccETBpSM.ltrans0.ltrans.o
+                0x0000000000002bcc       0xb8 /tmp/ccMTWelV.ltrans0.ltrans.o
  .text.RemoveEntryList
-                0x0000000000002c84       0x88 /tmp/ccETBpSM.ltrans0.ltrans.o
+                0x0000000000002c84       0x88 /tmp/ccMTWelV.ltrans0.ltrans.o
  .text.InsertTailList
-                0x0000000000002d0c       0x6c /tmp/ccETBpSM.ltrans0.ltrans.o
+                0x0000000000002d0c       0x6c /tmp/ccMTWelV.ltrans0.ltrans.o
  .text.CalculateCheckSum8
-                0x0000000000002d78       0x94 /tmp/ccETBpSM.ltrans0.ltrans.o
+                0x0000000000002d78       0x94 /tmp/ccMTWelV.ltrans0.ltrans.o
  .text.SmbiosGetNext
-                0x0000000000002e0c      0x178 /tmp/ccETBpSM.ltrans0.ltrans.o
+                0x0000000000002e0c      0x178 /tmp/ccMTWelV.ltrans0.ltrans.o
  .text.CheckSmbiosHandleExistance
-                0x0000000000002f84       0xa4 /tmp/ccETBpSM.ltrans0.ltrans.o
- .text.CopyMem  0x0000000000003028       0xb0 /tmp/ccETBpSM.ltrans0.ltrans.o
+                0x0000000000002f84       0xa4 /tmp/ccMTWelV.ltrans0.ltrans.o
+ .text.CopyMem  0x0000000000003028       0xb0 /tmp/ccMTWelV.ltrans0.ltrans.o
  .text.SmbiosTableConstruction
-                0x00000000000030d8      0x78c /tmp/ccETBpSM.ltrans0.ltrans.o
+                0x00000000000030d8      0x78c /tmp/ccMTWelV.ltrans0.ltrans.o
  .text.SmbiosRemove
-                0x0000000000003864      0x22c /tmp/ccETBpSM.ltrans0.ltrans.o
- .text.ZeroMem  0x0000000000003a90       0x7c /tmp/ccETBpSM.ltrans0.ltrans.o
+                0x0000000000003864      0x22c /tmp/ccMTWelV.ltrans0.ltrans.o
+ .text.ZeroMem  0x0000000000003a90       0x7c /tmp/ccMTWelV.ltrans0.ltrans.o
  .text.AllocateZeroPool
-                0x0000000000003b0c       0x7c /tmp/ccETBpSM.ltrans0.ltrans.o
+                0x0000000000003b0c       0x7c /tmp/ccMTWelV.ltrans0.ltrans.o
  .text.SmbiosUpdateString
-                0x0000000000003b88      0x4c4 /tmp/ccETBpSM.ltrans0.ltrans.o
+                0x0000000000003b88      0x4c4 /tmp/ccMTWelV.ltrans0.ltrans.o
  .text.SmbiosAdd
-                0x000000000000404c      0x3bc /tmp/ccETBpSM.ltrans0.ltrans.o
+                0x000000000000404c      0x3bc /tmp/ccMTWelV.ltrans0.ltrans.o
  .text.__stack_chk_fail
-                0x0000000000004408       0x34 /tmp/ccETBpSM.ltrans0.ltrans.o
+                0x0000000000004408       0x34 /tmp/ccMTWelV.ltrans0.ltrans.o
                 0x0000000000004408                __stack_chk_fail
  .text._ModuleEntryPoint
-                0x000000000000443c      0x280 /tmp/ccETBpSM.ltrans0.ltrans.o
+                0x000000000000443c      0x280 /tmp/ccMTWelV.ltrans0.ltrans.o
                 0x000000000000443c                _ModuleEntryPoint
- .text.memcpy   0x00000000000046bc       0x20 /tmp/ccETBpSM.ltrans0.ltrans.o
+ .text.memcpy   0x00000000000046bc       0x20 /tmp/ccMTWelV.ltrans0.ltrans.o
                 0x00000000000046bc                memcpy
  *fill*         0x00000000000046dc        0x4 
  .text          0x00000000000046e0      0x200 /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(SetMem.obj)
@@ -441,62 +441,62 @@ END GROUP
                 0x0000000000004b58                ArmDataSynchronizationBarrier
  *(.rodata .rodata.* .gnu.linkonce.r.*)
  .rodata.AsciiStrCpyS.str1.1
-                0x0000000000004b60      0x138 /tmp/ccETBpSM.ltrans0.ltrans.o
+                0x0000000000004b60      0x138 /tmp/ccMTWelV.ltrans0.ltrans.o
  .rodata.AsciiStrLen.str1.1
-                0x0000000000004c98       0x8e /tmp/ccETBpSM.ltrans0.ltrans.o
+                0x0000000000004c98       0x8e /tmp/ccMTWelV.ltrans0.ltrans.o
  .rodata.BasePrintLibSPrintMarker.constprop.15.str1.1
-                0x0000000000004d26      0x17e /tmp/ccETBpSM.ltrans0.ltrans.o
+                0x0000000000004d26      0x17e /tmp/ccMTWelV.ltrans0.ltrans.o
  .rodata.CalculateCheckSum8.str1.1
-                0x0000000000004ea4       0x7a /tmp/ccETBpSM.ltrans0.ltrans.o
+                0x0000000000004ea4       0x7a /tmp/ccMTWelV.ltrans0.ltrans.o
  .rodata.CompareGuid.constprop.8.str1.1
-                0x0000000000004f1e       0x69 /tmp/ccETBpSM.ltrans0.ltrans.o
+                0x0000000000004f1e       0x69 /tmp/ccMTWelV.ltrans0.ltrans.o
  .rodata.CopyMem.str1.1
-                0x0000000000004f87       0xd4 /tmp/ccETBpSM.ltrans0.ltrans.o
+                0x0000000000004f87       0xd4 /tmp/ccMTWelV.ltrans0.ltrans.o
  .rodata.DebugAssert.str1.1
-                0x000000000000505b       0x22 /tmp/ccETBpSM.ltrans0.ltrans.o
+                0x000000000000505b       0x22 /tmp/ccMTWelV.ltrans0.ltrans.o
  .rodata.EfiAcquireLockOrFail.str1.1
-                0x000000000000507d       0x23 /tmp/ccETBpSM.ltrans0.ltrans.o
+                0x000000000000507d       0x23 /tmp/ccMTWelV.ltrans0.ltrans.o
  .rodata.EfiReleaseLock.str1.1
-                0x00000000000050a0       0x73 /tmp/ccETBpSM.ltrans0.ltrans.o
+                0x00000000000050a0       0x73 /tmp/ccMTWelV.ltrans0.ltrans.o
  .rodata.FreePages.str1.1
-                0x0000000000005113        0xb /tmp/ccETBpSM.ltrans0.ltrans.o
+                0x0000000000005113        0xb /tmp/ccMTWelV.ltrans0.ltrans.o
  .rodata.FreePool.str1.1
-                0x000000000000511e       0x91 /tmp/ccETBpSM.ltrans0.ltrans.o
+                0x000000000000511e       0x91 /tmp/ccMTWelV.ltrans0.ltrans.o
  .rodata.GetNextSmbiosRecord.constprop.2.str1.1
-                0x00000000000051af       0x61 /tmp/ccETBpSM.ltrans0.ltrans.o
+                0x00000000000051af       0x61 /tmp/ccMTWelV.ltrans0.ltrans.o
  .rodata.InternalBaseLibIsListValid.str1.1
-                0x0000000000005210       0x84 /tmp/ccETBpSM.ltrans0.ltrans.o
+                0x0000000000005210       0x84 /tmp/ccMTWelV.ltrans0.ltrans.o
                                          0x99 (松开之前的大小)
  .rodata.ReadUnaligned16.str1.1
-                0x0000000000005294       0x5d /tmp/ccETBpSM.ltrans0.ltrans.o
+                0x0000000000005294       0x5d /tmp/ccMTWelV.ltrans0.ltrans.o
  .rodata.RemoveEntryList.str1.1
-                0x00000000000052f1       0x3b /tmp/ccETBpSM.ltrans0.ltrans.o
+                0x00000000000052f1       0x3b /tmp/ccMTWelV.ltrans0.ltrans.o
  .rodata.SmbiosAdd.str1.1
-                0x000000000000532c      0x12e /tmp/ccETBpSM.ltrans0.ltrans.o
+                0x000000000000532c      0x12e /tmp/ccMTWelV.ltrans0.ltrans.o
  .rodata.SmbiosRemove.str1.1
-                0x000000000000545a       0x50 /tmp/ccETBpSM.ltrans0.ltrans.o
+                0x000000000000545a       0x50 /tmp/ccMTWelV.ltrans0.ltrans.o
  .rodata.SmbiosTableConstruction.str1.1
-                0x00000000000054aa      0x1f6 /tmp/ccETBpSM.ltrans0.ltrans.o
+                0x00000000000054aa      0x1f6 /tmp/ccMTWelV.ltrans0.ltrans.o
                                         0x21d (松开之前的大小)
  .rodata.SmbiosUpdateString.str1.1
-                0x00000000000056a0       0xfa /tmp/ccETBpSM.ltrans0.ltrans.o
+                0x00000000000056a0       0xfa /tmp/ccMTWelV.ltrans0.ltrans.o
  .rodata.ZeroMem.str1.1
-                0x000000000000579a       0x89 /tmp/ccETBpSM.ltrans0.ltrans.o
+                0x000000000000579a       0x89 /tmp/ccMTWelV.ltrans0.ltrans.o
  .rodata._ModuleEntryPoint.str1.1
-                0x0000000000005823      0x229 /tmp/ccETBpSM.ltrans0.ltrans.o
+                0x0000000000005823      0x229 /tmp/ccMTWelV.ltrans0.ltrans.o
  .rodata.__FUNCTION__.15420
-                0x0000000000005a4c       0x12 /tmp/ccETBpSM.ltrans0.ltrans.o
+                0x0000000000005a4c       0x12 /tmp/ccMTWelV.ltrans0.ltrans.o
  .rodata.__FUNCTION__.15438
-                0x0000000000005a5e       0x17 /tmp/ccETBpSM.ltrans0.ltrans.o
+                0x0000000000005a5e       0x17 /tmp/ccMTWelV.ltrans0.ltrans.o
  .rodata.__stack_chk_fail.str1.1
-                0x0000000000005a75       0x2e /tmp/ccETBpSM.ltrans0.ltrans.o
+                0x0000000000005a75       0x2e /tmp/ccMTWelV.ltrans0.ltrans.o
  .rodata.mHexStr
-                0x0000000000005aa3       0x10 /tmp/ccETBpSM.ltrans0.ltrans.o
+                0x0000000000005aa3       0x10 /tmp/ccMTWelV.ltrans0.ltrans.o
  *fill*         0x0000000000005ab3        0x5 
  .rodata.mStatusString
-                0x0000000000005ab8      0x138 /tmp/ccETBpSM.ltrans0.ltrans.o
+                0x0000000000005ab8      0x138 /tmp/ccMTWelV.ltrans0.ltrans.o
  .rodata.str1.1
-                0x0000000000005bf0      0x224 /tmp/ccETBpSM.ltrans0.ltrans.o
+                0x0000000000005bf0      0x224 /tmp/ccMTWelV.ltrans0.ltrans.o
                                         0x235 (松开之前的大小)
  *(.got .got.*)
  *fill*         0x0000000000005e14        0x4 
@@ -512,48 +512,48 @@ END GROUP
  *(.data .data.* .gnu.linkonce.d.*)
  .data.rel.ro   0x0000000000006000        0x0 /home/evsio0n/src/edk2sdm/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
  .data.EntryPointStructureData
-                0x0000000000006000       0x1f /tmp/ccETBpSM.ltrans0.ltrans.o
+                0x0000000000006000       0x1f /tmp/ccMTWelV.ltrans0.ltrans.o
  .data.Smbios30EntryPointStructureData
-                0x000000000000601f       0x18 /tmp/ccETBpSM.ltrans0.ltrans.o
+                0x000000000000601f       0x18 /tmp/ccMTWelV.ltrans0.ltrans.o
  *fill*         0x0000000000006037        0x1 
  .data.__stack_chk_guard
-                0x0000000000006038        0x8 /tmp/ccETBpSM.ltrans0.ltrans.o
+                0x0000000000006038        0x8 /tmp/ccMTWelV.ltrans0.ltrans.o
                 0x0000000000006038                __stack_chk_guard
  .data.font5x12
-                0x0000000000006040      0x300 /tmp/ccETBpSM.ltrans0.ltrans.o
+                0x0000000000006040      0x300 /tmp/ccMTWelV.ltrans0.ltrans.o
  .data.gEfiHobListGuid
-                0x0000000000006340       0x10 /tmp/ccETBpSM.ltrans0.ltrans.o
+                0x0000000000006340       0x10 /tmp/ccMTWelV.ltrans0.ltrans.o
  .data.gEfiSmbios3TableGuid
-                0x0000000000006350       0x10 /tmp/ccETBpSM.ltrans0.ltrans.o
+                0x0000000000006350       0x10 /tmp/ccMTWelV.ltrans0.ltrans.o
  .data.gEfiSmbiosProtocolGuid
-                0x0000000000006360       0x10 /tmp/ccETBpSM.ltrans0.ltrans.o
+                0x0000000000006360       0x10 /tmp/ccMTWelV.ltrans0.ltrans.o
  .data.gEfiSmbiosTableGuid
-                0x0000000000006370       0x10 /tmp/ccETBpSM.ltrans0.ltrans.o
+                0x0000000000006370       0x10 /tmp/ccMTWelV.ltrans0.ltrans.o
  *(.bss .bss.*)
  .bss.EntryPointStructure
-                0x0000000000006380        0x8 /tmp/ccETBpSM.ltrans0.ltrans.o
+                0x0000000000006380        0x8 /tmp/ccMTWelV.ltrans0.ltrans.o
  .bss.Smbios30EntryPointStructure
-                0x0000000000006388        0x8 /tmp/ccETBpSM.ltrans0.ltrans.o
- .bss.gBS       0x0000000000006390        0x8 /tmp/ccETBpSM.ltrans0.ltrans.o
+                0x0000000000006388        0x8 /tmp/ccMTWelV.ltrans0.ltrans.o
+ .bss.gBS       0x0000000000006390        0x8 /tmp/ccMTWelV.ltrans0.ltrans.o
  .bss.gImageHandle
-                0x0000000000006398        0x8 /tmp/ccETBpSM.ltrans0.ltrans.o
- .bss.gRT       0x00000000000063a0        0x8 /tmp/ccETBpSM.ltrans0.ltrans.o
- .bss.gST       0x00000000000063a8        0x8 /tmp/ccETBpSM.ltrans0.ltrans.o
- .bss.mHobList  0x00000000000063b0        0x8 /tmp/ccETBpSM.ltrans0.ltrans.o
+                0x0000000000006398        0x8 /tmp/ccMTWelV.ltrans0.ltrans.o
+ .bss.gRT       0x00000000000063a0        0x8 /tmp/ccMTWelV.ltrans0.ltrans.o
+ .bss.gST       0x00000000000063a8        0x8 /tmp/ccMTWelV.ltrans0.ltrans.o
+ .bss.mHobList  0x00000000000063b0        0x8 /tmp/ccMTWelV.ltrans0.ltrans.o
  .bss.mPre64BitAllocatedPages
-                0x00000000000063b8        0x8 /tmp/ccETBpSM.ltrans0.ltrans.o
+                0x00000000000063b8        0x8 /tmp/ccMTWelV.ltrans0.ltrans.o
  .bss.mPreAllocatedPages
-                0x00000000000063c0        0x8 /tmp/ccETBpSM.ltrans0.ltrans.o
+                0x00000000000063c0        0x8 /tmp/ccMTWelV.ltrans0.ltrans.o
  .bss.mPrivateData
-                0x00000000000063c8       0x70 /tmp/ccETBpSM.ltrans0.ltrans.o
- .bss.m_Color   0x0000000000006438       0x10 /tmp/ccETBpSM.ltrans0.ltrans.o
+                0x00000000000063c8       0x70 /tmp/ccMTWelV.ltrans0.ltrans.o
+ .bss.m_Color   0x0000000000006438       0x10 /tmp/ccMTWelV.ltrans0.ltrans.o
  .bss.m_Initialized
-                0x0000000000006448        0x1 /tmp/ccETBpSM.ltrans0.ltrans.o
+                0x0000000000006448        0x1 /tmp/ccMTWelV.ltrans0.ltrans.o
  *fill*         0x0000000000006449        0x7 
  .bss.m_MaxPosition
-                0x0000000000006450       0x10 /tmp/ccETBpSM.ltrans0.ltrans.o
+                0x0000000000006450       0x10 /tmp/ccMTWelV.ltrans0.ltrans.o
  .bss.m_Position
-                0x0000000000006460       0x10 /tmp/ccETBpSM.ltrans0.ltrans.o
+                0x0000000000006460       0x10 /tmp/ccMTWelV.ltrans0.ltrans.o
 
 .dynbss         0x0000000000006470        0x0
  .dynbss        0x0000000000006470        0x0 /home/evsio0n/src/edk2sdm/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
@@ -594,27 +594,27 @@ END GROUP
 OUTPUT(/home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/MdeModulePkg/Universal/SmbiosDxe/SmbiosDxe/DEBUG/SmbiosDxe.dll elf64-littleaarch64)
 
 .debug_info     0x0000000000000000     0x71d5
- .debug_info    0x0000000000000000     0x71d5 /tmp/ccETBpSM.ltrans0.ltrans.o
+ .debug_info    0x0000000000000000     0x71d5 /tmp/ccMTWelV.ltrans0.ltrans.o
 
 .debug_abbrev   0x0000000000000000      0x60f
- .debug_abbrev  0x0000000000000000      0x60f /tmp/ccETBpSM.ltrans0.ltrans.o
+ .debug_abbrev  0x0000000000000000      0x60f /tmp/ccMTWelV.ltrans0.ltrans.o
 
 .debug_loc      0x0000000000000000     0x7547
- .debug_loc     0x0000000000000000     0x7547 /tmp/ccETBpSM.ltrans0.ltrans.o
+ .debug_loc     0x0000000000000000     0x7547 /tmp/ccMTWelV.ltrans0.ltrans.o
 
 .debug_aranges  0x0000000000000000      0x2d0
  .debug_aranges
-                0x0000000000000000      0x2d0 /tmp/ccETBpSM.ltrans0.ltrans.o
+                0x0000000000000000      0x2d0 /tmp/ccMTWelV.ltrans0.ltrans.o
 
 .debug_ranges   0x0000000000000000      0xb00
- .debug_ranges  0x0000000000000000      0xb00 /tmp/ccETBpSM.ltrans0.ltrans.o
+ .debug_ranges  0x0000000000000000      0xb00 /tmp/ccMTWelV.ltrans0.ltrans.o
 
 .debug_line     0x0000000000000000     0x169a
- .debug_line    0x0000000000000000     0x169a /tmp/ccETBpSM.ltrans0.ltrans.o
+ .debug_line    0x0000000000000000     0x169a /tmp/ccMTWelV.ltrans0.ltrans.o
 
 .debug_str      0x0000000000000000     0x24b5
- .debug_str     0x0000000000000000     0x24b5 /tmp/ccETBpSM.ltrans0.ltrans.o
+ .debug_str     0x0000000000000000     0x24b5 /tmp/ccMTWelV.ltrans0.ltrans.o
                                        0x27d9 (松开之前的大小)
 
 .debug_frame    0x0000000000000000      0x8d8
- .debug_frame   0x0000000000000000      0x8d8 /tmp/ccETBpSM.ltrans0.ltrans.o
+ .debug_frame   0x0000000000000000      0x8d8 /tmp/ccMTWelV.ltrans0.ltrans.o

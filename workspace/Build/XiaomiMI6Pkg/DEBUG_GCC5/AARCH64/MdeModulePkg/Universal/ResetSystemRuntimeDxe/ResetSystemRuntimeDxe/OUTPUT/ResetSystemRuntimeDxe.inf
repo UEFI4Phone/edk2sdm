@@ -111,11 +111,6 @@
   ## SOMETIMES_CONSUMES   ## Variable:L"CapsuleUpdateData"
   gEfiCapsuleVendorGuid
 
-  ## CONSUMES ## Event
-  ## CONSUMES ## Event
-  ## CONSUMES ## Event
-  gEfiEventExitBootServicesGuid
-
   ## SOMETIMES_CONSUMES  ## GUID
   gEfiVTUTF8Guid
 
@@ -166,6 +161,10 @@
 
   ## CONSUMES ## Event
   ## CONSUMES ## Event
+  gEfiEventExitBootServicesGuid
+
+  ## CONSUMES ## Event
+  ## CONSUMES ## Event
   gEfiEventVirtualAddressChangeGuid
 
   ## SOMETIMES_CONSUMES   ## UNDEFINED
@@ -186,10 +185,10 @@
 #  ArmPkg/Library/ArmCacheMaintenanceLib/ArmCacheMaintenanceLib.inf
 #  MdePkg/Library/BaseIoLibIntrinsic/BaseIoLibIntrinsic.inf
 #  ArmPkg/Library/CompilerIntrinsicsLib/CompilerIntrinsicsLib.inf
-#  XiaomiMI6Pkg/Library/FrameBufferSerialPortLib/FrameBufferSerialPortLib.inf
 #  MdePkg/Library/BaseDebugPrintErrorLevelLib/BaseDebugPrintErrorLevelLib.inf
+#  XiaomiMI6Pkg/Library/FrameBufferSerialPortLib/FrameBufferSerialPortLib.inf
 #  MdePkg/Library/BasePrintLib/BasePrintLib.inf
-#  MdePkg/Library/DxeRuntimeDebugLibSerialPort/DxeRuntimeDebugLibSerialPort.inf
+#  MdePkg/Library/BaseDebugLibSerialPort/BaseDebugLibSerialPort.inf
 #  MdePkg/Library/UefiBootServicesTableLib/UefiBootServicesTableLib.inf
 #  MdePkg/Library/UefiMemoryAllocationLib/UefiMemoryAllocationLib.inf
 #  MdePkg/Library/UefiDevicePathLib/UefiDevicePathLib.inf

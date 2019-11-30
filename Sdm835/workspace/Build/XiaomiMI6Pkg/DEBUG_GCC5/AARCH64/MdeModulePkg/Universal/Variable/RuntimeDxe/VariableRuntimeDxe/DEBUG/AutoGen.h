@@ -37,7 +37,6 @@ extern EFI_GUID gEfiImageSecurityDatabaseGuid;
 extern EFI_GUID gEfiMdeModulePkgTokenSpaceGuid;
 extern EFI_GUID gEfiMdePkgTokenSpaceGuid;
 extern EFI_GUID gXiaomiMI6PkgTokenSpaceGuid;
-extern EFI_GUID gEfiEventExitBootServicesGuid;
 extern EFI_GUID gEfiVTUTF8Guid;
 extern EFI_GUID gEfiVT100Guid;
 extern EFI_GUID gEfiVT100PlusGuid;
@@ -54,6 +53,7 @@ extern EFI_GUID gEfiAcpi20TableGuid;
 extern EFI_GUID gEfiAcpi10TableGuid;
 extern EFI_GUID gEfiHobListGuid;
 extern EFI_GUID gArmTokenSpaceGuid;
+extern EFI_GUID gEfiEventExitBootServicesGuid;
 extern EFI_GUID gEfiDxeServicesTableGuid;
 extern EFI_GUID gEfiHardwareErrorVariableGuid;
 

@@ -29,6 +29,12 @@
 !include XiaomiMI6Pkg/CommonDsc.dsc.inc
 
 [LibraryClasses.common]
+!if $(TARGET) == RELEASE
+  DebugLib|MdePkg/Library/BaseDebugLibSerialPort/BaseDebugLibSerialPort.inf
+!else
+  DebugLib|MdePkg/Library/BaseDebugLibSerialPort/BaseDebugLibSerialPort.inf
+!endif
+  DebugPrintErrorLevelLib|MdePkg/Library/BaseDebugPrintErrorLevelLib/BaseDebugPrintErrorLevelLib.inf
   ArmLib|ArmPkg/Library/ArmLib/ArmBaseLib.inf
   ArmPlatformLib|XiaomiMI6Pkg/Library/XiaomiMI6Lib/XiaomiMI6Lib.inf
   CompilerIntrinsicsLib|ArmPkg/Library/CompilerIntrinsicsLib/CompilerIntrinsicsLib.inf
@@ -106,6 +112,12 @@
   gArmPlatformTokenSpaceGuid.PcdCoreCount|1
   gArmPlatformTokenSpaceGuid.PcdClusterCount|1
 
+  
+  !if $(TARGET) == RELEASE
+  gEfiMdePkgTokenSpaceGuid.PcdDebugPropertyMask|0x0e
+!else
+  gEfiMdePkgTokenSpaceGuid.PcdDebugPropertyMask|0x0f
+!endif
   #
   # ARM PrimeCell
   #

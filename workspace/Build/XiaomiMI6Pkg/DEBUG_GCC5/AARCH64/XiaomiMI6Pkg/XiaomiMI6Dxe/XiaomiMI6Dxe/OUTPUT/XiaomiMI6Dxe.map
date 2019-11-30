@@ -110,20 +110,20 @@
  .text          0x0000000000000000       0x10 /home/evsio0n/src/edk2sdm/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
  .data          0x0000000000000000        0x0 /home/evsio0n/src/edk2sdm/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
  .bss           0x0000000000000000        0x0 /home/evsio0n/src/edk2sdm/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
- .text          0x0000000000000000        0x0 /tmp/ccSsOZv5.ltrans0.ltrans.o
- .data          0x0000000000000000        0x0 /tmp/ccSsOZv5.ltrans0.ltrans.o
- .bss           0x0000000000000000        0x0 /tmp/ccSsOZv5.ltrans0.ltrans.o
+ .text          0x0000000000000000        0x0 /tmp/ccSV6pMY.ltrans0.ltrans.o
+ .data          0x0000000000000000        0x0 /tmp/ccSV6pMY.ltrans0.ltrans.o
+ .bss           0x0000000000000000        0x0 /tmp/ccSV6pMY.ltrans0.ltrans.o
  .text._DriverUnloadHandler
-                0x0000000000000000        0x8 /tmp/ccSsOZv5.ltrans0.ltrans.o
+                0x0000000000000000        0x8 /tmp/ccSV6pMY.ltrans0.ltrans.o
  .text.StrnLenS
-                0x0000000000000000       0x7c /tmp/ccSsOZv5.ltrans0.ltrans.o
+                0x0000000000000000       0x7c /tmp/ccSV6pMY.ltrans0.ltrans.o
  .text.__memset
-                0x0000000000000000       0x1c /tmp/ccSsOZv5.ltrans0.ltrans.o
+                0x0000000000000000       0x1c /tmp/ccSV6pMY.ltrans0.ltrans.o
  .rodata.StrnLenS.str1.1
-                0x0000000000000000       0x66 /tmp/ccSsOZv5.ltrans0.ltrans.o
- .comment       0x0000000000000000       0x33 /tmp/ccSsOZv5.ltrans0.ltrans.o
+                0x0000000000000000       0x66 /tmp/ccSV6pMY.ltrans0.ltrans.o
+ .comment       0x0000000000000000       0x33 /tmp/ccSV6pMY.ltrans0.ltrans.o
  .note.GNU-stack
-                0x0000000000000000        0x0 /tmp/ccSsOZv5.ltrans0.ltrans.o
+                0x0000000000000000        0x0 /tmp/ccSV6pMY.ltrans0.ltrans.o
  .text          0x0000000000000000        0x8 /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(CpuBreakpoint.obj)
  .data          0x0000000000000000        0x0 /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(CpuBreakpoint.obj)
  .bss           0x0000000000000000        0x0 /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(CpuBreakpoint.obj)
@@ -338,7 +338,7 @@
 链结器命令稿和内存映射
 
 LOAD /home/evsio0n/src/edk2sdm/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
-LOAD /tmp/ccSsOZv5.ltrans0.ltrans.o
+LOAD /tmp/ccSV6pMY.ltrans0.ltrans.o
 START GROUP
 LOAD /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib
 LOAD /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/DxePcdLib/DxePcdLib/OUTPUT/DxePcdLib.lib
@@ -380,50 +380,50 @@ END GROUP
 .text           0x0000000000001000     0x26e0
  *(.text .text.* .stub .gnu.linkonce.t.*)
  .text.DebugPrintLevelEnabled.constprop.5
-                0x0000000000001000        0x8 /tmp/ccSsOZv5.ltrans0.ltrans.o
+                0x0000000000001000        0x8 /tmp/ccSV6pMY.ltrans0.ltrans.o
  .text.BasePrintLibFillBuffer
-                0x0000000000001008       0x34 /tmp/ccSsOZv5.ltrans0.ltrans.o
+                0x0000000000001008       0x34 /tmp/ccSV6pMY.ltrans0.ltrans.o
  .text.AsciiStrnLenS
-                0x000000000000103c       0x3c /tmp/ccSsOZv5.ltrans0.ltrans.o
+                0x000000000000103c       0x3c /tmp/ccSV6pMY.ltrans0.ltrans.o
  .text.DebugPrintEnabled
-                0x0000000000001078        0x8 /tmp/ccSsOZv5.ltrans0.ltrans.o
+                0x0000000000001078        0x8 /tmp/ccSV6pMY.ltrans0.ltrans.o
  .text.DebugAssertEnabled
-                0x0000000000001080        0x8 /tmp/ccSsOZv5.ltrans0.ltrans.o
+                0x0000000000001080        0x8 /tmp/ccSV6pMY.ltrans0.ltrans.o
  .text.ProcessLibraryDestructorList
-                0x0000000000001088        0x4 /tmp/ccSsOZv5.ltrans0.ltrans.o
+                0x0000000000001088        0x4 /tmp/ccSV6pMY.ltrans0.ltrans.o
  .text.BaseDebugLibSerialPortConstructor
-                0x000000000000108c       0x84 /tmp/ccSsOZv5.ltrans0.ltrans.o
+                0x000000000000108c       0x84 /tmp/ccSV6pMY.ltrans0.ltrans.o
  .text.FbConFlush
-                0x0000000000001110       0x54 /tmp/ccSsOZv5.ltrans0.ltrans.o
+                0x0000000000001110       0x54 /tmp/ccSV6pMY.ltrans0.ltrans.o
  .text.SerialPortWrite
-                0x0000000000001164      0x418 /tmp/ccSsOZv5.ltrans0.ltrans.o
+                0x0000000000001164      0x418 /tmp/ccSV6pMY.ltrans0.ltrans.o
  .text.DebugAssert
-                0x000000000000157c       0x7c /tmp/ccSsOZv5.ltrans0.ltrans.o
+                0x000000000000157c       0x7c /tmp/ccSV6pMY.ltrans0.ltrans.o
  .text.CompareGuid
-                0x00000000000015f8       0x54 /tmp/ccSsOZv5.ltrans0.ltrans.o
+                0x00000000000015f8       0x54 /tmp/ccSV6pMY.ltrans0.ltrans.o
  .text.unlikely.ReadUnaligned16
-                0x000000000000164c       0x68 /tmp/ccSsOZv5.ltrans0.ltrans.o
+                0x000000000000164c       0x68 /tmp/ccSV6pMY.ltrans0.ltrans.o
  .text.BasePrintLibSPrintMarker.constprop.12
-                0x00000000000016b4      0xcbc /tmp/ccSsOZv5.ltrans0.ltrans.o
+                0x00000000000016b4      0xcbc /tmp/ccSV6pMY.ltrans0.ltrans.o
  .text.unlikely.BasePrintLibSPrint.constprop.13
-                0x0000000000002370       0x98 /tmp/ccSsOZv5.ltrans0.ltrans.o
+                0x0000000000002370       0x98 /tmp/ccSV6pMY.ltrans0.ltrans.o
  .text.AsciiSPrint.constprop.10
-                0x0000000000002408       0xa4 /tmp/ccSsOZv5.ltrans0.ltrans.o
+                0x0000000000002408       0xa4 /tmp/ccSV6pMY.ltrans0.ltrans.o
  .text.AsciiStrLen
-                0x00000000000024ac       0x80 /tmp/ccSsOZv5.ltrans0.ltrans.o
+                0x00000000000024ac       0x80 /tmp/ccSV6pMY.ltrans0.ltrans.o
  .text.DebugPrint.constprop.6
-                0x000000000000252c       0xb8 /tmp/ccSsOZv5.ltrans0.ltrans.o
+                0x000000000000252c       0xb8 /tmp/ccSV6pMY.ltrans0.ltrans.o
  .text.TimerConstructor
-                0x00000000000025e4       0x84 /tmp/ccSsOZv5.ltrans0.ltrans.o
+                0x00000000000025e4       0x84 /tmp/ccSV6pMY.ltrans0.ltrans.o
  .text.EfiGetSystemConfigurationTable
-                0x0000000000002668       0x94 /tmp/ccSsOZv5.ltrans0.ltrans.o
+                0x0000000000002668       0x94 /tmp/ccSV6pMY.ltrans0.ltrans.o
  .text.__stack_chk_fail
-                0x00000000000026fc       0x34 /tmp/ccSsOZv5.ltrans0.ltrans.o
+                0x00000000000026fc       0x34 /tmp/ccSV6pMY.ltrans0.ltrans.o
                 0x00000000000026fc                __stack_chk_fail
  .text._ModuleEntryPoint
-                0x0000000000002730      0x48c /tmp/ccSsOZv5.ltrans0.ltrans.o
+                0x0000000000002730      0x48c /tmp/ccSV6pMY.ltrans0.ltrans.o
                 0x0000000000002730                _ModuleEntryPoint
- .text.memcpy   0x0000000000002bbc       0x20 /tmp/ccSsOZv5.ltrans0.ltrans.o
+ .text.memcpy   0x0000000000002bbc       0x20 /tmp/ccSV6pMY.ltrans0.ltrans.o
                 0x0000000000002bbc                memcpy
  *fill*         0x0000000000002bdc        0x4 
  .text          0x0000000000002be0       0x20 /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(CompareGuid.obj)
@@ -454,29 +454,29 @@ END GROUP
                 0x0000000000002c48                ArmReadCntFrq
  *(.rodata .rodata.* .gnu.linkonce.r.*)
  .rodata.AsciiStrLen.str1.1
-                0x0000000000002c50       0x77 /tmp/ccSsOZv5.ltrans0.ltrans.o
+                0x0000000000002c50       0x77 /tmp/ccSV6pMY.ltrans0.ltrans.o
  .rodata.BasePrintLibSPrintMarker.constprop.12.str1.1
-                0x0000000000002cc7      0x17e /tmp/ccSsOZv5.ltrans0.ltrans.o
+                0x0000000000002cc7      0x17e /tmp/ccSV6pMY.ltrans0.ltrans.o
  .rodata.CompareGuid.str1.1
-                0x0000000000002e45       0x69 /tmp/ccSsOZv5.ltrans0.ltrans.o
+                0x0000000000002e45       0x69 /tmp/ccSV6pMY.ltrans0.ltrans.o
  .rodata.DebugAssert.str1.1
-                0x0000000000002eae       0x25 /tmp/ccSsOZv5.ltrans0.ltrans.o
+                0x0000000000002eae       0x25 /tmp/ccSV6pMY.ltrans0.ltrans.o
  .rodata.ReadUnaligned16.str1.1
-                0x0000000000002ed3       0x5d /tmp/ccSsOZv5.ltrans0.ltrans.o
+                0x0000000000002ed3       0x5d /tmp/ccSV6pMY.ltrans0.ltrans.o
  .rodata.TimerConstructor.str1.1
-                0x0000000000002f30       0xcd /tmp/ccSsOZv5.ltrans0.ltrans.o
+                0x0000000000002f30       0xcd /tmp/ccSV6pMY.ltrans0.ltrans.o
                                          0xcf (松开之前的大小)
  .rodata._ModuleEntryPoint.str1.1
-                0x0000000000002ffd      0x324 /tmp/ccSsOZv5.ltrans0.ltrans.o
+                0x0000000000002ffd      0x324 /tmp/ccSV6pMY.ltrans0.ltrans.o
  .rodata.__stack_chk_fail.str1.1
-                0x0000000000003321       0x2e /tmp/ccSsOZv5.ltrans0.ltrans.o
+                0x0000000000003321       0x2e /tmp/ccSV6pMY.ltrans0.ltrans.o
  .rodata.mHexStr
-                0x000000000000334f       0x10 /tmp/ccSsOZv5.ltrans0.ltrans.o
+                0x000000000000334f       0x10 /tmp/ccSV6pMY.ltrans0.ltrans.o
  *fill*         0x000000000000335f        0x1 
  .rodata.mStatusString
-                0x0000000000003360      0x138 /tmp/ccSsOZv5.ltrans0.ltrans.o
+                0x0000000000003360      0x138 /tmp/ccSV6pMY.ltrans0.ltrans.o
  .rodata.str1.1
-                0x0000000000003498      0x224 /tmp/ccSsOZv5.ltrans0.ltrans.o
+                0x0000000000003498      0x224 /tmp/ccSV6pMY.ltrans0.ltrans.o
                                         0x235 (松开之前的大小)
  *(.got .got.*)
  *fill*         0x00000000000036bc        0x4 
@@ -492,35 +492,35 @@ END GROUP
  *(.data .data.* .gnu.linkonce.d.*)
  .data.rel.ro   0x0000000000004000        0x0 /home/evsio0n/src/edk2sdm/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
  .data.__stack_chk_guard
-                0x0000000000004000        0x8 /tmp/ccSsOZv5.ltrans0.ltrans.o
+                0x0000000000004000        0x8 /tmp/ccSV6pMY.ltrans0.ltrans.o
                 0x0000000000004000                __stack_chk_guard
  .data.font5x12
-                0x0000000000004008      0x300 /tmp/ccSsOZv5.ltrans0.ltrans.o
+                0x0000000000004008      0x300 /tmp/ccSV6pMY.ltrans0.ltrans.o
  .data.gEfiCpuArchProtocolGuid
-                0x0000000000004308       0x10 /tmp/ccSsOZv5.ltrans0.ltrans.o
+                0x0000000000004308       0x10 /tmp/ccSV6pMY.ltrans0.ltrans.o
  .data.gEfiDxeServicesTableGuid
-                0x0000000000004318       0x10 /tmp/ccSsOZv5.ltrans0.ltrans.o
+                0x0000000000004318       0x10 /tmp/ccSV6pMY.ltrans0.ltrans.o
  .data.gEfiEndOfDxeEventGroupGuid
-                0x0000000000004328       0x10 /tmp/ccSsOZv5.ltrans0.ltrans.o
+                0x0000000000004328       0x10 /tmp/ccSV6pMY.ltrans0.ltrans.o
  .data.gEfiHobListGuid
-                0x0000000000004338       0x10 /tmp/ccSsOZv5.ltrans0.ltrans.o
+                0x0000000000004338       0x10 /tmp/ccSV6pMY.ltrans0.ltrans.o
  *(.bss .bss.*)
- .bss.gBS       0x0000000000004348        0x8 /tmp/ccSsOZv5.ltrans0.ltrans.o
- .bss.gCpu      0x0000000000004350        0x8 /tmp/ccSsOZv5.ltrans0.ltrans.o
- .bss.gDS       0x0000000000004358        0x8 /tmp/ccSsOZv5.ltrans0.ltrans.o
+ .bss.gBS       0x0000000000004348        0x8 /tmp/ccSV6pMY.ltrans0.ltrans.o
+ .bss.gCpu      0x0000000000004350        0x8 /tmp/ccSV6pMY.ltrans0.ltrans.o
+ .bss.gDS       0x0000000000004358        0x8 /tmp/ccSV6pMY.ltrans0.ltrans.o
  .bss.gImageHandle
-                0x0000000000004360        0x8 /tmp/ccSsOZv5.ltrans0.ltrans.o
- .bss.gRT       0x0000000000004368        0x8 /tmp/ccSsOZv5.ltrans0.ltrans.o
- .bss.gST       0x0000000000004370        0x8 /tmp/ccSsOZv5.ltrans0.ltrans.o
- .bss.mHobList  0x0000000000004378        0x8 /tmp/ccSsOZv5.ltrans0.ltrans.o
- .bss.m_Color   0x0000000000004380       0x10 /tmp/ccSsOZv5.ltrans0.ltrans.o
+                0x0000000000004360        0x8 /tmp/ccSV6pMY.ltrans0.ltrans.o
+ .bss.gRT       0x0000000000004368        0x8 /tmp/ccSV6pMY.ltrans0.ltrans.o
+ .bss.gST       0x0000000000004370        0x8 /tmp/ccSV6pMY.ltrans0.ltrans.o
+ .bss.mHobList  0x0000000000004378        0x8 /tmp/ccSV6pMY.ltrans0.ltrans.o
+ .bss.m_Color   0x0000000000004380       0x10 /tmp/ccSV6pMY.ltrans0.ltrans.o
  .bss.m_Initialized
-                0x0000000000004390        0x1 /tmp/ccSsOZv5.ltrans0.ltrans.o
+                0x0000000000004390        0x1 /tmp/ccSV6pMY.ltrans0.ltrans.o
  *fill*         0x0000000000004391        0x7 
  .bss.m_MaxPosition
-                0x0000000000004398       0x10 /tmp/ccSsOZv5.ltrans0.ltrans.o
+                0x0000000000004398       0x10 /tmp/ccSV6pMY.ltrans0.ltrans.o
  .bss.m_Position
-                0x00000000000043a8       0x10 /tmp/ccSsOZv5.ltrans0.ltrans.o
+                0x00000000000043a8       0x10 /tmp/ccSV6pMY.ltrans0.ltrans.o
 
 .dynbss         0x00000000000043b8        0x0
  .dynbss        0x00000000000043b8        0x0 /home/evsio0n/src/edk2sdm/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
@@ -561,27 +561,27 @@ END GROUP
 OUTPUT(/home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/XiaomiMI6Pkg/XiaomiMI6Dxe/XiaomiMI6Dxe/DEBUG/XiaomiMI6Dxe.dll elf64-littleaarch64)
 
 .debug_info     0x0000000000000000     0x5db7
- .debug_info    0x0000000000000000     0x5db7 /tmp/ccSsOZv5.ltrans0.ltrans.o
+ .debug_info    0x0000000000000000     0x5db7 /tmp/ccSV6pMY.ltrans0.ltrans.o
 
 .debug_abbrev   0x0000000000000000      0x5f7
- .debug_abbrev  0x0000000000000000      0x5f7 /tmp/ccSsOZv5.ltrans0.ltrans.o
+ .debug_abbrev  0x0000000000000000      0x5f7 /tmp/ccSV6pMY.ltrans0.ltrans.o
 
 .debug_loc      0x0000000000000000     0x39e2
- .debug_loc     0x0000000000000000     0x39e2 /tmp/ccSsOZv5.ltrans0.ltrans.o
+ .debug_loc     0x0000000000000000     0x39e2 /tmp/ccSV6pMY.ltrans0.ltrans.o
 
 .debug_aranges  0x0000000000000000      0x1b0
  .debug_aranges
-                0x0000000000000000      0x1b0 /tmp/ccSsOZv5.ltrans0.ltrans.o
+                0x0000000000000000      0x1b0 /tmp/ccSV6pMY.ltrans0.ltrans.o
 
 .debug_ranges   0x0000000000000000      0x570
- .debug_ranges  0x0000000000000000      0x570 /tmp/ccSsOZv5.ltrans0.ltrans.o
+ .debug_ranges  0x0000000000000000      0x570 /tmp/ccSV6pMY.ltrans0.ltrans.o
 
 .debug_line     0x0000000000000000     0x1162
- .debug_line    0x0000000000000000     0x1162 /tmp/ccSsOZv5.ltrans0.ltrans.o
+ .debug_line    0x0000000000000000     0x1162 /tmp/ccSV6pMY.ltrans0.ltrans.o
 
 .debug_str      0x0000000000000000     0x27b3
- .debug_str     0x0000000000000000     0x27b3 /tmp/ccSsOZv5.ltrans0.ltrans.o
+ .debug_str     0x0000000000000000     0x27b3 /tmp/ccSV6pMY.ltrans0.ltrans.o
                                        0x29f0 (松开之前的大小)
 
 .debug_frame    0x0000000000000000      0x480
- .debug_frame   0x0000000000000000      0x480 /tmp/ccSsOZv5.ltrans0.ltrans.o
+ .debug_frame   0x0000000000000000      0x480 /tmp/ccSV6pMY.ltrans0.ltrans.o

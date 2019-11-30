@@ -100,20 +100,20 @@
  .text          0x0000000000000000       0x10 /home/evsio0n/src/edk2sdm/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
  .data          0x0000000000000000        0x0 /home/evsio0n/src/edk2sdm/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
  .bss           0x0000000000000000        0x0 /home/evsio0n/src/edk2sdm/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
- .text          0x0000000000000000        0x0 /tmp/ccJg1WhM.ltrans0.ltrans.o
- .data          0x0000000000000000        0x0 /tmp/ccJg1WhM.ltrans0.ltrans.o
- .bss           0x0000000000000000        0x0 /tmp/ccJg1WhM.ltrans0.ltrans.o
+ .text          0x0000000000000000        0x0 /tmp/ccNOSU7L.ltrans0.ltrans.o
+ .data          0x0000000000000000        0x0 /tmp/ccNOSU7L.ltrans0.ltrans.o
+ .bss           0x0000000000000000        0x0 /tmp/ccNOSU7L.ltrans0.ltrans.o
  .text._DriverUnloadHandler
-                0x0000000000000000        0x8 /tmp/ccJg1WhM.ltrans0.ltrans.o
+                0x0000000000000000        0x8 /tmp/ccNOSU7L.ltrans0.ltrans.o
  .text.StrnLenS
-                0x0000000000000000       0x7c /tmp/ccJg1WhM.ltrans0.ltrans.o
+                0x0000000000000000       0x7c /tmp/ccNOSU7L.ltrans0.ltrans.o
  .text.__memset
-                0x0000000000000000       0x1c /tmp/ccJg1WhM.ltrans0.ltrans.o
+                0x0000000000000000       0x1c /tmp/ccNOSU7L.ltrans0.ltrans.o
  .rodata.StrnLenS.str1.1
-                0x0000000000000000       0x66 /tmp/ccJg1WhM.ltrans0.ltrans.o
- .comment       0x0000000000000000       0x33 /tmp/ccJg1WhM.ltrans0.ltrans.o
+                0x0000000000000000       0x66 /tmp/ccNOSU7L.ltrans0.ltrans.o
+ .comment       0x0000000000000000       0x33 /tmp/ccNOSU7L.ltrans0.ltrans.o
  .note.GNU-stack
-                0x0000000000000000        0x0 /tmp/ccJg1WhM.ltrans0.ltrans.o
+                0x0000000000000000        0x0 /tmp/ccNOSU7L.ltrans0.ltrans.o
  .text          0x0000000000000000        0x8 /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(CpuBreakpoint.obj)
  .data          0x0000000000000000        0x0 /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(CpuBreakpoint.obj)
  .bss           0x0000000000000000        0x0 /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(CpuBreakpoint.obj)
@@ -289,7 +289,7 @@
 链结器命令稿和内存映射
 
 LOAD /home/evsio0n/src/edk2sdm/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
-LOAD /tmp/ccJg1WhM.ltrans0.ltrans.o
+LOAD /tmp/ccNOSU7L.ltrans0.ltrans.o
 START GROUP
 LOAD /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib
 LOAD /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/DxePcdLib/DxePcdLib/OUTPUT/DxePcdLib.lib
@@ -329,46 +329,46 @@ END GROUP
 .text           0x0000000000001000     0x2440
  *(.text .text.* .stub .gnu.linkonce.t.*)
  .text.DebugPrintLevelEnabled.constprop.6
-                0x0000000000001000        0x8 /tmp/ccJg1WhM.ltrans0.ltrans.o
+                0x0000000000001000        0x8 /tmp/ccNOSU7L.ltrans0.ltrans.o
  .text.BasePrintLibFillBuffer
-                0x0000000000001008       0x34 /tmp/ccJg1WhM.ltrans0.ltrans.o
+                0x0000000000001008       0x34 /tmp/ccNOSU7L.ltrans0.ltrans.o
  .text.AsciiStrnLenS
-                0x000000000000103c       0x3c /tmp/ccJg1WhM.ltrans0.ltrans.o
+                0x000000000000103c       0x3c /tmp/ccNOSU7L.ltrans0.ltrans.o
  .text.DebugPrintEnabled
-                0x0000000000001078        0x8 /tmp/ccJg1WhM.ltrans0.ltrans.o
+                0x0000000000001078        0x8 /tmp/ccNOSU7L.ltrans0.ltrans.o
  .text.DebugAssertEnabled
-                0x0000000000001080        0x8 /tmp/ccJg1WhM.ltrans0.ltrans.o
+                0x0000000000001080        0x8 /tmp/ccNOSU7L.ltrans0.ltrans.o
  .text.GetImage
-                0x0000000000001088       0x70 /tmp/ccJg1WhM.ltrans0.ltrans.o
+                0x0000000000001088       0x70 /tmp/ccNOSU7L.ltrans0.ltrans.o
  .text.BaseDebugLibSerialPortConstructor
-                0x00000000000010f8       0x84 /tmp/ccJg1WhM.ltrans0.ltrans.o
+                0x00000000000010f8       0x84 /tmp/ccNOSU7L.ltrans0.ltrans.o
  .text.FbConFlush
-                0x000000000000117c       0x54 /tmp/ccJg1WhM.ltrans0.ltrans.o
+                0x000000000000117c       0x54 /tmp/ccNOSU7L.ltrans0.ltrans.o
  .text.SerialPortWrite
-                0x00000000000011d0      0x418 /tmp/ccJg1WhM.ltrans0.ltrans.o
+                0x00000000000011d0      0x418 /tmp/ccNOSU7L.ltrans0.ltrans.o
  .text.DebugAssert
-                0x00000000000015e8       0x7c /tmp/ccJg1WhM.ltrans0.ltrans.o
+                0x00000000000015e8       0x7c /tmp/ccNOSU7L.ltrans0.ltrans.o
  .text.CompareGuid.constprop.4
-                0x0000000000001664       0x50 /tmp/ccJg1WhM.ltrans0.ltrans.o
+                0x0000000000001664       0x50 /tmp/ccNOSU7L.ltrans0.ltrans.o
  .text.unlikely.ReadUnaligned16
-                0x00000000000016b4       0x68 /tmp/ccJg1WhM.ltrans0.ltrans.o
+                0x00000000000016b4       0x68 /tmp/ccNOSU7L.ltrans0.ltrans.o
  .text.BasePrintLibSPrintMarker.constprop.13
-                0x000000000000171c      0xcbc /tmp/ccJg1WhM.ltrans0.ltrans.o
+                0x000000000000171c      0xcbc /tmp/ccNOSU7L.ltrans0.ltrans.o
  .text.unlikely.BasePrintLibSPrint.constprop.14
-                0x00000000000023d8       0x98 /tmp/ccJg1WhM.ltrans0.ltrans.o
+                0x00000000000023d8       0x98 /tmp/ccNOSU7L.ltrans0.ltrans.o
  .text.AsciiSPrint.constprop.11
-                0x0000000000002470       0xa4 /tmp/ccJg1WhM.ltrans0.ltrans.o
+                0x0000000000002470       0xa4 /tmp/ccNOSU7L.ltrans0.ltrans.o
  .text.AsciiStrLen
-                0x0000000000002514       0x80 /tmp/ccJg1WhM.ltrans0.ltrans.o
+                0x0000000000002514       0x80 /tmp/ccNOSU7L.ltrans0.ltrans.o
  .text.DebugPrint.constprop.7
-                0x0000000000002594       0xb8 /tmp/ccJg1WhM.ltrans0.ltrans.o
+                0x0000000000002594       0xb8 /tmp/ccNOSU7L.ltrans0.ltrans.o
  .text.__stack_chk_fail
-                0x000000000000264c       0x34 /tmp/ccJg1WhM.ltrans0.ltrans.o
+                0x000000000000264c       0x34 /tmp/ccNOSU7L.ltrans0.ltrans.o
                 0x000000000000264c                __stack_chk_fail
  .text._ModuleEntryPoint
-                0x0000000000002680      0x3b4 /tmp/ccJg1WhM.ltrans0.ltrans.o
+                0x0000000000002680      0x3b4 /tmp/ccNOSU7L.ltrans0.ltrans.o
                 0x0000000000002680                _ModuleEntryPoint
- .text.memcpy   0x0000000000002a34       0x20 /tmp/ccJg1WhM.ltrans0.ltrans.o
+ .text.memcpy   0x0000000000002a34       0x20 /tmp/ccNOSU7L.ltrans0.ltrans.o
                 0x0000000000002a34                memcpy
  *fill*         0x0000000000002a54        0xc 
  .text          0x0000000000002a60       0x20 /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(CompareGuid.obj)
@@ -393,26 +393,26 @@ END GROUP
                 0x0000000000002ab8                ArmDataSynchronizationBarrier
  *(.rodata .rodata.* .gnu.linkonce.r.*)
  .rodata.AsciiStrLen.str1.1
-                0x0000000000002ac0       0x77 /tmp/ccJg1WhM.ltrans0.ltrans.o
+                0x0000000000002ac0       0x77 /tmp/ccNOSU7L.ltrans0.ltrans.o
  .rodata.BasePrintLibSPrintMarker.constprop.13.str1.1
-                0x0000000000002b37      0x17e /tmp/ccJg1WhM.ltrans0.ltrans.o
+                0x0000000000002b37      0x17e /tmp/ccNOSU7L.ltrans0.ltrans.o
  .rodata.CompareGuid.constprop.4.str1.1
-                0x0000000000002cb5       0x69 /tmp/ccJg1WhM.ltrans0.ltrans.o
+                0x0000000000002cb5       0x69 /tmp/ccNOSU7L.ltrans0.ltrans.o
  .rodata.DebugAssert.str1.1
-                0x0000000000002d1e       0x20 /tmp/ccJg1WhM.ltrans0.ltrans.o
+                0x0000000000002d1e       0x20 /tmp/ccNOSU7L.ltrans0.ltrans.o
  .rodata.ReadUnaligned16.str1.1
-                0x0000000000002d3e       0x5d /tmp/ccJg1WhM.ltrans0.ltrans.o
+                0x0000000000002d3e       0x5d /tmp/ccNOSU7L.ltrans0.ltrans.o
  .rodata._ModuleEntryPoint.str1.1
-                0x0000000000002d9b      0x2e0 /tmp/ccJg1WhM.ltrans0.ltrans.o
+                0x0000000000002d9b      0x2e0 /tmp/ccNOSU7L.ltrans0.ltrans.o
  .rodata.__stack_chk_fail.str1.1
-                0x000000000000307b       0x2e /tmp/ccJg1WhM.ltrans0.ltrans.o
+                0x000000000000307b       0x2e /tmp/ccNOSU7L.ltrans0.ltrans.o
  .rodata.mHexStr
-                0x00000000000030a9       0x10 /tmp/ccJg1WhM.ltrans0.ltrans.o
+                0x00000000000030a9       0x10 /tmp/ccNOSU7L.ltrans0.ltrans.o
  *fill*         0x00000000000030b9        0x7 
  .rodata.mStatusString
-                0x00000000000030c0      0x138 /tmp/ccJg1WhM.ltrans0.ltrans.o
+                0x00000000000030c0      0x138 /tmp/ccNOSU7L.ltrans0.ltrans.o
  .rodata.str1.1
-                0x00000000000031f8      0x224 /tmp/ccJg1WhM.ltrans0.ltrans.o
+                0x00000000000031f8      0x224 /tmp/ccNOSU7L.ltrans0.ltrans.o
                                         0x235 (松开之前的大小)
  *(.got .got.*)
  *fill*         0x000000000000341c        0x4 
@@ -428,41 +428,41 @@ END GROUP
  *(.data .data.* .gnu.linkonce.d.*)
  .data.rel.ro   0x0000000000004000        0x0 /home/evsio0n/src/edk2sdm/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
  .data.__stack_chk_guard
-                0x0000000000004000        0x8 /tmp/ccJg1WhM.ltrans0.ltrans.o
+                0x0000000000004000        0x8 /tmp/ccNOSU7L.ltrans0.ltrans.o
                 0x0000000000004000                __stack_chk_guard
  .data.font5x12
-                0x0000000000004008      0x300 /tmp/ccJg1WhM.ltrans0.ltrans.o
+                0x0000000000004008      0x300 /tmp/ccNOSU7L.ltrans0.ltrans.o
  .data.gEdkiiPlatformLogoProtocolGuid
-                0x0000000000004308       0x10 /tmp/ccJg1WhM.ltrans0.ltrans.o
+                0x0000000000004308       0x10 /tmp/ccNOSU7L.ltrans0.ltrans.o
  .data.gEfiHiiDatabaseProtocolGuid
-                0x0000000000004318       0x10 /tmp/ccJg1WhM.ltrans0.ltrans.o
+                0x0000000000004318       0x10 /tmp/ccNOSU7L.ltrans0.ltrans.o
  .data.gEfiHiiImageExProtocolGuid
-                0x0000000000004328       0x10 /tmp/ccJg1WhM.ltrans0.ltrans.o
+                0x0000000000004328       0x10 /tmp/ccNOSU7L.ltrans0.ltrans.o
  .data.gEfiHiiPackageListProtocolGuid
-                0x0000000000004338       0x10 /tmp/ccJg1WhM.ltrans0.ltrans.o
+                0x0000000000004338       0x10 /tmp/ccNOSU7L.ltrans0.ltrans.o
  .data.gEfiHobListGuid
-                0x0000000000004348       0x10 /tmp/ccJg1WhM.ltrans0.ltrans.o
+                0x0000000000004348       0x10 /tmp/ccNOSU7L.ltrans0.ltrans.o
  .data.mPlatformLogo
-                0x0000000000004358        0x8 /tmp/ccJg1WhM.ltrans0.ltrans.o
+                0x0000000000004358        0x8 /tmp/ccNOSU7L.ltrans0.ltrans.o
  *(.bss .bss.*)
- .bss.gBS       0x0000000000004360        0x8 /tmp/ccJg1WhM.ltrans0.ltrans.o
+ .bss.gBS       0x0000000000004360        0x8 /tmp/ccNOSU7L.ltrans0.ltrans.o
  .bss.gImageHandle
-                0x0000000000004368        0x8 /tmp/ccJg1WhM.ltrans0.ltrans.o
- .bss.gRT       0x0000000000004370        0x8 /tmp/ccJg1WhM.ltrans0.ltrans.o
- .bss.gST       0x0000000000004378        0x8 /tmp/ccJg1WhM.ltrans0.ltrans.o
+                0x0000000000004368        0x8 /tmp/ccNOSU7L.ltrans0.ltrans.o
+ .bss.gRT       0x0000000000004370        0x8 /tmp/ccNOSU7L.ltrans0.ltrans.o
+ .bss.gST       0x0000000000004378        0x8 /tmp/ccNOSU7L.ltrans0.ltrans.o
  .bss.mHiiHandle
-                0x0000000000004380        0x8 /tmp/ccJg1WhM.ltrans0.ltrans.o
+                0x0000000000004380        0x8 /tmp/ccNOSU7L.ltrans0.ltrans.o
  .bss.mHiiImageEx
-                0x0000000000004388        0x8 /tmp/ccJg1WhM.ltrans0.ltrans.o
- .bss.mHobList  0x0000000000004390        0x8 /tmp/ccJg1WhM.ltrans0.ltrans.o
- .bss.m_Color   0x0000000000004398       0x10 /tmp/ccJg1WhM.ltrans0.ltrans.o
+                0x0000000000004388        0x8 /tmp/ccNOSU7L.ltrans0.ltrans.o
+ .bss.mHobList  0x0000000000004390        0x8 /tmp/ccNOSU7L.ltrans0.ltrans.o
+ .bss.m_Color   0x0000000000004398       0x10 /tmp/ccNOSU7L.ltrans0.ltrans.o
  .bss.m_Initialized
-                0x00000000000043a8        0x1 /tmp/ccJg1WhM.ltrans0.ltrans.o
+                0x00000000000043a8        0x1 /tmp/ccNOSU7L.ltrans0.ltrans.o
  *fill*         0x00000000000043a9        0x7 
  .bss.m_MaxPosition
-                0x00000000000043b0       0x10 /tmp/ccJg1WhM.ltrans0.ltrans.o
+                0x00000000000043b0       0x10 /tmp/ccNOSU7L.ltrans0.ltrans.o
  .bss.m_Position
-                0x00000000000043c0       0x10 /tmp/ccJg1WhM.ltrans0.ltrans.o
+                0x00000000000043c0       0x10 /tmp/ccNOSU7L.ltrans0.ltrans.o
 
 .eh_frame
  *(.eh_frame)
@@ -508,27 +508,27 @@ END GROUP
 OUTPUT(/home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/XiaomiMI6Pkg/Drivers/LogoDxe/LogoDxe/DEBUG/LogoDxe.dll elf64-littleaarch64)
 
 .debug_info     0x0000000000000000     0x4a4c
- .debug_info    0x0000000000000000     0x4a4c /tmp/ccJg1WhM.ltrans0.ltrans.o
+ .debug_info    0x0000000000000000     0x4a4c /tmp/ccNOSU7L.ltrans0.ltrans.o
 
 .debug_abbrev   0x0000000000000000      0x5a9
- .debug_abbrev  0x0000000000000000      0x5a9 /tmp/ccJg1WhM.ltrans0.ltrans.o
+ .debug_abbrev  0x0000000000000000      0x5a9 /tmp/ccNOSU7L.ltrans0.ltrans.o
 
 .debug_loc      0x0000000000000000     0x3d08
- .debug_loc     0x0000000000000000     0x3d08 /tmp/ccJg1WhM.ltrans0.ltrans.o
+ .debug_loc     0x0000000000000000     0x3d08 /tmp/ccNOSU7L.ltrans0.ltrans.o
 
 .debug_aranges  0x0000000000000000      0x190
  .debug_aranges
-                0x0000000000000000      0x190 /tmp/ccJg1WhM.ltrans0.ltrans.o
+                0x0000000000000000      0x190 /tmp/ccNOSU7L.ltrans0.ltrans.o
 
 .debug_ranges   0x0000000000000000      0x5f0
- .debug_ranges  0x0000000000000000      0x5f0 /tmp/ccJg1WhM.ltrans0.ltrans.o
+ .debug_ranges  0x0000000000000000      0x5f0 /tmp/ccNOSU7L.ltrans0.ltrans.o
 
 .debug_line     0x0000000000000000     0x105d
- .debug_line    0x0000000000000000     0x105d /tmp/ccJg1WhM.ltrans0.ltrans.o
+ .debug_line    0x0000000000000000     0x105d /tmp/ccNOSU7L.ltrans0.ltrans.o
 
 .debug_str      0x0000000000000000     0x25b5
- .debug_str     0x0000000000000000     0x25b5 /tmp/ccJg1WhM.ltrans0.ltrans.o
+ .debug_str     0x0000000000000000     0x25b5 /tmp/ccNOSU7L.ltrans0.ltrans.o
                                        0x283a (松开之前的大小)
 
 .debug_frame    0x0000000000000000      0x418
- .debug_frame   0x0000000000000000      0x418 /tmp/ccJg1WhM.ltrans0.ltrans.o
+ .debug_frame   0x0000000000000000      0x418 /tmp/ccNOSU7L.ltrans0.ltrans.o

@@ -1,0 +1,1 @@
+GenSec -s EFI_SECTION_DXE_DEPEX -o /home/evsio0n/src/edk2sdm/Sdm835/workspace/Build/XiaomiMI6Pkg/RELEASE_GCC5/FV/Ffs/04de8591-d2b3-4077-bbbe-b12070094eb6FVMAIN/04de8591-d2b3-4077-bbbe-b12070094eb6SEC1.dpx /home/evsio0n/src/edk2sdm/Sdm835/XiaomiMI6Pkg/Binary/I2C/I2C.depex

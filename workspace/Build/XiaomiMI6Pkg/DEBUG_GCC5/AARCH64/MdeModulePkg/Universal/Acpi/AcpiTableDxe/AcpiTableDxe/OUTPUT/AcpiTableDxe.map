@@ -120,20 +120,20 @@
  .text          0x0000000000000000       0x10 /home/evsio0n/src/edk2sdm/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
  .data          0x0000000000000000        0x0 /home/evsio0n/src/edk2sdm/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
  .bss           0x0000000000000000        0x0 /home/evsio0n/src/edk2sdm/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
- .text          0x0000000000000000        0x0 /tmp/ccGZCpbu.ltrans0.ltrans.o
- .data          0x0000000000000000        0x0 /tmp/ccGZCpbu.ltrans0.ltrans.o
- .bss           0x0000000000000000        0x0 /tmp/ccGZCpbu.ltrans0.ltrans.o
+ .text          0x0000000000000000        0x0 /tmp/ccUBYYsw.ltrans0.ltrans.o
+ .data          0x0000000000000000        0x0 /tmp/ccUBYYsw.ltrans0.ltrans.o
+ .bss           0x0000000000000000        0x0 /tmp/ccUBYYsw.ltrans0.ltrans.o
  .text._DriverUnloadHandler
-                0x0000000000000000        0x8 /tmp/ccGZCpbu.ltrans0.ltrans.o
+                0x0000000000000000        0x8 /tmp/ccUBYYsw.ltrans0.ltrans.o
  .text.StrnLenS
-                0x0000000000000000       0x7c /tmp/ccGZCpbu.ltrans0.ltrans.o
+                0x0000000000000000       0x7c /tmp/ccUBYYsw.ltrans0.ltrans.o
  .text.__memset
-                0x0000000000000000       0x1c /tmp/ccGZCpbu.ltrans0.ltrans.o
+                0x0000000000000000       0x1c /tmp/ccUBYYsw.ltrans0.ltrans.o
  .rodata.StrnLenS.str1.1
-                0x0000000000000000       0x66 /tmp/ccGZCpbu.ltrans0.ltrans.o
- .comment       0x0000000000000000       0x33 /tmp/ccGZCpbu.ltrans0.ltrans.o
+                0x0000000000000000       0x66 /tmp/ccUBYYsw.ltrans0.ltrans.o
+ .comment       0x0000000000000000       0x33 /tmp/ccUBYYsw.ltrans0.ltrans.o
  .note.GNU-stack
-                0x0000000000000000        0x0 /tmp/ccGZCpbu.ltrans0.ltrans.o
+                0x0000000000000000        0x0 /tmp/ccUBYYsw.ltrans0.ltrans.o
  .text          0x0000000000000000        0x8 /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(CpuBreakpoint.obj)
  .data          0x0000000000000000        0x0 /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(CpuBreakpoint.obj)
  .bss           0x0000000000000000        0x0 /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(CpuBreakpoint.obj)
@@ -309,7 +309,7 @@
 链结器命令稿和内存映射
 
 LOAD /home/evsio0n/src/edk2sdm/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
-LOAD /tmp/ccGZCpbu.ltrans0.ltrans.o
+LOAD /tmp/ccUBYYsw.ltrans0.ltrans.o
 START GROUP
 LOAD /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/DxePcdLib/DxePcdLib/OUTPUT/DxePcdLib.lib
 LOAD /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib
@@ -348,134 +348,134 @@ END GROUP
 .text           0x0000000000001000     0x67d8
  *(.text .text.* .stub .gnu.linkonce.t.*)
  .text.DebugPrintLevelEnabled.constprop.14
-                0x0000000000001000        0x8 /tmp/ccGZCpbu.ltrans0.ltrans.o
+                0x0000000000001000        0x8 /tmp/ccUBYYsw.ltrans0.ltrans.o
  .text.InternalAllocatePool.constprop.12
-                0x0000000000001008       0x6c /tmp/ccGZCpbu.ltrans0.ltrans.o
+                0x0000000000001008       0x6c /tmp/ccUBYYsw.ltrans0.ltrans.o
  .text.BasePrintLibFillBuffer
-                0x0000000000001074       0x34 /tmp/ccGZCpbu.ltrans0.ltrans.o
+                0x0000000000001074       0x34 /tmp/ccUBYYsw.ltrans0.ltrans.o
  .text.DebugCodeEnabled
-                0x00000000000010a8        0x8 /tmp/ccGZCpbu.ltrans0.ltrans.o
+                0x00000000000010a8        0x8 /tmp/ccUBYYsw.ltrans0.ltrans.o
  .text.DebugPrintEnabled
-                0x00000000000010b0        0x8 /tmp/ccGZCpbu.ltrans0.ltrans.o
+                0x00000000000010b0        0x8 /tmp/ccUBYYsw.ltrans0.ltrans.o
  .text.DebugAssertEnabled
-                0x00000000000010b8        0x8 /tmp/ccGZCpbu.ltrans0.ltrans.o
+                0x00000000000010b8        0x8 /tmp/ccUBYYsw.ltrans0.ltrans.o
  .text.AsciiStrnLenS
-                0x00000000000010c0       0x3c /tmp/ccGZCpbu.ltrans0.ltrans.o
+                0x00000000000010c0       0x3c /tmp/ccUBYYsw.ltrans0.ltrans.o
  .text.AmlIsAslLeadName
-                0x00000000000010fc       0x34 /tmp/ccGZCpbu.ltrans0.ltrans.o
+                0x00000000000010fc       0x34 /tmp/ccUBYYsw.ltrans0.ltrans.o
  .text.AmlGetAslNameSegLength
-                0x0000000000001130       0xa4 /tmp/ccGZCpbu.ltrans0.ltrans.o
+                0x0000000000001130       0xa4 /tmp/ccUBYYsw.ltrans0.ltrans.o
  .text.AmlGetNameStringSize
-                0x00000000000011d4      0x11c /tmp/ccGZCpbu.ltrans0.ltrans.o
+                0x00000000000011d4      0x11c /tmp/ccUBYYsw.ltrans0.ltrans.o
  .text.AmlSearchByOpByte
-                0x00000000000012f0       0x5c /tmp/ccGZCpbu.ltrans0.ltrans.o
+                0x00000000000012f0       0x5c /tmp/ccUBYYsw.ltrans0.ltrans.o
  .text.AcpiPlatformChecksum
-                0x000000000000134c       0x38 /tmp/ccGZCpbu.ltrans0.ltrans.o
+                0x000000000000134c       0x38 /tmp/ccUBYYsw.ltrans0.ltrans.o
  .text.ChecksumCommonTables
-                0x0000000000001384       0x48 /tmp/ccGZCpbu.ltrans0.ltrans.o
+                0x0000000000001384       0x48 /tmp/ccUBYYsw.ltrans0.ltrans.o
  .text.BaseDebugLibSerialPortConstructor
-                0x00000000000013cc       0x84 /tmp/ccGZCpbu.ltrans0.ltrans.o
+                0x00000000000013cc       0x84 /tmp/ccUBYYsw.ltrans0.ltrans.o
  .text.FbConFlush
-                0x0000000000001450       0x54 /tmp/ccGZCpbu.ltrans0.ltrans.o
+                0x0000000000001450       0x54 /tmp/ccUBYYsw.ltrans0.ltrans.o
  .text.SerialPortWrite
-                0x00000000000014a4      0x418 /tmp/ccGZCpbu.ltrans0.ltrans.o
+                0x00000000000014a4      0x418 /tmp/ccUBYYsw.ltrans0.ltrans.o
  .text.DebugAssert
-                0x00000000000018bc       0x7c /tmp/ccGZCpbu.ltrans0.ltrans.o
+                0x00000000000018bc       0x7c /tmp/ccUBYYsw.ltrans0.ltrans.o
  .text.CompareGuid.constprop.8
-                0x0000000000001938       0x50 /tmp/ccGZCpbu.ltrans0.ltrans.o
+                0x0000000000001938       0x50 /tmp/ccUBYYsw.ltrans0.ltrans.o
  .text.CompareMem.constprop.0
-                0x0000000000001988       0xc8 /tmp/ccGZCpbu.ltrans0.ltrans.o
+                0x0000000000001988       0xc8 /tmp/ccUBYYsw.ltrans0.ltrans.o
  .text.unlikely.ReadUnaligned16
-                0x0000000000001a50       0x68 /tmp/ccGZCpbu.ltrans0.ltrans.o
+                0x0000000000001a50       0x68 /tmp/ccUBYYsw.ltrans0.ltrans.o
  .text.BasePrintLibSPrintMarker.constprop.21
-                0x0000000000001ab8      0xcbc /tmp/ccGZCpbu.ltrans0.ltrans.o
+                0x0000000000001ab8      0xcbc /tmp/ccUBYYsw.ltrans0.ltrans.o
  .text.unlikely.BasePrintLibSPrint.constprop.22
-                0x0000000000002774       0x98 /tmp/ccGZCpbu.ltrans0.ltrans.o
+                0x0000000000002774       0x98 /tmp/ccUBYYsw.ltrans0.ltrans.o
  .text.AsciiSPrint.constprop.19
-                0x000000000000280c       0xa4 /tmp/ccGZCpbu.ltrans0.ltrans.o
+                0x000000000000280c       0xa4 /tmp/ccUBYYsw.ltrans0.ltrans.o
  .text.AsciiStrLen
-                0x00000000000028b0       0xa0 /tmp/ccGZCpbu.ltrans0.ltrans.o
+                0x00000000000028b0       0xa0 /tmp/ccUBYYsw.ltrans0.ltrans.o
  .text.DebugPrint.constprop.15
-                0x0000000000002950       0xb8 /tmp/ccGZCpbu.ltrans0.ltrans.o
+                0x0000000000002950       0xb8 /tmp/ccUBYYsw.ltrans0.ltrans.o
  .text.FreePool
-                0x0000000000002a08       0x78 /tmp/ccGZCpbu.ltrans0.ltrans.o
+                0x0000000000002a08       0x78 /tmp/ccUBYYsw.ltrans0.ltrans.o
  .text.AmlPrintNameSeg
-                0x0000000000002a80       0xf8 /tmp/ccGZCpbu.ltrans0.ltrans.o
+                0x0000000000002a80       0xf8 /tmp/ccUBYYsw.ltrans0.ltrans.o
  .text.AsciiStrSize
-                0x0000000000002b78       0x18 /tmp/ccGZCpbu.ltrans0.ltrans.o
+                0x0000000000002b78       0x18 /tmp/ccUBYYsw.ltrans0.ltrans.o
  .text.InitializeListHead
-                0x0000000000002b90       0x4c /tmp/ccGZCpbu.ltrans0.ltrans.o
+                0x0000000000002b90       0x4c /tmp/ccUBYYsw.ltrans0.ltrans.o
  .text.InternalBaseLibIsListValid
-                0x0000000000002bdc       0xb8 /tmp/ccGZCpbu.ltrans0.ltrans.o
+                0x0000000000002bdc       0xb8 /tmp/ccUBYYsw.ltrans0.ltrans.o
  .text.RemoveEntryList
-                0x0000000000002c94       0x88 /tmp/ccGZCpbu.ltrans0.ltrans.o
+                0x0000000000002c94       0x88 /tmp/ccUBYYsw.ltrans0.ltrans.o
  .text.InsertTailList
-                0x0000000000002d1c       0x6c /tmp/ccGZCpbu.ltrans0.ltrans.o
+                0x0000000000002d1c       0x6c /tmp/ccUBYYsw.ltrans0.ltrans.o
  .text.AmlDumpNodeInfo
-                0x0000000000002d88      0x124 /tmp/ccGZCpbu.ltrans0.ltrans.o
+                0x0000000000002d88      0x124 /tmp/ccUBYYsw.ltrans0.ltrans.o
  .text.AmlDestructNodeList
-                0x0000000000002eac       0xa8 /tmp/ccGZCpbu.ltrans0.ltrans.o
+                0x0000000000002eac       0xa8 /tmp/ccUBYYsw.ltrans0.ltrans.o
  .text.AmlGetPkgLength
-                0x0000000000002f54       0x70 /tmp/ccGZCpbu.ltrans0.ltrans.o
+                0x0000000000002f54       0x70 /tmp/ccUBYYsw.ltrans0.ltrans.o
  .text.AmlParseOptionCommon
-                0x0000000000002fc4      0x374 /tmp/ccGZCpbu.ltrans0.ltrans.o
+                0x0000000000002fc4      0x374 /tmp/ccUBYYsw.ltrans0.ltrans.o
  .text.AmlParseOptionHandleCommon
-                0x0000000000003338       0x1c /tmp/ccGZCpbu.ltrans0.ltrans.o
+                0x0000000000003338       0x1c /tmp/ccUBYYsw.ltrans0.ltrans.o
  .text.AmlGetOffsetAfterLastOption
-                0x0000000000003354       0xa0 /tmp/ccGZCpbu.ltrans0.ltrans.o
+                0x0000000000003354       0xa0 /tmp/ccUBYYsw.ltrans0.ltrans.o
  .text.AmlGetObjectSize
-                0x00000000000033f4       0x60 /tmp/ccGZCpbu.ltrans0.ltrans.o
+                0x00000000000033f4       0x60 /tmp/ccUBYYsw.ltrans0.ltrans.o
  .text.AmlGetChildFromObjectBuffer
-                0x0000000000003454       0x84 /tmp/ccGZCpbu.ltrans0.ltrans.o
+                0x0000000000003454       0x84 /tmp/ccUBYYsw.ltrans0.ltrans.o
  .text.GetOption
-                0x00000000000034d8       0xf8 /tmp/ccGZCpbu.ltrans0.ltrans.o
+                0x00000000000034d8       0xf8 /tmp/ccUBYYsw.ltrans0.ltrans.o
  .text.SdtOpenEx
-                0x00000000000035d0       0xc8 /tmp/ccGZCpbu.ltrans0.ltrans.o
+                0x00000000000035d0       0xc8 /tmp/ccUBYYsw.ltrans0.ltrans.o
  .text.GetChild
-                0x0000000000003698      0x1f4 /tmp/ccGZCpbu.ltrans0.ltrans.o
+                0x0000000000003698      0x1f4 /tmp/ccUBYYsw.ltrans0.ltrans.o
  .text.RegisterNotify
-                0x000000000000388c      0x134 /tmp/ccGZCpbu.ltrans0.ltrans.o
+                0x000000000000388c      0x134 /tmp/ccUBYYsw.ltrans0.ltrans.o
  .text.GetAcpiTable2
-                0x00000000000039c0      0x134 /tmp/ccGZCpbu.ltrans0.ltrans.o
+                0x00000000000039c0      0x134 /tmp/ccUBYYsw.ltrans0.ltrans.o
  .text.FindTableByBuffer
-                0x0000000000003af4       0xb4 /tmp/ccGZCpbu.ltrans0.ltrans.o
- .text.Close    0x0000000000003ba8       0x8c /tmp/ccGZCpbu.ltrans0.ltrans.o
- .text.Open     0x0000000000003c34       0x6c /tmp/ccGZCpbu.ltrans0.ltrans.o
+                0x0000000000003af4       0xb4 /tmp/ccUBYYsw.ltrans0.ltrans.o
+ .text.Close    0x0000000000003ba8       0x8c /tmp/ccUBYYsw.ltrans0.ltrans.o
+ .text.Open     0x0000000000003c34       0x6c /tmp/ccUBYYsw.ltrans0.ltrans.o
  .text.FindTableByHandle
-                0x0000000000003ca0       0xb8 /tmp/ccGZCpbu.ltrans0.ltrans.o
- .text.OpenSdt  0x0000000000003d58       0xf0 /tmp/ccGZCpbu.ltrans0.ltrans.o
- .text.CopyMem  0x0000000000003e48       0xb0 /tmp/ccGZCpbu.ltrans0.ltrans.o
+                0x0000000000003ca0       0xb8 /tmp/ccUBYYsw.ltrans0.ltrans.o
+ .text.OpenSdt  0x0000000000003d58       0xf0 /tmp/ccUBYYsw.ltrans0.ltrans.o
+ .text.CopyMem  0x0000000000003e48       0xb0 /tmp/ccUBYYsw.ltrans0.ltrans.o
  .text.AmlCreateNode
-                0x0000000000003ef8       0x98 /tmp/ccGZCpbu.ltrans0.ltrans.o
+                0x0000000000003ef8       0x98 /tmp/ccUBYYsw.ltrans0.ltrans.o
  .text.AmlFindNodeInTheTree
-                0x0000000000003f90      0x1e8 /tmp/ccGZCpbu.ltrans0.ltrans.o
+                0x0000000000003f90      0x1e8 /tmp/ccUBYYsw.ltrans0.ltrans.o
  .text.AmlConstructNodeList.part.0
-                0x0000000000004178      0x2a0 /tmp/ccGZCpbu.ltrans0.ltrans.o
+                0x0000000000004178      0x2a0 /tmp/ccUBYYsw.ltrans0.ltrans.o
  .text.AmlFindPath
-                0x0000000000004418      0x1e4 /tmp/ccGZCpbu.ltrans0.ltrans.o
+                0x0000000000004418      0x1e4 /tmp/ccUBYYsw.ltrans0.ltrans.o
  .text.SetOption
-                0x00000000000045fc      0x114 /tmp/ccGZCpbu.ltrans0.ltrans.o
+                0x00000000000045fc      0x114 /tmp/ccUBYYsw.ltrans0.ltrans.o
  .text.RemoveTableFromRsdt
-                0x0000000000004710      0x238 /tmp/ccGZCpbu.ltrans0.ltrans.o
+                0x0000000000004710      0x238 /tmp/ccUBYYsw.ltrans0.ltrans.o
  .text.PublishTables
-                0x0000000000004948       0xfc /tmp/ccGZCpbu.ltrans0.ltrans.o
- .text.SetMem   0x0000000000004a44       0x74 /tmp/ccGZCpbu.ltrans0.ltrans.o
+                0x0000000000004948       0xfc /tmp/ccUBYYsw.ltrans0.ltrans.o
+ .text.SetMem   0x0000000000004a44       0x74 /tmp/ccUBYYsw.ltrans0.ltrans.o
  .text.FindPath
-                0x0000000000004ab8      0x508 /tmp/ccGZCpbu.ltrans0.ltrans.o
- .text.ZeroMem  0x0000000000004fc0       0x7c /tmp/ccGZCpbu.ltrans0.ltrans.o
+                0x0000000000004ab8      0x508 /tmp/ccUBYYsw.ltrans0.ltrans.o
+ .text.ZeroMem  0x0000000000004fc0       0x7c /tmp/ccUBYYsw.ltrans0.ltrans.o
  .text.ReallocateAcpiTableBuffer
-                0x000000000000503c      0x138 /tmp/ccGZCpbu.ltrans0.ltrans.o
+                0x000000000000503c      0x138 /tmp/ccUBYYsw.ltrans0.ltrans.o
  .text.UninstallAcpiTable
-                0x0000000000005174      0x270 /tmp/ccGZCpbu.ltrans0.ltrans.o
+                0x0000000000005174      0x270 /tmp/ccUBYYsw.ltrans0.ltrans.o
  .text.InstallAcpiTable
-                0x00000000000053e4      0x644 /tmp/ccGZCpbu.ltrans0.ltrans.o
+                0x00000000000053e4      0x644 /tmp/ccUBYYsw.ltrans0.ltrans.o
  .text.__stack_chk_fail
-                0x0000000000005a28       0x34 /tmp/ccGZCpbu.ltrans0.ltrans.o
+                0x0000000000005a28       0x34 /tmp/ccUBYYsw.ltrans0.ltrans.o
                 0x0000000000005a28                __stack_chk_fail
  .text._ModuleEntryPoint
-                0x0000000000005a5c      0x548 /tmp/ccGZCpbu.ltrans0.ltrans.o
+                0x0000000000005a5c      0x548 /tmp/ccUBYYsw.ltrans0.ltrans.o
                 0x0000000000005a5c                _ModuleEntryPoint
- .text.memcpy   0x0000000000005fa4       0x20 /tmp/ccGZCpbu.ltrans0.ltrans.o
+ .text.memcpy   0x0000000000005fa4       0x20 /tmp/ccUBYYsw.ltrans0.ltrans.o
                 0x0000000000005fa4                memcpy
  *fill*         0x0000000000005fc4        0xc 
  .text          0x0000000000005fd0      0x200 /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(SetMem.obj)
@@ -511,88 +511,88 @@ END GROUP
                 0x0000000000006538                ArmDataSynchronizationBarrier
  *(.rodata .rodata.* .gnu.linkonce.r.*)
  .rodata.AmlParseOptionCommon
-                0x0000000000006540        0x7 /tmp/ccGZCpbu.ltrans0.ltrans.o
+                0x0000000000006540        0x7 /tmp/ccUBYYsw.ltrans0.ltrans.o
  .rodata.AmlConstructNodeList.part.0.str1.1
-                0x0000000000006547       0x94 /tmp/ccGZCpbu.ltrans0.ltrans.o
+                0x0000000000006547       0x94 /tmp/ccUBYYsw.ltrans0.ltrans.o
  .rodata.AmlCreateNode.str1.1
-                0x00000000000065db       0x1c /tmp/ccGZCpbu.ltrans0.ltrans.o
+                0x00000000000065db       0x1c /tmp/ccUBYYsw.ltrans0.ltrans.o
  .rodata.AmlDumpNodeInfo.str1.1
-                0x00000000000065f7       0x71 /tmp/ccGZCpbu.ltrans0.ltrans.o
+                0x00000000000065f7       0x71 /tmp/ccUBYYsw.ltrans0.ltrans.o
                                          0x75 (松开之前的大小)
  .rodata.AmlFindNodeInTheTree.str1.1
-                0x0000000000006668       0x26 /tmp/ccGZCpbu.ltrans0.ltrans.o
+                0x0000000000006668       0x26 /tmp/ccUBYYsw.ltrans0.ltrans.o
  .rodata.AmlFindPath.str1.1
-                0x000000000000668e       0x2d /tmp/ccGZCpbu.ltrans0.ltrans.o
+                0x000000000000668e       0x2d /tmp/ccUBYYsw.ltrans0.ltrans.o
  .rodata.AmlParseOptionCommon.str1.1
-                0x00000000000066bb      0x11e /tmp/ccGZCpbu.ltrans0.ltrans.o
+                0x00000000000066bb      0x11e /tmp/ccUBYYsw.ltrans0.ltrans.o
  .rodata.AmlPrintNameSeg.str1.1
-                0x00000000000067d9        0x3 /tmp/ccGZCpbu.ltrans0.ltrans.o
+                0x00000000000067d9        0x3 /tmp/ccUBYYsw.ltrans0.ltrans.o
  .rodata.AsciiStrLen.str1.1
-                0x00000000000067dc       0x8e /tmp/ccGZCpbu.ltrans0.ltrans.o
+                0x00000000000067dc       0x8e /tmp/ccUBYYsw.ltrans0.ltrans.o
  .rodata.BasePrintLibSPrintMarker.constprop.21.str1.1
-                0x000000000000686a      0x17e /tmp/ccGZCpbu.ltrans0.ltrans.o
+                0x000000000000686a      0x17e /tmp/ccUBYYsw.ltrans0.ltrans.o
  .rodata.CompareGuid.constprop.8.str1.1
-                0x00000000000069e8       0x69 /tmp/ccGZCpbu.ltrans0.ltrans.o
+                0x00000000000069e8       0x69 /tmp/ccUBYYsw.ltrans0.ltrans.o
  .rodata.CompareMem.constprop.0.str1.1
-                0x0000000000006a51      0x116 /tmp/ccGZCpbu.ltrans0.ltrans.o
+                0x0000000000006a51      0x116 /tmp/ccUBYYsw.ltrans0.ltrans.o
  .rodata.CopyMem.str1.1
-                0x0000000000006b67       0x53 /tmp/ccGZCpbu.ltrans0.ltrans.o
+                0x0000000000006b67       0x53 /tmp/ccUBYYsw.ltrans0.ltrans.o
  .rodata.DebugAssert.str1.1
-                0x0000000000006bba       0x25 /tmp/ccGZCpbu.ltrans0.ltrans.o
+                0x0000000000006bba       0x25 /tmp/ccUBYYsw.ltrans0.ltrans.o
  .rodata.FindPath.str1.1
-                0x0000000000006bdf       0xc9 /tmp/ccGZCpbu.ltrans0.ltrans.o
+                0x0000000000006bdf       0xc9 /tmp/ccUBYYsw.ltrans0.ltrans.o
  .rodata.FindTableByHandle.str1.1
-                0x0000000000006ca8       0x5c /tmp/ccGZCpbu.ltrans0.ltrans.o
+                0x0000000000006ca8       0x5c /tmp/ccUBYYsw.ltrans0.ltrans.o
  .rodata.FreePool.str1.1
-                0x0000000000006d04       0x91 /tmp/ccGZCpbu.ltrans0.ltrans.o
+                0x0000000000006d04       0x91 /tmp/ccUBYYsw.ltrans0.ltrans.o
  .rodata.GetAcpiTable2.str1.1
-                0x0000000000006d95       0x31 /tmp/ccGZCpbu.ltrans0.ltrans.o
+                0x0000000000006d95       0x31 /tmp/ccUBYYsw.ltrans0.ltrans.o
                                          0x47 (松开之前的大小)
  .rodata.GetChild.str1.1
-                0x0000000000006dc6       0x31 /tmp/ccGZCpbu.ltrans0.ltrans.o
+                0x0000000000006dc6       0x31 /tmp/ccUBYYsw.ltrans0.ltrans.o
                                          0x17 (松开之前的大小)
  .rodata.GetOption.str1.1
-                0x0000000000006dc6       0x99 /tmp/ccGZCpbu.ltrans0.ltrans.o
+                0x0000000000006dc6       0x99 /tmp/ccUBYYsw.ltrans0.ltrans.o
  .rodata.InitializeListHead.str1.1
-                0x0000000000006e5f       0x5c /tmp/ccGZCpbu.ltrans0.ltrans.o
+                0x0000000000006e5f       0x5c /tmp/ccUBYYsw.ltrans0.ltrans.o
  .rodata.InstallAcpiTable.str1.1
-                0x0000000000006ebb       0x50 /tmp/ccGZCpbu.ltrans0.ltrans.o
+                0x0000000000006ebb       0x50 /tmp/ccUBYYsw.ltrans0.ltrans.o
  .rodata.InternalBaseLibIsListValid.str1.1
-                0x0000000000006f0b       0x41 /tmp/ccGZCpbu.ltrans0.ltrans.o
+                0x0000000000006f0b       0x41 /tmp/ccUBYYsw.ltrans0.ltrans.o
                                          0x56 (松开之前的大小)
  .rodata.ReadUnaligned16.str1.1
-                0x0000000000006f4c       0x46 /tmp/ccGZCpbu.ltrans0.ltrans.o
+                0x0000000000006f4c       0x46 /tmp/ccUBYYsw.ltrans0.ltrans.o
                                          0x5d (松开之前的大小)
  .rodata.RegisterNotify.str1.1
-                0x0000000000006f92       0x22 /tmp/ccGZCpbu.ltrans0.ltrans.o
+                0x0000000000006f92       0x22 /tmp/ccUBYYsw.ltrans0.ltrans.o
  .rodata.RemoveEntryList.str1.1
-                0x0000000000006fb4       0x3b /tmp/ccGZCpbu.ltrans0.ltrans.o
+                0x0000000000006fb4       0x3b /tmp/ccUBYYsw.ltrans0.ltrans.o
  .rodata.RemoveTableFromRsdt.str1.1
-                0x0000000000006fef       0x28 /tmp/ccGZCpbu.ltrans0.ltrans.o
+                0x0000000000006fef       0x28 /tmp/ccUBYYsw.ltrans0.ltrans.o
  .rodata.SdtOpenEx.str1.1
-                0x0000000000007017       0x28 /tmp/ccGZCpbu.ltrans0.ltrans.o
+                0x0000000000007017       0x28 /tmp/ccUBYYsw.ltrans0.ltrans.o
                                          0x1a (松开之前的大小)
  .rodata.SetMem.str1.1
-                0x0000000000007017       0x8a /tmp/ccGZCpbu.ltrans0.ltrans.o
+                0x0000000000007017       0x8a /tmp/ccUBYYsw.ltrans0.ltrans.o
  .rodata.UninstallAcpiTable.str1.1
-                0x00000000000070a1       0x2f /tmp/ccGZCpbu.ltrans0.ltrans.o
+                0x00000000000070a1       0x2f /tmp/ccUBYYsw.ltrans0.ltrans.o
  .rodata.ZeroMem.str1.1
-                0x00000000000070d0       0x89 /tmp/ccGZCpbu.ltrans0.ltrans.o
+                0x00000000000070d0       0x89 /tmp/ccUBYYsw.ltrans0.ltrans.o
  .rodata._ModuleEntryPoint.str1.1
-                0x0000000000007159      0x294 /tmp/ccGZCpbu.ltrans0.ltrans.o
+                0x0000000000007159      0x294 /tmp/ccUBYYsw.ltrans0.ltrans.o
  .rodata.__stack_chk_fail.str1.1
-                0x00000000000073ed       0x2e /tmp/ccGZCpbu.ltrans0.ltrans.o
+                0x00000000000073ed       0x2e /tmp/ccUBYYsw.ltrans0.ltrans.o
  .rodata._gPcd_FixedAtBuild_PcdAcpiDefaultOemId
-                0x000000000000741b        0x7 /tmp/ccGZCpbu.ltrans0.ltrans.o
+                0x000000000000741b        0x7 /tmp/ccUBYYsw.ltrans0.ltrans.o
  *fill*         0x0000000000007422        0x2 
  .rodata.mAmlTypeToAcpiType
-                0x0000000000007424       0x24 /tmp/ccGZCpbu.ltrans0.ltrans.o
+                0x0000000000007424       0x24 /tmp/ccUBYYsw.ltrans0.ltrans.o
  .rodata.mHexStr
-                0x0000000000007448       0x10 /tmp/ccGZCpbu.ltrans0.ltrans.o
+                0x0000000000007448       0x10 /tmp/ccUBYYsw.ltrans0.ltrans.o
  .rodata.mStatusString
-                0x0000000000007458      0x138 /tmp/ccGZCpbu.ltrans0.ltrans.o
+                0x0000000000007458      0x138 /tmp/ccUBYYsw.ltrans0.ltrans.o
  .rodata.str1.1
-                0x0000000000007590      0x224 /tmp/ccGZCpbu.ltrans0.ltrans.o
+                0x0000000000007590      0x224 /tmp/ccUBYYsw.ltrans0.ltrans.o
                                         0x235 (松开之前的大小)
  *(.got .got.*)
  *fill*         0x00000000000077b4        0x4 
@@ -608,48 +608,48 @@ END GROUP
  *(.data .data.* .gnu.linkonce.d.*)
  .data.rel.ro   0x0000000000008000        0x0 /home/evsio0n/src/edk2sdm/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
  .data.__stack_chk_guard
-                0x0000000000008000        0x8 /tmp/ccGZCpbu.ltrans0.ltrans.o
+                0x0000000000008000        0x8 /tmp/ccUBYYsw.ltrans0.ltrans.o
                 0x0000000000008000                __stack_chk_guard
  .data.font5x12
-                0x0000000000008008      0x300 /tmp/ccGZCpbu.ltrans0.ltrans.o
+                0x0000000000008008      0x300 /tmp/ccUBYYsw.ltrans0.ltrans.o
  .data.gEfiAcpi10TableGuid
-                0x0000000000008308       0x10 /tmp/ccGZCpbu.ltrans0.ltrans.o
+                0x0000000000008308       0x10 /tmp/ccUBYYsw.ltrans0.ltrans.o
  .data.gEfiAcpiSdtProtocolGuid
-                0x0000000000008318       0x10 /tmp/ccGZCpbu.ltrans0.ltrans.o
+                0x0000000000008318       0x10 /tmp/ccUBYYsw.ltrans0.ltrans.o
  .data.gEfiAcpiTableGuid
-                0x0000000000008328       0x10 /tmp/ccGZCpbu.ltrans0.ltrans.o
+                0x0000000000008328       0x10 /tmp/ccUBYYsw.ltrans0.ltrans.o
  .data.gEfiAcpiTableProtocolGuid
-                0x0000000000008338       0x10 /tmp/ccGZCpbu.ltrans0.ltrans.o
+                0x0000000000008338       0x10 /tmp/ccUBYYsw.ltrans0.ltrans.o
  .data.gEfiHobListGuid
-                0x0000000000008348       0x10 /tmp/ccGZCpbu.ltrans0.ltrans.o
+                0x0000000000008348       0x10 /tmp/ccUBYYsw.ltrans0.ltrans.o
  .data.mAcpiSdtProtocolTemplate
-                0x0000000000008358       0x50 /tmp/ccGZCpbu.ltrans0.ltrans.o
+                0x0000000000008358       0x50 /tmp/ccUBYYsw.ltrans0.ltrans.o
  .data.mAmlByteEncoding
-                0x00000000000083a8     0x141c /tmp/ccGZCpbu.ltrans0.ltrans.o
+                0x00000000000083a8     0x141c /tmp/ccUBYYsw.ltrans0.ltrans.o
  *fill*         0x00000000000097c4        0x4 
  .data.mEfiAcpiMaxNumTables
-                0x00000000000097c8        0x8 /tmp/ccGZCpbu.ltrans0.ltrans.o
+                0x00000000000097c8        0x8 /tmp/ccUBYYsw.ltrans0.ltrans.o
  *(.bss .bss.*)
- .bss.gBS       0x00000000000097d0        0x8 /tmp/ccGZCpbu.ltrans0.ltrans.o
+ .bss.gBS       0x00000000000097d0        0x8 /tmp/ccUBYYsw.ltrans0.ltrans.o
  .bss.gImageHandle
-                0x00000000000097d8        0x8 /tmp/ccGZCpbu.ltrans0.ltrans.o
- .bss.gRT       0x00000000000097e0        0x8 /tmp/ccGZCpbu.ltrans0.ltrans.o
- .bss.gST       0x00000000000097e8        0x8 /tmp/ccGZCpbu.ltrans0.ltrans.o
+                0x00000000000097d8        0x8 /tmp/ccUBYYsw.ltrans0.ltrans.o
+ .bss.gRT       0x00000000000097e0        0x8 /tmp/ccUBYYsw.ltrans0.ltrans.o
+ .bss.gST       0x00000000000097e8        0x8 /tmp/ccUBYYsw.ltrans0.ltrans.o
  .bss.mAcpiTableAllocType
-                0x00000000000097f0        0x4 /tmp/ccGZCpbu.ltrans0.ltrans.o
+                0x00000000000097f0        0x4 /tmp/ccUBYYsw.ltrans0.ltrans.o
  *fill*         0x00000000000097f4        0x4 
- .bss.mHandle   0x00000000000097f8        0x8 /tmp/ccGZCpbu.ltrans0.ltrans.o
- .bss.mHobList  0x0000000000009800        0x8 /tmp/ccGZCpbu.ltrans0.ltrans.o
+ .bss.mHandle   0x00000000000097f8        0x8 /tmp/ccUBYYsw.ltrans0.ltrans.o
+ .bss.mHobList  0x0000000000009800        0x8 /tmp/ccUBYYsw.ltrans0.ltrans.o
  .bss.mPrivateData
-                0x0000000000009808        0x8 /tmp/ccGZCpbu.ltrans0.ltrans.o
- .bss.m_Color   0x0000000000009810       0x10 /tmp/ccGZCpbu.ltrans0.ltrans.o
+                0x0000000000009808        0x8 /tmp/ccUBYYsw.ltrans0.ltrans.o
+ .bss.m_Color   0x0000000000009810       0x10 /tmp/ccUBYYsw.ltrans0.ltrans.o
  .bss.m_Initialized
-                0x0000000000009820        0x1 /tmp/ccGZCpbu.ltrans0.ltrans.o
+                0x0000000000009820        0x1 /tmp/ccUBYYsw.ltrans0.ltrans.o
  *fill*         0x0000000000009821        0x7 
  .bss.m_MaxPosition
-                0x0000000000009828       0x10 /tmp/ccGZCpbu.ltrans0.ltrans.o
+                0x0000000000009828       0x10 /tmp/ccUBYYsw.ltrans0.ltrans.o
  .bss.m_Position
-                0x0000000000009838       0x10 /tmp/ccGZCpbu.ltrans0.ltrans.o
+                0x0000000000009838       0x10 /tmp/ccUBYYsw.ltrans0.ltrans.o
 
 .dynbss         0x0000000000009848        0x0
  .dynbss        0x0000000000009848        0x0 /home/evsio0n/src/edk2sdm/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
@@ -692,27 +692,27 @@ END GROUP
 OUTPUT(/home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/MdeModulePkg/Universal/Acpi/AcpiTableDxe/AcpiTableDxe/DEBUG/AcpiTableDxe.dll elf64-littleaarch64)
 
 .debug_info     0x0000000000000000     0xa48e
- .debug_info    0x0000000000000000     0xa48e /tmp/ccGZCpbu.ltrans0.ltrans.o
+ .debug_info    0x0000000000000000     0xa48e /tmp/ccUBYYsw.ltrans0.ltrans.o
 
 .debug_abbrev   0x0000000000000000      0x67c
- .debug_abbrev  0x0000000000000000      0x67c /tmp/ccGZCpbu.ltrans0.ltrans.o
+ .debug_abbrev  0x0000000000000000      0x67c /tmp/ccUBYYsw.ltrans0.ltrans.o
 
 .debug_loc      0x0000000000000000     0xa7ed
- .debug_loc     0x0000000000000000     0xa7ed /tmp/ccGZCpbu.ltrans0.ltrans.o
+ .debug_loc     0x0000000000000000     0xa7ed /tmp/ccUBYYsw.ltrans0.ltrans.o
 
 .debug_aranges  0x0000000000000000      0x480
  .debug_aranges
-                0x0000000000000000      0x480 /tmp/ccGZCpbu.ltrans0.ltrans.o
+                0x0000000000000000      0x480 /tmp/ccUBYYsw.ltrans0.ltrans.o
 
 .debug_ranges   0x0000000000000000     0x1260
- .debug_ranges  0x0000000000000000     0x1260 /tmp/ccGZCpbu.ltrans0.ltrans.o
+ .debug_ranges  0x0000000000000000     0x1260 /tmp/ccUBYYsw.ltrans0.ltrans.o
 
 .debug_line     0x0000000000000000     0x1ea5
- .debug_line    0x0000000000000000     0x1ea5 /tmp/ccGZCpbu.ltrans0.ltrans.o
+ .debug_line    0x0000000000000000     0x1ea5 /tmp/ccUBYYsw.ltrans0.ltrans.o
 
 .debug_str      0x0000000000000000     0x2e51
- .debug_str     0x0000000000000000     0x2e51 /tmp/ccGZCpbu.ltrans0.ltrans.o
+ .debug_str     0x0000000000000000     0x2e51 /tmp/ccUBYYsw.ltrans0.ltrans.o
                                        0x32d3 (松开之前的大小)
 
 .debug_frame    0x0000000000000000      0xe88
- .debug_frame   0x0000000000000000      0xe88 /tmp/ccGZCpbu.ltrans0.ltrans.o
+ .debug_frame   0x0000000000000000      0xe88 /tmp/ccUBYYsw.ltrans0.ltrans.o

@@ -124,20 +124,20 @@
  .text          0x0000000000000000       0x10 /home/evsio0n/src/edk2sdm/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
  .data          0x0000000000000000        0x0 /home/evsio0n/src/edk2sdm/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
  .bss           0x0000000000000000        0x0 /home/evsio0n/src/edk2sdm/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
- .text          0x0000000000000000        0x0 /tmp/ccsi8TYk.ltrans0.ltrans.o
- .data          0x0000000000000000        0x0 /tmp/ccsi8TYk.ltrans0.ltrans.o
- .bss           0x0000000000000000        0x0 /tmp/ccsi8TYk.ltrans0.ltrans.o
+ .text          0x0000000000000000        0x0 /tmp/ccW9co1x.ltrans0.ltrans.o
+ .data          0x0000000000000000        0x0 /tmp/ccW9co1x.ltrans0.ltrans.o
+ .bss           0x0000000000000000        0x0 /tmp/ccW9co1x.ltrans0.ltrans.o
  .text._DriverUnloadHandler
-                0x0000000000000000        0x8 /tmp/ccsi8TYk.ltrans0.ltrans.o
+                0x0000000000000000        0x8 /tmp/ccW9co1x.ltrans0.ltrans.o
  .text.StrnLenS
-                0x0000000000000000       0x7c /tmp/ccsi8TYk.ltrans0.ltrans.o
+                0x0000000000000000       0x7c /tmp/ccW9co1x.ltrans0.ltrans.o
  .text.__memset
-                0x0000000000000000       0x1c /tmp/ccsi8TYk.ltrans0.ltrans.o
+                0x0000000000000000       0x1c /tmp/ccW9co1x.ltrans0.ltrans.o
  .rodata.StrnLenS.str1.1
-                0x0000000000000000       0x66 /tmp/ccsi8TYk.ltrans0.ltrans.o
- .comment       0x0000000000000000       0x33 /tmp/ccsi8TYk.ltrans0.ltrans.o
+                0x0000000000000000       0x66 /tmp/ccW9co1x.ltrans0.ltrans.o
+ .comment       0x0000000000000000       0x33 /tmp/ccW9co1x.ltrans0.ltrans.o
  .note.GNU-stack
-                0x0000000000000000        0x0 /tmp/ccsi8TYk.ltrans0.ltrans.o
+                0x0000000000000000        0x0 /tmp/ccW9co1x.ltrans0.ltrans.o
  .text          0x0000000000000000        0x8 /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(CpuBreakpoint.obj)
  .data          0x0000000000000000        0x0 /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(CpuBreakpoint.obj)
  .bss           0x0000000000000000        0x0 /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(CpuBreakpoint.obj)
@@ -311,7 +311,7 @@
 链结器命令稿和内存映射
 
 LOAD /home/evsio0n/src/edk2sdm/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
-LOAD /tmp/ccsi8TYk.ltrans0.ltrans.o
+LOAD /tmp/ccW9co1x.ltrans0.ltrans.o
 START GROUP
 LOAD /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib
 LOAD /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/DxePcdLib/DxePcdLib/OUTPUT/DxePcdLib.lib
@@ -352,121 +352,121 @@ END GROUP
 .text           0x0000000000001000     0x3ef8
  *(.text .text.* .stub .gnu.linkonce.t.*)
  .text.DebugPrintLevelEnabled.constprop.10
-                0x0000000000001000        0x8 /tmp/ccsi8TYk.ltrans0.ltrans.o
+                0x0000000000001000        0x8 /tmp/ccW9co1x.ltrans0.ltrans.o
  .text.BasePrintLibFillBuffer
-                0x0000000000001008       0x34 /tmp/ccsi8TYk.ltrans0.ltrans.o
+                0x0000000000001008       0x34 /tmp/ccW9co1x.ltrans0.ltrans.o
  .text.AsciiStrnLenS
-                0x000000000000103c       0x3c /tmp/ccsi8TYk.ltrans0.ltrans.o
+                0x000000000000103c       0x3c /tmp/ccW9co1x.ltrans0.ltrans.o
  .text.ArmGicGetSupportedArchRevision
-                0x0000000000001078        0xc /tmp/ccsi8TYk.ltrans0.ltrans.o
+                0x0000000000001078        0xc /tmp/ccW9co1x.ltrans0.ltrans.o
  .text.DebugPrintEnabled
-                0x0000000000001084        0x8 /tmp/ccsi8TYk.ltrans0.ltrans.o
+                0x0000000000001084        0x8 /tmp/ccW9co1x.ltrans0.ltrans.o
  .text.DebugAssertEnabled
-                0x000000000000108c        0x8 /tmp/ccsi8TYk.ltrans0.ltrans.o
+                0x000000000000108c        0x8 /tmp/ccW9co1x.ltrans0.ltrans.o
  .text.BaseDebugLibSerialPortConstructor
-                0x0000000000001094       0x84 /tmp/ccsi8TYk.ltrans0.ltrans.o
+                0x0000000000001094       0x84 /tmp/ccW9co1x.ltrans0.ltrans.o
  .text.FbConFlush
-                0x0000000000001118       0x54 /tmp/ccsi8TYk.ltrans0.ltrans.o
+                0x0000000000001118       0x54 /tmp/ccW9co1x.ltrans0.ltrans.o
  .text.SerialPortWrite
-                0x000000000000116c      0x418 /tmp/ccsi8TYk.ltrans0.ltrans.o
+                0x000000000000116c      0x418 /tmp/ccW9co1x.ltrans0.ltrans.o
  .text.ArmGicArchLibInitialize
-                0x0000000000001584       0x54 /tmp/ccsi8TYk.ltrans0.ltrans.o
+                0x0000000000001584       0x54 /tmp/ccW9co1x.ltrans0.ltrans.o
  .text.DebugAssert
-                0x00000000000015d8       0x7c /tmp/ccsi8TYk.ltrans0.ltrans.o
+                0x00000000000015d8       0x7c /tmp/ccW9co1x.ltrans0.ltrans.o
  .text.CompareGuid.constprop.4
-                0x0000000000001654       0x50 /tmp/ccsi8TYk.ltrans0.ltrans.o
+                0x0000000000001654       0x50 /tmp/ccW9co1x.ltrans0.ltrans.o
  .text.unlikely.ReadUnaligned16
-                0x00000000000016a4       0x68 /tmp/ccsi8TYk.ltrans0.ltrans.o
+                0x00000000000016a4       0x68 /tmp/ccW9co1x.ltrans0.ltrans.o
  .text.BasePrintLibSPrintMarker.constprop.17
-                0x000000000000170c      0xcbc /tmp/ccsi8TYk.ltrans0.ltrans.o
+                0x000000000000170c      0xcbc /tmp/ccW9co1x.ltrans0.ltrans.o
  .text.unlikely.BasePrintLibSPrint.constprop.18
-                0x00000000000023c8       0x98 /tmp/ccsi8TYk.ltrans0.ltrans.o
+                0x00000000000023c8       0x98 /tmp/ccW9co1x.ltrans0.ltrans.o
  .text.AsciiSPrint.constprop.15
-                0x0000000000002460       0xa4 /tmp/ccsi8TYk.ltrans0.ltrans.o
+                0x0000000000002460       0xa4 /tmp/ccW9co1x.ltrans0.ltrans.o
  .text.AsciiStrLen
-                0x0000000000002504       0x80 /tmp/ccsi8TYk.ltrans0.ltrans.o
+                0x0000000000002504       0x80 /tmp/ccW9co1x.ltrans0.ltrans.o
  .text.DebugPrint.constprop.11
-                0x0000000000002584       0xb8 /tmp/ccsi8TYk.ltrans0.ltrans.o
+                0x0000000000002584       0xb8 /tmp/ccW9co1x.ltrans0.ltrans.o
  .text.CpuArchEventProtocolNotify
-                0x000000000000263c      0x120 /tmp/ccsi8TYk.ltrans0.ltrans.o
- .text.ZeroMem  0x000000000000275c       0x7c /tmp/ccsi8TYk.ltrans0.ltrans.o
+                0x000000000000263c      0x120 /tmp/ccW9co1x.ltrans0.ltrans.o
+ .text.ZeroMem  0x000000000000275c       0x7c /tmp/ccW9co1x.ltrans0.ltrans.o
  .text.GicGetCpuRedistributorBase
-                0x00000000000027d8      0x128 /tmp/ccsi8TYk.ltrans0.ltrans.o
+                0x00000000000027d8      0x128 /tmp/ccW9co1x.ltrans0.ltrans.o
  .text.MmioWrite64
-                0x0000000000002900       0x54 /tmp/ccsi8TYk.ltrans0.ltrans.o
+                0x0000000000002900       0x54 /tmp/ccW9co1x.ltrans0.ltrans.o
  .text.MmioWrite32
-                0x0000000000002954       0x54 /tmp/ccsi8TYk.ltrans0.ltrans.o
+                0x0000000000002954       0x54 /tmp/ccW9co1x.ltrans0.ltrans.o
  .text.ArmGicV2DisableInterruptInterface
-                0x00000000000029a8       0x2c /tmp/ccsi8TYk.ltrans0.ltrans.o
+                0x00000000000029a8       0x2c /tmp/ccW9co1x.ltrans0.ltrans.o
  .text.ArmGicV2EndOfInterrupt
-                0x00000000000029d4        0x8 /tmp/ccsi8TYk.ltrans0.ltrans.o
+                0x00000000000029d4        0x8 /tmp/ccW9co1x.ltrans0.ltrans.o
  .text.ArmGicEnableInterruptInterface
-                0x00000000000029dc       0x78 /tmp/ccsi8TYk.ltrans0.ltrans.o
+                0x00000000000029dc       0x78 /tmp/ccW9co1x.ltrans0.ltrans.o
  .text.ArmGicDisableDistributor
-                0x0000000000002a54        0x8 /tmp/ccsi8TYk.ltrans0.ltrans.o
+                0x0000000000002a54        0x8 /tmp/ccW9co1x.ltrans0.ltrans.o
  .text.ArmGicDisableInterrupt
-                0x0000000000002a5c       0x78 /tmp/ccsi8TYk.ltrans0.ltrans.o
+                0x0000000000002a5c       0x78 /tmp/ccW9co1x.ltrans0.ltrans.o
  .text.ArmGicEnableInterrupt
-                0x0000000000002ad4       0xc8 /tmp/ccsi8TYk.ltrans0.ltrans.o
+                0x0000000000002ad4       0xc8 /tmp/ccW9co1x.ltrans0.ltrans.o
  .text.MmioRead32
-                0x0000000000002b9c       0x4c /tmp/ccsi8TYk.ltrans0.ltrans.o
+                0x0000000000002b9c       0x4c /tmp/ccW9co1x.ltrans0.ltrans.o
  .text.ArmGicV2AcknowledgeInterrupt
-                0x0000000000002be8       0x1c /tmp/ccsi8TYk.ltrans0.ltrans.o
+                0x0000000000002be8       0x1c /tmp/ccW9co1x.ltrans0.ltrans.o
  .text.ArmGicIsInterruptEnabled
-                0x0000000000002c04       0x98 /tmp/ccsi8TYk.ltrans0.ltrans.o
+                0x0000000000002c04       0x98 /tmp/ccW9co1x.ltrans0.ltrans.o
  .text.ArmGicGetMaxNumInterrupts
-                0x0000000000002c9c       0x20 /tmp/ccsi8TYk.ltrans0.ltrans.o
+                0x0000000000002c9c       0x20 /tmp/ccW9co1x.ltrans0.ltrans.o
  .text.MmioAndThenOr32
-                0x0000000000002cbc       0x3c /tmp/ccsi8TYk.ltrans0.ltrans.o
+                0x0000000000002cbc       0x3c /tmp/ccW9co1x.ltrans0.ltrans.o
  .text.MmioOr32
-                0x0000000000002cf8       0x2c /tmp/ccsi8TYk.ltrans0.ltrans.o
+                0x0000000000002cf8       0x2c /tmp/ccW9co1x.ltrans0.ltrans.o
  .text.ArmGicEnableDistributor
-                0x0000000000002d24       0x4c /tmp/ccsi8TYk.ltrans0.ltrans.o
+                0x0000000000002d24       0x4c /tmp/ccW9co1x.ltrans0.ltrans.o
  .text.InstallAndRegisterInterruptService
-                0x0000000000002d70      0x214 /tmp/ccsi8TYk.ltrans0.ltrans.o
+                0x0000000000002d70      0x214 /tmp/ccW9co1x.ltrans0.ltrans.o
  .text.RegisterInterruptSource
-                0x0000000000002f84       0x90 /tmp/ccsi8TYk.ltrans0.ltrans.o
+                0x0000000000002f84       0x90 /tmp/ccW9co1x.ltrans0.ltrans.o
  .text.GicGetDistributorIcfgBaseAndBit
-                0x0000000000003014       0x70 /tmp/ccsi8TYk.ltrans0.ltrans.o
+                0x0000000000003014       0x70 /tmp/ccW9co1x.ltrans0.ltrans.o
  .text.GicV2GetTriggerType
-                0x0000000000003084       0x8c /tmp/ccsi8TYk.ltrans0.ltrans.o
+                0x0000000000003084       0x8c /tmp/ccW9co1x.ltrans0.ltrans.o
  .text.GicV3GetTriggerType
-                0x0000000000003110        0x4 /tmp/ccsi8TYk.ltrans0.ltrans.o
+                0x0000000000003110        0x4 /tmp/ccW9co1x.ltrans0.ltrans.o
  .text.GicV3GetInterruptSourceState
-                0x0000000000003114       0x78 /tmp/ccsi8TYk.ltrans0.ltrans.o
+                0x0000000000003114       0x78 /tmp/ccW9co1x.ltrans0.ltrans.o
  .text.GicV3DisableInterruptSource
-                0x000000000000318c       0x68 /tmp/ccsi8TYk.ltrans0.ltrans.o
+                0x000000000000318c       0x68 /tmp/ccW9co1x.ltrans0.ltrans.o
  .text.GicV3EnableInterruptSource
-                0x00000000000031f4       0x68 /tmp/ccsi8TYk.ltrans0.ltrans.o
+                0x00000000000031f4       0x68 /tmp/ccW9co1x.ltrans0.ltrans.o
  .text.GicV3SetTriggerType
-                0x000000000000325c      0x134 /tmp/ccsi8TYk.ltrans0.ltrans.o
+                0x000000000000325c      0x134 /tmp/ccW9co1x.ltrans0.ltrans.o
  .text.GicV2EndOfInterrupt
-                0x0000000000003390       0x5c /tmp/ccsi8TYk.ltrans0.ltrans.o
+                0x0000000000003390       0x5c /tmp/ccW9co1x.ltrans0.ltrans.o
  .text.GicV2IrqInterruptHandler
-                0x00000000000033ec       0xa8 /tmp/ccsi8TYk.ltrans0.ltrans.o
+                0x00000000000033ec       0xa8 /tmp/ccW9co1x.ltrans0.ltrans.o
  .text.GicV2GetInterruptSourceState
-                0x0000000000003494       0x74 /tmp/ccsi8TYk.ltrans0.ltrans.o
+                0x0000000000003494       0x74 /tmp/ccW9co1x.ltrans0.ltrans.o
  .text.GicV2DisableInterruptSource
-                0x0000000000003508       0x64 /tmp/ccsi8TYk.ltrans0.ltrans.o
+                0x0000000000003508       0x64 /tmp/ccW9co1x.ltrans0.ltrans.o
  .text.GicV2ExitBootServicesEvent
-                0x000000000000356c       0xb4 /tmp/ccsi8TYk.ltrans0.ltrans.o
+                0x000000000000356c       0xb4 /tmp/ccW9co1x.ltrans0.ltrans.o
  .text.GicV2EnableInterruptSource
-                0x0000000000003620       0x64 /tmp/ccsi8TYk.ltrans0.ltrans.o
+                0x0000000000003620       0x64 /tmp/ccW9co1x.ltrans0.ltrans.o
  .text.GicV2SetTriggerType
-                0x0000000000003684      0x134 /tmp/ccsi8TYk.ltrans0.ltrans.o
+                0x0000000000003684      0x134 /tmp/ccW9co1x.ltrans0.ltrans.o
  .text.GicV3EndOfInterrupt
-                0x00000000000037b8       0x58 /tmp/ccsi8TYk.ltrans0.ltrans.o
+                0x00000000000037b8       0x58 /tmp/ccW9co1x.ltrans0.ltrans.o
  .text.GicV3ExitBootServicesEvent
-                0x0000000000003810       0x8c /tmp/ccsi8TYk.ltrans0.ltrans.o
+                0x0000000000003810       0x8c /tmp/ccW9co1x.ltrans0.ltrans.o
  .text.GicV3IrqInterruptHandler
-                0x000000000000389c       0xa0 /tmp/ccsi8TYk.ltrans0.ltrans.o
+                0x000000000000389c       0xa0 /tmp/ccW9co1x.ltrans0.ltrans.o
  .text.__stack_chk_fail
-                0x000000000000393c       0x34 /tmp/ccsi8TYk.ltrans0.ltrans.o
+                0x000000000000393c       0x34 /tmp/ccW9co1x.ltrans0.ltrans.o
                 0x000000000000393c                __stack_chk_fail
  .text._ModuleEntryPoint
-                0x0000000000003970      0x58c /tmp/ccsi8TYk.ltrans0.ltrans.o
+                0x0000000000003970      0x58c /tmp/ccW9co1x.ltrans0.ltrans.o
                 0x0000000000003970                _ModuleEntryPoint
- .text.memcpy   0x0000000000003efc       0x20 /tmp/ccsi8TYk.ltrans0.ltrans.o
+ .text.memcpy   0x0000000000003efc       0x20 /tmp/ccW9co1x.ltrans0.ltrans.o
                 0x0000000000003efc                memcpy
  .text.ArmCleanInvalidateDataCacheEntryByMVA
                 0x0000000000003f1c        0x8 /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(AArch64Support.obj)
@@ -527,50 +527,50 @@ END GROUP
                 0x0000000000004224                ArmDisableInterrupts
  *(.rodata .rodata.* .gnu.linkonce.r.*)
  .rodata.AsciiStrLen.str1.1
-                0x0000000000004230       0x77 /tmp/ccsi8TYk.ltrans0.ltrans.o
+                0x0000000000004230       0x77 /tmp/ccW9co1x.ltrans0.ltrans.o
  .rodata.BasePrintLibSPrintMarker.constprop.17.str1.1
-                0x00000000000042a7      0x17e /tmp/ccsi8TYk.ltrans0.ltrans.o
+                0x00000000000042a7      0x17e /tmp/ccW9co1x.ltrans0.ltrans.o
  .rodata.CompareGuid.constprop.4.str1.1
-                0x0000000000004425       0x69 /tmp/ccsi8TYk.ltrans0.ltrans.o
+                0x0000000000004425       0x69 /tmp/ccW9co1x.ltrans0.ltrans.o
  .rodata.CpuArchEventProtocolNotify.str1.1
-                0x000000000000448e       0x2a /tmp/ccsi8TYk.ltrans0.ltrans.o
+                0x000000000000448e       0x2a /tmp/ccW9co1x.ltrans0.ltrans.o
  .rodata.DebugAssert.str1.1
-                0x00000000000044b8       0x22 /tmp/ccsi8TYk.ltrans0.ltrans.o
+                0x00000000000044b8       0x22 /tmp/ccW9co1x.ltrans0.ltrans.o
  .rodata.GicGetCpuRedistributorBase.str1.1
-                0x00000000000044da      0x13a /tmp/ccsi8TYk.ltrans0.ltrans.o
+                0x00000000000044da      0x13a /tmp/ccW9co1x.ltrans0.ltrans.o
  .rodata.GicGetDistributorIcfgBaseAndBit.str1.1
-                0x0000000000004614       0x1b /tmp/ccsi8TYk.ltrans0.ltrans.o
+                0x0000000000004614       0x1b /tmp/ccW9co1x.ltrans0.ltrans.o
  .rodata.GicV2EndOfInterrupt.str1.1
-                0x000000000000462f       0x49 /tmp/ccsi8TYk.ltrans0.ltrans.o
+                0x000000000000462f       0x49 /tmp/ccW9co1x.ltrans0.ltrans.o
  .rodata.GicV2IrqInterruptHandler.str1.1
-                0x0000000000004678       0x1e /tmp/ccsi8TYk.ltrans0.ltrans.o
+                0x0000000000004678       0x1e /tmp/ccW9co1x.ltrans0.ltrans.o
  .rodata.GicV3GetInterruptSourceState.str1.1
-                0x0000000000004696       0x49 /tmp/ccsi8TYk.ltrans0.ltrans.o
+                0x0000000000004696       0x49 /tmp/ccW9co1x.ltrans0.ltrans.o
  .rodata.GicV3SetTriggerType.str1.1
-                0x00000000000046df       0x24 /tmp/ccsi8TYk.ltrans0.ltrans.o
+                0x00000000000046df       0x24 /tmp/ccW9co1x.ltrans0.ltrans.o
  .rodata.InstallAndRegisterInterruptService.str1.1
-                0x0000000000004703       0x54 /tmp/ccsi8TYk.ltrans0.ltrans.o
+                0x0000000000004703       0x54 /tmp/ccW9co1x.ltrans0.ltrans.o
  .rodata.MmioWrite32.str1.1
-                0x0000000000004757       0x13 /tmp/ccsi8TYk.ltrans0.ltrans.o
+                0x0000000000004757       0x13 /tmp/ccW9co1x.ltrans0.ltrans.o
  .rodata.ReadUnaligned16.str1.1
-                0x000000000000476a       0x5d /tmp/ccsi8TYk.ltrans0.ltrans.o
+                0x000000000000476a       0x5d /tmp/ccW9co1x.ltrans0.ltrans.o
  .rodata.RegisterInterruptSource.str1.1
-                0x00000000000047c7       0x59 /tmp/ccsi8TYk.ltrans0.ltrans.o
+                0x00000000000047c7       0x59 /tmp/ccW9co1x.ltrans0.ltrans.o
  .rodata.ZeroMem.str1.1
-                0x0000000000004820       0x89 /tmp/ccsi8TYk.ltrans0.ltrans.o
+                0x0000000000004820       0x89 /tmp/ccW9co1x.ltrans0.ltrans.o
  .rodata._ModuleEntryPoint.str1.1
-                0x00000000000048a9      0x270 /tmp/ccsi8TYk.ltrans0.ltrans.o
+                0x00000000000048a9      0x270 /tmp/ccW9co1x.ltrans0.ltrans.o
  .rodata.__FUNCTION__.14281
-                0x0000000000004b19       0x1b /tmp/ccsi8TYk.ltrans0.ltrans.o
+                0x0000000000004b19       0x1b /tmp/ccW9co1x.ltrans0.ltrans.o
  .rodata.__stack_chk_fail.str1.1
-                0x0000000000004b34       0x2e /tmp/ccsi8TYk.ltrans0.ltrans.o
+                0x0000000000004b34       0x2e /tmp/ccW9co1x.ltrans0.ltrans.o
  .rodata.mHexStr
-                0x0000000000004b62       0x10 /tmp/ccsi8TYk.ltrans0.ltrans.o
+                0x0000000000004b62       0x10 /tmp/ccW9co1x.ltrans0.ltrans.o
  *fill*         0x0000000000004b72        0x6 
  .rodata.mStatusString
-                0x0000000000004b78      0x138 /tmp/ccsi8TYk.ltrans0.ltrans.o
+                0x0000000000004b78      0x138 /tmp/ccW9co1x.ltrans0.ltrans.o
  .rodata.str1.1
-                0x0000000000004cb0      0x224 /tmp/ccsi8TYk.ltrans0.ltrans.o
+                0x0000000000004cb0      0x224 /tmp/ccW9co1x.ltrans0.ltrans.o
                                         0x235 (松开之前的大小)
  *(.got .got.*)
  *fill*         0x0000000000004ed4        0x4 
@@ -586,62 +586,62 @@ END GROUP
  *(.data .data.* .gnu.linkonce.d.*)
  .data.rel.ro   0x0000000000005000        0x0 /home/evsio0n/src/edk2sdm/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
  .data.__stack_chk_guard
-                0x0000000000005000        0x8 /tmp/ccsi8TYk.ltrans0.ltrans.o
+                0x0000000000005000        0x8 /tmp/ccW9co1x.ltrans0.ltrans.o
                 0x0000000000005000                __stack_chk_guard
  .data.font5x12
-                0x0000000000005008      0x300 /tmp/ccsi8TYk.ltrans0.ltrans.o
+                0x0000000000005008      0x300 /tmp/ccW9co1x.ltrans0.ltrans.o
  .data.gEfiCpuArchProtocolGuid
-                0x0000000000005308       0x10 /tmp/ccsi8TYk.ltrans0.ltrans.o
+                0x0000000000005308       0x10 /tmp/ccW9co1x.ltrans0.ltrans.o
  .data.gEfiHobListGuid
-                0x0000000000005318       0x10 /tmp/ccsi8TYk.ltrans0.ltrans.o
+                0x0000000000005318       0x10 /tmp/ccW9co1x.ltrans0.ltrans.o
  .data.gHardwareInterrupt2ProtocolGuid
-                0x0000000000005328       0x10 /tmp/ccsi8TYk.ltrans0.ltrans.o
+                0x0000000000005328       0x10 /tmp/ccW9co1x.ltrans0.ltrans.o
  .data.gHardwareInterrupt2V2Protocol
-                0x0000000000005338       0x38 /tmp/ccsi8TYk.ltrans0.ltrans.o
+                0x0000000000005338       0x38 /tmp/ccW9co1x.ltrans0.ltrans.o
  .data.gHardwareInterrupt2V3Protocol
-                0x0000000000005370       0x38 /tmp/ccsi8TYk.ltrans0.ltrans.o
+                0x0000000000005370       0x38 /tmp/ccW9co1x.ltrans0.ltrans.o
  .data.gHardwareInterruptProtocolGuid
-                0x00000000000053a8       0x10 /tmp/ccsi8TYk.ltrans0.ltrans.o
+                0x00000000000053a8       0x10 /tmp/ccW9co1x.ltrans0.ltrans.o
  .data.gHardwareInterruptV2Protocol
-                0x00000000000053b8       0x28 /tmp/ccsi8TYk.ltrans0.ltrans.o
+                0x00000000000053b8       0x28 /tmp/ccW9co1x.ltrans0.ltrans.o
  .data.gHardwareInterruptV3Protocol
-                0x00000000000053e0       0x28 /tmp/ccsi8TYk.ltrans0.ltrans.o
+                0x00000000000053e0       0x28 /tmp/ccW9co1x.ltrans0.ltrans.o
  *(.bss .bss.*)
  .bss.EfiExitBootServicesEvent
-                0x0000000000005408        0x8 /tmp/ccsi8TYk.ltrans0.ltrans.o
- .bss.gBS       0x0000000000005410        0x8 /tmp/ccsi8TYk.ltrans0.ltrans.o
+                0x0000000000005408        0x8 /tmp/ccW9co1x.ltrans0.ltrans.o
+ .bss.gBS       0x0000000000005410        0x8 /tmp/ccW9co1x.ltrans0.ltrans.o
  .bss.gHardwareInterruptHandle
-                0x0000000000005418        0x8 /tmp/ccsi8TYk.ltrans0.ltrans.o
+                0x0000000000005418        0x8 /tmp/ccW9co1x.ltrans0.ltrans.o
  .bss.gImageHandle
-                0x0000000000005420        0x8 /tmp/ccsi8TYk.ltrans0.ltrans.o
- .bss.gRT       0x0000000000005428        0x8 /tmp/ccsi8TYk.ltrans0.ltrans.o
+                0x0000000000005420        0x8 /tmp/ccW9co1x.ltrans0.ltrans.o
+ .bss.gRT       0x0000000000005428        0x8 /tmp/ccW9co1x.ltrans0.ltrans.o
  .bss.gRegisteredInterruptHandlers
-                0x0000000000005430        0x8 /tmp/ccsi8TYk.ltrans0.ltrans.o
- .bss.gST       0x0000000000005438        0x8 /tmp/ccsi8TYk.ltrans0.ltrans.o
+                0x0000000000005430        0x8 /tmp/ccW9co1x.ltrans0.ltrans.o
+ .bss.gST       0x0000000000005438        0x8 /tmp/ccW9co1x.ltrans0.ltrans.o
  .bss.mCpuArchProtocolNotifyEventRegistration
-                0x0000000000005440        0x8 /tmp/ccsi8TYk.ltrans0.ltrans.o
+                0x0000000000005440        0x8 /tmp/ccW9co1x.ltrans0.ltrans.o
  .bss.mGicArchRevision
-                0x0000000000005448        0x4 /tmp/ccsi8TYk.ltrans0.ltrans.o
+                0x0000000000005448        0x4 /tmp/ccW9co1x.ltrans0.ltrans.o
  .bss.mGicDistributorBase.lto_priv.25
-                0x000000000000544c        0x4 /tmp/ccsi8TYk.ltrans0.ltrans.o
+                0x000000000000544c        0x4 /tmp/ccW9co1x.ltrans0.ltrans.o
  .bss.mGicDistributorBase.lto_priv.26
-                0x0000000000005450        0x8 /tmp/ccsi8TYk.ltrans0.ltrans.o
+                0x0000000000005450        0x8 /tmp/ccW9co1x.ltrans0.ltrans.o
  .bss.mGicInterruptInterfaceBase
-                0x0000000000005458        0x4 /tmp/ccsi8TYk.ltrans0.ltrans.o
+                0x0000000000005458        0x4 /tmp/ccW9co1x.ltrans0.ltrans.o
  *fill*         0x000000000000545c        0x4 
  .bss.mGicNumInterrupts
-                0x0000000000005460        0x8 /tmp/ccsi8TYk.ltrans0.ltrans.o
+                0x0000000000005460        0x8 /tmp/ccW9co1x.ltrans0.ltrans.o
  .bss.mGicRedistributorsBase
-                0x0000000000005468        0x8 /tmp/ccsi8TYk.ltrans0.ltrans.o
- .bss.mHobList  0x0000000000005470        0x8 /tmp/ccsi8TYk.ltrans0.ltrans.o
- .bss.m_Color   0x0000000000005478       0x10 /tmp/ccsi8TYk.ltrans0.ltrans.o
+                0x0000000000005468        0x8 /tmp/ccW9co1x.ltrans0.ltrans.o
+ .bss.mHobList  0x0000000000005470        0x8 /tmp/ccW9co1x.ltrans0.ltrans.o
+ .bss.m_Color   0x0000000000005478       0x10 /tmp/ccW9co1x.ltrans0.ltrans.o
  .bss.m_Initialized
-                0x0000000000005488        0x1 /tmp/ccsi8TYk.ltrans0.ltrans.o
+                0x0000000000005488        0x1 /tmp/ccW9co1x.ltrans0.ltrans.o
  *fill*         0x0000000000005489        0x7 
  .bss.m_MaxPosition
-                0x0000000000005490       0x10 /tmp/ccsi8TYk.ltrans0.ltrans.o
+                0x0000000000005490       0x10 /tmp/ccW9co1x.ltrans0.ltrans.o
  .bss.m_Position
-                0x00000000000054a0       0x10 /tmp/ccsi8TYk.ltrans0.ltrans.o
+                0x00000000000054a0       0x10 /tmp/ccW9co1x.ltrans0.ltrans.o
 
 .dynbss         0x00000000000054b0        0x0
  .dynbss        0x00000000000054b0        0x0 /home/evsio0n/src/edk2sdm/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
@@ -690,27 +690,27 @@ END GROUP
 OUTPUT(/home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Drivers/ArmGic/ArmGicDxe/DEBUG/ArmGicDxe.dll elf64-littleaarch64)
 
 .debug_info     0x0000000000000000     0x8479
- .debug_info    0x0000000000000000     0x8479 /tmp/ccsi8TYk.ltrans0.ltrans.o
+ .debug_info    0x0000000000000000     0x8479 /tmp/ccW9co1x.ltrans0.ltrans.o
 
 .debug_abbrev   0x0000000000000000      0x6bd
- .debug_abbrev  0x0000000000000000      0x6bd /tmp/ccsi8TYk.ltrans0.ltrans.o
+ .debug_abbrev  0x0000000000000000      0x6bd /tmp/ccW9co1x.ltrans0.ltrans.o
 
 .debug_loc      0x0000000000000000     0x66a4
- .debug_loc     0x0000000000000000     0x66a4 /tmp/ccsi8TYk.ltrans0.ltrans.o
+ .debug_loc     0x0000000000000000     0x66a4 /tmp/ccW9co1x.ltrans0.ltrans.o
 
 .debug_aranges  0x0000000000000000      0x3e0
  .debug_aranges
-                0x0000000000000000      0x3e0 /tmp/ccsi8TYk.ltrans0.ltrans.o
+                0x0000000000000000      0x3e0 /tmp/ccW9co1x.ltrans0.ltrans.o
 
 .debug_ranges   0x0000000000000000      0xb40
- .debug_ranges  0x0000000000000000      0xb40 /tmp/ccsi8TYk.ltrans0.ltrans.o
+ .debug_ranges  0x0000000000000000      0xb40 /tmp/ccW9co1x.ltrans0.ltrans.o
 
 .debug_line     0x0000000000000000     0x18ed
- .debug_line    0x0000000000000000     0x18ed /tmp/ccsi8TYk.ltrans0.ltrans.o
+ .debug_line    0x0000000000000000     0x18ed /tmp/ccW9co1x.ltrans0.ltrans.o
 
 .debug_str      0x0000000000000000     0x2e19
- .debug_str     0x0000000000000000     0x2e19 /tmp/ccsi8TYk.ltrans0.ltrans.o
+ .debug_str     0x0000000000000000     0x2e19 /tmp/ccW9co1x.ltrans0.ltrans.o
                                        0x31d2 (松开之前的大小)
 
 .debug_frame    0x0000000000000000      0xb68
- .debug_frame   0x0000000000000000      0xb68 /tmp/ccsi8TYk.ltrans0.ltrans.o
+ .debug_frame   0x0000000000000000      0xb68 /tmp/ccW9co1x.ltrans0.ltrans.o

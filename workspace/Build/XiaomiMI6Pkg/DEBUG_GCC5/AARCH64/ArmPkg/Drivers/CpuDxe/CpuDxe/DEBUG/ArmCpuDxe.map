@@ -134,20 +134,20 @@
  .text          0x0000000000000000       0x10 /home/evsio0n/src/edk2sdm/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
  .data          0x0000000000000000        0x0 /home/evsio0n/src/edk2sdm/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
  .bss           0x0000000000000000        0x0 /home/evsio0n/src/edk2sdm/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
- .text          0x0000000000000000        0x0 /tmp/ccVSkPQc.ltrans0.ltrans.o
- .data          0x0000000000000000        0x0 /tmp/ccVSkPQc.ltrans0.ltrans.o
- .bss           0x0000000000000000        0x0 /tmp/ccVSkPQc.ltrans0.ltrans.o
+ .text          0x0000000000000000        0x0 /tmp/ccUCodm9.ltrans0.ltrans.o
+ .data          0x0000000000000000        0x0 /tmp/ccUCodm9.ltrans0.ltrans.o
+ .bss           0x0000000000000000        0x0 /tmp/ccUCodm9.ltrans0.ltrans.o
  .text._DriverUnloadHandler
-                0x0000000000000000        0x8 /tmp/ccVSkPQc.ltrans0.ltrans.o
+                0x0000000000000000        0x8 /tmp/ccUCodm9.ltrans0.ltrans.o
  .text.StrnLenS
-                0x0000000000000000       0x7c /tmp/ccVSkPQc.ltrans0.ltrans.o
+                0x0000000000000000       0x7c /tmp/ccUCodm9.ltrans0.ltrans.o
  .text.__memset
-                0x0000000000000000       0x1c /tmp/ccVSkPQc.ltrans0.ltrans.o
+                0x0000000000000000       0x1c /tmp/ccUCodm9.ltrans0.ltrans.o
  .rodata.StrnLenS.str1.1
-                0x0000000000000000       0x66 /tmp/ccVSkPQc.ltrans0.ltrans.o
- .comment       0x0000000000000000       0x33 /tmp/ccVSkPQc.ltrans0.ltrans.o
+                0x0000000000000000       0x66 /tmp/ccUCodm9.ltrans0.ltrans.o
+ .comment       0x0000000000000000       0x33 /tmp/ccUCodm9.ltrans0.ltrans.o
  .note.GNU-stack
-                0x0000000000000000        0x0 /tmp/ccVSkPQc.ltrans0.ltrans.o
+                0x0000000000000000        0x0 /tmp/ccUCodm9.ltrans0.ltrans.o
  .text          0x0000000000000000        0x8 /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(CpuBreakpoint.obj)
  .data          0x0000000000000000        0x0 /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(CpuBreakpoint.obj)
  .bss           0x0000000000000000        0x0 /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(CpuBreakpoint.obj)
@@ -298,7 +298,7 @@
 链结器命令稿和内存映射
 
 LOAD /home/evsio0n/src/edk2sdm/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
-LOAD /tmp/ccVSkPQc.ltrans0.ltrans.o
+LOAD /tmp/ccUCodm9.ltrans0.ltrans.o
 START GROUP
 LOAD /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/DxePcdLib/DxePcdLib/OUTPUT/DxePcdLib.lib
 LOAD /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib
@@ -344,119 +344,119 @@ END GROUP
 .text           0x0000000000001000     0x70c0
  *(.text .text.* .stub .gnu.linkonce.t.*)
  .text.InternalAllocatePages.constprop.12
-                0x0000000000001000       0x6c /tmp/ccVSkPQc.ltrans0.ltrans.o
+                0x0000000000001000       0x6c /tmp/ccUCodm9.ltrans0.ltrans.o
  .text.DebugPrintLevelEnabled
-                0x000000000000106c        0x8 /tmp/ccVSkPQc.ltrans0.ltrans.o
+                0x000000000000106c        0x8 /tmp/ccUCodm9.ltrans0.ltrans.o
  .text.BasePrintLibFillBuffer
-                0x0000000000001074       0x34 /tmp/ccVSkPQc.ltrans0.ltrans.o
+                0x0000000000001074       0x34 /tmp/ccUCodm9.ltrans0.ltrans.o
  .text.AsciiStrnLenS
-                0x00000000000010a8       0x3c /tmp/ccVSkPQc.ltrans0.ltrans.o
+                0x00000000000010a8       0x3c /tmp/ccUCodm9.ltrans0.ltrans.o
  .text.RegisterCpuInterruptHandler
-                0x00000000000010e4       0x40 /tmp/ccVSkPQc.ltrans0.ltrans.o
+                0x00000000000010e4       0x40 /tmp/ccUCodm9.ltrans0.ltrans.o
  .text.GetRootTranslationTableInfo
-                0x0000000000001124       0x2c /tmp/ccVSkPQc.ltrans0.ltrans.o
+                0x0000000000001124       0x2c /tmp/ccUCodm9.ltrans0.ltrans.o
  .text.InternalAllocatePool
-                0x0000000000001150       0x64 /tmp/ccVSkPQc.ltrans0.ltrans.o
+                0x0000000000001150       0x64 /tmp/ccUCodm9.ltrans0.ltrans.o
  .text.DebugCodeEnabled
-                0x00000000000011b4        0x8 /tmp/ccVSkPQc.ltrans0.ltrans.o
+                0x00000000000011b4        0x8 /tmp/ccUCodm9.ltrans0.ltrans.o
  .text.DebugPrintEnabled
-                0x00000000000011bc        0x8 /tmp/ccVSkPQc.ltrans0.ltrans.o
+                0x00000000000011bc        0x8 /tmp/ccUCodm9.ltrans0.ltrans.o
  .text.DebugAssertEnabled
-                0x00000000000011c4        0x8 /tmp/ccVSkPQc.ltrans0.ltrans.o
+                0x00000000000011c4        0x8 /tmp/ccUCodm9.ltrans0.ltrans.o
  .text.CpuDeadLoop
-                0x00000000000011cc       0x18 /tmp/ccVSkPQc.ltrans0.ltrans.o
+                0x00000000000011cc       0x18 /tmp/ccUCodm9.ltrans0.ltrans.o
  .text.GetMemoryRegionRec
-                0x00000000000011e4      0x114 /tmp/ccVSkPQc.ltrans0.ltrans.o
+                0x00000000000011e4      0x114 /tmp/ccUCodm9.ltrans0.ltrans.o
  .text.CpuGetTimerValue
-                0x00000000000012f8        0x8 /tmp/ccVSkPQc.ltrans0.ltrans.o
+                0x00000000000012f8        0x8 /tmp/ccUCodm9.ltrans0.ltrans.o
  .text.CpuRegisterInterruptHandler
-                0x0000000000001300        0xc /tmp/ccVSkPQc.ltrans0.ltrans.o
- .text.CpuInit  0x000000000000130c        0x8 /tmp/ccVSkPQc.ltrans0.ltrans.o
+                0x0000000000001300        0xc /tmp/ccUCodm9.ltrans0.ltrans.o
+ .text.CpuInit  0x000000000000130c        0x8 /tmp/ccUCodm9.ltrans0.ltrans.o
  .text.CpuEnableInterrupt
-                0x0000000000001314       0x18 /tmp/ccVSkPQc.ltrans0.ltrans.o
+                0x0000000000001314       0x18 /tmp/ccUCodm9.ltrans0.ltrans.o
  .text.CpuDisableInterrupt
-                0x000000000000132c       0x18 /tmp/ccVSkPQc.ltrans0.ltrans.o
+                0x000000000000132c       0x18 /tmp/ccUCodm9.ltrans0.ltrans.o
  .text.BaseDebugLibSerialPortConstructor
-                0x0000000000001344       0x84 /tmp/ccVSkPQc.ltrans0.ltrans.o
+                0x0000000000001344       0x84 /tmp/ccUCodm9.ltrans0.ltrans.o
  .text.CpuGetInterruptState
-                0x00000000000013c8       0x38 /tmp/ccVSkPQc.ltrans0.ltrans.o
+                0x00000000000013c8       0x38 /tmp/ccUCodm9.ltrans0.ltrans.o
  .text.LowBitSet64
-                0x0000000000001400       0x28 /tmp/ccVSkPQc.ltrans0.ltrans.o
+                0x0000000000001400       0x28 /tmp/ccUCodm9.ltrans0.ltrans.o
  .text.ArmCacheWritebackGranule
-                0x0000000000001428       0x30 /tmp/ccVSkPQc.ltrans0.ltrans.o
+                0x0000000000001428       0x30 /tmp/ccUCodm9.ltrans0.ltrans.o
  .text.ArmDataCacheLineLength
-                0x0000000000001458       0x24 /tmp/ccVSkPQc.ltrans0.ltrans.o
+                0x0000000000001458       0x24 /tmp/ccUCodm9.ltrans0.ltrans.o
  .text.InvalidateDataCacheRange
-                0x000000000000147c       0x5c /tmp/ccVSkPQc.ltrans0.ltrans.o
+                0x000000000000147c       0x5c /tmp/ccUCodm9.ltrans0.ltrans.o
  .text.WriteBackDataCacheRange
-                0x00000000000014d8       0x5c /tmp/ccVSkPQc.ltrans0.ltrans.o
+                0x00000000000014d8       0x5c /tmp/ccUCodm9.ltrans0.ltrans.o
  .text.ArmMmuBaseLibConstructor
-                0x0000000000001534       0x28 /tmp/ccVSkPQc.ltrans0.ltrans.o
+                0x0000000000001534       0x28 /tmp/ccUCodm9.ltrans0.ltrans.o
  .text.WriteBackInvalidateDataCacheRange
-                0x000000000000155c       0x5c /tmp/ccVSkPQc.ltrans0.ltrans.o
+                0x000000000000155c       0x5c /tmp/ccUCodm9.ltrans0.ltrans.o
  .text.FbConFlush
-                0x00000000000015b8       0x10 /tmp/ccVSkPQc.ltrans0.ltrans.o
+                0x00000000000015b8       0x10 /tmp/ccUCodm9.ltrans0.ltrans.o
  .text.SerialPortWrite
-                0x00000000000015c8      0x418 /tmp/ccVSkPQc.ltrans0.ltrans.o
+                0x00000000000015c8      0x418 /tmp/ccUCodm9.ltrans0.ltrans.o
  .text.DebugAssert
-                0x00000000000019e0       0x7c /tmp/ccVSkPQc.ltrans0.ltrans.o
+                0x00000000000019e0       0x7c /tmp/ccUCodm9.ltrans0.ltrans.o
  .text.InitializeCpuExceptionHandlers.constprop.10
-                0x0000000000001a5c       0x84 /tmp/ccVSkPQc.ltrans0.ltrans.o
+                0x0000000000001a5c       0x84 /tmp/ccUCodm9.ltrans0.ltrans.o
  .text.unlikely.ReadUnaligned16
-                0x0000000000001ae0       0x68 /tmp/ccVSkPQc.ltrans0.ltrans.o
+                0x0000000000001ae0       0x68 /tmp/ccUCodm9.ltrans0.ltrans.o
  .text.BasePrintLibSPrintMarker.constprop.17
-                0x0000000000001b48      0xd80 /tmp/ccVSkPQc.ltrans0.ltrans.o
+                0x0000000000001b48      0xd80 /tmp/ccUCodm9.ltrans0.ltrans.o
  .text.unlikely.BasePrintLibSPrint.constprop.18
-                0x00000000000028c8       0x9c /tmp/ccVSkPQc.ltrans0.ltrans.o
+                0x00000000000028c8       0x9c /tmp/ccUCodm9.ltrans0.ltrans.o
  .text.AsciiSPrint
-                0x0000000000002964       0xb4 /tmp/ccVSkPQc.ltrans0.ltrans.o
+                0x0000000000002964       0xb4 /tmp/ccUCodm9.ltrans0.ltrans.o
  .text.UnicodeVSPrintAsciiFormat
-                0x0000000000002a18       0x80 /tmp/ccVSkPQc.ltrans0.ltrans.o
+                0x0000000000002a18       0x80 /tmp/ccUCodm9.ltrans0.ltrans.o
  .text.AsciiStrLen
-                0x0000000000002a98       0xa0 /tmp/ccVSkPQc.ltrans0.ltrans.o
+                0x0000000000002a98       0xa0 /tmp/ccUCodm9.ltrans0.ltrans.o
  .text.BaseName
-                0x0000000000002b38       0x54 /tmp/ccVSkPQc.ltrans0.ltrans.o
+                0x0000000000002b38       0x54 /tmp/ccUCodm9.ltrans0.ltrans.o
  .text.DebugPrint
-                0x0000000000002b8c       0xd0 /tmp/ccVSkPQc.ltrans0.ltrans.o
+                0x0000000000002b8c       0xd0 /tmp/ccUCodm9.ltrans0.ltrans.o
  .text.DescribeInstructionOrDataAbort
-                0x0000000000002c5c       0x58 /tmp/ccVSkPQc.ltrans0.ltrans.o
+                0x0000000000002c5c       0x58 /tmp/ccUCodm9.ltrans0.ltrans.o
  .text.ArmSetMemoryAttributes
-                0x0000000000002cb4      0x498 /tmp/ccVSkPQc.ltrans0.ltrans.o
+                0x0000000000002cb4      0x498 /tmp/ccUCodm9.ltrans0.ltrans.o
  .text.PageAttributeToGcdAttribute
-                0x000000000000314c       0xb8 /tmp/ccVSkPQc.ltrans0.ltrans.o
+                0x000000000000314c       0xb8 /tmp/ccUCodm9.ltrans0.ltrans.o
  .text.FreePool
-                0x0000000000003204       0x7c /tmp/ccVSkPQc.ltrans0.ltrans.o
+                0x0000000000003204       0x7c /tmp/ccUCodm9.ltrans0.ltrans.o
  .text.AsciiPrint
-                0x0000000000003280      0x170 /tmp/ccVSkPQc.ltrans0.ltrans.o
+                0x0000000000003280      0x170 /tmp/ccUCodm9.ltrans0.ltrans.o
  .text.CpuSetMemoryAttributes
-                0x00000000000033f0      0x1c0 /tmp/ccVSkPQc.ltrans0.ltrans.o
+                0x00000000000033f0      0x1c0 /tmp/ccUCodm9.ltrans0.ltrans.o
  .text.SetGcdMemorySpaceAttributes
-                0x00000000000035b0      0x180 /tmp/ccVSkPQc.ltrans0.ltrans.o
+                0x00000000000035b0      0x180 /tmp/ccUCodm9.ltrans0.ltrans.o
  .text.GetNextEntryAttribute
-                0x0000000000003730      0x28c /tmp/ccVSkPQc.ltrans0.ltrans.o
+                0x0000000000003730      0x28c /tmp/ccUCodm9.ltrans0.ltrans.o
  .text.CpuFlushCpuDataCache
-                0x00000000000039bc       0x50 /tmp/ccVSkPQc.ltrans0.ltrans.o
- .text.CopyMem  0x0000000000003a0c       0xb0 /tmp/ccVSkPQc.ltrans0.ltrans.o
+                0x00000000000039bc       0x50 /tmp/ccUCodm9.ltrans0.ltrans.o
+ .text.CopyMem  0x0000000000003a0c       0xb0 /tmp/ccUCodm9.ltrans0.ltrans.o
  .text.CompareGuid
-                0x0000000000003abc       0x54 /tmp/ccVSkPQc.ltrans0.ltrans.o
+                0x0000000000003abc       0x54 /tmp/ccUCodm9.ltrans0.ltrans.o
  .text.EfiGetSystemConfigurationTable
-                0x0000000000003b10       0x94 /tmp/ccVSkPQc.ltrans0.ltrans.o
+                0x0000000000003b10       0x94 /tmp/ccUCodm9.ltrans0.ltrans.o
  .text.GetImageName
-                0x0000000000003ba4      0x300 /tmp/ccVSkPQc.ltrans0.ltrans.o
+                0x0000000000003ba4      0x300 /tmp/ccUCodm9.ltrans0.ltrans.o
  .text.GetHobList
-                0x0000000000003ea4       0xb4 /tmp/ccVSkPQc.ltrans0.ltrans.o
+                0x0000000000003ea4       0xb4 /tmp/ccUCodm9.ltrans0.ltrans.o
  .text.IdleLoopEventCallback
-                0x0000000000003f58        0x4 /tmp/ccVSkPQc.ltrans0.ltrans.o
+                0x0000000000003f58        0x4 /tmp/ccUCodm9.ltrans0.ltrans.o
  .text.CommonCExceptionHandler
-                0x0000000000003f5c      0x6e0 /tmp/ccVSkPQc.ltrans0.ltrans.o
+                0x0000000000003f5c      0x6e0 /tmp/ccUCodm9.ltrans0.ltrans.o
                 0x0000000000003f5c                CommonCExceptionHandler
  .text.__stack_chk_fail
-                0x000000000000463c       0x34 /tmp/ccVSkPQc.ltrans0.ltrans.o
+                0x000000000000463c       0x34 /tmp/ccUCodm9.ltrans0.ltrans.o
                 0x000000000000463c                __stack_chk_fail
  .text._ModuleEntryPoint
-                0x0000000000004670      0x6c0 /tmp/ccVSkPQc.ltrans0.ltrans.o
+                0x0000000000004670      0x6c0 /tmp/ccUCodm9.ltrans0.ltrans.o
                 0x0000000000004670                _ModuleEntryPoint
- .text.memcpy   0x0000000000004d30       0x20 /tmp/ccVSkPQc.ltrans0.ltrans.o
+ .text.memcpy   0x0000000000004d30       0x20 /tmp/ccUCodm9.ltrans0.ltrans.o
                 0x0000000000004d30                memcpy
  .text          0x0000000000004d50      0x218 /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(CopyMem.obj)
                 0x0000000000004ebc                InternalMemCopyMem
@@ -548,73 +548,73 @@ END GROUP
                 0x000000000000602c                InternalMemSetMem
  *(.rodata .rodata.* .gnu.linkonce.r.*)
  .rodata.PageAttributeToGcdAttribute
-                0x0000000000006200        0xd /tmp/ccVSkPQc.ltrans0.ltrans.o
+                0x0000000000006200        0xd /tmp/ccUCodm9.ltrans0.ltrans.o
  *fill*         0x000000000000620d        0x3 
  .rodata.CpuSetMemoryAttributes
-                0x0000000000006210        0x8 /tmp/ccVSkPQc.ltrans0.ltrans.o
+                0x0000000000006210        0x8 /tmp/ccUCodm9.ltrans0.ltrans.o
  .rodata.CommonCExceptionHandler
-                0x0000000000006218       0x11 /tmp/ccVSkPQc.ltrans0.ltrans.o
+                0x0000000000006218       0x11 /tmp/ccUCodm9.ltrans0.ltrans.o
  .rodata.ArmSetMemoryAttributes.str1.1
-                0x0000000000006229      0x136 /tmp/ccVSkPQc.ltrans0.ltrans.o
+                0x0000000000006229      0x136 /tmp/ccUCodm9.ltrans0.ltrans.o
  .rodata.AsciiPrint.str1.1
-                0x000000000000635f       0x5d /tmp/ccVSkPQc.ltrans0.ltrans.o
+                0x000000000000635f       0x5d /tmp/ccUCodm9.ltrans0.ltrans.o
  .rodata.AsciiStrLen.str1.1
-                0x00000000000063bc       0x8e /tmp/ccVSkPQc.ltrans0.ltrans.o
+                0x00000000000063bc       0x8e /tmp/ccUCodm9.ltrans0.ltrans.o
  .rodata.BasePrintLibSPrintMarker.constprop.17.str1.1
-                0x000000000000644a      0x202 /tmp/ccVSkPQc.ltrans0.ltrans.o
+                0x000000000000644a      0x202 /tmp/ccUCodm9.ltrans0.ltrans.o
  *fill*         0x000000000000664c        0x4 
  .rodata.CSWTCH.10
-                0x0000000000006650      0x1b8 /tmp/ccVSkPQc.ltrans0.ltrans.o
+                0x0000000000006650      0x1b8 /tmp/ccUCodm9.ltrans0.ltrans.o
  .rodata.CSWTCH.28
-                0x0000000000006808       0x10 /tmp/ccVSkPQc.ltrans0.ltrans.o
+                0x0000000000006808       0x10 /tmp/ccUCodm9.ltrans0.ltrans.o
  .rodata.CommonCExceptionHandler.str1.1
-                0x0000000000006818      0x6a6 /tmp/ccVSkPQc.ltrans0.ltrans.o
+                0x0000000000006818      0x6a6 /tmp/ccUCodm9.ltrans0.ltrans.o
                                         0x6b1 (松开之前的大小)
  .rodata.CompareGuid.str1.1
-                0x0000000000006ebe       0x69 /tmp/ccVSkPQc.ltrans0.ltrans.o
+                0x0000000000006ebe       0x69 /tmp/ccUCodm9.ltrans0.ltrans.o
  .rodata.CopyMem.str1.1
-                0x0000000000006f27       0xd4 /tmp/ccVSkPQc.ltrans0.ltrans.o
+                0x0000000000006f27       0xd4 /tmp/ccUCodm9.ltrans0.ltrans.o
  .rodata.CpuSetMemoryAttributes.str1.1
-                0x0000000000006ffb       0x47 /tmp/ccVSkPQc.ltrans0.ltrans.o
+                0x0000000000006ffb       0x47 /tmp/ccUCodm9.ltrans0.ltrans.o
  .rodata.DebugAssert.str1.1
-                0x0000000000007042       0x22 /tmp/ccVSkPQc.ltrans0.ltrans.o
+                0x0000000000007042       0x22 /tmp/ccUCodm9.ltrans0.ltrans.o
  .rodata.DescribeInstructionOrDataAbort.str1.1
-                0x0000000000007064        0x9 /tmp/ccVSkPQc.ltrans0.ltrans.o
+                0x0000000000007064        0x9 /tmp/ccUCodm9.ltrans0.ltrans.o
                                           0xa (松开之前的大小)
  .rodata.FreePool.str1.1
-                0x000000000000706d       0x70 /tmp/ccVSkPQc.ltrans0.ltrans.o
+                0x000000000000706d       0x70 /tmp/ccUCodm9.ltrans0.ltrans.o
  .rodata.GetHobList.str1.1
-                0x00000000000070dd       0x5a /tmp/ccVSkPQc.ltrans0.ltrans.o
+                0x00000000000070dd       0x5a /tmp/ccUCodm9.ltrans0.ltrans.o
  .rodata.GetImageName.str1.1
-                0x0000000000007137       0x78 /tmp/ccVSkPQc.ltrans0.ltrans.o
+                0x0000000000007137       0x78 /tmp/ccUCodm9.ltrans0.ltrans.o
  .rodata.GetNextEntryAttribute.str1.1
-                0x00000000000071af       0x62 /tmp/ccVSkPQc.ltrans0.ltrans.o
+                0x00000000000071af       0x62 /tmp/ccUCodm9.ltrans0.ltrans.o
  .rodata.InitializeCpuExceptionHandlers.constprop.10.str1.1
-                0x0000000000007211       0x95 /tmp/ccVSkPQc.ltrans0.ltrans.o
+                0x0000000000007211       0x95 /tmp/ccUCodm9.ltrans0.ltrans.o
  .rodata.Message.11288
-                0x00000000000072a6       0x3b /tmp/ccVSkPQc.ltrans0.ltrans.o
+                0x00000000000072a6       0x3b /tmp/ccUCodm9.ltrans0.ltrans.o
  .rodata.PageAttributeToGcdAttribute.str1.1
-                0x00000000000072e1       0x42 /tmp/ccVSkPQc.ltrans0.ltrans.o
+                0x00000000000072e1       0x42 /tmp/ccUCodm9.ltrans0.ltrans.o
                                          0x44 (松开之前的大小)
  .rodata.ReadUnaligned16.str1.1
-                0x0000000000007323       0x5d /tmp/ccVSkPQc.ltrans0.ltrans.o
+                0x0000000000007323       0x5d /tmp/ccUCodm9.ltrans0.ltrans.o
  .rodata.SetGcdMemorySpaceAttributes.str1.1
-                0x0000000000007380       0x98 /tmp/ccVSkPQc.ltrans0.ltrans.o
+                0x0000000000007380       0x98 /tmp/ccUCodm9.ltrans0.ltrans.o
  .rodata.UnicodeVSPrintAsciiFormat.str1.1
-                0x0000000000007418       0x6e /tmp/ccVSkPQc.ltrans0.ltrans.o
+                0x0000000000007418       0x6e /tmp/ccUCodm9.ltrans0.ltrans.o
  .rodata._ModuleEntryPoint.str1.1
-                0x0000000000007486      0x31e /tmp/ccVSkPQc.ltrans0.ltrans.o
+                0x0000000000007486      0x31e /tmp/ccUCodm9.ltrans0.ltrans.o
  .rodata.__stack_chk_fail.str1.1
-                0x00000000000077a4       0x2e /tmp/ccVSkPQc.ltrans0.ltrans.o
+                0x00000000000077a4       0x2e /tmp/ccUCodm9.ltrans0.ltrans.o
  *fill*         0x00000000000077d2        0x6 
  .rodata.gExceptionTypeString
-                0x00000000000077d8       0x20 /tmp/ccVSkPQc.ltrans0.ltrans.o
+                0x00000000000077d8       0x20 /tmp/ccUCodm9.ltrans0.ltrans.o
  .rodata.mHexStr
-                0x00000000000077f8       0x10 /tmp/ccVSkPQc.ltrans0.ltrans.o
+                0x00000000000077f8       0x10 /tmp/ccUCodm9.ltrans0.ltrans.o
  .rodata.mStatusString
-                0x0000000000007808      0x138 /tmp/ccVSkPQc.ltrans0.ltrans.o
+                0x0000000000007808      0x138 /tmp/ccUCodm9.ltrans0.ltrans.o
  .rodata.str1.1
-                0x0000000000007940      0x759 /tmp/ccVSkPQc.ltrans0.ltrans.o
+                0x0000000000007940      0x759 /tmp/ccUCodm9.ltrans0.ltrans.o
                                         0x76a (松开之前的大小)
  *(.got .got.*)
  *fill*         0x0000000000008099        0x7 
@@ -630,52 +630,52 @@ END GROUP
  *(.data .data.* .gnu.linkonce.d.*)
  .data.rel.ro   0x0000000000009000        0x0 /home/evsio0n/src/edk2sdm/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
  .data.__stack_chk_guard
-                0x0000000000009000        0x8 /tmp/ccVSkPQc.ltrans0.ltrans.o
+                0x0000000000009000        0x8 /tmp/ccUCodm9.ltrans0.ltrans.o
                 0x0000000000009000                __stack_chk_guard
  .data.font5x12
-                0x0000000000009008      0x300 /tmp/ccVSkPQc.ltrans0.ltrans.o
+                0x0000000000009008      0x300 /tmp/ccUCodm9.ltrans0.ltrans.o
  .data.gArmMpCoreInfoGuid
-                0x0000000000009308       0x10 /tmp/ccVSkPQc.ltrans0.ltrans.o
+                0x0000000000009308       0x10 /tmp/ccUCodm9.ltrans0.ltrans.o
  .data.gEfiCpuArchProtocolGuid
-                0x0000000000009318       0x10 /tmp/ccVSkPQc.ltrans0.ltrans.o
+                0x0000000000009318       0x10 /tmp/ccUCodm9.ltrans0.ltrans.o
  .data.gEfiDebugImageInfoTableGuid
-                0x0000000000009328       0x10 /tmp/ccVSkPQc.ltrans0.ltrans.o
+                0x0000000000009328       0x10 /tmp/ccUCodm9.ltrans0.ltrans.o
  .data.gEfiDxeServicesTableGuid
-                0x0000000000009338       0x10 /tmp/ccVSkPQc.ltrans0.ltrans.o
+                0x0000000000009338       0x10 /tmp/ccUCodm9.ltrans0.ltrans.o
  .data.gEfiHobListGuid
-                0x0000000000009348       0x10 /tmp/ccVSkPQc.ltrans0.ltrans.o
+                0x0000000000009348       0x10 /tmp/ccUCodm9.ltrans0.ltrans.o
  .data.gEfiVectorHandoffTableGuid
-                0x0000000000009358       0x10 /tmp/ccVSkPQc.ltrans0.ltrans.o
+                0x0000000000009358       0x10 /tmp/ccUCodm9.ltrans0.ltrans.o
  .data.gIdleLoopEventGuid
-                0x0000000000009368       0x10 /tmp/ccVSkPQc.ltrans0.ltrans.o
+                0x0000000000009368       0x10 /tmp/ccUCodm9.ltrans0.ltrans.o
  .data.mArmProcessorTableTemplate
-                0x0000000000009378       0x60 /tmp/ccVSkPQc.ltrans0.ltrans.o
- .data.mCpu     0x00000000000093d8       0x48 /tmp/ccVSkPQc.ltrans0.ltrans.o
+                0x0000000000009378       0x60 /tmp/ccUCodm9.ltrans0.ltrans.o
+ .data.mCpu     0x00000000000093d8       0x48 /tmp/ccUCodm9.ltrans0.ltrans.o
  *(.bss .bss.*)
- .bss.gBS       0x0000000000009420        0x8 /tmp/ccVSkPQc.ltrans0.ltrans.o
- .bss.gDS       0x0000000000009428        0x8 /tmp/ccVSkPQc.ltrans0.ltrans.o
+ .bss.gBS       0x0000000000009420        0x8 /tmp/ccUCodm9.ltrans0.ltrans.o
+ .bss.gDS       0x0000000000009428        0x8 /tmp/ccUCodm9.ltrans0.ltrans.o
  .bss.gExceptionHandlers
-                0x0000000000009430       0x20 /tmp/ccVSkPQc.ltrans0.ltrans.o
+                0x0000000000009430       0x20 /tmp/ccUCodm9.ltrans0.ltrans.o
  .bss.gImageHandle
-                0x0000000000009450        0x8 /tmp/ccVSkPQc.ltrans0.ltrans.o
- .bss.gRT       0x0000000000009458        0x8 /tmp/ccVSkPQc.ltrans0.ltrans.o
- .bss.gST       0x0000000000009460        0x8 /tmp/ccVSkPQc.ltrans0.ltrans.o
+                0x0000000000009450        0x8 /tmp/ccUCodm9.ltrans0.ltrans.o
+ .bss.gRT       0x0000000000009458        0x8 /tmp/ccUCodm9.ltrans0.ltrans.o
+ .bss.gST       0x0000000000009460        0x8 /tmp/ccUCodm9.ltrans0.ltrans.o
  .bss.mCpuHandle
-                0x0000000000009468        0x8 /tmp/ccVSkPQc.ltrans0.ltrans.o
- .bss.mHobList  0x0000000000009470        0x8 /tmp/ccVSkPQc.ltrans0.ltrans.o
+                0x0000000000009468        0x8 /tmp/ccUCodm9.ltrans0.ltrans.o
+ .bss.mHobList  0x0000000000009470        0x8 /tmp/ccUCodm9.ltrans0.ltrans.o
  .bss.mIsFlushingGCD
-                0x0000000000009478        0x1 /tmp/ccVSkPQc.ltrans0.ltrans.o
+                0x0000000000009478        0x1 /tmp/ccUCodm9.ltrans0.ltrans.o
  .bss.mRecursiveException
-                0x0000000000009479        0x1 /tmp/ccVSkPQc.ltrans0.ltrans.o
+                0x0000000000009479        0x1 /tmp/ccUCodm9.ltrans0.ltrans.o
  *fill*         0x000000000000947a        0x6 
- .bss.m_Color   0x0000000000009480       0x10 /tmp/ccVSkPQc.ltrans0.ltrans.o
+ .bss.m_Color   0x0000000000009480       0x10 /tmp/ccUCodm9.ltrans0.ltrans.o
  .bss.m_Initialized
-                0x0000000000009490        0x1 /tmp/ccVSkPQc.ltrans0.ltrans.o
+                0x0000000000009490        0x1 /tmp/ccUCodm9.ltrans0.ltrans.o
  *fill*         0x0000000000009491        0x7 
  .bss.m_MaxPosition
-                0x0000000000009498       0x10 /tmp/ccVSkPQc.ltrans0.ltrans.o
+                0x0000000000009498       0x10 /tmp/ccUCodm9.ltrans0.ltrans.o
  .bss.m_Position
-                0x00000000000094a8       0x10 /tmp/ccVSkPQc.ltrans0.ltrans.o
+                0x00000000000094a8       0x10 /tmp/ccUCodm9.ltrans0.ltrans.o
 
 .dynbss         0x00000000000094b8        0x0
  .dynbss        0x00000000000094b8        0x0 /home/evsio0n/src/edk2sdm/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
@@ -722,27 +722,27 @@ END GROUP
 OUTPUT(/home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Drivers/CpuDxe/CpuDxe/DEBUG/ArmCpuDxe.dll elf64-littleaarch64)
 
 .debug_info     0x0000000000000000     0xbf08
- .debug_info    0x0000000000000000     0xbf08 /tmp/ccVSkPQc.ltrans0.ltrans.o
+ .debug_info    0x0000000000000000     0xbf08 /tmp/ccUCodm9.ltrans0.ltrans.o
 
 .debug_abbrev   0x0000000000000000      0x693
- .debug_abbrev  0x0000000000000000      0x693 /tmp/ccVSkPQc.ltrans0.ltrans.o
+ .debug_abbrev  0x0000000000000000      0x693 /tmp/ccUCodm9.ltrans0.ltrans.o
 
 .debug_loc      0x0000000000000000     0x80ec
- .debug_loc     0x0000000000000000     0x80ec /tmp/ccVSkPQc.ltrans0.ltrans.o
+ .debug_loc     0x0000000000000000     0x80ec /tmp/ccUCodm9.ltrans0.ltrans.o
 
 .debug_aranges  0x0000000000000000      0x3e0
  .debug_aranges
-                0x0000000000000000      0x3e0 /tmp/ccVSkPQc.ltrans0.ltrans.o
+                0x0000000000000000      0x3e0 /tmp/ccUCodm9.ltrans0.ltrans.o
 
 .debug_ranges   0x0000000000000000      0xda0
- .debug_ranges  0x0000000000000000      0xda0 /tmp/ccVSkPQc.ltrans0.ltrans.o
+ .debug_ranges  0x0000000000000000      0xda0 /tmp/ccUCodm9.ltrans0.ltrans.o
 
 .debug_line     0x0000000000000000     0x1d32
- .debug_line    0x0000000000000000     0x1d32 /tmp/ccVSkPQc.ltrans0.ltrans.o
+ .debug_line    0x0000000000000000     0x1d32 /tmp/ccUCodm9.ltrans0.ltrans.o
 
 .debug_str      0x0000000000000000     0x3a9e
- .debug_str     0x0000000000000000     0x3a9e /tmp/ccVSkPQc.ltrans0.ltrans.o
+ .debug_str     0x0000000000000000     0x3a9e /tmp/ccUCodm9.ltrans0.ltrans.o
                                        0x3f5d (松开之前的大小)
 
 .debug_frame    0x0000000000000000      0xb38
- .debug_frame   0x0000000000000000      0xb38 /tmp/ccVSkPQc.ltrans0.ltrans.o
+ .debug_frame   0x0000000000000000      0xb38 /tmp/ccUCodm9.ltrans0.ltrans.o

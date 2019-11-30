@@ -108,20 +108,20 @@
  .text          0x0000000000000000       0x10 /home/evsio0n/src/edk2sdm/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
  .data          0x0000000000000000        0x0 /home/evsio0n/src/edk2sdm/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
  .bss           0x0000000000000000        0x0 /home/evsio0n/src/edk2sdm/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
- .text          0x0000000000000000        0x0 /tmp/ccyyUElP.ltrans0.ltrans.o
- .data          0x0000000000000000        0x0 /tmp/ccyyUElP.ltrans0.ltrans.o
- .bss           0x0000000000000000        0x0 /tmp/ccyyUElP.ltrans0.ltrans.o
+ .text          0x0000000000000000        0x0 /tmp/ccKT5mjb.ltrans0.ltrans.o
+ .data          0x0000000000000000        0x0 /tmp/ccKT5mjb.ltrans0.ltrans.o
+ .bss           0x0000000000000000        0x0 /tmp/ccKT5mjb.ltrans0.ltrans.o
  .text._DriverUnloadHandler
-                0x0000000000000000        0x8 /tmp/ccyyUElP.ltrans0.ltrans.o
+                0x0000000000000000        0x8 /tmp/ccKT5mjb.ltrans0.ltrans.o
  .text.StrnLenS
-                0x0000000000000000       0x7c /tmp/ccyyUElP.ltrans0.ltrans.o
+                0x0000000000000000       0x7c /tmp/ccKT5mjb.ltrans0.ltrans.o
  .text.__memset
-                0x0000000000000000       0x1c /tmp/ccyyUElP.ltrans0.ltrans.o
+                0x0000000000000000       0x1c /tmp/ccKT5mjb.ltrans0.ltrans.o
  .rodata.StrnLenS.str1.1
-                0x0000000000000000       0x66 /tmp/ccyyUElP.ltrans0.ltrans.o
- .comment       0x0000000000000000       0x33 /tmp/ccyyUElP.ltrans0.ltrans.o
+                0x0000000000000000       0x66 /tmp/ccKT5mjb.ltrans0.ltrans.o
+ .comment       0x0000000000000000       0x33 /tmp/ccKT5mjb.ltrans0.ltrans.o
  .note.GNU-stack
-                0x0000000000000000        0x0 /tmp/ccyyUElP.ltrans0.ltrans.o
+                0x0000000000000000        0x0 /tmp/ccKT5mjb.ltrans0.ltrans.o
  .text          0x0000000000000000        0x8 /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(CpuBreakpoint.obj)
  .data          0x0000000000000000        0x0 /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(CpuBreakpoint.obj)
  .bss           0x0000000000000000        0x0 /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(CpuBreakpoint.obj)
@@ -334,7 +334,7 @@
 链结器命令稿和内存映射
 
 LOAD /home/evsio0n/src/edk2sdm/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
-LOAD /tmp/ccyyUElP.ltrans0.ltrans.o
+LOAD /tmp/ccKT5mjb.ltrans0.ltrans.o
 START GROUP
 LOAD /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib
 LOAD /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/DxePcdLib/DxePcdLib/OUTPUT/DxePcdLib.lib
@@ -375,50 +375,50 @@ END GROUP
 .text           0x0000000000001000     0x2480
  *(.text .text.* .stub .gnu.linkonce.t.*)
  .text.DebugPrintLevelEnabled.constprop.8
-                0x0000000000001000        0x8 /tmp/ccyyUElP.ltrans0.ltrans.o
+                0x0000000000001000        0x8 /tmp/ccKT5mjb.ltrans0.ltrans.o
  .text.BasePrintLibFillBuffer
-                0x0000000000001008       0x34 /tmp/ccyyUElP.ltrans0.ltrans.o
+                0x0000000000001008       0x34 /tmp/ccKT5mjb.ltrans0.ltrans.o
  .text.AsciiStrnLenS
-                0x000000000000103c       0x3c /tmp/ccyyUElP.ltrans0.ltrans.o
+                0x000000000000103c       0x3c /tmp/ccKT5mjb.ltrans0.ltrans.o
  .text.DebugPrintEnabled
-                0x0000000000001078        0x8 /tmp/ccyyUElP.ltrans0.ltrans.o
+                0x0000000000001078        0x8 /tmp/ccKT5mjb.ltrans0.ltrans.o
  .text.DebugAssertEnabled
-                0x0000000000001080        0x8 /tmp/ccyyUElP.ltrans0.ltrans.o
+                0x0000000000001080        0x8 /tmp/ccKT5mjb.ltrans0.ltrans.o
  .text.BaseDebugLibSerialPortConstructor
-                0x0000000000001088       0x84 /tmp/ccyyUElP.ltrans0.ltrans.o
+                0x0000000000001088       0x84 /tmp/ccKT5mjb.ltrans0.ltrans.o
  .text.FbConFlush
-                0x000000000000110c       0x54 /tmp/ccyyUElP.ltrans0.ltrans.o
+                0x000000000000110c       0x54 /tmp/ccKT5mjb.ltrans0.ltrans.o
  .text.SerialPortWrite
-                0x0000000000001160      0x418 /tmp/ccyyUElP.ltrans0.ltrans.o
+                0x0000000000001160      0x418 /tmp/ccKT5mjb.ltrans0.ltrans.o
  .text.MicroSecondDelay
-                0x0000000000001578       0x50 /tmp/ccyyUElP.ltrans0.ltrans.o
+                0x0000000000001578       0x50 /tmp/ccKT5mjb.ltrans0.ltrans.o
  .text.WaitForTick
-                0x00000000000015c8       0x2c /tmp/ccyyUElP.ltrans0.ltrans.o
+                0x00000000000015c8       0x2c /tmp/ccKT5mjb.ltrans0.ltrans.o
  .text.DebugAssert
-                0x00000000000015f4       0x7c /tmp/ccyyUElP.ltrans0.ltrans.o
+                0x00000000000015f4       0x7c /tmp/ccKT5mjb.ltrans0.ltrans.o
  .text.CompareGuid.constprop.6
-                0x0000000000001670       0x50 /tmp/ccyyUElP.ltrans0.ltrans.o
+                0x0000000000001670       0x50 /tmp/ccKT5mjb.ltrans0.ltrans.o
  .text.unlikely.ReadUnaligned16
-                0x00000000000016c0       0x68 /tmp/ccyyUElP.ltrans0.ltrans.o
+                0x00000000000016c0       0x68 /tmp/ccKT5mjb.ltrans0.ltrans.o
  .text.BasePrintLibSPrintMarker.constprop.15
-                0x0000000000001728      0xcbc /tmp/ccyyUElP.ltrans0.ltrans.o
+                0x0000000000001728      0xcbc /tmp/ccKT5mjb.ltrans0.ltrans.o
  .text.unlikely.BasePrintLibSPrint.constprop.16
-                0x00000000000023e4       0x98 /tmp/ccyyUElP.ltrans0.ltrans.o
+                0x00000000000023e4       0x98 /tmp/ccKT5mjb.ltrans0.ltrans.o
  .text.AsciiSPrint.constprop.13
-                0x000000000000247c       0xa4 /tmp/ccyyUElP.ltrans0.ltrans.o
+                0x000000000000247c       0xa4 /tmp/ccKT5mjb.ltrans0.ltrans.o
  .text.AsciiStrLen
-                0x0000000000002520       0x80 /tmp/ccyyUElP.ltrans0.ltrans.o
+                0x0000000000002520       0x80 /tmp/ccKT5mjb.ltrans0.ltrans.o
  .text.DebugPrint.constprop.9
-                0x00000000000025a0       0xb8 /tmp/ccyyUElP.ltrans0.ltrans.o
+                0x00000000000025a0       0xb8 /tmp/ccKT5mjb.ltrans0.ltrans.o
  .text.TimerConstructor
-                0x0000000000002658       0x84 /tmp/ccyyUElP.ltrans0.ltrans.o
+                0x0000000000002658       0x84 /tmp/ccKT5mjb.ltrans0.ltrans.o
  .text.__stack_chk_fail
-                0x00000000000026dc       0x34 /tmp/ccyyUElP.ltrans0.ltrans.o
+                0x00000000000026dc       0x34 /tmp/ccKT5mjb.ltrans0.ltrans.o
                 0x00000000000026dc                __stack_chk_fail
  .text._ModuleEntryPoint
-                0x0000000000002710      0x2b4 /tmp/ccyyUElP.ltrans0.ltrans.o
+                0x0000000000002710      0x2b4 /tmp/ccKT5mjb.ltrans0.ltrans.o
                 0x0000000000002710                _ModuleEntryPoint
- .text.memcpy   0x00000000000029c4       0x20 /tmp/ccyyUElP.ltrans0.ltrans.o
+ .text.memcpy   0x00000000000029c4       0x20 /tmp/ccKT5mjb.ltrans0.ltrans.o
                 0x00000000000029c4                memcpy
  *fill*         0x00000000000029e4       0x1c 
  .text          0x0000000000002a00       0x20 /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(CompareGuid.obj)
@@ -452,28 +452,28 @@ END GROUP
                 0x0000000000002a70                ArmReadCntPct
  *(.rodata .rodata.* .gnu.linkonce.r.*)
  .rodata.AsciiStrLen.str1.1
-                0x0000000000002a78       0x77 /tmp/ccyyUElP.ltrans0.ltrans.o
+                0x0000000000002a78       0x77 /tmp/ccKT5mjb.ltrans0.ltrans.o
  .rodata.BasePrintLibSPrintMarker.constprop.15.str1.1
-                0x0000000000002aef      0x17e /tmp/ccyyUElP.ltrans0.ltrans.o
+                0x0000000000002aef      0x17e /tmp/ccKT5mjb.ltrans0.ltrans.o
  .rodata.CompareGuid.constprop.6.str1.1
-                0x0000000000002c6d       0x69 /tmp/ccyyUElP.ltrans0.ltrans.o
+                0x0000000000002c6d       0x69 /tmp/ccKT5mjb.ltrans0.ltrans.o
  .rodata.DebugAssert.str1.1
-                0x0000000000002cd6       0x25 /tmp/ccyyUElP.ltrans0.ltrans.o
+                0x0000000000002cd6       0x25 /tmp/ccKT5mjb.ltrans0.ltrans.o
  .rodata.ReadUnaligned16.str1.1
-                0x0000000000002cfb       0x5d /tmp/ccyyUElP.ltrans0.ltrans.o
+                0x0000000000002cfb       0x5d /tmp/ccKT5mjb.ltrans0.ltrans.o
  .rodata.TimerConstructor.str1.1
-                0x0000000000002d58       0xcd /tmp/ccyyUElP.ltrans0.ltrans.o
+                0x0000000000002d58       0xcd /tmp/ccKT5mjb.ltrans0.ltrans.o
                                          0xcf (松开之前的大小)
  .rodata._ModuleEntryPoint.str1.1
-                0x0000000000002e25      0x29d /tmp/ccyyUElP.ltrans0.ltrans.o
+                0x0000000000002e25      0x29d /tmp/ccKT5mjb.ltrans0.ltrans.o
  .rodata.__stack_chk_fail.str1.1
-                0x00000000000030c2       0x2e /tmp/ccyyUElP.ltrans0.ltrans.o
+                0x00000000000030c2       0x2e /tmp/ccKT5mjb.ltrans0.ltrans.o
  .rodata.mHexStr
-                0x00000000000030f0       0x10 /tmp/ccyyUElP.ltrans0.ltrans.o
+                0x00000000000030f0       0x10 /tmp/ccKT5mjb.ltrans0.ltrans.o
  .rodata.mStatusString
-                0x0000000000003100      0x138 /tmp/ccyyUElP.ltrans0.ltrans.o
+                0x0000000000003100      0x138 /tmp/ccKT5mjb.ltrans0.ltrans.o
  .rodata.str1.1
-                0x0000000000003238      0x224 /tmp/ccyyUElP.ltrans0.ltrans.o
+                0x0000000000003238      0x224 /tmp/ccKT5mjb.ltrans0.ltrans.o
                                         0x235 (松开之前的大小)
  *(.got .got.*)
  *fill*         0x000000000000345c        0x4 
@@ -489,33 +489,33 @@ END GROUP
  *(.data .data.* .gnu.linkonce.d.*)
  .data.rel.ro   0x0000000000004000        0x0 /home/evsio0n/src/edk2sdm/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
  .data.__stack_chk_guard
-                0x0000000000004000        0x8 /tmp/ccyyUElP.ltrans0.ltrans.o
+                0x0000000000004000        0x8 /tmp/ccKT5mjb.ltrans0.ltrans.o
                 0x0000000000004000                __stack_chk_guard
  .data.font5x12
-                0x0000000000004008      0x300 /tmp/ccyyUElP.ltrans0.ltrans.o
+                0x0000000000004008      0x300 /tmp/ccKT5mjb.ltrans0.ltrans.o
  .data.gEfiHobListGuid
-                0x0000000000004308       0x10 /tmp/ccyyUElP.ltrans0.ltrans.o
+                0x0000000000004308       0x10 /tmp/ccKT5mjb.ltrans0.ltrans.o
  .data.gEfiMetronomeArchProtocolGuid
-                0x0000000000004318       0x10 /tmp/ccyyUElP.ltrans0.ltrans.o
+                0x0000000000004318       0x10 /tmp/ccKT5mjb.ltrans0.ltrans.o
  .data.gMetronome
-                0x0000000000004328       0x10 /tmp/ccyyUElP.ltrans0.ltrans.o
+                0x0000000000004328       0x10 /tmp/ccKT5mjb.ltrans0.ltrans.o
  *(.bss .bss.*)
- .bss.gBS       0x0000000000004338        0x8 /tmp/ccyyUElP.ltrans0.ltrans.o
+ .bss.gBS       0x0000000000004338        0x8 /tmp/ccKT5mjb.ltrans0.ltrans.o
  .bss.gImageHandle
-                0x0000000000004340        0x8 /tmp/ccyyUElP.ltrans0.ltrans.o
+                0x0000000000004340        0x8 /tmp/ccKT5mjb.ltrans0.ltrans.o
  .bss.gMetronomeHandle
-                0x0000000000004348        0x8 /tmp/ccyyUElP.ltrans0.ltrans.o
- .bss.gRT       0x0000000000004350        0x8 /tmp/ccyyUElP.ltrans0.ltrans.o
- .bss.gST       0x0000000000004358        0x8 /tmp/ccyyUElP.ltrans0.ltrans.o
- .bss.mHobList  0x0000000000004360        0x8 /tmp/ccyyUElP.ltrans0.ltrans.o
- .bss.m_Color   0x0000000000004368       0x10 /tmp/ccyyUElP.ltrans0.ltrans.o
+                0x0000000000004348        0x8 /tmp/ccKT5mjb.ltrans0.ltrans.o
+ .bss.gRT       0x0000000000004350        0x8 /tmp/ccKT5mjb.ltrans0.ltrans.o
+ .bss.gST       0x0000000000004358        0x8 /tmp/ccKT5mjb.ltrans0.ltrans.o
+ .bss.mHobList  0x0000000000004360        0x8 /tmp/ccKT5mjb.ltrans0.ltrans.o
+ .bss.m_Color   0x0000000000004368       0x10 /tmp/ccKT5mjb.ltrans0.ltrans.o
  .bss.m_Initialized
-                0x0000000000004378        0x1 /tmp/ccyyUElP.ltrans0.ltrans.o
+                0x0000000000004378        0x1 /tmp/ccKT5mjb.ltrans0.ltrans.o
  *fill*         0x0000000000004379        0x7 
  .bss.m_MaxPosition
-                0x0000000000004380       0x10 /tmp/ccyyUElP.ltrans0.ltrans.o
+                0x0000000000004380       0x10 /tmp/ccKT5mjb.ltrans0.ltrans.o
  .bss.m_Position
-                0x0000000000004390       0x10 /tmp/ccyyUElP.ltrans0.ltrans.o
+                0x0000000000004390       0x10 /tmp/ccKT5mjb.ltrans0.ltrans.o
 
 .dynbss         0x00000000000043a0        0x0
  .dynbss        0x00000000000043a0        0x0 /home/evsio0n/src/edk2sdm/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
@@ -558,27 +558,27 @@ END GROUP
 OUTPUT(/home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/EmbeddedPkg/MetronomeDxe/MetronomeDxe/DEBUG/MetronomeDxe.dll elf64-littleaarch64)
 
 .debug_info     0x0000000000000000     0x4139
- .debug_info    0x0000000000000000     0x4139 /tmp/ccyyUElP.ltrans0.ltrans.o
+ .debug_info    0x0000000000000000     0x4139 /tmp/ccKT5mjb.ltrans0.ltrans.o
 
 .debug_abbrev   0x0000000000000000      0x5af
- .debug_abbrev  0x0000000000000000      0x5af /tmp/ccyyUElP.ltrans0.ltrans.o
+ .debug_abbrev  0x0000000000000000      0x5af /tmp/ccKT5mjb.ltrans0.ltrans.o
 
 .debug_loc      0x0000000000000000     0x3a14
- .debug_loc     0x0000000000000000     0x3a14 /tmp/ccyyUElP.ltrans0.ltrans.o
+ .debug_loc     0x0000000000000000     0x3a14 /tmp/ccKT5mjb.ltrans0.ltrans.o
 
 .debug_aranges  0x0000000000000000      0x1b0
  .debug_aranges
-                0x0000000000000000      0x1b0 /tmp/ccyyUElP.ltrans0.ltrans.o
+                0x0000000000000000      0x1b0 /tmp/ccKT5mjb.ltrans0.ltrans.o
 
 .debug_ranges   0x0000000000000000      0x5f0
- .debug_ranges  0x0000000000000000      0x5f0 /tmp/ccyyUElP.ltrans0.ltrans.o
+ .debug_ranges  0x0000000000000000      0x5f0 /tmp/ccKT5mjb.ltrans0.ltrans.o
 
 .debug_line     0x0000000000000000     0x10db
- .debug_line    0x0000000000000000     0x10db /tmp/ccyyUElP.ltrans0.ltrans.o
+ .debug_line    0x0000000000000000     0x10db /tmp/ccKT5mjb.ltrans0.ltrans.o
 
 .debug_str      0x0000000000000000     0x1d76
- .debug_str     0x0000000000000000     0x1d76 /tmp/ccyyUElP.ltrans0.ltrans.o
+ .debug_str     0x0000000000000000     0x1d76 /tmp/ccKT5mjb.ltrans0.ltrans.o
                                        0x1f60 (松开之前的大小)
 
 .debug_frame    0x0000000000000000      0x488
- .debug_frame   0x0000000000000000      0x488 /tmp/ccyyUElP.ltrans0.ltrans.o
+ .debug_frame   0x0000000000000000      0x488 /tmp/ccKT5mjb.ltrans0.ltrans.o

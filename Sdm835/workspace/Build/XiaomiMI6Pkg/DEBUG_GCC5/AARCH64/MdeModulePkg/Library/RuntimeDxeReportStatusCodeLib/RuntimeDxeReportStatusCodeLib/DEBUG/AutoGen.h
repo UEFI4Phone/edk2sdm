@@ -38,7 +38,7 @@ extern UINT64 _gPcd_SkuId_Array[];
 extern const UINT8 _gPcd_FixedAtBuild_PcdReportStatusCodePropertyMask;
 #define _PCD_GET_MODE_8_PcdReportStatusCodePropertyMask  _gPcd_FixedAtBuild_PcdReportStatusCodePropertyMask
 //#define _PCD_SET_MODE_8_PcdReportStatusCodePropertyMask  ASSERT(FALSE)  // It is not allowed to set value for a FIXED_AT_BUILD PCD
-#define _PCD_VALUE_PcdReportStatusCodePropertyMask 0x06
+#define _PCD_VALUE_PcdReportStatusCodePropertyMask 0x00
 #define _PCD_SIZE_PcdReportStatusCodePropertyMask 1
 #define _PCD_GET_MODE_SIZE_PcdReportStatusCodePropertyMask _PCD_SIZE_PcdReportStatusCodePropertyMask
 

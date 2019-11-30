@@ -160,46 +160,46 @@
  .text          0x0000000000000000       0x10 /home/evsio0n/src/edk2sdm/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
  .data          0x0000000000000000        0x0 /home/evsio0n/src/edk2sdm/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
  .bss           0x0000000000000000        0x0 /home/evsio0n/src/edk2sdm/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
- .text          0x0000000000000000        0x0 /tmp/ccBJpZJc.ltrans0.ltrans.o
- .data          0x0000000000000000        0x0 /tmp/ccBJpZJc.ltrans0.ltrans.o
- .bss           0x0000000000000000        0x0 /tmp/ccBJpZJc.ltrans0.ltrans.o
+ .text          0x0000000000000000        0x0 /tmp/ccxEISxo.ltrans0.ltrans.o
+ .data          0x0000000000000000        0x0 /tmp/ccxEISxo.ltrans0.ltrans.o
+ .bss           0x0000000000000000        0x0 /tmp/ccxEISxo.ltrans0.ltrans.o
  .text.IsNodeInList
-                0x0000000000000000       0xb0 /tmp/ccBJpZJc.ltrans0.ltrans.o
+                0x0000000000000000       0xb0 /tmp/ccxEISxo.ltrans0.ltrans.o
  .rodata.IsNodeInList.str1.1
-                0x0000000000000000       0x44 /tmp/ccBJpZJc.ltrans0.ltrans.o
+                0x0000000000000000       0x44 /tmp/ccxEISxo.ltrans0.ltrans.o
  .rodata._gDriverUnloadImageCount
-                0x0000000000000000        0x1 /tmp/ccBJpZJc.ltrans0.ltrans.o
+                0x0000000000000000        0x1 /tmp/ccxEISxo.ltrans0.ltrans.o
  .rodata._gPcd_FixedAtBuild_PcdMaximumUnicodeStringLength
-                0x0000000000000000        0x4 /tmp/ccBJpZJc.ltrans0.ltrans.o
+                0x0000000000000000        0x4 /tmp/ccxEISxo.ltrans0.ltrans.o
  .rodata._gPcd_FixedAtBuild_PcdPerformanceLibraryPropertyMask
-                0x0000000000000000        0x1 /tmp/ccBJpZJc.ltrans0.ltrans.o
+                0x0000000000000000        0x1 /tmp/ccxEISxo.ltrans0.ltrans.o
  .rodata._gPcd_FixedAtBuild_PcdUefiLibMaxPrintBufferSize
-                0x0000000000000000        0x4 /tmp/ccBJpZJc.ltrans0.ltrans.o
+                0x0000000000000000        0x4 /tmp/ccxEISxo.ltrans0.ltrans.o
  .rodata._gUefiDriverRevision
-                0x0000000000000000        0x4 /tmp/ccBJpZJc.ltrans0.ltrans.o
+                0x0000000000000000        0x4 /tmp/ccxEISxo.ltrans0.ltrans.o
  .rodata.gHeight
-                0x0000000000000000        0x8 /tmp/ccBJpZJc.ltrans0.ltrans.o
+                0x0000000000000000        0x8 /tmp/ccxEISxo.ltrans0.ltrans.o
  .rodata.gWidth
-                0x0000000000000000        0x8 /tmp/ccBJpZJc.ltrans0.ltrans.o
+                0x0000000000000000        0x8 /tmp/ccxEISxo.ltrans0.ltrans.o
  .rodata.mBmContinueKeyOption
-                0x0000000000000000        0x8 /tmp/ccBJpZJc.ltrans0.ltrans.o
- .comment       0x0000000000000000       0x33 /tmp/ccBJpZJc.ltrans0.ltrans.o
+                0x0000000000000000        0x8 /tmp/ccxEISxo.ltrans0.ltrans.o
+ .comment       0x0000000000000000       0x33 /tmp/ccxEISxo.ltrans0.ltrans.o
  .note.GNU-stack
-                0x0000000000000000        0x0 /tmp/ccBJpZJc.ltrans0.ltrans.o
- .text          0x0000000000000000        0x0 /tmp/ccBJpZJc.ltrans1.ltrans.o
- .data          0x0000000000000000        0x0 /tmp/ccBJpZJc.ltrans1.ltrans.o
- .bss           0x0000000000000000        0x0 /tmp/ccBJpZJc.ltrans1.ltrans.o
+                0x0000000000000000        0x0 /tmp/ccxEISxo.ltrans0.ltrans.o
+ .text          0x0000000000000000        0x0 /tmp/ccxEISxo.ltrans1.ltrans.o
+ .data          0x0000000000000000        0x0 /tmp/ccxEISxo.ltrans1.ltrans.o
+ .bss           0x0000000000000000        0x0 /tmp/ccxEISxo.ltrans1.ltrans.o
  .text._DriverUnloadHandler
-                0x0000000000000000        0x8 /tmp/ccBJpZJc.ltrans1.ltrans.o
+                0x0000000000000000        0x8 /tmp/ccxEISxo.ltrans1.ltrans.o
  .text.BdsDxeOnConnectConInCallBack
-                0x0000000000000000       0x50 /tmp/ccBJpZJc.ltrans1.ltrans.o
+                0x0000000000000000       0x50 /tmp/ccxEISxo.ltrans1.ltrans.o
  .text.__memset
-                0x0000000000000000       0x1c /tmp/ccBJpZJc.ltrans1.ltrans.o
+                0x0000000000000000       0x1c /tmp/ccxEISxo.ltrans1.ltrans.o
  .rodata.BdsDxeOnConnectConInCallBack.str1.1
-                0x0000000000000000       0x24 /tmp/ccBJpZJc.ltrans1.ltrans.o
- .comment       0x0000000000000000       0x33 /tmp/ccBJpZJc.ltrans1.ltrans.o
+                0x0000000000000000       0x24 /tmp/ccxEISxo.ltrans1.ltrans.o
+ .comment       0x0000000000000000       0x33 /tmp/ccxEISxo.ltrans1.ltrans.o
  .note.GNU-stack
-                0x0000000000000000        0x0 /tmp/ccBJpZJc.ltrans1.ltrans.o
+                0x0000000000000000        0x0 /tmp/ccxEISxo.ltrans1.ltrans.o
  .data          0x0000000000000000        0x0 /home/evsio0n/src/edk2sdm/Sdm835/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(CopyMem.obj)
  .bss           0x0000000000000000        0x0 /home/evsio0n/src/edk2sdm/Sdm835/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(CopyMem.obj)
  .data          0x0000000000000000        0x0 /home/evsio0n/src/edk2sdm/Sdm835/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(CompareGuid.obj)
@@ -375,8 +375,8 @@
 链结器命令稿和内存映射
 
 LOAD /home/evsio0n/src/edk2sdm/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
-LOAD /tmp/ccBJpZJc.ltrans0.ltrans.o
-LOAD /tmp/ccBJpZJc.ltrans1.ltrans.o
+LOAD /tmp/ccxEISxo.ltrans0.ltrans.o
+LOAD /tmp/ccxEISxo.ltrans1.ltrans.o
 START GROUP
 LOAD /home/evsio0n/src/edk2sdm/Sdm835/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/DxePcdLib/DxePcdLib/OUTPUT/DxePcdLib.lib
 LOAD /home/evsio0n/src/edk2sdm/Sdm835/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib
@@ -427,625 +427,625 @@ END GROUP
 .text           0x0000000000001000    0x18318
  *(.text .text.* .stub .gnu.linkonce.t.*)
  .text.BmGenerateKeyShiftState
-                0x0000000000001000      0x10c /tmp/ccBJpZJc.ltrans0.ltrans.o
+                0x0000000000001000      0x10c /tmp/ccxEISxo.ltrans0.ltrans.o
  .text.BmEliminateExtraSpaces
-                0x000000000000110c       0x44 /tmp/ccBJpZJc.ltrans0.ltrans.o
+                0x000000000000110c       0x44 /tmp/ccxEISxo.ltrans0.ltrans.o
  .text.DivU64x32.constprop.51
-                0x0000000000001150       0x4c /tmp/ccBJpZJc.ltrans0.ltrans.o
+                0x0000000000001150       0x4c /tmp/ccxEISxo.ltrans0.ltrans.o
  .text.InternalBaseLibIsListValid
-                0x000000000000119c       0xb8 /tmp/ccBJpZJc.ltrans0.ltrans.o
+                0x000000000000119c       0xb8 /tmp/ccxEISxo.ltrans0.ltrans.o
  .text.RemoveEntryList
-                0x0000000000001254       0x88 /tmp/ccBJpZJc.ltrans0.ltrans.o
+                0x0000000000001254       0x88 /tmp/ccxEISxo.ltrans0.ltrans.o
  .text.GetFirstNode
-                0x00000000000012dc       0x54 /tmp/ccBJpZJc.ltrans0.ltrans.o
+                0x00000000000012dc       0x54 /tmp/ccxEISxo.ltrans0.ltrans.o
  .text.InsertTailList.constprop.12
-                0x0000000000001330       0x6c /tmp/ccBJpZJc.ltrans0.ltrans.o
- .text.IsNull   0x000000000000139c       0x5c /tmp/ccBJpZJc.ltrans0.ltrans.o
+                0x0000000000001330       0x6c /tmp/ccxEISxo.ltrans0.ltrans.o
+ .text.IsNull   0x000000000000139c       0x5c /tmp/ccxEISxo.ltrans0.ltrans.o
  .text.GetNextNode
-                0x00000000000013f8       0x58 /tmp/ccBJpZJc.ltrans0.ltrans.o
+                0x00000000000013f8       0x58 /tmp/ccxEISxo.ltrans0.ltrans.o
  .text.BmGetActiveConsoleIn
-                0x0000000000001450       0xe4 /tmp/ccBJpZJc.ltrans0.ltrans.o
+                0x0000000000001450       0xe4 /tmp/ccxEISxo.ltrans0.ltrans.o
  .text.EfiBootManagerFreeDriverHealthInfo
-                0x0000000000001534       0x5c /tmp/ccBJpZJc.ltrans0.ltrans.o
+                0x0000000000001534       0x5c /tmp/ccxEISxo.ltrans0.ltrans.o
  .text.EfiReleaseLock.constprop.24
-                0x0000000000001590       0x6c /tmp/ccBJpZJc.ltrans0.ltrans.o
+                0x0000000000001590       0x6c /tmp/ccxEISxo.ltrans0.ltrans.o
  .text.EfiAcquireLock.constprop.23
-                0x00000000000015fc       0x74 /tmp/ccBJpZJc.ltrans0.ltrans.o
+                0x00000000000015fc       0x74 /tmp/ccxEISxo.ltrans0.ltrans.o
  .text.UnicodeValueToStringS.constprop.0
-                0x0000000000001670      0x140 /tmp/ccBJpZJc.ltrans0.ltrans.o
+                0x0000000000001670      0x140 /tmp/ccxEISxo.ltrans0.ltrans.o
  .text.EndPerformanceMeasurementEx.constprop.43
-                0x00000000000017b0       0xa8 /tmp/ccBJpZJc.ltrans0.ltrans.o
+                0x00000000000017b0       0xa8 /tmp/ccxEISxo.ltrans0.ltrans.o
  .text.InternalReportStatusCode.constprop.41
-                0x0000000000001858      0x14c /tmp/ccBJpZJc.ltrans0.ltrans.o
+                0x0000000000001858      0x14c /tmp/ccxEISxo.ltrans0.ltrans.o
  .text.GetSectionFromFv.constprop.21
-                0x00000000000019a4      0x170 /tmp/ccBJpZJc.ltrans0.ltrans.o
+                0x00000000000019a4      0x170 /tmp/ccxEISxo.ltrans0.ltrans.o
  .text.BmStopHotkeyService
-                0x0000000000001b14      0x26c /tmp/ccBJpZJc.ltrans0.ltrans.o
+                0x0000000000001b14      0x26c /tmp/ccxEISxo.ltrans0.ltrans.o
                 0x0000000000001b14                BmStopHotkeyService
  .text.BmRegisterHotkeyNotify
-                0x0000000000001d80       0xf8 /tmp/ccBJpZJc.ltrans0.ltrans.o
+                0x0000000000001d80       0xf8 /tmp/ccxEISxo.ltrans0.ltrans.o
  .text.BmTxtInExCallback
-                0x0000000000001e78      0x1a4 /tmp/ccBJpZJc.ltrans0.ltrans.o
+                0x0000000000001e78      0x1a4 /tmp/ccxEISxo.ltrans0.ltrans.o
                 0x0000000000001e78                BmTxtInExCallback
  .text.BmGetLoadFileDescription
-                0x000000000000201c       0xec /tmp/ccBJpZJc.ltrans0.ltrans.o
+                0x000000000000201c       0xec /tmp/ccxEISxo.ltrans0.ltrans.o
  .text.EfiInitializeFwVolDevicepathNode
-                0x0000000000002108       0x38 /tmp/ccBJpZJc.ltrans0.ltrans.o
+                0x0000000000002108       0x38 /tmp/ccxEISxo.ltrans0.ltrans.o
  .text.IsZeroGuid.constprop.26
-                0x0000000000002140       0x10 /tmp/ccBJpZJc.ltrans0.ltrans.o
+                0x0000000000002140       0x10 /tmp/ccxEISxo.ltrans0.ltrans.o
  .text.StrCpyS.constprop.20
-                0x0000000000002150      0x1a8 /tmp/ccBJpZJc.ltrans0.ltrans.o
+                0x0000000000002150      0x1a8 /tmp/ccxEISxo.ltrans0.ltrans.o
  .text.BmGetNetworkDescription
-                0x00000000000022f8      0x34c /tmp/ccBJpZJc.ltrans0.ltrans.o
+                0x00000000000022f8      0x34c /tmp/ccxEISxo.ltrans0.ltrans.o
  .text.EfiBootManagerDeleteLoadOptionVariable
-                0x0000000000002644      0x188 /tmp/ccBJpZJc.ltrans0.ltrans.o
+                0x0000000000002644      0x188 /tmp/ccxEISxo.ltrans0.ltrans.o
  .text.BmGetFreeOptionNumber
-                0x00000000000027cc      0x1a8 /tmp/ccBJpZJc.ltrans0.ltrans.o
+                0x00000000000027cc      0x1a8 /tmp/ccxEISxo.ltrans0.ltrans.o
  .text.BmGetSingleControllerHealthStatus
-                0x0000000000002974      0x2cc /tmp/ccBJpZJc.ltrans0.ltrans.o
+                0x0000000000002974      0x2cc /tmp/ccxEISxo.ltrans0.ltrans.o
  .text.EfiBootManagerGetDriverHealthInfo
-                0x0000000000002c40      0x290 /tmp/ccBJpZJc.ltrans0.ltrans.o
+                0x0000000000002c40      0x290 /tmp/ccxEISxo.ltrans0.ltrans.o
  .text.FbConFlush
-                0x0000000000002ed0       0x54 /tmp/ccBJpZJc.ltrans0.ltrans.o
+                0x0000000000002ed0       0x54 /tmp/ccxEISxo.ltrans0.ltrans.o
  .text.AddInput.lto_priv.78
-                0x0000000000002f24      0x100 /tmp/ccBJpZJc.ltrans0.ltrans.o
+                0x0000000000002f24      0x100 /tmp/ccxEISxo.ltrans0.ltrans.o
                 0x0000000000002f24                AddInput.lto_priv.78
  .text.AddOutput.lto_priv.77
-                0x0000000000003024      0x148 /tmp/ccBJpZJc.ltrans0.ltrans.o
+                0x0000000000003024      0x148 /tmp/ccxEISxo.ltrans0.ltrans.o
                 0x0000000000003024                AddOutput.lto_priv.77
  .text.BmRepairNotify
-                0x000000000000316c       0x6c /tmp/ccBJpZJc.ltrans0.ltrans.o
+                0x000000000000316c       0x6c /tmp/ccxEISxo.ltrans0.ltrans.o
  .text.BmCollectKeyOptions
-                0x00000000000031d8      0x25c /tmp/ccBJpZJc.ltrans0.ltrans.o
+                0x00000000000031d8      0x25c /tmp/ccxEISxo.ltrans0.ltrans.o
                 0x00000000000031d8                BmCollectKeyOptions
  .text.EfiBootManagerIsValidLoadOptionVariableName.part.6
-                0x0000000000003434      0x10c /tmp/ccBJpZJc.ltrans0.ltrans.o
+                0x0000000000003434      0x10c /tmp/ccxEISxo.ltrans0.ltrans.o
  .text.BmGetBootDescription
-                0x0000000000003540      0x1ac /tmp/ccBJpZJc.ltrans0.ltrans.o
+                0x0000000000003540      0x1ac /tmp/ccxEISxo.ltrans0.ltrans.o
  .text.BmGetUsbDescription
-                0x00000000000036ec      0x208 /tmp/ccBJpZJc.ltrans0.ltrans.o
+                0x00000000000036ec      0x208 /tmp/ccxEISxo.ltrans0.ltrans.o
  .text.BmGetMiscDescription
-                0x00000000000038f4      0x2a8 /tmp/ccBJpZJc.ltrans0.ltrans.o
+                0x00000000000038f4      0x2a8 /tmp/ccxEISxo.ltrans0.ltrans.o
  .text.BmGetDescriptionFromDiskInfo
-                0x0000000000003b9c      0x2dc /tmp/ccBJpZJc.ltrans0.ltrans.o
+                0x0000000000003b9c      0x2dc /tmp/ccxEISxo.ltrans0.ltrans.o
  .text.MultU64x32.constprop.53
-                0x0000000000003e78       0x10 /tmp/ccBJpZJc.ltrans0.ltrans.o
+                0x0000000000003e78       0x10 /tmp/ccxEISxo.ltrans0.ltrans.o
                 0x0000000000003e78                MultU64x32.constprop.53
  .text.SetMem.constprop.47
-                0x0000000000003e88       0x54 /tmp/ccBJpZJc.ltrans0.ltrans.o
+                0x0000000000003e88       0x54 /tmp/ccxEISxo.ltrans0.ltrans.o
                 0x0000000000003e88                SetMem.constprop.47
  .text.LShiftU64.constprop.44
-                0x0000000000003edc        0x8 /tmp/ccBJpZJc.ltrans0.ltrans.o
+                0x0000000000003edc        0x8 /tmp/ccxEISxo.ltrans0.ltrans.o
                 0x0000000000003edc                LShiftU64.constprop.44
  .text.ReportStatusCodeEx.constprop.40
-                0x0000000000003ee4      0x204 /tmp/ccBJpZJc.ltrans0.ltrans.o
+                0x0000000000003ee4      0x204 /tmp/ccxEISxo.ltrans0.ltrans.o
                 0x0000000000003ee4                ReportStatusCodeEx.constprop.40
  .text.ReportStatusCode.constprop.39
-                0x00000000000040e8       0x18 /tmp/ccBJpZJc.ltrans0.ltrans.o
+                0x00000000000040e8       0x18 /tmp/ccxEISxo.ltrans0.ltrans.o
                 0x00000000000040e8                ReportStatusCode.constprop.39
  .text.LogPerformanceMeasurement.constprop.38
-                0x0000000000004100       0xa8 /tmp/ccBJpZJc.ltrans0.ltrans.o
+                0x0000000000004100       0xa8 /tmp/ccxEISxo.ltrans0.ltrans.o
                 0x0000000000004100                LogPerformanceMeasurement.constprop.38
  .text.LogPerformanceMeasurementEnabled.constprop.37
-                0x00000000000041a8        0x8 /tmp/ccBJpZJc.ltrans0.ltrans.o
+                0x00000000000041a8        0x8 /tmp/ccxEISxo.ltrans0.ltrans.o
                 0x00000000000041a8                LogPerformanceMeasurementEnabled.constprop.37
  .text.FileDevicePath.constprop.34
-                0x00000000000041b0       0xa4 /tmp/ccBJpZJc.ltrans0.ltrans.o
+                0x00000000000041b0       0xa4 /tmp/ccxEISxo.ltrans0.ltrans.o
                 0x00000000000041b0                FileDevicePath.constprop.34
  .text.EfiCreateEventReadyToBootEx.constprop.25
-                0x0000000000004254       0xcc /tmp/ccBJpZJc.ltrans0.ltrans.o
+                0x0000000000004254       0xcc /tmp/ccxEISxo.ltrans0.ltrans.o
                 0x0000000000004254                EfiCreateEventReadyToBootEx.constprop.25
  .text.LowBitSet32.constprop.9
-                0x0000000000004320        0x8 /tmp/ccBJpZJc.ltrans0.ltrans.o
+                0x0000000000004320        0x8 /tmp/ccxEISxo.ltrans0.ltrans.o
                 0x0000000000004320                LowBitSet32.constprop.9
  .text.EfiGetNameGuidFromFwVolDevicePathNode
-                0x0000000000004328       0x78 /tmp/ccBJpZJc.ltrans0.ltrans.o
+                0x0000000000004328       0x78 /tmp/ccxEISxo.ltrans0.ltrans.o
                 0x0000000000004328                EfiGetNameGuidFromFwVolDevicePathNode
  .text.SerialPortWrite
-                0x00000000000043a0      0x41c /tmp/ccBJpZJc.ltrans0.ltrans.o
+                0x00000000000043a0      0x41c /tmp/ccxEISxo.ltrans0.ltrans.o
                 0x00000000000043a0                SerialPortWrite
  .text.WriteUnaligned16
-                0x00000000000047bc       0x5c /tmp/ccBJpZJc.ltrans0.ltrans.o
+                0x00000000000047bc       0x5c /tmp/ccxEISxo.ltrans0.ltrans.o
                 0x00000000000047bc                WriteUnaligned16
  .text.WriteUnaligned32
-                0x0000000000004818       0x64 /tmp/ccBJpZJc.ltrans0.ltrans.o
+                0x0000000000004818       0x64 /tmp/ccxEISxo.ltrans0.ltrans.o
  .text.ReadUnaligned16
-                0x000000000000487c       0x68 /tmp/ccBJpZJc.ltrans0.ltrans.o
+                0x000000000000487c       0x68 /tmp/ccxEISxo.ltrans0.ltrans.o
                 0x000000000000487c                ReadUnaligned16
  .text.ReadUnaligned32
-                0x00000000000048e4       0x5c /tmp/ccBJpZJc.ltrans0.ltrans.o
+                0x00000000000048e4       0x5c /tmp/ccxEISxo.ltrans0.ltrans.o
  .text.BasePrintLibSPrintMarker.constprop.69
-                0x0000000000004940     0x10ac /tmp/ccBJpZJc.ltrans0.ltrans.o
+                0x0000000000004940     0x10ac /tmp/ccxEISxo.ltrans0.ltrans.o
                 0x0000000000004940                BasePrintLibSPrintMarker.constprop.69
  .text.unlikely.BasePrintLibSPrint.constprop.70
-                0x00000000000059ec       0x9c /tmp/ccBJpZJc.ltrans0.ltrans.o
+                0x00000000000059ec       0x9c /tmp/ccxEISxo.ltrans0.ltrans.o
  .text.AsciiSPrint.constprop.67
-                0x0000000000005a88       0xa8 /tmp/ccBJpZJc.ltrans0.ltrans.o
+                0x0000000000005a88       0xa8 /tmp/ccxEISxo.ltrans0.ltrans.o
                 0x0000000000005a88                AsciiSPrint.constprop.67
  .text.UnicodeVSPrintAsciiFormat.constprop.19
-                0x0000000000005b30       0x80 /tmp/ccBJpZJc.ltrans0.ltrans.o
+                0x0000000000005b30       0x80 /tmp/ccxEISxo.ltrans0.ltrans.o
  .text.AsciiPrint.constprop.17
-                0x0000000000005bb0      0x158 /tmp/ccBJpZJc.ltrans0.ltrans.o
+                0x0000000000005bb0      0x158 /tmp/ccxEISxo.ltrans0.ltrans.o
                 0x0000000000005bb0                AsciiPrint.constprop.17
  .text.ReadUnaligned64
-                0x0000000000005d08       0x64 /tmp/ccBJpZJc.ltrans0.ltrans.o
+                0x0000000000005d08       0x64 /tmp/ccxEISxo.ltrans0.ltrans.o
                 0x0000000000005d08                ReadUnaligned64
  .text.CompareMem
-                0x0000000000005d6c       0xe4 /tmp/ccBJpZJc.ltrans0.ltrans.o
+                0x0000000000005d6c       0xe4 /tmp/ccxEISxo.ltrans0.ltrans.o
                 0x0000000000005d6c                CompareMem
- .text.ZeroMem  0x0000000000005e50       0x7c /tmp/ccBJpZJc.ltrans0.ltrans.o
+ .text.ZeroMem  0x0000000000005e50       0x7c /tmp/ccxEISxo.ltrans0.ltrans.o
                 0x0000000000005e50                ZeroMem
  .text.UefiDevicePathLibConvertDevicePathToText.constprop.56
-                0x0000000000005ecc      0x164 /tmp/ccBJpZJc.ltrans0.ltrans.o
+                0x0000000000005ecc      0x164 /tmp/ccxEISxo.ltrans0.ltrans.o
                 0x0000000000005ecc                UefiDevicePathLibConvertDevicePathToText.constprop.56
  .text.FilterAndProcess.constprop.4
-                0x0000000000006030      0x160 /tmp/ccBJpZJc.ltrans0.ltrans.o
+                0x0000000000006030      0x160 /tmp/ccxEISxo.ltrans0.ltrans.o
                 0x0000000000006030                FilterAndProcess.constprop.4
  .text.BmPrintDp
-                0x0000000000006190       0x64 /tmp/ccBJpZJc.ltrans0.ltrans.o
+                0x0000000000006190       0x64 /tmp/ccxEISxo.ltrans0.ltrans.o
  .text.BmGetControllerName
-                0x00000000000061f4      0x168 /tmp/ccBJpZJc.ltrans0.ltrans.o
+                0x00000000000061f4      0x168 /tmp/ccxEISxo.ltrans0.ltrans.o
  .text.BmDisplayMessages
-                0x000000000000635c      0x2cc /tmp/ccBJpZJc.ltrans0.ltrans.o
+                0x000000000000635c      0x2cc /tmp/ccxEISxo.ltrans0.ltrans.o
  .text.BmRepairAllControllers
-                0x0000000000006628      0x460 /tmp/ccBJpZJc.ltrans0.ltrans.o
+                0x0000000000006628      0x460 /tmp/ccxEISxo.ltrans0.ltrans.o
  .text.PrintXY.constprop.49
-                0x0000000000006a88      0x49c /tmp/ccBJpZJc.ltrans0.ltrans.o
+                0x0000000000006a88      0x49c /tmp/ccxEISxo.ltrans0.ltrans.o
                 0x0000000000006a88                PrintXY.constprop.49
  .text.BmGetNvmeDescription
-                0x0000000000006f24      0x248 /tmp/ccBJpZJc.ltrans0.ltrans.o
+                0x0000000000006f24      0x248 /tmp/ccxEISxo.ltrans0.ltrans.o
  .text.BmMatchDevicePaths.part.0
-                0x000000000000716c       0x9c /tmp/ccBJpZJc.ltrans0.ltrans.o
+                0x000000000000716c       0x9c /tmp/ccxEISxo.ltrans0.ltrans.o
                 0x000000000000716c                BmMatchDevicePaths.part.0
  .text.BdsDxeSetVariableAndReportStatusCodeOnError
-                0x0000000000007208       0xf8 /tmp/ccBJpZJc.ltrans0.ltrans.o
+                0x0000000000007208       0xf8 /tmp/ccxEISxo.ltrans0.ltrans.o
                 0x0000000000007208                BdsDxeSetVariableAndReportStatusCodeOnError
  .text.BmDelPartMatchInstance
-                0x0000000000007300      0x110 /tmp/ccBJpZJc.ltrans0.ltrans.o
+                0x0000000000007300      0x110 /tmp/ccxEISxo.ltrans0.ltrans.o
                 0x0000000000007300                BmDelPartMatchInstance
  .text.BmProcessKeyOption
-                0x0000000000007410      0x254 /tmp/ccBJpZJc.ltrans0.ltrans.o
+                0x0000000000007410      0x254 /tmp/ccxEISxo.ltrans0.ltrans.o
                 0x0000000000007410                BmProcessKeyOption
  .text.BmGetNextLoadOptionBuffer
-                0x0000000000007664      0x5d8 /tmp/ccBJpZJc.ltrans0.ltrans.o
+                0x0000000000007664      0x5d8 /tmp/ccxEISxo.ltrans0.ltrans.o
                 0x0000000000007664                BmGetNextLoadOptionBuffer
  .text.EfiBootManagerFreeLoadOption
-                0x0000000000007c3c       0x54 /tmp/ccBJpZJc.ltrans0.ltrans.o
+                0x0000000000007c3c       0x54 /tmp/ccxEISxo.ltrans0.ltrans.o
                 0x0000000000007c3c                EfiBootManagerFreeLoadOption
  .text.EfiBootManagerFreeLoadOptions
-                0x0000000000007c90       0x64 /tmp/ccBJpZJc.ltrans0.ltrans.o
+                0x0000000000007c90       0x64 /tmp/ccxEISxo.ltrans0.ltrans.o
                 0x0000000000007c90                EfiBootManagerFreeLoadOptions
  .text.EfiBootManagerFindLoadOption
-                0x0000000000007cf4       0xc0 /tmp/ccBJpZJc.ltrans0.ltrans.o
+                0x0000000000007cf4       0xc0 /tmp/ccxEISxo.ltrans0.ltrans.o
                 0x0000000000007cf4                EfiBootManagerFindLoadOption
  .text.EfiBootManagerInitializeLoadOption
-                0x0000000000007db4       0xd8 /tmp/ccBJpZJc.ltrans0.ltrans.o
+                0x0000000000007db4       0xd8 /tmp/ccxEISxo.ltrans0.ltrans.o
                 0x0000000000007db4                EfiBootManagerInitializeLoadOption
  .text.EfiBootManagerVariableToLoadOptionEx.part.7
-                0x0000000000007e8c      0x274 /tmp/ccBJpZJc.ltrans0.ltrans.o
+                0x0000000000007e8c      0x274 /tmp/ccxEISxo.ltrans0.ltrans.o
                 0x0000000000007e8c                EfiBootManagerVariableToLoadOptionEx.part.7
  .text.BmCollectLoadOptions
-                0x0000000000008100      0x16c /tmp/ccBJpZJc.ltrans0.ltrans.o
+                0x0000000000008100      0x16c /tmp/ccxEISxo.ltrans0.ltrans.o
  .text.BmHotkeyCallback
-                0x000000000000826c      0x2c0 /tmp/ccBJpZJc.ltrans0.ltrans.o
+                0x000000000000826c      0x2c0 /tmp/ccxEISxo.ltrans0.ltrans.o
  .text.EfiBootManagerLoadOptionToVariable
-                0x000000000000852c      0x274 /tmp/ccBJpZJc.ltrans0.ltrans.o
+                0x000000000000852c      0x274 /tmp/ccxEISxo.ltrans0.ltrans.o
                 0x000000000000852c                EfiBootManagerLoadOptionToVariable
  .text.EfiBootManagerAddLoadOptionVariable
-                0x00000000000087a0      0x218 /tmp/ccBJpZJc.ltrans0.ltrans.o
+                0x00000000000087a0      0x218 /tmp/ccxEISxo.ltrans0.ltrans.o
  .text.BmForEachVariable
-                0x00000000000089b8      0x1ac /tmp/ccBJpZJc.ltrans0.ltrans.o
+                0x00000000000089b8      0x1ac /tmp/ccxEISxo.ltrans0.ltrans.o
                 0x00000000000089b8                BmForEachVariable
  .text.EfiBootManagerAddKeyOptionVariable.constprop.5
-                0x0000000000008b64      0x324 /tmp/ccBJpZJc.ltrans0.ltrans.o
+                0x0000000000008b64      0x324 /tmp/ccxEISxo.ltrans0.ltrans.o
                 0x0000000000008b64                EfiBootManagerAddKeyOptionVariable.constprop.5
  .text.EfiBootManagerGetLoadOptions
-                0x0000000000008e88      0x260 /tmp/ccBJpZJc.ltrans0.ltrans.o
+                0x0000000000008e88      0x260 /tmp/ccxEISxo.ltrans0.ltrans.o
                 0x0000000000008e88                EfiBootManagerGetLoadOptions
  .text.PlatformBootManagerAfterConsole
-                0x00000000000090e8      0xe5c /tmp/ccBJpZJc.ltrans0.ltrans.o
+                0x00000000000090e8      0xe5c /tmp/ccxEISxo.ltrans0.ltrans.o
                 0x00000000000090e8                PlatformBootManagerAfterConsole
  .text.BmMatchPartitionDevicePathNode.part.6
-                0x0000000000009f44       0xc4 /tmp/ccBJpZJc.ltrans0.ltrans.o
+                0x0000000000009f44       0xc4 /tmp/ccxEISxo.ltrans0.ltrans.o
                 0x0000000000009f44                BmMatchPartitionDevicePathNode.part.6
  .text.EfiBootManagerGetBootManagerMenu
-                0x000000000000a008      0x418 /tmp/ccBJpZJc.ltrans0.ltrans.o
+                0x000000000000a008      0x418 /tmp/ccxEISxo.ltrans0.ltrans.o
                 0x000000000000a008                EfiBootManagerGetBootManagerMenu
  .text.EfiBootManagerBoot
-                0x000000000000a420      0xa90 /tmp/ccBJpZJc.ltrans0.ltrans.o
+                0x000000000000a420      0xa90 /tmp/ccxEISxo.ltrans0.ltrans.o
                 0x000000000000a420                EfiBootManagerBoot
  .text.ProcessLibraryDestructorList
-                0x000000000000aeb0        0x4 /tmp/ccBJpZJc.ltrans1.ltrans.o
+                0x000000000000aeb0        0x4 /tmp/ccxEISxo.ltrans1.ltrans.o
                 0x000000000000aeb0                EfiEventEmptyFunction
                 0x000000000000aeb0                ProcessLibraryDestructorList
  .text.InternalAllocatePool
-                0x000000000000aeb4       0x64 /tmp/ccBJpZJc.ltrans1.ltrans.o
+                0x000000000000aeb4       0x64 /tmp/ccxEISxo.ltrans1.ltrans.o
  .text.CpuDeadLoop
-                0x000000000000af18       0x18 /tmp/ccBJpZJc.ltrans1.ltrans.o
+                0x000000000000af18       0x18 /tmp/ccxEISxo.ltrans1.ltrans.o
  .text.BdsReadKeys.part.0
-                0x000000000000af30       0x68 /tmp/ccBJpZJc.ltrans1.ltrans.o
+                0x000000000000af30       0x68 /tmp/ccxEISxo.ltrans1.ltrans.o
  .text.BmEndOfBdsPerfCode
-                0x000000000000af98       0x30 /tmp/ccBJpZJc.ltrans1.ltrans.o
+                0x000000000000af98       0x30 /tmp/ccxEISxo.ltrans1.ltrans.o
                 0x000000000000af98                BmEndOfBdsPerfCode
  .text.BaseDebugLibSerialPortConstructor
-                0x000000000000afc8       0x84 /tmp/ccBJpZJc.ltrans1.ltrans.o
+                0x000000000000afc8       0x84 /tmp/ccxEISxo.ltrans1.ltrans.o
  .text.BaseDebugLibSerialPortConstructor.stub
                 0x000000000000b04c        0xc linker stubs
  .text.ReportDebugCodeEnabled
-                0x000000000000c04c        0x8 /tmp/ccBJpZJc.ltrans1.ltrans.o
+                0x000000000000c04c        0x8 /tmp/ccxEISxo.ltrans1.ltrans.o
                 0x000000000000c04c                ReportDebugCodeEnabled
  .text.ReportErrorCodeEnabled
-                0x000000000000c054        0x8 /tmp/ccBJpZJc.ltrans1.ltrans.o
+                0x000000000000c054        0x8 /tmp/ccxEISxo.ltrans1.ltrans.o
                 0x000000000000c054                ReportErrorCodeEnabled
  .text.ReportProgressCodeEnabled
-                0x000000000000c05c        0x8 /tmp/ccBJpZJc.ltrans1.ltrans.o
+                0x000000000000c05c        0x8 /tmp/ccxEISxo.ltrans1.ltrans.o
                 0x000000000000c05c                ReportProgressCodeEnabled
  .text.DevicePathFromHandle
-                0x000000000000c064       0x6c /tmp/ccBJpZJc.ltrans1.ltrans.o
+                0x000000000000c064       0x6c /tmp/ccxEISxo.ltrans1.ltrans.o
                 0x000000000000c064                DevicePathFromHandle
  .text.AllocateZeroPool
-                0x000000000000c0d0       0x3c /tmp/ccBJpZJc.ltrans1.ltrans.o
+                0x000000000000c0d0       0x3c /tmp/ccxEISxo.ltrans1.ltrans.o
                 0x000000000000c0d0                AllocateZeroPool
  .text.AllocatePool
-                0x000000000000c10c        0xc /tmp/ccBJpZJc.ltrans1.ltrans.o
+                0x000000000000c10c        0xc /tmp/ccxEISxo.ltrans1.ltrans.o
                 0x000000000000c10c                AllocatePool
  .text.DebugPrintLevelEnabled
-                0x000000000000c118        0x8 /tmp/ccBJpZJc.ltrans1.ltrans.o
+                0x000000000000c118        0x8 /tmp/ccxEISxo.ltrans1.ltrans.o
                 0x000000000000c118                DebugPrintLevelEnabled
  .text.DebugCodeEnabled
-                0x000000000000c120        0x8 /tmp/ccBJpZJc.ltrans1.ltrans.o
+                0x000000000000c120        0x8 /tmp/ccxEISxo.ltrans1.ltrans.o
                 0x000000000000c120                DebugCodeEnabled
  .text.DebugPrintEnabled
-                0x000000000000c128        0x8 /tmp/ccBJpZJc.ltrans1.ltrans.o
+                0x000000000000c128        0x8 /tmp/ccxEISxo.ltrans1.ltrans.o
                 0x000000000000c128                DebugPrintEnabled
  .text.DebugAssertEnabled
-                0x000000000000c130        0x8 /tmp/ccBJpZJc.ltrans1.ltrans.o
+                0x000000000000c130        0x8 /tmp/ccxEISxo.ltrans1.ltrans.o
                 0x000000000000c130                DebugAssertEnabled
  .text.DebugAssert
-                0x000000000000c138       0x7c /tmp/ccBJpZJc.ltrans1.ltrans.o
+                0x000000000000c138       0x7c /tmp/ccxEISxo.ltrans1.ltrans.o
                 0x000000000000c138                DebugAssert
  .text.BmReportLoadFailure
-                0x000000000000c1b4       0x90 /tmp/ccBJpZJc.ltrans1.ltrans.o
+                0x000000000000c1b4       0x90 /tmp/ccxEISxo.ltrans1.ltrans.o
                 0x000000000000c1b4                BmReportLoadFailure
  .text.GetPerformanceMeasurementProtocol
-                0x000000000000c244       0xc0 /tmp/ccBJpZJc.ltrans1.ltrans.o
+                0x000000000000c244       0xc0 /tmp/ccxEISxo.ltrans1.ltrans.o
                 0x000000000000c244                GetPerformanceMeasurementProtocol
  .text.SetDevicePathNodeLength
-                0x000000000000c304       0x60 /tmp/ccBJpZJc.ltrans1.ltrans.o
+                0x000000000000c304       0x60 /tmp/ccxEISxo.ltrans1.ltrans.o
                 0x000000000000c304                SetDevicePathNodeLength
  .text.DevicePathNodeLength
-                0x000000000000c364       0x50 /tmp/ccBJpZJc.ltrans1.ltrans.o
+                0x000000000000c364       0x50 /tmp/ccxEISxo.ltrans1.ltrans.o
                 0x000000000000c364                DevicePathNodeLength
  .text.NextDevicePathNode
-                0x000000000000c3b4       0x50 /tmp/ccBJpZJc.ltrans1.ltrans.o
+                0x000000000000c3b4       0x50 /tmp/ccxEISxo.ltrans1.ltrans.o
                 0x000000000000c3b4                NextDevicePathNode
  .text.DevicePathSubType
-                0x000000000000c404       0x48 /tmp/ccBJpZJc.ltrans1.ltrans.o
+                0x000000000000c404       0x48 /tmp/ccxEISxo.ltrans1.ltrans.o
                 0x000000000000c404                DevicePathSubType
  .text.DevicePathType
-                0x000000000000c44c       0x48 /tmp/ccBJpZJc.ltrans1.ltrans.o
+                0x000000000000c44c       0x48 /tmp/ccxEISxo.ltrans1.ltrans.o
                 0x000000000000c44c                DevicePathType
  .text.IsDevicePathEndType
-                0x000000000000c494       0x58 /tmp/ccBJpZJc.ltrans1.ltrans.o
+                0x000000000000c494       0x58 /tmp/ccxEISxo.ltrans1.ltrans.o
                 0x000000000000c494                IsDevicePathEndType
  .text.IsDevicePathEnd
-                0x000000000000c4ec       0x70 /tmp/ccBJpZJc.ltrans1.ltrans.o
+                0x000000000000c4ec       0x70 /tmp/ccxEISxo.ltrans1.ltrans.o
                 0x000000000000c4ec                IsDevicePathEnd
  .text.EfiBootManagerConnectDevicePath
-                0x000000000000c55c      0x1a8 /tmp/ccBJpZJc.ltrans1.ltrans.o
+                0x000000000000c55c      0x1a8 /tmp/ccxEISxo.ltrans1.ltrans.o
                 0x000000000000c55c                EfiBootManagerConnectDevicePath
  .text.IsDevicePathValid
-                0x000000000000c704       0xe0 /tmp/ccBJpZJc.ltrans1.ltrans.o
+                0x000000000000c704       0xe0 /tmp/ccxEISxo.ltrans1.ltrans.o
  .text.UefiDevicePathLibGetDevicePathSize
-                0x000000000000c7e4       0x70 /tmp/ccBJpZJc.ltrans1.ltrans.o
+                0x000000000000c7e4       0x70 /tmp/ccxEISxo.ltrans1.ltrans.o
                 0x000000000000c7e4                UefiDevicePathLibGetDevicePathSize
  .text.SPrintLength
-                0x000000000000c854       0x70 /tmp/ccBJpZJc.ltrans1.ltrans.o
+                0x000000000000c854       0x70 /tmp/ccxEISxo.ltrans1.ltrans.o
  .text.AsciiStrLen
-                0x000000000000c8c4       0xa0 /tmp/ccBJpZJc.ltrans1.ltrans.o
+                0x000000000000c8c4       0xa0 /tmp/ccxEISxo.ltrans1.ltrans.o
  .text.AsciiStrSize
-                0x000000000000c964       0x18 /tmp/ccBJpZJc.ltrans1.ltrans.o
+                0x000000000000c964       0x18 /tmp/ccxEISxo.ltrans1.ltrans.o
  .text.AsciiStrnCmp
-                0x000000000000c97c       0xe4 /tmp/ccBJpZJc.ltrans1.ltrans.o
+                0x000000000000c97c       0xe4 /tmp/ccxEISxo.ltrans1.ltrans.o
  .text.IsLangInSupportedLangCodes
-                0x000000000000ca60       0xd8 /tmp/ccBJpZJc.ltrans1.ltrans.o
+                0x000000000000ca60       0xd8 /tmp/ccxEISxo.ltrans1.ltrans.o
  .text.DebugPrint
-                0x000000000000cb38       0xd0 /tmp/ccBJpZJc.ltrans1.ltrans.o
+                0x000000000000cb38       0xd0 /tmp/ccxEISxo.ltrans1.ltrans.o
                 0x000000000000cb38                DebugPrint
  .text.FreePool
-                0x000000000000cc08       0x7c /tmp/ccBJpZJc.ltrans1.ltrans.o
+                0x000000000000cc08       0x7c /tmp/ccxEISxo.ltrans1.ltrans.o
                 0x000000000000cc08                FreePool
  .text.BmExpandMediaDevicePath
-                0x000000000000cc84      0x2e4 /tmp/ccBJpZJc.ltrans1.ltrans.o
+                0x000000000000cc84      0x2e4 /tmp/ccxEISxo.ltrans1.ltrans.o
  .text.BmConnectUsbShortFormDevicePath
-                0x000000000000cf68      0x190 /tmp/ccBJpZJc.ltrans1.ltrans.o
+                0x000000000000cf68      0x190 /tmp/ccxEISxo.ltrans1.ltrans.o
  .text.GetVariable2
-                0x000000000000d0f8      0x164 /tmp/ccBJpZJc.ltrans1.ltrans.o
+                0x000000000000d0f8      0x164 /tmp/ccxEISxo.ltrans1.ltrans.o
                 0x000000000000d0f8                GetVariable2
  .text.GetEfiGlobalVariable2
-                0x000000000000d25c       0x14 /tmp/ccBJpZJc.ltrans1.ltrans.o
+                0x000000000000d25c       0x14 /tmp/ccxEISxo.ltrans1.ltrans.o
                 0x000000000000d25c                GetEfiGlobalVariable2
  .text.InitializeLangVariable
-                0x000000000000d270       0xf8 /tmp/ccBJpZJc.ltrans1.ltrans.o
+                0x000000000000d270       0xf8 /tmp/ccxEISxo.ltrans1.ltrans.o
  .text.FreePages
-                0x000000000000d368       0xc4 /tmp/ccBJpZJc.ltrans1.ltrans.o
+                0x000000000000d368       0xc4 /tmp/ccxEISxo.ltrans1.ltrans.o
  .text.BmDestroyRamDisk
-                0x000000000000d42c      0x2a0 /tmp/ccBJpZJc.ltrans1.ltrans.o
+                0x000000000000d42c      0x2a0 /tmp/ccxEISxo.ltrans1.ltrans.o
                 0x000000000000d42c                BmDestroyRamDisk
  .text.BdsFormalizeConsoleVariable
-                0x000000000000d6cc       0xf8 /tmp/ccBJpZJc.ltrans1.ltrans.o
+                0x000000000000d6cc       0xf8 /tmp/ccxEISxo.ltrans1.ltrans.o
  .text.CheckDeferredLoadImageOnReadyToBoot
-                0x000000000000d7c4      0x13c /tmp/ccBJpZJc.ltrans1.ltrans.o
+                0x000000000000d7c4      0x13c /tmp/ccxEISxo.ltrans1.ltrans.o
  .text.BasePrintLibValueToString
-                0x000000000000d900       0x28 /tmp/ccBJpZJc.ltrans1.ltrans.o
+                0x000000000000d900       0x28 /tmp/ccxEISxo.ltrans1.ltrans.o
                 0x000000000000d900                BasePrintLibValueToString
  .text.BasePrintLibFillBuffer
-                0x000000000000d928       0x34 /tmp/ccBJpZJc.ltrans1.ltrans.o
+                0x000000000000d928       0x34 /tmp/ccxEISxo.ltrans1.ltrans.o
                 0x000000000000d928                BasePrintLibFillBuffer
  .text.UnicodeVSPrint
-                0x000000000000d95c       0x9c /tmp/ccBJpZJc.ltrans1.ltrans.o
+                0x000000000000d95c       0x9c /tmp/ccxEISxo.ltrans1.ltrans.o
                 0x000000000000d95c                UnicodeVSPrint
- .text.Print    0x000000000000d9f8      0x190 /tmp/ccBJpZJc.ltrans1.ltrans.o
+ .text.Print    0x000000000000d9f8      0x190 /tmp/ccxEISxo.ltrans1.ltrans.o
                 0x000000000000d9f8                Print
  .text.UnicodeSPrint
-                0x000000000000db88       0xa0 /tmp/ccBJpZJc.ltrans1.ltrans.o
+                0x000000000000db88       0xa0 /tmp/ccxEISxo.ltrans1.ltrans.o
                 0x000000000000db88                UnicodeSPrint
  .text.AsciiStrnLenS
-                0x000000000000dc28       0x3c /tmp/ccBJpZJc.ltrans1.ltrans.o
+                0x000000000000dc28       0x3c /tmp/ccxEISxo.ltrans1.ltrans.o
                 0x000000000000dc28                AsciiStrnLenS
  .text.AsciiStrToUnicodeStrS
-                0x000000000000dc64      0x164 /tmp/ccBJpZJc.ltrans1.ltrans.o
+                0x000000000000dc64      0x164 /tmp/ccxEISxo.ltrans1.ltrans.o
                 0x000000000000dc64                AsciiStrToUnicodeStrS
  .text.StrnLenS
-                0x000000000000ddc8       0x7c /tmp/ccBJpZJc.ltrans1.ltrans.o
+                0x000000000000ddc8       0x7c /tmp/ccxEISxo.ltrans1.ltrans.o
                 0x000000000000ddc8                StrnLenS
  .text.InternalSafeStringNoStrOverlap
-                0x000000000000de44       0x3c /tmp/ccBJpZJc.ltrans1.ltrans.o
+                0x000000000000de44       0x3c /tmp/ccxEISxo.ltrans1.ltrans.o
                 0x000000000000de44                InternalSafeStringNoStrOverlap
- .text.StrCatS  0x000000000000de80      0x224 /tmp/ccBJpZJc.ltrans1.ltrans.o
+ .text.StrCatS  0x000000000000de80      0x224 /tmp/ccxEISxo.ltrans1.ltrans.o
                 0x000000000000de80                StrCatS
- .text.StrLen   0x000000000000e0a4       0xbc /tmp/ccBJpZJc.ltrans1.ltrans.o
+ .text.StrLen   0x000000000000e0a4       0xbc /tmp/ccxEISxo.ltrans1.ltrans.o
                 0x000000000000e0a4                StrLen
- .text.StrSize  0x000000000000e160       0x1c /tmp/ccBJpZJc.ltrans1.ltrans.o
+ .text.StrSize  0x000000000000e160       0x1c /tmp/ccxEISxo.ltrans1.ltrans.o
                 0x000000000000e160                StrSize
- .text.StrnCmp  0x000000000000e17c       0xe4 /tmp/ccBJpZJc.ltrans1.ltrans.o
+ .text.StrnCmp  0x000000000000e17c       0xe4 /tmp/ccxEISxo.ltrans1.ltrans.o
                 0x000000000000e17c                StrnCmp
- .text.StrCmp   0x000000000000e260       0x98 /tmp/ccBJpZJc.ltrans1.ltrans.o
+ .text.StrCmp   0x000000000000e260       0x98 /tmp/ccxEISxo.ltrans1.ltrans.o
                 0x000000000000e260                StrCmp
- .text.CopyMem  0x000000000000e2f8       0xb0 /tmp/ccBJpZJc.ltrans1.ltrans.o
+ .text.CopyMem  0x000000000000e2f8       0xb0 /tmp/ccxEISxo.ltrans1.ltrans.o
                 0x000000000000e2f8                CopyMem
  .text.GetBestLanguage
-                0x000000000000e3a8      0x1e0 /tmp/ccBJpZJc.ltrans1.ltrans.o
+                0x000000000000e3a8      0x1e0 /tmp/ccxEISxo.ltrans1.ltrans.o
                 0x000000000000e3a8                GetBestLanguage
  .text.SetDevicePathEndNode
-                0x000000000000e588       0x54 /tmp/ccBJpZJc.ltrans1.ltrans.o
+                0x000000000000e588       0x54 /tmp/ccxEISxo.ltrans1.ltrans.o
                 0x000000000000e588                SetDevicePathEndNode
  .text.ReallocatePool
-                0x000000000000e5dc       0x6c /tmp/ccBJpZJc.ltrans1.ltrans.o
+                0x000000000000e5dc       0x6c /tmp/ccxEISxo.ltrans1.ltrans.o
                 0x000000000000e5dc                ReallocatePool
  .text.UefiDevicePathLibCatPrint
-                0x000000000000e648      0x188 /tmp/ccBJpZJc.ltrans1.ltrans.o
+                0x000000000000e648      0x188 /tmp/ccxEISxo.ltrans1.ltrans.o
                 0x000000000000e648                UefiDevicePathLibCatPrint
  .text.DevPathToTextNodeGeneric
-                0x000000000000e7d0      0x104 /tmp/ccBJpZJc.ltrans1.ltrans.o
+                0x000000000000e7d0      0x104 /tmp/ccxEISxo.ltrans1.ltrans.o
                 0x000000000000e7d0                DevPathToTextNodeGeneric
  .text.DevPathToTextEndInstance
-                0x000000000000e8d4        0xc /tmp/ccBJpZJc.ltrans1.ltrans.o
+                0x000000000000e8d4        0xc /tmp/ccxEISxo.ltrans1.ltrans.o
                 0x000000000000e8d4                DevPathToTextEndInstance
  .text.DevPathToTextBBS
-                0x000000000000e8e0       0xec /tmp/ccBJpZJc.ltrans1.ltrans.o
+                0x000000000000e8e0       0xec /tmp/ccxEISxo.ltrans1.ltrans.o
                 0x000000000000e8e0                DevPathToTextBBS
  .text.DevPathRelativeOffsetRange
-                0x000000000000e9cc       0x10 /tmp/ccBJpZJc.ltrans1.ltrans.o
+                0x000000000000e9cc       0x10 /tmp/ccxEISxo.ltrans1.ltrans.o
                 0x000000000000e9cc                DevPathRelativeOffsetRange
  .text.DevPathToTextFvFile
-                0x000000000000e9dc       0x10 /tmp/ccBJpZJc.ltrans1.ltrans.o
+                0x000000000000e9dc       0x10 /tmp/ccxEISxo.ltrans1.ltrans.o
                 0x000000000000e9dc                DevPathToTextFvFile
  .text.DevPathToTextFv
-                0x000000000000e9ec       0x10 /tmp/ccBJpZJc.ltrans1.ltrans.o
+                0x000000000000e9ec       0x10 /tmp/ccxEISxo.ltrans1.ltrans.o
                 0x000000000000e9ec                DevPathToTextFv
  .text.DevPathToTextMediaProtocol
-                0x000000000000e9fc       0x10 /tmp/ccBJpZJc.ltrans1.ltrans.o
+                0x000000000000e9fc       0x10 /tmp/ccxEISxo.ltrans1.ltrans.o
                 0x000000000000e9fc                DevPathToTextMediaProtocol
  .text.DevPathToTextFilePath
-                0x000000000000ea0c       0x10 /tmp/ccBJpZJc.ltrans1.ltrans.o
+                0x000000000000ea0c       0x10 /tmp/ccxEISxo.ltrans1.ltrans.o
                 0x000000000000ea0c                DevPathToTextFilePath
  .text.DevPathToTextCDROM
-                0x000000000000ea1c       0x30 /tmp/ccBJpZJc.ltrans1.ltrans.o
+                0x000000000000ea1c       0x30 /tmp/ccxEISxo.ltrans1.ltrans.o
                 0x000000000000ea1c                DevPathToTextCDROM
  .text.DevPathToTextHardDrive
-                0x000000000000ea4c       0x8c /tmp/ccBJpZJc.ltrans1.ltrans.o
+                0x000000000000ea4c       0x8c /tmp/ccxEISxo.ltrans1.ltrans.o
                 0x000000000000ea4c                DevPathToTextHardDrive
  .text.DevPathToTextUri
-                0x000000000000ead8       0x94 /tmp/ccBJpZJc.ltrans1.ltrans.o
+                0x000000000000ead8       0x94 /tmp/ccxEISxo.ltrans1.ltrans.o
                 0x000000000000ead8                DevPathToTextUri
  .text.DevPathToTextBluetoothLE
-                0x000000000000eb6c       0x44 /tmp/ccBJpZJc.ltrans1.ltrans.o
+                0x000000000000eb6c       0x44 /tmp/ccxEISxo.ltrans1.ltrans.o
                 0x000000000000eb6c                DevPathToTextBluetoothLE
  .text.DevPathToTextWiFi
-                0x000000000000ebb0       0x6c /tmp/ccBJpZJc.ltrans1.ltrans.o
+                0x000000000000ebb0       0x6c /tmp/ccxEISxo.ltrans1.ltrans.o
                 0x000000000000ebb0                DevPathToTextWiFi
  .text.DevPathToTextBluetooth
-                0x000000000000ec1c       0x24 /tmp/ccBJpZJc.ltrans1.ltrans.o
+                0x000000000000ec1c       0x24 /tmp/ccxEISxo.ltrans1.ltrans.o
                 0x000000000000ec1c                DevPathToTextBluetooth
  .text.DevPathToTextVlan
-                0x000000000000ec40       0x10 /tmp/ccBJpZJc.ltrans1.ltrans.o
+                0x000000000000ec40       0x10 /tmp/ccxEISxo.ltrans1.ltrans.o
                 0x000000000000ec40                DevPathToTextVlan
  .text.DevPathToTextiSCSI
-                0x000000000000ec50      0x110 /tmp/ccBJpZJc.ltrans1.ltrans.o
+                0x000000000000ec50      0x110 /tmp/ccxEISxo.ltrans1.ltrans.o
                 0x000000000000ec50                DevPathToTextiSCSI
  .text.DevPathToTextUart
-                0x000000000000ed60      0x118 /tmp/ccBJpZJc.ltrans1.ltrans.o
+                0x000000000000ed60      0x118 /tmp/ccxEISxo.ltrans1.ltrans.o
                 0x000000000000ed60                DevPathToTextUart
  .text.DevPathToTextInfiniBand
-                0x000000000000ee78       0x1c /tmp/ccBJpZJc.ltrans1.ltrans.o
+                0x000000000000ee78       0x1c /tmp/ccxEISxo.ltrans1.ltrans.o
                 0x000000000000ee78                DevPathToTextInfiniBand
  .text.CatIPv6Address
-                0x000000000000ee94       0x8c /tmp/ccBJpZJc.ltrans1.ltrans.o
+                0x000000000000ee94       0x8c /tmp/ccxEISxo.ltrans1.ltrans.o
  .text.CatIPv4Address
-                0x000000000000ef20       0x1c /tmp/ccBJpZJc.ltrans1.ltrans.o
+                0x000000000000ef20       0x1c /tmp/ccxEISxo.ltrans1.ltrans.o
  .text.DevPathToTextDns
-                0x000000000000ef3c       0xc0 /tmp/ccBJpZJc.ltrans1.ltrans.o
+                0x000000000000ef3c       0xc0 /tmp/ccxEISxo.ltrans1.ltrans.o
                 0x000000000000ef3c                DevPathToTextDns
  .text.CatNetworkProtocol
-                0x000000000000effc       0x38 /tmp/ccBJpZJc.ltrans1.ltrans.o
+                0x000000000000effc       0x38 /tmp/ccxEISxo.ltrans1.ltrans.o
  .text.DevPathToTextIPv6
-                0x000000000000f034       0xe8 /tmp/ccBJpZJc.ltrans1.ltrans.o
+                0x000000000000f034       0xe8 /tmp/ccxEISxo.ltrans1.ltrans.o
                 0x000000000000f034                DevPathToTextIPv6
  .text.DevPathToTextIPv4
-                0x000000000000f11c       0xf0 /tmp/ccBJpZJc.ltrans1.ltrans.o
+                0x000000000000f11c       0xf0 /tmp/ccxEISxo.ltrans1.ltrans.o
                 0x000000000000f11c                DevPathToTextIPv4
  .text.DevPathToTextMacAddr
-                0x000000000000f20c       0x8c /tmp/ccBJpZJc.ltrans1.ltrans.o
+                0x000000000000f20c       0x8c /tmp/ccxEISxo.ltrans1.ltrans.o
                 0x000000000000f20c                DevPathToTextMacAddr
  .text.DevPathToTextI2O
-                0x000000000000f298       0x10 /tmp/ccBJpZJc.ltrans1.ltrans.o
+                0x000000000000f298       0x10 /tmp/ccxEISxo.ltrans1.ltrans.o
                 0x000000000000f298                DevPathToTextI2O
  .text.DevPathToTextSata
-                0x000000000000f2a8       0x18 /tmp/ccBJpZJc.ltrans1.ltrans.o
+                0x000000000000f2a8       0x18 /tmp/ccxEISxo.ltrans1.ltrans.o
                 0x000000000000f2a8                DevPathToTextSata
  .text.DevPathToTextUsbClass
-                0x000000000000f2c0      0x1bc /tmp/ccBJpZJc.ltrans1.ltrans.o
+                0x000000000000f2c0      0x1bc /tmp/ccxEISxo.ltrans1.ltrans.o
                 0x000000000000f2c0                DevPathToTextUsbClass
  .text.DevPathToTextLogicalUnit
-                0x000000000000f47c       0x10 /tmp/ccBJpZJc.ltrans1.ltrans.o
+                0x000000000000f47c       0x10 /tmp/ccxEISxo.ltrans1.ltrans.o
                 0x000000000000f47c                DevPathToTextLogicalUnit
  .text.DevPathToTextUsb
-                0x000000000000f48c       0x14 /tmp/ccBJpZJc.ltrans1.ltrans.o
+                0x000000000000f48c       0x14 /tmp/ccxEISxo.ltrans1.ltrans.o
                 0x000000000000f48c                DevPathToTextUsb
  .text.DevPathToText1394
-                0x000000000000f4a0       0x10 /tmp/ccBJpZJc.ltrans1.ltrans.o
+                0x000000000000f4a0       0x10 /tmp/ccxEISxo.ltrans1.ltrans.o
                 0x000000000000f4a0                DevPathToText1394
  .text.DevPathToTextEmmc
-                0x000000000000f4b0       0x10 /tmp/ccBJpZJc.ltrans1.ltrans.o
+                0x000000000000f4b0       0x10 /tmp/ccxEISxo.ltrans1.ltrans.o
                 0x000000000000f4b0                DevPathToTextEmmc
  .text.DevPathToTextSd
-                0x000000000000f4c0       0x10 /tmp/ccBJpZJc.ltrans1.ltrans.o
+                0x000000000000f4c0       0x10 /tmp/ccxEISxo.ltrans1.ltrans.o
                 0x000000000000f4c0                DevPathToTextSd
  .text.DevPathToTextUfs
-                0x000000000000f4d0       0x14 /tmp/ccBJpZJc.ltrans1.ltrans.o
+                0x000000000000f4d0       0x14 /tmp/ccxEISxo.ltrans1.ltrans.o
                 0x000000000000f4d0                DevPathToTextUfs
  .text.DevPathToTextNVMe
-                0x000000000000f4e4       0x54 /tmp/ccBJpZJc.ltrans1.ltrans.o
+                0x000000000000f4e4       0x54 /tmp/ccxEISxo.ltrans1.ltrans.o
                 0x000000000000f4e4                DevPathToTextNVMe
  .text.DevPathToTextSasEx
-                0x000000000000f538      0x184 /tmp/ccBJpZJc.ltrans1.ltrans.o
+                0x000000000000f538      0x184 /tmp/ccxEISxo.ltrans1.ltrans.o
                 0x000000000000f538                DevPathToTextSasEx
  .text.DevPathToTextFibreEx
-                0x000000000000f6bc       0xa0 /tmp/ccBJpZJc.ltrans1.ltrans.o
+                0x000000000000f6bc       0xa0 /tmp/ccxEISxo.ltrans1.ltrans.o
                 0x000000000000f6bc                DevPathToTextFibreEx
  .text.DevPathToTextFibre
-                0x000000000000f75c       0x10 /tmp/ccBJpZJc.ltrans1.ltrans.o
+                0x000000000000f75c       0x10 /tmp/ccxEISxo.ltrans1.ltrans.o
                 0x000000000000f75c                DevPathToTextFibre
  .text.DevPathToTextScsi
-                0x000000000000f76c       0x14 /tmp/ccBJpZJc.ltrans1.ltrans.o
+                0x000000000000f76c       0x14 /tmp/ccxEISxo.ltrans1.ltrans.o
                 0x000000000000f76c                DevPathToTextScsi
  .text.DevPathToTextAtapi
-                0x000000000000f780       0x60 /tmp/ccBJpZJc.ltrans1.ltrans.o
+                0x000000000000f780       0x60 /tmp/ccxEISxo.ltrans1.ltrans.o
                 0x000000000000f780                DevPathToTextAtapi
  .text.DevPathToTextAcpiAdr
-                0x000000000000f7e0       0x90 /tmp/ccBJpZJc.ltrans1.ltrans.o
+                0x000000000000f7e0       0x90 /tmp/ccxEISxo.ltrans1.ltrans.o
                 0x000000000000f7e0                DevPathToTextAcpiAdr
  .text.DevPathToTextAcpiEx
-                0x000000000000f870      0x28c /tmp/ccBJpZJc.ltrans1.ltrans.o
+                0x000000000000f870      0x28c /tmp/ccxEISxo.ltrans1.ltrans.o
                 0x000000000000f870                DevPathToTextAcpiEx
  .text.DevPathToTextAcpi
-                0x000000000000fafc       0xc0 /tmp/ccBJpZJc.ltrans1.ltrans.o
+                0x000000000000fafc       0xc0 /tmp/ccxEISxo.ltrans1.ltrans.o
                 0x000000000000fafc                DevPathToTextAcpi
  .text.DevPathToTextBmc
-                0x000000000000fbbc       0x3c /tmp/ccBJpZJc.ltrans1.ltrans.o
+                0x000000000000fbbc       0x3c /tmp/ccxEISxo.ltrans1.ltrans.o
                 0x000000000000fbbc                DevPathToTextBmc
  .text.DevPathToTextController
-                0x000000000000fbf8       0x10 /tmp/ccBJpZJc.ltrans1.ltrans.o
+                0x000000000000fbf8       0x10 /tmp/ccxEISxo.ltrans1.ltrans.o
                 0x000000000000fbf8                DevPathToTextController
  .text.DevPathToTextMemMap
-                0x000000000000fc08       0x14 /tmp/ccBJpZJc.ltrans1.ltrans.o
+                0x000000000000fc08       0x14 /tmp/ccxEISxo.ltrans1.ltrans.o
                 0x000000000000fc08                DevPathToTextMemMap
  .text.DevPathToTextPccard
-                0x000000000000fc1c       0x10 /tmp/ccBJpZJc.ltrans1.ltrans.o
+                0x000000000000fc1c       0x10 /tmp/ccxEISxo.ltrans1.ltrans.o
                 0x000000000000fc1c                DevPathToTextPccard
  .text.DevPathToTextPci
-                0x000000000000fc2c       0x14 /tmp/ccBJpZJc.ltrans1.ltrans.o
+                0x000000000000fc2c       0x14 /tmp/ccxEISxo.ltrans1.ltrans.o
                 0x000000000000fc2c                DevPathToTextPci
  .text.InternalAllocateCopyPool
-                0x000000000000fc40       0xa0 /tmp/ccBJpZJc.ltrans1.ltrans.o
+                0x000000000000fc40       0xa0 /tmp/ccxEISxo.ltrans1.ltrans.o
  .text.AllocateCopyPool
-                0x000000000000fce0       0x10 /tmp/ccBJpZJc.ltrans1.ltrans.o
+                0x000000000000fce0       0x10 /tmp/ccxEISxo.ltrans1.ltrans.o
                 0x000000000000fce0                AllocateCopyPool
  .text.DevPathToTextUsbWWID
-                0x000000000000fcf0       0xb0 /tmp/ccBJpZJc.ltrans1.ltrans.o
+                0x000000000000fcf0       0xb0 /tmp/ccxEISxo.ltrans1.ltrans.o
                 0x000000000000fcf0                DevPathToTextUsbWWID
  .text.UefiDevicePathLibDuplicateDevicePath
-                0x000000000000fda0       0x34 /tmp/ccBJpZJc.ltrans1.ltrans.o
+                0x000000000000fda0       0x34 /tmp/ccxEISxo.ltrans1.ltrans.o
                 0x000000000000fda0                UefiDevicePathLibDuplicateDevicePath
  .text.BmExpandLoadFile
-                0x000000000000fdd4      0x2b0 /tmp/ccBJpZJc.ltrans1.ltrans.o
+                0x000000000000fdd4      0x2b0 /tmp/ccxEISxo.ltrans1.ltrans.o
  .text.BmGetRamDiskDevicePath
-                0x0000000000010084       0xfc /tmp/ccBJpZJc.ltrans1.ltrans.o
+                0x0000000000010084       0xfc /tmp/ccxEISxo.ltrans1.ltrans.o
                 0x0000000000010084                BmGetRamDiskDevicePath
  .text.UefiDevicePathLibGetNextDevicePathInstance
-                0x0000000000010180       0xd0 /tmp/ccBJpZJc.ltrans1.ltrans.o
+                0x0000000000010180       0xd0 /tmp/ccxEISxo.ltrans1.ltrans.o
                 0x0000000000010180                UefiDevicePathLibGetNextDevicePathInstance
  .text.UefiDevicePathLibAppendDevicePathInstance
-                0x0000000000010250       0xdc /tmp/ccBJpZJc.ltrans1.ltrans.o
+                0x0000000000010250       0xdc /tmp/ccxEISxo.ltrans1.ltrans.o
                 0x0000000000010250                UefiDevicePathLibAppendDevicePathInstance
  .text.BmCachePartitionDevicePath
-                0x000000000001032c       0xd8 /tmp/ccBJpZJc.ltrans1.ltrans.o
+                0x000000000001032c       0xd8 /tmp/ccxEISxo.ltrans1.ltrans.o
  .text.EfiBootManagerUpdateConsoleVariable
-                0x0000000000010404      0x150 /tmp/ccBJpZJc.ltrans1.ltrans.o
+                0x0000000000010404      0x150 /tmp/ccxEISxo.ltrans1.ltrans.o
                 0x0000000000010404                EfiBootManagerUpdateConsoleVariable
  .text.EfiBootManagerConnectConsoleVariable.part.1
-                0x0000000000010554      0x268 /tmp/ccBJpZJc.ltrans1.ltrans.o
+                0x0000000000010554      0x268 /tmp/ccxEISxo.ltrans1.ltrans.o
  .text.UefiDevicePathLibAppendDevicePath
-                0x00000000000107bc       0xcc /tmp/ccBJpZJc.ltrans1.ltrans.o
+                0x00000000000107bc       0xcc /tmp/ccxEISxo.ltrans1.ltrans.o
                 0x00000000000107bc                UefiDevicePathLibAppendDevicePath
  .text.UefiDevicePathLibAppendDevicePathNode
-                0x0000000000010888       0x9c /tmp/ccBJpZJc.ltrans1.ltrans.o
+                0x0000000000010888       0x9c /tmp/ccxEISxo.ltrans1.ltrans.o
                 0x0000000000010888                UefiDevicePathLibAppendDevicePathNode
  .text.BmAdjustFvFilePath
-                0x0000000000010924      0x1a4 /tmp/ccBJpZJc.ltrans1.ltrans.o
+                0x0000000000010924      0x1a4 /tmp/ccxEISxo.ltrans1.ltrans.o
  .text.CompareGuid
-                0x0000000000010ac8       0x6c /tmp/ccBJpZJc.ltrans1.ltrans.o
+                0x0000000000010ac8       0x6c /tmp/ccxEISxo.ltrans1.ltrans.o
                 0x0000000000010ac8                CompareGuid
  .text.BmIsBootManagerMenuFilePath
-                0x0000000000010b34       0x90 /tmp/ccBJpZJc.ltrans1.ltrans.o
+                0x0000000000010b34       0x90 /tmp/ccxEISxo.ltrans1.ltrans.o
                 0x0000000000010b34                BmIsBootManagerMenuFilePath
  .text.BmUpdateSystemTableConsole
-                0x0000000000010bc4      0x20c /tmp/ccBJpZJc.ltrans1.ltrans.o
+                0x0000000000010bc4      0x20c /tmp/ccxEISxo.ltrans1.ltrans.o
  .text.EfiBootManagerConnectAllDefaultConsoles
-                0x0000000000010dd0      0x14c /tmp/ccBJpZJc.ltrans1.ltrans.o
+                0x0000000000010dd0      0x14c /tmp/ccxEISxo.ltrans1.ltrans.o
  .text.EfiBootManagerConnectAll
-                0x0000000000010f1c       0xcc /tmp/ccBJpZJc.ltrans1.ltrans.o
+                0x0000000000010f1c       0xcc /tmp/ccxEISxo.ltrans1.ltrans.o
                 0x0000000000010f1c                EfiBootManagerConnectAll
  .text.BmGetNextLoadOptionDevicePath
-                0x0000000000010fe8      0xd70 /tmp/ccBJpZJc.ltrans1.ltrans.o
+                0x0000000000010fe8      0xd70 /tmp/ccxEISxo.ltrans1.ltrans.o
                 0x0000000000010fe8                BmGetNextLoadOptionDevicePath
  .text.ProcessLoadOptions
-                0x0000000000011d58      0x3c0 /tmp/ccBJpZJc.ltrans1.ltrans.o
+                0x0000000000011d58      0x3c0 /tmp/ccxEISxo.ltrans1.ltrans.o
  .text.EfiGetSystemConfigurationTable
-                0x0000000000012118       0x94 /tmp/ccBJpZJc.ltrans1.ltrans.o
+                0x0000000000012118       0x94 /tmp/ccxEISxo.ltrans1.ltrans.o
                 0x0000000000012118                EfiGetSystemConfigurationTable
  .text.GetHobList
-                0x00000000000121ac       0xb4 /tmp/ccBJpZJc.ltrans1.ltrans.o
+                0x00000000000121ac       0xb4 /tmp/ccxEISxo.ltrans1.ltrans.o
                 0x00000000000121ac                GetHobList
  .text.DevPathToTextRamDisk
-                0x0000000000012260      0x1a8 /tmp/ccBJpZJc.ltrans1.ltrans.o
+                0x0000000000012260      0x1a8 /tmp/ccxEISxo.ltrans1.ltrans.o
                 0x0000000000012260                DevPathToTextRamDisk
  .text.DevPathToTextVendor
-                0x0000000000012408      0x350 /tmp/ccBJpZJc.ltrans1.ltrans.o
+                0x0000000000012408      0x350 /tmp/ccxEISxo.ltrans1.ltrans.o
                 0x0000000000012408                DevPathToTextVendor
  .text.CopyGuid
-                0x0000000000012758       0x70 /tmp/ccBJpZJc.ltrans1.ltrans.o
+                0x0000000000012758       0x70 /tmp/ccxEISxo.ltrans1.ltrans.o
                 0x0000000000012758                CopyGuid
  .text.BdsEntry
-                0x00000000000127c8     0x180c /tmp/ccBJpZJc.ltrans1.ltrans.o
+                0x00000000000127c8     0x180c /tmp/ccxEISxo.ltrans1.ltrans.o
  .text.__stack_chk_fail
-                0x0000000000013fd4       0x34 /tmp/ccBJpZJc.ltrans1.ltrans.o
+                0x0000000000013fd4       0x34 /tmp/ccxEISxo.ltrans1.ltrans.o
                 0x0000000000013fd4                __stack_chk_fail
  .text._ModuleEntryPoint
-                0x0000000000014008      0x4e4 /tmp/ccBJpZJc.ltrans1.ltrans.o
+                0x0000000000014008      0x4e4 /tmp/ccxEISxo.ltrans1.ltrans.o
                 0x0000000000014008                _ModuleEntryPoint
- .text.memcpy   0x00000000000144ec       0x20 /tmp/ccBJpZJc.ltrans1.ltrans.o
+ .text.memcpy   0x00000000000144ec       0x20 /tmp/ccxEISxo.ltrans1.ltrans.o
                 0x00000000000144ec                memcpy
  *fill*         0x000000000001450c        0x4 
  .text          0x0000000000014510      0x218 /home/evsio0n/src/edk2sdm/Sdm835/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(CopyMem.obj)
@@ -1082,449 +1082,449 @@ END GROUP
                 0x0000000000014a98                ArmDataSynchronizationBarrier
  *(.rodata .rodata.* .gnu.linkonce.r.*)
  .rodata.BmGenerateKeyShiftState
-                0x0000000000014aa0        0x5 /tmp/ccBJpZJc.ltrans0.ltrans.o
+                0x0000000000014aa0        0x5 /tmp/ccxEISxo.ltrans0.ltrans.o
  *fill*         0x0000000000014aa5        0x3 
  .rodata.PlatformBootManagerAfterConsole
-                0x0000000000014aa8        0x9 /tmp/ccBJpZJc.ltrans0.ltrans.o
+                0x0000000000014aa8        0x9 /tmp/ccxEISxo.ltrans0.ltrans.o
  .rodata.AddInput.lto_priv.78.str1.1
-                0x0000000000014ab1       0x6b /tmp/ccBJpZJc.ltrans0.ltrans.o
+                0x0000000000014ab1       0x6b /tmp/ccxEISxo.ltrans0.ltrans.o
  .rodata.AddOutput.lto_priv.77.str1.1
-                0x0000000000014b1c       0x3c /tmp/ccBJpZJc.ltrans0.ltrans.o
+                0x0000000000014b1c       0x3c /tmp/ccxEISxo.ltrans0.ltrans.o
  .rodata.AsciiPrint.constprop.17.str1.1
-                0x0000000000014b58       0x5d /tmp/ccBJpZJc.ltrans0.ltrans.o
+                0x0000000000014b58       0x5d /tmp/ccxEISxo.ltrans0.ltrans.o
  .rodata.AsciiSPrint.constprop.67.str1.1
-                0x0000000000014bb5       0x18 /tmp/ccBJpZJc.ltrans0.ltrans.o
+                0x0000000000014bb5       0x18 /tmp/ccxEISxo.ltrans0.ltrans.o
  .rodata.BasePrintLibSPrintMarker.constprop.69.str1.1
-                0x0000000000014bcd      0x227 /tmp/ccBJpZJc.ltrans0.ltrans.o
+                0x0000000000014bcd      0x227 /tmp/ccxEISxo.ltrans0.ltrans.o
  .rodata.BmCollectKeyOptions.str1.1
-                0x0000000000014df4       0x3c /tmp/ccBJpZJc.ltrans0.ltrans.o
+                0x0000000000014df4       0x3c /tmp/ccxEISxo.ltrans0.ltrans.o
  .rodata.BmCollectKeyOptions.str2.2
-                0x0000000000014e30       0x12 /tmp/ccBJpZJc.ltrans0.ltrans.o
+                0x0000000000014e30       0x12 /tmp/ccxEISxo.ltrans0.ltrans.o
  .rodata.BmCollectLoadOptions.str1.1
-                0x0000000000014e42       0x1f /tmp/ccBJpZJc.ltrans0.ltrans.o
+                0x0000000000014e42       0x1f /tmp/ccxEISxo.ltrans0.ltrans.o
  .rodata.BmDisplayMessages.str1.1
-                0x0000000000014e61       0x6f /tmp/ccBJpZJc.ltrans0.ltrans.o
+                0x0000000000014e61       0x6f /tmp/ccxEISxo.ltrans0.ltrans.o
  .rodata.BmDisplayMessages.str2.2
-                0x0000000000014ed0       0x2c /tmp/ccBJpZJc.ltrans0.ltrans.o
+                0x0000000000014ed0       0x2c /tmp/ccxEISxo.ltrans0.ltrans.o
  .rodata.BmForEachVariable.str1.1
-                0x0000000000014efc       0x15 /tmp/ccBJpZJc.ltrans0.ltrans.o
+                0x0000000000014efc       0x15 /tmp/ccxEISxo.ltrans0.ltrans.o
  .rodata.BmGetBootDescription.str1.1
-                0x0000000000014f11       0x38 /tmp/ccBJpZJc.ltrans0.ltrans.o
+                0x0000000000014f11       0x38 /tmp/ccxEISxo.ltrans0.ltrans.o
  .rodata.BmGetControllerName.str1.1
-                0x0000000000014f49        0xa /tmp/ccBJpZJc.ltrans0.ltrans.o
+                0x0000000000014f49        0xa /tmp/ccxEISxo.ltrans0.ltrans.o
                                           0xb (松开之前的大小)
  *fill*         0x0000000000014f53        0x1 
  .rodata.BmGetControllerName.str2.2
-                0x0000000000014f54       0x1a /tmp/ccBJpZJc.ltrans0.ltrans.o
+                0x0000000000014f54       0x1a /tmp/ccxEISxo.ltrans0.ltrans.o
                                          0x24 (松开之前的大小)
  .rodata.BmGetDescriptionFromDiskInfo.str2.2
-                0x0000000000014f6e       0x2c /tmp/ccBJpZJc.ltrans0.ltrans.o
+                0x0000000000014f6e       0x2c /tmp/ccxEISxo.ltrans0.ltrans.o
  .rodata.BmGetFreeOptionNumber.str1.1
-                0x0000000000014f9a       0x92 /tmp/ccBJpZJc.ltrans0.ltrans.o
+                0x0000000000014f9a       0x92 /tmp/ccxEISxo.ltrans0.ltrans.o
  .rodata.BmGetFreeOptionNumber.str2.2
-                0x000000000001502c       0x12 /tmp/ccBJpZJc.ltrans0.ltrans.o
+                0x000000000001502c       0x12 /tmp/ccxEISxo.ltrans0.ltrans.o
  .rodata.BmGetMiscDescription.str1.1
-                0x000000000001503e       0x92 /tmp/ccBJpZJc.ltrans0.ltrans.o
+                0x000000000001503e       0x92 /tmp/ccxEISxo.ltrans0.ltrans.o
                                          0x1b (松开之前的大小)
  .rodata.BmGetMiscDescription.str2.2
-                0x000000000001503e       0xc8 /tmp/ccBJpZJc.ltrans0.ltrans.o
+                0x000000000001503e       0xc8 /tmp/ccxEISxo.ltrans0.ltrans.o
  .rodata.BmGetNetworkDescription.str1.1
-                0x0000000000015106       0x5b /tmp/ccBJpZJc.ltrans0.ltrans.o
+                0x0000000000015106       0x5b /tmp/ccxEISxo.ltrans0.ltrans.o
                                          0x77 (松开之前的大小)
  *fill*         0x0000000000015161        0x1 
  .rodata.BmGetNetworkDescription.str2.2
-                0x0000000000015162       0xb4 /tmp/ccBJpZJc.ltrans0.ltrans.o
+                0x0000000000015162       0xb4 /tmp/ccxEISxo.ltrans0.ltrans.o
  .rodata.BmGetNextLoadOptionBuffer.str1.1
-                0x0000000000015216       0x13 /tmp/ccBJpZJc.ltrans0.ltrans.o
+                0x0000000000015216       0x13 /tmp/ccxEISxo.ltrans0.ltrans.o
                                          0x15 (松开之前的大小)
  .rodata.BmGetSingleControllerHealthStatus.str1.1
-                0x0000000000015229       0x9d /tmp/ccBJpZJc.ltrans0.ltrans.o
+                0x0000000000015229       0x9d /tmp/ccxEISxo.ltrans0.ltrans.o
  .rodata.BmGetUsbDescription.str2.2
-                0x00000000000152c6        0x4 /tmp/ccBJpZJc.ltrans0.ltrans.o
+                0x00000000000152c6        0x4 /tmp/ccxEISxo.ltrans0.ltrans.o
  .rodata.BmHotkeyCallback.str1.1
-                0x00000000000152ca       0xad /tmp/ccBJpZJc.ltrans0.ltrans.o
+                0x00000000000152ca       0xad /tmp/ccxEISxo.ltrans0.ltrans.o
  .rodata.BmPrintDp.str1.1
-                0x0000000000015377        0x3 /tmp/ccBJpZJc.ltrans0.ltrans.o
+                0x0000000000015377        0x3 /tmp/ccxEISxo.ltrans0.ltrans.o
  .rodata.BmProcessKeyOption.str1.1
-                0x000000000001537a       0x66 /tmp/ccBJpZJc.ltrans0.ltrans.o
+                0x000000000001537a       0x66 /tmp/ccxEISxo.ltrans0.ltrans.o
  .rodata.BmRegisterHotkeyNotify.str1.1
-                0x00000000000153e0       0x30 /tmp/ccBJpZJc.ltrans0.ltrans.o
+                0x00000000000153e0       0x30 /tmp/ccxEISxo.ltrans0.ltrans.o
  .rodata.BmRepairAllControllers.str1.1
-                0x0000000000015410       0x76 /tmp/ccBJpZJc.ltrans0.ltrans.o
+                0x0000000000015410       0x76 /tmp/ccxEISxo.ltrans0.ltrans.o
  .rodata.BmRepairNotify.str1.1
-                0x0000000000015486       0x1a /tmp/ccBJpZJc.ltrans0.ltrans.o
+                0x0000000000015486       0x1a /tmp/ccxEISxo.ltrans0.ltrans.o
  .rodata.BmRepairNotify.str2.2
-                0x00000000000154a0       0x34 /tmp/ccBJpZJc.ltrans0.ltrans.o
+                0x00000000000154a0       0x34 /tmp/ccxEISxo.ltrans0.ltrans.o
  .rodata.BmStopHotkeyService.str1.1
-                0x00000000000154d4       0xaa /tmp/ccBJpZJc.ltrans0.ltrans.o
+                0x00000000000154d4       0xaa /tmp/ccxEISxo.ltrans0.ltrans.o
  .rodata.CompareMem.str1.1
-                0x000000000001557e      0x116 /tmp/ccBJpZJc.ltrans0.ltrans.o
+                0x000000000001557e      0x116 /tmp/ccxEISxo.ltrans0.ltrans.o
  .rodata.DivU64x32.constprop.51.str1.1
-                0x0000000000015694       0x4f /tmp/ccBJpZJc.ltrans0.ltrans.o
+                0x0000000000015694       0x4f /tmp/ccxEISxo.ltrans0.ltrans.o
  .rodata.EfiAcquireLock.constprop.23.str1.1
-                0x00000000000156e3       0x1e /tmp/ccBJpZJc.ltrans0.ltrans.o
+                0x00000000000156e3       0x1e /tmp/ccxEISxo.ltrans0.ltrans.o
  *fill*         0x0000000000015701        0x1 
  .rodata.EfiBootManagerAddKeyOptionVariable.constprop.5.str2.2
-                0x0000000000015702       0x10 /tmp/ccBJpZJc.ltrans0.ltrans.o
+                0x0000000000015702       0x10 /tmp/ccxEISxo.ltrans0.ltrans.o
  .rodata.EfiBootManagerAddLoadOptionVariable.str1.1
-                0x0000000000015712       0x1f /tmp/ccBJpZJc.ltrans0.ltrans.o
+                0x0000000000015712       0x1f /tmp/ccxEISxo.ltrans0.ltrans.o
  .rodata.EfiBootManagerBoot.str1.1
-                0x0000000000015731      0x284 /tmp/ccBJpZJc.ltrans0.ltrans.o
+                0x0000000000015731      0x284 /tmp/ccxEISxo.ltrans0.ltrans.o
  *fill*         0x00000000000159b5        0x1 
  .rodata.EfiBootManagerBoot.str2.2
-                0x00000000000159b6       0x44 /tmp/ccBJpZJc.ltrans0.ltrans.o
+                0x00000000000159b6       0x44 /tmp/ccxEISxo.ltrans0.ltrans.o
  .rodata.EfiBootManagerDeleteLoadOptionVariable.str1.1
-                0x00000000000159fa       0xc5 /tmp/ccBJpZJc.ltrans0.ltrans.o
+                0x00000000000159fa       0xc5 /tmp/ccxEISxo.ltrans0.ltrans.o
  *fill*         0x0000000000015abf        0x1 
  .rodata.EfiBootManagerDeleteLoadOptionVariable.str2.2
-                0x0000000000015ac0        0xe /tmp/ccBJpZJc.ltrans0.ltrans.o
+                0x0000000000015ac0        0xe /tmp/ccxEISxo.ltrans0.ltrans.o
  .rodata.EfiBootManagerGetBootManagerMenu.str1.1
-                0x0000000000015ace       0xa4 /tmp/ccBJpZJc.ltrans0.ltrans.o
+                0x0000000000015ace       0xa4 /tmp/ccxEISxo.ltrans0.ltrans.o
  .rodata.EfiBootManagerGetBootManagerMenu.str2.2
-                0x0000000000015b72       0x24 /tmp/ccBJpZJc.ltrans0.ltrans.o
+                0x0000000000015b72       0x24 /tmp/ccxEISxo.ltrans0.ltrans.o
  .rodata.EfiBootManagerGetDriverHealthInfo.str1.1
-                0x0000000000015b96       0x24 /tmp/ccBJpZJc.ltrans0.ltrans.o
+                0x0000000000015b96       0x24 /tmp/ccxEISxo.ltrans0.ltrans.o
  .rodata.EfiBootManagerGetLoadOptions.str1.1
-                0x0000000000015bba       0x7f /tmp/ccBJpZJc.ltrans0.ltrans.o
+                0x0000000000015bba       0x7f /tmp/ccxEISxo.ltrans0.ltrans.o
                                          0x97 (松开之前的大小)
  .rodata.EfiBootManagerLoadOptionToVariable.str1.1
-                0x0000000000015c39       0x19 /tmp/ccBJpZJc.ltrans0.ltrans.o
+                0x0000000000015c39       0x19 /tmp/ccxEISxo.ltrans0.ltrans.o
  .rodata.EfiBootManagerVariableToLoadOptionEx.part.7.str1.1
-                0x0000000000015c52       0x23 /tmp/ccBJpZJc.ltrans0.ltrans.o
+                0x0000000000015c52       0x23 /tmp/ccxEISxo.ltrans0.ltrans.o
  .rodata.EfiCreateEventReadyToBootEx.constprop.25.str1.1
-                0x0000000000015c75       0x6c /tmp/ccBJpZJc.ltrans0.ltrans.o
+                0x0000000000015c75       0x6c /tmp/ccxEISxo.ltrans0.ltrans.o
  .rodata.EfiGetNameGuidFromFwVolDevicePathNode.str1.1
-                0x0000000000015ce1       0x21 /tmp/ccBJpZJc.ltrans0.ltrans.o
+                0x0000000000015ce1       0x21 /tmp/ccxEISxo.ltrans0.ltrans.o
  .rodata.EfiReleaseLock.constprop.24.str1.1
-                0x0000000000015d02       0x5e /tmp/ccBJpZJc.ltrans0.ltrans.o
+                0x0000000000015d02       0x5e /tmp/ccxEISxo.ltrans0.ltrans.o
  .rodata.EndPerformanceMeasurementEx.constprop.43.str1.1
-                0x0000000000015d60       0x77 /tmp/ccBJpZJc.ltrans0.ltrans.o
+                0x0000000000015d60       0x77 /tmp/ccxEISxo.ltrans0.ltrans.o
  *fill*         0x0000000000015dd7        0x1 
  .rodata.FileDevicePath.constprop.34.str2.2
-                0x0000000000015dd8       0x2e /tmp/ccBJpZJc.ltrans0.ltrans.o
+                0x0000000000015dd8       0x2e /tmp/ccxEISxo.ltrans0.ltrans.o
  .rodata.FilterAndProcess.constprop.4.str1.1
-                0x0000000000015e06       0x74 /tmp/ccBJpZJc.ltrans0.ltrans.o
+                0x0000000000015e06       0x74 /tmp/ccxEISxo.ltrans0.ltrans.o
  .rodata.GetFirstNode.str1.1
-                0x0000000000015e7a       0x22 /tmp/ccBJpZJc.ltrans0.ltrans.o
+                0x0000000000015e7a       0x22 /tmp/ccxEISxo.ltrans0.ltrans.o
  .rodata.GetSectionFromFv.constprop.21.str1.1
-                0x0000000000015e9c       0x83 /tmp/ccBJpZJc.ltrans0.ltrans.o
+                0x0000000000015e9c       0x83 /tmp/ccxEISxo.ltrans0.ltrans.o
                                          0x9f (松开之前的大小)
  .rodata.InternalBaseLibIsListValid.str1.1
-                0x0000000000015f1f       0x84 /tmp/ccBJpZJc.ltrans0.ltrans.o
+                0x0000000000015f1f       0x84 /tmp/ccxEISxo.ltrans0.ltrans.o
                                          0x99 (松开之前的大小)
  .rodata.PlatformBootManagerAfterConsole.str1.1
-                0x0000000000015fa3      0x12e /tmp/ccBJpZJc.ltrans0.ltrans.o
+                0x0000000000015fa3      0x12e /tmp/ccxEISxo.ltrans0.ltrans.o
  *fill*         0x00000000000160d1        0x1 
  .rodata.PlatformBootManagerAfterConsole.str2.2
-                0x00000000000160d2       0x22 /tmp/ccBJpZJc.ltrans0.ltrans.o
+                0x00000000000160d2       0x22 /tmp/ccxEISxo.ltrans0.ltrans.o
  .rodata.PrintXY.constprop.49.str1.1
-                0x00000000000160f4       0xd6 /tmp/ccBJpZJc.ltrans0.ltrans.o
+                0x00000000000160f4       0xd6 /tmp/ccxEISxo.ltrans0.ltrans.o
  .rodata.PrintXY.constprop.49.str2.2
-                0x00000000000161ca       0x4c /tmp/ccBJpZJc.ltrans0.ltrans.o
+                0x00000000000161ca       0x4c /tmp/ccxEISxo.ltrans0.ltrans.o
  .rodata.RemoveEntryList.str1.1
-                0x0000000000016216       0x3b /tmp/ccBJpZJc.ltrans0.ltrans.o
+                0x0000000000016216       0x3b /tmp/ccxEISxo.ltrans0.ltrans.o
  .rodata.ReportStatusCodeEx.constprop.40.str1.1
-                0x0000000000016251      0x127 /tmp/ccBJpZJc.ltrans0.ltrans.o
+                0x0000000000016251      0x127 /tmp/ccxEISxo.ltrans0.ltrans.o
  .rodata.SetMem.constprop.47.str1.1
-                0x0000000000016378       0x8a /tmp/ccBJpZJc.ltrans0.ltrans.o
+                0x0000000000016378       0x8a /tmp/ccxEISxo.ltrans0.ltrans.o
  .rodata.StrCpyS.constprop.20.str1.1
-                0x0000000000016402      0x145 /tmp/ccBJpZJc.ltrans0.ltrans.o
+                0x0000000000016402      0x145 /tmp/ccxEISxo.ltrans0.ltrans.o
  *fill*         0x0000000000016547        0x1 
  .rodata.UefiDevicePathLibConvertDevicePathToText.constprop.56.str2.2
-                0x0000000000016548        0x4 /tmp/ccBJpZJc.ltrans0.ltrans.o
+                0x0000000000016548        0x4 /tmp/ccxEISxo.ltrans0.ltrans.o
  .rodata.UnicodeVSPrintAsciiFormat.constprop.19.str1.1
-                0x000000000001654c       0x87 /tmp/ccBJpZJc.ltrans0.ltrans.o
+                0x000000000001654c       0x87 /tmp/ccxEISxo.ltrans0.ltrans.o
  .rodata.UnicodeValueToStringS.constprop.0.str1.1
-                0x00000000000165d3       0xce /tmp/ccBJpZJc.ltrans0.ltrans.o
+                0x00000000000165d3       0xce /tmp/ccxEISxo.ltrans0.ltrans.o
  .rodata.WriteUnaligned16.str1.1
-                0x00000000000166a1       0x46 /tmp/ccBJpZJc.ltrans0.ltrans.o
+                0x00000000000166a1       0x46 /tmp/ccxEISxo.ltrans0.ltrans.o
                                          0x5d (松开之前的大小)
  .rodata.ZeroMem.str1.1
-                0x00000000000166e7       0x89 /tmp/ccBJpZJc.ltrans0.ltrans.o
+                0x00000000000166e7       0x89 /tmp/ccxEISxo.ltrans0.ltrans.o
  .rodata.__FUNCTION__.14032
-                0x0000000000016770       0x11 /tmp/ccBJpZJc.ltrans0.ltrans.o
+                0x0000000000016770       0x11 /tmp/ccxEISxo.ltrans0.ltrans.o
  .rodata.__FUNCTION__.14044
-                0x0000000000016781        0xa /tmp/ccBJpZJc.ltrans0.ltrans.o
+                0x0000000000016781        0xa /tmp/ccxEISxo.ltrans0.ltrans.o
  .rodata.__FUNCTION__.14051
-                0x000000000001678b        0x9 /tmp/ccBJpZJc.ltrans0.ltrans.o
+                0x000000000001678b        0x9 /tmp/ccxEISxo.ltrans0.ltrans.o
  .rodata.__FUNCTION__.17228
-                0x0000000000016794       0x17 /tmp/ccBJpZJc.ltrans0.ltrans.o
+                0x0000000000016794       0x17 /tmp/ccxEISxo.ltrans0.ltrans.o
  .rodata._gPcd_FixedAtBuild_PcdBootManagerMenuFile
-                0x00000000000167ab       0x10 /tmp/ccBJpZJc.ltrans0.ltrans.o
+                0x00000000000167ab       0x10 /tmp/ccxEISxo.ltrans0.ltrans.o
                 0x00000000000167ab                _gPcd_FixedAtBuild_PcdBootManagerMenuFile
  .rodata._gPcd_FixedAtBuild_PcdDriverHealthConfigureForm
-                0x00000000000167bb       0x10 /tmp/ccBJpZJc.ltrans0.ltrans.o
+                0x00000000000167bb       0x10 /tmp/ccxEISxo.ltrans0.ltrans.o
  *fill*         0x00000000000167cb        0x5 
  .rodata.mBdsLoadOptionName
-                0x00000000000167d0       0x20 /tmp/ccBJpZJc.ltrans0.ltrans.o
+                0x00000000000167d0       0x20 /tmp/ccxEISxo.ltrans0.ltrans.o
                 0x00000000000167d0                mBdsLoadOptionName
                 0x00000000000167d0                mBmLoadOptionName
  .rodata.mBmBootDescriptionHandlers
-                0x00000000000167f0       0x30 /tmp/ccBJpZJc.ltrans0.ltrans.o
+                0x00000000000167f0       0x30 /tmp/ccxEISxo.ltrans0.ltrans.o
  .rodata.mBmHealthStatusText
-                0x0000000000016820       0x30 /tmp/ccBJpZJc.ltrans0.ltrans.o
+                0x0000000000016820       0x30 /tmp/ccxEISxo.ltrans0.ltrans.o
  .rodata.mBmLoadOptionOrderName
-                0x0000000000016850       0x20 /tmp/ccBJpZJc.ltrans0.ltrans.o
+                0x0000000000016850       0x20 /tmp/ccxEISxo.ltrans0.ltrans.o
  .rodata.mStatusString
-                0x0000000000016870      0x138 /tmp/ccBJpZJc.ltrans0.ltrans.o
+                0x0000000000016870      0x138 /tmp/ccxEISxo.ltrans0.ltrans.o
  .rodata.mUefiDevicePathLibToTextTable
-                0x00000000000169a8      0x320 /tmp/ccBJpZJc.ltrans0.ltrans.o
+                0x00000000000169a8      0x320 /tmp/ccxEISxo.ltrans0.ltrans.o
  .rodata.str1.1
-                0x0000000000016cc8      0x224 /tmp/ccBJpZJc.ltrans0.ltrans.o
+                0x0000000000016cc8      0x224 /tmp/ccxEISxo.ltrans0.ltrans.o
                                         0x235 (松开之前的大小)
  .rodata.str2.2
-                0x0000000000016eec      0x116 /tmp/ccBJpZJc.ltrans0.ltrans.o
+                0x0000000000016eec      0x116 /tmp/ccxEISxo.ltrans0.ltrans.o
                                         0x138 (松开之前的大小)
  *fill*         0x0000000000017002        0x2 
  .rodata.DevPathToTextBBS
-                0x0000000000017004        0x6 /tmp/ccBJpZJc.ltrans1.ltrans.o
+                0x0000000000017004        0x6 /tmp/ccxEISxo.ltrans1.ltrans.o
  *fill*         0x000000000001700a        0x2 
  .rodata.DevPathToTextUart
-                0x000000000001700c        0x4 /tmp/ccBJpZJc.ltrans1.ltrans.o
+                0x000000000001700c        0x4 /tmp/ccxEISxo.ltrans1.ltrans.o
  .rodata.AsciiStrLen.str1.1
-                0x0000000000017010       0x8e /tmp/ccBJpZJc.ltrans1.ltrans.o
+                0x0000000000017010       0x8e /tmp/ccxEISxo.ltrans1.ltrans.o
  .rodata.AsciiStrToUnicodeStrS.str1.1
-                0x000000000001709e       0x64 /tmp/ccBJpZJc.ltrans1.ltrans.o
+                0x000000000001709e       0x64 /tmp/ccxEISxo.ltrans1.ltrans.o
                                         0x103 (松开之前的大小)
  .rodata.AsciiStrnCmp.str1.1
-                0x0000000000017102       0x70 /tmp/ccBJpZJc.ltrans1.ltrans.o
+                0x0000000000017102       0x70 /tmp/ccxEISxo.ltrans1.ltrans.o
  .rodata.BdsEntry.str1.1
-                0x0000000000017172      0x3c6 /tmp/ccBJpZJc.ltrans1.ltrans.o
+                0x0000000000017172      0x3c6 /tmp/ccxEISxo.ltrans1.ltrans.o
                                         0x537 (松开之前的大小)
  .rodata.BdsEntry.str2.2
-                0x0000000000017538      0x132 /tmp/ccBJpZJc.ltrans1.ltrans.o
+                0x0000000000017538      0x132 /tmp/ccxEISxo.ltrans1.ltrans.o
                                         0x1c8 (松开之前的大小)
  .rodata.BdsFormalizeConsoleVariable.str1.1
-                0x000000000001766a       0x48 /tmp/ccBJpZJc.ltrans1.ltrans.o
+                0x000000000001766a       0x48 /tmp/ccxEISxo.ltrans1.ltrans.o
  .rodata.BmDestroyRamDisk.str1.1
-                0x00000000000176b2       0x82 /tmp/ccBJpZJc.ltrans1.ltrans.o
+                0x00000000000176b2       0x82 /tmp/ccxEISxo.ltrans1.ltrans.o
  .rodata.BmEndOfBdsPerfCode.str1.1
-                0x0000000000017734        0x4 /tmp/ccBJpZJc.ltrans1.ltrans.o
+                0x0000000000017734        0x4 /tmp/ccxEISxo.ltrans1.ltrans.o
  .rodata.BmExpandMediaDevicePath.str1.1
-                0x0000000000017738       0x21 /tmp/ccBJpZJc.ltrans1.ltrans.o
+                0x0000000000017738       0x21 /tmp/ccxEISxo.ltrans1.ltrans.o
                                          0x71 (松开之前的大小)
  .rodata.BmGetNextLoadOptionDevicePath.str1.1
-                0x0000000000017759       0x19 /tmp/ccBJpZJc.ltrans1.ltrans.o
+                0x0000000000017759       0x19 /tmp/ccxEISxo.ltrans1.ltrans.o
  .rodata.BmGetNextLoadOptionDevicePath.str2.2
-                0x0000000000017772        0xa /tmp/ccBJpZJc.ltrans1.ltrans.o
+                0x0000000000017772        0xa /tmp/ccxEISxo.ltrans1.ltrans.o
  .rodata.BmUpdateSystemTableConsole.str1.1
-                0x000000000001777c       0xa7 /tmp/ccBJpZJc.ltrans1.ltrans.o
+                0x000000000001777c       0xa7 /tmp/ccxEISxo.ltrans1.ltrans.o
                                          0xc5 (松开之前的大小)
  .rodata.CSWTCH.42
-                0x0000000000017823        0x6 /tmp/ccBJpZJc.ltrans1.ltrans.o
+                0x0000000000017823        0x6 /tmp/ccxEISxo.ltrans1.ltrans.o
  *fill*         0x0000000000017829        0x1 
  .rodata.CatIPv4Address.str2.2
-                0x000000000001782a       0x18 /tmp/ccBJpZJc.ltrans1.ltrans.o
+                0x000000000001782a       0x18 /tmp/ccxEISxo.ltrans1.ltrans.o
  .rodata.CatIPv6Address.str2.2
-                0x0000000000017842       0x90 /tmp/ccBJpZJc.ltrans1.ltrans.o
+                0x0000000000017842       0x90 /tmp/ccxEISxo.ltrans1.ltrans.o
  .rodata.CatNetworkProtocol.str2.2
-                0x00000000000178d2        0x8 /tmp/ccBJpZJc.ltrans1.ltrans.o
+                0x00000000000178d2        0x8 /tmp/ccxEISxo.ltrans1.ltrans.o
                                          0x12 (松开之前的大小)
  .rodata.CheckDeferredLoadImageOnReadyToBoot.str1.1
-                0x00000000000178da       0x2e /tmp/ccBJpZJc.ltrans1.ltrans.o
+                0x00000000000178da       0x2e /tmp/ccxEISxo.ltrans1.ltrans.o
  .rodata.CompareGuid.str1.1
-                0x0000000000017908       0x7f /tmp/ccBJpZJc.ltrans1.ltrans.o
+                0x0000000000017908       0x7f /tmp/ccxEISxo.ltrans1.ltrans.o
  .rodata.CopyGuid.str1.1
-                0x0000000000017987       0x3b /tmp/ccBJpZJc.ltrans1.ltrans.o
+                0x0000000000017987       0x3b /tmp/ccxEISxo.ltrans1.ltrans.o
  .rodata.CopyMem.str1.1
-                0x00000000000179c2       0x53 /tmp/ccBJpZJc.ltrans1.ltrans.o
+                0x00000000000179c2       0x53 /tmp/ccxEISxo.ltrans1.ltrans.o
                                          0xd4 (松开之前的大小)
  .rodata.DebugAssert.str1.1
-                0x0000000000017a15        0x7 /tmp/ccBJpZJc.ltrans1.ltrans.o
+                0x0000000000017a15        0x7 /tmp/ccxEISxo.ltrans1.ltrans.o
                                          0x1f (松开之前的大小)
  .rodata.DevPathRelativeOffsetRange.str2.2
-                0x0000000000017a1c       0x28 /tmp/ccBJpZJc.ltrans1.ltrans.o
+                0x0000000000017a1c       0x28 /tmp/ccxEISxo.ltrans1.ltrans.o
  .rodata.DevPathToText1394.str2.2
-                0x0000000000017a44       0x1c /tmp/ccBJpZJc.ltrans1.ltrans.o
+                0x0000000000017a44       0x1c /tmp/ccxEISxo.ltrans1.ltrans.o
  .rodata.DevPathToTextAcpi.str2.2
-                0x0000000000017a60       0xc2 /tmp/ccBJpZJc.ltrans1.ltrans.o
+                0x0000000000017a60       0xc2 /tmp/ccxEISxo.ltrans1.ltrans.o
  .rodata.DevPathToTextAcpiAdr.str2.2
-                0x0000000000017b22       0x26 /tmp/ccBJpZJc.ltrans1.ltrans.o
+                0x0000000000017b22       0x26 /tmp/ccxEISxo.ltrans1.ltrans.o
  .rodata.DevPathToTextAcpiEx.str2.2
-                0x0000000000017b48      0x12c /tmp/ccBJpZJc.ltrans1.ltrans.o
+                0x0000000000017b48      0x12c /tmp/ccxEISxo.ltrans1.ltrans.o
                                         0x148 (松开之前的大小)
  .rodata.DevPathToTextAtapi.str2.2
-                0x0000000000017c74       0x72 /tmp/ccBJpZJc.ltrans1.ltrans.o
+                0x0000000000017c74       0x72 /tmp/ccxEISxo.ltrans1.ltrans.o
  .rodata.DevPathToTextBBS.str2.2
-                0x0000000000017ce6       0x58 /tmp/ccBJpZJc.ltrans1.ltrans.o
+                0x0000000000017ce6       0x58 /tmp/ccxEISxo.ltrans1.ltrans.o
                                          0x80 (松开之前的大小)
  .rodata.DevPathToTextBluetooth.str2.2
-                0x0000000000017d3e       0x48 /tmp/ccBJpZJc.ltrans1.ltrans.o
+                0x0000000000017d3e       0x48 /tmp/ccxEISxo.ltrans1.ltrans.o
  .rodata.DevPathToTextBluetoothLE.str2.2
-                0x0000000000017d86       0x5a /tmp/ccBJpZJc.ltrans1.ltrans.o
+                0x0000000000017d86       0x5a /tmp/ccxEISxo.ltrans1.ltrans.o
  .rodata.DevPathToTextBmc.str2.2
-                0x0000000000017de0       0x20 /tmp/ccBJpZJc.ltrans1.ltrans.o
+                0x0000000000017de0       0x20 /tmp/ccxEISxo.ltrans1.ltrans.o
  .rodata.DevPathToTextCDROM.str2.2
-                0x0000000000017e00       0x48 /tmp/ccBJpZJc.ltrans1.ltrans.o
+                0x0000000000017e00       0x48 /tmp/ccxEISxo.ltrans1.ltrans.o
  .rodata.DevPathToTextController.str2.2
-                0x0000000000017e48       0x16 /tmp/ccBJpZJc.ltrans1.ltrans.o
+                0x0000000000017e48       0x16 /tmp/ccxEISxo.ltrans1.ltrans.o
  .rodata.DevPathToTextDns.str2.2
-                0x0000000000017e5e        0xa /tmp/ccBJpZJc.ltrans1.ltrans.o
+                0x0000000000017e5e        0xa /tmp/ccxEISxo.ltrans1.ltrans.o
  .rodata.DevPathToTextEmmc.str2.2
-                0x0000000000017e68       0x16 /tmp/ccBJpZJc.ltrans1.ltrans.o
+                0x0000000000017e68       0x16 /tmp/ccxEISxo.ltrans1.ltrans.o
  .rodata.DevPathToTextFibre.str2.2
-                0x0000000000017e7e       0x26 /tmp/ccBJpZJc.ltrans1.ltrans.o
+                0x0000000000017e7e       0x26 /tmp/ccxEISxo.ltrans1.ltrans.o
  .rodata.DevPathToTextFibreEx.str2.2
-                0x0000000000017ea4       0x16 /tmp/ccBJpZJc.ltrans1.ltrans.o
+                0x0000000000017ea4       0x16 /tmp/ccxEISxo.ltrans1.ltrans.o
  .rodata.DevPathToTextFilePath.str2.2
-                0x0000000000017eba        0x6 /tmp/ccBJpZJc.ltrans1.ltrans.o
+                0x0000000000017eba        0x6 /tmp/ccxEISxo.ltrans1.ltrans.o
  .rodata.DevPathToTextFv.str2.2
-                0x0000000000017ec0        0xe /tmp/ccBJpZJc.ltrans1.ltrans.o
+                0x0000000000017ec0        0xe /tmp/ccxEISxo.ltrans1.ltrans.o
  .rodata.DevPathToTextFvFile.str2.2
-                0x0000000000017ece       0x16 /tmp/ccBJpZJc.ltrans1.ltrans.o
+                0x0000000000017ece       0x16 /tmp/ccxEISxo.ltrans1.ltrans.o
  .rodata.DevPathToTextHardDrive.str2.2
-                0x0000000000017ee4       0x64 /tmp/ccBJpZJc.ltrans1.ltrans.o
+                0x0000000000017ee4       0x64 /tmp/ccxEISxo.ltrans1.ltrans.o
                                          0x7e (松开之前的大小)
  .rodata.DevPathToTextI2O.str2.2
-                0x0000000000017f48       0x14 /tmp/ccBJpZJc.ltrans1.ltrans.o
+                0x0000000000017f48       0x14 /tmp/ccxEISxo.ltrans1.ltrans.o
  .rodata.DevPathToTextIPv4.str2.2
-                0x0000000000017f5c       0x24 /tmp/ccBJpZJc.ltrans1.ltrans.o
+                0x0000000000017f5c       0x24 /tmp/ccxEISxo.ltrans1.ltrans.o
  .rodata.DevPathToTextIPv6.str2.2
-                0x0000000000017f80       0x80 /tmp/ccBJpZJc.ltrans1.ltrans.o
+                0x0000000000017f80       0x80 /tmp/ccxEISxo.ltrans1.ltrans.o
                                          0x8e (松开之前的大小)
  .rodata.DevPathToTextInfiniBand.str2.2
-                0x0000000000018000       0x4c /tmp/ccBJpZJc.ltrans1.ltrans.o
+                0x0000000000018000       0x4c /tmp/ccxEISxo.ltrans1.ltrans.o
  .rodata.DevPathToTextLogicalUnit.str2.2
-                0x000000000001804c       0x16 /tmp/ccBJpZJc.ltrans1.ltrans.o
+                0x000000000001804c       0x16 /tmp/ccxEISxo.ltrans1.ltrans.o
  .rodata.DevPathToTextMacAddr.str2.2
-                0x0000000000018062        0xa /tmp/ccBJpZJc.ltrans1.ltrans.o
+                0x0000000000018062        0xa /tmp/ccxEISxo.ltrans1.ltrans.o
  .rodata.DevPathToTextMediaProtocol.str2.2
-                0x000000000001806c       0x14 /tmp/ccBJpZJc.ltrans1.ltrans.o
+                0x000000000001806c       0x14 /tmp/ccxEISxo.ltrans1.ltrans.o
  .rodata.DevPathToTextMemMap.str2.2
-                0x0000000000018080       0x3e /tmp/ccBJpZJc.ltrans1.ltrans.o
+                0x0000000000018080       0x3e /tmp/ccxEISxo.ltrans1.ltrans.o
  .rodata.DevPathToTextNVMe.str2.2
-                0x00000000000180be       0x66 /tmp/ccBJpZJc.ltrans1.ltrans.o
+                0x00000000000180be       0x66 /tmp/ccxEISxo.ltrans1.ltrans.o
  .rodata.DevPathToTextNodeGeneric.str2.2
-                0x0000000000018124       0x22 /tmp/ccBJpZJc.ltrans1.ltrans.o
+                0x0000000000018124       0x22 /tmp/ccxEISxo.ltrans1.ltrans.o
                                          0x34 (松开之前的大小)
  .rodata.DevPathToTextPccard.str2.2
-                0x0000000000018146       0x1a /tmp/ccBJpZJc.ltrans1.ltrans.o
+                0x0000000000018146       0x1a /tmp/ccxEISxo.ltrans1.ltrans.o
  .rodata.DevPathToTextPci.str2.2
-                0x0000000000018160       0x1e /tmp/ccBJpZJc.ltrans1.ltrans.o
+                0x0000000000018160       0x1e /tmp/ccxEISxo.ltrans1.ltrans.o
  .rodata.DevPathToTextRamDisk.str2.2
-                0x000000000001817e       0xca /tmp/ccBJpZJc.ltrans1.ltrans.o
+                0x000000000001817e       0xca /tmp/ccxEISxo.ltrans1.ltrans.o
                                         0x136 (松开之前的大小)
  .rodata.DevPathToTextSasEx.str2.2
-                0x0000000000018248       0xb4 /tmp/ccBJpZJc.ltrans1.ltrans.o
+                0x0000000000018248       0xb4 /tmp/ccxEISxo.ltrans1.ltrans.o
                                          0xc0 (松开之前的大小)
  .rodata.DevPathToTextSata.str2.2
-                0x00000000000182fc       0x2a /tmp/ccBJpZJc.ltrans1.ltrans.o
+                0x00000000000182fc       0x2a /tmp/ccxEISxo.ltrans1.ltrans.o
  .rodata.DevPathToTextScsi.str2.2
-                0x0000000000018326       0x20 /tmp/ccBJpZJc.ltrans1.ltrans.o
+                0x0000000000018326       0x20 /tmp/ccxEISxo.ltrans1.ltrans.o
  .rodata.DevPathToTextSd.str2.2
-                0x0000000000018346       0x12 /tmp/ccBJpZJc.ltrans1.ltrans.o
+                0x0000000000018346       0x12 /tmp/ccxEISxo.ltrans1.ltrans.o
  .rodata.DevPathToTextUart.str2.2
-                0x0000000000018358       0x5c /tmp/ccBJpZJc.ltrans1.ltrans.o
+                0x0000000000018358       0x5c /tmp/ccxEISxo.ltrans1.ltrans.o
                                          0x74 (松开之前的大小)
  .rodata.DevPathToTextUfs.str2.2
-                0x00000000000183b4       0x1e /tmp/ccBJpZJc.ltrans1.ltrans.o
+                0x00000000000183b4       0x1e /tmp/ccxEISxo.ltrans1.ltrans.o
  .rodata.DevPathToTextUri.str1.1
-                0x00000000000183d2       0x17 /tmp/ccBJpZJc.ltrans1.ltrans.o
+                0x00000000000183d2       0x17 /tmp/ccxEISxo.ltrans1.ltrans.o
  *fill*         0x00000000000183e9        0x1 
  .rodata.DevPathToTextUri.str2.2
-                0x00000000000183ea       0x10 /tmp/ccBJpZJc.ltrans1.ltrans.o
+                0x00000000000183ea       0x10 /tmp/ccxEISxo.ltrans1.ltrans.o
  .rodata.DevPathToTextUsb.str2.2
-                0x00000000000183fa       0x1e /tmp/ccBJpZJc.ltrans1.ltrans.o
+                0x00000000000183fa       0x1e /tmp/ccxEISxo.ltrans1.ltrans.o
  .rodata.DevPathToTextUsbClass.str2.2
-                0x0000000000018418      0x250 /tmp/ccBJpZJc.ltrans1.ltrans.o
+                0x0000000000018418      0x250 /tmp/ccxEISxo.ltrans1.ltrans.o
  .rodata.DevPathToTextUsbWWID.str1.1
-                0x0000000000018668       0x17 /tmp/ccBJpZJc.ltrans1.ltrans.o
+                0x0000000000018668       0x17 /tmp/ccxEISxo.ltrans1.ltrans.o
  *fill*         0x000000000001867f        0x1 
  .rodata.DevPathToTextUsbWWID.str2.2
-                0x0000000000018680       0x3a /tmp/ccBJpZJc.ltrans1.ltrans.o
+                0x0000000000018680       0x3a /tmp/ccxEISxo.ltrans1.ltrans.o
  .rodata.DevPathToTextVendor.str2.2
-                0x00000000000186ba      0x154 /tmp/ccBJpZJc.ltrans1.ltrans.o
+                0x00000000000186ba      0x154 /tmp/ccxEISxo.ltrans1.ltrans.o
                                         0x166 (松开之前的大小)
  .rodata.DevPathToTextVlan.str2.2
-                0x000000000001880e       0x12 /tmp/ccBJpZJc.ltrans1.ltrans.o
+                0x000000000001880e       0x12 /tmp/ccxEISxo.ltrans1.ltrans.o
  .rodata.DevPathToTextWiFi.str2.2
-                0x0000000000018820       0x14 /tmp/ccBJpZJc.ltrans1.ltrans.o
+                0x0000000000018820       0x14 /tmp/ccxEISxo.ltrans1.ltrans.o
  .rodata.DevPathToTextiSCSI.str2.2
-                0x0000000000018834       0x76 /tmp/ccBJpZJc.ltrans1.ltrans.o
+                0x0000000000018834       0x76 /tmp/ccxEISxo.ltrans1.ltrans.o
                                          0x90 (松开之前的大小)
  .rodata.DevicePathNodeLength.str1.1
-                0x00000000000188aa       0x17 /tmp/ccBJpZJc.ltrans1.ltrans.o
+                0x00000000000188aa       0x17 /tmp/ccxEISxo.ltrans1.ltrans.o
                                          0x15 (松开之前的大小)
  .rodata.EfiBootManagerConnectAllDefaultConsoles.str1.1
-                0x00000000000188aa       0x23 /tmp/ccBJpZJc.ltrans1.ltrans.o
+                0x00000000000188aa       0x23 /tmp/ccxEISxo.ltrans1.ltrans.o
  *fill*         0x00000000000188cd        0x1 
  .rodata.EfiBootManagerConnectAllDefaultConsoles.str2.2
-                0x00000000000188ce       0x28 /tmp/ccBJpZJc.ltrans1.ltrans.o
+                0x00000000000188ce       0x28 /tmp/ccxEISxo.ltrans1.ltrans.o
  .rodata.EfiBootManagerConnectDevicePath.str1.1
-                0x00000000000188f6       0xa2 /tmp/ccBJpZJc.ltrans1.ltrans.o
+                0x00000000000188f6       0xa2 /tmp/ccxEISxo.ltrans1.ltrans.o
  .rodata.FreePages.str1.1
-                0x0000000000018998        0xb /tmp/ccBJpZJc.ltrans1.ltrans.o
+                0x0000000000018998        0xb /tmp/ccxEISxo.ltrans1.ltrans.o
  .rodata.FreePool.str1.1
-                0x00000000000189a3       0x5c /tmp/ccBJpZJc.ltrans1.ltrans.o
+                0x00000000000189a3       0x5c /tmp/ccxEISxo.ltrans1.ltrans.o
                                          0x91 (松开之前的大小)
  .rodata.GetBestLanguage.str1.1
-                0x00000000000189ff       0x23 /tmp/ccBJpZJc.ltrans1.ltrans.o
+                0x00000000000189ff       0x23 /tmp/ccxEISxo.ltrans1.ltrans.o
  .rodata.GetHobList.str1.1
-                0x0000000000018a22       0x19 /tmp/ccBJpZJc.ltrans1.ltrans.o
+                0x0000000000018a22       0x19 /tmp/ccxEISxo.ltrans1.ltrans.o
                                          0x5a (松开之前的大小)
  .rodata.GetPerformanceMeasurementProtocol.str1.1
-                0x0000000000018a3b       0x27 /tmp/ccBJpZJc.ltrans1.ltrans.o
+                0x0000000000018a3b       0x27 /tmp/ccxEISxo.ltrans1.ltrans.o
                                          0x81 (松开之前的大小)
  .rodata.GetVariable2.str1.1
-                0x0000000000018a62       0x5d /tmp/ccBJpZJc.ltrans1.ltrans.o
+                0x0000000000018a62       0x5d /tmp/ccxEISxo.ltrans1.ltrans.o
                                          0x9d (松开之前的大小)
  .rodata.InitializeLangVariable.str1.1
-                0x0000000000018abf       0x90 /tmp/ccBJpZJc.ltrans1.ltrans.o
+                0x0000000000018abf       0x90 /tmp/ccxEISxo.ltrans1.ltrans.o
  .rodata.InternalAllocateCopyPool.str1.1
-                0x0000000000018b4f       0x3f /tmp/ccBJpZJc.ltrans1.ltrans.o
+                0x0000000000018b4f       0x3f /tmp/ccxEISxo.ltrans1.ltrans.o
  .rodata.Print.str1.1
-                0x0000000000018b8e       0x23 /tmp/ccBJpZJc.ltrans1.ltrans.o
+                0x0000000000018b8e       0x23 /tmp/ccxEISxo.ltrans1.ltrans.o
                                          0x97 (松开之前的大小)
  .rodata.ProcessLoadOptions.str1.1
-                0x0000000000018bb1       0x89 /tmp/ccBJpZJc.ltrans1.ltrans.o
+                0x0000000000018bb1       0x89 /tmp/ccxEISxo.ltrans1.ltrans.o
                                          0xdf (松开之前的大小)
  .rodata.SPrintLength.str1.1
-                0x0000000000018c3a       0x27 /tmp/ccBJpZJc.ltrans1.ltrans.o
+                0x0000000000018c3a       0x27 /tmp/ccxEISxo.ltrans1.ltrans.o
                                          0x6d (松开之前的大小)
  .rodata.SetDevicePathNodeLength.str1.1
-                0x0000000000018c61       0x9d /tmp/ccBJpZJc.ltrans1.ltrans.o
+                0x0000000000018c61       0x9d /tmp/ccxEISxo.ltrans1.ltrans.o
  .rodata.StrCatS.str1.1
-                0x0000000000018cfe       0x61 /tmp/ccBJpZJc.ltrans1.ltrans.o
+                0x0000000000018cfe       0x61 /tmp/ccxEISxo.ltrans1.ltrans.o
                                         0x107 (松开之前的大小)
  .rodata.StrLen.str1.1
-                0x0000000000018d5f       0x3a /tmp/ccBJpZJc.ltrans1.ltrans.o
+                0x0000000000018d5f       0x3a /tmp/ccxEISxo.ltrans1.ltrans.o
  .rodata.StrnCmp.str1.1
-                0x0000000000018d99       0x72 /tmp/ccBJpZJc.ltrans1.ltrans.o
+                0x0000000000018d99       0x72 /tmp/ccxEISxo.ltrans1.ltrans.o
  .rodata.StrnLenS.str1.1
-                0x0000000000018e0b       0x23 /tmp/ccBJpZJc.ltrans1.ltrans.o
+                0x0000000000018e0b       0x23 /tmp/ccxEISxo.ltrans1.ltrans.o
  .rodata.UefiDevicePathLibCatPrint.str1.1
-                0x0000000000018e0b       0x6c /tmp/ccBJpZJc.ltrans1.ltrans.o
+                0x0000000000018e0b       0x6c /tmp/ccxEISxo.ltrans1.ltrans.o
  .rodata.UnicodeVSPrint.str1.1
-                0x0000000000018e77       0x28 /tmp/ccBJpZJc.ltrans1.ltrans.o
+                0x0000000000018e77       0x28 /tmp/ccxEISxo.ltrans1.ltrans.o
  .rodata._ModuleEntryPoint.str1.1
-                0x0000000000018e77      0x298 /tmp/ccBJpZJc.ltrans1.ltrans.o
+                0x0000000000018e77      0x298 /tmp/ccxEISxo.ltrans1.ltrans.o
  .rodata.__stack_chk_fail.str1.1
-                0x000000000001910f       0x2e /tmp/ccBJpZJc.ltrans1.ltrans.o
+                0x000000000001910f       0x2e /tmp/ccxEISxo.ltrans1.ltrans.o
  *fill*         0x000000000001913d        0x1 
  .rodata._gPcd_FixedAtBuild_PcdFirmwareVendor
-                0x000000000001913e        0xe /tmp/ccBJpZJc.ltrans1.ltrans.o
+                0x000000000001913e        0xe /tmp/ccxEISxo.ltrans1.ltrans.o
  .rodata._gPcd_FixedAtBuild_PcdUefiVariableDefaultLang
-                0x000000000001914c        0x4 /tmp/ccBJpZJc.ltrans1.ltrans.o
+                0x000000000001914c        0x4 /tmp/ccxEISxo.ltrans1.ltrans.o
  .rodata._gPcd_FixedAtBuild_PcdUefiVariableDefaultLangCodes
-                0x0000000000019150        0xd /tmp/ccBJpZJc.ltrans1.ltrans.o
+                0x0000000000019150        0xd /tmp/ccxEISxo.ltrans1.ltrans.o
  .rodata._gPcd_FixedAtBuild_PcdUefiVariableDefaultPlatformLang
-                0x000000000001915d        0x6 /tmp/ccBJpZJc.ltrans1.ltrans.o
+                0x000000000001915d        0x6 /tmp/ccxEISxo.ltrans1.ltrans.o
  .rodata._gPcd_FixedAtBuild_PcdUefiVariableDefaultPlatformLangCodes
-                0x0000000000019163       0x12 /tmp/ccBJpZJc.ltrans1.ltrans.o
+                0x0000000000019163       0x12 /tmp/ccxEISxo.ltrans1.ltrans.o
  *fill*         0x0000000000019175        0x3 
  .rodata.mConVarName
-                0x0000000000019178       0x30 /tmp/ccBJpZJc.ltrans1.ltrans.o
+                0x0000000000019178       0x30 /tmp/ccxEISxo.ltrans1.ltrans.o
  .rodata.mHexStr
-                0x00000000000191a8       0x10 /tmp/ccBJpZJc.ltrans1.ltrans.o
+                0x00000000000191a8       0x10 /tmp/ccxEISxo.ltrans1.ltrans.o
  .rodata.mReadOnlyVariables
-                0x00000000000191b8       0x28 /tmp/ccBJpZJc.ltrans1.ltrans.o
+                0x00000000000191b8       0x28 /tmp/ccxEISxo.ltrans1.ltrans.o
  .rodata.mUefiDevicePathLibEndDevicePath
-                0x00000000000191e0        0x4 /tmp/ccBJpZJc.ltrans1.ltrans.o
+                0x00000000000191e0        0x4 /tmp/ccxEISxo.ltrans1.ltrans.o
  *fill*         0x00000000000191e4        0x4 
  .rodata.mUefiDevicePathLibToTextTableGeneric
-                0x00000000000191e8       0x60 /tmp/ccBJpZJc.ltrans1.ltrans.o
+                0x00000000000191e8       0x60 /tmp/ccxEISxo.ltrans1.ltrans.o
  .rodata.str2.2
-                0x0000000000019248       0xaa /tmp/ccBJpZJc.ltrans1.ltrans.o
+                0x0000000000019248       0xaa /tmp/ccxEISxo.ltrans1.ltrans.o
  *(.got .got.*)
  *fill*         0x00000000000192f2        0x6 
  .got           0x00000000000192f8        0x8 /home/evsio0n/src/edk2sdm/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
@@ -1539,233 +1539,233 @@ END GROUP
  *(.data .data.* .gnu.linkonce.d.*)
  .data.rel.ro   0x000000000001a000        0x0 /home/evsio0n/src/edk2sdm/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
  .data.Fallback.14034
-                0x000000000001a000       0x34 /tmp/ccBJpZJc.ltrans0.ltrans.o
+                0x000000000001a000       0x34 /tmp/ccxEISxo.ltrans0.ltrans.o
  .data.font5x12
-                0x000000000001a034      0x300 /tmp/ccBJpZJc.ltrans0.ltrans.o
+                0x000000000001a034      0x300 /tmp/ccxEISxo.ltrans0.ltrans.o
  .data.gEdkiiBootLogo2ProtocolGuid
-                0x000000000001a334       0x10 /tmp/ccBJpZJc.ltrans0.ltrans.o
+                0x000000000001a334       0x10 /tmp/ccxEISxo.ltrans0.ltrans.o
  .data.gEdkiiPlatformLogoProtocolGuid
-                0x000000000001a344       0x10 /tmp/ccBJpZJc.ltrans0.ltrans.o
+                0x000000000001a344       0x10 /tmp/ccxEISxo.ltrans0.ltrans.o
  .data.gEdkiiStatusCodeDataTypeVariableGuid
-                0x000000000001a354       0x10 /tmp/ccBJpZJc.ltrans0.ltrans.o
+                0x000000000001a354       0x10 /tmp/ccxEISxo.ltrans0.ltrans.o
  .data.gEdkiiVariableLockProtocolGuid
-                0x000000000001a364       0x10 /tmp/ccBJpZJc.ltrans0.ltrans.o
+                0x000000000001a364       0x10 /tmp/ccxEISxo.ltrans0.ltrans.o
                 0x000000000001a364                gEdkiiVariableLockProtocolGuid
  .data.gEfiBlockIoProtocolGuid
-                0x000000000001a374       0x10 /tmp/ccBJpZJc.ltrans0.ltrans.o
+                0x000000000001a374       0x10 /tmp/ccxEISxo.ltrans0.ltrans.o
                 0x000000000001a374                gEfiBlockIoProtocolGuid
  .data.gEfiBootLogoProtocolGuid
-                0x000000000001a384       0x10 /tmp/ccBJpZJc.ltrans0.ltrans.o
+                0x000000000001a384       0x10 /tmp/ccxEISxo.ltrans0.ltrans.o
  .data.gEfiCallerIdGuid
-                0x000000000001a394       0x10 /tmp/ccBJpZJc.ltrans0.ltrans.o
+                0x000000000001a394       0x10 /tmp/ccxEISxo.ltrans0.ltrans.o
                 0x000000000001a394                gEfiCallerIdGuid
  .data.gEfiComponentName2ProtocolGuid
-                0x000000000001a3a4       0x10 /tmp/ccBJpZJc.ltrans0.ltrans.o
+                0x000000000001a3a4       0x10 /tmp/ccxEISxo.ltrans0.ltrans.o
  .data.gEfiComponentNameProtocolGuid
-                0x000000000001a3b4       0x10 /tmp/ccBJpZJc.ltrans0.ltrans.o
+                0x000000000001a3b4       0x10 /tmp/ccxEISxo.ltrans0.ltrans.o
  .data.gEfiDevicePathProtocolGuid
-                0x000000000001a3c4       0x10 /tmp/ccBJpZJc.ltrans0.ltrans.o
+                0x000000000001a3c4       0x10 /tmp/ccxEISxo.ltrans0.ltrans.o
                 0x000000000001a3c4                gEfiDevicePathProtocolGuid
  .data.gEfiDiskInfoAhciInterfaceGuid
-                0x000000000001a3d4       0x10 /tmp/ccBJpZJc.ltrans0.ltrans.o
+                0x000000000001a3d4       0x10 /tmp/ccxEISxo.ltrans0.ltrans.o
  .data.gEfiDiskInfoIdeInterfaceGuid
-                0x000000000001a3e4       0x10 /tmp/ccBJpZJc.ltrans0.ltrans.o
+                0x000000000001a3e4       0x10 /tmp/ccxEISxo.ltrans0.ltrans.o
  .data.gEfiDiskInfoProtocolGuid
-                0x000000000001a3f4       0x10 /tmp/ccBJpZJc.ltrans0.ltrans.o
+                0x000000000001a3f4       0x10 /tmp/ccxEISxo.ltrans0.ltrans.o
  .data.gEfiDiskInfoScsiInterfaceGuid
-                0x000000000001a404       0x10 /tmp/ccBJpZJc.ltrans0.ltrans.o
+                0x000000000001a404       0x10 /tmp/ccxEISxo.ltrans0.ltrans.o
  .data.gEfiDiskInfoSdMmcInterfaceGuid
-                0x000000000001a414       0x10 /tmp/ccBJpZJc.ltrans0.ltrans.o
+                0x000000000001a414       0x10 /tmp/ccxEISxo.ltrans0.ltrans.o
  .data.gEfiDriverHealthProtocolGuid
-                0x000000000001a424       0x10 /tmp/ccBJpZJc.ltrans0.ltrans.o
+                0x000000000001a424       0x10 /tmp/ccxEISxo.ltrans0.ltrans.o
  .data.gEfiEventReadyToBootGuid
-                0x000000000001a434       0x10 /tmp/ccBJpZJc.ltrans0.ltrans.o
+                0x000000000001a434       0x10 /tmp/ccxEISxo.ltrans0.ltrans.o
                 0x000000000001a434                gEfiEventReadyToBootGuid
  .data.gEfiFileInfoGuid
-                0x000000000001a444       0x10 /tmp/ccBJpZJc.ltrans0.ltrans.o
+                0x000000000001a444       0x10 /tmp/ccxEISxo.ltrans0.ltrans.o
  .data.gEfiFirmwareVolume2ProtocolGuid
-                0x000000000001a454       0x10 /tmp/ccBJpZJc.ltrans0.ltrans.o
+                0x000000000001a454       0x10 /tmp/ccxEISxo.ltrans0.ltrans.o
                 0x000000000001a454                gEfiFirmwareVolume2ProtocolGuid
  .data.gEfiFormBrowser2ProtocolGuid
-                0x000000000001a464       0x10 /tmp/ccBJpZJc.ltrans0.ltrans.o
+                0x000000000001a464       0x10 /tmp/ccxEISxo.ltrans0.ltrans.o
  .data.gEfiGlobalVariableGuid
-                0x000000000001a474       0x10 /tmp/ccBJpZJc.ltrans0.ltrans.o
+                0x000000000001a474       0x10 /tmp/ccxEISxo.ltrans0.ltrans.o
                 0x000000000001a474                gEfiGlobalVariableGuid
  .data.gEfiGraphicsOutputProtocolGuid
-                0x000000000001a484       0x10 /tmp/ccBJpZJc.ltrans0.ltrans.o
+                0x000000000001a484       0x10 /tmp/ccxEISxo.ltrans0.ltrans.o
                 0x000000000001a484                gEfiGraphicsOutputProtocolGuid
  .data.gEfiHiiFontProtocolGuid
-                0x000000000001a494       0x10 /tmp/ccBJpZJc.ltrans0.ltrans.o
+                0x000000000001a494       0x10 /tmp/ccxEISxo.ltrans0.ltrans.o
                 0x000000000001a494                gEfiHiiFontProtocolGuid
  .data.gEfiLoadFileProtocolGuid
-                0x000000000001a4a4       0x10 /tmp/ccBJpZJc.ltrans0.ltrans.o
+                0x000000000001a4a4       0x10 /tmp/ccxEISxo.ltrans0.ltrans.o
                 0x000000000001a4a4                gEfiLoadFileProtocolGuid
  .data.gEfiLoadedImageProtocolGuid
-                0x000000000001a4b4       0x10 /tmp/ccBJpZJc.ltrans0.ltrans.o
+                0x000000000001a4b4       0x10 /tmp/ccxEISxo.ltrans0.ltrans.o
                 0x000000000001a4b4                gEfiLoadedImageProtocolGuid
  .data.gEfiMemoryTypeInformationGuid
-                0x000000000001a4c4       0x10 /tmp/ccBJpZJc.ltrans0.ltrans.o
+                0x000000000001a4c4       0x10 /tmp/ccxEISxo.ltrans0.ltrans.o
  .data.gEfiNvmExpressPassThruProtocolGuid
-                0x000000000001a4d4       0x10 /tmp/ccBJpZJc.ltrans0.ltrans.o
+                0x000000000001a4d4       0x10 /tmp/ccxEISxo.ltrans0.ltrans.o
  .data.gEfiSimpleFileSystemProtocolGuid
-                0x000000000001a4e4       0x10 /tmp/ccBJpZJc.ltrans0.ltrans.o
+                0x000000000001a4e4       0x10 /tmp/ccxEISxo.ltrans0.ltrans.o
                 0x000000000001a4e4                gEfiSimpleFileSystemProtocolGuid
  .data.gEfiSimpleTextInputExProtocolGuid
-                0x000000000001a4f4       0x10 /tmp/ccBJpZJc.ltrans0.ltrans.o
+                0x000000000001a4f4       0x10 /tmp/ccxEISxo.ltrans0.ltrans.o
                 0x000000000001a4f4                gEfiSimpleTextInputExProtocolGuid
  .data.gEfiSimpleTextOutProtocolGuid
-                0x000000000001a504       0x10 /tmp/ccBJpZJc.ltrans0.ltrans.o
+                0x000000000001a504       0x10 /tmp/ccxEISxo.ltrans0.ltrans.o
                 0x000000000001a504                gEfiSimpleTextOutProtocolGuid
  .data.gEfiStatusCodeRuntimeProtocolGuid
-                0x000000000001a514       0x10 /tmp/ccBJpZJc.ltrans0.ltrans.o
+                0x000000000001a514       0x10 /tmp/ccxEISxo.ltrans0.ltrans.o
  .data.gEfiStatusCodeSpecificDataGuid
-                0x000000000001a524       0x10 /tmp/ccBJpZJc.ltrans0.ltrans.o
+                0x000000000001a524       0x10 /tmp/ccxEISxo.ltrans0.ltrans.o
  .data.gEfiUgaDrawProtocolGuid
-                0x000000000001a534       0x10 /tmp/ccBJpZJc.ltrans0.ltrans.o
+                0x000000000001a534       0x10 /tmp/ccxEISxo.ltrans0.ltrans.o
                 0x000000000001a534                gEfiUgaDrawProtocolGuid
  .data.gEfiUsbIoProtocolGuid
-                0x000000000001a544       0x10 /tmp/ccBJpZJc.ltrans0.ltrans.o
+                0x000000000001a544       0x10 /tmp/ccxEISxo.ltrans0.ltrans.o
                 0x000000000001a544                gEfiUsbIoProtocolGuid
  .data.gEsrtManagementProtocolGuid
-                0x000000000001a554       0x10 /tmp/ccBJpZJc.ltrans0.ltrans.o
+                0x000000000001a554       0x10 /tmp/ccxEISxo.ltrans0.ltrans.o
                 0x000000000001a554                gEsrtManagementProtocolGuid
  .data.gUefiShellFileGuid
-                0x000000000001a564       0x10 /tmp/ccBJpZJc.ltrans0.ltrans.o
+                0x000000000001a564       0x10 /tmp/ccxEISxo.ltrans0.ltrans.o
  .data.mBmAutoCreateBootOptionGuid
-                0x000000000001a574       0x10 /tmp/ccBJpZJc.ltrans0.ltrans.o
+                0x000000000001a574       0x10 /tmp/ccxEISxo.ltrans0.ltrans.o
  *fill*         0x000000000001a584        0x4 
  .data.mBmHotkeyBootOption
-                0x000000000001a588       0x58 /tmp/ccBJpZJc.ltrans0.ltrans.o
+                0x000000000001a588       0x58 /tmp/ccxEISxo.ltrans0.ltrans.o
                 0x000000000001a588                mBmHotkeyBootOption
  .data.mBmHotkeyList
-                0x000000000001a5e0       0x10 /tmp/ccBJpZJc.ltrans0.ltrans.o
+                0x000000000001a5e0       0x10 /tmp/ccxEISxo.ltrans0.ltrans.o
  .data.mBmHotkeyLock
-                0x000000000001a5f0       0x18 /tmp/ccBJpZJc.ltrans0.ltrans.o
+                0x000000000001a5f0       0x18 /tmp/ccxEISxo.ltrans0.ltrans.o
  .data.mBmUefiPrefix
-                0x000000000001a608        0xc /tmp/ccBJpZJc.ltrans0.ltrans.o
+                0x000000000001a608        0xc /tmp/ccxEISxo.ltrans0.ltrans.o
  *fill*         0x000000000001a614        0x4 
  .data.mPlatformBootDescriptionHandlers
-                0x000000000001a618       0x10 /tmp/ccBJpZJc.ltrans0.ltrans.o
+                0x000000000001a618       0x10 /tmp/ccxEISxo.ltrans0.ltrans.o
  .data.__stack_chk_guard
-                0x000000000001a628        0x8 /tmp/ccBJpZJc.ltrans1.ltrans.o
+                0x000000000001a628        0x8 /tmp/ccxEISxo.ltrans1.ltrans.o
                 0x000000000001a628                __stack_chk_guard
- .data.gBds     0x000000000001a630        0x8 /tmp/ccBJpZJc.ltrans1.ltrans.o
+ .data.gBds     0x000000000001a630        0x8 /tmp/ccxEISxo.ltrans1.ltrans.o
  .data.gEFIDroidKeypadDeviceProtocolGuid
-                0x000000000001a638       0x10 /tmp/ccBJpZJc.ltrans1.ltrans.o
+                0x000000000001a638       0x10 /tmp/ccxEISxo.ltrans1.ltrans.o
  .data.gEdkiiPerformanceMeasurementProtocolGuid
-                0x000000000001a648       0x10 /tmp/ccBJpZJc.ltrans1.ltrans.o
+                0x000000000001a648       0x10 /tmp/ccxEISxo.ltrans1.ltrans.o
  .data.gEfiBdsArchProtocolGuid
-                0x000000000001a658       0x10 /tmp/ccBJpZJc.ltrans1.ltrans.o
+                0x000000000001a658       0x10 /tmp/ccxEISxo.ltrans1.ltrans.o
  .data.gEfiDebugPortProtocolGuid
-                0x000000000001a668       0x10 /tmp/ccBJpZJc.ltrans1.ltrans.o
+                0x000000000001a668       0x10 /tmp/ccxEISxo.ltrans1.ltrans.o
  .data.gEfiDeferredImageLoadProtocolGuid
-                0x000000000001a678       0x10 /tmp/ccBJpZJc.ltrans1.ltrans.o
+                0x000000000001a678       0x10 /tmp/ccxEISxo.ltrans1.ltrans.o
  .data.gEfiDxeServicesTableGuid
-                0x000000000001a688       0x10 /tmp/ccBJpZJc.ltrans1.ltrans.o
+                0x000000000001a688       0x10 /tmp/ccxEISxo.ltrans1.ltrans.o
  .data.gEfiEndOfDxeEventGroupGuid
-                0x000000000001a698       0x10 /tmp/ccBJpZJc.ltrans1.ltrans.o
+                0x000000000001a698       0x10 /tmp/ccxEISxo.ltrans1.ltrans.o
  .data.gEfiHiiConfigRoutingProtocolGuid
-                0x000000000001a6a8       0x10 /tmp/ccBJpZJc.ltrans1.ltrans.o
+                0x000000000001a6a8       0x10 /tmp/ccxEISxo.ltrans1.ltrans.o
  .data.gEfiHiiDatabaseProtocolGuid
-                0x000000000001a6b8       0x10 /tmp/ccBJpZJc.ltrans1.ltrans.o
+                0x000000000001a6b8       0x10 /tmp/ccxEISxo.ltrans1.ltrans.o
  .data.gEfiHiiImageProtocolGuid
-                0x000000000001a6c8       0x10 /tmp/ccBJpZJc.ltrans1.ltrans.o
+                0x000000000001a6c8       0x10 /tmp/ccxEISxo.ltrans1.ltrans.o
  .data.gEfiHiiStringProtocolGuid
-                0x000000000001a6d8       0x10 /tmp/ccBJpZJc.ltrans1.ltrans.o
+                0x000000000001a6d8       0x10 /tmp/ccxEISxo.ltrans1.ltrans.o
  .data.gEfiHobListGuid
-                0x000000000001a6e8       0x10 /tmp/ccBJpZJc.ltrans1.ltrans.o
+                0x000000000001a6e8       0x10 /tmp/ccxEISxo.ltrans1.ltrans.o
  .data.gEfiPcAnsiGuid
-                0x000000000001a6f8       0x10 /tmp/ccBJpZJc.ltrans1.ltrans.o
+                0x000000000001a6f8       0x10 /tmp/ccxEISxo.ltrans1.ltrans.o
  .data.gEfiPciIoProtocolGuid
-                0x000000000001a708       0x10 /tmp/ccBJpZJc.ltrans1.ltrans.o
+                0x000000000001a708       0x10 /tmp/ccxEISxo.ltrans1.ltrans.o
  .data.gEfiPersistentVirtualCdGuid
-                0x000000000001a718       0x10 /tmp/ccBJpZJc.ltrans1.ltrans.o
+                0x000000000001a718       0x10 /tmp/ccxEISxo.ltrans1.ltrans.o
  .data.gEfiPersistentVirtualDiskGuid
-                0x000000000001a728       0x10 /tmp/ccBJpZJc.ltrans1.ltrans.o
+                0x000000000001a728       0x10 /tmp/ccxEISxo.ltrans1.ltrans.o
  .data.gEfiRamDiskProtocolGuid
-                0x000000000001a738       0x10 /tmp/ccBJpZJc.ltrans1.ltrans.o
+                0x000000000001a738       0x10 /tmp/ccxEISxo.ltrans1.ltrans.o
  .data.gEfiSasDevicePathGuid
-                0x000000000001a748       0x10 /tmp/ccBJpZJc.ltrans1.ltrans.o
+                0x000000000001a748       0x10 /tmp/ccxEISxo.ltrans1.ltrans.o
  .data.gEfiSimpleTextInProtocolGuid
-                0x000000000001a758       0x10 /tmp/ccBJpZJc.ltrans1.ltrans.o
+                0x000000000001a758       0x10 /tmp/ccxEISxo.ltrans1.ltrans.o
  .data.gEfiTtyTermGuid
-                0x000000000001a768       0x10 /tmp/ccBJpZJc.ltrans1.ltrans.o
+                0x000000000001a768       0x10 /tmp/ccxEISxo.ltrans1.ltrans.o
  .data.gEfiUartDevicePathGuid
-                0x000000000001a778       0x10 /tmp/ccBJpZJc.ltrans1.ltrans.o
+                0x000000000001a778       0x10 /tmp/ccxEISxo.ltrans1.ltrans.o
  .data.gEfiVT100Guid
-                0x000000000001a788       0x10 /tmp/ccBJpZJc.ltrans1.ltrans.o
+                0x000000000001a788       0x10 /tmp/ccxEISxo.ltrans1.ltrans.o
  .data.gEfiVT100PlusGuid
-                0x000000000001a798       0x10 /tmp/ccBJpZJc.ltrans1.ltrans.o
+                0x000000000001a798       0x10 /tmp/ccxEISxo.ltrans1.ltrans.o
  .data.gEfiVTUTF8Guid
-                0x000000000001a7a8       0x10 /tmp/ccBJpZJc.ltrans1.ltrans.o
+                0x000000000001a7a8       0x10 /tmp/ccxEISxo.ltrans1.ltrans.o
  .data.gEfiVirtualCdGuid
-                0x000000000001a7b8       0x10 /tmp/ccBJpZJc.ltrans1.ltrans.o
+                0x000000000001a7b8       0x10 /tmp/ccxEISxo.ltrans1.ltrans.o
  .data.gEfiVirtualDiskGuid
-                0x000000000001a7c8       0x10 /tmp/ccBJpZJc.ltrans1.ltrans.o
+                0x000000000001a7c8       0x10 /tmp/ccxEISxo.ltrans1.ltrans.o
  .data.gPcdProtocolGuid
-                0x000000000001a7d8       0x10 /tmp/ccBJpZJc.ltrans1.ltrans.o
+                0x000000000001a7d8       0x10 /tmp/ccxEISxo.ltrans1.ltrans.o
  .data.mBmHardDriveBootVariableGuid
-                0x000000000001a7e8       0x10 /tmp/ccBJpZJc.ltrans1.ltrans.o
+                0x000000000001a7e8       0x10 /tmp/ccxEISxo.ltrans1.ltrans.o
  .data.mSerialConsole
-                0x000000000001a7f8       0x3f /tmp/ccBJpZJc.ltrans1.ltrans.o
+                0x000000000001a7f8       0x3f /tmp/ccxEISxo.ltrans1.ltrans.o
  .data.mUsbKeyboard
-                0x000000000001a837        0xf /tmp/ccBJpZJc.ltrans1.ltrans.o
+                0x000000000001a837        0xf /tmp/ccxEISxo.ltrans1.ltrans.o
  *(.bss .bss.*)
  *fill*         0x000000000001a846        0x2 
- .bss.gBS       0x000000000001a848        0x8 /tmp/ccBJpZJc.ltrans0.ltrans.o
+ .bss.gBS       0x000000000001a848        0x8 /tmp/ccxEISxo.ltrans0.ltrans.o
                 0x000000000001a848                gBS
  .bss.gHiiDatabase
-                0x000000000001a850        0x8 /tmp/ccBJpZJc.ltrans0.ltrans.o
+                0x000000000001a850        0x8 /tmp/ccxEISxo.ltrans0.ltrans.o
                 0x000000000001a850                gHiiDatabase
  .bss.gHiiString
-                0x000000000001a858        0x8 /tmp/ccBJpZJc.ltrans0.ltrans.o
+                0x000000000001a858        0x8 /tmp/ccxEISxo.ltrans0.ltrans.o
                 0x000000000001a858                gHiiString
  .bss.gImageHandle
-                0x000000000001a860        0x8 /tmp/ccBJpZJc.ltrans0.ltrans.o
+                0x000000000001a860        0x8 /tmp/ccxEISxo.ltrans0.ltrans.o
                 0x000000000001a860                gImageHandle
- .bss.gRT       0x000000000001a868        0x8 /tmp/ccBJpZJc.ltrans0.ltrans.o
+ .bss.gRT       0x000000000001a868        0x8 /tmp/ccxEISxo.ltrans0.ltrans.o
                 0x000000000001a868                gRT
- .bss.gST       0x000000000001a870        0x8 /tmp/ccBJpZJc.ltrans0.ltrans.o
+ .bss.gST       0x000000000001a870        0x8 /tmp/ccxEISxo.ltrans0.ltrans.o
                 0x000000000001a870                gST
  .bss.mBmHotkeyServiceStarted
-                0x000000000001a878        0x1 /tmp/ccBJpZJc.ltrans0.ltrans.o
+                0x000000000001a878        0x1 /tmp/ccxEISxo.ltrans0.ltrans.o
                 0x000000000001a878                mBmHotkeyServiceStarted
  *fill*         0x000000000001a879        0x7 
  .bss.mBmHotkeySupportCount
-                0x000000000001a880        0x8 /tmp/ccBJpZJc.ltrans0.ltrans.o
+                0x000000000001a880        0x8 /tmp/ccxEISxo.ltrans0.ltrans.o
                 0x000000000001a880                mBmHotkeySupportCount
  .bss.mBmHotkeyTriggered
-                0x000000000001a888        0x8 /tmp/ccBJpZJc.ltrans0.ltrans.o
+                0x000000000001a888        0x8 /tmp/ccxEISxo.ltrans0.ltrans.o
                 0x000000000001a888                mBmHotkeyTriggered
  .bss.mBmTxtInExRegistration
-                0x000000000001a890        0x8 /tmp/ccBJpZJc.ltrans0.ltrans.o
+                0x000000000001a890        0x8 /tmp/ccxEISxo.ltrans0.ltrans.o
                 0x000000000001a890                mBmTxtInExRegistration
  .bss.mPerformanceMeasurement
-                0x000000000001a898        0x8 /tmp/ccBJpZJc.ltrans0.ltrans.o
+                0x000000000001a898        0x8 /tmp/ccxEISxo.ltrans0.ltrans.o
                 0x000000000001a898                mPerformanceMeasurement
  .bss.mReportStatusCode
-                0x000000000001a8a0        0x8 /tmp/ccBJpZJc.ltrans0.ltrans.o
- .bss.m_Color   0x000000000001a8a8       0x10 /tmp/ccBJpZJc.ltrans0.ltrans.o
+                0x000000000001a8a0        0x8 /tmp/ccxEISxo.ltrans0.ltrans.o
+ .bss.m_Color   0x000000000001a8a8       0x10 /tmp/ccxEISxo.ltrans0.ltrans.o
                 0x000000000001a8a8                m_Color
  .bss.m_Initialized
-                0x000000000001a8b8        0x1 /tmp/ccBJpZJc.ltrans0.ltrans.o
+                0x000000000001a8b8        0x1 /tmp/ccxEISxo.ltrans0.ltrans.o
                 0x000000000001a8b8                m_Initialized
  *fill*         0x000000000001a8b9        0x7 
  .bss.m_MaxPosition
-                0x000000000001a8c0       0x10 /tmp/ccBJpZJc.ltrans0.ltrans.o
+                0x000000000001a8c0       0x10 /tmp/ccxEISxo.ltrans0.ltrans.o
                 0x000000000001a8c0                m_MaxPosition
  .bss.m_Position
-                0x000000000001a8d0       0x10 /tmp/ccBJpZJc.ltrans0.ltrans.o
+                0x000000000001a8d0       0x10 /tmp/ccxEISxo.ltrans0.ltrans.o
                 0x000000000001a8d0                m_Position
- .bss.gDS       0x000000000001a8e0        0x8 /tmp/ccBJpZJc.ltrans1.ltrans.o
+ .bss.gDS       0x000000000001a8e0        0x8 /tmp/ccxEISxo.ltrans1.ltrans.o
  .bss.gHiiConfigRouting
-                0x000000000001a8e8        0x8 /tmp/ccBJpZJc.ltrans1.ltrans.o
- .bss.gHiiFont  0x000000000001a8f0        0x8 /tmp/ccBJpZJc.ltrans1.ltrans.o
+                0x000000000001a8e8        0x8 /tmp/ccxEISxo.ltrans1.ltrans.o
+ .bss.gHiiFont  0x000000000001a8f0        0x8 /tmp/ccxEISxo.ltrans1.ltrans.o
  .bss.gHiiImage
-                0x000000000001a8f8        0x8 /tmp/ccBJpZJc.ltrans1.ltrans.o
- .bss.mHobList  0x000000000001a900        0x8 /tmp/ccBJpZJc.ltrans1.ltrans.o
- .bss.mPcd      0x000000000001a908        0x8 /tmp/ccBJpZJc.ltrans1.ltrans.o
- .bss.mRamDisk  0x000000000001a910        0x8 /tmp/ccBJpZJc.ltrans1.ltrans.o
+                0x000000000001a8f8        0x8 /tmp/ccxEISxo.ltrans1.ltrans.o
+ .bss.mHobList  0x000000000001a900        0x8 /tmp/ccxEISxo.ltrans1.ltrans.o
+ .bss.mPcd      0x000000000001a908        0x8 /tmp/ccxEISxo.ltrans1.ltrans.o
+ .bss.mRamDisk  0x000000000001a910        0x8 /tmp/ccxEISxo.ltrans1.ltrans.o
 
 .dynbss         0x000000000001a918        0x0
  .dynbss        0x000000000001a918        0x0 /home/evsio0n/src/edk2sdm/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
@@ -1828,37 +1828,37 @@ END GROUP
 OUTPUT(/home/evsio0n/src/edk2sdm/Sdm835/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/MdeModulePkg/Universal/BdsDxe/BdsDxe/DEBUG/BdsDxe.dll elf64-littleaarch64)
 
 .debug_info     0x0000000000000000    0x2b15b
- .debug_info    0x0000000000000000    0x15ad0 /tmp/ccBJpZJc.ltrans0.ltrans.o
- .debug_info    0x0000000000015ad0    0x1568b /tmp/ccBJpZJc.ltrans1.ltrans.o
+ .debug_info    0x0000000000000000    0x15ad0 /tmp/ccxEISxo.ltrans0.ltrans.o
+ .debug_info    0x0000000000015ad0    0x1568b /tmp/ccxEISxo.ltrans1.ltrans.o
 
 .debug_abbrev   0x0000000000000000     0x104b
- .debug_abbrev  0x0000000000000000      0x889 /tmp/ccBJpZJc.ltrans0.ltrans.o
- .debug_abbrev  0x0000000000000889      0x7c2 /tmp/ccBJpZJc.ltrans1.ltrans.o
+ .debug_abbrev  0x0000000000000000      0x889 /tmp/ccxEISxo.ltrans0.ltrans.o
+ .debug_abbrev  0x0000000000000889      0x7c2 /tmp/ccxEISxo.ltrans1.ltrans.o
 
 .debug_loc      0x0000000000000000    0x1d79c
- .debug_loc     0x0000000000000000     0xead1 /tmp/ccBJpZJc.ltrans0.ltrans.o
- .debug_loc     0x000000000000ead1     0xeccb /tmp/ccBJpZJc.ltrans1.ltrans.o
+ .debug_loc     0x0000000000000000     0xead1 /tmp/ccxEISxo.ltrans0.ltrans.o
+ .debug_loc     0x000000000000ead1     0xeccb /tmp/ccxEISxo.ltrans1.ltrans.o
 
 .debug_aranges  0x0000000000000000      0xf20
  .debug_aranges
-                0x0000000000000000      0x5f0 /tmp/ccBJpZJc.ltrans0.ltrans.o
+                0x0000000000000000      0x5f0 /tmp/ccxEISxo.ltrans0.ltrans.o
  .debug_aranges
-                0x00000000000005f0      0x930 /tmp/ccBJpZJc.ltrans1.ltrans.o
+                0x00000000000005f0      0x930 /tmp/ccxEISxo.ltrans1.ltrans.o
 
 .debug_ranges   0x0000000000000000     0x2d70
- .debug_ranges  0x0000000000000000     0x1730 /tmp/ccBJpZJc.ltrans0.ltrans.o
- .debug_ranges  0x0000000000001730     0x1640 /tmp/ccBJpZJc.ltrans1.ltrans.o
+ .debug_ranges  0x0000000000000000     0x1730 /tmp/ccxEISxo.ltrans0.ltrans.o
+ .debug_ranges  0x0000000000001730     0x1640 /tmp/ccxEISxo.ltrans1.ltrans.o
 
 .debug_line     0x0000000000000000     0x5a5e
- .debug_line    0x0000000000000000     0x2d4f /tmp/ccBJpZJc.ltrans0.ltrans.o
- .debug_line    0x0000000000002d4f     0x2d0f /tmp/ccBJpZJc.ltrans1.ltrans.o
+ .debug_line    0x0000000000000000     0x2d4f /tmp/ccxEISxo.ltrans0.ltrans.o
+ .debug_line    0x0000000000002d4f     0x2d0f /tmp/ccxEISxo.ltrans1.ltrans.o
 
 .debug_str      0x0000000000000000     0xa59f
- .debug_str     0x0000000000000000     0x73c2 /tmp/ccBJpZJc.ltrans0.ltrans.o
+ .debug_str     0x0000000000000000     0x73c2 /tmp/ccxEISxo.ltrans0.ltrans.o
                                        0x80c4 (松开之前的大小)
- .debug_str     0x00000000000073c2     0x31dd /tmp/ccBJpZJc.ltrans1.ltrans.o
+ .debug_str     0x00000000000073c2     0x31dd /tmp/ccxEISxo.ltrans1.ltrans.o
                                        0x6ff3 (松开之前的大小)
 
 .debug_frame    0x0000000000000000     0x3180
- .debug_frame   0x0000000000000000     0x1628 /tmp/ccBJpZJc.ltrans0.ltrans.o
- .debug_frame   0x0000000000001628     0x1b58 /tmp/ccBJpZJc.ltrans1.ltrans.o
+ .debug_frame   0x0000000000000000     0x1628 /tmp/ccxEISxo.ltrans0.ltrans.o
+ .debug_frame   0x0000000000001628     0x1b58 /tmp/ccxEISxo.ltrans1.ltrans.o

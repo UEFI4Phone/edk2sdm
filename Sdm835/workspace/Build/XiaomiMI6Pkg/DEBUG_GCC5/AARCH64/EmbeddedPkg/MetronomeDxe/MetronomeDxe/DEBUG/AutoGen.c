@@ -116,7 +116,7 @@ extern const  UINT32  _gPcd_FixedAtBuild_PcdControlFlowEnforcementPropertyMask;
 #define _PCD_TOKEN_PcdDebugPrintErrorLevel  34U
 #define _PCD_SIZE_PcdDebugPrintErrorLevel 4
 #define _PCD_GET_MODE_SIZE_PcdDebugPrintErrorLevel  _PCD_SIZE_PcdDebugPrintErrorLevel 
-#define _PCD_VALUE_PcdDebugPrintErrorLevel  0x80000046U
+#define _PCD_VALUE_PcdDebugPrintErrorLevel  0x800fee0fU
 GLOBAL_REMOVE_IF_UNREFERENCED const UINT32 _gPcd_FixedAtBuild_PcdDebugPrintErrorLevel = _PCD_VALUE_PcdDebugPrintErrorLevel;
 extern const  UINT32  _gPcd_FixedAtBuild_PcdDebugPrintErrorLevel;
 #define _PCD_GET_MODE_32_PcdDebugPrintErrorLevel  _gPcd_FixedAtBuild_PcdDebugPrintErrorLevel

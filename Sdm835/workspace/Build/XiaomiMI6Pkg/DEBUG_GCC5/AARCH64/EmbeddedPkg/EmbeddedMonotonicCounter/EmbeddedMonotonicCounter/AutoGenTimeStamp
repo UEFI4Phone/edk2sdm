@@ -6,6 +6,7 @@
 /home/evsio0n/src/edk2sdm/edk2/MdePkg/Library/BaseLib/BaseLib.inf
 /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Guid/WinCertificate.h
 /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Pi/PiDxeCis.h
+/home/evsio0n/src/edk2sdm/edk2/MdePkg/Library/BaseDebugLibSerialPort/BaseDebugLibSerialPort.inf
 /home/evsio0n/src/edk2sdm/edk2/EmbeddedPkg/EmbeddedMonotonicCounter/EmbeddedMonotonicCounter.inf
 /home/evsio0n/src/edk2sdm/edk2/MdePkg/Library/DxeHobLib/DxeHobLib.inf
 /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Library/DebugLib.h
@@ -36,10 +37,9 @@
 /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Base.h
 /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Library/UefiBootServicesTableLib.h
 /home/evsio0n/src/edk2sdm/edk2/MdePkg/Library/BaseIoLibIntrinsic/BaseIoLibIntrinsic.inf
-/home/evsio0n/src/edk2sdm/edk2/MdePkg/Library/DxeRuntimeDebugLibSerialPort/DxeRuntimeDebugLibSerialPort.inf
 /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Library/BaseLib.h
-/home/evsio0n/src/edk2sdm/edk2/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe.inf
 /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Pi/PiMultiPhase.h
+/home/evsio0n/src/edk2sdm/edk2/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe.inf
 /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Guid/HiiFormMapMethodGuid.h
 /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/IndustryStandard/Bluetooth.h
 /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/IndustryStandard/Acpi10.h

@@ -108,14 +108,14 @@
  .text          0x0000000000000000       0x10 /home/evsio0n/src/edk2sdm/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
  .data          0x0000000000000000        0x0 /home/evsio0n/src/edk2sdm/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
  .bss           0x0000000000000000        0x0 /home/evsio0n/src/edk2sdm/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
- .text          0x0000000000000000        0x0 /tmp/ccbGvIwW.ltrans0.ltrans.o
- .data          0x0000000000000000        0x0 /tmp/ccbGvIwW.ltrans0.ltrans.o
- .bss           0x0000000000000000        0x0 /tmp/ccbGvIwW.ltrans0.ltrans.o
+ .text          0x0000000000000000        0x0 /tmp/ccP2gQWe.ltrans0.ltrans.o
+ .data          0x0000000000000000        0x0 /tmp/ccP2gQWe.ltrans0.ltrans.o
+ .bss           0x0000000000000000        0x0 /tmp/ccP2gQWe.ltrans0.ltrans.o
  .text.__memset
-                0x0000000000000000       0x1c /tmp/ccbGvIwW.ltrans0.ltrans.o
- .comment       0x0000000000000000       0x33 /tmp/ccbGvIwW.ltrans0.ltrans.o
+                0x0000000000000000       0x1c /tmp/ccP2gQWe.ltrans0.ltrans.o
+ .comment       0x0000000000000000       0x33 /tmp/ccP2gQWe.ltrans0.ltrans.o
  .note.GNU-stack
-                0x0000000000000000        0x0 /tmp/ccbGvIwW.ltrans0.ltrans.o
+                0x0000000000000000        0x0 /tmp/ccP2gQWe.ltrans0.ltrans.o
  .data          0x0000000000000000        0x0 /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(SetMem.obj)
  .bss           0x0000000000000000        0x0 /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(SetMem.obj)
  .data          0x0000000000000000        0x0 /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(CopyMem.obj)
@@ -289,7 +289,7 @@
 链结器命令稿和内存映射
 
 LOAD /home/evsio0n/src/edk2sdm/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
-LOAD /tmp/ccbGvIwW.ltrans0.ltrans.o
+LOAD /tmp/ccP2gQWe.ltrans0.ltrans.o
 START GROUP
 LOAD /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/DxePcdLib/DxePcdLib/OUTPUT/DxePcdLib.lib
 LOAD /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib
@@ -329,83 +329,83 @@ END GROUP
 .text           0x0000000000001000     0x59f0
  *(.text .text.* .stub .gnu.linkonce.t.*)
  .text.DebugPrintLevelEnabled.constprop.16
-                0x0000000000001000        0x8 /tmp/ccbGvIwW.ltrans0.ltrans.o
+                0x0000000000001000        0x8 /tmp/ccP2gQWe.ltrans0.ltrans.o
  .text.InternalAllocatePool.constprop.7
-                0x0000000000001008       0x6c /tmp/ccbGvIwW.ltrans0.ltrans.o
+                0x0000000000001008       0x6c /tmp/ccP2gQWe.ltrans0.ltrans.o
  .text.DebugPrintEnabled
-                0x0000000000001074        0x8 /tmp/ccbGvIwW.ltrans0.ltrans.o
+                0x0000000000001074        0x8 /tmp/ccP2gQWe.ltrans0.ltrans.o
  .text.DebugAssertEnabled
-                0x000000000000107c        0x8 /tmp/ccbGvIwW.ltrans0.ltrans.o
+                0x000000000000107c        0x8 /tmp/ccP2gQWe.ltrans0.ltrans.o
  .text.BasePrintLibFillBuffer
-                0x0000000000001084       0x34 /tmp/ccbGvIwW.ltrans0.ltrans.o
+                0x0000000000001084       0x34 /tmp/ccP2gQWe.ltrans0.ltrans.o
  .text.AsciiStrnLenS
-                0x00000000000010b8       0x3c /tmp/ccbGvIwW.ltrans0.ltrans.o
+                0x00000000000010b8       0x3c /tmp/ccP2gQWe.ltrans0.ltrans.o
  .text.FatalErrorNotify
-                0x00000000000010f4       0x3c /tmp/ccbGvIwW.ltrans0.ltrans.o
+                0x00000000000010f4       0x3c /tmp/ccP2gQWe.ltrans0.ltrans.o
  .text.unlikely.HandleOemCommand
-                0x0000000000001130       0x98 /tmp/ccbGvIwW.ltrans0.ltrans.o
+                0x0000000000001130       0x98 /tmp/ccP2gQWe.ltrans0.ltrans.o
  .text.BaseDebugLibSerialPortConstructor
-                0x00000000000011c8       0x84 /tmp/ccbGvIwW.ltrans0.ltrans.o
+                0x00000000000011c8       0x84 /tmp/ccP2gQWe.ltrans0.ltrans.o
  .text.FbConFlush
-                0x000000000000124c       0x54 /tmp/ccbGvIwW.ltrans0.ltrans.o
+                0x000000000000124c       0x54 /tmp/ccP2gQWe.ltrans0.ltrans.o
  .text.SerialPortWrite
-                0x00000000000012a0      0x418 /tmp/ccbGvIwW.ltrans0.ltrans.o
+                0x00000000000012a0      0x418 /tmp/ccP2gQWe.ltrans0.ltrans.o
  .text.DebugAssert
-                0x00000000000016b8       0x7c /tmp/ccbGvIwW.ltrans0.ltrans.o
+                0x00000000000016b8       0x7c /tmp/ccP2gQWe.ltrans0.ltrans.o
  .text.ZeroMem.constprop.8
-                0x0000000000001734       0x58 /tmp/ccbGvIwW.ltrans0.ltrans.o
+                0x0000000000001734       0x58 /tmp/ccP2gQWe.ltrans0.ltrans.o
  .text.unlikely.ReadUnaligned16
-                0x000000000000178c       0x68 /tmp/ccbGvIwW.ltrans0.ltrans.o
+                0x000000000000178c       0x68 /tmp/ccP2gQWe.ltrans0.ltrans.o
  .text.CompareGuid
-                0x00000000000017f4       0x54 /tmp/ccbGvIwW.ltrans0.ltrans.o
+                0x00000000000017f4       0x54 /tmp/ccP2gQWe.ltrans0.ltrans.o
  .text.EfiGetSystemConfigurationTable
-                0x0000000000001848       0x94 /tmp/ccbGvIwW.ltrans0.ltrans.o
+                0x0000000000001848       0x94 /tmp/ccP2gQWe.ltrans0.ltrans.o
  .text.AsciiStrHexToUint64
-                0x00000000000018dc      0x19c /tmp/ccbGvIwW.ltrans0.ltrans.o
+                0x00000000000018dc      0x19c /tmp/ccP2gQWe.ltrans0.ltrans.o
  .text.AsciiStrLen
-                0x0000000000001a78       0xa0 /tmp/ccbGvIwW.ltrans0.ltrans.o
+                0x0000000000001a78       0xa0 /tmp/ccP2gQWe.ltrans0.ltrans.o
  .text.AsciiStrnCmp
-                0x0000000000001b18       0xb8 /tmp/ccbGvIwW.ltrans0.ltrans.o
+                0x0000000000001b18       0xb8 /tmp/ccP2gQWe.ltrans0.ltrans.o
  .text.unlikely.StrLen
-                0x0000000000001bd0       0xbc /tmp/ccbGvIwW.ltrans0.ltrans.o
+                0x0000000000001bd0       0xbc /tmp/ccP2gQWe.ltrans0.ltrans.o
  .text.unlikely.StrSize
-                0x0000000000001c8c       0x1c /tmp/ccbGvIwW.ltrans0.ltrans.o
+                0x0000000000001c8c       0x1c /tmp/ccP2gQWe.ltrans0.ltrans.o
  .text.AsciiStrnCpyS
-                0x0000000000001ca8      0x1a0 /tmp/ccbGvIwW.ltrans0.ltrans.o
+                0x0000000000001ca8      0x1a0 /tmp/ccP2gQWe.ltrans0.ltrans.o
  .text.StrnLenS
-                0x0000000000001e48       0x7c /tmp/ccbGvIwW.ltrans0.ltrans.o
+                0x0000000000001e48       0x7c /tmp/ccP2gQWe.ltrans0.ltrans.o
  .text.BasePrintLibSPrintMarker.constprop.21
-                0x0000000000001ec4     0x1068 /tmp/ccbGvIwW.ltrans0.ltrans.o
+                0x0000000000001ec4     0x1068 /tmp/ccP2gQWe.ltrans0.ltrans.o
  .text.unlikely.BasePrintLibSPrint.constprop.22
-                0x0000000000002f2c       0x9c /tmp/ccbGvIwW.ltrans0.ltrans.o
+                0x0000000000002f2c       0x9c /tmp/ccP2gQWe.ltrans0.ltrans.o
  .text.DebugPrint.constprop.17
-                0x0000000000002fc8       0xbc /tmp/ccbGvIwW.ltrans0.ltrans.o
+                0x0000000000002fc8       0xbc /tmp/ccP2gQWe.ltrans0.ltrans.o
  .text.FreePool
-                0x0000000000003084       0x78 /tmp/ccbGvIwW.ltrans0.ltrans.o
+                0x0000000000003084       0x78 /tmp/ccP2gQWe.ltrans0.ltrans.o
  .text.unlikely.SPrintLength
-                0x00000000000030fc       0x70 /tmp/ccbGvIwW.ltrans0.ltrans.o
+                0x00000000000030fc       0x70 /tmp/ccP2gQWe.ltrans0.ltrans.o
  .text.AsciiSPrint
-                0x000000000000316c       0xb4 /tmp/ccbGvIwW.ltrans0.ltrans.o
+                0x000000000000316c       0xb4 /tmp/ccP2gQWe.ltrans0.ltrans.o
  .text.UnicodeVSPrint
-                0x0000000000003220       0x9c /tmp/ccbGvIwW.ltrans0.ltrans.o
+                0x0000000000003220       0x9c /tmp/ccP2gQWe.ltrans0.ltrans.o
  .text.UnicodeSPrint.constprop.10
-                0x00000000000032bc       0x9c /tmp/ccbGvIwW.ltrans0.ltrans.o
+                0x00000000000032bc       0x9c /tmp/ccP2gQWe.ltrans0.ltrans.o
  .text.unlikely.StrCpyS
-                0x0000000000003358      0x1f0 /tmp/ccbGvIwW.ltrans0.ltrans.o
+                0x0000000000003358      0x1f0 /tmp/ccP2gQWe.ltrans0.ltrans.o
  .text.unlikely.CatVSPrint
-                0x0000000000003548      0x138 /tmp/ccbGvIwW.ltrans0.ltrans.o
+                0x0000000000003548      0x138 /tmp/ccP2gQWe.ltrans0.ltrans.o
  .text.unlikely.CatSPrint
-                0x0000000000003680       0xa4 /tmp/ccbGvIwW.ltrans0.ltrans.o
- .text.CopyMem  0x0000000000003724       0xb0 /tmp/ccbGvIwW.ltrans0.ltrans.o
+                0x0000000000003680       0xa4 /tmp/ccP2gQWe.ltrans0.ltrans.o
+ .text.CopyMem  0x0000000000003724       0xb0 /tmp/ccP2gQWe.ltrans0.ltrans.o
  .text.DataReady
-                0x00000000000037d4      0xb94 /tmp/ccbGvIwW.ltrans0.ltrans.o
+                0x00000000000037d4      0xb94 /tmp/ccP2gQWe.ltrans0.ltrans.o
  .text.__stack_chk_fail
-                0x0000000000004368       0x34 /tmp/ccbGvIwW.ltrans0.ltrans.o
+                0x0000000000004368       0x34 /tmp/ccP2gQWe.ltrans0.ltrans.o
                 0x0000000000004368                __stack_chk_fail
  .text._ModuleEntryPoint
-                0x000000000000439c      0x718 /tmp/ccbGvIwW.ltrans0.ltrans.o
+                0x000000000000439c      0x718 /tmp/ccP2gQWe.ltrans0.ltrans.o
                 0x000000000000439c                _ModuleEntryPoint
- .text.memcpy   0x0000000000004ab4       0x20 /tmp/ccbGvIwW.ltrans0.ltrans.o
+ .text.memcpy   0x0000000000004ab4       0x20 /tmp/ccP2gQWe.ltrans0.ltrans.o
                 0x0000000000004ab4                memcpy
  *fill*         0x0000000000004ad4        0xc 
  .text          0x0000000000004ae0      0x200 /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(SetMem.obj)
@@ -439,62 +439,62 @@ END GROUP
                 0x0000000000004f58                ArmDataSynchronizationBarrier
  *(.rodata .rodata.* .gnu.linkonce.r.*)
  .rodata.AsciiStrHexToUint64.str1.1
-                0x0000000000004f60       0xc6 /tmp/ccbGvIwW.ltrans0.ltrans.o
+                0x0000000000004f60       0xc6 /tmp/ccP2gQWe.ltrans0.ltrans.o
  .rodata.AsciiStrLen.str1.1
-                0x0000000000005026       0x8e /tmp/ccbGvIwW.ltrans0.ltrans.o
+                0x0000000000005026       0x8e /tmp/ccP2gQWe.ltrans0.ltrans.o
  .rodata.AsciiStrnCmp.str1.1
-                0x00000000000050b4       0x37 /tmp/ccbGvIwW.ltrans0.ltrans.o
+                0x00000000000050b4       0x37 /tmp/ccP2gQWe.ltrans0.ltrans.o
  .rodata.AsciiStrnCpyS.str1.1
-                0x00000000000050eb       0xc7 /tmp/ccbGvIwW.ltrans0.ltrans.o
+                0x00000000000050eb       0xc7 /tmp/ccP2gQWe.ltrans0.ltrans.o
  .rodata.BasePrintLibSPrintMarker.constprop.21.str1.1
-                0x00000000000051b2      0x28e /tmp/ccbGvIwW.ltrans0.ltrans.o
+                0x00000000000051b2      0x28e /tmp/ccP2gQWe.ltrans0.ltrans.o
  .rodata.CatVSPrint.str1.1
-                0x0000000000005440       0x6b /tmp/ccbGvIwW.ltrans0.ltrans.o
+                0x0000000000005440       0x6b /tmp/ccP2gQWe.ltrans0.ltrans.o
  .rodata.CompareGuid.str1.1
-                0x00000000000054ab       0x69 /tmp/ccbGvIwW.ltrans0.ltrans.o
+                0x00000000000054ab       0x69 /tmp/ccP2gQWe.ltrans0.ltrans.o
  .rodata.CopyMem.str1.1
-                0x0000000000005514       0xd4 /tmp/ccbGvIwW.ltrans0.ltrans.o
+                0x0000000000005514       0xd4 /tmp/ccP2gQWe.ltrans0.ltrans.o
  .rodata.DataReady.str1.1
-                0x00000000000055e8      0x449 /tmp/ccbGvIwW.ltrans0.ltrans.o
+                0x00000000000055e8      0x449 /tmp/ccP2gQWe.ltrans0.ltrans.o
                                         0x45d (松开之前的大小)
  *fill*         0x0000000000005a31        0x1 
  .rodata.DataReady.str2.2
-                0x0000000000005a32      0x2cc /tmp/ccbGvIwW.ltrans0.ltrans.o
+                0x0000000000005a32      0x2cc /tmp/ccP2gQWe.ltrans0.ltrans.o
                                         0x2d2 (松开之前的大小)
  .rodata.DebugAssert.str1.1
-                0x0000000000005cfe       0x2b /tmp/ccbGvIwW.ltrans0.ltrans.o
+                0x0000000000005cfe       0x2b /tmp/ccP2gQWe.ltrans0.ltrans.o
  *fill*         0x0000000000005d29        0x1 
  .rodata.FatalErrorNotify.str2.2
-                0x0000000000005d2a       0x62 /tmp/ccbGvIwW.ltrans0.ltrans.o
+                0x0000000000005d2a       0x62 /tmp/ccP2gQWe.ltrans0.ltrans.o
  .rodata.FreePool.str1.1
-                0x0000000000005d8c       0x91 /tmp/ccbGvIwW.ltrans0.ltrans.o
+                0x0000000000005d8c       0x91 /tmp/ccP2gQWe.ltrans0.ltrans.o
  .rodata.HandleOemCommand.str1.1
-                0x0000000000005e1d       0x4c /tmp/ccbGvIwW.ltrans0.ltrans.o
+                0x0000000000005e1d       0x4c /tmp/ccP2gQWe.ltrans0.ltrans.o
  .rodata.ReadUnaligned16.str1.1
-                0x0000000000005e69       0x5d /tmp/ccbGvIwW.ltrans0.ltrans.o
+                0x0000000000005e69       0x5d /tmp/ccP2gQWe.ltrans0.ltrans.o
  .rodata.SPrintLength.str1.1
-                0x0000000000005ec6       0x6d /tmp/ccbGvIwW.ltrans0.ltrans.o
+                0x0000000000005ec6       0x6d /tmp/ccP2gQWe.ltrans0.ltrans.o
  .rodata.StrCpyS.str1.1
-                0x0000000000005f33      0x10f /tmp/ccbGvIwW.ltrans0.ltrans.o
+                0x0000000000005f33      0x10f /tmp/ccP2gQWe.ltrans0.ltrans.o
  .rodata.StrLen.str1.1
-                0x0000000000006042       0x5d /tmp/ccbGvIwW.ltrans0.ltrans.o
+                0x0000000000006042       0x5d /tmp/ccP2gQWe.ltrans0.ltrans.o
  .rodata.UnicodeVSPrint.str1.1
-                0x000000000000609f       0x28 /tmp/ccbGvIwW.ltrans0.ltrans.o
+                0x000000000000609f       0x28 /tmp/ccP2gQWe.ltrans0.ltrans.o
  .rodata.ZeroMem.constprop.8.str1.1
-                0x00000000000060c7       0x89 /tmp/ccbGvIwW.ltrans0.ltrans.o
+                0x00000000000060c7       0x89 /tmp/ccP2gQWe.ltrans0.ltrans.o
  .rodata._ModuleEntryPoint.str1.1
-                0x0000000000006150      0x448 /tmp/ccbGvIwW.ltrans0.ltrans.o
+                0x0000000000006150      0x448 /tmp/ccP2gQWe.ltrans0.ltrans.o
  .rodata._ModuleEntryPoint.str2.2
-                0x0000000000006598       0x94 /tmp/ccbGvIwW.ltrans0.ltrans.o
+                0x0000000000006598       0x94 /tmp/ccP2gQWe.ltrans0.ltrans.o
  .rodata.__stack_chk_fail.str1.1
-                0x000000000000662c       0x2e /tmp/ccbGvIwW.ltrans0.ltrans.o
+                0x000000000000662c       0x2e /tmp/ccP2gQWe.ltrans0.ltrans.o
  .rodata.mHexStr
-                0x000000000000665a       0x10 /tmp/ccbGvIwW.ltrans0.ltrans.o
+                0x000000000000665a       0x10 /tmp/ccP2gQWe.ltrans0.ltrans.o
  *fill*         0x000000000000666a        0x6 
  .rodata.mStatusString
-                0x0000000000006670      0x138 /tmp/ccbGvIwW.ltrans0.ltrans.o
+                0x0000000000006670      0x138 /tmp/ccP2gQWe.ltrans0.ltrans.o
  .rodata.str1.1
-                0x00000000000067a8      0x224 /tmp/ccbGvIwW.ltrans0.ltrans.o
+                0x00000000000067a8      0x224 /tmp/ccP2gQWe.ltrans0.ltrans.o
                                         0x235 (松开之前的大小)
  *(.got .got.*)
  *fill*         0x00000000000069cc        0x4 
@@ -510,59 +510,59 @@ END GROUP
  *(.data .data.* .gnu.linkonce.d.*)
  .data.rel.ro   0x0000000000007000        0x0 /home/evsio0n/src/edk2sdm/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
  .data.__stack_chk_guard
-                0x0000000000007000        0x8 /tmp/ccbGvIwW.ltrans0.ltrans.o
+                0x0000000000007000        0x8 /tmp/ccP2gQWe.ltrans0.ltrans.o
                 0x0000000000007000                __stack_chk_guard
  .data.font5x12
-                0x0000000000007008      0x300 /tmp/ccbGvIwW.ltrans0.ltrans.o
+                0x0000000000007008      0x300 /tmp/ccP2gQWe.ltrans0.ltrans.o
  .data.gAndroidFastbootPlatformProtocolGuid
-                0x0000000000007308       0x10 /tmp/ccbGvIwW.ltrans0.ltrans.o
+                0x0000000000007308       0x10 /tmp/ccP2gQWe.ltrans0.ltrans.o
  .data.gAndroidFastbootTransportProtocolGuid
-                0x0000000000007318       0x10 /tmp/ccbGvIwW.ltrans0.ltrans.o
+                0x0000000000007318       0x10 /tmp/ccP2gQWe.ltrans0.ltrans.o
  .data.gEfiDxeServicesTableGuid
-                0x0000000000007328       0x10 /tmp/ccbGvIwW.ltrans0.ltrans.o
+                0x0000000000007328       0x10 /tmp/ccP2gQWe.ltrans0.ltrans.o
  .data.gEfiHobListGuid
-                0x0000000000007338       0x10 /tmp/ccbGvIwW.ltrans0.ltrans.o
+                0x0000000000007338       0x10 /tmp/ccP2gQWe.ltrans0.ltrans.o
  .data.gEfiLoadedImageProtocolGuid
-                0x0000000000007348       0x10 /tmp/ccbGvIwW.ltrans0.ltrans.o
+                0x0000000000007348       0x10 /tmp/ccP2gQWe.ltrans0.ltrans.o
  .data.gEfiSimpleTextInProtocolGuid
-                0x0000000000007358       0x10 /tmp/ccbGvIwW.ltrans0.ltrans.o
+                0x0000000000007358       0x10 /tmp/ccP2gQWe.ltrans0.ltrans.o
  .data.gEfiSimpleTextOutProtocolGuid
-                0x0000000000007368       0x10 /tmp/ccbGvIwW.ltrans0.ltrans.o
+                0x0000000000007368       0x10 /tmp/ccP2gQWe.ltrans0.ltrans.o
  *(.bss .bss.*)
  .bss.Count.9845
-                0x0000000000007378        0x8 /tmp/ccbGvIwW.ltrans0.ltrans.o
- .bss.gBS       0x0000000000007380        0x8 /tmp/ccbGvIwW.ltrans0.ltrans.o
- .bss.gDS       0x0000000000007388        0x8 /tmp/ccbGvIwW.ltrans0.ltrans.o
+                0x0000000000007378        0x8 /tmp/ccP2gQWe.ltrans0.ltrans.o
+ .bss.gBS       0x0000000000007380        0x8 /tmp/ccP2gQWe.ltrans0.ltrans.o
+ .bss.gDS       0x0000000000007388        0x8 /tmp/ccP2gQWe.ltrans0.ltrans.o
  .bss.gImageHandle
-                0x0000000000007390        0x8 /tmp/ccbGvIwW.ltrans0.ltrans.o
- .bss.gRT       0x0000000000007398        0x8 /tmp/ccbGvIwW.ltrans0.ltrans.o
- .bss.gST       0x00000000000073a0        0x8 /tmp/ccbGvIwW.ltrans0.ltrans.o
+                0x0000000000007390        0x8 /tmp/ccP2gQWe.ltrans0.ltrans.o
+ .bss.gRT       0x0000000000007398        0x8 /tmp/ccP2gQWe.ltrans0.ltrans.o
+ .bss.gST       0x00000000000073a0        0x8 /tmp/ccP2gQWe.ltrans0.ltrans.o
  .bss.mBytesReceivedSoFar
-                0x00000000000073a8        0x8 /tmp/ccbGvIwW.ltrans0.ltrans.o
+                0x00000000000073a8        0x8 /tmp/ccP2gQWe.ltrans0.ltrans.o
  .bss.mDataBuffer
-                0x00000000000073b0        0x8 /tmp/ccbGvIwW.ltrans0.ltrans.o
+                0x00000000000073b0        0x8 /tmp/ccP2gQWe.ltrans0.ltrans.o
  .bss.mFatalSendErrorEvent
-                0x00000000000073b8        0x8 /tmp/ccbGvIwW.ltrans0.ltrans.o
+                0x00000000000073b8        0x8 /tmp/ccP2gQWe.ltrans0.ltrans.o
  .bss.mFinishedEvent
-                0x00000000000073c0        0x8 /tmp/ccbGvIwW.ltrans0.ltrans.o
- .bss.mHobList  0x00000000000073c8        0x8 /tmp/ccbGvIwW.ltrans0.ltrans.o
+                0x00000000000073c0        0x8 /tmp/ccP2gQWe.ltrans0.ltrans.o
+ .bss.mHobList  0x00000000000073c8        0x8 /tmp/ccP2gQWe.ltrans0.ltrans.o
  .bss.mNumDataBytes
-                0x00000000000073d0        0x8 /tmp/ccbGvIwW.ltrans0.ltrans.o
+                0x00000000000073d0        0x8 /tmp/ccP2gQWe.ltrans0.ltrans.o
  .bss.mPlatform
-                0x00000000000073d8        0x8 /tmp/ccbGvIwW.ltrans0.ltrans.o
- .bss.mState    0x00000000000073e0        0x4 /tmp/ccbGvIwW.ltrans0.ltrans.o
+                0x00000000000073d8        0x8 /tmp/ccP2gQWe.ltrans0.ltrans.o
+ .bss.mState    0x00000000000073e0        0x4 /tmp/ccP2gQWe.ltrans0.ltrans.o
  *fill*         0x00000000000073e4        0x4 
- .bss.mTextOut  0x00000000000073e8        0x8 /tmp/ccbGvIwW.ltrans0.ltrans.o
+ .bss.mTextOut  0x00000000000073e8        0x8 /tmp/ccP2gQWe.ltrans0.ltrans.o
  .bss.mTransport
-                0x00000000000073f0        0x8 /tmp/ccbGvIwW.ltrans0.ltrans.o
- .bss.m_Color   0x00000000000073f8       0x10 /tmp/ccbGvIwW.ltrans0.ltrans.o
+                0x00000000000073f0        0x8 /tmp/ccP2gQWe.ltrans0.ltrans.o
+ .bss.m_Color   0x00000000000073f8       0x10 /tmp/ccP2gQWe.ltrans0.ltrans.o
  .bss.m_Initialized
-                0x0000000000007408        0x1 /tmp/ccbGvIwW.ltrans0.ltrans.o
+                0x0000000000007408        0x1 /tmp/ccP2gQWe.ltrans0.ltrans.o
  *fill*         0x0000000000007409        0x7 
  .bss.m_MaxPosition
-                0x0000000000007410       0x10 /tmp/ccbGvIwW.ltrans0.ltrans.o
+                0x0000000000007410       0x10 /tmp/ccP2gQWe.ltrans0.ltrans.o
  .bss.m_Position
-                0x0000000000007420       0x10 /tmp/ccbGvIwW.ltrans0.ltrans.o
+                0x0000000000007420       0x10 /tmp/ccP2gQWe.ltrans0.ltrans.o
 
 .dynbss         0x0000000000007430        0x0
  .dynbss        0x0000000000007430        0x0 /home/evsio0n/src/edk2sdm/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
@@ -603,27 +603,27 @@ END GROUP
 OUTPUT(/home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/EmbeddedPkg/Application/AndroidFastboot/AndroidFastbootApp/DEBUG/AndroidFastbootApp.dll elf64-littleaarch64)
 
 .debug_info     0x0000000000000000     0x756b
- .debug_info    0x0000000000000000     0x756b /tmp/ccbGvIwW.ltrans0.ltrans.o
+ .debug_info    0x0000000000000000     0x756b /tmp/ccP2gQWe.ltrans0.ltrans.o
 
 .debug_abbrev   0x0000000000000000      0x6a9
- .debug_abbrev  0x0000000000000000      0x6a9 /tmp/ccbGvIwW.ltrans0.ltrans.o
+ .debug_abbrev  0x0000000000000000      0x6a9 /tmp/ccP2gQWe.ltrans0.ltrans.o
 
 .debug_loc      0x0000000000000000     0x69b2
- .debug_loc     0x0000000000000000     0x69b2 /tmp/ccbGvIwW.ltrans0.ltrans.o
+ .debug_loc     0x0000000000000000     0x69b2 /tmp/ccP2gQWe.ltrans0.ltrans.o
 
 .debug_aranges  0x0000000000000000      0x2a0
  .debug_aranges
-                0x0000000000000000      0x2a0 /tmp/ccbGvIwW.ltrans0.ltrans.o
+                0x0000000000000000      0x2a0 /tmp/ccP2gQWe.ltrans0.ltrans.o
 
 .debug_ranges   0x0000000000000000      0xbb0
- .debug_ranges  0x0000000000000000      0xbb0 /tmp/ccbGvIwW.ltrans0.ltrans.o
+ .debug_ranges  0x0000000000000000      0xbb0 /tmp/ccP2gQWe.ltrans0.ltrans.o
 
 .debug_line     0x0000000000000000     0x1772
- .debug_line    0x0000000000000000     0x1772 /tmp/ccbGvIwW.ltrans0.ltrans.o
+ .debug_line    0x0000000000000000     0x1772 /tmp/ccP2gQWe.ltrans0.ltrans.o
 
 .debug_str      0x0000000000000000     0x29d4
- .debug_str     0x0000000000000000     0x29d4 /tmp/ccbGvIwW.ltrans0.ltrans.o
+ .debug_str     0x0000000000000000     0x29d4 /tmp/ccP2gQWe.ltrans0.ltrans.o
                                        0x2ca2 (松开之前的大小)
 
 .debug_frame    0x0000000000000000      0x830
- .debug_frame   0x0000000000000000      0x830 /tmp/ccbGvIwW.ltrans0.ltrans.o
+ .debug_frame   0x0000000000000000      0x830 /tmp/ccP2gQWe.ltrans0.ltrans.o

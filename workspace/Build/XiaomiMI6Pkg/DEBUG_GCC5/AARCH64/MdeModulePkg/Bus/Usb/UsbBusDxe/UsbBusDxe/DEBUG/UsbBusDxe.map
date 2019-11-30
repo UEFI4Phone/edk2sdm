@@ -120,56 +120,56 @@
  .text          0x0000000000000000       0x10 /home/evsio0n/src/edk2sdm/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
  .data          0x0000000000000000        0x0 /home/evsio0n/src/edk2sdm/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
  .bss           0x0000000000000000        0x0 /home/evsio0n/src/edk2sdm/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
- .text          0x0000000000000000        0x0 /tmp/ccRq12Gd.ltrans0.ltrans.o
- .data          0x0000000000000000        0x0 /tmp/ccRq12Gd.ltrans0.ltrans.o
- .bss           0x0000000000000000        0x0 /tmp/ccRq12Gd.ltrans0.ltrans.o
+ .text          0x0000000000000000        0x0 /tmp/ccu72HRI.ltrans0.ltrans.o
+ .data          0x0000000000000000        0x0 /tmp/ccu72HRI.ltrans0.ltrans.o
+ .bss           0x0000000000000000        0x0 /tmp/ccu72HRI.ltrans0.ltrans.o
  .text.ReportDebugCodeEnabled
-                0x0000000000000000        0x8 /tmp/ccRq12Gd.ltrans0.ltrans.o
+                0x0000000000000000        0x8 /tmp/ccu72HRI.ltrans0.ltrans.o
  .text.ReportErrorCodeEnabled
-                0x0000000000000000        0x8 /tmp/ccRq12Gd.ltrans0.ltrans.o
+                0x0000000000000000        0x8 /tmp/ccu72HRI.ltrans0.ltrans.o
  .text.InternalReportStatusCode.constprop.7
-                0x0000000000000000        0x8 /tmp/ccRq12Gd.ltrans0.ltrans.o
+                0x0000000000000000        0x8 /tmp/ccu72HRI.ltrans0.ltrans.o
  .text.UsbBusComponentNameGetControllerName
-                0x0000000000000000        0x8 /tmp/ccRq12Gd.ltrans0.ltrans.o
+                0x0000000000000000        0x8 /tmp/ccu72HRI.ltrans0.ltrans.o
  .text._DriverUnloadHandler
-                0x0000000000000000        0x8 /tmp/ccRq12Gd.ltrans0.ltrans.o
+                0x0000000000000000        0x8 /tmp/ccu72HRI.ltrans0.ltrans.o
  .text.CopyGuid
-                0x0000000000000000       0x70 /tmp/ccRq12Gd.ltrans0.ltrans.o
+                0x0000000000000000       0x70 /tmp/ccu72HRI.ltrans0.ltrans.o
  .text.ReadUnaligned24
-                0x0000000000000000       0x54 /tmp/ccRq12Gd.ltrans0.ltrans.o
+                0x0000000000000000       0x54 /tmp/ccu72HRI.ltrans0.ltrans.o
  .text.AsciiStrnCmp
-                0x0000000000000000       0xf0 /tmp/ccRq12Gd.ltrans0.ltrans.o
+                0x0000000000000000       0xf0 /tmp/ccu72HRI.ltrans0.ltrans.o
  .text.UsbBusComponentNameGetDriverName
-                0x0000000000000000      0x154 /tmp/ccRq12Gd.ltrans0.ltrans.o
+                0x0000000000000000      0x154 /tmp/ccu72HRI.ltrans0.ltrans.o
  .text.StrnLenS
-                0x0000000000000000       0x7c /tmp/ccRq12Gd.ltrans0.ltrans.o
+                0x0000000000000000       0x7c /tmp/ccu72HRI.ltrans0.ltrans.o
  .text.ReportStatusCodeEx.constprop.6
-                0x0000000000000000      0x1ec /tmp/ccRq12Gd.ltrans0.ltrans.o
+                0x0000000000000000      0x1ec /tmp/ccu72HRI.ltrans0.ltrans.o
  .text.ReportStatusCodeWithDevicePath.constprop.4
-                0x0000000000000000       0xa4 /tmp/ccRq12Gd.ltrans0.ltrans.o
+                0x0000000000000000       0xa4 /tmp/ccu72HRI.ltrans0.ltrans.o
  .text.__memset
-                0x0000000000000000       0x1c /tmp/ccRq12Gd.ltrans0.ltrans.o
+                0x0000000000000000       0x1c /tmp/ccu72HRI.ltrans0.ltrans.o
  .data.gEfiStatusCodeSpecificDataGuid
-                0x0000000000000000       0x10 /tmp/ccRq12Gd.ltrans0.ltrans.o
+                0x0000000000000000       0x10 /tmp/ccu72HRI.ltrans0.ltrans.o
  .data.mUsbBusComponentName
-                0x0000000000000000       0x18 /tmp/ccRq12Gd.ltrans0.ltrans.o
+                0x0000000000000000       0x18 /tmp/ccu72HRI.ltrans0.ltrans.o
  .data.mUsbBusDriverNameTable
-                0x0000000000000000       0x20 /tmp/ccRq12Gd.ltrans0.ltrans.o
+                0x0000000000000000       0x20 /tmp/ccu72HRI.ltrans0.ltrans.o
  .rodata.AsciiStrnCmp.str1.1
-                0x0000000000000000       0x70 /tmp/ccRq12Gd.ltrans0.ltrans.o
+                0x0000000000000000       0x70 /tmp/ccu72HRI.ltrans0.ltrans.o
  .rodata.CopyGuid.str1.1
-                0x0000000000000000       0x3b /tmp/ccRq12Gd.ltrans0.ltrans.o
+                0x0000000000000000       0x3b /tmp/ccu72HRI.ltrans0.ltrans.o
  .rodata.ReportStatusCodeEx.constprop.6.str1.1
-                0x0000000000000000      0x127 /tmp/ccRq12Gd.ltrans0.ltrans.o
+                0x0000000000000000      0x127 /tmp/ccu72HRI.ltrans0.ltrans.o
  .rodata.ReportStatusCodeWithDevicePath.constprop.4.str1.1
-                0x0000000000000000       0x4e /tmp/ccRq12Gd.ltrans0.ltrans.o
+                0x0000000000000000       0x4e /tmp/ccu72HRI.ltrans0.ltrans.o
  .rodata.StrnLenS.str1.1
-                0x0000000000000000       0x66 /tmp/ccRq12Gd.ltrans0.ltrans.o
+                0x0000000000000000       0x66 /tmp/ccu72HRI.ltrans0.ltrans.o
  .rodata.str2.2
-                0x0000000000000000       0x1e /tmp/ccRq12Gd.ltrans0.ltrans.o
- .comment       0x0000000000000000       0x33 /tmp/ccRq12Gd.ltrans0.ltrans.o
+                0x0000000000000000       0x1e /tmp/ccu72HRI.ltrans0.ltrans.o
+ .comment       0x0000000000000000       0x33 /tmp/ccu72HRI.ltrans0.ltrans.o
  .note.GNU-stack
-                0x0000000000000000        0x0 /tmp/ccRq12Gd.ltrans0.ltrans.o
+                0x0000000000000000        0x0 /tmp/ccu72HRI.ltrans0.ltrans.o
  .text          0x0000000000000000        0x8 /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(CpuBreakpoint.obj)
  .data          0x0000000000000000        0x0 /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(CpuBreakpoint.obj)
  .bss           0x0000000000000000        0x0 /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(CpuBreakpoint.obj)
@@ -345,7 +345,7 @@
 链结器命令稿和内存映射
 
 LOAD /home/evsio0n/src/edk2sdm/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
-LOAD /tmp/ccRq12Gd.ltrans0.ltrans.o
+LOAD /tmp/ccu72HRI.ltrans0.ltrans.o
 START GROUP
 LOAD /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/DxePcdLib/DxePcdLib/OUTPUT/DxePcdLib.lib
 LOAD /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib
@@ -385,208 +385,208 @@ END GROUP
 .text           0x0000000000001000     0xa3e8
  *(.text .text.* .stub .gnu.linkonce.t.*)
  .text.InternalAllocatePool.constprop.14
-                0x0000000000001000       0x6c /tmp/ccRq12Gd.ltrans0.ltrans.o
+                0x0000000000001000       0x6c /tmp/ccu72HRI.ltrans0.ltrans.o
  .text.BasePrintLibFillBuffer
-                0x000000000000106c       0x34 /tmp/ccRq12Gd.ltrans0.ltrans.o
+                0x000000000000106c       0x34 /tmp/ccu72HRI.ltrans0.ltrans.o
  .text.AsciiStrnLenS
-                0x00000000000010a0       0x3c /tmp/ccRq12Gd.ltrans0.ltrans.o
+                0x00000000000010a0       0x3c /tmp/ccu72HRI.ltrans0.ltrans.o
  .text.DebugPrintLevelEnabled
-                0x00000000000010dc        0x8 /tmp/ccRq12Gd.ltrans0.ltrans.o
+                0x00000000000010dc        0x8 /tmp/ccu72HRI.ltrans0.ltrans.o
  .text.DebugPrintEnabled
-                0x00000000000010e4        0x8 /tmp/ccRq12Gd.ltrans0.ltrans.o
+                0x00000000000010e4        0x8 /tmp/ccu72HRI.ltrans0.ltrans.o
  .text.DebugAssertEnabled
-                0x00000000000010ec        0x8 /tmp/ccRq12Gd.ltrans0.ltrans.o
+                0x00000000000010ec        0x8 /tmp/ccu72HRI.ltrans0.ltrans.o
  .text.UsbFindChild
-                0x00000000000010f4       0x54 /tmp/ccRq12Gd.ltrans0.ltrans.o
+                0x00000000000010f4       0x54 /tmp/ccu72HRI.ltrans0.ltrans.o
  .text.UsbGetEndpointDesc
-                0x0000000000001148       0x3c /tmp/ccRq12Gd.ltrans0.ltrans.o
+                0x0000000000001148       0x3c /tmp/ccu72HRI.ltrans0.ltrans.o
  .text.UsbGetCurrentTpl
-                0x0000000000001184       0x40 /tmp/ccRq12Gd.ltrans0.ltrans.o
+                0x0000000000001184       0x40 /tmp/ccu72HRI.ltrans0.ltrans.o
  .text.UsbOpenHostProtoByChild
-                0x00000000000011c4       0x90 /tmp/ccRq12Gd.ltrans0.ltrans.o
+                0x00000000000011c4       0x90 /tmp/ccu72HRI.ltrans0.ltrans.o
  .text.UsbHcControlTransfer
-                0x0000000000001254       0x38 /tmp/ccRq12Gd.ltrans0.ltrans.o
+                0x0000000000001254       0x38 /tmp/ccu72HRI.ltrans0.ltrans.o
  .text.UsbHcClearRootHubPortFeature
-                0x000000000000128c       0x20 /tmp/ccRq12Gd.ltrans0.ltrans.o
+                0x000000000000128c       0x20 /tmp/ccu72HRI.ltrans0.ltrans.o
  .text.UsbHcSetRootHubPortFeature
-                0x00000000000012ac       0x20 /tmp/ccRq12Gd.ltrans0.ltrans.o
+                0x00000000000012ac       0x20 /tmp/ccu72HRI.ltrans0.ltrans.o
  .text.UsbHcGetRootHubPortStatus
-                0x00000000000012cc       0x20 /tmp/ccRq12Gd.ltrans0.ltrans.o
+                0x00000000000012cc       0x20 /tmp/ccu72HRI.ltrans0.ltrans.o
  .text.UsbRootHubClearPortFeature
-                0x00000000000012ec        0xc /tmp/ccRq12Gd.ltrans0.ltrans.o
+                0x00000000000012ec        0xc /tmp/ccu72HRI.ltrans0.ltrans.o
  .text.UsbRootHubSetPortFeature
-                0x00000000000012f8        0xc /tmp/ccRq12Gd.ltrans0.ltrans.o
+                0x00000000000012f8        0xc /tmp/ccu72HRI.ltrans0.ltrans.o
  .text.UsbRootHubGetPortStatus
-                0x0000000000001304        0xc /tmp/ccRq12Gd.ltrans0.ltrans.o
+                0x0000000000001304        0xc /tmp/ccu72HRI.ltrans0.ltrans.o
  .text.UsbRootHubClearPortChange
-                0x0000000000001310       0xac /tmp/ccRq12Gd.ltrans0.ltrans.o
+                0x0000000000001310       0xac /tmp/ccu72HRI.ltrans0.ltrans.o
  .text.UsbIoAsyncIsochronousTransfer
-                0x00000000000013bc        0x8 /tmp/ccRq12Gd.ltrans0.ltrans.o
+                0x00000000000013bc        0x8 /tmp/ccu72HRI.ltrans0.ltrans.o
  .text.UsbIoIsochronousTransfer
-                0x00000000000013c4        0x8 /tmp/ccRq12Gd.ltrans0.ltrans.o
+                0x00000000000013c4        0x8 /tmp/ccu72HRI.ltrans0.ltrans.o
  .text.BaseDebugLibSerialPortConstructor
-                0x00000000000013cc       0x84 /tmp/ccRq12Gd.ltrans0.ltrans.o
+                0x00000000000013cc       0x84 /tmp/ccu72HRI.ltrans0.ltrans.o
  .text.FbConFlush
-                0x0000000000001450       0x54 /tmp/ccRq12Gd.ltrans0.ltrans.o
+                0x0000000000001450       0x54 /tmp/ccu72HRI.ltrans0.ltrans.o
  .text.SerialPortWrite
-                0x00000000000014a4      0x418 /tmp/ccRq12Gd.ltrans0.ltrans.o
+                0x00000000000014a4      0x418 /tmp/ccu72HRI.ltrans0.ltrans.o
  .text.DebugAssert
-                0x00000000000018bc       0x7c /tmp/ccRq12Gd.ltrans0.ltrans.o
+                0x00000000000018bc       0x7c /tmp/ccu72HRI.ltrans0.ltrans.o
  .text.CompareGuid.constprop.21
-                0x0000000000001938       0x50 /tmp/ccRq12Gd.ltrans0.ltrans.o
+                0x0000000000001938       0x50 /tmp/ccu72HRI.ltrans0.ltrans.o
  .text.WriteUnaligned16
-                0x0000000000001988       0x5c /tmp/ccRq12Gd.ltrans0.ltrans.o
+                0x0000000000001988       0x5c /tmp/ccu72HRI.ltrans0.ltrans.o
  .text.ReadUnaligned16
-                0x00000000000019e4       0x68 /tmp/ccRq12Gd.ltrans0.ltrans.o
+                0x00000000000019e4       0x68 /tmp/ccu72HRI.ltrans0.ltrans.o
  .text.AsciiStrLen
-                0x0000000000001a4c       0xa0 /tmp/ccRq12Gd.ltrans0.ltrans.o
+                0x0000000000001a4c       0xa0 /tmp/ccu72HRI.ltrans0.ltrans.o
  .text.BasePrintLibSPrintMarker.constprop.27
-                0x0000000000001aec      0xcbc /tmp/ccRq12Gd.ltrans0.ltrans.o
+                0x0000000000001aec      0xcbc /tmp/ccu72HRI.ltrans0.ltrans.o
  .text.unlikely.BasePrintLibSPrint.constprop.28
-                0x00000000000027a8       0x98 /tmp/ccRq12Gd.ltrans0.ltrans.o
+                0x00000000000027a8       0x98 /tmp/ccu72HRI.ltrans0.ltrans.o
  .text.AsciiSPrint.constprop.25
-                0x0000000000002840       0xa4 /tmp/ccRq12Gd.ltrans0.ltrans.o
+                0x0000000000002840       0xa4 /tmp/ccu72HRI.ltrans0.ltrans.o
  .text.DevicePathNodeLength
-                0x00000000000028e4       0x50 /tmp/ccRq12Gd.ltrans0.ltrans.o
+                0x00000000000028e4       0x50 /tmp/ccu72HRI.ltrans0.ltrans.o
  .text.NextDevicePathNode
-                0x0000000000002934       0x50 /tmp/ccRq12Gd.ltrans0.ltrans.o
+                0x0000000000002934       0x50 /tmp/ccu72HRI.ltrans0.ltrans.o
  .text.DevicePathSubType
-                0x0000000000002984       0x48 /tmp/ccRq12Gd.ltrans0.ltrans.o
+                0x0000000000002984       0x48 /tmp/ccu72HRI.ltrans0.ltrans.o
  .text.DevicePathType
-                0x00000000000029cc       0x48 /tmp/ccRq12Gd.ltrans0.ltrans.o
+                0x00000000000029cc       0x48 /tmp/ccu72HRI.ltrans0.ltrans.o
  .text.IsDevicePathEnd
-                0x0000000000002a14       0x94 /tmp/ccRq12Gd.ltrans0.ltrans.o
+                0x0000000000002a14       0x94 /tmp/ccu72HRI.ltrans0.ltrans.o
  .text.IsDevicePathValid.part.0.constprop.16
-                0x0000000000002aa8       0xbc /tmp/ccRq12Gd.ltrans0.ltrans.o
+                0x0000000000002aa8       0xbc /tmp/ccu72HRI.ltrans0.ltrans.o
  .text.UefiDevicePathLibGetDevicePathSize
-                0x0000000000002b64       0x6c /tmp/ccRq12Gd.ltrans0.ltrans.o
+                0x0000000000002b64       0x6c /tmp/ccu72HRI.ltrans0.ltrans.o
  .text.UsbBusControllerDriverSupported
-                0x0000000000002bd0      0x1ac /tmp/ccRq12Gd.ltrans0.ltrans.o
+                0x0000000000002bd0      0x1ac /tmp/ccu72HRI.ltrans0.ltrans.o
  .text.DebugPrint
-                0x0000000000002d7c       0xb8 /tmp/ccRq12Gd.ltrans0.ltrans.o
+                0x0000000000002d7c       0xb8 /tmp/ccu72HRI.ltrans0.ltrans.o
  .text.FreePool
-                0x0000000000002e34       0x7c /tmp/ccRq12Gd.ltrans0.ltrans.o
+                0x0000000000002e34       0x7c /tmp/ccu72HRI.ltrans0.ltrans.o
  .text.UsbFreeInterfaceDesc
-                0x0000000000002eb0       0x60 /tmp/ccRq12Gd.ltrans0.ltrans.o
+                0x0000000000002eb0       0x60 /tmp/ccu72HRI.ltrans0.ltrans.o
  .text.UsbFreeConfigDesc
-                0x0000000000002f10       0x88 /tmp/ccRq12Gd.ltrans0.ltrans.o
+                0x0000000000002f10       0x88 /tmp/ccu72HRI.ltrans0.ltrans.o
  .text.UsbRootHubRelease
-                0x0000000000002f98       0x80 /tmp/ccRq12Gd.ltrans0.ltrans.o
+                0x0000000000002f98       0x80 /tmp/ccu72HRI.ltrans0.ltrans.o
  .text.UsbRootHubInit
-                0x0000000000003018      0x180 /tmp/ccRq12Gd.ltrans0.ltrans.o
+                0x0000000000003018      0x180 /tmp/ccu72HRI.ltrans0.ltrans.o
  .text.UsbHubRelease
-                0x0000000000003198       0xa0 /tmp/ccRq12Gd.ltrans0.ltrans.o
- .text.CopyMem  0x0000000000003238       0xb0 /tmp/ccRq12Gd.ltrans0.ltrans.o
+                0x0000000000003198       0xa0 /tmp/ccu72HRI.ltrans0.ltrans.o
+ .text.CopyMem  0x0000000000003238       0xb0 /tmp/ccu72HRI.ltrans0.ltrans.o
  .text.UefiDevicePathLibDuplicateDevicePath
-                0x00000000000032e8       0x98 /tmp/ccRq12Gd.ltrans0.ltrans.o
+                0x00000000000032e8       0x98 /tmp/ccu72HRI.ltrans0.ltrans.o
  .text.SetDevicePathEndNode
-                0x0000000000003380       0x54 /tmp/ccRq12Gd.ltrans0.ltrans.o
+                0x0000000000003380       0x54 /tmp/ccu72HRI.ltrans0.ltrans.o
  .text.InitializeListHead
-                0x00000000000033d4       0x4c /tmp/ccRq12Gd.ltrans0.ltrans.o
+                0x00000000000033d4       0x4c /tmp/ccu72HRI.ltrans0.ltrans.o
  .text.InternalBaseLibIsListValid
-                0x0000000000003420       0xb8 /tmp/ccRq12Gd.ltrans0.ltrans.o
+                0x0000000000003420       0xb8 /tmp/ccu72HRI.ltrans0.ltrans.o
  .text.RemoveEntryList
-                0x00000000000034d8       0x88 /tmp/ccRq12Gd.ltrans0.ltrans.o
+                0x00000000000034d8       0x88 /tmp/ccu72HRI.ltrans0.ltrans.o
  .text.InsertTailList
-                0x0000000000003560       0x6c /tmp/ccRq12Gd.ltrans0.ltrans.o
+                0x0000000000003560       0x6c /tmp/ccu72HRI.ltrans0.ltrans.o
  .text.UsbSelectSetting
-                0x00000000000035cc      0x130 /tmp/ccRq12Gd.ltrans0.ltrans.o
+                0x00000000000035cc      0x130 /tmp/ccu72HRI.ltrans0.ltrans.o
  .text.UsbCtrlRequest
-                0x00000000000036fc      0x124 /tmp/ccRq12Gd.ltrans0.ltrans.o
+                0x00000000000036fc      0x124 /tmp/ccu72HRI.ltrans0.ltrans.o
  .text.UsbCtrlGetDesc
-                0x0000000000003820       0x40 /tmp/ccRq12Gd.ltrans0.ltrans.o
+                0x0000000000003820       0x40 /tmp/ccu72HRI.ltrans0.ltrans.o
  .text.UsbHubClearPortFeature
-                0x0000000000003860       0x44 /tmp/ccRq12Gd.ltrans0.ltrans.o
+                0x0000000000003860       0x44 /tmp/ccu72HRI.ltrans0.ltrans.o
  .text.UsbHubGetPortStatus
-                0x00000000000038a4       0x48 /tmp/ccRq12Gd.ltrans0.ltrans.o
+                0x00000000000038a4       0x48 /tmp/ccu72HRI.ltrans0.ltrans.o
  .text.UsbHubClearPortChange
-                0x00000000000038ec       0xcc /tmp/ccRq12Gd.ltrans0.ltrans.o
+                0x00000000000038ec       0xcc /tmp/ccu72HRI.ltrans0.ltrans.o
  .text.UsbHubCtrlSetPortFeature
-                0x00000000000039b8       0x40 /tmp/ccRq12Gd.ltrans0.ltrans.o
+                0x00000000000039b8       0x40 /tmp/ccu72HRI.ltrans0.ltrans.o
  .text.UsbHubSetPortFeature
-                0x00000000000039f8        0x8 /tmp/ccRq12Gd.ltrans0.ltrans.o
+                0x00000000000039f8        0x8 /tmp/ccu72HRI.ltrans0.ltrans.o
  .text.UsbHubCtrlGetHubDesc
-                0x0000000000003a00       0x4c /tmp/ccRq12Gd.ltrans0.ltrans.o
+                0x0000000000003a00       0x4c /tmp/ccu72HRI.ltrans0.ltrans.o
  .text.UsbHubCtrlClearHubFeature
-                0x0000000000003a4c       0x3c /tmp/ccRq12Gd.ltrans0.ltrans.o
+                0x0000000000003a4c       0x3c /tmp/ccu72HRI.ltrans0.ltrans.o
  .text.UsbHubAckHubStatus
-                0x0000000000003a88       0xa8 /tmp/ccRq12Gd.ltrans0.ltrans.o
+                0x0000000000003a88       0xa8 /tmp/ccu72HRI.ltrans0.ltrans.o
  .text.UsbBusFreeUsbDPList
-                0x0000000000003b30       0xc0 /tmp/ccRq12Gd.ltrans0.ltrans.o
+                0x0000000000003b30       0xc0 /tmp/ccu72HRI.ltrans0.ltrans.o
  .text.UsbHubInit
-                0x0000000000003bf0      0x3e8 /tmp/ccRq12Gd.ltrans0.ltrans.o
+                0x0000000000003bf0      0x3e8 /tmp/ccu72HRI.ltrans0.ltrans.o
  .text.UsbIoPortReset
-                0x0000000000003fd8      0x228 /tmp/ccRq12Gd.ltrans0.ltrans.o
+                0x0000000000003fd8      0x228 /tmp/ccu72HRI.ltrans0.ltrans.o
  .text.UsbIoGetSupportedLanguages
-                0x0000000000004200       0xb8 /tmp/ccRq12Gd.ltrans0.ltrans.o
+                0x0000000000004200       0xb8 /tmp/ccu72HRI.ltrans0.ltrans.o
  .text.UsbIoGetEndpointDescriptor
-                0x00000000000042b8      0x108 /tmp/ccRq12Gd.ltrans0.ltrans.o
+                0x00000000000042b8      0x108 /tmp/ccu72HRI.ltrans0.ltrans.o
  .text.UsbIoGetInterfaceDescriptor
-                0x00000000000043c0       0xb4 /tmp/ccRq12Gd.ltrans0.ltrans.o
+                0x00000000000043c0       0xb4 /tmp/ccu72HRI.ltrans0.ltrans.o
  .text.UsbIoGetActiveConfigDescriptor
-                0x0000000000004474       0xcc /tmp/ccRq12Gd.ltrans0.ltrans.o
+                0x0000000000004474       0xcc /tmp/ccu72HRI.ltrans0.ltrans.o
  .text.UsbIoGetDeviceDescriptor
-                0x0000000000004540       0xb8 /tmp/ccRq12Gd.ltrans0.ltrans.o
+                0x0000000000004540       0xb8 /tmp/ccu72HRI.ltrans0.ltrans.o
  .text.UsbIoAsyncInterruptTransfer
-                0x00000000000045f8      0x1c8 /tmp/ccRq12Gd.ltrans0.ltrans.o
+                0x00000000000045f8      0x1c8 /tmp/ccu72HRI.ltrans0.ltrans.o
  .text.UsbIoSyncInterruptTransfer
-                0x00000000000047c0      0x1c8 /tmp/ccRq12Gd.ltrans0.ltrans.o
+                0x00000000000047c0      0x1c8 /tmp/ccu72HRI.ltrans0.ltrans.o
  .text.UsbIoBulkTransfer
-                0x0000000000004988      0x244 /tmp/ccRq12Gd.ltrans0.ltrans.o
+                0x0000000000004988      0x244 /tmp/ccu72HRI.ltrans0.ltrans.o
  .text.CompareMem
-                0x0000000000004bcc       0xe4 /tmp/ccRq12Gd.ltrans0.ltrans.o
+                0x0000000000004bcc       0xe4 /tmp/ccu72HRI.ltrans0.ltrans.o
  .text.SearchUsbDPInList.part.10
-                0x0000000000004cb0       0xf4 /tmp/ccRq12Gd.ltrans0.ltrans.o
- .text.ZeroMem  0x0000000000004da4       0x7c /tmp/ccRq12Gd.ltrans0.ltrans.o
+                0x0000000000004cb0       0xf4 /tmp/ccu72HRI.ltrans0.ltrans.o
+ .text.ZeroMem  0x0000000000004da4       0x7c /tmp/ccu72HRI.ltrans0.ltrans.o
  .text.AllocateZeroPool
-                0x0000000000004e20       0x34 /tmp/ccRq12Gd.ltrans0.ltrans.o
+                0x0000000000004e20       0x34 /tmp/ccu72HRI.ltrans0.ltrans.o
  .text.UsbGetOneString
-                0x0000000000004e54       0xcc /tmp/ccRq12Gd.ltrans0.ltrans.o
+                0x0000000000004e54       0xcc /tmp/ccu72HRI.ltrans0.ltrans.o
  .text.UsbCreateDesc
-                0x0000000000004f20      0x228 /tmp/ccRq12Gd.ltrans0.ltrans.o
+                0x0000000000004f20      0x228 /tmp/ccu72HRI.ltrans0.ltrans.o
  .text.GetUsbDPFromFullDP
-                0x0000000000005148      0x11c /tmp/ccRq12Gd.ltrans0.ltrans.o
+                0x0000000000005148      0x11c /tmp/ccu72HRI.ltrans0.ltrans.o
  .text.UsbBusIsWantedUsbIO
-                0x0000000000005264      0x448 /tmp/ccRq12Gd.ltrans0.ltrans.o
+                0x0000000000005264      0x448 /tmp/ccu72HRI.ltrans0.ltrans.o
  .text.UsbConnectDriver
-                0x00000000000056ac      0x19c /tmp/ccRq12Gd.ltrans0.ltrans.o
+                0x00000000000056ac      0x19c /tmp/ccu72HRI.ltrans0.ltrans.o
  .text.UsbRemoveConfig
-                0x0000000000005848      0x268 /tmp/ccRq12Gd.ltrans0.ltrans.o
+                0x0000000000005848      0x268 /tmp/ccu72HRI.ltrans0.ltrans.o
  .text.UsbRemoveDevice
-                0x0000000000005ab0      0x1d0 /tmp/ccRq12Gd.ltrans0.ltrans.o
+                0x0000000000005ab0      0x1d0 /tmp/ccu72HRI.ltrans0.ltrans.o
  .text.UsbBusControllerDriverStop
-                0x0000000000005c80      0x384 /tmp/ccRq12Gd.ltrans0.ltrans.o
+                0x0000000000005c80      0x384 /tmp/ccu72HRI.ltrans0.ltrans.o
  .text.UsbSelectConfig
-                0x0000000000006004      0x468 /tmp/ccRq12Gd.ltrans0.ltrans.o
+                0x0000000000006004      0x468 /tmp/ccu72HRI.ltrans0.ltrans.o
  .text.UsbEnumerateNewDev
-                0x000000000000646c      0xb64 /tmp/ccRq12Gd.ltrans0.ltrans.o
+                0x000000000000646c      0xb64 /tmp/ccu72HRI.ltrans0.ltrans.o
  .text.UsbEnumeratePort
-                0x0000000000006fd0      0x2a8 /tmp/ccRq12Gd.ltrans0.ltrans.o
+                0x0000000000006fd0      0x2a8 /tmp/ccu72HRI.ltrans0.ltrans.o
  .text.UsbRootHubEnumeration
-                0x0000000000007278       0xac /tmp/ccRq12Gd.ltrans0.ltrans.o
+                0x0000000000007278       0xac /tmp/ccu72HRI.ltrans0.ltrans.o
  .text.UsbHubEnumeration
-                0x0000000000007324      0x164 /tmp/ccRq12Gd.ltrans0.ltrans.o
+                0x0000000000007324      0x164 /tmp/ccu72HRI.ltrans0.ltrans.o
  .text.UsbIoControlTransfer
-                0x0000000000007488      0x2e0 /tmp/ccRq12Gd.ltrans0.ltrans.o
+                0x0000000000007488      0x2e0 /tmp/ccu72HRI.ltrans0.ltrans.o
  .text.UsbBusAddWantedUsbIoDP
-                0x0000000000007768      0x1dc /tmp/ccRq12Gd.ltrans0.ltrans.o
+                0x0000000000007768      0x1dc /tmp/ccu72HRI.ltrans0.ltrans.o
  .text.UsbOnHubInterrupt
-                0x0000000000007944      0x1c0 /tmp/ccRq12Gd.ltrans0.ltrans.o
+                0x0000000000007944      0x1c0 /tmp/ccu72HRI.ltrans0.ltrans.o
  .text.UsbBusControllerDriverStart
-                0x0000000000007b04      0x790 /tmp/ccRq12Gd.ltrans0.ltrans.o
+                0x0000000000007b04      0x790 /tmp/ccu72HRI.ltrans0.ltrans.o
  .text.UsbIoGetStringDescriptor
-                0x0000000000008294      0x1bc /tmp/ccRq12Gd.ltrans0.ltrans.o
+                0x0000000000008294      0x1bc /tmp/ccu72HRI.ltrans0.ltrans.o
  .text.UsbRootHubResetPort
-                0x0000000000008450      0x258 /tmp/ccRq12Gd.ltrans0.ltrans.o
+                0x0000000000008450      0x258 /tmp/ccu72HRI.ltrans0.ltrans.o
  .text.UsbHubResetPort
-                0x00000000000086a8       0xdc /tmp/ccRq12Gd.ltrans0.ltrans.o
+                0x00000000000086a8       0xdc /tmp/ccu72HRI.ltrans0.ltrans.o
  .text.__stack_chk_fail
-                0x0000000000008784       0x34 /tmp/ccRq12Gd.ltrans0.ltrans.o
+                0x0000000000008784       0x34 /tmp/ccu72HRI.ltrans0.ltrans.o
                 0x0000000000008784                __stack_chk_fail
  .text._ModuleEntryPoint
-                0x00000000000087b8      0x2ac /tmp/ccRq12Gd.ltrans0.ltrans.o
+                0x00000000000087b8      0x2ac /tmp/ccu72HRI.ltrans0.ltrans.o
                 0x00000000000087b8                _ModuleEntryPoint
- .text.memcpy   0x0000000000008a64       0x20 /tmp/ccRq12Gd.ltrans0.ltrans.o
+ .text.memcpy   0x0000000000008a64       0x20 /tmp/ccu72HRI.ltrans0.ltrans.o
                 0x0000000000008a64                memcpy
  *fill*         0x0000000000008a84        0xc 
  .text          0x0000000000008a90      0x200 /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(SetMem.obj)
@@ -622,106 +622,106 @@ END GROUP
                 0x0000000000008ff8                ArmDataSynchronizationBarrier
  *(.rodata .rodata.* .gnu.linkonce.r.*)
  .rodata.AsciiStrLen.str1.1
-                0x0000000000009000       0x8e /tmp/ccRq12Gd.ltrans0.ltrans.o
+                0x0000000000009000       0x8e /tmp/ccu72HRI.ltrans0.ltrans.o
  .rodata.BasePrintLibSPrintMarker.constprop.27.str1.1
-                0x000000000000908e      0x17e /tmp/ccRq12Gd.ltrans0.ltrans.o
+                0x000000000000908e      0x17e /tmp/ccu72HRI.ltrans0.ltrans.o
  .rodata.CompareGuid.constprop.21.str1.1
-                0x000000000000920c       0x69 /tmp/ccRq12Gd.ltrans0.ltrans.o
+                0x000000000000920c       0x69 /tmp/ccu72HRI.ltrans0.ltrans.o
  .rodata.CompareMem.str1.1
-                0x0000000000009275       0x95 /tmp/ccRq12Gd.ltrans0.ltrans.o
+                0x0000000000009275       0x95 /tmp/ccu72HRI.ltrans0.ltrans.o
  .rodata.CopyMem.str1.1
-                0x000000000000930a       0xd4 /tmp/ccRq12Gd.ltrans0.ltrans.o
+                0x000000000000930a       0xd4 /tmp/ccu72HRI.ltrans0.ltrans.o
  .rodata.DebugAssert.str1.1
-                0x00000000000093de       0x22 /tmp/ccRq12Gd.ltrans0.ltrans.o
+                0x00000000000093de       0x22 /tmp/ccu72HRI.ltrans0.ltrans.o
  .rodata.DevicePathNodeLength.str1.1
-                0x0000000000009400       0x6b /tmp/ccRq12Gd.ltrans0.ltrans.o
+                0x0000000000009400       0x6b /tmp/ccu72HRI.ltrans0.ltrans.o
  .rodata.FreePool.str1.1
-                0x000000000000946b       0x91 /tmp/ccRq12Gd.ltrans0.ltrans.o
+                0x000000000000946b       0x91 /tmp/ccu72HRI.ltrans0.ltrans.o
  .rodata.GetUsbDPFromFullDP.str1.1
-                0x00000000000094fc       0x21 /tmp/ccRq12Gd.ltrans0.ltrans.o
+                0x00000000000094fc       0x21 /tmp/ccu72HRI.ltrans0.ltrans.o
  .rodata.InitializeListHead.str1.1
-                0x000000000000951d       0x5c /tmp/ccRq12Gd.ltrans0.ltrans.o
+                0x000000000000951d       0x5c /tmp/ccu72HRI.ltrans0.ltrans.o
  .rodata.InternalBaseLibIsListValid.str1.1
-                0x0000000000009579       0x41 /tmp/ccRq12Gd.ltrans0.ltrans.o
+                0x0000000000009579       0x41 /tmp/ccu72HRI.ltrans0.ltrans.o
                                          0x56 (松开之前的大小)
  .rodata.RemoveEntryList.str1.1
-                0x00000000000095ba       0x3b /tmp/ccRq12Gd.ltrans0.ltrans.o
+                0x00000000000095ba       0x3b /tmp/ccu72HRI.ltrans0.ltrans.o
  .rodata.SearchUsbDPInList.part.10.str1.1
-                0x00000000000095f5       0x25 /tmp/ccRq12Gd.ltrans0.ltrans.o
+                0x00000000000095f5       0x25 /tmp/ccu72HRI.ltrans0.ltrans.o
  .rodata.UefiDevicePathLibDuplicateDevicePath.str1.1
-                0x000000000000961a       0x3f /tmp/ccRq12Gd.ltrans0.ltrans.o
+                0x000000000000961a       0x3f /tmp/ccu72HRI.ltrans0.ltrans.o
  .rodata.UsbBusAddWantedUsbIoDP.str1.1
-                0x0000000000009659       0x19 /tmp/ccRq12Gd.ltrans0.ltrans.o
+                0x0000000000009659       0x19 /tmp/ccu72HRI.ltrans0.ltrans.o
  .rodata.UsbBusControllerDriverStart.str1.1
-                0x0000000000009672      0x1ad /tmp/ccRq12Gd.ltrans0.ltrans.o
+                0x0000000000009672      0x1ad /tmp/ccu72HRI.ltrans0.ltrans.o
  .rodata.UsbBusControllerDriverStop.str1.1
-                0x000000000000981f       0x61 /tmp/ccRq12Gd.ltrans0.ltrans.o
+                0x000000000000981f       0x61 /tmp/ccu72HRI.ltrans0.ltrans.o
  .rodata.UsbBusFreeUsbDPList.str1.1
-                0x0000000000009880       0x60 /tmp/ccRq12Gd.ltrans0.ltrans.o
+                0x0000000000009880       0x60 /tmp/ccu72HRI.ltrans0.ltrans.o
  .rodata.UsbBusIsWantedUsbIO.str1.1
-                0x00000000000098e0       0x2b /tmp/ccRq12Gd.ltrans0.ltrans.o
+                0x00000000000098e0       0x2b /tmp/ccu72HRI.ltrans0.ltrans.o
                                          0x63 (松开之前的大小)
  .rodata.UsbConnectDriver.str1.1
-                0x000000000000990b       0x9a /tmp/ccRq12Gd.ltrans0.ltrans.o
+                0x000000000000990b       0x9a /tmp/ccu72HRI.ltrans0.ltrans.o
  .rodata.UsbCreateDesc.str1.1
-                0x00000000000099a5      0x145 /tmp/ccRq12Gd.ltrans0.ltrans.o
+                0x00000000000099a5      0x145 /tmp/ccu72HRI.ltrans0.ltrans.o
  .rodata.UsbCtrlRequest.str1.1
-                0x0000000000009aea       0x82 /tmp/ccRq12Gd.ltrans0.ltrans.o
+                0x0000000000009aea       0x82 /tmp/ccu72HRI.ltrans0.ltrans.o
  .rodata.UsbEnumerateNewDev.str1.1
-                0x0000000000009b6c      0x647 /tmp/ccRq12Gd.ltrans0.ltrans.o
+                0x0000000000009b6c      0x647 /tmp/ccu72HRI.ltrans0.ltrans.o
  .rodata.UsbEnumeratePort.str1.1
-                0x000000000000a1b3      0x1df /tmp/ccRq12Gd.ltrans0.ltrans.o
+                0x000000000000a1b3      0x1df /tmp/ccu72HRI.ltrans0.ltrans.o
  .rodata.UsbHubEnumeration.str1.1
-                0x000000000000a392       0x69 /tmp/ccRq12Gd.ltrans0.ltrans.o
+                0x000000000000a392       0x69 /tmp/ccu72HRI.ltrans0.ltrans.o
  .rodata.UsbHubInit.str1.1
-                0x000000000000a3fb      0x1d6 /tmp/ccRq12Gd.ltrans0.ltrans.o
+                0x000000000000a3fb      0x1d6 /tmp/ccu72HRI.ltrans0.ltrans.o
  .rodata.UsbHubRelease.str1.1
-                0x000000000000a5d1       0x27 /tmp/ccRq12Gd.ltrans0.ltrans.o
+                0x000000000000a5d1       0x27 /tmp/ccu72HRI.ltrans0.ltrans.o
  .rodata.UsbIoBulkTransfer.str1.1
-                0x000000000000a5f8       0x3c /tmp/ccRq12Gd.ltrans0.ltrans.o
+                0x000000000000a5f8       0x3c /tmp/ccu72HRI.ltrans0.ltrans.o
  .rodata.UsbIoControlTransfer.str1.1
-                0x000000000000a634       0x65 /tmp/ccRq12Gd.ltrans0.ltrans.o
+                0x000000000000a634       0x65 /tmp/ccu72HRI.ltrans0.ltrans.o
  .rodata.UsbIoPortReset.str1.1
-                0x000000000000a699      0x126 /tmp/ccRq12Gd.ltrans0.ltrans.o
+                0x000000000000a699      0x126 /tmp/ccu72HRI.ltrans0.ltrans.o
  .rodata.UsbOnHubInterrupt.str1.1
-                0x000000000000a7bf       0x76 /tmp/ccRq12Gd.ltrans0.ltrans.o
+                0x000000000000a7bf       0x76 /tmp/ccu72HRI.ltrans0.ltrans.o
  .rodata.UsbRemoveConfig.str1.1
-                0x000000000000a835       0x68 /tmp/ccRq12Gd.ltrans0.ltrans.o
+                0x000000000000a835       0x68 /tmp/ccu72HRI.ltrans0.ltrans.o
  .rodata.UsbRemoveDevice.str1.1
-                0x000000000000a89d       0x7f /tmp/ccRq12Gd.ltrans0.ltrans.o
+                0x000000000000a89d       0x7f /tmp/ccu72HRI.ltrans0.ltrans.o
  .rodata.UsbRootHubEnumeration.str1.1
-                0x000000000000a91c       0x56 /tmp/ccRq12Gd.ltrans0.ltrans.o
+                0x000000000000a91c       0x56 /tmp/ccu72HRI.ltrans0.ltrans.o
  .rodata.UsbRootHubInit.str1.1
-                0x000000000000a972       0x36 /tmp/ccRq12Gd.ltrans0.ltrans.o
+                0x000000000000a972       0x36 /tmp/ccu72HRI.ltrans0.ltrans.o
  .rodata.UsbRootHubRelease.str1.1
-                0x000000000000a9a8       0x31 /tmp/ccRq12Gd.ltrans0.ltrans.o
+                0x000000000000a9a8       0x31 /tmp/ccu72HRI.ltrans0.ltrans.o
  .rodata.UsbRootHubResetPort.str1.1
-                0x000000000000a9d9      0x123 /tmp/ccRq12Gd.ltrans0.ltrans.o
+                0x000000000000a9d9      0x123 /tmp/ccu72HRI.ltrans0.ltrans.o
  .rodata.UsbSelectConfig.str1.1
-                0x000000000000aafc      0x11c /tmp/ccRq12Gd.ltrans0.ltrans.o
+                0x000000000000aafc      0x11c /tmp/ccu72HRI.ltrans0.ltrans.o
  .rodata.UsbSelectSetting.str1.1
-                0x000000000000ac18       0x9a /tmp/ccRq12Gd.ltrans0.ltrans.o
+                0x000000000000ac18       0x9a /tmp/ccu72HRI.ltrans0.ltrans.o
                                          0xa6 (松开之前的大小)
  .rodata.WriteUnaligned16.str1.1
-                0x000000000000acb2       0x46 /tmp/ccRq12Gd.ltrans0.ltrans.o
+                0x000000000000acb2       0x46 /tmp/ccu72HRI.ltrans0.ltrans.o
                                          0x5d (松开之前的大小)
  .rodata.ZeroMem.str1.1
-                0x000000000000acf8       0x89 /tmp/ccRq12Gd.ltrans0.ltrans.o
+                0x000000000000acf8       0x89 /tmp/ccu72HRI.ltrans0.ltrans.o
  .rodata._ModuleEntryPoint.str1.1
-                0x000000000000ad81      0x26f /tmp/ccRq12Gd.ltrans0.ltrans.o
+                0x000000000000ad81      0x26f /tmp/ccu72HRI.ltrans0.ltrans.o
  .rodata.__stack_chk_fail.str1.1
-                0x000000000000aff0       0x2e /tmp/ccRq12Gd.ltrans0.ltrans.o
+                0x000000000000aff0       0x2e /tmp/ccu72HRI.ltrans0.ltrans.o
  .rodata.mHexStr
-                0x000000000000b01e       0x10 /tmp/ccRq12Gd.ltrans0.ltrans.o
+                0x000000000000b01e       0x10 /tmp/ccu72HRI.ltrans0.ltrans.o
  *fill*         0x000000000000b02e        0x2 
  .rodata.mRootHubFeatureMap
-                0x000000000000b030       0x28 /tmp/ccRq12Gd.ltrans0.ltrans.o
+                0x000000000000b030       0x28 /tmp/ccu72HRI.ltrans0.ltrans.o
  .rodata.mStatusString
-                0x000000000000b058      0x138 /tmp/ccRq12Gd.ltrans0.ltrans.o
+                0x000000000000b058      0x138 /tmp/ccu72HRI.ltrans0.ltrans.o
  .rodata.mUefiDevicePathLibEndDevicePath
-                0x000000000000b190        0x4 /tmp/ccRq12Gd.ltrans0.ltrans.o
+                0x000000000000b190        0x4 /tmp/ccu72HRI.ltrans0.ltrans.o
  .rodata.str1.1
-                0x000000000000b194      0x22f /tmp/ccRq12Gd.ltrans0.ltrans.o
+                0x000000000000b194      0x22f /tmp/ccu72HRI.ltrans0.ltrans.o
                                         0x240 (松开之前的大小)
  *(.got .got.*)
  *fill*         0x000000000000b3c3        0x5 
@@ -737,50 +737,50 @@ END GROUP
  *(.data .data.* .gnu.linkonce.d.*)
  .data.rel.ro   0x000000000000c000        0x0 /home/evsio0n/src/edk2sdm/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
  .data.__stack_chk_guard
-                0x000000000000c000        0x8 /tmp/ccRq12Gd.ltrans0.ltrans.o
+                0x000000000000c000        0x8 /tmp/ccu72HRI.ltrans0.ltrans.o
                 0x000000000000c000                __stack_chk_guard
  .data.font5x12
-                0x000000000000c008      0x300 /tmp/ccRq12Gd.ltrans0.ltrans.o
+                0x000000000000c008      0x300 /tmp/ccu72HRI.ltrans0.ltrans.o
  .data.gEfiCallerIdGuid
-                0x000000000000c308       0x10 /tmp/ccRq12Gd.ltrans0.ltrans.o
+                0x000000000000c308       0x10 /tmp/ccu72HRI.ltrans0.ltrans.o
  .data.gEfiDevicePathProtocolGuid
-                0x000000000000c318       0x10 /tmp/ccRq12Gd.ltrans0.ltrans.o
+                0x000000000000c318       0x10 /tmp/ccu72HRI.ltrans0.ltrans.o
  .data.gEfiDriverBindingProtocolGuid
-                0x000000000000c328       0x10 /tmp/ccRq12Gd.ltrans0.ltrans.o
+                0x000000000000c328       0x10 /tmp/ccu72HRI.ltrans0.ltrans.o
  .data.gEfiHobListGuid
-                0x000000000000c338       0x10 /tmp/ccRq12Gd.ltrans0.ltrans.o
+                0x000000000000c338       0x10 /tmp/ccu72HRI.ltrans0.ltrans.o
  .data.gEfiUsb2HcProtocolGuid
-                0x000000000000c348       0x10 /tmp/ccRq12Gd.ltrans0.ltrans.o
+                0x000000000000c348       0x10 /tmp/ccu72HRI.ltrans0.ltrans.o
  .data.gEfiUsbHcProtocolGuid
-                0x000000000000c358       0x10 /tmp/ccRq12Gd.ltrans0.ltrans.o
+                0x000000000000c358       0x10 /tmp/ccu72HRI.ltrans0.ltrans.o
  .data.gEfiUsbIoProtocolGuid
-                0x000000000000c368       0x10 /tmp/ccRq12Gd.ltrans0.ltrans.o
+                0x000000000000c368       0x10 /tmp/ccu72HRI.ltrans0.ltrans.o
  .data.mAllUsbClassDevicePath
-                0x000000000000c378        0xf /tmp/ccRq12Gd.ltrans0.ltrans.o
+                0x000000000000c378        0xf /tmp/ccu72HRI.ltrans0.ltrans.o
  *fill*         0x000000000000c387        0x1 
  .data.mUsbBusDriverBinding
-                0x000000000000c388       0x30 /tmp/ccRq12Gd.ltrans0.ltrans.o
+                0x000000000000c388       0x30 /tmp/ccu72HRI.ltrans0.ltrans.o
  .data.mUsbHubApi
-                0x000000000000c3b8       0x38 /tmp/ccRq12Gd.ltrans0.ltrans.o
+                0x000000000000c3b8       0x38 /tmp/ccu72HRI.ltrans0.ltrans.o
  .data.mUsbIoProtocol
-                0x000000000000c3f0       0x68 /tmp/ccRq12Gd.ltrans0.ltrans.o
+                0x000000000000c3f0       0x68 /tmp/ccu72HRI.ltrans0.ltrans.o
  .data.mUsbRootHubApi
-                0x000000000000c458       0x38 /tmp/ccRq12Gd.ltrans0.ltrans.o
+                0x000000000000c458       0x38 /tmp/ccu72HRI.ltrans0.ltrans.o
  *(.bss .bss.*)
- .bss.gBS       0x000000000000c490        0x8 /tmp/ccRq12Gd.ltrans0.ltrans.o
+ .bss.gBS       0x000000000000c490        0x8 /tmp/ccu72HRI.ltrans0.ltrans.o
  .bss.gImageHandle
-                0x000000000000c498        0x8 /tmp/ccRq12Gd.ltrans0.ltrans.o
- .bss.gRT       0x000000000000c4a0        0x8 /tmp/ccRq12Gd.ltrans0.ltrans.o
- .bss.gST       0x000000000000c4a8        0x8 /tmp/ccRq12Gd.ltrans0.ltrans.o
- .bss.mHobList  0x000000000000c4b0        0x8 /tmp/ccRq12Gd.ltrans0.ltrans.o
- .bss.m_Color   0x000000000000c4b8       0x10 /tmp/ccRq12Gd.ltrans0.ltrans.o
+                0x000000000000c498        0x8 /tmp/ccu72HRI.ltrans0.ltrans.o
+ .bss.gRT       0x000000000000c4a0        0x8 /tmp/ccu72HRI.ltrans0.ltrans.o
+ .bss.gST       0x000000000000c4a8        0x8 /tmp/ccu72HRI.ltrans0.ltrans.o
+ .bss.mHobList  0x000000000000c4b0        0x8 /tmp/ccu72HRI.ltrans0.ltrans.o
+ .bss.m_Color   0x000000000000c4b8       0x10 /tmp/ccu72HRI.ltrans0.ltrans.o
  .bss.m_Initialized
-                0x000000000000c4c8        0x1 /tmp/ccRq12Gd.ltrans0.ltrans.o
+                0x000000000000c4c8        0x1 /tmp/ccu72HRI.ltrans0.ltrans.o
  *fill*         0x000000000000c4c9        0x7 
  .bss.m_MaxPosition
-                0x000000000000c4d0       0x10 /tmp/ccRq12Gd.ltrans0.ltrans.o
+                0x000000000000c4d0       0x10 /tmp/ccu72HRI.ltrans0.ltrans.o
  .bss.m_Position
-                0x000000000000c4e0       0x10 /tmp/ccRq12Gd.ltrans0.ltrans.o
+                0x000000000000c4e0       0x10 /tmp/ccu72HRI.ltrans0.ltrans.o
 
 .dynbss         0x000000000000c4f0        0x0
  .dynbss        0x000000000000c4f0        0x0 /home/evsio0n/src/edk2sdm/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
@@ -829,27 +829,27 @@ END GROUP
 OUTPUT(/home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/MdeModulePkg/Bus/Usb/UsbBusDxe/UsbBusDxe/DEBUG/UsbBusDxe.dll elf64-littleaarch64)
 
 .debug_info     0x0000000000000000    0x11e27
- .debug_info    0x0000000000000000    0x11e27 /tmp/ccRq12Gd.ltrans0.ltrans.o
+ .debug_info    0x0000000000000000    0x11e27 /tmp/ccu72HRI.ltrans0.ltrans.o
 
 .debug_abbrev   0x0000000000000000      0x742
- .debug_abbrev  0x0000000000000000      0x742 /tmp/ccRq12Gd.ltrans0.ltrans.o
+ .debug_abbrev  0x0000000000000000      0x742 /tmp/ccu72HRI.ltrans0.ltrans.o
 
 .debug_loc      0x0000000000000000    0x10bec
- .debug_loc     0x0000000000000000    0x10bec /tmp/ccRq12Gd.ltrans0.ltrans.o
+ .debug_loc     0x0000000000000000    0x10bec /tmp/ccu72HRI.ltrans0.ltrans.o
 
 .debug_aranges  0x0000000000000000      0x750
  .debug_aranges
-                0x0000000000000000      0x750 /tmp/ccRq12Gd.ltrans0.ltrans.o
+                0x0000000000000000      0x750 /tmp/ccu72HRI.ltrans0.ltrans.o
 
 .debug_ranges   0x0000000000000000     0x18f0
- .debug_ranges  0x0000000000000000     0x18f0 /tmp/ccRq12Gd.ltrans0.ltrans.o
+ .debug_ranges  0x0000000000000000     0x18f0 /tmp/ccu72HRI.ltrans0.ltrans.o
 
 .debug_line     0x0000000000000000     0x29cc
- .debug_line    0x0000000000000000     0x29cc /tmp/ccRq12Gd.ltrans0.ltrans.o
+ .debug_line    0x0000000000000000     0x29cc /tmp/ccu72HRI.ltrans0.ltrans.o
 
 .debug_str      0x0000000000000000     0x4afd
- .debug_str     0x0000000000000000     0x4afd /tmp/ccRq12Gd.ltrans0.ltrans.o
+ .debug_str     0x0000000000000000     0x4afd /tmp/ccu72HRI.ltrans0.ltrans.o
                                        0x52fd (松开之前的大小)
 
 .debug_frame    0x0000000000000000     0x1848
- .debug_frame   0x0000000000000000     0x1848 /tmp/ccRq12Gd.ltrans0.ltrans.o
+ .debug_frame   0x0000000000000000     0x1848 /tmp/ccu72HRI.ltrans0.ltrans.o

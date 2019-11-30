@@ -126,16 +126,16 @@
  .text          0x0000000000000000       0x10 /home/evsio0n/src/edk2sdm/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
  .data          0x0000000000000000        0x0 /home/evsio0n/src/edk2sdm/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
  .bss           0x0000000000000000        0x0 /home/evsio0n/src/edk2sdm/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
- .text          0x0000000000000000        0x0 /tmp/cc5ncOKz.ltrans0.ltrans.o
- .data          0x0000000000000000        0x0 /tmp/cc5ncOKz.ltrans0.ltrans.o
- .bss           0x0000000000000000        0x0 /tmp/cc5ncOKz.ltrans0.ltrans.o
+ .text          0x0000000000000000        0x0 /tmp/ccFmEsNR.ltrans0.ltrans.o
+ .data          0x0000000000000000        0x0 /tmp/ccFmEsNR.ltrans0.ltrans.o
+ .bss           0x0000000000000000        0x0 /tmp/ccFmEsNR.ltrans0.ltrans.o
  .text._DriverUnloadHandler
-                0x0000000000000000        0x8 /tmp/cc5ncOKz.ltrans0.ltrans.o
+                0x0000000000000000        0x8 /tmp/ccFmEsNR.ltrans0.ltrans.o
  .text.__memset
-                0x0000000000000000       0x1c /tmp/cc5ncOKz.ltrans0.ltrans.o
- .comment       0x0000000000000000       0x33 /tmp/cc5ncOKz.ltrans0.ltrans.o
+                0x0000000000000000       0x1c /tmp/ccFmEsNR.ltrans0.ltrans.o
+ .comment       0x0000000000000000       0x33 /tmp/ccFmEsNR.ltrans0.ltrans.o
  .note.GNU-stack
-                0x0000000000000000        0x0 /tmp/cc5ncOKz.ltrans0.ltrans.o
+                0x0000000000000000        0x0 /tmp/ccFmEsNR.ltrans0.ltrans.o
  .text          0x0000000000000000        0x8 /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(CpuBreakpoint.obj)
  .data          0x0000000000000000        0x0 /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(CpuBreakpoint.obj)
  .bss           0x0000000000000000        0x0 /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(CpuBreakpoint.obj)
@@ -311,7 +311,7 @@
 链结器命令稿和内存映射
 
 LOAD /home/evsio0n/src/edk2sdm/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
-LOAD /tmp/cc5ncOKz.ltrans0.ltrans.o
+LOAD /tmp/ccFmEsNR.ltrans0.ltrans.o
 START GROUP
 LOAD /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/DxePcdLib/DxePcdLib/OUTPUT/DxePcdLib.lib
 LOAD /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib
@@ -359,235 +359,235 @@ END GROUP
 .text           0x0000000000001000     0x9988
  *(.text .text.* .stub .gnu.linkonce.t.*)
  .text.InternalAllocatePool.constprop.28
-                0x0000000000001000       0x6c /tmp/cc5ncOKz.ltrans0.ltrans.o
+                0x0000000000001000       0x6c /tmp/ccFmEsNR.ltrans0.ltrans.o
  .text.DevicePathFromHandle
-                0x000000000000106c       0x6c /tmp/cc5ncOKz.ltrans0.ltrans.o
+                0x000000000000106c       0x6c /tmp/ccFmEsNR.ltrans0.ltrans.o
  .text.DebugPrintLevelEnabled
-                0x00000000000010d8        0x8 /tmp/cc5ncOKz.ltrans0.ltrans.o
+                0x00000000000010d8        0x8 /tmp/ccFmEsNR.ltrans0.ltrans.o
  .text.DebugPrintEnabled
-                0x00000000000010e0        0x8 /tmp/cc5ncOKz.ltrans0.ltrans.o
+                0x00000000000010e0        0x8 /tmp/ccFmEsNR.ltrans0.ltrans.o
  .text.DebugAssertEnabled
-                0x00000000000010e8        0x8 /tmp/cc5ncOKz.ltrans0.ltrans.o
+                0x00000000000010e8        0x8 /tmp/ccFmEsNR.ltrans0.ltrans.o
  .text.BasePrintLibFillBuffer
-                0x00000000000010f0       0x34 /tmp/cc5ncOKz.ltrans0.ltrans.o
+                0x00000000000010f0       0x34 /tmp/ccFmEsNR.ltrans0.ltrans.o
  .text.AsciiStrnLenS
-                0x0000000000001124       0x3c /tmp/cc5ncOKz.ltrans0.ltrans.o
+                0x0000000000001124       0x3c /tmp/ccFmEsNR.ltrans0.ltrans.o
  .text.DriverHealthManagerFakeRouteConfig
-                0x0000000000001160       0x24 /tmp/cc5ncOKz.ltrans0.ltrans.o
+                0x0000000000001160       0x24 /tmp/ccFmEsNR.ltrans0.ltrans.o
  .text.DriverHealthManagerFakeExtractConfig
-                0x0000000000001184       0x24 /tmp/cc5ncOKz.ltrans0.ltrans.o
+                0x0000000000001184       0x24 /tmp/ccFmEsNR.ltrans0.ltrans.o
  .text.LShiftU64.constprop.0
-                0x00000000000011a8        0x8 /tmp/cc5ncOKz.ltrans0.ltrans.o
+                0x00000000000011a8        0x8 /tmp/ccFmEsNR.ltrans0.ltrans.o
  .text.BaseDebugLibSerialPortConstructor
-                0x00000000000011b0       0x84 /tmp/cc5ncOKz.ltrans0.ltrans.o
+                0x00000000000011b0       0x84 /tmp/ccFmEsNR.ltrans0.ltrans.o
  .text.FbConFlush
-                0x0000000000001234       0x54 /tmp/cc5ncOKz.ltrans0.ltrans.o
+                0x0000000000001234       0x54 /tmp/ccFmEsNR.ltrans0.ltrans.o
  .text.SerialPortWrite
-                0x0000000000001288      0x418 /tmp/cc5ncOKz.ltrans0.ltrans.o
+                0x0000000000001288      0x418 /tmp/ccFmEsNR.ltrans0.ltrans.o
  .text.DebugAssert
-                0x00000000000016a0       0x7c /tmp/cc5ncOKz.ltrans0.ltrans.o
+                0x00000000000016a0       0x7c /tmp/ccFmEsNR.ltrans0.ltrans.o
  .text.CompareMem
-                0x000000000000171c       0xe4 /tmp/cc5ncOKz.ltrans0.ltrans.o
+                0x000000000000171c       0xe4 /tmp/ccFmEsNR.ltrans0.ltrans.o
  .text.DevicePathSubType
-                0x0000000000001800       0x48 /tmp/cc5ncOKz.ltrans0.ltrans.o
+                0x0000000000001800       0x48 /tmp/ccFmEsNR.ltrans0.ltrans.o
  .text.DevicePathType
-                0x0000000000001848       0x48 /tmp/cc5ncOKz.ltrans0.ltrans.o
+                0x0000000000001848       0x48 /tmp/ccFmEsNR.ltrans0.ltrans.o
  .text.StrnLenS
-                0x0000000000001890       0x7c /tmp/cc5ncOKz.ltrans0.ltrans.o
+                0x0000000000001890       0x7c /tmp/ccFmEsNR.ltrans0.ltrans.o
  .text.WriteUnaligned16
-                0x000000000000190c       0x5c /tmp/cc5ncOKz.ltrans0.ltrans.o
+                0x000000000000190c       0x5c /tmp/ccFmEsNR.ltrans0.ltrans.o
  .text.WriteUnaligned32
-                0x0000000000001968       0x34 /tmp/cc5ncOKz.ltrans0.ltrans.o
+                0x0000000000001968       0x34 /tmp/ccFmEsNR.ltrans0.ltrans.o
  .text.ReadUnaligned16
-                0x000000000000199c       0x68 /tmp/cc5ncOKz.ltrans0.ltrans.o
+                0x000000000000199c       0x68 /tmp/ccFmEsNR.ltrans0.ltrans.o
  .text.DevicePathNodeLength
-                0x0000000000001a04       0x50 /tmp/cc5ncOKz.ltrans0.ltrans.o
+                0x0000000000001a04       0x50 /tmp/ccFmEsNR.ltrans0.ltrans.o
  .text.ReadUnaligned32
-                0x0000000000001a54       0x5c /tmp/cc5ncOKz.ltrans0.ltrans.o
+                0x0000000000001a54       0x5c /tmp/ccFmEsNR.ltrans0.ltrans.o
  .text.BasePrintLibSPrintMarker.constprop.33
-                0x0000000000001ab0     0x1058 /tmp/cc5ncOKz.ltrans0.ltrans.o
+                0x0000000000001ab0     0x1058 /tmp/ccFmEsNR.ltrans0.ltrans.o
  .text.unlikely.BasePrintLibSPrint.constprop.34
-                0x0000000000002b08       0x9c /tmp/cc5ncOKz.ltrans0.ltrans.o
+                0x0000000000002b08       0x9c /tmp/ccFmEsNR.ltrans0.ltrans.o
  .text.AsciiSPrint.constprop.31
-                0x0000000000002ba4       0xa8 /tmp/cc5ncOKz.ltrans0.ltrans.o
+                0x0000000000002ba4       0xa8 /tmp/ccFmEsNR.ltrans0.ltrans.o
  .text.SPrintLength
-                0x0000000000002c4c       0x70 /tmp/cc5ncOKz.ltrans0.ltrans.o
+                0x0000000000002c4c       0x70 /tmp/ccFmEsNR.ltrans0.ltrans.o
  .text.UnicodeVSPrint
-                0x0000000000002cbc       0x9c /tmp/cc5ncOKz.ltrans0.ltrans.o
+                0x0000000000002cbc       0x9c /tmp/ccFmEsNR.ltrans0.ltrans.o
  .text.UnicodeSPrint
-                0x0000000000002d58       0xa0 /tmp/cc5ncOKz.ltrans0.ltrans.o
+                0x0000000000002d58       0xa0 /tmp/ccFmEsNR.ltrans0.ltrans.o
  .text.ReadUnaligned64
-                0x0000000000002df8       0x38 /tmp/cc5ncOKz.ltrans0.ltrans.o
+                0x0000000000002df8       0x38 /tmp/ccFmEsNR.ltrans0.ltrans.o
  .text.AsciiStrLen
-                0x0000000000002e30       0xa0 /tmp/cc5ncOKz.ltrans0.ltrans.o
+                0x0000000000002e30       0xa0 /tmp/ccFmEsNR.ltrans0.ltrans.o
  .text.DebugPrint
-                0x0000000000002ed0       0xbc /tmp/cc5ncOKz.ltrans0.ltrans.o
+                0x0000000000002ed0       0xbc /tmp/ccFmEsNR.ltrans0.ltrans.o
  .text.FreePool
-                0x0000000000002f8c       0x7c /tmp/cc5ncOKz.ltrans0.ltrans.o
+                0x0000000000002f8c       0x7c /tmp/ccFmEsNR.ltrans0.ltrans.o
  .text.GetVariable2.constprop.15
-                0x0000000000003008      0x128 /tmp/cc5ncOKz.ltrans0.ltrans.o
+                0x0000000000003008      0x128 /tmp/ccFmEsNR.ltrans0.ltrans.o
  .text.HiiFreeOpCodeHandle
-                0x0000000000003130       0x54 /tmp/cc5ncOKz.ltrans0.ltrans.o
+                0x0000000000003130       0x54 /tmp/ccFmEsNR.ltrans0.ltrans.o
  .text.HiiAllocateOpCodeHandle
-                0x0000000000003184       0x54 /tmp/cc5ncOKz.ltrans0.ltrans.o
+                0x0000000000003184       0x54 /tmp/ccFmEsNR.ltrans0.ltrans.o
  .text.DriverHealthManagerRepairNotify
-                0x00000000000031d8       0x48 /tmp/cc5ncOKz.ltrans0.ltrans.o
+                0x00000000000031d8       0x48 /tmp/ccFmEsNR.ltrans0.ltrans.o
  .text.AsciiStrnCmp
-                0x0000000000003220       0xf0 /tmp/cc5ncOKz.ltrans0.ltrans.o
- .text.StrSize  0x0000000000003310       0xc0 /tmp/cc5ncOKz.ltrans0.ltrans.o
- .text.CopyMem  0x00000000000033d0       0xb0 /tmp/cc5ncOKz.ltrans0.ltrans.o
+                0x0000000000003220       0xf0 /tmp/ccFmEsNR.ltrans0.ltrans.o
+ .text.StrSize  0x0000000000003310       0xc0 /tmp/ccFmEsNR.ltrans0.ltrans.o
+ .text.CopyMem  0x00000000000033d0       0xb0 /tmp/ccFmEsNR.ltrans0.ltrans.o
  .text.InternalAllocateCopyPool.constprop.19
-                0x0000000000003480       0x8c /tmp/cc5ncOKz.ltrans0.ltrans.o
+                0x0000000000003480       0x8c /tmp/ccFmEsNR.ltrans0.ltrans.o
  .text.CopyGuid
-                0x000000000000350c        0x8 /tmp/cc5ncOKz.ltrans0.ltrans.o
- .text.ZeroMem  0x0000000000003514       0x7c /tmp/cc5ncOKz.ltrans0.ltrans.o
+                0x000000000000350c        0x8 /tmp/ccFmEsNR.ltrans0.ltrans.o
+ .text.ZeroMem  0x0000000000003514       0x7c /tmp/ccFmEsNR.ltrans0.ltrans.o
  .text.InternalReallocatePool.constprop.18
-                0x0000000000003590       0x6c /tmp/cc5ncOKz.ltrans0.ltrans.o
+                0x0000000000003590       0x6c /tmp/ccFmEsNR.ltrans0.ltrans.o
  .text.InternalHiiCreateOpCodeExtended.constprop.10
-                0x00000000000035fc      0x114 /tmp/cc5ncOKz.ltrans0.ltrans.o
+                0x00000000000035fc      0x114 /tmp/ccFmEsNR.ltrans0.ltrans.o
  .text.BmGetSingleControllerHealthStatus.constprop.3
-                0x0000000000003710      0x2b0 /tmp/cc5ncOKz.ltrans0.ltrans.o
+                0x0000000000003710      0x2b0 /tmp/ccFmEsNR.ltrans0.ltrans.o
  .text.UefiDevicePathLibCatPrint
-                0x00000000000039c0      0x188 /tmp/cc5ncOKz.ltrans0.ltrans.o
+                0x00000000000039c0      0x188 /tmp/ccFmEsNR.ltrans0.ltrans.o
  .text.DevPathToTextNodeGeneric
-                0x0000000000003b48      0x104 /tmp/cc5ncOKz.ltrans0.ltrans.o
+                0x0000000000003b48      0x104 /tmp/ccFmEsNR.ltrans0.ltrans.o
  .text.DevPathToTextEndInstance
-                0x0000000000003c4c        0xc /tmp/cc5ncOKz.ltrans0.ltrans.o
+                0x0000000000003c4c        0xc /tmp/ccFmEsNR.ltrans0.ltrans.o
  .text.DevPathToTextBBS
-                0x0000000000003c58       0xec /tmp/cc5ncOKz.ltrans0.ltrans.o
+                0x0000000000003c58       0xec /tmp/ccFmEsNR.ltrans0.ltrans.o
  .text.DevPathRelativeOffsetRange
-                0x0000000000003d44       0x10 /tmp/cc5ncOKz.ltrans0.ltrans.o
+                0x0000000000003d44       0x10 /tmp/ccFmEsNR.ltrans0.ltrans.o
  .text.DevPathToTextFvFile
-                0x0000000000003d54       0x10 /tmp/cc5ncOKz.ltrans0.ltrans.o
+                0x0000000000003d54       0x10 /tmp/ccFmEsNR.ltrans0.ltrans.o
  .text.DevPathToTextFv
-                0x0000000000003d64       0x10 /tmp/cc5ncOKz.ltrans0.ltrans.o
+                0x0000000000003d64       0x10 /tmp/ccFmEsNR.ltrans0.ltrans.o
  .text.DevPathToTextMediaProtocol
-                0x0000000000003d74       0x10 /tmp/cc5ncOKz.ltrans0.ltrans.o
+                0x0000000000003d74       0x10 /tmp/ccFmEsNR.ltrans0.ltrans.o
  .text.DevPathToTextFilePath
-                0x0000000000003d84       0x10 /tmp/cc5ncOKz.ltrans0.ltrans.o
+                0x0000000000003d84       0x10 /tmp/ccFmEsNR.ltrans0.ltrans.o
  .text.DevPathToTextCDROM
-                0x0000000000003d94       0x30 /tmp/cc5ncOKz.ltrans0.ltrans.o
+                0x0000000000003d94       0x30 /tmp/ccFmEsNR.ltrans0.ltrans.o
  .text.DevPathToTextHardDrive
-                0x0000000000003dc4       0x8c /tmp/cc5ncOKz.ltrans0.ltrans.o
+                0x0000000000003dc4       0x8c /tmp/ccFmEsNR.ltrans0.ltrans.o
  .text.DevPathToTextUri
-                0x0000000000003e50       0x94 /tmp/cc5ncOKz.ltrans0.ltrans.o
+                0x0000000000003e50       0x94 /tmp/ccFmEsNR.ltrans0.ltrans.o
  .text.DevPathToTextBluetoothLE
-                0x0000000000003ee4       0x44 /tmp/cc5ncOKz.ltrans0.ltrans.o
+                0x0000000000003ee4       0x44 /tmp/ccFmEsNR.ltrans0.ltrans.o
  .text.DevPathToTextWiFi
-                0x0000000000003f28       0x6c /tmp/cc5ncOKz.ltrans0.ltrans.o
+                0x0000000000003f28       0x6c /tmp/ccFmEsNR.ltrans0.ltrans.o
  .text.DevPathToTextBluetooth
-                0x0000000000003f94       0x24 /tmp/cc5ncOKz.ltrans0.ltrans.o
+                0x0000000000003f94       0x24 /tmp/ccFmEsNR.ltrans0.ltrans.o
  .text.DevPathToTextVlan
-                0x0000000000003fb8       0x10 /tmp/cc5ncOKz.ltrans0.ltrans.o
+                0x0000000000003fb8       0x10 /tmp/ccFmEsNR.ltrans0.ltrans.o
  .text.DevPathToTextiSCSI
-                0x0000000000003fc8      0x110 /tmp/cc5ncOKz.ltrans0.ltrans.o
+                0x0000000000003fc8      0x110 /tmp/ccFmEsNR.ltrans0.ltrans.o
  .text.DevPathToTextUart
-                0x00000000000040d8      0x118 /tmp/cc5ncOKz.ltrans0.ltrans.o
+                0x00000000000040d8      0x118 /tmp/ccFmEsNR.ltrans0.ltrans.o
  .text.DevPathToTextInfiniBand
-                0x00000000000041f0       0x1c /tmp/cc5ncOKz.ltrans0.ltrans.o
+                0x00000000000041f0       0x1c /tmp/ccFmEsNR.ltrans0.ltrans.o
  .text.CatIPv6Address
-                0x000000000000420c       0x8c /tmp/cc5ncOKz.ltrans0.ltrans.o
+                0x000000000000420c       0x8c /tmp/ccFmEsNR.ltrans0.ltrans.o
  .text.CatIPv4Address
-                0x0000000000004298       0x1c /tmp/cc5ncOKz.ltrans0.ltrans.o
+                0x0000000000004298       0x1c /tmp/ccFmEsNR.ltrans0.ltrans.o
  .text.DevPathToTextDns
-                0x00000000000042b4       0xc0 /tmp/cc5ncOKz.ltrans0.ltrans.o
+                0x00000000000042b4       0xc0 /tmp/ccFmEsNR.ltrans0.ltrans.o
  .text.CatNetworkProtocol
-                0x0000000000004374       0x38 /tmp/cc5ncOKz.ltrans0.ltrans.o
+                0x0000000000004374       0x38 /tmp/ccFmEsNR.ltrans0.ltrans.o
  .text.DevPathToTextIPv6
-                0x00000000000043ac       0xe8 /tmp/cc5ncOKz.ltrans0.ltrans.o
+                0x00000000000043ac       0xe8 /tmp/ccFmEsNR.ltrans0.ltrans.o
  .text.DevPathToTextIPv4
-                0x0000000000004494       0xf0 /tmp/cc5ncOKz.ltrans0.ltrans.o
+                0x0000000000004494       0xf0 /tmp/ccFmEsNR.ltrans0.ltrans.o
  .text.DevPathToTextMacAddr
-                0x0000000000004584       0x8c /tmp/cc5ncOKz.ltrans0.ltrans.o
+                0x0000000000004584       0x8c /tmp/ccFmEsNR.ltrans0.ltrans.o
  .text.DevPathToTextI2O
-                0x0000000000004610       0x10 /tmp/cc5ncOKz.ltrans0.ltrans.o
+                0x0000000000004610       0x10 /tmp/ccFmEsNR.ltrans0.ltrans.o
  .text.DevPathToTextSata
-                0x0000000000004620       0x18 /tmp/cc5ncOKz.ltrans0.ltrans.o
+                0x0000000000004620       0x18 /tmp/ccFmEsNR.ltrans0.ltrans.o
  .text.DevPathToTextUsbClass
-                0x0000000000004638      0x1bc /tmp/cc5ncOKz.ltrans0.ltrans.o
+                0x0000000000004638      0x1bc /tmp/ccFmEsNR.ltrans0.ltrans.o
  .text.DevPathToTextLogicalUnit
-                0x00000000000047f4       0x10 /tmp/cc5ncOKz.ltrans0.ltrans.o
+                0x00000000000047f4       0x10 /tmp/ccFmEsNR.ltrans0.ltrans.o
  .text.DevPathToTextUsbWWID
-                0x0000000000004804       0xb0 /tmp/cc5ncOKz.ltrans0.ltrans.o
+                0x0000000000004804       0xb0 /tmp/ccFmEsNR.ltrans0.ltrans.o
  .text.DevPathToTextUsb
-                0x00000000000048b4       0x14 /tmp/cc5ncOKz.ltrans0.ltrans.o
+                0x00000000000048b4       0x14 /tmp/ccFmEsNR.ltrans0.ltrans.o
  .text.DevPathToText1394
-                0x00000000000048c8       0x10 /tmp/cc5ncOKz.ltrans0.ltrans.o
+                0x00000000000048c8       0x10 /tmp/ccFmEsNR.ltrans0.ltrans.o
  .text.DevPathToTextEmmc
-                0x00000000000048d8       0x10 /tmp/cc5ncOKz.ltrans0.ltrans.o
+                0x00000000000048d8       0x10 /tmp/ccFmEsNR.ltrans0.ltrans.o
  .text.DevPathToTextSd
-                0x00000000000048e8       0x10 /tmp/cc5ncOKz.ltrans0.ltrans.o
+                0x00000000000048e8       0x10 /tmp/ccFmEsNR.ltrans0.ltrans.o
  .text.DevPathToTextUfs
-                0x00000000000048f8       0x14 /tmp/cc5ncOKz.ltrans0.ltrans.o
+                0x00000000000048f8       0x14 /tmp/ccFmEsNR.ltrans0.ltrans.o
  .text.DevPathToTextNVMe
-                0x000000000000490c       0x54 /tmp/cc5ncOKz.ltrans0.ltrans.o
+                0x000000000000490c       0x54 /tmp/ccFmEsNR.ltrans0.ltrans.o
  .text.DevPathToTextSasEx
-                0x0000000000004960      0x184 /tmp/cc5ncOKz.ltrans0.ltrans.o
+                0x0000000000004960      0x184 /tmp/ccFmEsNR.ltrans0.ltrans.o
  .text.DevPathToTextFibreEx
-                0x0000000000004ae4       0xa0 /tmp/cc5ncOKz.ltrans0.ltrans.o
+                0x0000000000004ae4       0xa0 /tmp/ccFmEsNR.ltrans0.ltrans.o
  .text.DevPathToTextFibre
-                0x0000000000004b84       0x10 /tmp/cc5ncOKz.ltrans0.ltrans.o
+                0x0000000000004b84       0x10 /tmp/ccFmEsNR.ltrans0.ltrans.o
  .text.DevPathToTextScsi
-                0x0000000000004b94       0x14 /tmp/cc5ncOKz.ltrans0.ltrans.o
+                0x0000000000004b94       0x14 /tmp/ccFmEsNR.ltrans0.ltrans.o
  .text.DevPathToTextAtapi
-                0x0000000000004ba8       0x60 /tmp/cc5ncOKz.ltrans0.ltrans.o
+                0x0000000000004ba8       0x60 /tmp/ccFmEsNR.ltrans0.ltrans.o
  .text.DevPathToTextAcpiAdr
-                0x0000000000004c08       0x90 /tmp/cc5ncOKz.ltrans0.ltrans.o
+                0x0000000000004c08       0x90 /tmp/ccFmEsNR.ltrans0.ltrans.o
  .text.DevPathToTextAcpiEx
-                0x0000000000004c98      0x28c /tmp/cc5ncOKz.ltrans0.ltrans.o
+                0x0000000000004c98      0x28c /tmp/ccFmEsNR.ltrans0.ltrans.o
  .text.DevPathToTextAcpi
-                0x0000000000004f24       0xc0 /tmp/cc5ncOKz.ltrans0.ltrans.o
+                0x0000000000004f24       0xc0 /tmp/ccFmEsNR.ltrans0.ltrans.o
  .text.DevPathToTextBmc
-                0x0000000000004fe4       0x3c /tmp/cc5ncOKz.ltrans0.ltrans.o
+                0x0000000000004fe4       0x3c /tmp/ccFmEsNR.ltrans0.ltrans.o
  .text.DevPathToTextController
-                0x0000000000005020       0x10 /tmp/cc5ncOKz.ltrans0.ltrans.o
+                0x0000000000005020       0x10 /tmp/ccFmEsNR.ltrans0.ltrans.o
  .text.DevPathToTextMemMap
-                0x0000000000005030       0x14 /tmp/cc5ncOKz.ltrans0.ltrans.o
+                0x0000000000005030       0x14 /tmp/ccFmEsNR.ltrans0.ltrans.o
  .text.DevPathToTextPccard
-                0x0000000000005044       0x10 /tmp/cc5ncOKz.ltrans0.ltrans.o
+                0x0000000000005044       0x10 /tmp/ccFmEsNR.ltrans0.ltrans.o
  .text.DevPathToTextPci
-                0x0000000000005054       0x14 /tmp/cc5ncOKz.ltrans0.ltrans.o
+                0x0000000000005054       0x14 /tmp/ccFmEsNR.ltrans0.ltrans.o
  .text.HiiCreateGuidOpCode.constprop.4
-                0x0000000000005068       0x78 /tmp/cc5ncOKz.ltrans0.ltrans.o
+                0x0000000000005068       0x78 /tmp/ccFmEsNR.ltrans0.ltrans.o
  .text.AllocateZeroPool
-                0x00000000000050e0       0x34 /tmp/cc5ncOKz.ltrans0.ltrans.o
+                0x00000000000050e0       0x34 /tmp/ccFmEsNR.ltrans0.ltrans.o
  .text.HiiAddPackages.constprop.26
-                0x0000000000005114      0x1c0 /tmp/cc5ncOKz.ltrans0.ltrans.o
+                0x0000000000005114      0x1c0 /tmp/ccFmEsNR.ltrans0.ltrans.o
  .text.UefiDevicePathLibConvertDevicePathToText.constprop.17
-                0x00000000000052d4      0x1cc /tmp/cc5ncOKz.ltrans0.ltrans.o
+                0x00000000000052d4      0x1cc /tmp/ccFmEsNR.ltrans0.ltrans.o
  .text.HiiGetSupportedLanguages
-                0x00000000000054a0       0xf4 /tmp/cc5ncOKz.ltrans0.ltrans.o
+                0x00000000000054a0       0xf4 /tmp/ccFmEsNR.ltrans0.ltrans.o
  .text.HiiSetString.constprop.6
-                0x0000000000005594      0x198 /tmp/cc5ncOKz.ltrans0.ltrans.o
+                0x0000000000005594      0x198 /tmp/ccFmEsNR.ltrans0.ltrans.o
  .text.GetBestLanguage
-                0x000000000000572c      0x1e0 /tmp/cc5ncOKz.ltrans0.ltrans.o
+                0x000000000000572c      0x1e0 /tmp/ccFmEsNR.ltrans0.ltrans.o
  .text.HiiGetString.constprop.5
-                0x000000000000590c      0x1b0 /tmp/cc5ncOKz.ltrans0.ltrans.o
+                0x000000000000590c      0x1b0 /tmp/ccFmEsNR.ltrans0.ltrans.o
  .text.DriverHealthManagerGetComponentNameWorker
-                0x0000000000005abc      0x128 /tmp/cc5ncOKz.ltrans0.ltrans.o
+                0x0000000000005abc      0x128 /tmp/ccFmEsNR.ltrans0.ltrans.o
  .text.DriverHealthManagerGetControllerNameWorker
-                0x0000000000005be4       0xa0 /tmp/cc5ncOKz.ltrans0.ltrans.o
+                0x0000000000005be4       0xa0 /tmp/ccFmEsNR.ltrans0.ltrans.o
  .text.DriverHealthManagerGetDriverNameWorker
-                0x0000000000005c84       0x88 /tmp/cc5ncOKz.ltrans0.ltrans.o
+                0x0000000000005c84       0x88 /tmp/ccFmEsNR.ltrans0.ltrans.o
  .text.CompareGuid
-                0x0000000000005d0c       0x6c /tmp/cc5ncOKz.ltrans0.ltrans.o
+                0x0000000000005d0c       0x6c /tmp/ccFmEsNR.ltrans0.ltrans.o
  .text.EfiGetSystemConfigurationTable
-                0x0000000000005d78       0x94 /tmp/cc5ncOKz.ltrans0.ltrans.o
+                0x0000000000005d78       0x94 /tmp/ccFmEsNR.ltrans0.ltrans.o
  .text.DevPathToTextRamDisk
-                0x0000000000005e0c      0x17c /tmp/cc5ncOKz.ltrans0.ltrans.o
+                0x0000000000005e0c      0x17c /tmp/ccFmEsNR.ltrans0.ltrans.o
  .text.DevPathToTextVendor
-                0x0000000000005f88      0x350 /tmp/cc5ncOKz.ltrans0.ltrans.o
+                0x0000000000005f88      0x350 /tmp/ccFmEsNR.ltrans0.ltrans.o
  .text.DriverHealthManagerUpdateForm
-                0x00000000000062d8      0xf70 /tmp/cc5ncOKz.ltrans0.ltrans.o
+                0x00000000000062d8      0xf70 /tmp/ccFmEsNR.ltrans0.ltrans.o
  .text.DriverHealthManagerCallback
-                0x0000000000007248      0x2e4 /tmp/cc5ncOKz.ltrans0.ltrans.o
+                0x0000000000007248      0x2e4 /tmp/ccFmEsNR.ltrans0.ltrans.o
  .text.__stack_chk_fail
-                0x000000000000752c       0x34 /tmp/cc5ncOKz.ltrans0.ltrans.o
+                0x000000000000752c       0x34 /tmp/ccFmEsNR.ltrans0.ltrans.o
                 0x000000000000752c                __stack_chk_fail
  .text._ModuleEntryPoint
-                0x0000000000007560      0x5c0 /tmp/cc5ncOKz.ltrans0.ltrans.o
+                0x0000000000007560      0x5c0 /tmp/ccFmEsNR.ltrans0.ltrans.o
                 0x0000000000007560                _ModuleEntryPoint
- .text.memcpy   0x0000000000007b20       0x20 /tmp/cc5ncOKz.ltrans0.ltrans.o
+ .text.memcpy   0x0000000000007b20       0x20 /tmp/ccFmEsNR.ltrans0.ltrans.o
                 0x0000000000007b20                memcpy
  .text          0x0000000000007b40      0x200 /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(SetMem.obj)
                 0x0000000000007b40                InternalMemSetMem16
@@ -622,228 +622,228 @@ END GROUP
                 0x0000000000008098                ArmDataSynchronizationBarrier
  *(.rodata .rodata.* .gnu.linkonce.r.*)
  .rodata.DevPathToTextBBS
-                0x00000000000080a0        0x6 /tmp/cc5ncOKz.ltrans0.ltrans.o
+                0x00000000000080a0        0x6 /tmp/ccFmEsNR.ltrans0.ltrans.o
  *fill*         0x00000000000080a6        0x2 
  .rodata.DevPathToTextUart
-                0x00000000000080a8        0x4 /tmp/cc5ncOKz.ltrans0.ltrans.o
+                0x00000000000080a8        0x4 /tmp/ccFmEsNR.ltrans0.ltrans.o
  .rodata.DriverHealthManagerUpdateForm
-                0x00000000000080ac       0x12 /tmp/cc5ncOKz.ltrans0.ltrans.o
+                0x00000000000080ac       0x12 /tmp/ccFmEsNR.ltrans0.ltrans.o
  .rodata.AsciiStrLen.str1.1
-                0x00000000000080be       0x8e /tmp/cc5ncOKz.ltrans0.ltrans.o
+                0x00000000000080be       0x8e /tmp/ccFmEsNR.ltrans0.ltrans.o
  .rodata.AsciiStrnCmp.str1.1
-                0x000000000000814c       0x70 /tmp/cc5ncOKz.ltrans0.ltrans.o
+                0x000000000000814c       0x70 /tmp/ccFmEsNR.ltrans0.ltrans.o
  .rodata.BasePrintLibSPrintMarker.constprop.33.str1.1
-                0x00000000000081bc      0x28e /tmp/cc5ncOKz.ltrans0.ltrans.o
+                0x00000000000081bc      0x28e /tmp/ccFmEsNR.ltrans0.ltrans.o
  .rodata.BmGetSingleControllerHealthStatus.constprop.3.str1.1
-                0x000000000000844a       0x9d /tmp/cc5ncOKz.ltrans0.ltrans.o
+                0x000000000000844a       0x9d /tmp/ccFmEsNR.ltrans0.ltrans.o
  .rodata.CSWTCH.42
-                0x00000000000084e7        0x6 /tmp/cc5ncOKz.ltrans0.ltrans.o
+                0x00000000000084e7        0x6 /tmp/ccFmEsNR.ltrans0.ltrans.o
  *fill*         0x00000000000084ed        0x1 
  .rodata.CatIPv4Address.str2.2
-                0x00000000000084ee       0x18 /tmp/cc5ncOKz.ltrans0.ltrans.o
+                0x00000000000084ee       0x18 /tmp/ccFmEsNR.ltrans0.ltrans.o
  .rodata.CatIPv6Address.str2.2
-                0x0000000000008506       0x90 /tmp/cc5ncOKz.ltrans0.ltrans.o
+                0x0000000000008506       0x90 /tmp/ccFmEsNR.ltrans0.ltrans.o
  .rodata.CatNetworkProtocol.str2.2
-                0x0000000000008596        0x8 /tmp/cc5ncOKz.ltrans0.ltrans.o
+                0x0000000000008596        0x8 /tmp/ccFmEsNR.ltrans0.ltrans.o
                                          0x12 (松开之前的大小)
  .rodata.CompareGuid.str1.1
-                0x000000000000859e       0x7f /tmp/cc5ncOKz.ltrans0.ltrans.o
+                0x000000000000859e       0x7f /tmp/ccFmEsNR.ltrans0.ltrans.o
  .rodata.CompareMem.str1.1
-                0x000000000000861d      0x116 /tmp/cc5ncOKz.ltrans0.ltrans.o
+                0x000000000000861d      0x116 /tmp/ccFmEsNR.ltrans0.ltrans.o
  .rodata.CopyMem.str1.1
-                0x0000000000008733       0x53 /tmp/cc5ncOKz.ltrans0.ltrans.o
+                0x0000000000008733       0x53 /tmp/ccFmEsNR.ltrans0.ltrans.o
  .rodata.DebugAssert.str1.1
-                0x0000000000008786       0x2f /tmp/cc5ncOKz.ltrans0.ltrans.o
+                0x0000000000008786       0x2f /tmp/ccFmEsNR.ltrans0.ltrans.o
  *fill*         0x00000000000087b5        0x1 
  .rodata.DevPathRelativeOffsetRange.str2.2
-                0x00000000000087b6       0x28 /tmp/cc5ncOKz.ltrans0.ltrans.o
+                0x00000000000087b6       0x28 /tmp/ccFmEsNR.ltrans0.ltrans.o
  .rodata.DevPathToText1394.str2.2
-                0x00000000000087de       0x1c /tmp/cc5ncOKz.ltrans0.ltrans.o
+                0x00000000000087de       0x1c /tmp/ccFmEsNR.ltrans0.ltrans.o
  .rodata.DevPathToTextAcpi.str2.2
-                0x00000000000087fa       0xc2 /tmp/cc5ncOKz.ltrans0.ltrans.o
+                0x00000000000087fa       0xc2 /tmp/ccFmEsNR.ltrans0.ltrans.o
  .rodata.DevPathToTextAcpiAdr.str2.2
-                0x00000000000088bc       0x26 /tmp/cc5ncOKz.ltrans0.ltrans.o
+                0x00000000000088bc       0x26 /tmp/ccFmEsNR.ltrans0.ltrans.o
  .rodata.DevPathToTextAcpiEx.str2.2
-                0x00000000000088e2      0x12c /tmp/cc5ncOKz.ltrans0.ltrans.o
+                0x00000000000088e2      0x12c /tmp/ccFmEsNR.ltrans0.ltrans.o
                                         0x148 (松开之前的大小)
  .rodata.DevPathToTextAtapi.str2.2
-                0x0000000000008a0e       0x72 /tmp/cc5ncOKz.ltrans0.ltrans.o
+                0x0000000000008a0e       0x72 /tmp/ccFmEsNR.ltrans0.ltrans.o
  .rodata.DevPathToTextBBS.str2.2
-                0x0000000000008a80       0x72 /tmp/cc5ncOKz.ltrans0.ltrans.o
+                0x0000000000008a80       0x72 /tmp/ccFmEsNR.ltrans0.ltrans.o
                                          0x80 (松开之前的大小)
  .rodata.DevPathToTextBluetooth.str2.2
-                0x0000000000008af2       0x48 /tmp/cc5ncOKz.ltrans0.ltrans.o
+                0x0000000000008af2       0x48 /tmp/ccFmEsNR.ltrans0.ltrans.o
  .rodata.DevPathToTextBluetoothLE.str2.2
-                0x0000000000008b3a       0x5a /tmp/cc5ncOKz.ltrans0.ltrans.o
+                0x0000000000008b3a       0x5a /tmp/ccFmEsNR.ltrans0.ltrans.o
  .rodata.DevPathToTextBmc.str2.2
-                0x0000000000008b94       0x20 /tmp/cc5ncOKz.ltrans0.ltrans.o
+                0x0000000000008b94       0x20 /tmp/ccFmEsNR.ltrans0.ltrans.o
  .rodata.DevPathToTextCDROM.str2.2
-                0x0000000000008bb4       0x48 /tmp/cc5ncOKz.ltrans0.ltrans.o
+                0x0000000000008bb4       0x48 /tmp/ccFmEsNR.ltrans0.ltrans.o
  .rodata.DevPathToTextController.str2.2
-                0x0000000000008bfc       0x16 /tmp/cc5ncOKz.ltrans0.ltrans.o
+                0x0000000000008bfc       0x16 /tmp/ccFmEsNR.ltrans0.ltrans.o
  .rodata.DevPathToTextDns.str2.2
-                0x0000000000008c12        0xa /tmp/cc5ncOKz.ltrans0.ltrans.o
+                0x0000000000008c12        0xa /tmp/ccFmEsNR.ltrans0.ltrans.o
  .rodata.DevPathToTextEmmc.str2.2
-                0x0000000000008c1c       0x16 /tmp/cc5ncOKz.ltrans0.ltrans.o
+                0x0000000000008c1c       0x16 /tmp/ccFmEsNR.ltrans0.ltrans.o
  .rodata.DevPathToTextFibre.str2.2
-                0x0000000000008c32       0x26 /tmp/cc5ncOKz.ltrans0.ltrans.o
+                0x0000000000008c32       0x26 /tmp/ccFmEsNR.ltrans0.ltrans.o
  .rodata.DevPathToTextFibreEx.str2.2
-                0x0000000000008c58       0x16 /tmp/cc5ncOKz.ltrans0.ltrans.o
+                0x0000000000008c58       0x16 /tmp/ccFmEsNR.ltrans0.ltrans.o
  .rodata.DevPathToTextFilePath.str2.2
-                0x0000000000008c6e       0x16 /tmp/cc5ncOKz.ltrans0.ltrans.o
+                0x0000000000008c6e       0x16 /tmp/ccFmEsNR.ltrans0.ltrans.o
                                           0x6 (松开之前的大小)
  .rodata.DevPathToTextFv.str2.2
-                0x0000000000008c6e        0xe /tmp/cc5ncOKz.ltrans0.ltrans.o
+                0x0000000000008c6e        0xe /tmp/ccFmEsNR.ltrans0.ltrans.o
  .rodata.DevPathToTextFvFile.str2.2
-                0x0000000000008c7c       0x16 /tmp/cc5ncOKz.ltrans0.ltrans.o
+                0x0000000000008c7c       0x16 /tmp/ccFmEsNR.ltrans0.ltrans.o
  .rodata.DevPathToTextHardDrive.str2.2
-                0x0000000000008c92       0x64 /tmp/cc5ncOKz.ltrans0.ltrans.o
+                0x0000000000008c92       0x64 /tmp/ccFmEsNR.ltrans0.ltrans.o
                                          0x7e (松开之前的大小)
  .rodata.DevPathToTextI2O.str2.2
-                0x0000000000008cf6       0x14 /tmp/cc5ncOKz.ltrans0.ltrans.o
+                0x0000000000008cf6       0x14 /tmp/ccFmEsNR.ltrans0.ltrans.o
  .rodata.DevPathToTextIPv4.str2.2
-                0x0000000000008d0a       0x24 /tmp/cc5ncOKz.ltrans0.ltrans.o
+                0x0000000000008d0a       0x24 /tmp/ccFmEsNR.ltrans0.ltrans.o
  .rodata.DevPathToTextIPv6.str2.2
-                0x0000000000008d2e       0x80 /tmp/cc5ncOKz.ltrans0.ltrans.o
+                0x0000000000008d2e       0x80 /tmp/ccFmEsNR.ltrans0.ltrans.o
                                          0x8e (松开之前的大小)
  .rodata.DevPathToTextInfiniBand.str2.2
-                0x0000000000008dae       0x4c /tmp/cc5ncOKz.ltrans0.ltrans.o
+                0x0000000000008dae       0x4c /tmp/ccFmEsNR.ltrans0.ltrans.o
  .rodata.DevPathToTextLogicalUnit.str2.2
-                0x0000000000008dfa       0x16 /tmp/cc5ncOKz.ltrans0.ltrans.o
+                0x0000000000008dfa       0x16 /tmp/ccFmEsNR.ltrans0.ltrans.o
  .rodata.DevPathToTextMacAddr.str2.2
-                0x0000000000008e10        0xa /tmp/cc5ncOKz.ltrans0.ltrans.o
+                0x0000000000008e10        0xa /tmp/ccFmEsNR.ltrans0.ltrans.o
  .rodata.DevPathToTextMediaProtocol.str2.2
-                0x0000000000008e1a       0x14 /tmp/cc5ncOKz.ltrans0.ltrans.o
+                0x0000000000008e1a       0x14 /tmp/ccFmEsNR.ltrans0.ltrans.o
  .rodata.DevPathToTextMemMap.str2.2
-                0x0000000000008e2e       0x3e /tmp/cc5ncOKz.ltrans0.ltrans.o
+                0x0000000000008e2e       0x3e /tmp/ccFmEsNR.ltrans0.ltrans.o
  .rodata.DevPathToTextNVMe.str2.2
-                0x0000000000008e6c       0x66 /tmp/cc5ncOKz.ltrans0.ltrans.o
+                0x0000000000008e6c       0x66 /tmp/ccFmEsNR.ltrans0.ltrans.o
  .rodata.DevPathToTextNodeGeneric.str2.2
-                0x0000000000008ed2       0x22 /tmp/cc5ncOKz.ltrans0.ltrans.o
+                0x0000000000008ed2       0x22 /tmp/ccFmEsNR.ltrans0.ltrans.o
                                          0x34 (松开之前的大小)
  .rodata.DevPathToTextPccard.str2.2
-                0x0000000000008ef4       0x1a /tmp/cc5ncOKz.ltrans0.ltrans.o
+                0x0000000000008ef4       0x1a /tmp/ccFmEsNR.ltrans0.ltrans.o
  .rodata.DevPathToTextPci.str2.2
-                0x0000000000008f0e       0x1e /tmp/cc5ncOKz.ltrans0.ltrans.o
+                0x0000000000008f0e       0x1e /tmp/ccFmEsNR.ltrans0.ltrans.o
  .rodata.DevPathToTextRamDisk.str2.2
-                0x0000000000008f2c       0xca /tmp/cc5ncOKz.ltrans0.ltrans.o
+                0x0000000000008f2c       0xca /tmp/ccFmEsNR.ltrans0.ltrans.o
                                         0x136 (松开之前的大小)
  .rodata.DevPathToTextSasEx.str2.2
-                0x0000000000008ff6       0xb4 /tmp/cc5ncOKz.ltrans0.ltrans.o
+                0x0000000000008ff6       0xb4 /tmp/ccFmEsNR.ltrans0.ltrans.o
                                          0xc0 (松开之前的大小)
  .rodata.DevPathToTextSata.str2.2
-                0x00000000000090aa       0x2a /tmp/cc5ncOKz.ltrans0.ltrans.o
+                0x00000000000090aa       0x2a /tmp/ccFmEsNR.ltrans0.ltrans.o
  .rodata.DevPathToTextScsi.str2.2
-                0x00000000000090d4       0x20 /tmp/cc5ncOKz.ltrans0.ltrans.o
+                0x00000000000090d4       0x20 /tmp/ccFmEsNR.ltrans0.ltrans.o
  .rodata.DevPathToTextSd.str2.2
-                0x00000000000090f4       0x12 /tmp/cc5ncOKz.ltrans0.ltrans.o
+                0x00000000000090f4       0x12 /tmp/ccFmEsNR.ltrans0.ltrans.o
  .rodata.DevPathToTextUart.str2.2
-                0x0000000000009106       0x5c /tmp/cc5ncOKz.ltrans0.ltrans.o
+                0x0000000000009106       0x5c /tmp/ccFmEsNR.ltrans0.ltrans.o
                                          0x74 (松开之前的大小)
  .rodata.DevPathToTextUfs.str2.2
-                0x0000000000009162       0x1e /tmp/cc5ncOKz.ltrans0.ltrans.o
+                0x0000000000009162       0x1e /tmp/ccFmEsNR.ltrans0.ltrans.o
  .rodata.DevPathToTextUri.str1.1
-                0x0000000000009180       0x17 /tmp/cc5ncOKz.ltrans0.ltrans.o
+                0x0000000000009180       0x17 /tmp/ccFmEsNR.ltrans0.ltrans.o
  *fill*         0x0000000000009197        0x1 
  .rodata.DevPathToTextUri.str2.2
-                0x0000000000009198       0x10 /tmp/cc5ncOKz.ltrans0.ltrans.o
+                0x0000000000009198       0x10 /tmp/ccFmEsNR.ltrans0.ltrans.o
  .rodata.DevPathToTextUsb.str2.2
-                0x00000000000091a8       0x1e /tmp/cc5ncOKz.ltrans0.ltrans.o
+                0x00000000000091a8       0x1e /tmp/ccFmEsNR.ltrans0.ltrans.o
  .rodata.DevPathToTextUsbClass.str2.2
-                0x00000000000091c6      0x250 /tmp/cc5ncOKz.ltrans0.ltrans.o
+                0x00000000000091c6      0x250 /tmp/ccFmEsNR.ltrans0.ltrans.o
  .rodata.DevPathToTextUsbWWID.str1.1
-                0x0000000000009416       0x17 /tmp/cc5ncOKz.ltrans0.ltrans.o
+                0x0000000000009416       0x17 /tmp/ccFmEsNR.ltrans0.ltrans.o
  *fill*         0x000000000000942d        0x1 
  .rodata.DevPathToTextUsbWWID.str2.2
-                0x000000000000942e       0x3a /tmp/cc5ncOKz.ltrans0.ltrans.o
+                0x000000000000942e       0x3a /tmp/ccFmEsNR.ltrans0.ltrans.o
  .rodata.DevPathToTextVendor.str2.2
-                0x0000000000009468      0x154 /tmp/cc5ncOKz.ltrans0.ltrans.o
+                0x0000000000009468      0x154 /tmp/ccFmEsNR.ltrans0.ltrans.o
                                         0x166 (松开之前的大小)
  .rodata.DevPathToTextVlan.str2.2
-                0x00000000000095bc       0x12 /tmp/cc5ncOKz.ltrans0.ltrans.o
+                0x00000000000095bc       0x12 /tmp/ccFmEsNR.ltrans0.ltrans.o
  .rodata.DevPathToTextWiFi.str2.2
-                0x00000000000095ce       0x14 /tmp/cc5ncOKz.ltrans0.ltrans.o
+                0x00000000000095ce       0x14 /tmp/ccFmEsNR.ltrans0.ltrans.o
  .rodata.DevPathToTextiSCSI.str2.2
-                0x00000000000095e2       0x76 /tmp/cc5ncOKz.ltrans0.ltrans.o
+                0x00000000000095e2       0x76 /tmp/ccFmEsNR.ltrans0.ltrans.o
                                          0x90 (松开之前的大小)
  .rodata.DevicePathSubType.str1.1
-                0x0000000000009658       0x6b /tmp/cc5ncOKz.ltrans0.ltrans.o
+                0x0000000000009658       0x6b /tmp/ccFmEsNR.ltrans0.ltrans.o
  .rodata.DriverHealthManagerCallback.str1.1
-                0x00000000000096c3       0x78 /tmp/cc5ncOKz.ltrans0.ltrans.o
+                0x00000000000096c3       0x78 /tmp/ccFmEsNR.ltrans0.ltrans.o
  .rodata.DriverHealthManagerGetComponentNameWorker.str1.1
-                0x000000000000973b        0xa /tmp/cc5ncOKz.ltrans0.ltrans.o
+                0x000000000000973b        0xa /tmp/ccFmEsNR.ltrans0.ltrans.o
  .rodata.DriverHealthManagerGetComponentNameWorker.str2.2
-                0x0000000000009745       0x76 /tmp/cc5ncOKz.ltrans0.ltrans.o
+                0x0000000000009745       0x76 /tmp/ccFmEsNR.ltrans0.ltrans.o
                                           0xa (松开之前的大小)
  .rodata.DriverHealthManagerRepairNotify.str1.1
-                0x0000000000009745       0x2d /tmp/cc5ncOKz.ltrans0.ltrans.o
+                0x0000000000009745       0x2d /tmp/ccFmEsNR.ltrans0.ltrans.o
  .rodata.DriverHealthManagerUpdateForm.str1.1
-                0x0000000000009772      0x220 /tmp/cc5ncOKz.ltrans0.ltrans.o
+                0x0000000000009772      0x220 /tmp/ccFmEsNR.ltrans0.ltrans.o
  .rodata.DriverHealthManagerUpdateForm.str2.2
-                0x0000000000009992       0x22 /tmp/cc5ncOKz.ltrans0.ltrans.o
+                0x0000000000009992       0x22 /tmp/ccFmEsNR.ltrans0.ltrans.o
  .rodata.FreePool.str1.1
-                0x00000000000099b4       0x91 /tmp/cc5ncOKz.ltrans0.ltrans.o
+                0x00000000000099b4       0x91 /tmp/ccFmEsNR.ltrans0.ltrans.o
  .rodata.GetBestLanguage.str1.1
-                0x0000000000009a45       0x23 /tmp/cc5ncOKz.ltrans0.ltrans.o
+                0x0000000000009a45       0x23 /tmp/ccFmEsNR.ltrans0.ltrans.o
  .rodata.GetVariable2.constprop.15.str1.1
-                0x0000000000009a68       0x57 /tmp/cc5ncOKz.ltrans0.ltrans.o
+                0x0000000000009a68       0x57 /tmp/ccFmEsNR.ltrans0.ltrans.o
  .rodata.HiiFreeOpCodeHandle.str1.1
-                0x0000000000009abf       0x48 /tmp/cc5ncOKz.ltrans0.ltrans.o
+                0x0000000000009abf       0x48 /tmp/ccFmEsNR.ltrans0.ltrans.o
                                          0x65 (松开之前的大小)
  .rodata.HiiGetString.constprop.5.str1.1
-                0x0000000000009b07        0xe /tmp/cc5ncOKz.ltrans0.ltrans.o
+                0x0000000000009b07        0xe /tmp/ccFmEsNR.ltrans0.ltrans.o
                                           0xf (松开之前的大小)
  *fill*         0x0000000000009b15        0x1 
  .rodata.HiiGetString.constprop.5.str2.2
-                0x0000000000009b16       0x1a /tmp/cc5ncOKz.ltrans0.ltrans.o
+                0x0000000000009b16       0x1a /tmp/ccFmEsNR.ltrans0.ltrans.o
  .rodata.HiiGetSupportedLanguages.str1.1
-                0x0000000000009b30       0x4d /tmp/cc5ncOKz.ltrans0.ltrans.o
+                0x0000000000009b30       0x4d /tmp/ccFmEsNR.ltrans0.ltrans.o
                                          0x67 (松开之前的大小)
  .rodata.HiiSetString.constprop.6.str1.1
-                0x0000000000009b7d       0x52 /tmp/cc5ncOKz.ltrans0.ltrans.o
+                0x0000000000009b7d       0x52 /tmp/ccFmEsNR.ltrans0.ltrans.o
  .rodata.InternalAllocateCopyPool.constprop.19.str1.1
-                0x0000000000009bcf       0x3f /tmp/cc5ncOKz.ltrans0.ltrans.o
+                0x0000000000009bcf       0x3f /tmp/ccFmEsNR.ltrans0.ltrans.o
  .rodata.InternalHiiCreateOpCodeExtended.constprop.10.str1.1
-                0x0000000000009c0e       0x25 /tmp/cc5ncOKz.ltrans0.ltrans.o
+                0x0000000000009c0e       0x25 /tmp/ccFmEsNR.ltrans0.ltrans.o
  .rodata.SPrintLength.str1.1
-                0x0000000000009c33       0x6d /tmp/cc5ncOKz.ltrans0.ltrans.o
+                0x0000000000009c33       0x6d /tmp/ccFmEsNR.ltrans0.ltrans.o
  .rodata.StrSize.str1.1
-                0x0000000000009ca0       0x3a /tmp/cc5ncOKz.ltrans0.ltrans.o
+                0x0000000000009ca0       0x3a /tmp/ccFmEsNR.ltrans0.ltrans.o
  .rodata.StrnLenS.str1.1
-                0x0000000000009cda       0x66 /tmp/cc5ncOKz.ltrans0.ltrans.o
+                0x0000000000009cda       0x66 /tmp/ccFmEsNR.ltrans0.ltrans.o
  .rodata.UefiDevicePathLibCatPrint.str1.1
-                0x0000000000009d40       0x6c /tmp/cc5ncOKz.ltrans0.ltrans.o
+                0x0000000000009d40       0x6c /tmp/ccFmEsNR.ltrans0.ltrans.o
  .rodata.UefiDevicePathLibConvertDevicePathToText.constprop.17.str2.2
-                0x0000000000009dac        0x4 /tmp/cc5ncOKz.ltrans0.ltrans.o
+                0x0000000000009dac        0x4 /tmp/ccFmEsNR.ltrans0.ltrans.o
  .rodata.UnicodeVSPrint.str1.1
-                0x0000000000009db0       0x28 /tmp/cc5ncOKz.ltrans0.ltrans.o
+                0x0000000000009db0       0x28 /tmp/ccFmEsNR.ltrans0.ltrans.o
  .rodata.WriteUnaligned16.str1.1
-                0x0000000000009dd8       0x46 /tmp/cc5ncOKz.ltrans0.ltrans.o
+                0x0000000000009dd8       0x46 /tmp/ccFmEsNR.ltrans0.ltrans.o
                                          0x5d (松开之前的大小)
  .rodata.ZeroMem.str1.1
-                0x0000000000009e1e       0x89 /tmp/cc5ncOKz.ltrans0.ltrans.o
+                0x0000000000009e1e       0x89 /tmp/ccFmEsNR.ltrans0.ltrans.o
  .rodata._ModuleEntryPoint.str1.1
-                0x0000000000009ea7      0x339 /tmp/cc5ncOKz.ltrans0.ltrans.o
+                0x0000000000009ea7      0x339 /tmp/ccFmEsNR.ltrans0.ltrans.o
  .rodata.__stack_chk_fail.str1.1
-                0x000000000000a1e0       0x2e /tmp/cc5ncOKz.ltrans0.ltrans.o
+                0x000000000000a1e0       0x2e /tmp/ccFmEsNR.ltrans0.ltrans.o
  .rodata._gPcd_FixedAtBuild_PcdDriverHealthConfigureForm
-                0x000000000000a20e       0x10 /tmp/cc5ncOKz.ltrans0.ltrans.o
+                0x000000000000a20e       0x10 /tmp/ccFmEsNR.ltrans0.ltrans.o
  .rodata.mEndOfPakageList
-                0x000000000000a21e        0x4 /tmp/cc5ncOKz.ltrans0.ltrans.o
+                0x000000000000a21e        0x4 /tmp/ccFmEsNR.ltrans0.ltrans.o
  .rodata.mHexStr
-                0x000000000000a222       0x10 /tmp/cc5ncOKz.ltrans0.ltrans.o
+                0x000000000000a222       0x10 /tmp/ccFmEsNR.ltrans0.ltrans.o
  *fill*         0x000000000000a232        0x6 
  .rodata.mStatusString
-                0x000000000000a238      0x138 /tmp/cc5ncOKz.ltrans0.ltrans.o
+                0x000000000000a238      0x138 /tmp/ccFmEsNR.ltrans0.ltrans.o
  .rodata.mUefiDevicePathLibToTextTable
-                0x000000000000a370      0x320 /tmp/cc5ncOKz.ltrans0.ltrans.o
+                0x000000000000a370      0x320 /tmp/ccFmEsNR.ltrans0.ltrans.o
  .rodata.mUefiDevicePathLibToTextTableGeneric
-                0x000000000000a690       0x60 /tmp/cc5ncOKz.ltrans0.ltrans.o
+                0x000000000000a690       0x60 /tmp/ccFmEsNR.ltrans0.ltrans.o
  .rodata.str1.1
-                0x000000000000a6f0      0x224 /tmp/cc5ncOKz.ltrans0.ltrans.o
+                0x000000000000a6f0      0x224 /tmp/ccFmEsNR.ltrans0.ltrans.o
                                         0x235 (松开之前的大小)
  .rodata.str2.2
-                0x000000000000a914       0x50 /tmp/cc5ncOKz.ltrans0.ltrans.o
+                0x000000000000a914       0x50 /tmp/ccFmEsNR.ltrans0.ltrans.o
  *(.got .got.*)
  *fill*         0x000000000000a964        0x4 
  .got           0x000000000000a968        0x8 /home/evsio0n/src/edk2sdm/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
@@ -858,110 +858,110 @@ END GROUP
  *(.data .data.* .gnu.linkonce.d.*)
  .data.rel.ro   0x000000000000b000        0x0 /home/evsio0n/src/edk2sdm/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
  .data.DriverHealthConfigureVfrBin
-                0x000000000000b000       0x86 /tmp/cc5ncOKz.ltrans0.ltrans.o
+                0x000000000000b000       0x86 /tmp/ccFmEsNR.ltrans0.ltrans.o
  .data.DriverHealthManagerDxeStrings
-                0x000000000000b086      0x338 /tmp/cc5ncOKz.ltrans0.ltrans.o
+                0x000000000000b086      0x338 /tmp/ccFmEsNR.ltrans0.ltrans.o
  .data.DriverHealthManagerVfrBin
-                0x000000000000b3be       0x86 /tmp/cc5ncOKz.ltrans0.ltrans.o
+                0x000000000000b3be       0x86 /tmp/ccFmEsNR.ltrans0.ltrans.o
  *fill*         0x000000000000b444        0x4 
  .data.__stack_chk_guard
-                0x000000000000b448        0x8 /tmp/cc5ncOKz.ltrans0.ltrans.o
+                0x000000000000b448        0x8 /tmp/ccFmEsNR.ltrans0.ltrans.o
                 0x000000000000b448                __stack_chk_guard
  .data.font5x12
-                0x000000000000b450      0x300 /tmp/cc5ncOKz.ltrans0.ltrans.o
+                0x000000000000b450      0x300 /tmp/ccFmEsNR.ltrans0.ltrans.o
  .data.gEfiCallerIdGuid
-                0x000000000000b750       0x10 /tmp/cc5ncOKz.ltrans0.ltrans.o
+                0x000000000000b750       0x10 /tmp/ccFmEsNR.ltrans0.ltrans.o
  .data.gEfiComponentName2ProtocolGuid
-                0x000000000000b760       0x10 /tmp/cc5ncOKz.ltrans0.ltrans.o
+                0x000000000000b760       0x10 /tmp/ccFmEsNR.ltrans0.ltrans.o
  .data.gEfiComponentNameProtocolGuid
-                0x000000000000b770       0x10 /tmp/cc5ncOKz.ltrans0.ltrans.o
+                0x000000000000b770       0x10 /tmp/ccFmEsNR.ltrans0.ltrans.o
  .data.gEfiDebugPortProtocolGuid
-                0x000000000000b780       0x10 /tmp/cc5ncOKz.ltrans0.ltrans.o
+                0x000000000000b780       0x10 /tmp/ccFmEsNR.ltrans0.ltrans.o
  .data.gEfiDevicePathProtocolGuid
-                0x000000000000b790       0x10 /tmp/cc5ncOKz.ltrans0.ltrans.o
+                0x000000000000b790       0x10 /tmp/ccFmEsNR.ltrans0.ltrans.o
  .data.gEfiDriverHealthProtocolGuid
-                0x000000000000b7a0       0x10 /tmp/cc5ncOKz.ltrans0.ltrans.o
+                0x000000000000b7a0       0x10 /tmp/ccFmEsNR.ltrans0.ltrans.o
  .data.gEfiDxeServicesTableGuid
-                0x000000000000b7b0       0x10 /tmp/cc5ncOKz.ltrans0.ltrans.o
+                0x000000000000b7b0       0x10 /tmp/ccFmEsNR.ltrans0.ltrans.o
  .data.gEfiGlobalVariableGuid
-                0x000000000000b7c0       0x10 /tmp/cc5ncOKz.ltrans0.ltrans.o
+                0x000000000000b7c0       0x10 /tmp/ccFmEsNR.ltrans0.ltrans.o
  .data.gEfiHiiConfigAccessProtocolGuid
-                0x000000000000b7d0       0x10 /tmp/cc5ncOKz.ltrans0.ltrans.o
+                0x000000000000b7d0       0x10 /tmp/ccFmEsNR.ltrans0.ltrans.o
  .data.gEfiHiiConfigRoutingProtocolGuid
-                0x000000000000b7e0       0x10 /tmp/cc5ncOKz.ltrans0.ltrans.o
+                0x000000000000b7e0       0x10 /tmp/ccFmEsNR.ltrans0.ltrans.o
  .data.gEfiHiiDatabaseProtocolGuid
-                0x000000000000b7f0       0x10 /tmp/cc5ncOKz.ltrans0.ltrans.o
+                0x000000000000b7f0       0x10 /tmp/ccFmEsNR.ltrans0.ltrans.o
  .data.gEfiHiiDriverHealthFormsetGuid
-                0x000000000000b800       0x10 /tmp/cc5ncOKz.ltrans0.ltrans.o
+                0x000000000000b800       0x10 /tmp/ccFmEsNR.ltrans0.ltrans.o
  .data.gEfiHiiFontProtocolGuid
-                0x000000000000b810       0x10 /tmp/cc5ncOKz.ltrans0.ltrans.o
+                0x000000000000b810       0x10 /tmp/ccFmEsNR.ltrans0.ltrans.o
  .data.gEfiHiiImageProtocolGuid
-                0x000000000000b820       0x10 /tmp/cc5ncOKz.ltrans0.ltrans.o
+                0x000000000000b820       0x10 /tmp/ccFmEsNR.ltrans0.ltrans.o
  .data.gEfiHiiStringProtocolGuid
-                0x000000000000b830       0x10 /tmp/cc5ncOKz.ltrans0.ltrans.o
+                0x000000000000b830       0x10 /tmp/ccFmEsNR.ltrans0.ltrans.o
  .data.gEfiHobListGuid
-                0x000000000000b840       0x10 /tmp/cc5ncOKz.ltrans0.ltrans.o
+                0x000000000000b840       0x10 /tmp/ccFmEsNR.ltrans0.ltrans.o
  .data.gEfiIfrTianoGuid
-                0x000000000000b850       0x10 /tmp/cc5ncOKz.ltrans0.ltrans.o
+                0x000000000000b850       0x10 /tmp/ccFmEsNR.ltrans0.ltrans.o
  .data.gEfiPcAnsiGuid
-                0x000000000000b860       0x10 /tmp/cc5ncOKz.ltrans0.ltrans.o
+                0x000000000000b860       0x10 /tmp/ccFmEsNR.ltrans0.ltrans.o
  .data.gEfiPersistentVirtualCdGuid
-                0x000000000000b870       0x10 /tmp/cc5ncOKz.ltrans0.ltrans.o
+                0x000000000000b870       0x10 /tmp/ccFmEsNR.ltrans0.ltrans.o
  .data.gEfiPersistentVirtualDiskGuid
-                0x000000000000b880       0x10 /tmp/cc5ncOKz.ltrans0.ltrans.o
+                0x000000000000b880       0x10 /tmp/ccFmEsNR.ltrans0.ltrans.o
  .data.gEfiSasDevicePathGuid
-                0x000000000000b890       0x10 /tmp/cc5ncOKz.ltrans0.ltrans.o
+                0x000000000000b890       0x10 /tmp/ccFmEsNR.ltrans0.ltrans.o
  .data.gEfiUartDevicePathGuid
-                0x000000000000b8a0       0x10 /tmp/cc5ncOKz.ltrans0.ltrans.o
+                0x000000000000b8a0       0x10 /tmp/ccFmEsNR.ltrans0.ltrans.o
  .data.gEfiVT100Guid
-                0x000000000000b8b0       0x10 /tmp/cc5ncOKz.ltrans0.ltrans.o
+                0x000000000000b8b0       0x10 /tmp/ccFmEsNR.ltrans0.ltrans.o
  .data.gEfiVT100PlusGuid
-                0x000000000000b8c0       0x10 /tmp/cc5ncOKz.ltrans0.ltrans.o
+                0x000000000000b8c0       0x10 /tmp/ccFmEsNR.ltrans0.ltrans.o
  .data.gEfiVTUTF8Guid
-                0x000000000000b8d0       0x10 /tmp/cc5ncOKz.ltrans0.ltrans.o
+                0x000000000000b8d0       0x10 /tmp/ccFmEsNR.ltrans0.ltrans.o
  .data.gEfiVirtualCdGuid
-                0x000000000000b8e0       0x10 /tmp/cc5ncOKz.ltrans0.ltrans.o
+                0x000000000000b8e0       0x10 /tmp/ccFmEsNR.ltrans0.ltrans.o
  .data.gEfiVirtualDiskGuid
-                0x000000000000b8f0       0x10 /tmp/cc5ncOKz.ltrans0.ltrans.o
+                0x000000000000b8f0       0x10 /tmp/ccFmEsNR.ltrans0.ltrans.o
  .data.mDriverHealthManagerConfigAccess
-                0x000000000000b900       0x18 /tmp/cc5ncOKz.ltrans0.ltrans.o
+                0x000000000000b900       0x18 /tmp/ccFmEsNR.ltrans0.ltrans.o
  .data.mDriverHealthManagerForm
-                0x000000000000b918       0x10 /tmp/cc5ncOKz.ltrans0.ltrans.o
+                0x000000000000b918       0x10 /tmp/ccFmEsNR.ltrans0.ltrans.o
  .data.mDriverHealthManagerFormDevicePath
-                0x000000000000b928       0x18 /tmp/cc5ncOKz.ltrans0.ltrans.o
+                0x000000000000b928       0x18 /tmp/ccFmEsNR.ltrans0.ltrans.o
  *(.bss .bss.*)
- .bss.gBS       0x000000000000b940        0x8 /tmp/cc5ncOKz.ltrans0.ltrans.o
- .bss.gDS       0x000000000000b948        0x8 /tmp/cc5ncOKz.ltrans0.ltrans.o
+ .bss.gBS       0x000000000000b940        0x8 /tmp/ccFmEsNR.ltrans0.ltrans.o
+ .bss.gDS       0x000000000000b948        0x8 /tmp/ccFmEsNR.ltrans0.ltrans.o
  .bss.gHiiConfigRouting
-                0x000000000000b950        0x8 /tmp/cc5ncOKz.ltrans0.ltrans.o
+                0x000000000000b950        0x8 /tmp/ccFmEsNR.ltrans0.ltrans.o
  .bss.gHiiDatabase
-                0x000000000000b958        0x8 /tmp/cc5ncOKz.ltrans0.ltrans.o
- .bss.gHiiFont  0x000000000000b960        0x8 /tmp/cc5ncOKz.ltrans0.ltrans.o
+                0x000000000000b958        0x8 /tmp/ccFmEsNR.ltrans0.ltrans.o
+ .bss.gHiiFont  0x000000000000b960        0x8 /tmp/ccFmEsNR.ltrans0.ltrans.o
  .bss.gHiiImage
-                0x000000000000b968        0x8 /tmp/cc5ncOKz.ltrans0.ltrans.o
+                0x000000000000b968        0x8 /tmp/ccFmEsNR.ltrans0.ltrans.o
  .bss.gHiiString
-                0x000000000000b970        0x8 /tmp/cc5ncOKz.ltrans0.ltrans.o
+                0x000000000000b970        0x8 /tmp/ccFmEsNR.ltrans0.ltrans.o
  .bss.gImageHandle
-                0x000000000000b978        0x8 /tmp/cc5ncOKz.ltrans0.ltrans.o
- .bss.gRT       0x000000000000b980        0x8 /tmp/cc5ncOKz.ltrans0.ltrans.o
- .bss.gST       0x000000000000b988        0x8 /tmp/cc5ncOKz.ltrans0.ltrans.o
+                0x000000000000b978        0x8 /tmp/ccFmEsNR.ltrans0.ltrans.o
+ .bss.gRT       0x000000000000b980        0x8 /tmp/ccFmEsNR.ltrans0.ltrans.o
+ .bss.gST       0x000000000000b988        0x8 /tmp/ccFmEsNR.ltrans0.ltrans.o
  .bss.mDriverHealthManagerDatabase
-                0x000000000000b990        0x8 /tmp/cc5ncOKz.ltrans0.ltrans.o
+                0x000000000000b990        0x8 /tmp/ccFmEsNR.ltrans0.ltrans.o
  .bss.mDriverHealthManagerHealthInfo
-                0x000000000000b998        0x8 /tmp/cc5ncOKz.ltrans0.ltrans.o
+                0x000000000000b998        0x8 /tmp/ccFmEsNR.ltrans0.ltrans.o
  .bss.mDriverHealthManagerHealthInfoCount
-                0x000000000000b9a0        0x8 /tmp/cc5ncOKz.ltrans0.ltrans.o
+                0x000000000000b9a0        0x8 /tmp/ccFmEsNR.ltrans0.ltrans.o
  .bss.mDriverHealthManagerHiiHandle
-                0x000000000000b9a8        0x8 /tmp/cc5ncOKz.ltrans0.ltrans.o
- .bss.mHobList  0x000000000000b9b0        0x8 /tmp/cc5ncOKz.ltrans0.ltrans.o
- .bss.m_Color   0x000000000000b9b8       0x10 /tmp/cc5ncOKz.ltrans0.ltrans.o
+                0x000000000000b9a8        0x8 /tmp/ccFmEsNR.ltrans0.ltrans.o
+ .bss.mHobList  0x000000000000b9b0        0x8 /tmp/ccFmEsNR.ltrans0.ltrans.o
+ .bss.m_Color   0x000000000000b9b8       0x10 /tmp/ccFmEsNR.ltrans0.ltrans.o
  .bss.m_Initialized
-                0x000000000000b9c8        0x1 /tmp/cc5ncOKz.ltrans0.ltrans.o
+                0x000000000000b9c8        0x1 /tmp/ccFmEsNR.ltrans0.ltrans.o
  *fill*         0x000000000000b9c9        0x7 
  .bss.m_MaxPosition
-                0x000000000000b9d0       0x10 /tmp/cc5ncOKz.ltrans0.ltrans.o
+                0x000000000000b9d0       0x10 /tmp/ccFmEsNR.ltrans0.ltrans.o
  .bss.m_Position
-                0x000000000000b9e0       0x10 /tmp/cc5ncOKz.ltrans0.ltrans.o
+                0x000000000000b9e0       0x10 /tmp/ccFmEsNR.ltrans0.ltrans.o
 
 .dynbss         0x000000000000b9f0        0x0
  .dynbss        0x000000000000b9f0        0x0 /home/evsio0n/src/edk2sdm/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
@@ -1008,27 +1008,27 @@ END GROUP
 OUTPUT(/home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/MdeModulePkg/Universal/DriverHealthManagerDxe/DriverHealthManagerDxe/DEBUG/DriverHealthManagerDxe.dll elf64-littleaarch64)
 
 .debug_info     0x0000000000000000     0xfb43
- .debug_info    0x0000000000000000     0xfb43 /tmp/cc5ncOKz.ltrans0.ltrans.o
+ .debug_info    0x0000000000000000     0xfb43 /tmp/ccFmEsNR.ltrans0.ltrans.o
 
 .debug_abbrev   0x0000000000000000      0x6b8
- .debug_abbrev  0x0000000000000000      0x6b8 /tmp/cc5ncOKz.ltrans0.ltrans.o
+ .debug_abbrev  0x0000000000000000      0x6b8 /tmp/ccFmEsNR.ltrans0.ltrans.o
 
 .debug_loc      0x0000000000000000     0xee79
- .debug_loc     0x0000000000000000     0xee79 /tmp/cc5ncOKz.ltrans0.ltrans.o
+ .debug_loc     0x0000000000000000     0xee79 /tmp/ccFmEsNR.ltrans0.ltrans.o
 
 .debug_aranges  0x0000000000000000      0x780
  .debug_aranges
-                0x0000000000000000      0x780 /tmp/cc5ncOKz.ltrans0.ltrans.o
+                0x0000000000000000      0x780 /tmp/ccFmEsNR.ltrans0.ltrans.o
 
 .debug_ranges   0x0000000000000000     0x13f0
- .debug_ranges  0x0000000000000000     0x13f0 /tmp/cc5ncOKz.ltrans0.ltrans.o
+ .debug_ranges  0x0000000000000000     0x13f0 /tmp/ccFmEsNR.ltrans0.ltrans.o
 
 .debug_line     0x0000000000000000     0x27aa
- .debug_line    0x0000000000000000     0x27aa /tmp/cc5ncOKz.ltrans0.ltrans.o
+ .debug_line    0x0000000000000000     0x27aa /tmp/ccFmEsNR.ltrans0.ltrans.o
 
 .debug_str      0x0000000000000000     0x4d5b
- .debug_str     0x0000000000000000     0x4d5b /tmp/cc5ncOKz.ltrans0.ltrans.o
+ .debug_str     0x0000000000000000     0x4d5b /tmp/ccFmEsNR.ltrans0.ltrans.o
                                        0x550e (松开之前的大小)
 
 .debug_frame    0x0000000000000000     0x15e0
- .debug_frame   0x0000000000000000     0x15e0 /tmp/cc5ncOKz.ltrans0.ltrans.o
+ .debug_frame   0x0000000000000000     0x15e0 /tmp/ccFmEsNR.ltrans0.ltrans.o
