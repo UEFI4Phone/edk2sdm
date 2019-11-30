@@ -1,1 +1,0 @@
-GenSec -s EFI_SECTION_DXE_DEPEX -o /home/evsio0n/src/edk2sdm/Sdm835/workspace/Build/XiaomiMI6Pkg/RELEASE_GCC5/FV/Ffs/49ea041e-6752-42ca-b0b1-7344fe2546b7ArmTimerDxe/49ea041e-6752-42ca-b0b1-7344fe2546b7SEC1.1.dpx /home/evsio0n/src/edk2sdm/Sdm835/workspace/Build/XiaomiMI6Pkg/RELEASE_GCC5/AARCH64/ArmPkg/Drivers/TimerDxe/TimerDxe/OUTPUT/ArmTimerDxe.depex

@@ -1,1 +1,0 @@
-GenSec -s EFI_SECTION_DXE_DEPEX -o /home/evsio0n/src/edk2sdm/Sdm835/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/FV/Ffs/dcfd1e6d-788d-4ffc-8e1b-ca2f75651a92SimpleFbDxe/dcfd1e6d-788d-4ffc-8e1b-ca2f75651a92SEC1.1.dpx /home/evsio0n/src/edk2sdm/Sdm835/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/XiaomiMI6Pkg/SimpleFbDxe/SimpleFbDxe/OUTPUT/SimpleFbDxe.depex

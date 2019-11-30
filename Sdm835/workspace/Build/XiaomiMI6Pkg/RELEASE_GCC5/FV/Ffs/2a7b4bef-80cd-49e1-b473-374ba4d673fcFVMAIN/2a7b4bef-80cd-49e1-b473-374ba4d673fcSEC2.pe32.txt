@@ -1,1 +1,0 @@
-GenSec -s EFI_SECTION_PE32 -o /home/evsio0n/src/edk2sdm/Sdm835/workspace/Build/XiaomiMI6Pkg/RELEASE_GCC5/FV/Ffs/2a7b4bef-80cd-49e1-b473-374ba4d673fcFVMAIN/2a7b4bef-80cd-49e1-b473-374ba4d673fcSEC2.pe32 /home/evsio0n/src/edk2sdm/Sdm835/XiaomiMI6Pkg/Binary/SPMI/SPMI.efi

@@ -1,1 +1,0 @@
-GenSec -s EFI_SECTION_RAW -o /home/evsio0n/src/edk2sdm/Sdm835/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/FV/Ffs/7E374E25-8E01-4FEE-87F2-390C23C606CDXiaomiMI6AcpiTables/7E374E25-8E01-4FEE-87F2-390C23C606CDSEC1.3.raw /home/evsio0n/src/edk2sdm/Sdm835/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/XiaomiMI6Pkg/AcpiTables/AcpiTables/OUTPUT/Gtdt.acpi
