@@ -9,6 +9,17 @@ Build status:
 
 [![Build Status](https://dev.azure.com/1344729087/edk2sdm/_apis/build/status/Evsio0n.edk2sdm?branchName=master)](https://dev.azure.com/1344729087/edk2sdm/_build/latest?definitionId=2&branchName=master)
 
+## How to build
+
+Env: Ubuntu 18.04
+Build with 
+
+`bash ./build.sh` 
+
+You'll get boot.img at 
+
+`./tools/image-new.img`
+
 ## Screenshots
 [![1](https://i.loli.net/2019/11/22/pnwQi7y3JFUHBuL.jpg)](https://i.loli.net/2019/11/22/pnwQi7y3JFUHBuL.jpg)
 [![2](https://i.loli.net/2019/11/22/LsuYZFVDx1Cf83b.jpg)](https://i.loli.net/2019/11/22/LsuYZFVDx1Cf83b.jpg)
