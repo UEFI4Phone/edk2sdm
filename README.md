@@ -11,7 +11,13 @@ Build status:
 
 ## How to build
 
-Env: Ubuntu 18.04
+Tested in :
+
+System|Version
+-|-
+Ubuntu|18.04LTS
+Ubuntu|16.04LTS
+
 Build with 
 
 `bash ./build.sh` 
@@ -25,11 +31,12 @@ You'll get boot.img at
 [![2](https://i.loli.net/2019/11/22/LsuYZFVDx1Cf83b.jpg)](https://i.loli.net/2019/11/22/LsuYZFVDx1Cf83b.jpg)
 [![3](https://i.loli.net/2019/11/22/2h4zTZyNIqGv9Dx.jpg)](https://i.loli.net/2019/11/22/2h4zTZyNIqGv9Dx.jpg)
 Screen is Up.
-Most of things seems fine now!
+Maybe have memory issue.
 
 ## Flash instructions 
 
-Flash a newest official rom with TWRP recovery, then download boot.img at release page flash it then you can get UEFI loader now.  
+Flash a newest official rom with TWRP recovery, then download boot.img at release page flash it then you can get UEFI loader now.Or you can build your self with my script.
 
 ## Status
-I'm building recovery with Mass storage gadget so that some work can be done for Windows ARM64 : )
+I'm building recovery with Mass storage gadget so that some work can be done for Windows ARM64 (Done✅)
+Fix memory with MADT and ACPI stuff.
