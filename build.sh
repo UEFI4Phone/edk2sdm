@@ -5,6 +5,8 @@ echo "[Evsio0n]		Making EFI Booting by Evsio0n"
 echo "[Evsio0n]		Now tested  in  18.04  Ubuntu"
 echo "[Evsio0n]		Build starting..............."
 sleep 5
+echo "[Evsio0n]		Cleaning First..............."
+bash ./clean.sh
 echo "[Evsio0n]		Getting Depandenciences......"
 sudo apt update
 sudo apt install -y build-essential uuid-dev iasl git nasm gcc-aarch64-linux-gnu bc
