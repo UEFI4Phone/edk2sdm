@@ -9,7 +9,7 @@ echo "[Evsio0n]		Cleaning First..............."
 bash ./clean.sh
 echo "[Evsio0n]		Getting Depandenciences......"
 sudo apt update
-sudo apt install -y build-essential uuid-dev iasl git nasm gcc-aarch64-linux-gnu bc
+sudo apt install -y build-essential uuid-dev iasl git nasm gcc-aarch64-linux-gnu bc python3-pip python3-distutils
 curdir="$PWD"
 cd "$curdir"
 export GCC5_AARCH64_PREFIX=aarch64-linux-gnu-
