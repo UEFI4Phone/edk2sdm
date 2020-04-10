@@ -1,8 +1,0 @@
-/mnt/d/TARGET/edk2sdm/edk2/MdePkg/Library/BaseCpuLib/AArch64/CpuSleep.S
-/mnt/d/TARGET/edk2sdm/edk2/MdePkg/Library/BaseCpuLib/BaseCpuLib.inf
-/mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseCpuLib/BaseCpuLib/DEBUG/AutoGen.h
-/mnt/d/TARGET/edk2sdm/edk2/MdePkg/Library/BaseCpuLib/AArch64/CpuSleep.asm
-/mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/AArch64/ProcessorBind.h
-/mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Base.h
-/mnt/d/TARGET/edk2sdm/edk2/MdePkg/Library/BaseCpuLib/AArch64/CpuFlushTlb.S
-/mnt/d/TARGET/edk2sdm/edk2/MdePkg/Library/BaseCpuLib/AArch64/CpuFlushTlb.asm

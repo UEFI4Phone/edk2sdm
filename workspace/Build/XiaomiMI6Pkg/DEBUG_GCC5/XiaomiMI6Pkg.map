@@ -1,6 +1,0 @@
-ArmPlatformPrePiUniCore (Fixed Flash Address, BaseAddress=0x00d0009160, EntryPoint=0x00d0010718)
-(GUID=D959E387-7B91-452C-90E0-A1DBAC90DDB8 .textbaseaddress=0x00d0009240 .databaseaddress=0x00d00126e0)
-(IMAGE=/mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPlatformPkg/PrePi/PeiUniCore/DEBUG/ArmPlatformPrePiUniCore.efi)
-
-
-

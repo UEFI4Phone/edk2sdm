@@ -1,9 +1,0 @@
-/mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Library/DebugLib.h
-/mnt/d/TARGET/edk2sdm/edk2/MdePkg/Library/BaseStackCheckLib/BaseStackCheckNull.c
-/mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Library/PcdLib.h
-/mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/AArch64/ProcessorBind.h
-/mnt/d/TARGET/edk2sdm/edk2/MdePkg/Library/BaseStackCheckLib/BaseStackCheckGcc.c
-/mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Base.h
-/mnt/d/TARGET/edk2sdm/edk2/MdePkg/Library/BaseStackCheckLib/BaseStackCheckLib.inf
-/mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseStackCheckLib/BaseStackCheckLib/DEBUG/AutoGen.h
-/mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Library/BaseLib.h

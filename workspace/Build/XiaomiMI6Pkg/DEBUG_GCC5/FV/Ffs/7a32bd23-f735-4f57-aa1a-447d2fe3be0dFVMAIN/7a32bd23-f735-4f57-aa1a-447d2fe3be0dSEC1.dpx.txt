@@ -1,1 +1,0 @@
-GenSec -s EFI_SECTION_DXE_DEPEX -o /mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/FV/Ffs/7a32bd23-f735-4f57-aa1a-447d2fe3be0dFVMAIN/7a32bd23-f735-4f57-aa1a-447d2fe3be0dSEC1.dpx /mnt/d/TARGET/edk2sdm/Sdm835/XiaomiMI6Pkg/Binary/SPI/SPI.depex
