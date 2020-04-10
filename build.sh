@@ -4,10 +4,11 @@ clear
 echo "[Evsio0n]		Making EFI Booting by Evsio0n"
 echo "[Evsio0n]		Now tested  in  18.04  Ubuntu"
 echo "[Evsio0n]		Build starting..............."
-sleep 5
+sleep 2
 echo "[Evsio0n]		Cleaning First..............."
 bash ./clean.sh
 echo "[Evsio0n]		Getting Depandenciences......"
+mkdir ./workspace
 sudo apt update
 sudo apt install -y build-essential uuid-dev iasl git nasm gcc-aarch64-linux-gnu bc python3-pip python3-distutils
 curdir="$PWD"
@@ -30,6 +31,7 @@ echo "[Evsio0n]		Now make zImages..."
 #cat uefi.img devicetree.dtb >> ./tools/split_img/boot.img-zImage
 #bash ./tools/repackimg.sh
 echo "[Evsio0n]		Build done..........."
+sudo rm -rf ./workspace
 echo "[Evsio0n]		Make Boot.img done..."
 echo "[Evsio0n]		You can see it at ./tools/images-new.img"
 echo "[Evsio0n]		./clean.sh can clean build boot.img"
