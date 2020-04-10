@@ -8,11 +8,11 @@ sleep 2
 echo "[Evsio0n]		Cleaning First..............."
 bash ./clean.sh
 echo "[Evsio0n]		Getting Depandenciences......"
-mkdir ./workspace
 sudo apt update
 sudo apt install -y build-essential uuid-dev iasl git nasm gcc-aarch64-linux-gnu bc python3-pip python3-distutils
 curdir="$PWD"
 cd "$curdir"
+mkdir $PWD/workspace
 export GCC5_AARCH64_PREFIX=aarch64-linux-gnu-
 export PACKAGES_PATH=$PWD/edk2:$PWD/edk2-platforms:$PWD/Sdm835
 export WORKSPACE=$PWD/workspace
@@ -31,7 +31,7 @@ echo "[Evsio0n]		Now make zImages..."
 #cat uefi.img devicetree.dtb >> ./tools/split_img/boot.img-zImage
 #bash ./tools/repackimg.sh
 echo "[Evsio0n]		Build done..........."
-sudo rm -rf ./workspace
+sudo rm -rf $PWD/workspace
 echo "[Evsio0n]		Make Boot.img done..."
 echo "[Evsio0n]		You can see it at ./tools/images-new.img"
 echo "[Evsio0n]		./clean.sh can clean build boot.img"
