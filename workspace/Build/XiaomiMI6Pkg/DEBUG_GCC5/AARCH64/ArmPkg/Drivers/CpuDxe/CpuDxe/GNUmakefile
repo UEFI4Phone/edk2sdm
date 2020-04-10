@@ -19,7 +19,7 @@ PLATFORM_NAME = XiaomiMI6Pkg
 PLATFORM_GUID = 28f1a3bf-193a-47e3-a7b9-5a435eaab2ee
 PLATFORM_VERSION = 0.1
 PLATFORM_RELATIVE_DIR = XiaomiMI6Pkg
-PLATFORM_DIR = /home/evsio0n/src/edk2sdm/Sdm835/XiaomiMI6Pkg
+PLATFORM_DIR = /mnt/d/TARGET/edk2sdm/Sdm835/XiaomiMI6Pkg
 PLATFORM_OUTPUT_DIR = Build/XiaomiMI6Pkg
 
 #
@@ -35,8 +35,8 @@ MODULE_FILE_BASE_NAME = CpuDxe
 BASE_NAME = $(MODULE_NAME)
 MODULE_RELATIVE_DIR = ArmPkg/Drivers/CpuDxe
 PACKAGE_RELATIVE_DIR = Drivers/CpuDxe
-MODULE_DIR = /home/evsio0n/src/edk2sdm/edk2/ArmPkg/Drivers/CpuDxe
-FFS_OUTPUT_DIR = /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/FV/Ffs/B8D9777E-D72A-451F-9BDB-BAFB52A68415ArmCpuDxe
+MODULE_DIR = /mnt/d/TARGET/edk2sdm/edk2/ArmPkg/Drivers/CpuDxe
+FFS_OUTPUT_DIR = /mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/FV/Ffs/B8D9777E-D72A-451F-9BDB-BAFB52A68415ArmCpuDxe
 
 MODULE_ENTRY_POINT = CpuDxeInitialize
 ARCH_ENTRY_POINT = CpuDxeInitialize
@@ -59,13 +59,13 @@ TARGET = DEBUG
 #
 # Build Directory Macro Definition
 #
-# PLATFORM_BUILD_DIR = /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5
-BUILD_DIR = /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5
+# PLATFORM_BUILD_DIR = /mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5
+BUILD_DIR = /mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5
 BIN_DIR = $(BUILD_DIR)/AARCH64
 LIB_DIR = $(BIN_DIR)
-MODULE_BUILD_DIR = /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Drivers/CpuDxe/CpuDxe
-OUTPUT_DIR = /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Drivers/CpuDxe/CpuDxe/OUTPUT
-DEBUG_DIR = /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Drivers/CpuDxe/CpuDxe/DEBUG
+MODULE_BUILD_DIR = /mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Drivers/CpuDxe/CpuDxe
+OUTPUT_DIR = /mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Drivers/CpuDxe/CpuDxe/OUTPUT
+DEBUG_DIR = /mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Drivers/CpuDxe/CpuDxe/DEBUG
 DEST_DIR_OUTPUT = $(OUTPUT_DIR)
 DEST_DIR_DEBUG = $(DEBUG_DIR)
 
@@ -169,7 +169,7 @@ PP_FLAGS = $(ARCHCC_FLAGS) $(PLATFORM_FLAGS) -E -x assembler-with-cpp -include $
 VFRPP = aarch64-linux-gnu-gcc
 VFRPP_FLAGS = $(ARCHCC_FLAGS) $(PLATFORM_FLAGS) -x c -E -P -DVFRCOMPILE --include $(DEST_DIR_DEBUG)/$(MODULE_NAME)StrDefs.h
 
-DLINK_FLAGS = -Wl,--emit-relocs -nostdlib -Wl,--gc-sections -u $(IMAGE_ENTRY_POINT) -Wl,-e,$(IMAGE_ENTRY_POINT),-Map,$(DEST_DIR_DEBUG)/$(BASE_NAME).map -z common-page-size=0x20 -z common-page-size=0x1000 -flto -Os -L/home/evsio0n/src/edk2sdm/edk2/ArmPkg/Library/GccLto -llto-aarch64 -Wl,-plugin-opt=-pass-through=-llto-aarch64 -Wno-lto-type-mismatch
+DLINK_FLAGS = -Wl,--emit-relocs -nostdlib -Wl,--gc-sections -u $(IMAGE_ENTRY_POINT) -Wl,-e,$(IMAGE_ENTRY_POINT),-Map,$(DEST_DIR_DEBUG)/$(BASE_NAME).map -z common-page-size=0x20 -z common-page-size=0x1000 -flto -Os -L/mnt/d/TARGET/edk2sdm/edk2/ArmPkg/Library/GccLto -llto-aarch64 -Wl,-plugin-opt=-pass-through=-llto-aarch64 -Wno-lto-type-mismatch
 DLINK_XIPFLAGS =  -z common-page-size=0x20
 DLINK = aarch64-linux-gnu-gcc
 
@@ -236,64 +236,64 @@ OBJECT_FILES =  \
     $(OUTPUT_DIR)/AutoGen.obj
 
 INC =  \
-    -I/home/evsio0n/src/edk2sdm/edk2/ArmPkg/Drivers/CpuDxe/AArch64 \
-    -I/home/evsio0n/src/edk2sdm/edk2/ArmPkg/Drivers/CpuDxe \
+    -I/mnt/d/TARGET/edk2sdm/edk2/ArmPkg/Drivers/CpuDxe/AArch64 \
+    -I/mnt/d/TARGET/edk2sdm/edk2/ArmPkg/Drivers/CpuDxe \
     -I$(DEBUG_DIR) \
-    -I/home/evsio0n/src/edk2sdm/edk2/ArmPkg \
-    -I/home/evsio0n/src/edk2sdm/edk2/ArmPkg/Include \
-    -I/home/evsio0n/src/edk2sdm/edk2/EmbeddedPkg \
-    -I/home/evsio0n/src/edk2sdm/edk2/EmbeddedPkg/Include \
-    -I/home/evsio0n/src/edk2sdm/edk2/MdePkg \
-    -I/home/evsio0n/src/edk2sdm/edk2/MdePkg/Include \
-    -I/home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/AArch64 \
-    -I/home/evsio0n/src/edk2sdm/edk2/MdeModulePkg \
-    -I/home/evsio0n/src/edk2sdm/edk2/MdeModulePkg/Include
+    -I/mnt/d/TARGET/edk2sdm/edk2/ArmPkg \
+    -I/mnt/d/TARGET/edk2sdm/edk2/ArmPkg/Include \
+    -I/mnt/d/TARGET/edk2sdm/edk2/EmbeddedPkg \
+    -I/mnt/d/TARGET/edk2sdm/edk2/EmbeddedPkg/Include \
+    -I/mnt/d/TARGET/edk2sdm/edk2/MdePkg \
+    -I/mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include \
+    -I/mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/AArch64 \
+    -I/mnt/d/TARGET/edk2sdm/edk2/MdeModulePkg \
+    -I/mnt/d/TARGET/edk2sdm/edk2/MdeModulePkg/Include
 
-STATIC_LIBRARY_FILES_LIST = /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Drivers/CpuDxe/CpuDxe/OUTPUT/static_library_files.lst
-OBJECT_FILES_LIST = /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Drivers/CpuDxe/CpuDxe/OUTPUT/object_files.lst
+STATIC_LIBRARY_FILES_LIST = /mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Drivers/CpuDxe/CpuDxe/OUTPUT/static_library_files.lst
+OBJECT_FILES_LIST = /mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Drivers/CpuDxe/CpuDxe/OUTPUT/object_files.lst
 
 
-COMMON_DEPS = /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Pi/PiHob.h \
-              /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/IndustryStandard/Acpi50.h \
-              /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Protocol/SimpleTextOut.h \
-              /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/IndustryStandard/Acpi20.h \
-              /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Guid/WinCertificate.h \
-              /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Pi/PiDxeCis.h \
-              /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Library/DebugLib.h \
-              /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Protocol/SimpleTextIn.h \
-              /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Pi/PiFirmwareFile.h \
-              /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Uefi/UefiMultiPhase.h \
-              /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Pi/PiS3BootScript.h \
-              /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/IndustryStandard/Acpi30.h \
-              /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/PiDxe.h \
-              /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Uefi/UefiInternalFormRepresentation.h \
-              /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/IndustryStandard/Acpi40.h \
-              /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/AArch64/ProcessorBind.h \
-              /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Pi/PiStatusCode.h \
-              /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Protocol/DevicePath.h \
-              /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Guid/PcAnsi.h \
-              /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/IndustryStandard/PeImage.h \
-              /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Uefi/UefiPxe.h \
-              /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Base.h \
-              /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Library/UefiBootServicesTableLib.h \
-              /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Pi/PiMultiPhase.h \
-              /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Guid/HiiFormMapMethodGuid.h \
-              /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/IndustryStandard/Bluetooth.h \
-              /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Library/BaseMemoryLib.h \
-              /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/IndustryStandard/Acpi10.h \
-              /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Pi/PiDependency.h \
-              /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Protocol/DebugSupport.h \
-              /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Uefi/UefiSpec.h \
-              /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/IndustryStandard/Acpi51.h \
-              /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/IndustryStandard/AcpiAml.h \
+COMMON_DEPS = /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Guid/HiiFormMapMethodGuid.h \
+              /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Uefi/UefiGpt.h \
+              /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/IndustryStandard/Bluetooth.h \
+              /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Uefi/UefiInternalFormRepresentation.h \
+              /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Protocol/DevicePath.h \
+              /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Protocol/SimpleTextOut.h \
+              /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/IndustryStandard/Acpi10.h \
+              /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Pi/PiBootMode.h \
+              /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Library/UefiBootServicesTableLib.h \
+              /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/IndustryStandard/PeImage.h \
+              /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Pi/PiMultiPhase.h \
+              /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Protocol/DebugSupport.h \
+              /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/IndustryStandard/Acpi60.h \
+              /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Pi/PiFirmwareFile.h \
+              /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Pi/PiHob.h \
+              /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Guid/WinCertificate.h \
+              /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Pi/PiFirmwareVolume.h \
+              /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/IndustryStandard/Acpi51.h \
+              /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Library/DebugLib.h \
+              /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Pi/PiS3BootScript.h \
+              /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Pi/PiDependency.h \
+              /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Protocol/SimpleTextInEx.h \
+              /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Library/PcdLib.h \
+              /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Protocol/SimpleTextIn.h \
+              /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/AArch64/ProcessorBind.h \
+              /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Uefi/UefiPxe.h \
+              /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Library/BaseMemoryLib.h \
+              /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Guid/PcAnsi.h \
+              /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Uefi/UefiMultiPhase.h \
+              /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/IndustryStandard/Acpi50.h \
+              /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/IndustryStandard/Acpi20.h \
+              /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/IndustryStandard/AcpiAml.h \
+              /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/IndustryStandard/Acpi30.h \
               $(DEBUG_DIR)/AutoGen.h \
-              /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Pi/PiFirmwareVolume.h \
-              /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Library/PcdLib.h \
-              /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Uefi/UefiBaseType.h \
-              /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Protocol/SimpleTextInEx.h \
-              /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/IndustryStandard/Acpi60.h \
-              /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Uefi/UefiGpt.h \
-              /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Pi/PiBootMode.h \
+              /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Pi/PiDxeCis.h \
+              /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Base.h \
+              /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Pi/PiStatusCode.h \
+              /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Uefi/UefiBaseType.h \
+              /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/PiDxe.h \
+              /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/IndustryStandard/Acpi40.h \
+              /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Uefi/UefiSpec.h \
               
 
 #
@@ -303,7 +303,7 @@ FORCE_REBUILD = force_build
 INIT_TARGET = init
 PCH_TARGET =
 BC_TARGET = 
-CODA_TARGET = /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Drivers/CpuDxe/CpuDxe/OUTPUT/ArmCpuDxe.efi \
+CODA_TARGET = /mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Drivers/CpuDxe/CpuDxe/OUTPUT/ArmCpuDxe.efi \
               
 
 #
@@ -404,222 +404,222 @@ gen_fds:
 $(DEBUG_DIR)/ArmCpuDxe.dll : $(MAKE_FILE)
 $(DEBUG_DIR)/ArmCpuDxe.dll : $(STATIC_LIBRARY_FILES)
 $(DEBUG_DIR)/ArmCpuDxe.dll : $(STATIC_LIBRARY_FILES_LIST)
-	"$(DLINK)" -o /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Drivers/CpuDxe/CpuDxe/DEBUG/ArmCpuDxe.dll $(DLINK_FLAGS) -Wl,--start-group,@$(STATIC_LIBRARY_FILES_LIST),--end-group $(CC_FLAGS) $(DLINK2_FLAGS)
-	"$(OBJCOPY)" $(OBJCOPY_FLAGS) /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Drivers/CpuDxe/CpuDxe/DEBUG/ArmCpuDxe.dll
+	"$(DLINK)" -o /mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Drivers/CpuDxe/CpuDxe/DEBUG/ArmCpuDxe.dll $(DLINK_FLAGS) -Wl,--start-group,@$(STATIC_LIBRARY_FILES_LIST),--end-group $(CC_FLAGS) $(DLINK2_FLAGS)
+	"$(OBJCOPY)" $(OBJCOPY_FLAGS) /mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Drivers/CpuDxe/CpuDxe/DEBUG/ArmCpuDxe.dll
 
 $(OUTPUT_DIR)/ArmCpuDxe.efi : $(DEBUG_DIR)/ArmCpuDxe.dll
-	$(CP) /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Drivers/CpuDxe/CpuDxe/DEBUG/ArmCpuDxe.dll $(DEBUG_DIR)/$(MODULE_NAME).debug
-	$(OBJCOPY) --strip-unneeded -R .eh_frame /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Drivers/CpuDxe/CpuDxe/DEBUG/ArmCpuDxe.dll
-	-$(OBJCOPY) $(OBJCOPY_ADDDEBUGFLAG) /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Drivers/CpuDxe/CpuDxe/DEBUG/ArmCpuDxe.dll
+	$(CP) /mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Drivers/CpuDxe/CpuDxe/DEBUG/ArmCpuDxe.dll $(DEBUG_DIR)/$(MODULE_NAME).debug
+	$(OBJCOPY) --strip-unneeded -R .eh_frame /mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Drivers/CpuDxe/CpuDxe/DEBUG/ArmCpuDxe.dll
+	-$(OBJCOPY) $(OBJCOPY_ADDDEBUGFLAG) /mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Drivers/CpuDxe/CpuDxe/DEBUG/ArmCpuDxe.dll
 	-$(CP) $(DEBUG_DIR)/$(MODULE_NAME).debug $(BIN_DIR)/$(MODULE_NAME_GUID).debug
-	"$(GENFW)" -e $(MODULE_TYPE) -o /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Drivers/CpuDxe/CpuDxe/OUTPUT/ArmCpuDxe.efi /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Drivers/CpuDxe/CpuDxe/DEBUG/ArmCpuDxe.dll $(GENFW_FLAGS)
-	$(CP) /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Drivers/CpuDxe/CpuDxe/OUTPUT/ArmCpuDxe.efi $(DEBUG_DIR)
-	$(CP) /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Drivers/CpuDxe/CpuDxe/OUTPUT/ArmCpuDxe.efi $(BIN_DIR)/$(MODULE_NAME_GUID).efi
+	"$(GENFW)" -e $(MODULE_TYPE) -o /mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Drivers/CpuDxe/CpuDxe/OUTPUT/ArmCpuDxe.efi /mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Drivers/CpuDxe/CpuDxe/DEBUG/ArmCpuDxe.dll $(GENFW_FLAGS)
+	$(CP) /mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Drivers/CpuDxe/CpuDxe/OUTPUT/ArmCpuDxe.efi $(DEBUG_DIR)
+	$(CP) /mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Drivers/CpuDxe/CpuDxe/OUTPUT/ArmCpuDxe.efi $(BIN_DIR)/$(MODULE_NAME_GUID).efi
 	-$(CP) $(DEBUG_DIR)/*.map $(OUTPUT_DIR)
-
-$(OUTPUT_DIR)/CpuMpCore.obj : $(MAKE_FILE)
-$(OUTPUT_DIR)/CpuMpCore.obj : $(COMMON_DEPS)
-$(OUTPUT_DIR)/CpuMpCore.obj : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Library/MemoryAllocationLib.h
-$(OUTPUT_DIR)/CpuMpCore.obj : /home/evsio0n/src/edk2sdm/edk2/ArmPkg/Include/Guid/ArmMpCoreInfo.h
-$(OUTPUT_DIR)/CpuMpCore.obj : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Library/HobLib.h
-$(OUTPUT_DIR)/CpuMpCore.obj : /home/evsio0n/src/edk2sdm/edk2/ArmPkg/Drivers/CpuDxe/CpuMpCore.c
-	"$(CC)" $(CC_FLAGS) -c -o /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Drivers/CpuDxe/CpuDxe/OUTPUT/./CpuMpCore.obj $(INC) /home/evsio0n/src/edk2sdm/edk2/ArmPkg/Drivers/CpuDxe/CpuMpCore.c
-
-$(OUTPUT_DIR)/AutoGen.obj : $(MAKE_FILE)
-$(OUTPUT_DIR)/AutoGen.obj : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Pi/PiHob.h
-$(OUTPUT_DIR)/AutoGen.obj : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/IndustryStandard/Acpi50.h
-$(OUTPUT_DIR)/AutoGen.obj : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Protocol/SimpleTextOut.h
-$(OUTPUT_DIR)/AutoGen.obj : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Guid/WinCertificate.h
-$(OUTPUT_DIR)/AutoGen.obj : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/IndustryStandard/Acpi20.h
-$(OUTPUT_DIR)/AutoGen.obj : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Pi/PiDxeCis.h
-$(OUTPUT_DIR)/AutoGen.obj : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Library/DebugLib.h
-$(OUTPUT_DIR)/AutoGen.obj : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Protocol/SimpleTextIn.h
-$(OUTPUT_DIR)/AutoGen.obj : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Pi/PiFirmwareFile.h
-$(OUTPUT_DIR)/AutoGen.obj : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Uefi/UefiMultiPhase.h
-$(OUTPUT_DIR)/AutoGen.obj : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Pi/PiS3BootScript.h
-$(OUTPUT_DIR)/AutoGen.obj : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/IndustryStandard/Acpi30.h
-$(OUTPUT_DIR)/AutoGen.obj : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/PiDxe.h
-$(OUTPUT_DIR)/AutoGen.obj : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Uefi/UefiInternalFormRepresentation.h
-$(OUTPUT_DIR)/AutoGen.obj : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/IndustryStandard/Acpi40.h
-$(OUTPUT_DIR)/AutoGen.obj : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/AArch64/ProcessorBind.h
-$(OUTPUT_DIR)/AutoGen.obj : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Pi/PiStatusCode.h
-$(OUTPUT_DIR)/AutoGen.obj : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Protocol/DevicePath.h
-$(OUTPUT_DIR)/AutoGen.obj : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Guid/PcAnsi.h
-$(OUTPUT_DIR)/AutoGen.obj : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/IndustryStandard/PeImage.h
-$(OUTPUT_DIR)/AutoGen.obj : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Uefi/UefiPxe.h
-$(OUTPUT_DIR)/AutoGen.obj : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Base.h
-$(OUTPUT_DIR)/AutoGen.obj : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Library/UefiBootServicesTableLib.h
-$(OUTPUT_DIR)/AutoGen.obj : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Library/BaseLib.h
-$(OUTPUT_DIR)/AutoGen.obj : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Pi/PiMultiPhase.h
-$(OUTPUT_DIR)/AutoGen.obj : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Guid/HiiFormMapMethodGuid.h
-$(OUTPUT_DIR)/AutoGen.obj : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/IndustryStandard/Bluetooth.h
-$(OUTPUT_DIR)/AutoGen.obj : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/IndustryStandard/Acpi10.h
-$(OUTPUT_DIR)/AutoGen.obj : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Pi/PiDependency.h
-$(OUTPUT_DIR)/AutoGen.obj : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Protocol/DebugSupport.h
-$(OUTPUT_DIR)/AutoGen.obj : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Uefi/UefiSpec.h
-$(OUTPUT_DIR)/AutoGen.obj : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/IndustryStandard/Acpi51.h
-$(OUTPUT_DIR)/AutoGen.obj : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/IndustryStandard/AcpiAml.h
-$(OUTPUT_DIR)/AutoGen.obj : $(DEBUG_DIR)/AutoGen.h
-$(OUTPUT_DIR)/AutoGen.obj : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Pi/PiFirmwareVolume.h
-$(OUTPUT_DIR)/AutoGen.obj : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Library/UefiDriverEntryPoint.h
-$(OUTPUT_DIR)/AutoGen.obj : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Library/PcdLib.h
-$(OUTPUT_DIR)/AutoGen.obj : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Uefi/UefiBaseType.h
-$(OUTPUT_DIR)/AutoGen.obj : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Protocol/SimpleTextInEx.h
-$(OUTPUT_DIR)/AutoGen.obj : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/IndustryStandard/Acpi60.h
-$(OUTPUT_DIR)/AutoGen.obj : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Uefi/UefiGpt.h
-$(OUTPUT_DIR)/AutoGen.obj : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Pi/PiBootMode.h
-$(OUTPUT_DIR)/AutoGen.obj : $(DEBUG_DIR)/AutoGen.c
-	"$(CC)" $(CC_FLAGS) -c -o /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Drivers/CpuDxe/CpuDxe/OUTPUT/./AutoGen.obj $(INC) /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Drivers/CpuDxe/CpuDxe/DEBUG/AutoGen.c
-
-$(OUTPUT_DIR)/CpuDxe.obj : $(MAKE_FILE)
-$(OUTPUT_DIR)/CpuDxe.obj : $(COMMON_DEPS)
-$(OUTPUT_DIR)/CpuDxe.obj : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Protocol/GraphicsOutput.h
-$(OUTPUT_DIR)/CpuDxe.obj : /home/evsio0n/src/edk2sdm/edk2/ArmPkg/Include/Chipset/AArch64Mmu.h
-$(OUTPUT_DIR)/CpuDxe.obj : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Protocol/DriverDiagnostics2.h
-$(OUTPUT_DIR)/CpuDxe.obj : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Protocol/LoadedImage.h
-$(OUTPUT_DIR)/CpuDxe.obj : /home/evsio0n/src/edk2sdm/edk2/ArmPkg/Include/Library/ArmLib.h
-$(OUTPUT_DIR)/CpuDxe.obj : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Protocol/ComponentName.h
-$(OUTPUT_DIR)/CpuDxe.obj : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Protocol/DriverConfiguration.h
-$(OUTPUT_DIR)/CpuDxe.obj : /home/evsio0n/src/edk2sdm/edk2/ArmPkg/Include/Library/ArmMmuLib.h
-$(OUTPUT_DIR)/CpuDxe.obj : /home/evsio0n/src/edk2sdm/edk2/ArmPkg/Drivers/CpuDxe/CpuDxe.h
-$(OUTPUT_DIR)/CpuDxe.obj : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Library/DxeServicesTableLib.h
-$(OUTPUT_DIR)/CpuDxe.obj : /home/evsio0n/src/edk2sdm/edk2/ArmPkg/Include/Chipset/ArmV7.h
-$(OUTPUT_DIR)/CpuDxe.obj : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Protocol/DriverBinding.h
-$(OUTPUT_DIR)/CpuDxe.obj : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Uefi.h
-$(OUTPUT_DIR)/CpuDxe.obj : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Library/UefiLib.h
-$(OUTPUT_DIR)/CpuDxe.obj : /home/evsio0n/src/edk2sdm/edk2/ArmPkg/Include/Library/DefaultExceptionHandlerLib.h
-$(OUTPUT_DIR)/CpuDxe.obj : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Library/BaseLib.h
-$(OUTPUT_DIR)/CpuDxe.obj : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/IndustryStandard/Acpi.h
-$(OUTPUT_DIR)/CpuDxe.obj : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Guid/DebugImageInfoTable.h
-$(OUTPUT_DIR)/CpuDxe.obj : /home/evsio0n/src/edk2sdm/edk2/ArmPkg/Include/Chipset/AArch64.h
-$(OUTPUT_DIR)/CpuDxe.obj : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Library/CpuLib.h
-$(OUTPUT_DIR)/CpuDxe.obj : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Protocol/DriverDiagnostics.h
-$(OUTPUT_DIR)/CpuDxe.obj : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Protocol/ComponentName2.h
-$(OUTPUT_DIR)/CpuDxe.obj : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/IndustryStandard/Acpi62.h
-$(OUTPUT_DIR)/CpuDxe.obj : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Protocol/Cpu.h
-$(OUTPUT_DIR)/CpuDxe.obj : /home/evsio0n/src/edk2sdm/edk2/MdeModulePkg/Include/Guid/IdleLoopEvent.h
-$(OUTPUT_DIR)/CpuDxe.obj : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Protocol/SimpleFileSystem.h
-$(OUTPUT_DIR)/CpuDxe.obj : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Protocol/DriverConfiguration2.h
-$(OUTPUT_DIR)/CpuDxe.obj : /home/evsio0n/src/edk2sdm/edk2/ArmPkg/Include/Chipset/ArmV7Mmu.h
-$(OUTPUT_DIR)/CpuDxe.obj : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Library/PeCoffGetEntryPointLib.h
-$(OUTPUT_DIR)/CpuDxe.obj : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Library/CacheMaintenanceLib.h
-$(OUTPUT_DIR)/CpuDxe.obj : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/IndustryStandard/Acpi61.h
-$(OUTPUT_DIR)/CpuDxe.obj : /home/evsio0n/src/edk2sdm/edk2/ArmPkg/Drivers/CpuDxe/CpuDxe.c
-	"$(CC)" $(CC_FLAGS) -c -o /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Drivers/CpuDxe/CpuDxe/OUTPUT/./CpuDxe.obj $(INC) /home/evsio0n/src/edk2sdm/edk2/ArmPkg/Drivers/CpuDxe/CpuDxe.c
-
-$(OUTPUT_DIR)/AArch64/Mmu.obj : $(MAKE_FILE)
-$(OUTPUT_DIR)/AArch64/Mmu.obj : $(COMMON_DEPS)
-$(OUTPUT_DIR)/AArch64/Mmu.obj : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Protocol/GraphicsOutput.h
-$(OUTPUT_DIR)/AArch64/Mmu.obj : /home/evsio0n/src/edk2sdm/edk2/ArmPkg/Include/Chipset/AArch64Mmu.h
-$(OUTPUT_DIR)/AArch64/Mmu.obj : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Protocol/DriverDiagnostics2.h
-$(OUTPUT_DIR)/AArch64/Mmu.obj : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Protocol/LoadedImage.h
-$(OUTPUT_DIR)/AArch64/Mmu.obj : /home/evsio0n/src/edk2sdm/edk2/ArmPkg/Include/Library/ArmLib.h
-$(OUTPUT_DIR)/AArch64/Mmu.obj : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Protocol/ComponentName.h
-$(OUTPUT_DIR)/AArch64/Mmu.obj : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Protocol/DriverConfiguration.h
-$(OUTPUT_DIR)/AArch64/Mmu.obj : /home/evsio0n/src/edk2sdm/edk2/ArmPkg/Include/Library/ArmMmuLib.h
-$(OUTPUT_DIR)/AArch64/Mmu.obj : /home/evsio0n/src/edk2sdm/edk2/ArmPkg/Drivers/CpuDxe/CpuDxe.h
-$(OUTPUT_DIR)/AArch64/Mmu.obj : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Library/DxeServicesTableLib.h
-$(OUTPUT_DIR)/AArch64/Mmu.obj : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Library/MemoryAllocationLib.h
-$(OUTPUT_DIR)/AArch64/Mmu.obj : /home/evsio0n/src/edk2sdm/edk2/ArmPkg/Include/Chipset/ArmV7.h
-$(OUTPUT_DIR)/AArch64/Mmu.obj : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Protocol/DriverBinding.h
-$(OUTPUT_DIR)/AArch64/Mmu.obj : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Uefi.h
-$(OUTPUT_DIR)/AArch64/Mmu.obj : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Library/UefiLib.h
-$(OUTPUT_DIR)/AArch64/Mmu.obj : /home/evsio0n/src/edk2sdm/edk2/ArmPkg/Include/Library/DefaultExceptionHandlerLib.h
-$(OUTPUT_DIR)/AArch64/Mmu.obj : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Library/BaseLib.h
-$(OUTPUT_DIR)/AArch64/Mmu.obj : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/IndustryStandard/Acpi.h
-$(OUTPUT_DIR)/AArch64/Mmu.obj : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Guid/DebugImageInfoTable.h
-$(OUTPUT_DIR)/AArch64/Mmu.obj : /home/evsio0n/src/edk2sdm/edk2/ArmPkg/Include/Chipset/AArch64.h
-$(OUTPUT_DIR)/AArch64/Mmu.obj : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Library/CpuLib.h
-$(OUTPUT_DIR)/AArch64/Mmu.obj : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Protocol/DriverDiagnostics.h
-$(OUTPUT_DIR)/AArch64/Mmu.obj : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Protocol/ComponentName2.h
-$(OUTPUT_DIR)/AArch64/Mmu.obj : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/IndustryStandard/Acpi62.h
-$(OUTPUT_DIR)/AArch64/Mmu.obj : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Protocol/Cpu.h
-$(OUTPUT_DIR)/AArch64/Mmu.obj : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Protocol/SimpleFileSystem.h
-$(OUTPUT_DIR)/AArch64/Mmu.obj : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Protocol/DriverConfiguration2.h
-$(OUTPUT_DIR)/AArch64/Mmu.obj : /home/evsio0n/src/edk2sdm/edk2/ArmPkg/Include/Chipset/ArmV7Mmu.h
-$(OUTPUT_DIR)/AArch64/Mmu.obj : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Library/PeCoffGetEntryPointLib.h
-$(OUTPUT_DIR)/AArch64/Mmu.obj : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Library/CacheMaintenanceLib.h
-$(OUTPUT_DIR)/AArch64/Mmu.obj : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/IndustryStandard/Acpi61.h
-$(OUTPUT_DIR)/AArch64/Mmu.obj : /home/evsio0n/src/edk2sdm/edk2/ArmPkg/Drivers/CpuDxe/AArch64/Mmu.c
-	"$(CC)" $(CC_FLAGS) -c -o /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Drivers/CpuDxe/CpuDxe/OUTPUT/AArch64/Mmu.obj $(INC) /home/evsio0n/src/edk2sdm/edk2/ArmPkg/Drivers/CpuDxe/AArch64/Mmu.c
-
-$(OUTPUT_DIR)/Exception.obj : $(MAKE_FILE)
-$(OUTPUT_DIR)/Exception.obj : $(COMMON_DEPS)
-$(OUTPUT_DIR)/Exception.obj : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Ppi/VectorHandoffInfo.h
-$(OUTPUT_DIR)/Exception.obj : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Protocol/LoadedImage.h
-$(OUTPUT_DIR)/Exception.obj : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Protocol/DriverConfiguration.h
-$(OUTPUT_DIR)/Exception.obj : /home/evsio0n/src/edk2sdm/edk2/ArmPkg/Include/Library/ArmMmuLib.h
-$(OUTPUT_DIR)/Exception.obj : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Library/DxeServicesTableLib.h
-$(OUTPUT_DIR)/Exception.obj : /home/evsio0n/src/edk2sdm/edk2/ArmPkg/Include/Library/DefaultExceptionHandlerLib.h
-$(OUTPUT_DIR)/Exception.obj : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Library/BaseLib.h
-$(OUTPUT_DIR)/Exception.obj : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Guid/DebugImageInfoTable.h
-$(OUTPUT_DIR)/Exception.obj : /home/evsio0n/src/edk2sdm/edk2/ArmPkg/Include/Chipset/AArch64.h
-$(OUTPUT_DIR)/Exception.obj : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Guid/VectorHandoffTable.h
-$(OUTPUT_DIR)/Exception.obj : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Protocol/SimpleFileSystem.h
-$(OUTPUT_DIR)/Exception.obj : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Protocol/DriverConfiguration2.h
-$(OUTPUT_DIR)/Exception.obj : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Protocol/GraphicsOutput.h
-$(OUTPUT_DIR)/Exception.obj : /home/evsio0n/src/edk2sdm/edk2/ArmPkg/Include/Chipset/AArch64Mmu.h
-$(OUTPUT_DIR)/Exception.obj : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Protocol/DriverDiagnostics2.h
-$(OUTPUT_DIR)/Exception.obj : /home/evsio0n/src/edk2sdm/edk2/ArmPkg/Include/Library/ArmLib.h
-$(OUTPUT_DIR)/Exception.obj : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Protocol/ComponentName.h
-$(OUTPUT_DIR)/Exception.obj : /home/evsio0n/src/edk2sdm/edk2/ArmPkg/Drivers/CpuDxe/CpuDxe.h
-$(OUTPUT_DIR)/Exception.obj : /home/evsio0n/src/edk2sdm/edk2/ArmPkg/Include/Chipset/ArmV7.h
-$(OUTPUT_DIR)/Exception.obj : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Protocol/DriverBinding.h
-$(OUTPUT_DIR)/Exception.obj : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Uefi.h
-$(OUTPUT_DIR)/Exception.obj : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Library/UefiLib.h
-$(OUTPUT_DIR)/Exception.obj : /home/evsio0n/src/edk2sdm/edk2/MdeModulePkg/Include/Library/CpuExceptionHandlerLib.h
-$(OUTPUT_DIR)/Exception.obj : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/IndustryStandard/Acpi.h
-$(OUTPUT_DIR)/Exception.obj : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Library/CpuLib.h
-$(OUTPUT_DIR)/Exception.obj : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Protocol/DriverDiagnostics.h
-$(OUTPUT_DIR)/Exception.obj : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Protocol/ComponentName2.h
-$(OUTPUT_DIR)/Exception.obj : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/IndustryStandard/Acpi62.h
-$(OUTPUT_DIR)/Exception.obj : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Protocol/Cpu.h
-$(OUTPUT_DIR)/Exception.obj : /home/evsio0n/src/edk2sdm/edk2/ArmPkg/Include/Chipset/ArmV7Mmu.h
-$(OUTPUT_DIR)/Exception.obj : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Library/PeCoffGetEntryPointLib.h
-$(OUTPUT_DIR)/Exception.obj : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Library/CacheMaintenanceLib.h
-$(OUTPUT_DIR)/Exception.obj : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/IndustryStandard/Acpi61.h
-$(OUTPUT_DIR)/Exception.obj : /home/evsio0n/src/edk2sdm/edk2/ArmPkg/Drivers/CpuDxe/Exception.c
-	"$(CC)" $(CC_FLAGS) -c -o /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Drivers/CpuDxe/CpuDxe/OUTPUT/./Exception.obj $(INC) /home/evsio0n/src/edk2sdm/edk2/ArmPkg/Drivers/CpuDxe/Exception.c
 
 $(OUTPUT_DIR)/CpuMmuCommon.obj : $(MAKE_FILE)
 $(OUTPUT_DIR)/CpuMmuCommon.obj : $(COMMON_DEPS)
-$(OUTPUT_DIR)/CpuMmuCommon.obj : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Protocol/GraphicsOutput.h
-$(OUTPUT_DIR)/CpuMmuCommon.obj : /home/evsio0n/src/edk2sdm/edk2/ArmPkg/Include/Chipset/AArch64Mmu.h
-$(OUTPUT_DIR)/CpuMmuCommon.obj : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Protocol/DriverDiagnostics2.h
-$(OUTPUT_DIR)/CpuMmuCommon.obj : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Protocol/LoadedImage.h
-$(OUTPUT_DIR)/CpuMmuCommon.obj : /home/evsio0n/src/edk2sdm/edk2/ArmPkg/Include/Library/ArmLib.h
-$(OUTPUT_DIR)/CpuMmuCommon.obj : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Protocol/ComponentName.h
-$(OUTPUT_DIR)/CpuMmuCommon.obj : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Protocol/DriverConfiguration.h
-$(OUTPUT_DIR)/CpuMmuCommon.obj : /home/evsio0n/src/edk2sdm/edk2/ArmPkg/Include/Library/ArmMmuLib.h
-$(OUTPUT_DIR)/CpuMmuCommon.obj : /home/evsio0n/src/edk2sdm/edk2/ArmPkg/Drivers/CpuDxe/CpuDxe.h
-$(OUTPUT_DIR)/CpuMmuCommon.obj : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Library/DxeServicesTableLib.h
-$(OUTPUT_DIR)/CpuMmuCommon.obj : /home/evsio0n/src/edk2sdm/edk2/ArmPkg/Include/Chipset/ArmV7.h
-$(OUTPUT_DIR)/CpuMmuCommon.obj : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Protocol/DriverBinding.h
-$(OUTPUT_DIR)/CpuMmuCommon.obj : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Uefi.h
-$(OUTPUT_DIR)/CpuMmuCommon.obj : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Library/UefiLib.h
-$(OUTPUT_DIR)/CpuMmuCommon.obj : /home/evsio0n/src/edk2sdm/edk2/ArmPkg/Include/Library/DefaultExceptionHandlerLib.h
-$(OUTPUT_DIR)/CpuMmuCommon.obj : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Library/BaseLib.h
-$(OUTPUT_DIR)/CpuMmuCommon.obj : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/IndustryStandard/Acpi.h
-$(OUTPUT_DIR)/CpuMmuCommon.obj : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Guid/DebugImageInfoTable.h
-$(OUTPUT_DIR)/CpuMmuCommon.obj : /home/evsio0n/src/edk2sdm/edk2/ArmPkg/Include/Chipset/AArch64.h
-$(OUTPUT_DIR)/CpuMmuCommon.obj : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Library/CpuLib.h
-$(OUTPUT_DIR)/CpuMmuCommon.obj : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Protocol/DriverDiagnostics.h
-$(OUTPUT_DIR)/CpuMmuCommon.obj : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Protocol/ComponentName2.h
-$(OUTPUT_DIR)/CpuMmuCommon.obj : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/IndustryStandard/Acpi62.h
-$(OUTPUT_DIR)/CpuMmuCommon.obj : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Protocol/Cpu.h
-$(OUTPUT_DIR)/CpuMmuCommon.obj : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Protocol/SimpleFileSystem.h
-$(OUTPUT_DIR)/CpuMmuCommon.obj : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Protocol/DriverConfiguration2.h
-$(OUTPUT_DIR)/CpuMmuCommon.obj : /home/evsio0n/src/edk2sdm/edk2/ArmPkg/Include/Chipset/ArmV7Mmu.h
-$(OUTPUT_DIR)/CpuMmuCommon.obj : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Library/PeCoffGetEntryPointLib.h
-$(OUTPUT_DIR)/CpuMmuCommon.obj : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Library/CacheMaintenanceLib.h
-$(OUTPUT_DIR)/CpuMmuCommon.obj : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/IndustryStandard/Acpi61.h
-$(OUTPUT_DIR)/CpuMmuCommon.obj : /home/evsio0n/src/edk2sdm/edk2/ArmPkg/Drivers/CpuDxe/CpuMmuCommon.c
-	"$(CC)" $(CC_FLAGS) -c -o /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Drivers/CpuDxe/CpuDxe/OUTPUT/./CpuMmuCommon.obj $(INC) /home/evsio0n/src/edk2sdm/edk2/ArmPkg/Drivers/CpuDxe/CpuMmuCommon.c
+$(OUTPUT_DIR)/CpuMmuCommon.obj : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Protocol/LoadedImage.h
+$(OUTPUT_DIR)/CpuMmuCommon.obj : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Protocol/SimpleFileSystem.h
+$(OUTPUT_DIR)/CpuMmuCommon.obj : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Guid/DebugImageInfoTable.h
+$(OUTPUT_DIR)/CpuMmuCommon.obj : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Library/PeCoffGetEntryPointLib.h
+$(OUTPUT_DIR)/CpuMmuCommon.obj : /mnt/d/TARGET/edk2sdm/edk2/ArmPkg/Include/Library/DefaultExceptionHandlerLib.h
+$(OUTPUT_DIR)/CpuMmuCommon.obj : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Protocol/DriverDiagnostics.h
+$(OUTPUT_DIR)/CpuMmuCommon.obj : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Uefi.h
+$(OUTPUT_DIR)/CpuMmuCommon.obj : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Protocol/DriverDiagnostics2.h
+$(OUTPUT_DIR)/CpuMmuCommon.obj : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Protocol/ComponentName.h
+$(OUTPUT_DIR)/CpuMmuCommon.obj : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Protocol/ComponentName2.h
+$(OUTPUT_DIR)/CpuMmuCommon.obj : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Protocol/GraphicsOutput.h
+$(OUTPUT_DIR)/CpuMmuCommon.obj : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Protocol/DriverConfiguration2.h
+$(OUTPUT_DIR)/CpuMmuCommon.obj : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Protocol/DriverConfiguration.h
+$(OUTPUT_DIR)/CpuMmuCommon.obj : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Library/DxeServicesTableLib.h
+$(OUTPUT_DIR)/CpuMmuCommon.obj : /mnt/d/TARGET/edk2sdm/edk2/ArmPkg/Include/Chipset/ArmV7.h
+$(OUTPUT_DIR)/CpuMmuCommon.obj : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/IndustryStandard/Acpi61.h
+$(OUTPUT_DIR)/CpuMmuCommon.obj : /mnt/d/TARGET/edk2sdm/edk2/ArmPkg/Include/Library/ArmLib.h
+$(OUTPUT_DIR)/CpuMmuCommon.obj : /mnt/d/TARGET/edk2sdm/edk2/ArmPkg/Include/Library/ArmMmuLib.h
+$(OUTPUT_DIR)/CpuMmuCommon.obj : /mnt/d/TARGET/edk2sdm/edk2/ArmPkg/Drivers/CpuDxe/CpuDxe.h
+$(OUTPUT_DIR)/CpuMmuCommon.obj : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Library/BaseLib.h
+$(OUTPUT_DIR)/CpuMmuCommon.obj : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/IndustryStandard/Acpi62.h
+$(OUTPUT_DIR)/CpuMmuCommon.obj : /mnt/d/TARGET/edk2sdm/edk2/ArmPkg/Include/Chipset/AArch64.h
+$(OUTPUT_DIR)/CpuMmuCommon.obj : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Library/CacheMaintenanceLib.h
+$(OUTPUT_DIR)/CpuMmuCommon.obj : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Protocol/DriverBinding.h
+$(OUTPUT_DIR)/CpuMmuCommon.obj : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/IndustryStandard/Acpi.h
+$(OUTPUT_DIR)/CpuMmuCommon.obj : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Library/CpuLib.h
+$(OUTPUT_DIR)/CpuMmuCommon.obj : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Library/UefiLib.h
+$(OUTPUT_DIR)/CpuMmuCommon.obj : /mnt/d/TARGET/edk2sdm/edk2/ArmPkg/Include/Chipset/ArmV7Mmu.h
+$(OUTPUT_DIR)/CpuMmuCommon.obj : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Protocol/Cpu.h
+$(OUTPUT_DIR)/CpuMmuCommon.obj : /mnt/d/TARGET/edk2sdm/edk2/ArmPkg/Include/Chipset/AArch64Mmu.h
+$(OUTPUT_DIR)/CpuMmuCommon.obj : /mnt/d/TARGET/edk2sdm/edk2/ArmPkg/Drivers/CpuDxe/CpuMmuCommon.c
+	"$(CC)" $(CC_FLAGS) -c -o /mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Drivers/CpuDxe/CpuDxe/OUTPUT/./CpuMmuCommon.obj $(INC) /mnt/d/TARGET/edk2sdm/edk2/ArmPkg/Drivers/CpuDxe/CpuMmuCommon.c
+
+$(OUTPUT_DIR)/CpuMpCore.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/CpuMpCore.obj : $(COMMON_DEPS)
+$(OUTPUT_DIR)/CpuMpCore.obj : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Library/MemoryAllocationLib.h
+$(OUTPUT_DIR)/CpuMpCore.obj : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Library/HobLib.h
+$(OUTPUT_DIR)/CpuMpCore.obj : /mnt/d/TARGET/edk2sdm/edk2/ArmPkg/Include/Guid/ArmMpCoreInfo.h
+$(OUTPUT_DIR)/CpuMpCore.obj : /mnt/d/TARGET/edk2sdm/edk2/ArmPkg/Drivers/CpuDxe/CpuMpCore.c
+	"$(CC)" $(CC_FLAGS) -c -o /mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Drivers/CpuDxe/CpuDxe/OUTPUT/./CpuMpCore.obj $(INC) /mnt/d/TARGET/edk2sdm/edk2/ArmPkg/Drivers/CpuDxe/CpuMpCore.c
+
+$(OUTPUT_DIR)/CpuDxe.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/CpuDxe.obj : $(COMMON_DEPS)
+$(OUTPUT_DIR)/CpuDxe.obj : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Protocol/LoadedImage.h
+$(OUTPUT_DIR)/CpuDxe.obj : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Protocol/SimpleFileSystem.h
+$(OUTPUT_DIR)/CpuDxe.obj : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Guid/DebugImageInfoTable.h
+$(OUTPUT_DIR)/CpuDxe.obj : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Library/PeCoffGetEntryPointLib.h
+$(OUTPUT_DIR)/CpuDxe.obj : /mnt/d/TARGET/edk2sdm/edk2/ArmPkg/Include/Library/DefaultExceptionHandlerLib.h
+$(OUTPUT_DIR)/CpuDxe.obj : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Protocol/DriverDiagnostics.h
+$(OUTPUT_DIR)/CpuDxe.obj : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Uefi.h
+$(OUTPUT_DIR)/CpuDxe.obj : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Protocol/DriverDiagnostics2.h
+$(OUTPUT_DIR)/CpuDxe.obj : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Protocol/ComponentName.h
+$(OUTPUT_DIR)/CpuDxe.obj : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Protocol/ComponentName2.h
+$(OUTPUT_DIR)/CpuDxe.obj : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Protocol/GraphicsOutput.h
+$(OUTPUT_DIR)/CpuDxe.obj : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Protocol/DriverConfiguration2.h
+$(OUTPUT_DIR)/CpuDxe.obj : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Protocol/DriverConfiguration.h
+$(OUTPUT_DIR)/CpuDxe.obj : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Library/DxeServicesTableLib.h
+$(OUTPUT_DIR)/CpuDxe.obj : /mnt/d/TARGET/edk2sdm/edk2/ArmPkg/Include/Chipset/ArmV7.h
+$(OUTPUT_DIR)/CpuDxe.obj : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/IndustryStandard/Acpi61.h
+$(OUTPUT_DIR)/CpuDxe.obj : /mnt/d/TARGET/edk2sdm/edk2/ArmPkg/Include/Library/ArmLib.h
+$(OUTPUT_DIR)/CpuDxe.obj : /mnt/d/TARGET/edk2sdm/edk2/ArmPkg/Include/Library/ArmMmuLib.h
+$(OUTPUT_DIR)/CpuDxe.obj : /mnt/d/TARGET/edk2sdm/edk2/ArmPkg/Drivers/CpuDxe/CpuDxe.h
+$(OUTPUT_DIR)/CpuDxe.obj : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Library/BaseLib.h
+$(OUTPUT_DIR)/CpuDxe.obj : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/IndustryStandard/Acpi62.h
+$(OUTPUT_DIR)/CpuDxe.obj : /mnt/d/TARGET/edk2sdm/edk2/ArmPkg/Include/Chipset/AArch64.h
+$(OUTPUT_DIR)/CpuDxe.obj : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Library/CacheMaintenanceLib.h
+$(OUTPUT_DIR)/CpuDxe.obj : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Protocol/DriverBinding.h
+$(OUTPUT_DIR)/CpuDxe.obj : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/IndustryStandard/Acpi.h
+$(OUTPUT_DIR)/CpuDxe.obj : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Library/CpuLib.h
+$(OUTPUT_DIR)/CpuDxe.obj : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Library/UefiLib.h
+$(OUTPUT_DIR)/CpuDxe.obj : /mnt/d/TARGET/edk2sdm/edk2/MdeModulePkg/Include/Guid/IdleLoopEvent.h
+$(OUTPUT_DIR)/CpuDxe.obj : /mnt/d/TARGET/edk2sdm/edk2/ArmPkg/Include/Chipset/ArmV7Mmu.h
+$(OUTPUT_DIR)/CpuDxe.obj : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Protocol/Cpu.h
+$(OUTPUT_DIR)/CpuDxe.obj : /mnt/d/TARGET/edk2sdm/edk2/ArmPkg/Include/Chipset/AArch64Mmu.h
+$(OUTPUT_DIR)/CpuDxe.obj : /mnt/d/TARGET/edk2sdm/edk2/ArmPkg/Drivers/CpuDxe/CpuDxe.c
+	"$(CC)" $(CC_FLAGS) -c -o /mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Drivers/CpuDxe/CpuDxe/OUTPUT/./CpuDxe.obj $(INC) /mnt/d/TARGET/edk2sdm/edk2/ArmPkg/Drivers/CpuDxe/CpuDxe.c
+
+$(OUTPUT_DIR)/AArch64/Mmu.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/AArch64/Mmu.obj : $(COMMON_DEPS)
+$(OUTPUT_DIR)/AArch64/Mmu.obj : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Protocol/LoadedImage.h
+$(OUTPUT_DIR)/AArch64/Mmu.obj : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Library/MemoryAllocationLib.h
+$(OUTPUT_DIR)/AArch64/Mmu.obj : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Protocol/SimpleFileSystem.h
+$(OUTPUT_DIR)/AArch64/Mmu.obj : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Guid/DebugImageInfoTable.h
+$(OUTPUT_DIR)/AArch64/Mmu.obj : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Library/PeCoffGetEntryPointLib.h
+$(OUTPUT_DIR)/AArch64/Mmu.obj : /mnt/d/TARGET/edk2sdm/edk2/ArmPkg/Include/Library/DefaultExceptionHandlerLib.h
+$(OUTPUT_DIR)/AArch64/Mmu.obj : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Protocol/DriverDiagnostics.h
+$(OUTPUT_DIR)/AArch64/Mmu.obj : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Uefi.h
+$(OUTPUT_DIR)/AArch64/Mmu.obj : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Protocol/DriverDiagnostics2.h
+$(OUTPUT_DIR)/AArch64/Mmu.obj : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Protocol/ComponentName.h
+$(OUTPUT_DIR)/AArch64/Mmu.obj : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Protocol/ComponentName2.h
+$(OUTPUT_DIR)/AArch64/Mmu.obj : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Protocol/GraphicsOutput.h
+$(OUTPUT_DIR)/AArch64/Mmu.obj : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Protocol/DriverConfiguration2.h
+$(OUTPUT_DIR)/AArch64/Mmu.obj : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Protocol/DriverConfiguration.h
+$(OUTPUT_DIR)/AArch64/Mmu.obj : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Library/DxeServicesTableLib.h
+$(OUTPUT_DIR)/AArch64/Mmu.obj : /mnt/d/TARGET/edk2sdm/edk2/ArmPkg/Include/Chipset/ArmV7.h
+$(OUTPUT_DIR)/AArch64/Mmu.obj : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/IndustryStandard/Acpi61.h
+$(OUTPUT_DIR)/AArch64/Mmu.obj : /mnt/d/TARGET/edk2sdm/edk2/ArmPkg/Include/Library/ArmLib.h
+$(OUTPUT_DIR)/AArch64/Mmu.obj : /mnt/d/TARGET/edk2sdm/edk2/ArmPkg/Include/Library/ArmMmuLib.h
+$(OUTPUT_DIR)/AArch64/Mmu.obj : /mnt/d/TARGET/edk2sdm/edk2/ArmPkg/Drivers/CpuDxe/CpuDxe.h
+$(OUTPUT_DIR)/AArch64/Mmu.obj : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Library/BaseLib.h
+$(OUTPUT_DIR)/AArch64/Mmu.obj : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/IndustryStandard/Acpi62.h
+$(OUTPUT_DIR)/AArch64/Mmu.obj : /mnt/d/TARGET/edk2sdm/edk2/ArmPkg/Include/Chipset/AArch64.h
+$(OUTPUT_DIR)/AArch64/Mmu.obj : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Library/CacheMaintenanceLib.h
+$(OUTPUT_DIR)/AArch64/Mmu.obj : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Protocol/DriverBinding.h
+$(OUTPUT_DIR)/AArch64/Mmu.obj : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/IndustryStandard/Acpi.h
+$(OUTPUT_DIR)/AArch64/Mmu.obj : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Library/CpuLib.h
+$(OUTPUT_DIR)/AArch64/Mmu.obj : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Library/UefiLib.h
+$(OUTPUT_DIR)/AArch64/Mmu.obj : /mnt/d/TARGET/edk2sdm/edk2/ArmPkg/Include/Chipset/ArmV7Mmu.h
+$(OUTPUT_DIR)/AArch64/Mmu.obj : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Protocol/Cpu.h
+$(OUTPUT_DIR)/AArch64/Mmu.obj : /mnt/d/TARGET/edk2sdm/edk2/ArmPkg/Include/Chipset/AArch64Mmu.h
+$(OUTPUT_DIR)/AArch64/Mmu.obj : /mnt/d/TARGET/edk2sdm/edk2/ArmPkg/Drivers/CpuDxe/AArch64/Mmu.c
+	"$(CC)" $(CC_FLAGS) -c -o /mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Drivers/CpuDxe/CpuDxe/OUTPUT/AArch64/Mmu.obj $(INC) /mnt/d/TARGET/edk2sdm/edk2/ArmPkg/Drivers/CpuDxe/AArch64/Mmu.c
+
+$(OUTPUT_DIR)/Exception.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/Exception.obj : $(COMMON_DEPS)
+$(OUTPUT_DIR)/Exception.obj : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Protocol/LoadedImage.h
+$(OUTPUT_DIR)/Exception.obj : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Guid/DebugImageInfoTable.h
+$(OUTPUT_DIR)/Exception.obj : /mnt/d/TARGET/edk2sdm/edk2/ArmPkg/Include/Library/DefaultExceptionHandlerLib.h
+$(OUTPUT_DIR)/Exception.obj : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Protocol/ComponentName.h
+$(OUTPUT_DIR)/Exception.obj : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Protocol/DriverConfiguration2.h
+$(OUTPUT_DIR)/Exception.obj : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Protocol/DriverConfiguration.h
+$(OUTPUT_DIR)/Exception.obj : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/IndustryStandard/Acpi61.h
+$(OUTPUT_DIR)/Exception.obj : /mnt/d/TARGET/edk2sdm/edk2/ArmPkg/Include/Library/ArmLib.h
+$(OUTPUT_DIR)/Exception.obj : /mnt/d/TARGET/edk2sdm/edk2/ArmPkg/Drivers/CpuDxe/CpuDxe.h
+$(OUTPUT_DIR)/Exception.obj : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Library/BaseLib.h
+$(OUTPUT_DIR)/Exception.obj : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/IndustryStandard/Acpi62.h
+$(OUTPUT_DIR)/Exception.obj : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Library/CacheMaintenanceLib.h
+$(OUTPUT_DIR)/Exception.obj : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Library/CpuLib.h
+$(OUTPUT_DIR)/Exception.obj : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Library/UefiLib.h
+$(OUTPUT_DIR)/Exception.obj : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Protocol/Cpu.h
+$(OUTPUT_DIR)/Exception.obj : /mnt/d/TARGET/edk2sdm/edk2/ArmPkg/Include/Chipset/AArch64Mmu.h
+$(OUTPUT_DIR)/Exception.obj : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Protocol/SimpleFileSystem.h
+$(OUTPUT_DIR)/Exception.obj : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Library/PeCoffGetEntryPointLib.h
+$(OUTPUT_DIR)/Exception.obj : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Guid/VectorHandoffTable.h
+$(OUTPUT_DIR)/Exception.obj : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Protocol/DriverDiagnostics.h
+$(OUTPUT_DIR)/Exception.obj : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Ppi/VectorHandoffInfo.h
+$(OUTPUT_DIR)/Exception.obj : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Uefi.h
+$(OUTPUT_DIR)/Exception.obj : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Protocol/DriverDiagnostics2.h
+$(OUTPUT_DIR)/Exception.obj : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Protocol/ComponentName2.h
+$(OUTPUT_DIR)/Exception.obj : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Protocol/GraphicsOutput.h
+$(OUTPUT_DIR)/Exception.obj : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Library/DxeServicesTableLib.h
+$(OUTPUT_DIR)/Exception.obj : /mnt/d/TARGET/edk2sdm/edk2/ArmPkg/Include/Chipset/ArmV7.h
+$(OUTPUT_DIR)/Exception.obj : /mnt/d/TARGET/edk2sdm/edk2/ArmPkg/Include/Library/ArmMmuLib.h
+$(OUTPUT_DIR)/Exception.obj : /mnt/d/TARGET/edk2sdm/edk2/ArmPkg/Include/Chipset/AArch64.h
+$(OUTPUT_DIR)/Exception.obj : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Protocol/DriverBinding.h
+$(OUTPUT_DIR)/Exception.obj : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/IndustryStandard/Acpi.h
+$(OUTPUT_DIR)/Exception.obj : /mnt/d/TARGET/edk2sdm/edk2/ArmPkg/Include/Chipset/ArmV7Mmu.h
+$(OUTPUT_DIR)/Exception.obj : /mnt/d/TARGET/edk2sdm/edk2/MdeModulePkg/Include/Library/CpuExceptionHandlerLib.h
+$(OUTPUT_DIR)/Exception.obj : /mnt/d/TARGET/edk2sdm/edk2/ArmPkg/Drivers/CpuDxe/Exception.c
+	"$(CC)" $(CC_FLAGS) -c -o /mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Drivers/CpuDxe/CpuDxe/OUTPUT/./Exception.obj $(INC) /mnt/d/TARGET/edk2sdm/edk2/ArmPkg/Drivers/CpuDxe/Exception.c
+
+$(OUTPUT_DIR)/AutoGen.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/AutoGen.obj : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Guid/HiiFormMapMethodGuid.h
+$(OUTPUT_DIR)/AutoGen.obj : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Uefi/UefiGpt.h
+$(OUTPUT_DIR)/AutoGen.obj : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Uefi/UefiInternalFormRepresentation.h
+$(OUTPUT_DIR)/AutoGen.obj : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/IndustryStandard/Bluetooth.h
+$(OUTPUT_DIR)/AutoGen.obj : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Protocol/DevicePath.h
+$(OUTPUT_DIR)/AutoGen.obj : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Protocol/SimpleTextOut.h
+$(OUTPUT_DIR)/AutoGen.obj : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/IndustryStandard/Acpi10.h
+$(OUTPUT_DIR)/AutoGen.obj : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Pi/PiBootMode.h
+$(OUTPUT_DIR)/AutoGen.obj : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Library/UefiBootServicesTableLib.h
+$(OUTPUT_DIR)/AutoGen.obj : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/IndustryStandard/PeImage.h
+$(OUTPUT_DIR)/AutoGen.obj : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Library/UefiDriverEntryPoint.h
+$(OUTPUT_DIR)/AutoGen.obj : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Pi/PiMultiPhase.h
+$(OUTPUT_DIR)/AutoGen.obj : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Protocol/DebugSupport.h
+$(OUTPUT_DIR)/AutoGen.obj : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/IndustryStandard/Acpi60.h
+$(OUTPUT_DIR)/AutoGen.obj : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Pi/PiFirmwareFile.h
+$(OUTPUT_DIR)/AutoGen.obj : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Pi/PiHob.h
+$(OUTPUT_DIR)/AutoGen.obj : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Guid/WinCertificate.h
+$(OUTPUT_DIR)/AutoGen.obj : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Pi/PiFirmwareVolume.h
+$(OUTPUT_DIR)/AutoGen.obj : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/IndustryStandard/Acpi51.h
+$(OUTPUT_DIR)/AutoGen.obj : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Library/DebugLib.h
+$(OUTPUT_DIR)/AutoGen.obj : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Pi/PiS3BootScript.h
+$(OUTPUT_DIR)/AutoGen.obj : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Pi/PiDependency.h
+$(OUTPUT_DIR)/AutoGen.obj : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Protocol/SimpleTextInEx.h
+$(OUTPUT_DIR)/AutoGen.obj : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Library/PcdLib.h
+$(OUTPUT_DIR)/AutoGen.obj : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Protocol/SimpleTextIn.h
+$(OUTPUT_DIR)/AutoGen.obj : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/AArch64/ProcessorBind.h
+$(OUTPUT_DIR)/AutoGen.obj : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Uefi/UefiPxe.h
+$(OUTPUT_DIR)/AutoGen.obj : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Library/BaseLib.h
+$(OUTPUT_DIR)/AutoGen.obj : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Guid/PcAnsi.h
+$(OUTPUT_DIR)/AutoGen.obj : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Uefi/UefiMultiPhase.h
+$(OUTPUT_DIR)/AutoGen.obj : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/IndustryStandard/Acpi50.h
+$(OUTPUT_DIR)/AutoGen.obj : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/IndustryStandard/Acpi20.h
+$(OUTPUT_DIR)/AutoGen.obj : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/IndustryStandard/AcpiAml.h
+$(OUTPUT_DIR)/AutoGen.obj : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/IndustryStandard/Acpi30.h
+$(OUTPUT_DIR)/AutoGen.obj : $(DEBUG_DIR)/AutoGen.h
+$(OUTPUT_DIR)/AutoGen.obj : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Pi/PiDxeCis.h
+$(OUTPUT_DIR)/AutoGen.obj : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Base.h
+$(OUTPUT_DIR)/AutoGen.obj : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Pi/PiStatusCode.h
+$(OUTPUT_DIR)/AutoGen.obj : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Uefi/UefiBaseType.h
+$(OUTPUT_DIR)/AutoGen.obj : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/PiDxe.h
+$(OUTPUT_DIR)/AutoGen.obj : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/IndustryStandard/Acpi40.h
+$(OUTPUT_DIR)/AutoGen.obj : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Uefi/UefiSpec.h
+$(OUTPUT_DIR)/AutoGen.obj : $(DEBUG_DIR)/AutoGen.c
+	"$(CC)" $(CC_FLAGS) -c -o /mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Drivers/CpuDxe/CpuDxe/OUTPUT/./AutoGen.obj $(INC) /mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Drivers/CpuDxe/CpuDxe/DEBUG/AutoGen.c
 
 $(OUTPUT_DIR)/ArmCpuDxe.lib : $(OBJECT_FILES)
 $(OUTPUT_DIR)/ArmCpuDxe.lib : $(OBJECT_FILES_LIST)
-	$(RM) /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Drivers/CpuDxe/CpuDxe/OUTPUT/ArmCpuDxe.lib
-	"$(SLINK)" cr /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Drivers/CpuDxe/CpuDxe/OUTPUT/ArmCpuDxe.lib $(SLINK_FLAGS) @$(OBJECT_FILES_LIST)
+	$(RM) /mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Drivers/CpuDxe/CpuDxe/OUTPUT/ArmCpuDxe.lib
+	"$(SLINK)" cr /mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Drivers/CpuDxe/CpuDxe/OUTPUT/ArmCpuDxe.lib $(SLINK_FLAGS) @$(OBJECT_FILES_LIST)
 
 
 

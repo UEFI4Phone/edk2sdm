@@ -1,6 +1,6 @@
-/home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Drivers/CpuDxe/CpuDxe/OUTPUT/CpuDxe.obj
-/home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Drivers/CpuDxe/CpuDxe/OUTPUT/CpuMpCore.obj
-/home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Drivers/CpuDxe/CpuDxe/OUTPUT/CpuMmuCommon.obj
-/home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Drivers/CpuDxe/CpuDxe/OUTPUT/Exception.obj
-/home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Drivers/CpuDxe/CpuDxe/OUTPUT/AArch64/Mmu.obj
-/home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Drivers/CpuDxe/CpuDxe/OUTPUT/AutoGen.obj
+/mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Drivers/CpuDxe/CpuDxe/OUTPUT/CpuDxe.obj
+/mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Drivers/CpuDxe/CpuDxe/OUTPUT/CpuMpCore.obj
+/mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Drivers/CpuDxe/CpuDxe/OUTPUT/CpuMmuCommon.obj
+/mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Drivers/CpuDxe/CpuDxe/OUTPUT/Exception.obj
+/mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Drivers/CpuDxe/CpuDxe/OUTPUT/AArch64/Mmu.obj
+/mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Drivers/CpuDxe/CpuDxe/OUTPUT/AutoGen.obj

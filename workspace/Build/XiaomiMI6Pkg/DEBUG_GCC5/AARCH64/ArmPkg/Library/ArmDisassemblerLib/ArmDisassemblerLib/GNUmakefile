@@ -19,7 +19,7 @@ PLATFORM_NAME = XiaomiMI6Pkg
 PLATFORM_GUID = 28f1a3bf-193a-47e3-a7b9-5a435eaab2ee
 PLATFORM_VERSION = 0.1
 PLATFORM_RELATIVE_DIR = XiaomiMI6Pkg
-PLATFORM_DIR = /home/evsio0n/src/edk2sdm/Sdm835/XiaomiMI6Pkg
+PLATFORM_DIR = /mnt/d/TARGET/edk2sdm/Sdm835/XiaomiMI6Pkg
 PLATFORM_OUTPUT_DIR = Build/XiaomiMI6Pkg
 
 #
@@ -35,8 +35,8 @@ MODULE_FILE_BASE_NAME = ArmDisassemblerLib
 BASE_NAME = $(MODULE_NAME)
 MODULE_RELATIVE_DIR = ArmPkg/Library/ArmDisassemblerLib
 PACKAGE_RELATIVE_DIR = Library/ArmDisassemblerLib
-MODULE_DIR = /home/evsio0n/src/edk2sdm/edk2/ArmPkg/Library/ArmDisassemblerLib
-FFS_OUTPUT_DIR = /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/FV/Ffs/7ACEC173-F15D-426C-8F2F-BD86B4183EF1ArmDisassemblerLib
+MODULE_DIR = /mnt/d/TARGET/edk2sdm/edk2/ArmPkg/Library/ArmDisassemblerLib
+FFS_OUTPUT_DIR = /mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/FV/Ffs/7ACEC173-F15D-426C-8F2F-BD86B4183EF1ArmDisassemblerLib
 
 MODULE_ENTRY_POINT = _ModuleEntryPoint
 ARCH_ENTRY_POINT = _ModuleEntryPoint
@@ -59,13 +59,13 @@ TARGET = DEBUG
 #
 # Build Directory Macro Definition
 #
-# PLATFORM_BUILD_DIR = /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5
-BUILD_DIR = /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5
+# PLATFORM_BUILD_DIR = /mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5
+BUILD_DIR = /mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5
 BIN_DIR = $(BUILD_DIR)/AARCH64
 LIB_DIR = $(BIN_DIR)
-MODULE_BUILD_DIR = /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmDisassemblerLib/ArmDisassemblerLib
-OUTPUT_DIR = /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmDisassemblerLib/ArmDisassemblerLib/OUTPUT
-DEBUG_DIR = /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmDisassemblerLib/ArmDisassemblerLib/DEBUG
+MODULE_BUILD_DIR = /mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmDisassemblerLib/ArmDisassemblerLib
+OUTPUT_DIR = /mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmDisassemblerLib/ArmDisassemblerLib/OUTPUT
+DEBUG_DIR = /mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmDisassemblerLib/ArmDisassemblerLib/DEBUG
 DEST_DIR_OUTPUT = $(OUTPUT_DIR)
 DEST_DIR_DEBUG = $(DEBUG_DIR)
 
@@ -169,7 +169,7 @@ PP_FLAGS = $(ARCHCC_FLAGS) $(PLATFORM_FLAGS) -E -x assembler-with-cpp -include $
 VFRPP = aarch64-linux-gnu-gcc
 VFRPP_FLAGS = $(ARCHCC_FLAGS) $(PLATFORM_FLAGS) -x c -E -P -DVFRCOMPILE --include $(DEST_DIR_DEBUG)/$(MODULE_NAME)StrDefs.h
 
-DLINK_FLAGS = -Wl,--emit-relocs -nostdlib -Wl,--gc-sections -u $(IMAGE_ENTRY_POINT) -Wl,-e,$(IMAGE_ENTRY_POINT),-Map,$(DEST_DIR_DEBUG)/$(BASE_NAME).map -z common-page-size=0x20 -z common-page-size=0x1000 -flto -Os -L/home/evsio0n/src/edk2sdm/edk2/ArmPkg/Library/GccLto -llto-aarch64 -Wl,-plugin-opt=-pass-through=-llto-aarch64 -Wno-lto-type-mismatch
+DLINK_FLAGS = -Wl,--emit-relocs -nostdlib -Wl,--gc-sections -u $(IMAGE_ENTRY_POINT) -Wl,-e,$(IMAGE_ENTRY_POINT),-Map,$(DEST_DIR_DEBUG)/$(BASE_NAME).map -z common-page-size=0x20 -z common-page-size=0x1000 -flto -Os -L/mnt/d/TARGET/edk2sdm/edk2/ArmPkg/Library/GccLto -llto-aarch64 -Wl,-plugin-opt=-pass-through=-llto-aarch64 -Wno-lto-type-mismatch
 DLINK_XIPFLAGS =  -z common-page-size=0x20
 DLINK = aarch64-linux-gnu-gcc
 
@@ -202,23 +202,23 @@ OBJECT_FILES =  \
     $(OUTPUT_DIR)/Aarch64Disassembler.obj
 
 INC =  \
-    -I/home/evsio0n/src/edk2sdm/edk2/ArmPkg/Library/ArmDisassemblerLib \
+    -I/mnt/d/TARGET/edk2sdm/edk2/ArmPkg/Library/ArmDisassemblerLib \
     -I$(DEBUG_DIR) \
-    -I/home/evsio0n/src/edk2sdm/edk2/MdePkg \
-    -I/home/evsio0n/src/edk2sdm/edk2/MdePkg/Include \
-    -I/home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/AArch64 \
-    -I/home/evsio0n/src/edk2sdm/edk2/ArmPkg \
-    -I/home/evsio0n/src/edk2sdm/edk2/ArmPkg/Include
+    -I/mnt/d/TARGET/edk2sdm/edk2/MdePkg \
+    -I/mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include \
+    -I/mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/AArch64 \
+    -I/mnt/d/TARGET/edk2sdm/edk2/ArmPkg \
+    -I/mnt/d/TARGET/edk2sdm/edk2/ArmPkg/Include
 
-OBJECT_FILES_LIST = /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmDisassemblerLib/ArmDisassemblerLib/OUTPUT/object_files.lst
+OBJECT_FILES_LIST = /mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmDisassemblerLib/ArmDisassemblerLib/OUTPUT/object_files.lst
 
 
-COMMON_DEPS = /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/AArch64/ProcessorBind.h \
-              /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Library/PrintLib.h \
-              $(DEBUG_DIR)/AutoGen.h \
-              /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Base.h \
-              /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Library/BaseLib.h \
-              /home/evsio0n/src/edk2sdm/edk2/ArmPkg/Include/Library/ArmDisassemblerLib.h \
+COMMON_DEPS = $(DEBUG_DIR)/AutoGen.h \
+              /mnt/d/TARGET/edk2sdm/edk2/ArmPkg/Include/Library/ArmDisassemblerLib.h \
+              /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/AArch64/ProcessorBind.h \
+              /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Library/PrintLib.h \
+              /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Base.h \
+              /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Library/BaseLib.h \
               
 
 #
@@ -228,7 +228,7 @@ FORCE_REBUILD = force_build
 INIT_TARGET = init
 PCH_TARGET =
 BC_TARGET = 
-CODA_TARGET = /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmDisassemblerLib/ArmDisassemblerLib/OUTPUT/ArmDisassemblerLib.lib \
+CODA_TARGET = /mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmDisassemblerLib/ArmDisassemblerLib/OUTPUT/ArmDisassemblerLib.lib \
               
 
 #
@@ -302,13 +302,13 @@ gen_fds:
 #
 $(OUTPUT_DIR)/Aarch64Disassembler.obj : $(MAKE_FILE)
 $(OUTPUT_DIR)/Aarch64Disassembler.obj : $(COMMON_DEPS)
-$(OUTPUT_DIR)/Aarch64Disassembler.obj : /home/evsio0n/src/edk2sdm/edk2/ArmPkg/Library/ArmDisassemblerLib/Aarch64Disassembler.c
-	"$(CC)" $(CC_FLAGS) $(CC_XIPFLAGS) -c -o /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmDisassemblerLib/ArmDisassemblerLib/OUTPUT/./Aarch64Disassembler.obj $(INC) /home/evsio0n/src/edk2sdm/edk2/ArmPkg/Library/ArmDisassemblerLib/Aarch64Disassembler.c
+$(OUTPUT_DIR)/Aarch64Disassembler.obj : /mnt/d/TARGET/edk2sdm/edk2/ArmPkg/Library/ArmDisassemblerLib/Aarch64Disassembler.c
+	"$(CC)" $(CC_FLAGS) $(CC_XIPFLAGS) -c -o /mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmDisassemblerLib/ArmDisassemblerLib/OUTPUT/./Aarch64Disassembler.obj $(INC) /mnt/d/TARGET/edk2sdm/edk2/ArmPkg/Library/ArmDisassemblerLib/Aarch64Disassembler.c
 
 $(OUTPUT_DIR)/ArmDisassemblerLib.lib : $(OBJECT_FILES)
 $(OUTPUT_DIR)/ArmDisassemblerLib.lib : $(OBJECT_FILES_LIST)
-	$(RM) /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmDisassemblerLib/ArmDisassemblerLib/OUTPUT/ArmDisassemblerLib.lib
-	"$(SLINK)" cr /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmDisassemblerLib/ArmDisassemblerLib/OUTPUT/ArmDisassemblerLib.lib $(SLINK_FLAGS) @$(OBJECT_FILES_LIST)
+	$(RM) /mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmDisassemblerLib/ArmDisassemblerLib/OUTPUT/ArmDisassemblerLib.lib
+	"$(SLINK)" cr /mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmDisassemblerLib/ArmDisassemblerLib/OUTPUT/ArmDisassemblerLib.lib $(SLINK_FLAGS) @$(OBJECT_FILES_LIST)
 
 
 

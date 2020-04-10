@@ -19,7 +19,7 @@ PLATFORM_NAME = XiaomiMI6Pkg
 PLATFORM_GUID = 28f1a3bf-193a-47e3-a7b9-5a435eaab2ee
 PLATFORM_VERSION = 0.1
 PLATFORM_RELATIVE_DIR = XiaomiMI6Pkg
-PLATFORM_DIR = /home/evsio0n/src/edk2sdm/Sdm835/XiaomiMI6Pkg
+PLATFORM_DIR = /mnt/d/TARGET/edk2sdm/Sdm835/XiaomiMI6Pkg
 PLATFORM_OUTPUT_DIR = Build/XiaomiMI6Pkg
 
 #
@@ -35,8 +35,8 @@ MODULE_FILE_BASE_NAME = LogoDxe
 BASE_NAME = $(MODULE_NAME)
 MODULE_RELATIVE_DIR = XiaomiMI6Pkg/Drivers/LogoDxe
 PACKAGE_RELATIVE_DIR = Drivers/LogoDxe
-MODULE_DIR = /home/evsio0n/src/edk2sdm/Sdm835/XiaomiMI6Pkg/Drivers/LogoDxe
-FFS_OUTPUT_DIR = /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/FV/Ffs/F74D20EE-37E7-48FC-97F7-9B1047749C69LogoDxe
+MODULE_DIR = /mnt/d/TARGET/edk2sdm/Sdm835/XiaomiMI6Pkg/Drivers/LogoDxe
+FFS_OUTPUT_DIR = /mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/FV/Ffs/F74D20EE-37E7-48FC-97F7-9B1047749C69LogoDxe
 
 MODULE_ENTRY_POINT = InitializeLogo
 ARCH_ENTRY_POINT = InitializeLogo
@@ -61,13 +61,13 @@ TARGET = DEBUG
 #
 # Build Directory Macro Definition
 #
-# PLATFORM_BUILD_DIR = /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5
-BUILD_DIR = /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5
+# PLATFORM_BUILD_DIR = /mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5
+BUILD_DIR = /mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5
 BIN_DIR = $(BUILD_DIR)/AARCH64
 LIB_DIR = $(BIN_DIR)
-MODULE_BUILD_DIR = /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/XiaomiMI6Pkg/Drivers/LogoDxe/LogoDxe
-OUTPUT_DIR = /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/XiaomiMI6Pkg/Drivers/LogoDxe/LogoDxe/OUTPUT
-DEBUG_DIR = /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/XiaomiMI6Pkg/Drivers/LogoDxe/LogoDxe/DEBUG
+MODULE_BUILD_DIR = /mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/XiaomiMI6Pkg/Drivers/LogoDxe/LogoDxe
+OUTPUT_DIR = /mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/XiaomiMI6Pkg/Drivers/LogoDxe/LogoDxe/OUTPUT
+DEBUG_DIR = /mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/XiaomiMI6Pkg/Drivers/LogoDxe/LogoDxe/DEBUG
 DEST_DIR_OUTPUT = $(OUTPUT_DIR)
 DEST_DIR_DEBUG = $(DEBUG_DIR)
 
@@ -171,7 +171,7 @@ PP_FLAGS = $(ARCHCC_FLAGS) $(PLATFORM_FLAGS) -E -x assembler-with-cpp -include $
 VFRPP = aarch64-linux-gnu-gcc
 VFRPP_FLAGS = $(ARCHCC_FLAGS) $(PLATFORM_FLAGS) -x c -E -P -DVFRCOMPILE --include $(DEST_DIR_DEBUG)/$(MODULE_NAME)StrDefs.h
 
-DLINK_FLAGS = -Wl,--emit-relocs -nostdlib -Wl,--gc-sections -u $(IMAGE_ENTRY_POINT) -Wl,-e,$(IMAGE_ENTRY_POINT),-Map,$(DEST_DIR_DEBUG)/$(BASE_NAME).map -z common-page-size=0x20 -z common-page-size=0x1000 -flto -Os -L/home/evsio0n/src/edk2sdm/edk2/ArmPkg/Library/GccLto -llto-aarch64 -Wl,-plugin-opt=-pass-through=-llto-aarch64 -Wno-lto-type-mismatch
+DLINK_FLAGS = -Wl,--emit-relocs -nostdlib -Wl,--gc-sections -u $(IMAGE_ENTRY_POINT) -Wl,-e,$(IMAGE_ENTRY_POINT),-Map,$(DEST_DIR_DEBUG)/$(BASE_NAME).map -z common-page-size=0x20 -z common-page-size=0x1000 -flto -Os -L/mnt/d/TARGET/edk2sdm/edk2/ArmPkg/Library/GccLto -llto-aarch64 -Wl,-plugin-opt=-pass-through=-llto-aarch64 -Wno-lto-type-mismatch
 DLINK_XIPFLAGS =  -z common-page-size=0x20
 DLINK = aarch64-linux-gnu-gcc
 
@@ -231,65 +231,65 @@ HII_BINARY_PACKAGES =  \
     $(OUTPUT_DIR)/LogoDxeIdf.hpk
 
 INC =  \
-    -I/home/evsio0n/src/edk2sdm/Sdm835/XiaomiMI6Pkg/Drivers/LogoDxe \
+    -I/mnt/d/TARGET/edk2sdm/Sdm835/XiaomiMI6Pkg/Drivers/LogoDxe \
     -I$(DEBUG_DIR) \
-    -I/home/evsio0n/src/edk2sdm/edk2/MdeModulePkg \
-    -I/home/evsio0n/src/edk2sdm/edk2/MdeModulePkg/Include \
-    -I/home/evsio0n/src/edk2sdm/edk2/MdePkg \
-    -I/home/evsio0n/src/edk2sdm/edk2/MdePkg/Include \
-    -I/home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/AArch64
+    -I/mnt/d/TARGET/edk2sdm/edk2/MdeModulePkg \
+    -I/mnt/d/TARGET/edk2sdm/edk2/MdeModulePkg/Include \
+    -I/mnt/d/TARGET/edk2sdm/edk2/MdePkg \
+    -I/mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include \
+    -I/mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/AArch64
 
-STATIC_LIBRARY_FILES_LIST = /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/XiaomiMI6Pkg/Drivers/LogoDxe/LogoDxe/OUTPUT/static_library_files.lst
-OBJECT_FILES_LIST = /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/XiaomiMI6Pkg/Drivers/LogoDxe/LogoDxe/OUTPUT/object_files.lst
+STATIC_LIBRARY_FILES_LIST = /mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/XiaomiMI6Pkg/Drivers/LogoDxe/LogoDxe/OUTPUT/static_library_files.lst
+OBJECT_FILES_LIST = /mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/XiaomiMI6Pkg/Drivers/LogoDxe/LogoDxe/OUTPUT/object_files.lst
 
 
-COMMON_DEPS = /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Pi/PiHob.h \
-              /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/IndustryStandard/Acpi50.h \
-              /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Protocol/GraphicsOutput.h \
-              /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Protocol/HiiDatabase.h \
-              /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Protocol/SimpleTextOut.h \
-              /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Guid/WinCertificate.h \
-              /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/IndustryStandard/Acpi20.h \
-              /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Pi/PiDxeCis.h \
-              /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Library/DebugLib.h \
-              /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Protocol/HiiImage.h \
+COMMON_DEPS = $(DEBUG_DIR)/LogoDxeImgDefs.h \
+              /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Guid/HiiFormMapMethodGuid.h \
+              /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Uefi/UefiGpt.h \
+              /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Protocol/HiiImage.h \
+              /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Uefi/UefiInternalFormRepresentation.h \
+              /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/IndustryStandard/Bluetooth.h \
               $(DEBUG_DIR)/AutoGen.h \
-              /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Protocol/SimpleTextIn.h \
-              /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Pi/PiFirmwareFile.h \
-              /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Uefi/UefiMultiPhase.h \
-              /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Pi/PiS3BootScript.h \
-              /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/IndustryStandard/Acpi30.h \
-              /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/PiDxe.h \
-              /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Uefi/UefiInternalFormRepresentation.h \
-              /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/IndustryStandard/Acpi40.h \
-              /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/AArch64/ProcessorBind.h \
-              /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Protocol/HiiImageEx.h \
-              /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Pi/PiStatusCode.h \
-              /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Uefi.h \
-              /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Protocol/DevicePath.h \
-              /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Guid/PcAnsi.h \
-              /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/IndustryStandard/PeImage.h \
-              /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Uefi/UefiPxe.h \
-              /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Base.h \
-              /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Library/UefiBootServicesTableLib.h \
-              /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Pi/PiMultiPhase.h \
-              /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Guid/HiiFormMapMethodGuid.h \
-              /home/evsio0n/src/edk2sdm/edk2/MdeModulePkg/Include/Protocol/PlatformLogo.h \
-              /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/IndustryStandard/Bluetooth.h \
-              /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/IndustryStandard/Acpi10.h \
-              /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Pi/PiDependency.h \
-              /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Protocol/DebugSupport.h \
-              /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Uefi/UefiSpec.h \
-              /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/IndustryStandard/Acpi51.h \
-              /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/IndustryStandard/AcpiAml.h \
-              /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Pi/PiFirmwareVolume.h \
-              /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Protocol/HiiPackageList.h \
-              /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Uefi/UefiBaseType.h \
-              /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Protocol/SimpleTextInEx.h \
-              $(DEBUG_DIR)/LogoDxeImgDefs.h \
-              /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/IndustryStandard/Acpi60.h \
-              /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Uefi/UefiGpt.h \
-              /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Pi/PiBootMode.h \
+              /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Protocol/DevicePath.h \
+              /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Protocol/SimpleTextOut.h \
+              /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/IndustryStandard/Acpi10.h \
+              /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Pi/PiBootMode.h \
+              /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Library/UefiBootServicesTableLib.h \
+              /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/IndustryStandard/PeImage.h \
+              /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Pi/PiMultiPhase.h \
+              /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Protocol/DebugSupport.h \
+              /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/IndustryStandard/Acpi60.h \
+              /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Uefi.h \
+              /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Pi/PiFirmwareFile.h \
+              /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Pi/PiHob.h \
+              /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Guid/WinCertificate.h \
+              /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Pi/PiFirmwareVolume.h \
+              /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/IndustryStandard/Acpi51.h \
+              /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Library/DebugLib.h \
+              /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Pi/PiS3BootScript.h \
+              /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Pi/PiDependency.h \
+              /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Protocol/GraphicsOutput.h \
+              /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Protocol/SimpleTextInEx.h \
+              /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Protocol/SimpleTextIn.h \
+              /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/AArch64/ProcessorBind.h \
+              /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Protocol/HiiDatabase.h \
+              /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Uefi/UefiPxe.h \
+              /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Protocol/HiiImageEx.h \
+              /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Guid/PcAnsi.h \
+              /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Uefi/UefiMultiPhase.h \
+              /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/IndustryStandard/Acpi50.h \
+              /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Protocol/HiiPackageList.h \
+              /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/IndustryStandard/Acpi20.h \
+              /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/IndustryStandard/AcpiAml.h \
+              /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/IndustryStandard/Acpi30.h \
+              /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Pi/PiDxeCis.h \
+              /mnt/d/TARGET/edk2sdm/edk2/MdeModulePkg/Include/Protocol/PlatformLogo.h \
+              /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Base.h \
+              /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Pi/PiStatusCode.h \
+              /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Uefi/UefiBaseType.h \
+              /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/PiDxe.h \
+              /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/IndustryStandard/Acpi40.h \
+              /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Uefi/UefiSpec.h \
               
 
 #
@@ -299,7 +299,7 @@ FORCE_REBUILD = force_build
 INIT_TARGET = init
 PCH_TARGET =
 BC_TARGET = 
-CODA_TARGET = /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/XiaomiMI6Pkg/Drivers/LogoDxe/LogoDxe/OUTPUT/LogoDxe.efi \
+CODA_TARGET = /mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/XiaomiMI6Pkg/Drivers/LogoDxe/LogoDxe/OUTPUT/LogoDxe.efi \
               
 
 #
@@ -393,78 +393,78 @@ gen_fds:
 $(DEBUG_DIR)/LogoDxe.dll : $(MAKE_FILE)
 $(DEBUG_DIR)/LogoDxe.dll : $(STATIC_LIBRARY_FILES)
 $(DEBUG_DIR)/LogoDxe.dll : $(STATIC_LIBRARY_FILES_LIST)
-	"$(DLINK)" -o /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/XiaomiMI6Pkg/Drivers/LogoDxe/LogoDxe/DEBUG/LogoDxe.dll $(DLINK_FLAGS) -Wl,--start-group,@$(STATIC_LIBRARY_FILES_LIST),--end-group $(CC_FLAGS) $(DLINK2_FLAGS)
-	"$(OBJCOPY)" $(OBJCOPY_FLAGS) /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/XiaomiMI6Pkg/Drivers/LogoDxe/LogoDxe/DEBUG/LogoDxe.dll
+	"$(DLINK)" -o /mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/XiaomiMI6Pkg/Drivers/LogoDxe/LogoDxe/DEBUG/LogoDxe.dll $(DLINK_FLAGS) -Wl,--start-group,@$(STATIC_LIBRARY_FILES_LIST),--end-group $(CC_FLAGS) $(DLINK2_FLAGS)
+	"$(OBJCOPY)" $(OBJCOPY_FLAGS) /mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/XiaomiMI6Pkg/Drivers/LogoDxe/LogoDxe/DEBUG/LogoDxe.dll
 
 $(OUTPUT_DIR)/LogoDxe.efi : $(DEBUG_DIR)/LogoDxe.dll
-	$(CP) /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/XiaomiMI6Pkg/Drivers/LogoDxe/LogoDxe/DEBUG/LogoDxe.dll $(DEBUG_DIR)/$(MODULE_NAME).debug
-	$(OBJCOPY) --strip-unneeded -R .eh_frame /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/XiaomiMI6Pkg/Drivers/LogoDxe/LogoDxe/DEBUG/LogoDxe.dll
-	-$(OBJCOPY) $(OBJCOPY_ADDDEBUGFLAG) /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/XiaomiMI6Pkg/Drivers/LogoDxe/LogoDxe/DEBUG/LogoDxe.dll
+	$(CP) /mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/XiaomiMI6Pkg/Drivers/LogoDxe/LogoDxe/DEBUG/LogoDxe.dll $(DEBUG_DIR)/$(MODULE_NAME).debug
+	$(OBJCOPY) --strip-unneeded -R .eh_frame /mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/XiaomiMI6Pkg/Drivers/LogoDxe/LogoDxe/DEBUG/LogoDxe.dll
+	-$(OBJCOPY) $(OBJCOPY_ADDDEBUGFLAG) /mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/XiaomiMI6Pkg/Drivers/LogoDxe/LogoDxe/DEBUG/LogoDxe.dll
 	-$(CP) $(DEBUG_DIR)/$(MODULE_NAME).debug $(BIN_DIR)/$(MODULE_NAME_GUID).debug
-	"$(GENFW)" -e $(MODULE_TYPE) -o /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/XiaomiMI6Pkg/Drivers/LogoDxe/LogoDxe/OUTPUT/LogoDxe.efi /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/XiaomiMI6Pkg/Drivers/LogoDxe/LogoDxe/DEBUG/LogoDxe.dll $(GENFW_FLAGS)
-	$(CP) /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/XiaomiMI6Pkg/Drivers/LogoDxe/LogoDxe/OUTPUT/LogoDxe.efi $(DEBUG_DIR)
-	$(CP) /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/XiaomiMI6Pkg/Drivers/LogoDxe/LogoDxe/OUTPUT/LogoDxe.efi $(BIN_DIR)/$(MODULE_NAME_GUID).efi
+	"$(GENFW)" -e $(MODULE_TYPE) -o /mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/XiaomiMI6Pkg/Drivers/LogoDxe/LogoDxe/OUTPUT/LogoDxe.efi /mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/XiaomiMI6Pkg/Drivers/LogoDxe/LogoDxe/DEBUG/LogoDxe.dll $(GENFW_FLAGS)
+	$(CP) /mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/XiaomiMI6Pkg/Drivers/LogoDxe/LogoDxe/OUTPUT/LogoDxe.efi $(DEBUG_DIR)
+	$(CP) /mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/XiaomiMI6Pkg/Drivers/LogoDxe/LogoDxe/OUTPUT/LogoDxe.efi $(BIN_DIR)/$(MODULE_NAME_GUID).efi
 	-$(CP) $(DEBUG_DIR)/*.map $(OUTPUT_DIR)
 
 $(OUTPUT_DIR)/Logo.obj : $(MAKE_FILE)
 $(OUTPUT_DIR)/Logo.obj : $(COMMON_DEPS)
-$(OUTPUT_DIR)/Logo.obj : /home/evsio0n/src/edk2sdm/Sdm835/XiaomiMI6Pkg/Drivers/LogoDxe/Logo.c
-	"$(CC)" $(CC_FLAGS) -c -o /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/XiaomiMI6Pkg/Drivers/LogoDxe/LogoDxe/OUTPUT/./Logo.obj $(INC) /home/evsio0n/src/edk2sdm/Sdm835/XiaomiMI6Pkg/Drivers/LogoDxe/Logo.c
+$(OUTPUT_DIR)/Logo.obj : /mnt/d/TARGET/edk2sdm/Sdm835/XiaomiMI6Pkg/Drivers/LogoDxe/Logo.c
+	"$(CC)" $(CC_FLAGS) -c -o /mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/XiaomiMI6Pkg/Drivers/LogoDxe/LogoDxe/OUTPUT/./Logo.obj $(INC) /mnt/d/TARGET/edk2sdm/Sdm835/XiaomiMI6Pkg/Drivers/LogoDxe/Logo.c
 
 $(OUTPUT_DIR)/AutoGen.obj : $(MAKE_FILE)
-$(OUTPUT_DIR)/AutoGen.obj : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Pi/PiHob.h
-$(OUTPUT_DIR)/AutoGen.obj : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/IndustryStandard/Acpi50.h
-$(OUTPUT_DIR)/AutoGen.obj : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Protocol/SimpleTextOut.h
-$(OUTPUT_DIR)/AutoGen.obj : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Guid/WinCertificate.h
-$(OUTPUT_DIR)/AutoGen.obj : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/IndustryStandard/Acpi20.h
-$(OUTPUT_DIR)/AutoGen.obj : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Pi/PiDxeCis.h
-$(OUTPUT_DIR)/AutoGen.obj : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Library/DebugLib.h
-$(OUTPUT_DIR)/AutoGen.obj : $(DEBUG_DIR)/AutoGen.h
-$(OUTPUT_DIR)/AutoGen.obj : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Protocol/SimpleTextIn.h
-$(OUTPUT_DIR)/AutoGen.obj : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Pi/PiFirmwareFile.h
-$(OUTPUT_DIR)/AutoGen.obj : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Uefi/UefiMultiPhase.h
-$(OUTPUT_DIR)/AutoGen.obj : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Pi/PiS3BootScript.h
-$(OUTPUT_DIR)/AutoGen.obj : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/IndustryStandard/Acpi30.h
-$(OUTPUT_DIR)/AutoGen.obj : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/PiDxe.h
-$(OUTPUT_DIR)/AutoGen.obj : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Uefi/UefiInternalFormRepresentation.h
-$(OUTPUT_DIR)/AutoGen.obj : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/IndustryStandard/Acpi40.h
-$(OUTPUT_DIR)/AutoGen.obj : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/AArch64/ProcessorBind.h
-$(OUTPUT_DIR)/AutoGen.obj : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Pi/PiStatusCode.h
-$(OUTPUT_DIR)/AutoGen.obj : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Protocol/DevicePath.h
-$(OUTPUT_DIR)/AutoGen.obj : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Guid/PcAnsi.h
-$(OUTPUT_DIR)/AutoGen.obj : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/IndustryStandard/PeImage.h
-$(OUTPUT_DIR)/AutoGen.obj : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Uefi/UefiPxe.h
-$(OUTPUT_DIR)/AutoGen.obj : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Base.h
-$(OUTPUT_DIR)/AutoGen.obj : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Library/UefiBootServicesTableLib.h
-$(OUTPUT_DIR)/AutoGen.obj : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Library/BaseLib.h
-$(OUTPUT_DIR)/AutoGen.obj : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Pi/PiMultiPhase.h
-$(OUTPUT_DIR)/AutoGen.obj : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Guid/HiiFormMapMethodGuid.h
-$(OUTPUT_DIR)/AutoGen.obj : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/IndustryStandard/Bluetooth.h
-$(OUTPUT_DIR)/AutoGen.obj : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/IndustryStandard/Acpi10.h
-$(OUTPUT_DIR)/AutoGen.obj : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Pi/PiDependency.h
-$(OUTPUT_DIR)/AutoGen.obj : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Protocol/DebugSupport.h
-$(OUTPUT_DIR)/AutoGen.obj : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Uefi/UefiSpec.h
-$(OUTPUT_DIR)/AutoGen.obj : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/IndustryStandard/Acpi51.h
-$(OUTPUT_DIR)/AutoGen.obj : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/IndustryStandard/AcpiAml.h
-$(OUTPUT_DIR)/AutoGen.obj : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Pi/PiFirmwareVolume.h
-$(OUTPUT_DIR)/AutoGen.obj : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Library/UefiDriverEntryPoint.h
-$(OUTPUT_DIR)/AutoGen.obj : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Uefi/UefiBaseType.h
-$(OUTPUT_DIR)/AutoGen.obj : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Protocol/SimpleTextInEx.h
 $(OUTPUT_DIR)/AutoGen.obj : $(DEBUG_DIR)/LogoDxeImgDefs.h
-$(OUTPUT_DIR)/AutoGen.obj : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/IndustryStandard/Acpi60.h
-$(OUTPUT_DIR)/AutoGen.obj : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Uefi/UefiGpt.h
-$(OUTPUT_DIR)/AutoGen.obj : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Pi/PiBootMode.h
+$(OUTPUT_DIR)/AutoGen.obj : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Guid/HiiFormMapMethodGuid.h
+$(OUTPUT_DIR)/AutoGen.obj : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Uefi/UefiGpt.h
+$(OUTPUT_DIR)/AutoGen.obj : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Uefi/UefiInternalFormRepresentation.h
+$(OUTPUT_DIR)/AutoGen.obj : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/IndustryStandard/Bluetooth.h
+$(OUTPUT_DIR)/AutoGen.obj : $(DEBUG_DIR)/AutoGen.h
+$(OUTPUT_DIR)/AutoGen.obj : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Protocol/DevicePath.h
+$(OUTPUT_DIR)/AutoGen.obj : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Protocol/SimpleTextOut.h
+$(OUTPUT_DIR)/AutoGen.obj : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/IndustryStandard/Acpi10.h
+$(OUTPUT_DIR)/AutoGen.obj : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Pi/PiBootMode.h
+$(OUTPUT_DIR)/AutoGen.obj : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Library/UefiBootServicesTableLib.h
+$(OUTPUT_DIR)/AutoGen.obj : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/IndustryStandard/PeImage.h
+$(OUTPUT_DIR)/AutoGen.obj : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Library/UefiDriverEntryPoint.h
+$(OUTPUT_DIR)/AutoGen.obj : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Pi/PiMultiPhase.h
+$(OUTPUT_DIR)/AutoGen.obj : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Protocol/DebugSupport.h
+$(OUTPUT_DIR)/AutoGen.obj : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/IndustryStandard/Acpi60.h
+$(OUTPUT_DIR)/AutoGen.obj : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Pi/PiFirmwareFile.h
+$(OUTPUT_DIR)/AutoGen.obj : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Pi/PiHob.h
+$(OUTPUT_DIR)/AutoGen.obj : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Guid/WinCertificate.h
+$(OUTPUT_DIR)/AutoGen.obj : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Pi/PiFirmwareVolume.h
+$(OUTPUT_DIR)/AutoGen.obj : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/IndustryStandard/Acpi51.h
+$(OUTPUT_DIR)/AutoGen.obj : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Library/DebugLib.h
+$(OUTPUT_DIR)/AutoGen.obj : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Pi/PiS3BootScript.h
+$(OUTPUT_DIR)/AutoGen.obj : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Pi/PiDependency.h
+$(OUTPUT_DIR)/AutoGen.obj : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Protocol/SimpleTextInEx.h
+$(OUTPUT_DIR)/AutoGen.obj : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Protocol/SimpleTextIn.h
+$(OUTPUT_DIR)/AutoGen.obj : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/AArch64/ProcessorBind.h
+$(OUTPUT_DIR)/AutoGen.obj : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Uefi/UefiPxe.h
+$(OUTPUT_DIR)/AutoGen.obj : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Library/BaseLib.h
+$(OUTPUT_DIR)/AutoGen.obj : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Guid/PcAnsi.h
+$(OUTPUT_DIR)/AutoGen.obj : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Uefi/UefiMultiPhase.h
+$(OUTPUT_DIR)/AutoGen.obj : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/IndustryStandard/Acpi50.h
+$(OUTPUT_DIR)/AutoGen.obj : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/IndustryStandard/Acpi20.h
+$(OUTPUT_DIR)/AutoGen.obj : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/IndustryStandard/AcpiAml.h
+$(OUTPUT_DIR)/AutoGen.obj : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/IndustryStandard/Acpi30.h
+$(OUTPUT_DIR)/AutoGen.obj : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Pi/PiDxeCis.h
+$(OUTPUT_DIR)/AutoGen.obj : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Base.h
+$(OUTPUT_DIR)/AutoGen.obj : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Pi/PiStatusCode.h
+$(OUTPUT_DIR)/AutoGen.obj : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Uefi/UefiBaseType.h
+$(OUTPUT_DIR)/AutoGen.obj : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/PiDxe.h
+$(OUTPUT_DIR)/AutoGen.obj : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/IndustryStandard/Acpi40.h
+$(OUTPUT_DIR)/AutoGen.obj : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Uefi/UefiSpec.h
 $(OUTPUT_DIR)/AutoGen.obj : $(DEBUG_DIR)/AutoGen.c
-	"$(CC)" $(CC_FLAGS) -c -o /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/XiaomiMI6Pkg/Drivers/LogoDxe/LogoDxe/OUTPUT/./AutoGen.obj $(INC) /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/XiaomiMI6Pkg/Drivers/LogoDxe/LogoDxe/DEBUG/AutoGen.c
+	"$(CC)" $(CC_FLAGS) -c -o /mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/XiaomiMI6Pkg/Drivers/LogoDxe/LogoDxe/OUTPUT/./AutoGen.obj $(INC) /mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/XiaomiMI6Pkg/Drivers/LogoDxe/LogoDxe/DEBUG/AutoGen.c
 
 $(OUTPUT_DIR)/LogoDxe.lib : $(OBJECT_FILES)
 $(OUTPUT_DIR)/LogoDxe.lib : $(OBJECT_FILES_LIST)
-	$(RM) /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/XiaomiMI6Pkg/Drivers/LogoDxe/LogoDxe/OUTPUT/LogoDxe.lib
-	"$(SLINK)" cr /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/XiaomiMI6Pkg/Drivers/LogoDxe/LogoDxe/OUTPUT/LogoDxe.lib $(SLINK_FLAGS) @$(OBJECT_FILES_LIST)
+	$(RM) /mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/XiaomiMI6Pkg/Drivers/LogoDxe/LogoDxe/OUTPUT/LogoDxe.lib
+	"$(SLINK)" cr /mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/XiaomiMI6Pkg/Drivers/LogoDxe/LogoDxe/OUTPUT/LogoDxe.lib $(SLINK_FLAGS) @$(OBJECT_FILES_LIST)
 
 $(OUTPUT_DIR)/LogoDxehii.lib : $(HII_BINARY_PACKAGES)
 	"$(GENFW)" -o $(OUTPUT_DIR)/$(MODULE_NAME)hii.rc -g $(MODULE_GUID) --hiibinpackage $(HII_BINARY_PACKAGES) $(GENFW_FLAGS)
-	"$(RC)" $(RC_FLAGS) $(OUTPUT_DIR)/$(MODULE_NAME)hii.rc /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/XiaomiMI6Pkg/Drivers/LogoDxe/LogoDxe/OUTPUT/LogoDxehii.lib
+	"$(RC)" $(RC_FLAGS) $(OUTPUT_DIR)/$(MODULE_NAME)hii.rc /mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/XiaomiMI6Pkg/Drivers/LogoDxe/LogoDxe/OUTPUT/LogoDxehii.lib
 
 
 

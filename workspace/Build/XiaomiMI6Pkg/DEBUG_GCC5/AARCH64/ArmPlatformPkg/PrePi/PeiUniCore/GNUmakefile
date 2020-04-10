@@ -19,7 +19,7 @@ PLATFORM_NAME = XiaomiMI6Pkg
 PLATFORM_GUID = 28f1a3bf-193a-47e3-a7b9-5a435eaab2ee
 PLATFORM_VERSION = 0.1
 PLATFORM_RELATIVE_DIR = XiaomiMI6Pkg
-PLATFORM_DIR = /home/evsio0n/src/edk2sdm/Sdm835/XiaomiMI6Pkg
+PLATFORM_DIR = /mnt/d/TARGET/edk2sdm/Sdm835/XiaomiMI6Pkg
 PLATFORM_OUTPUT_DIR = Build/XiaomiMI6Pkg
 
 #
@@ -35,8 +35,8 @@ MODULE_FILE_BASE_NAME = PeiUniCore
 BASE_NAME = $(MODULE_NAME)
 MODULE_RELATIVE_DIR = ArmPlatformPkg/PrePi
 PACKAGE_RELATIVE_DIR = PrePi
-MODULE_DIR = /home/evsio0n/src/edk2sdm/edk2/ArmPlatformPkg/PrePi
-FFS_OUTPUT_DIR = /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/FV/Ffs/d959e387-7b91-452c-90e0-a1dbac90ddb8ArmPlatformPrePiUniCore
+MODULE_DIR = /mnt/d/TARGET/edk2sdm/edk2/ArmPlatformPkg/PrePi
+FFS_OUTPUT_DIR = /mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/FV/Ffs/d959e387-7b91-452c-90e0-a1dbac90ddb8ArmPlatformPrePiUniCore
 
 MODULE_ENTRY_POINT = _ModuleEntryPoint
 ARCH_ENTRY_POINT = _ModuleEntryPoint
@@ -59,13 +59,13 @@ TARGET = DEBUG
 #
 # Build Directory Macro Definition
 #
-# PLATFORM_BUILD_DIR = /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5
-BUILD_DIR = /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5
+# PLATFORM_BUILD_DIR = /mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5
+BUILD_DIR = /mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5
 BIN_DIR = $(BUILD_DIR)/AARCH64
 LIB_DIR = $(BIN_DIR)
-MODULE_BUILD_DIR = /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPlatformPkg/PrePi/PeiUniCore
-OUTPUT_DIR = /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPlatformPkg/PrePi/PeiUniCore/OUTPUT
-DEBUG_DIR = /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPlatformPkg/PrePi/PeiUniCore/DEBUG
+MODULE_BUILD_DIR = /mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPlatformPkg/PrePi/PeiUniCore
+OUTPUT_DIR = /mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPlatformPkg/PrePi/PeiUniCore/OUTPUT
+DEBUG_DIR = /mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPlatformPkg/PrePi/PeiUniCore/DEBUG
 DEST_DIR_OUTPUT = $(OUTPUT_DIR)
 DEST_DIR_DEBUG = $(DEBUG_DIR)
 
@@ -169,7 +169,7 @@ PP_FLAGS = $(ARCHCC_FLAGS) $(PLATFORM_FLAGS) -E -x assembler-with-cpp -include $
 VFRPP = aarch64-linux-gnu-gcc
 VFRPP_FLAGS = $(ARCHCC_FLAGS) $(PLATFORM_FLAGS) -x c -E -P -DVFRCOMPILE --include $(DEST_DIR_DEBUG)/$(MODULE_NAME)StrDefs.h
 
-DLINK_FLAGS = -Wl,--emit-relocs -nostdlib -Wl,--gc-sections -u $(IMAGE_ENTRY_POINT) -Wl,-e,$(IMAGE_ENTRY_POINT),-Map,$(DEST_DIR_DEBUG)/$(BASE_NAME).map -z common-page-size=0x20 -z common-page-size=0x1000 -flto -Os -L/home/evsio0n/src/edk2sdm/edk2/ArmPkg/Library/GccLto -llto-aarch64 -Wl,-plugin-opt=-pass-through=-llto-aarch64 -Wno-lto-type-mismatch
+DLINK_FLAGS = -Wl,--emit-relocs -nostdlib -Wl,--gc-sections -u $(IMAGE_ENTRY_POINT) -Wl,-e,$(IMAGE_ENTRY_POINT),-Map,$(DEST_DIR_DEBUG)/$(BASE_NAME).map -z common-page-size=0x20 -z common-page-size=0x1000 -flto -Os -L/mnt/d/TARGET/edk2sdm/edk2/ArmPkg/Library/GccLto -llto-aarch64 -Wl,-plugin-opt=-pass-through=-llto-aarch64 -Wno-lto-type-mismatch
 DLINK_XIPFLAGS =  -z common-page-size=0x20
 DLINK = aarch64-linux-gnu-gcc
 
@@ -239,63 +239,63 @@ OBJECT_FILES =  \
     $(OUTPUT_DIR)/AutoGen.obj
 
 INC =  \
-    -I/home/evsio0n/src/edk2sdm/edk2/ArmPlatformPkg/PrePi/AArch64 \
-    -I/home/evsio0n/src/edk2sdm/edk2/ArmPlatformPkg/PrePi \
+    -I/mnt/d/TARGET/edk2sdm/edk2/ArmPlatformPkg/PrePi/AArch64 \
+    -I/mnt/d/TARGET/edk2sdm/edk2/ArmPlatformPkg/PrePi \
     -I$(DEBUG_DIR) \
-    -I/home/evsio0n/src/edk2sdm/edk2/MdePkg \
-    -I/home/evsio0n/src/edk2sdm/edk2/MdePkg/Include \
-    -I/home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/AArch64 \
-    -I/home/evsio0n/src/edk2sdm/edk2/MdeModulePkg \
-    -I/home/evsio0n/src/edk2sdm/edk2/MdeModulePkg/Include \
-    -I/home/evsio0n/src/edk2sdm/edk2/EmbeddedPkg \
-    -I/home/evsio0n/src/edk2sdm/edk2/EmbeddedPkg/Include \
-    -I/home/evsio0n/src/edk2sdm/edk2/ArmPkg \
-    -I/home/evsio0n/src/edk2sdm/edk2/ArmPkg/Include \
-    -I/home/evsio0n/src/edk2sdm/edk2/ArmPlatformPkg \
-    -I/home/evsio0n/src/edk2sdm/edk2/ArmPlatformPkg/Include
+    -I/mnt/d/TARGET/edk2sdm/edk2/MdePkg \
+    -I/mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include \
+    -I/mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/AArch64 \
+    -I/mnt/d/TARGET/edk2sdm/edk2/MdeModulePkg \
+    -I/mnt/d/TARGET/edk2sdm/edk2/MdeModulePkg/Include \
+    -I/mnt/d/TARGET/edk2sdm/edk2/EmbeddedPkg \
+    -I/mnt/d/TARGET/edk2sdm/edk2/EmbeddedPkg/Include \
+    -I/mnt/d/TARGET/edk2sdm/edk2/ArmPkg \
+    -I/mnt/d/TARGET/edk2sdm/edk2/ArmPkg/Include \
+    -I/mnt/d/TARGET/edk2sdm/edk2/ArmPlatformPkg \
+    -I/mnt/d/TARGET/edk2sdm/edk2/ArmPlatformPkg/Include
 
-STATIC_LIBRARY_FILES_LIST = /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPlatformPkg/PrePi/PeiUniCore/OUTPUT/static_library_files.lst
-OBJECT_FILES_LIST = /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPlatformPkg/PrePi/PeiUniCore/OUTPUT/object_files.lst
+STATIC_LIBRARY_FILES_LIST = /mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPlatformPkg/PrePi/PeiUniCore/OUTPUT/static_library_files.lst
+OBJECT_FILES_LIST = /mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPlatformPkg/PrePi/PeiUniCore/OUTPUT/object_files.lst
 
 
-COMMON_DEPS = /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Pi/PiHob.h \
-              /home/evsio0n/src/edk2sdm/edk2/ArmPkg/Include/Chipset/AArch64Mmu.h \
-              /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Guid/WinCertificate.h \
-              /home/evsio0n/src/edk2sdm/edk2/ArmPkg/Include/Library/ArmLib.h \
-              /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Ppi/PciCfg2.h \
-              /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Library/DebugLib.h \
-              /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Ppi/CpuIo.h \
-              /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Protocol/SerialIo.h \
-              /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Pi/PiFirmwareFile.h \
-              /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Uefi/UefiMultiPhase.h \
-              /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Pi/PiS3BootScript.h \
-              /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Library/MemoryAllocationLib.h \
-              /home/evsio0n/src/edk2sdm/edk2/ArmPkg/Include/Chipset/ArmV7.h \
-              /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/AArch64/ProcessorBind.h \
-              /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Pi/PiStatusCode.h \
-              /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Pi/PiPeiCis.h \
-              /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/PiPei.h \
-              /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/IndustryStandard/PeImage.h \
-              /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Base.h \
-              /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Library/IoLib.h \
-              /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Library/BaseLib.h \
-              /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Pi/PiMultiPhase.h \
-              /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Library/SerialPortLib.h \
+COMMON_DEPS = /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Library/IoLib.h \
+              /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Library/HobLib.h \
+              /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Library/SerialPortLib.h \
+              /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Ppi/CpuIo.h \
+              /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Library/MemoryAllocationLib.h \
+              /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Ppi/MasterBootMode.h \
+              /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Pi/PiBootMode.h \
+              /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/IndustryStandard/PeImage.h \
               $(DEBUG_DIR)/AutoGen.h \
-              /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Library/BaseMemoryLib.h \
-              /home/evsio0n/src/edk2sdm/edk2/ArmPkg/Include/Chipset/AArch64.h \
-              /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Pi/PiDependency.h \
-              /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Ppi/MasterBootMode.h \
-              /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Protocol/DebugSupport.h \
-              /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Pi/PiFirmwareVolume.h \
-              /home/evsio0n/src/edk2sdm/edk2/ArmPlatformPkg/PrePi/PrePi.h \
-              /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Library/PcdLib.h \
-              /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Library/HobLib.h \
-              /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Ppi/BootInRecoveryMode.h \
-              /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Uefi/UefiBaseType.h \
-              /home/evsio0n/src/edk2sdm/edk2/ArmPlatformPkg/Include/Library/ArmPlatformLib.h \
-              /home/evsio0n/src/edk2sdm/edk2/ArmPkg/Include/Chipset/ArmV7Mmu.h \
-              /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Pi/PiBootMode.h \
+              /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Pi/PiPeiCis.h \
+              /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Protocol/SerialIo.h \
+              /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Pi/PiMultiPhase.h \
+              /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Protocol/DebugSupport.h \
+              /mnt/d/TARGET/edk2sdm/edk2/ArmPkg/Include/Chipset/ArmV7Mmu.h \
+              /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Pi/PiFirmwareFile.h \
+              /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Pi/PiHob.h \
+              /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Guid/WinCertificate.h \
+              /mnt/d/TARGET/edk2sdm/edk2/ArmPlatformPkg/PrePi/PrePi.h \
+              /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Pi/PiFirmwareVolume.h \
+              /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Ppi/PciCfg2.h \
+              /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Library/DebugLib.h \
+              /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Pi/PiS3BootScript.h \
+              /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Pi/PiDependency.h \
+              /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Ppi/BootInRecoveryMode.h \
+              /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Library/PcdLib.h \
+              /mnt/d/TARGET/edk2sdm/edk2/ArmPkg/Include/Chipset/ArmV7.h \
+              /mnt/d/TARGET/edk2sdm/edk2/ArmPkg/Include/Library/ArmLib.h \
+              /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/PiPei.h \
+              /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/AArch64/ProcessorBind.h \
+              /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Library/BaseLib.h \
+              /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Library/BaseMemoryLib.h \
+              /mnt/d/TARGET/edk2sdm/edk2/ArmPkg/Include/Chipset/AArch64.h \
+              /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Uefi/UefiMultiPhase.h \
+              /mnt/d/TARGET/edk2sdm/edk2/ArmPlatformPkg/Include/Library/ArmPlatformLib.h \
+              /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Base.h \
+              /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Pi/PiStatusCode.h \
+              /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Uefi/UefiBaseType.h \
+              /mnt/d/TARGET/edk2sdm/edk2/ArmPkg/Include/Chipset/AArch64Mmu.h \
               
 
 #
@@ -305,7 +305,7 @@ FORCE_REBUILD = force_build
 INIT_TARGET = init
 PCH_TARGET =
 BC_TARGET = 
-CODA_TARGET = /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPlatformPkg/PrePi/PeiUniCore/OUTPUT/ArmPlatformPrePiUniCore.efi \
+CODA_TARGET = /mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPlatformPkg/PrePi/PeiUniCore/OUTPUT/ArmPlatformPrePiUniCore.efi \
               
 
 #
@@ -410,106 +410,106 @@ gen_fds:
 $(DEBUG_DIR)/ArmPlatformPrePiUniCore.dll : $(MAKE_FILE)
 $(DEBUG_DIR)/ArmPlatformPrePiUniCore.dll : $(STATIC_LIBRARY_FILES)
 $(DEBUG_DIR)/ArmPlatformPrePiUniCore.dll : $(STATIC_LIBRARY_FILES_LIST)
-	"$(DLINK)" -o /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPlatformPkg/PrePi/PeiUniCore/DEBUG/ArmPlatformPrePiUniCore.dll $(DLINK_FLAGS) $(DLINK_XIPFLAGS) -Wl,--start-group,@$(STATIC_LIBRARY_FILES_LIST),--end-group $(CC_FLAGS) $(CC_XIPFLAGS) $(DLINK2_FLAGS)
-	"$(OBJCOPY)" $(OBJCOPY_FLAGS) /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPlatformPkg/PrePi/PeiUniCore/DEBUG/ArmPlatformPrePiUniCore.dll
+	"$(DLINK)" -o /mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPlatformPkg/PrePi/PeiUniCore/DEBUG/ArmPlatformPrePiUniCore.dll $(DLINK_FLAGS) $(DLINK_XIPFLAGS) -Wl,--start-group,@$(STATIC_LIBRARY_FILES_LIST),--end-group $(CC_FLAGS) $(CC_XIPFLAGS) $(DLINK2_FLAGS)
+	"$(OBJCOPY)" $(OBJCOPY_FLAGS) /mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPlatformPkg/PrePi/PeiUniCore/DEBUG/ArmPlatformPrePiUniCore.dll
 
 $(OUTPUT_DIR)/ArmPlatformPrePiUniCore.efi : $(DEBUG_DIR)/ArmPlatformPrePiUniCore.dll
-	$(CP) /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPlatformPkg/PrePi/PeiUniCore/DEBUG/ArmPlatformPrePiUniCore.dll $(DEBUG_DIR)/$(MODULE_NAME).debug
-	$(OBJCOPY) --strip-unneeded -R .eh_frame /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPlatformPkg/PrePi/PeiUniCore/DEBUG/ArmPlatformPrePiUniCore.dll
-	-$(OBJCOPY) $(OBJCOPY_ADDDEBUGFLAG) /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPlatformPkg/PrePi/PeiUniCore/DEBUG/ArmPlatformPrePiUniCore.dll
+	$(CP) /mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPlatformPkg/PrePi/PeiUniCore/DEBUG/ArmPlatformPrePiUniCore.dll $(DEBUG_DIR)/$(MODULE_NAME).debug
+	$(OBJCOPY) --strip-unneeded -R .eh_frame /mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPlatformPkg/PrePi/PeiUniCore/DEBUG/ArmPlatformPrePiUniCore.dll
+	-$(OBJCOPY) $(OBJCOPY_ADDDEBUGFLAG) /mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPlatformPkg/PrePi/PeiUniCore/DEBUG/ArmPlatformPrePiUniCore.dll
 	-$(CP) $(DEBUG_DIR)/$(MODULE_NAME).debug $(BIN_DIR)/$(MODULE_NAME_GUID).debug
-	"$(GENFW)" -e $(MODULE_TYPE) -o /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPlatformPkg/PrePi/PeiUniCore/OUTPUT/ArmPlatformPrePiUniCore.efi /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPlatformPkg/PrePi/PeiUniCore/DEBUG/ArmPlatformPrePiUniCore.dll $(GENFW_FLAGS)
-	$(CP) /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPlatformPkg/PrePi/PeiUniCore/OUTPUT/ArmPlatformPrePiUniCore.efi $(DEBUG_DIR)
-	$(CP) /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPlatformPkg/PrePi/PeiUniCore/OUTPUT/ArmPlatformPrePiUniCore.efi $(BIN_DIR)/$(MODULE_NAME_GUID).efi
+	"$(GENFW)" -e $(MODULE_TYPE) -o /mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPlatformPkg/PrePi/PeiUniCore/OUTPUT/ArmPlatformPrePiUniCore.efi /mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPlatformPkg/PrePi/PeiUniCore/DEBUG/ArmPlatformPrePiUniCore.dll $(GENFW_FLAGS)
+	$(CP) /mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPlatformPkg/PrePi/PeiUniCore/OUTPUT/ArmPlatformPrePiUniCore.efi $(DEBUG_DIR)
+	$(CP) /mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPlatformPkg/PrePi/PeiUniCore/OUTPUT/ArmPlatformPrePiUniCore.efi $(BIN_DIR)/$(MODULE_NAME_GUID).efi
 	-$(CP) $(DEBUG_DIR)/*.map $(OUTPUT_DIR)
-
-$(OUTPUT_DIR)/AArch64/ArchPrePi.obj : $(MAKE_FILE)
-$(OUTPUT_DIR)/AArch64/ArchPrePi.obj : $(COMMON_DEPS)
-$(OUTPUT_DIR)/AArch64/ArchPrePi.obj : /home/evsio0n/src/edk2sdm/edk2/ArmPlatformPkg/PrePi/AArch64/ArchPrePi.c
-	"$(CC)" $(CC_FLAGS) $(CC_XIPFLAGS) -c -o /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPlatformPkg/PrePi/PeiUniCore/OUTPUT/AArch64/ArchPrePi.obj $(INC) /home/evsio0n/src/edk2sdm/edk2/ArmPlatformPkg/PrePi/AArch64/ArchPrePi.c
-
-$(OUTPUT_DIR)/MainUniCore.obj : $(MAKE_FILE)
-$(OUTPUT_DIR)/MainUniCore.obj : $(COMMON_DEPS)
-$(OUTPUT_DIR)/MainUniCore.obj : /home/evsio0n/src/edk2sdm/edk2/ArmPlatformPkg/PrePi/MainUniCore.c
-	"$(CC)" $(CC_FLAGS) $(CC_XIPFLAGS) -c -o /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPlatformPkg/PrePi/PeiUniCore/OUTPUT/./MainUniCore.obj $(INC) /home/evsio0n/src/edk2sdm/edk2/ArmPlatformPkg/PrePi/MainUniCore.c
 
 $(OUTPUT_DIR)/PrePi.obj : $(MAKE_FILE)
 $(OUTPUT_DIR)/PrePi.obj : $(COMMON_DEPS)
-$(OUTPUT_DIR)/PrePi.obj : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Library/TimerLib.h
-$(OUTPUT_DIR)/PrePi.obj : /home/evsio0n/src/edk2sdm/edk2/MdeModulePkg/Include/Library/DebugAgentLib.h
-$(OUTPUT_DIR)/PrePi.obj : /home/evsio0n/src/edk2sdm/edk2/EmbeddedPkg/Include/Guid/ExtractSection.h
-$(OUTPUT_DIR)/PrePi.obj : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Ppi/GuidedSectionExtraction.h
-$(OUTPUT_DIR)/PrePi.obj : /home/evsio0n/src/edk2sdm/edk2/EmbeddedPkg/Include/Library/PrePiHobListPointerLib.h
-$(OUTPUT_DIR)/PrePi.obj : /home/evsio0n/src/edk2sdm/edk2/MdeModulePkg/Include/Ppi/SecPerformance.h
-$(OUTPUT_DIR)/PrePi.obj : /home/evsio0n/src/edk2sdm/edk2/EmbeddedPkg/Include/Library/PrePiLib.h
-$(OUTPUT_DIR)/PrePi.obj : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Library/PrintLib.h
-$(OUTPUT_DIR)/PrePi.obj : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Library/ExtractGuidedSectionLib.h
-$(OUTPUT_DIR)/PrePi.obj : /home/evsio0n/src/edk2sdm/edk2/ArmPkg/Include/Guid/ArmMpCoreInfo.h
-$(OUTPUT_DIR)/PrePi.obj : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Library/PerformanceLib.h
-$(OUTPUT_DIR)/PrePi.obj : /home/evsio0n/src/edk2sdm/edk2/ArmPkg/Include/Ppi/ArmMpCoreInfo.h
-$(OUTPUT_DIR)/PrePi.obj : /home/evsio0n/src/edk2sdm/edk2/ArmPlatformPkg/PrePi/PrePi.c
-	"$(CC)" $(CC_FLAGS) $(CC_XIPFLAGS) -c -o /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPlatformPkg/PrePi/PeiUniCore/OUTPUT/./PrePi.obj $(INC) /home/evsio0n/src/edk2sdm/edk2/ArmPlatformPkg/PrePi/PrePi.c
+$(OUTPUT_DIR)/PrePi.obj : /mnt/d/TARGET/edk2sdm/edk2/MdeModulePkg/Include/Library/DebugAgentLib.h
+$(OUTPUT_DIR)/PrePi.obj : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Library/PrintLib.h
+$(OUTPUT_DIR)/PrePi.obj : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Library/PerformanceLib.h
+$(OUTPUT_DIR)/PrePi.obj : /mnt/d/TARGET/edk2sdm/edk2/ArmPkg/Include/Ppi/ArmMpCoreInfo.h
+$(OUTPUT_DIR)/PrePi.obj : /mnt/d/TARGET/edk2sdm/edk2/EmbeddedPkg/Include/Library/PrePiLib.h
+$(OUTPUT_DIR)/PrePi.obj : /mnt/d/TARGET/edk2sdm/edk2/MdeModulePkg/Include/Ppi/SecPerformance.h
+$(OUTPUT_DIR)/PrePi.obj : /mnt/d/TARGET/edk2sdm/edk2/EmbeddedPkg/Include/Guid/ExtractSection.h
+$(OUTPUT_DIR)/PrePi.obj : /mnt/d/TARGET/edk2sdm/edk2/EmbeddedPkg/Include/Library/PrePiHobListPointerLib.h
+$(OUTPUT_DIR)/PrePi.obj : /mnt/d/TARGET/edk2sdm/edk2/ArmPkg/Include/Guid/ArmMpCoreInfo.h
+$(OUTPUT_DIR)/PrePi.obj : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Ppi/GuidedSectionExtraction.h
+$(OUTPUT_DIR)/PrePi.obj : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Library/ExtractGuidedSectionLib.h
+$(OUTPUT_DIR)/PrePi.obj : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Library/TimerLib.h
+$(OUTPUT_DIR)/PrePi.obj : /mnt/d/TARGET/edk2sdm/edk2/ArmPlatformPkg/PrePi/PrePi.c
+	"$(CC)" $(CC_FLAGS) $(CC_XIPFLAGS) -c -o /mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPlatformPkg/PrePi/PeiUniCore/OUTPUT/./PrePi.obj $(INC) /mnt/d/TARGET/edk2sdm/edk2/ArmPlatformPkg/PrePi/PrePi.c
+
+$(OUTPUT_DIR)/MainUniCore.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/MainUniCore.obj : $(COMMON_DEPS)
+$(OUTPUT_DIR)/MainUniCore.obj : /mnt/d/TARGET/edk2sdm/edk2/ArmPlatformPkg/PrePi/MainUniCore.c
+	"$(CC)" $(CC_FLAGS) $(CC_XIPFLAGS) -c -o /mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPlatformPkg/PrePi/PeiUniCore/OUTPUT/./MainUniCore.obj $(INC) /mnt/d/TARGET/edk2sdm/edk2/ArmPlatformPkg/PrePi/MainUniCore.c
+
+$(OUTPUT_DIR)/AArch64/ArchPrePi.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/AArch64/ArchPrePi.obj : $(COMMON_DEPS)
+$(OUTPUT_DIR)/AArch64/ArchPrePi.obj : /mnt/d/TARGET/edk2sdm/edk2/ArmPlatformPkg/PrePi/AArch64/ArchPrePi.c
+	"$(CC)" $(CC_FLAGS) $(CC_XIPFLAGS) -c -o /mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPlatformPkg/PrePi/PeiUniCore/OUTPUT/AArch64/ArchPrePi.obj $(INC) /mnt/d/TARGET/edk2sdm/edk2/ArmPlatformPkg/PrePi/AArch64/ArchPrePi.c
 
 $(OUTPUT_DIR)/AutoGen.obj : $(MAKE_FILE)
-$(OUTPUT_DIR)/AutoGen.obj : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Pi/PiHob.h
-$(OUTPUT_DIR)/AutoGen.obj : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Guid/WinCertificate.h
-$(OUTPUT_DIR)/AutoGen.obj : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Ppi/PciCfg2.h
-$(OUTPUT_DIR)/AutoGen.obj : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Library/DebugLib.h
-$(OUTPUT_DIR)/AutoGen.obj : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Ppi/CpuIo.h
-$(OUTPUT_DIR)/AutoGen.obj : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Pi/PiFirmwareFile.h
-$(OUTPUT_DIR)/AutoGen.obj : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Uefi/UefiMultiPhase.h
-$(OUTPUT_DIR)/AutoGen.obj : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Pi/PiS3BootScript.h
-$(OUTPUT_DIR)/AutoGen.obj : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/AArch64/ProcessorBind.h
-$(OUTPUT_DIR)/AutoGen.obj : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Pi/PiStatusCode.h
-$(OUTPUT_DIR)/AutoGen.obj : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Pi/PiPeiCis.h
-$(OUTPUT_DIR)/AutoGen.obj : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/PiPei.h
-$(OUTPUT_DIR)/AutoGen.obj : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/IndustryStandard/PeImage.h
-$(OUTPUT_DIR)/AutoGen.obj : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Base.h
-$(OUTPUT_DIR)/AutoGen.obj : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Library/BaseLib.h
-$(OUTPUT_DIR)/AutoGen.obj : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Pi/PiMultiPhase.h
+$(OUTPUT_DIR)/AutoGen.obj : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Ppi/CpuIo.h
+$(OUTPUT_DIR)/AutoGen.obj : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Pi/PiBootMode.h
+$(OUTPUT_DIR)/AutoGen.obj : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/IndustryStandard/PeImage.h
 $(OUTPUT_DIR)/AutoGen.obj : $(DEBUG_DIR)/AutoGen.h
-$(OUTPUT_DIR)/AutoGen.obj : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Pi/PiDependency.h
-$(OUTPUT_DIR)/AutoGen.obj : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Protocol/DebugSupport.h
-$(OUTPUT_DIR)/AutoGen.obj : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Pi/PiFirmwareVolume.h
-$(OUTPUT_DIR)/AutoGen.obj : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Library/PcdLib.h
-$(OUTPUT_DIR)/AutoGen.obj : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Uefi/UefiBaseType.h
-$(OUTPUT_DIR)/AutoGen.obj : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Pi/PiBootMode.h
+$(OUTPUT_DIR)/AutoGen.obj : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Pi/PiPeiCis.h
+$(OUTPUT_DIR)/AutoGen.obj : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Pi/PiMultiPhase.h
+$(OUTPUT_DIR)/AutoGen.obj : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Protocol/DebugSupport.h
+$(OUTPUT_DIR)/AutoGen.obj : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Pi/PiFirmwareFile.h
+$(OUTPUT_DIR)/AutoGen.obj : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Pi/PiHob.h
+$(OUTPUT_DIR)/AutoGen.obj : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Guid/WinCertificate.h
+$(OUTPUT_DIR)/AutoGen.obj : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Pi/PiFirmwareVolume.h
+$(OUTPUT_DIR)/AutoGen.obj : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Ppi/PciCfg2.h
+$(OUTPUT_DIR)/AutoGen.obj : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Library/DebugLib.h
+$(OUTPUT_DIR)/AutoGen.obj : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Pi/PiS3BootScript.h
+$(OUTPUT_DIR)/AutoGen.obj : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Pi/PiDependency.h
+$(OUTPUT_DIR)/AutoGen.obj : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Library/PcdLib.h
+$(OUTPUT_DIR)/AutoGen.obj : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/PiPei.h
+$(OUTPUT_DIR)/AutoGen.obj : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/AArch64/ProcessorBind.h
+$(OUTPUT_DIR)/AutoGen.obj : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Library/BaseLib.h
+$(OUTPUT_DIR)/AutoGen.obj : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Uefi/UefiMultiPhase.h
+$(OUTPUT_DIR)/AutoGen.obj : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Base.h
+$(OUTPUT_DIR)/AutoGen.obj : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Pi/PiStatusCode.h
+$(OUTPUT_DIR)/AutoGen.obj : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Uefi/UefiBaseType.h
 $(OUTPUT_DIR)/AutoGen.obj : $(DEBUG_DIR)/AutoGen.c
-	"$(CC)" $(CC_FLAGS) $(CC_XIPFLAGS) -c -o /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPlatformPkg/PrePi/PeiUniCore/OUTPUT/./AutoGen.obj $(INC) /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPlatformPkg/PrePi/PeiUniCore/DEBUG/AutoGen.c
+	"$(CC)" $(CC_FLAGS) $(CC_XIPFLAGS) -c -o /mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPlatformPkg/PrePi/PeiUniCore/OUTPUT/./AutoGen.obj $(INC) /mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPlatformPkg/PrePi/PeiUniCore/DEBUG/AutoGen.c
 
 $(OUTPUT_DIR)/ArmPlatformPrePiUniCore.lib : $(OBJECT_FILES)
 $(OUTPUT_DIR)/ArmPlatformPrePiUniCore.lib : $(OBJECT_FILES_LIST)
-	$(RM) /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPlatformPkg/PrePi/PeiUniCore/OUTPUT/ArmPlatformPrePiUniCore.lib
-	"$(SLINK)" cr /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPlatformPkg/PrePi/PeiUniCore/OUTPUT/ArmPlatformPrePiUniCore.lib $(SLINK_FLAGS) @$(OBJECT_FILES_LIST)
+	$(RM) /mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPlatformPkg/PrePi/PeiUniCore/OUTPUT/ArmPlatformPrePiUniCore.lib
+	"$(SLINK)" cr /mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPlatformPkg/PrePi/PeiUniCore/OUTPUT/ArmPlatformPrePiUniCore.lib $(SLINK_FLAGS) @$(OBJECT_FILES_LIST)
 
 $(OUTPUT_DIR)/AArch64/ModuleEntryPoint.obj : $(MAKE_FILE)
-$(OUTPUT_DIR)/AArch64/ModuleEntryPoint.obj : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Pi/PiHob.h
-$(OUTPUT_DIR)/AArch64/ModuleEntryPoint.obj : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Guid/WinCertificate.h
-$(OUTPUT_DIR)/AArch64/ModuleEntryPoint.obj : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Ppi/PciCfg2.h
-$(OUTPUT_DIR)/AArch64/ModuleEntryPoint.obj : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Ppi/CpuIo.h
-$(OUTPUT_DIR)/AArch64/ModuleEntryPoint.obj : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Pi/PiFirmwareFile.h
-$(OUTPUT_DIR)/AArch64/ModuleEntryPoint.obj : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Uefi/UefiMultiPhase.h
-$(OUTPUT_DIR)/AArch64/ModuleEntryPoint.obj : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Pi/PiS3BootScript.h
-$(OUTPUT_DIR)/AArch64/ModuleEntryPoint.obj : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/AArch64/ProcessorBind.h
-$(OUTPUT_DIR)/AArch64/ModuleEntryPoint.obj : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Pi/PiStatusCode.h
-$(OUTPUT_DIR)/AArch64/ModuleEntryPoint.obj : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Pi/PiPeiCis.h
-$(OUTPUT_DIR)/AArch64/ModuleEntryPoint.obj : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/PiPei.h
-$(OUTPUT_DIR)/AArch64/ModuleEntryPoint.obj : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/IndustryStandard/PeImage.h
-$(OUTPUT_DIR)/AArch64/ModuleEntryPoint.obj : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Base.h
-$(OUTPUT_DIR)/AArch64/ModuleEntryPoint.obj : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Library/BaseLib.h
-$(OUTPUT_DIR)/AArch64/ModuleEntryPoint.obj : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Pi/PiMultiPhase.h
-$(OUTPUT_DIR)/AArch64/ModuleEntryPoint.obj : /home/evsio0n/src/edk2sdm/edk2/ArmPkg/Include/AsmMacroIoLibV8.h
+$(OUTPUT_DIR)/AArch64/ModuleEntryPoint.obj : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Ppi/CpuIo.h
+$(OUTPUT_DIR)/AArch64/ModuleEntryPoint.obj : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Pi/PiBootMode.h
+$(OUTPUT_DIR)/AArch64/ModuleEntryPoint.obj : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/IndustryStandard/PeImage.h
+$(OUTPUT_DIR)/AArch64/ModuleEntryPoint.obj : /mnt/d/TARGET/edk2sdm/edk2/ArmPkg/Include/AsmMacroIoLibV8.h
+$(OUTPUT_DIR)/AArch64/ModuleEntryPoint.obj : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Pi/PiPeiCis.h
 $(OUTPUT_DIR)/AArch64/ModuleEntryPoint.obj : $(DEBUG_DIR)/AutoGen.h
-$(OUTPUT_DIR)/AArch64/ModuleEntryPoint.obj : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Pi/PiDependency.h
-$(OUTPUT_DIR)/AArch64/ModuleEntryPoint.obj : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Protocol/DebugSupport.h
-$(OUTPUT_DIR)/AArch64/ModuleEntryPoint.obj : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Pi/PiFirmwareVolume.h
-$(OUTPUT_DIR)/AArch64/ModuleEntryPoint.obj : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Library/PcdLib.h
-$(OUTPUT_DIR)/AArch64/ModuleEntryPoint.obj : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Uefi/UefiBaseType.h
-$(OUTPUT_DIR)/AArch64/ModuleEntryPoint.obj : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Pi/PiBootMode.h
-$(OUTPUT_DIR)/AArch64/ModuleEntryPoint.obj : /home/evsio0n/src/edk2sdm/edk2/ArmPlatformPkg/PrePi/AArch64/ModuleEntryPoint.S
-	"$(PP)" $(PP_FLAGS) $(INC) /home/evsio0n/src/edk2sdm/edk2/ArmPlatformPkg/PrePi/AArch64/ModuleEntryPoint.S > /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPlatformPkg/PrePi/PeiUniCore/OUTPUT/AArch64/ModuleEntryPoint.i
-	Trim --trim-long --source-code -o /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPlatformPkg/PrePi/PeiUniCore/OUTPUT/AArch64/ModuleEntryPoint.iii /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPlatformPkg/PrePi/PeiUniCore/OUTPUT/AArch64/ModuleEntryPoint.i
-	"$(ASM)" $(ASM_FLAGS) -o /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPlatformPkg/PrePi/PeiUniCore/OUTPUT/AArch64/ModuleEntryPoint.obj $(INC) /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPlatformPkg/PrePi/PeiUniCore/OUTPUT/AArch64/ModuleEntryPoint.iii
+$(OUTPUT_DIR)/AArch64/ModuleEntryPoint.obj : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Pi/PiMultiPhase.h
+$(OUTPUT_DIR)/AArch64/ModuleEntryPoint.obj : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Protocol/DebugSupport.h
+$(OUTPUT_DIR)/AArch64/ModuleEntryPoint.obj : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Pi/PiFirmwareFile.h
+$(OUTPUT_DIR)/AArch64/ModuleEntryPoint.obj : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Pi/PiHob.h
+$(OUTPUT_DIR)/AArch64/ModuleEntryPoint.obj : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Guid/WinCertificate.h
+$(OUTPUT_DIR)/AArch64/ModuleEntryPoint.obj : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Pi/PiFirmwareVolume.h
+$(OUTPUT_DIR)/AArch64/ModuleEntryPoint.obj : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Ppi/PciCfg2.h
+$(OUTPUT_DIR)/AArch64/ModuleEntryPoint.obj : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Pi/PiS3BootScript.h
+$(OUTPUT_DIR)/AArch64/ModuleEntryPoint.obj : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Pi/PiDependency.h
+$(OUTPUT_DIR)/AArch64/ModuleEntryPoint.obj : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Library/PcdLib.h
+$(OUTPUT_DIR)/AArch64/ModuleEntryPoint.obj : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/PiPei.h
+$(OUTPUT_DIR)/AArch64/ModuleEntryPoint.obj : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/AArch64/ProcessorBind.h
+$(OUTPUT_DIR)/AArch64/ModuleEntryPoint.obj : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Library/BaseLib.h
+$(OUTPUT_DIR)/AArch64/ModuleEntryPoint.obj : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Uefi/UefiMultiPhase.h
+$(OUTPUT_DIR)/AArch64/ModuleEntryPoint.obj : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Base.h
+$(OUTPUT_DIR)/AArch64/ModuleEntryPoint.obj : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Pi/PiStatusCode.h
+$(OUTPUT_DIR)/AArch64/ModuleEntryPoint.obj : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Uefi/UefiBaseType.h
+$(OUTPUT_DIR)/AArch64/ModuleEntryPoint.obj : /mnt/d/TARGET/edk2sdm/edk2/ArmPlatformPkg/PrePi/AArch64/ModuleEntryPoint.S
+	"$(PP)" $(PP_FLAGS) $(INC) /mnt/d/TARGET/edk2sdm/edk2/ArmPlatformPkg/PrePi/AArch64/ModuleEntryPoint.S > /mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPlatformPkg/PrePi/PeiUniCore/OUTPUT/AArch64/ModuleEntryPoint.i
+	Trim --trim-long --source-code -o /mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPlatformPkg/PrePi/PeiUniCore/OUTPUT/AArch64/ModuleEntryPoint.iii /mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPlatformPkg/PrePi/PeiUniCore/OUTPUT/AArch64/ModuleEntryPoint.i
+	"$(ASM)" $(ASM_FLAGS) -o /mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPlatformPkg/PrePi/PeiUniCore/OUTPUT/AArch64/ModuleEntryPoint.obj $(INC) /mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPlatformPkg/PrePi/PeiUniCore/OUTPUT/AArch64/ModuleEntryPoint.iii
 
 
 

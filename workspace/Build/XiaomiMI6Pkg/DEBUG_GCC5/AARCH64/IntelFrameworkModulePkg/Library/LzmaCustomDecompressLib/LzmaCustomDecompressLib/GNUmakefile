@@ -19,7 +19,7 @@ PLATFORM_NAME = XiaomiMI6Pkg
 PLATFORM_GUID = 28f1a3bf-193a-47e3-a7b9-5a435eaab2ee
 PLATFORM_VERSION = 0.1
 PLATFORM_RELATIVE_DIR = XiaomiMI6Pkg
-PLATFORM_DIR = /home/evsio0n/src/edk2sdm/Sdm835/XiaomiMI6Pkg
+PLATFORM_DIR = /mnt/d/TARGET/edk2sdm/Sdm835/XiaomiMI6Pkg
 PLATFORM_OUTPUT_DIR = Build/XiaomiMI6Pkg
 
 #
@@ -35,8 +35,8 @@ MODULE_FILE_BASE_NAME = LzmaCustomDecompressLib
 BASE_NAME = $(MODULE_NAME)
 MODULE_RELATIVE_DIR = IntelFrameworkModulePkg/Library/LzmaCustomDecompressLib
 PACKAGE_RELATIVE_DIR = Library/LzmaCustomDecompressLib
-MODULE_DIR = /home/evsio0n/src/edk2sdm/edk2/IntelFrameworkModulePkg/Library/LzmaCustomDecompressLib
-FFS_OUTPUT_DIR = /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/FV/Ffs/35194660-7421-44ad-9636-e44885f092d1LzmaDecompressLib
+MODULE_DIR = /mnt/d/TARGET/edk2sdm/edk2/IntelFrameworkModulePkg/Library/LzmaCustomDecompressLib
+FFS_OUTPUT_DIR = /mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/FV/Ffs/35194660-7421-44ad-9636-e44885f092d1LzmaDecompressLib
 
 MODULE_ENTRY_POINT = _ModuleEntryPoint
 ARCH_ENTRY_POINT = _ModuleEntryPoint
@@ -60,13 +60,13 @@ TARGET = DEBUG
 #
 # Build Directory Macro Definition
 #
-# PLATFORM_BUILD_DIR = /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5
-BUILD_DIR = /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5
+# PLATFORM_BUILD_DIR = /mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5
+BUILD_DIR = /mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5
 BIN_DIR = $(BUILD_DIR)/AARCH64
 LIB_DIR = $(BIN_DIR)
-MODULE_BUILD_DIR = /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/IntelFrameworkModulePkg/Library/LzmaCustomDecompressLib/LzmaCustomDecompressLib
-OUTPUT_DIR = /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/IntelFrameworkModulePkg/Library/LzmaCustomDecompressLib/LzmaCustomDecompressLib/OUTPUT
-DEBUG_DIR = /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/IntelFrameworkModulePkg/Library/LzmaCustomDecompressLib/LzmaCustomDecompressLib/DEBUG
+MODULE_BUILD_DIR = /mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/IntelFrameworkModulePkg/Library/LzmaCustomDecompressLib/LzmaCustomDecompressLib
+OUTPUT_DIR = /mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/IntelFrameworkModulePkg/Library/LzmaCustomDecompressLib/LzmaCustomDecompressLib/OUTPUT
+DEBUG_DIR = /mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/IntelFrameworkModulePkg/Library/LzmaCustomDecompressLib/LzmaCustomDecompressLib/DEBUG
 DEST_DIR_OUTPUT = $(OUTPUT_DIR)
 DEST_DIR_DEBUG = $(DEBUG_DIR)
 
@@ -170,7 +170,7 @@ PP_FLAGS = $(ARCHCC_FLAGS) $(PLATFORM_FLAGS) -E -x assembler-with-cpp -include $
 VFRPP = aarch64-linux-gnu-gcc
 VFRPP_FLAGS = $(ARCHCC_FLAGS) $(PLATFORM_FLAGS) -x c -E -P -DVFRCOMPILE --include $(DEST_DIR_DEBUG)/$(MODULE_NAME)StrDefs.h
 
-DLINK_FLAGS = -Wl,--emit-relocs -nostdlib -Wl,--gc-sections -u $(IMAGE_ENTRY_POINT) -Wl,-e,$(IMAGE_ENTRY_POINT),-Map,$(DEST_DIR_DEBUG)/$(BASE_NAME).map -z common-page-size=0x20 -z common-page-size=0x1000 -flto -Os -L/home/evsio0n/src/edk2sdm/edk2/ArmPkg/Library/GccLto -llto-aarch64 -Wl,-plugin-opt=-pass-through=-llto-aarch64 -Wno-lto-type-mismatch
+DLINK_FLAGS = -Wl,--emit-relocs -nostdlib -Wl,--gc-sections -u $(IMAGE_ENTRY_POINT) -Wl,-e,$(IMAGE_ENTRY_POINT),-Map,$(DEST_DIR_DEBUG)/$(BASE_NAME).map -z common-page-size=0x20 -z common-page-size=0x1000 -flto -Os -L/mnt/d/TARGET/edk2sdm/edk2/ArmPkg/Library/GccLto -llto-aarch64 -Wl,-plugin-opt=-pass-through=-llto-aarch64 -Wno-lto-type-mismatch
 DLINK_XIPFLAGS =  -z common-page-size=0x20
 DLINK = aarch64-linux-gnu-gcc
 
@@ -206,25 +206,25 @@ OBJECT_FILES =  \
     $(OUTPUT_DIR)/GuidedSectionExtraction.obj
 
 INC =  \
-    -I/home/evsio0n/src/edk2sdm/edk2/IntelFrameworkModulePkg/Library/LzmaCustomDecompressLib/Sdk/C \
-    -I/home/evsio0n/src/edk2sdm/edk2/IntelFrameworkModulePkg/Library/LzmaCustomDecompressLib \
+    -I/mnt/d/TARGET/edk2sdm/edk2/IntelFrameworkModulePkg/Library/LzmaCustomDecompressLib/Sdk/C \
+    -I/mnt/d/TARGET/edk2sdm/edk2/IntelFrameworkModulePkg/Library/LzmaCustomDecompressLib \
     -I$(DEBUG_DIR) \
-    -I/home/evsio0n/src/edk2sdm/edk2/MdePkg \
-    -I/home/evsio0n/src/edk2sdm/edk2/MdePkg/Include \
-    -I/home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/AArch64 \
-    -I/home/evsio0n/src/edk2sdm/edk2/MdeModulePkg \
-    -I/home/evsio0n/src/edk2sdm/edk2/MdeModulePkg/Include
+    -I/mnt/d/TARGET/edk2sdm/edk2/MdePkg \
+    -I/mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include \
+    -I/mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/AArch64 \
+    -I/mnt/d/TARGET/edk2sdm/edk2/MdeModulePkg \
+    -I/mnt/d/TARGET/edk2sdm/edk2/MdeModulePkg/Include
 
-OBJECT_FILES_LIST = /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/IntelFrameworkModulePkg/Library/LzmaCustomDecompressLib/LzmaCustomDecompressLib/OUTPUT/object_files.lst
+OBJECT_FILES_LIST = /mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/IntelFrameworkModulePkg/Library/LzmaCustomDecompressLib/LzmaCustomDecompressLib/OUTPUT/object_files.lst
 
 
-COMMON_DEPS = /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Uefi/UefiMultiPhase.h \
-              /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Guid/WinCertificate.h \
+COMMON_DEPS = /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Uefi/UefiMultiPhase.h \
               $(DEBUG_DIR)/AutoGen.h \
-              /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Library/BaseMemoryLib.h \
-              /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/AArch64/ProcessorBind.h \
-              /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Uefi/UefiBaseType.h \
-              /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Base.h \
+              /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/AArch64/ProcessorBind.h \
+              /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Guid/WinCertificate.h \
+              /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Base.h \
+              /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Uefi/UefiBaseType.h \
+              /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Library/BaseMemoryLib.h \
               
 
 #
@@ -234,7 +234,7 @@ FORCE_REBUILD = force_build
 INIT_TARGET = init
 PCH_TARGET =
 BC_TARGET = 
-CODA_TARGET = /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/IntelFrameworkModulePkg/Library/LzmaCustomDecompressLib/LzmaCustomDecompressLib/OUTPUT/LzmaDecompressLib.lib \
+CODA_TARGET = /mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/IntelFrameworkModulePkg/Library/LzmaCustomDecompressLib/LzmaCustomDecompressLib/OUTPUT/LzmaDecompressLib.lib \
               
 
 #
@@ -306,143 +306,143 @@ gen_fds:
 #
 # Individual Object Build Targets
 #
+$(OUTPUT_DIR)/LzmaDecompress.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/LzmaDecompress.obj : $(COMMON_DEPS)
+$(OUTPUT_DIR)/LzmaDecompress.obj : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Guid/HiiFormMapMethodGuid.h
+$(OUTPUT_DIR)/LzmaDecompress.obj : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Uefi/UefiGpt.h
+$(OUTPUT_DIR)/LzmaDecompress.obj : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/IndustryStandard/Bluetooth.h
+$(OUTPUT_DIR)/LzmaDecompress.obj : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Uefi/UefiInternalFormRepresentation.h
+$(OUTPUT_DIR)/LzmaDecompress.obj : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Ppi/CpuIo.h
+$(OUTPUT_DIR)/LzmaDecompress.obj : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Protocol/DevicePath.h
+$(OUTPUT_DIR)/LzmaDecompress.obj : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Protocol/SimpleTextOut.h
+$(OUTPUT_DIR)/LzmaDecompress.obj : /mnt/d/TARGET/edk2sdm/edk2/IntelFrameworkModulePkg/Library/LzmaCustomDecompressLib/UefiLzma.h
+$(OUTPUT_DIR)/LzmaDecompress.obj : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/IndustryStandard/Acpi10.h
+$(OUTPUT_DIR)/LzmaDecompress.obj : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Pi/PiBootMode.h
+$(OUTPUT_DIR)/LzmaDecompress.obj : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/IndustryStandard/PeImage.h
+$(OUTPUT_DIR)/LzmaDecompress.obj : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Pi/PiPeiCis.h
+$(OUTPUT_DIR)/LzmaDecompress.obj : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Pi/PiMultiPhase.h
+$(OUTPUT_DIR)/LzmaDecompress.obj : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Protocol/DebugSupport.h
+$(OUTPUT_DIR)/LzmaDecompress.obj : /mnt/d/TARGET/edk2sdm/edk2/IntelFrameworkModulePkg/Library/LzmaCustomDecompressLib/Sdk/C/7zVersion.h
+$(OUTPUT_DIR)/LzmaDecompress.obj : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/IndustryStandard/Acpi60.h
+$(OUTPUT_DIR)/LzmaDecompress.obj : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Uefi.h
+$(OUTPUT_DIR)/LzmaDecompress.obj : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Pi/PiFirmwareFile.h
+$(OUTPUT_DIR)/LzmaDecompress.obj : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Pi/PiHob.h
+$(OUTPUT_DIR)/LzmaDecompress.obj : /mnt/d/TARGET/edk2sdm/edk2/IntelFrameworkModulePkg/Library/LzmaCustomDecompressLib/Sdk/C/LzmaDec.h
+$(OUTPUT_DIR)/LzmaDecompress.obj : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/IndustryStandard/Acpi51.h
+$(OUTPUT_DIR)/LzmaDecompress.obj : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Library/DebugLib.h
+$(OUTPUT_DIR)/LzmaDecompress.obj : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Ppi/PciCfg2.h
+$(OUTPUT_DIR)/LzmaDecompress.obj : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Pi/PiFirmwareVolume.h
+$(OUTPUT_DIR)/LzmaDecompress.obj : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Pi/PiDependency.h
+$(OUTPUT_DIR)/LzmaDecompress.obj : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Pi/PiS3BootScript.h
+$(OUTPUT_DIR)/LzmaDecompress.obj : /mnt/d/TARGET/edk2sdm/edk2/MdeModulePkg/Include/Guid/LzmaDecompress.h
+$(OUTPUT_DIR)/LzmaDecompress.obj : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Protocol/SimpleTextInEx.h
+$(OUTPUT_DIR)/LzmaDecompress.obj : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Protocol/SimpleTextIn.h
+$(OUTPUT_DIR)/LzmaDecompress.obj : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/PiPei.h
+$(OUTPUT_DIR)/LzmaDecompress.obj : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Uefi/UefiPxe.h
+$(OUTPUT_DIR)/LzmaDecompress.obj : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Library/BaseLib.h
+$(OUTPUT_DIR)/LzmaDecompress.obj : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Guid/PcAnsi.h
+$(OUTPUT_DIR)/LzmaDecompress.obj : /mnt/d/TARGET/edk2sdm/edk2/IntelFrameworkModulePkg/Library/LzmaCustomDecompressLib/LzmaDecompressLibInternal.h
+$(OUTPUT_DIR)/LzmaDecompress.obj : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/IndustryStandard/Acpi50.h
+$(OUTPUT_DIR)/LzmaDecompress.obj : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/IndustryStandard/Acpi20.h
+$(OUTPUT_DIR)/LzmaDecompress.obj : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/IndustryStandard/AcpiAml.h
+$(OUTPUT_DIR)/LzmaDecompress.obj : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/IndustryStandard/Acpi30.h
+$(OUTPUT_DIR)/LzmaDecompress.obj : /mnt/d/TARGET/edk2sdm/edk2/IntelFrameworkModulePkg/Library/LzmaCustomDecompressLib/Sdk/C/7zTypes.h
+$(OUTPUT_DIR)/LzmaDecompress.obj : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Library/ExtractGuidedSectionLib.h
+$(OUTPUT_DIR)/LzmaDecompress.obj : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Pi/PiStatusCode.h
+$(OUTPUT_DIR)/LzmaDecompress.obj : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/IndustryStandard/Acpi40.h
+$(OUTPUT_DIR)/LzmaDecompress.obj : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Uefi/UefiSpec.h
+$(OUTPUT_DIR)/LzmaDecompress.obj : /mnt/d/TARGET/edk2sdm/edk2/IntelFrameworkModulePkg/Library/LzmaCustomDecompressLib/LzmaDecompress.c
+	"$(CC)" $(CC_FLAGS) $(CC_XIPFLAGS) -c -o /mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/IntelFrameworkModulePkg/Library/LzmaCustomDecompressLib/LzmaCustomDecompressLib/OUTPUT/./LzmaDecompress.obj $(INC) /mnt/d/TARGET/edk2sdm/edk2/IntelFrameworkModulePkg/Library/LzmaCustomDecompressLib/LzmaDecompress.c
+
 $(OUTPUT_DIR)/Sdk/C/LzFind.obj : $(MAKE_FILE)
 $(OUTPUT_DIR)/Sdk/C/LzFind.obj : $(COMMON_DEPS)
-$(OUTPUT_DIR)/Sdk/C/LzFind.obj : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/IndustryStandard/Acpi50.h
-$(OUTPUT_DIR)/Sdk/C/LzFind.obj : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Protocol/SimpleTextOut.h
-$(OUTPUT_DIR)/Sdk/C/LzFind.obj : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/IndustryStandard/Acpi20.h
-$(OUTPUT_DIR)/Sdk/C/LzFind.obj : /home/evsio0n/src/edk2sdm/edk2/IntelFrameworkModulePkg/Library/LzmaCustomDecompressLib/Sdk/C/Precomp.h
-$(OUTPUT_DIR)/Sdk/C/LzFind.obj : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Protocol/SimpleTextIn.h
-$(OUTPUT_DIR)/Sdk/C/LzFind.obj : /home/evsio0n/src/edk2sdm/edk2/IntelFrameworkModulePkg/Library/LzmaCustomDecompressLib/UefiLzma.h
-$(OUTPUT_DIR)/Sdk/C/LzFind.obj : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/IndustryStandard/Acpi30.h
-$(OUTPUT_DIR)/Sdk/C/LzFind.obj : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Uefi/UefiInternalFormRepresentation.h
-$(OUTPUT_DIR)/Sdk/C/LzFind.obj : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/IndustryStandard/Acpi40.h
-$(OUTPUT_DIR)/Sdk/C/LzFind.obj : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Uefi.h
-$(OUTPUT_DIR)/Sdk/C/LzFind.obj : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Protocol/DevicePath.h
-$(OUTPUT_DIR)/Sdk/C/LzFind.obj : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Guid/PcAnsi.h
-$(OUTPUT_DIR)/Sdk/C/LzFind.obj : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Uefi/UefiPxe.h
-$(OUTPUT_DIR)/Sdk/C/LzFind.obj : /home/evsio0n/src/edk2sdm/edk2/IntelFrameworkModulePkg/Library/LzmaCustomDecompressLib/Sdk/C/LzHash.h
-$(OUTPUT_DIR)/Sdk/C/LzFind.obj : /home/evsio0n/src/edk2sdm/edk2/IntelFrameworkModulePkg/Library/LzmaCustomDecompressLib/Sdk/C/LzFind.h
-$(OUTPUT_DIR)/Sdk/C/LzFind.obj : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Guid/HiiFormMapMethodGuid.h
-$(OUTPUT_DIR)/Sdk/C/LzFind.obj : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/IndustryStandard/Bluetooth.h
-$(OUTPUT_DIR)/Sdk/C/LzFind.obj : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/IndustryStandard/Acpi10.h
-$(OUTPUT_DIR)/Sdk/C/LzFind.obj : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/IndustryStandard/AcpiAml.h
-$(OUTPUT_DIR)/Sdk/C/LzFind.obj : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Uefi/UefiSpec.h
-$(OUTPUT_DIR)/Sdk/C/LzFind.obj : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/IndustryStandard/Acpi51.h
-$(OUTPUT_DIR)/Sdk/C/LzFind.obj : /home/evsio0n/src/edk2sdm/edk2/IntelFrameworkModulePkg/Library/LzmaCustomDecompressLib/Sdk/C/Compiler.h
-$(OUTPUT_DIR)/Sdk/C/LzFind.obj : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Protocol/SimpleTextInEx.h
-$(OUTPUT_DIR)/Sdk/C/LzFind.obj : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/IndustryStandard/Acpi60.h
-$(OUTPUT_DIR)/Sdk/C/LzFind.obj : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Uefi/UefiGpt.h
-$(OUTPUT_DIR)/Sdk/C/LzFind.obj : /home/evsio0n/src/edk2sdm/edk2/IntelFrameworkModulePkg/Library/LzmaCustomDecompressLib/Sdk/C/7zTypes.h
-$(OUTPUT_DIR)/Sdk/C/LzFind.obj : /home/evsio0n/src/edk2sdm/edk2/IntelFrameworkModulePkg/Library/LzmaCustomDecompressLib/Sdk/C/LzFind.c
-	"$(CC)" $(CC_FLAGS) $(CC_XIPFLAGS) -c -o /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/IntelFrameworkModulePkg/Library/LzmaCustomDecompressLib/LzmaCustomDecompressLib/OUTPUT/Sdk/C/LzFind.obj $(INC) /home/evsio0n/src/edk2sdm/edk2/IntelFrameworkModulePkg/Library/LzmaCustomDecompressLib/Sdk/C/LzFind.c
+$(OUTPUT_DIR)/Sdk/C/LzFind.obj : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Guid/HiiFormMapMethodGuid.h
+$(OUTPUT_DIR)/Sdk/C/LzFind.obj : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Uefi/UefiGpt.h
+$(OUTPUT_DIR)/Sdk/C/LzFind.obj : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/IndustryStandard/Bluetooth.h
+$(OUTPUT_DIR)/Sdk/C/LzFind.obj : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Uefi/UefiInternalFormRepresentation.h
+$(OUTPUT_DIR)/Sdk/C/LzFind.obj : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Protocol/DevicePath.h
+$(OUTPUT_DIR)/Sdk/C/LzFind.obj : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Protocol/SimpleTextOut.h
+$(OUTPUT_DIR)/Sdk/C/LzFind.obj : /mnt/d/TARGET/edk2sdm/edk2/IntelFrameworkModulePkg/Library/LzmaCustomDecompressLib/UefiLzma.h
+$(OUTPUT_DIR)/Sdk/C/LzFind.obj : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/IndustryStandard/Acpi10.h
+$(OUTPUT_DIR)/Sdk/C/LzFind.obj : /mnt/d/TARGET/edk2sdm/edk2/IntelFrameworkModulePkg/Library/LzmaCustomDecompressLib/Sdk/C/Precomp.h
+$(OUTPUT_DIR)/Sdk/C/LzFind.obj : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/IndustryStandard/Acpi60.h
+$(OUTPUT_DIR)/Sdk/C/LzFind.obj : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Uefi.h
+$(OUTPUT_DIR)/Sdk/C/LzFind.obj : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/IndustryStandard/Acpi51.h
+$(OUTPUT_DIR)/Sdk/C/LzFind.obj : /mnt/d/TARGET/edk2sdm/edk2/IntelFrameworkModulePkg/Library/LzmaCustomDecompressLib/Sdk/C/Compiler.h
+$(OUTPUT_DIR)/Sdk/C/LzFind.obj : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Protocol/SimpleTextInEx.h
+$(OUTPUT_DIR)/Sdk/C/LzFind.obj : /mnt/d/TARGET/edk2sdm/edk2/IntelFrameworkModulePkg/Library/LzmaCustomDecompressLib/Sdk/C/LzFind.h
+$(OUTPUT_DIR)/Sdk/C/LzFind.obj : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Protocol/SimpleTextIn.h
+$(OUTPUT_DIR)/Sdk/C/LzFind.obj : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Uefi/UefiPxe.h
+$(OUTPUT_DIR)/Sdk/C/LzFind.obj : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Guid/PcAnsi.h
+$(OUTPUT_DIR)/Sdk/C/LzFind.obj : /mnt/d/TARGET/edk2sdm/edk2/IntelFrameworkModulePkg/Library/LzmaCustomDecompressLib/Sdk/C/LzHash.h
+$(OUTPUT_DIR)/Sdk/C/LzFind.obj : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/IndustryStandard/Acpi50.h
+$(OUTPUT_DIR)/Sdk/C/LzFind.obj : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/IndustryStandard/Acpi20.h
+$(OUTPUT_DIR)/Sdk/C/LzFind.obj : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/IndustryStandard/AcpiAml.h
+$(OUTPUT_DIR)/Sdk/C/LzFind.obj : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/IndustryStandard/Acpi30.h
+$(OUTPUT_DIR)/Sdk/C/LzFind.obj : /mnt/d/TARGET/edk2sdm/edk2/IntelFrameworkModulePkg/Library/LzmaCustomDecompressLib/Sdk/C/7zTypes.h
+$(OUTPUT_DIR)/Sdk/C/LzFind.obj : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/IndustryStandard/Acpi40.h
+$(OUTPUT_DIR)/Sdk/C/LzFind.obj : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Uefi/UefiSpec.h
+$(OUTPUT_DIR)/Sdk/C/LzFind.obj : /mnt/d/TARGET/edk2sdm/edk2/IntelFrameworkModulePkg/Library/LzmaCustomDecompressLib/Sdk/C/LzFind.c
+	"$(CC)" $(CC_FLAGS) $(CC_XIPFLAGS) -c -o /mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/IntelFrameworkModulePkg/Library/LzmaCustomDecompressLib/LzmaCustomDecompressLib/OUTPUT/Sdk/C/LzFind.obj $(INC) /mnt/d/TARGET/edk2sdm/edk2/IntelFrameworkModulePkg/Library/LzmaCustomDecompressLib/Sdk/C/LzFind.c
 
 $(OUTPUT_DIR)/GuidedSectionExtraction.obj : $(MAKE_FILE)
 $(OUTPUT_DIR)/GuidedSectionExtraction.obj : $(COMMON_DEPS)
-$(OUTPUT_DIR)/GuidedSectionExtraction.obj : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Pi/PiHob.h
-$(OUTPUT_DIR)/GuidedSectionExtraction.obj : /home/evsio0n/src/edk2sdm/edk2/MdeModulePkg/Include/Guid/LzmaDecompress.h
-$(OUTPUT_DIR)/GuidedSectionExtraction.obj : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Ppi/PciCfg2.h
-$(OUTPUT_DIR)/GuidedSectionExtraction.obj : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Library/DebugLib.h
-$(OUTPUT_DIR)/GuidedSectionExtraction.obj : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Ppi/CpuIo.h
-$(OUTPUT_DIR)/GuidedSectionExtraction.obj : /home/evsio0n/src/edk2sdm/edk2/IntelFrameworkModulePkg/Library/LzmaCustomDecompressLib/LzmaDecompressLibInternal.h
-$(OUTPUT_DIR)/GuidedSectionExtraction.obj : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Pi/PiFirmwareFile.h
-$(OUTPUT_DIR)/GuidedSectionExtraction.obj : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Pi/PiS3BootScript.h
-$(OUTPUT_DIR)/GuidedSectionExtraction.obj : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Pi/PiStatusCode.h
-$(OUTPUT_DIR)/GuidedSectionExtraction.obj : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Library/ExtractGuidedSectionLib.h
-$(OUTPUT_DIR)/GuidedSectionExtraction.obj : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Pi/PiPeiCis.h
-$(OUTPUT_DIR)/GuidedSectionExtraction.obj : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/PiPei.h
-$(OUTPUT_DIR)/GuidedSectionExtraction.obj : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/IndustryStandard/PeImage.h
-$(OUTPUT_DIR)/GuidedSectionExtraction.obj : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Library/BaseLib.h
-$(OUTPUT_DIR)/GuidedSectionExtraction.obj : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Pi/PiMultiPhase.h
-$(OUTPUT_DIR)/GuidedSectionExtraction.obj : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Pi/PiDependency.h
-$(OUTPUT_DIR)/GuidedSectionExtraction.obj : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Protocol/DebugSupport.h
-$(OUTPUT_DIR)/GuidedSectionExtraction.obj : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Pi/PiFirmwareVolume.h
-$(OUTPUT_DIR)/GuidedSectionExtraction.obj : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Pi/PiBootMode.h
-$(OUTPUT_DIR)/GuidedSectionExtraction.obj : /home/evsio0n/src/edk2sdm/edk2/IntelFrameworkModulePkg/Library/LzmaCustomDecompressLib/GuidedSectionExtraction.c
-	"$(CC)" $(CC_FLAGS) $(CC_XIPFLAGS) -c -o /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/IntelFrameworkModulePkg/Library/LzmaCustomDecompressLib/LzmaCustomDecompressLib/OUTPUT/./GuidedSectionExtraction.obj $(INC) /home/evsio0n/src/edk2sdm/edk2/IntelFrameworkModulePkg/Library/LzmaCustomDecompressLib/GuidedSectionExtraction.c
+$(OUTPUT_DIR)/GuidedSectionExtraction.obj : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Ppi/CpuIo.h
+$(OUTPUT_DIR)/GuidedSectionExtraction.obj : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Pi/PiBootMode.h
+$(OUTPUT_DIR)/GuidedSectionExtraction.obj : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/IndustryStandard/PeImage.h
+$(OUTPUT_DIR)/GuidedSectionExtraction.obj : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Pi/PiPeiCis.h
+$(OUTPUT_DIR)/GuidedSectionExtraction.obj : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Pi/PiMultiPhase.h
+$(OUTPUT_DIR)/GuidedSectionExtraction.obj : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Protocol/DebugSupport.h
+$(OUTPUT_DIR)/GuidedSectionExtraction.obj : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Pi/PiFirmwareFile.h
+$(OUTPUT_DIR)/GuidedSectionExtraction.obj : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Pi/PiHob.h
+$(OUTPUT_DIR)/GuidedSectionExtraction.obj : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Pi/PiFirmwareVolume.h
+$(OUTPUT_DIR)/GuidedSectionExtraction.obj : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Ppi/PciCfg2.h
+$(OUTPUT_DIR)/GuidedSectionExtraction.obj : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Library/DebugLib.h
+$(OUTPUT_DIR)/GuidedSectionExtraction.obj : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Pi/PiS3BootScript.h
+$(OUTPUT_DIR)/GuidedSectionExtraction.obj : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Pi/PiDependency.h
+$(OUTPUT_DIR)/GuidedSectionExtraction.obj : /mnt/d/TARGET/edk2sdm/edk2/MdeModulePkg/Include/Guid/LzmaDecompress.h
+$(OUTPUT_DIR)/GuidedSectionExtraction.obj : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/PiPei.h
+$(OUTPUT_DIR)/GuidedSectionExtraction.obj : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Library/BaseLib.h
+$(OUTPUT_DIR)/GuidedSectionExtraction.obj : /mnt/d/TARGET/edk2sdm/edk2/IntelFrameworkModulePkg/Library/LzmaCustomDecompressLib/LzmaDecompressLibInternal.h
+$(OUTPUT_DIR)/GuidedSectionExtraction.obj : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Library/ExtractGuidedSectionLib.h
+$(OUTPUT_DIR)/GuidedSectionExtraction.obj : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Pi/PiStatusCode.h
+$(OUTPUT_DIR)/GuidedSectionExtraction.obj : /mnt/d/TARGET/edk2sdm/edk2/IntelFrameworkModulePkg/Library/LzmaCustomDecompressLib/GuidedSectionExtraction.c
+	"$(CC)" $(CC_FLAGS) $(CC_XIPFLAGS) -c -o /mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/IntelFrameworkModulePkg/Library/LzmaCustomDecompressLib/LzmaCustomDecompressLib/OUTPUT/./GuidedSectionExtraction.obj $(INC) /mnt/d/TARGET/edk2sdm/edk2/IntelFrameworkModulePkg/Library/LzmaCustomDecompressLib/GuidedSectionExtraction.c
 
 $(OUTPUT_DIR)/Sdk/C/LzmaDec.obj : $(MAKE_FILE)
 $(OUTPUT_DIR)/Sdk/C/LzmaDec.obj : $(COMMON_DEPS)
-$(OUTPUT_DIR)/Sdk/C/LzmaDec.obj : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/IndustryStandard/Acpi50.h
-$(OUTPUT_DIR)/Sdk/C/LzmaDec.obj : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Protocol/SimpleTextOut.h
-$(OUTPUT_DIR)/Sdk/C/LzmaDec.obj : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/IndustryStandard/Acpi20.h
-$(OUTPUT_DIR)/Sdk/C/LzmaDec.obj : /home/evsio0n/src/edk2sdm/edk2/IntelFrameworkModulePkg/Library/LzmaCustomDecompressLib/Sdk/C/Precomp.h
-$(OUTPUT_DIR)/Sdk/C/LzmaDec.obj : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Protocol/SimpleTextIn.h
-$(OUTPUT_DIR)/Sdk/C/LzmaDec.obj : /home/evsio0n/src/edk2sdm/edk2/IntelFrameworkModulePkg/Library/LzmaCustomDecompressLib/UefiLzma.h
-$(OUTPUT_DIR)/Sdk/C/LzmaDec.obj : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/IndustryStandard/Acpi30.h
-$(OUTPUT_DIR)/Sdk/C/LzmaDec.obj : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Uefi/UefiInternalFormRepresentation.h
-$(OUTPUT_DIR)/Sdk/C/LzmaDec.obj : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/IndustryStandard/Acpi40.h
-$(OUTPUT_DIR)/Sdk/C/LzmaDec.obj : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Uefi.h
-$(OUTPUT_DIR)/Sdk/C/LzmaDec.obj : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Protocol/DevicePath.h
-$(OUTPUT_DIR)/Sdk/C/LzmaDec.obj : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Guid/PcAnsi.h
-$(OUTPUT_DIR)/Sdk/C/LzmaDec.obj : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Uefi/UefiPxe.h
-$(OUTPUT_DIR)/Sdk/C/LzmaDec.obj : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Guid/HiiFormMapMethodGuid.h
-$(OUTPUT_DIR)/Sdk/C/LzmaDec.obj : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/IndustryStandard/Bluetooth.h
-$(OUTPUT_DIR)/Sdk/C/LzmaDec.obj : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/IndustryStandard/Acpi10.h
-$(OUTPUT_DIR)/Sdk/C/LzmaDec.obj : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/IndustryStandard/AcpiAml.h
-$(OUTPUT_DIR)/Sdk/C/LzmaDec.obj : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Uefi/UefiSpec.h
-$(OUTPUT_DIR)/Sdk/C/LzmaDec.obj : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/IndustryStandard/Acpi51.h
-$(OUTPUT_DIR)/Sdk/C/LzmaDec.obj : /home/evsio0n/src/edk2sdm/edk2/IntelFrameworkModulePkg/Library/LzmaCustomDecompressLib/Sdk/C/Compiler.h
-$(OUTPUT_DIR)/Sdk/C/LzmaDec.obj : /home/evsio0n/src/edk2sdm/edk2/IntelFrameworkModulePkg/Library/LzmaCustomDecompressLib/Sdk/C/LzmaDec.h
-$(OUTPUT_DIR)/Sdk/C/LzmaDec.obj : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Protocol/SimpleTextInEx.h
-$(OUTPUT_DIR)/Sdk/C/LzmaDec.obj : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/IndustryStandard/Acpi60.h
-$(OUTPUT_DIR)/Sdk/C/LzmaDec.obj : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Uefi/UefiGpt.h
-$(OUTPUT_DIR)/Sdk/C/LzmaDec.obj : /home/evsio0n/src/edk2sdm/edk2/IntelFrameworkModulePkg/Library/LzmaCustomDecompressLib/Sdk/C/7zTypes.h
-$(OUTPUT_DIR)/Sdk/C/LzmaDec.obj : /home/evsio0n/src/edk2sdm/edk2/IntelFrameworkModulePkg/Library/LzmaCustomDecompressLib/Sdk/C/LzmaDec.c
-	"$(CC)" $(CC_FLAGS) $(CC_XIPFLAGS) -c -o /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/IntelFrameworkModulePkg/Library/LzmaCustomDecompressLib/LzmaCustomDecompressLib/OUTPUT/Sdk/C/LzmaDec.obj $(INC) /home/evsio0n/src/edk2sdm/edk2/IntelFrameworkModulePkg/Library/LzmaCustomDecompressLib/Sdk/C/LzmaDec.c
-
-$(OUTPUT_DIR)/LzmaDecompress.obj : $(MAKE_FILE)
-$(OUTPUT_DIR)/LzmaDecompress.obj : $(COMMON_DEPS)
-$(OUTPUT_DIR)/LzmaDecompress.obj : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/IndustryStandard/Acpi50.h
-$(OUTPUT_DIR)/LzmaDecompress.obj : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Pi/PiHob.h
-$(OUTPUT_DIR)/LzmaDecompress.obj : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Protocol/SimpleTextOut.h
-$(OUTPUT_DIR)/LzmaDecompress.obj : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/IndustryStandard/Acpi20.h
-$(OUTPUT_DIR)/LzmaDecompress.obj : /home/evsio0n/src/edk2sdm/edk2/MdeModulePkg/Include/Guid/LzmaDecompress.h
-$(OUTPUT_DIR)/LzmaDecompress.obj : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Ppi/PciCfg2.h
-$(OUTPUT_DIR)/LzmaDecompress.obj : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Library/DebugLib.h
-$(OUTPUT_DIR)/LzmaDecompress.obj : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Ppi/CpuIo.h
-$(OUTPUT_DIR)/LzmaDecompress.obj : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Protocol/SimpleTextIn.h
-$(OUTPUT_DIR)/LzmaDecompress.obj : /home/evsio0n/src/edk2sdm/edk2/IntelFrameworkModulePkg/Library/LzmaCustomDecompressLib/LzmaDecompressLibInternal.h
-$(OUTPUT_DIR)/LzmaDecompress.obj : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Pi/PiFirmwareFile.h
-$(OUTPUT_DIR)/LzmaDecompress.obj : /home/evsio0n/src/edk2sdm/edk2/IntelFrameworkModulePkg/Library/LzmaCustomDecompressLib/Sdk/C/7zVersion.h
-$(OUTPUT_DIR)/LzmaDecompress.obj : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Pi/PiS3BootScript.h
-$(OUTPUT_DIR)/LzmaDecompress.obj : /home/evsio0n/src/edk2sdm/edk2/IntelFrameworkModulePkg/Library/LzmaCustomDecompressLib/UefiLzma.h
-$(OUTPUT_DIR)/LzmaDecompress.obj : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/IndustryStandard/Acpi30.h
-$(OUTPUT_DIR)/LzmaDecompress.obj : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Uefi/UefiInternalFormRepresentation.h
-$(OUTPUT_DIR)/LzmaDecompress.obj : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/IndustryStandard/Acpi40.h
-$(OUTPUT_DIR)/LzmaDecompress.obj : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Pi/PiStatusCode.h
-$(OUTPUT_DIR)/LzmaDecompress.obj : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Uefi.h
-$(OUTPUT_DIR)/LzmaDecompress.obj : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Protocol/DevicePath.h
-$(OUTPUT_DIR)/LzmaDecompress.obj : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Guid/PcAnsi.h
-$(OUTPUT_DIR)/LzmaDecompress.obj : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Library/ExtractGuidedSectionLib.h
-$(OUTPUT_DIR)/LzmaDecompress.obj : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Pi/PiPeiCis.h
-$(OUTPUT_DIR)/LzmaDecompress.obj : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Uefi/UefiPxe.h
-$(OUTPUT_DIR)/LzmaDecompress.obj : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/PiPei.h
-$(OUTPUT_DIR)/LzmaDecompress.obj : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/IndustryStandard/PeImage.h
-$(OUTPUT_DIR)/LzmaDecompress.obj : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Library/BaseLib.h
-$(OUTPUT_DIR)/LzmaDecompress.obj : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Guid/HiiFormMapMethodGuid.h
-$(OUTPUT_DIR)/LzmaDecompress.obj : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Pi/PiMultiPhase.h
-$(OUTPUT_DIR)/LzmaDecompress.obj : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/IndustryStandard/Bluetooth.h
-$(OUTPUT_DIR)/LzmaDecompress.obj : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/IndustryStandard/Acpi10.h
-$(OUTPUT_DIR)/LzmaDecompress.obj : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Pi/PiDependency.h
-$(OUTPUT_DIR)/LzmaDecompress.obj : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/IndustryStandard/AcpiAml.h
-$(OUTPUT_DIR)/LzmaDecompress.obj : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Uefi/UefiSpec.h
-$(OUTPUT_DIR)/LzmaDecompress.obj : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/IndustryStandard/Acpi51.h
-$(OUTPUT_DIR)/LzmaDecompress.obj : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Protocol/DebugSupport.h
-$(OUTPUT_DIR)/LzmaDecompress.obj : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Pi/PiFirmwareVolume.h
-$(OUTPUT_DIR)/LzmaDecompress.obj : /home/evsio0n/src/edk2sdm/edk2/IntelFrameworkModulePkg/Library/LzmaCustomDecompressLib/Sdk/C/LzmaDec.h
-$(OUTPUT_DIR)/LzmaDecompress.obj : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Protocol/SimpleTextInEx.h
-$(OUTPUT_DIR)/LzmaDecompress.obj : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/IndustryStandard/Acpi60.h
-$(OUTPUT_DIR)/LzmaDecompress.obj : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Uefi/UefiGpt.h
-$(OUTPUT_DIR)/LzmaDecompress.obj : /home/evsio0n/src/edk2sdm/edk2/IntelFrameworkModulePkg/Library/LzmaCustomDecompressLib/Sdk/C/7zTypes.h
-$(OUTPUT_DIR)/LzmaDecompress.obj : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Pi/PiBootMode.h
-$(OUTPUT_DIR)/LzmaDecompress.obj : /home/evsio0n/src/edk2sdm/edk2/IntelFrameworkModulePkg/Library/LzmaCustomDecompressLib/LzmaDecompress.c
-	"$(CC)" $(CC_FLAGS) $(CC_XIPFLAGS) -c -o /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/IntelFrameworkModulePkg/Library/LzmaCustomDecompressLib/LzmaCustomDecompressLib/OUTPUT/./LzmaDecompress.obj $(INC) /home/evsio0n/src/edk2sdm/edk2/IntelFrameworkModulePkg/Library/LzmaCustomDecompressLib/LzmaDecompress.c
+$(OUTPUT_DIR)/Sdk/C/LzmaDec.obj : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Guid/HiiFormMapMethodGuid.h
+$(OUTPUT_DIR)/Sdk/C/LzmaDec.obj : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Uefi/UefiGpt.h
+$(OUTPUT_DIR)/Sdk/C/LzmaDec.obj : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/IndustryStandard/Bluetooth.h
+$(OUTPUT_DIR)/Sdk/C/LzmaDec.obj : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Uefi/UefiInternalFormRepresentation.h
+$(OUTPUT_DIR)/Sdk/C/LzmaDec.obj : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Protocol/DevicePath.h
+$(OUTPUT_DIR)/Sdk/C/LzmaDec.obj : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Protocol/SimpleTextOut.h
+$(OUTPUT_DIR)/Sdk/C/LzmaDec.obj : /mnt/d/TARGET/edk2sdm/edk2/IntelFrameworkModulePkg/Library/LzmaCustomDecompressLib/UefiLzma.h
+$(OUTPUT_DIR)/Sdk/C/LzmaDec.obj : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/IndustryStandard/Acpi10.h
+$(OUTPUT_DIR)/Sdk/C/LzmaDec.obj : /mnt/d/TARGET/edk2sdm/edk2/IntelFrameworkModulePkg/Library/LzmaCustomDecompressLib/Sdk/C/Precomp.h
+$(OUTPUT_DIR)/Sdk/C/LzmaDec.obj : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/IndustryStandard/Acpi60.h
+$(OUTPUT_DIR)/Sdk/C/LzmaDec.obj : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Uefi.h
+$(OUTPUT_DIR)/Sdk/C/LzmaDec.obj : /mnt/d/TARGET/edk2sdm/edk2/IntelFrameworkModulePkg/Library/LzmaCustomDecompressLib/Sdk/C/LzmaDec.h
+$(OUTPUT_DIR)/Sdk/C/LzmaDec.obj : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/IndustryStandard/Acpi51.h
+$(OUTPUT_DIR)/Sdk/C/LzmaDec.obj : /mnt/d/TARGET/edk2sdm/edk2/IntelFrameworkModulePkg/Library/LzmaCustomDecompressLib/Sdk/C/Compiler.h
+$(OUTPUT_DIR)/Sdk/C/LzmaDec.obj : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Protocol/SimpleTextInEx.h
+$(OUTPUT_DIR)/Sdk/C/LzmaDec.obj : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Protocol/SimpleTextIn.h
+$(OUTPUT_DIR)/Sdk/C/LzmaDec.obj : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Uefi/UefiPxe.h
+$(OUTPUT_DIR)/Sdk/C/LzmaDec.obj : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Guid/PcAnsi.h
+$(OUTPUT_DIR)/Sdk/C/LzmaDec.obj : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/IndustryStandard/Acpi50.h
+$(OUTPUT_DIR)/Sdk/C/LzmaDec.obj : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/IndustryStandard/Acpi20.h
+$(OUTPUT_DIR)/Sdk/C/LzmaDec.obj : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/IndustryStandard/AcpiAml.h
+$(OUTPUT_DIR)/Sdk/C/LzmaDec.obj : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/IndustryStandard/Acpi30.h
+$(OUTPUT_DIR)/Sdk/C/LzmaDec.obj : /mnt/d/TARGET/edk2sdm/edk2/IntelFrameworkModulePkg/Library/LzmaCustomDecompressLib/Sdk/C/7zTypes.h
+$(OUTPUT_DIR)/Sdk/C/LzmaDec.obj : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/IndustryStandard/Acpi40.h
+$(OUTPUT_DIR)/Sdk/C/LzmaDec.obj : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Uefi/UefiSpec.h
+$(OUTPUT_DIR)/Sdk/C/LzmaDec.obj : /mnt/d/TARGET/edk2sdm/edk2/IntelFrameworkModulePkg/Library/LzmaCustomDecompressLib/Sdk/C/LzmaDec.c
+	"$(CC)" $(CC_FLAGS) $(CC_XIPFLAGS) -c -o /mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/IntelFrameworkModulePkg/Library/LzmaCustomDecompressLib/LzmaCustomDecompressLib/OUTPUT/Sdk/C/LzmaDec.obj $(INC) /mnt/d/TARGET/edk2sdm/edk2/IntelFrameworkModulePkg/Library/LzmaCustomDecompressLib/Sdk/C/LzmaDec.c
 
 $(OUTPUT_DIR)/LzmaDecompressLib.lib : $(OBJECT_FILES)
 $(OUTPUT_DIR)/LzmaDecompressLib.lib : $(OBJECT_FILES_LIST)
-	$(RM) /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/IntelFrameworkModulePkg/Library/LzmaCustomDecompressLib/LzmaCustomDecompressLib/OUTPUT/LzmaDecompressLib.lib
-	"$(SLINK)" cr /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/IntelFrameworkModulePkg/Library/LzmaCustomDecompressLib/LzmaCustomDecompressLib/OUTPUT/LzmaDecompressLib.lib $(SLINK_FLAGS) @$(OBJECT_FILES_LIST)
+	$(RM) /mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/IntelFrameworkModulePkg/Library/LzmaCustomDecompressLib/LzmaCustomDecompressLib/OUTPUT/LzmaDecompressLib.lib
+	"$(SLINK)" cr /mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/IntelFrameworkModulePkg/Library/LzmaCustomDecompressLib/LzmaCustomDecompressLib/OUTPUT/LzmaDecompressLib.lib $(SLINK_FLAGS) @$(OBJECT_FILES_LIST)
 
 
 

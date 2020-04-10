@@ -19,7 +19,7 @@ PLATFORM_NAME = XiaomiMI6Pkg
 PLATFORM_GUID = 28f1a3bf-193a-47e3-a7b9-5a435eaab2ee
 PLATFORM_VERSION = 0.1
 PLATFORM_RELATIVE_DIR = XiaomiMI6Pkg
-PLATFORM_DIR = /home/evsio0n/src/edk2sdm/Sdm835/XiaomiMI6Pkg
+PLATFORM_DIR = /mnt/d/TARGET/edk2sdm/Sdm835/XiaomiMI6Pkg
 PLATFORM_OUTPUT_DIR = Build/XiaomiMI6Pkg
 
 #
@@ -35,8 +35,8 @@ MODULE_FILE_BASE_NAME = AcpiTables
 BASE_NAME = $(MODULE_NAME)
 MODULE_RELATIVE_DIR = XiaomiMI6Pkg/AcpiTables
 PACKAGE_RELATIVE_DIR = AcpiTables
-MODULE_DIR = /home/evsio0n/src/edk2sdm/Sdm835/XiaomiMI6Pkg/AcpiTables
-FFS_OUTPUT_DIR = /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/FV/Ffs/7E374E25-8E01-4FEE-87F2-390C23C606CDXiaomiMI6AcpiTables
+MODULE_DIR = /mnt/d/TARGET/edk2sdm/Sdm835/XiaomiMI6Pkg/AcpiTables
+FFS_OUTPUT_DIR = /mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/FV/Ffs/7E374E25-8E01-4FEE-87F2-390C23C606CDXiaomiMI6AcpiTables
 
 MODULE_ENTRY_POINT = _ModuleEntryPoint
 ARCH_ENTRY_POINT = _ModuleEntryPoint
@@ -59,13 +59,13 @@ TARGET = DEBUG
 #
 # Build Directory Macro Definition
 #
-# PLATFORM_BUILD_DIR = /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5
-BUILD_DIR = /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5
+# PLATFORM_BUILD_DIR = /mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5
+BUILD_DIR = /mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5
 BIN_DIR = $(BUILD_DIR)/AARCH64
 LIB_DIR = $(BIN_DIR)
-MODULE_BUILD_DIR = /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/XiaomiMI6Pkg/AcpiTables/AcpiTables
-OUTPUT_DIR = /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/XiaomiMI6Pkg/AcpiTables/AcpiTables/OUTPUT
-DEBUG_DIR = /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/XiaomiMI6Pkg/AcpiTables/AcpiTables/DEBUG
+MODULE_BUILD_DIR = /mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/XiaomiMI6Pkg/AcpiTables/AcpiTables
+OUTPUT_DIR = /mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/XiaomiMI6Pkg/AcpiTables/AcpiTables/OUTPUT
+DEBUG_DIR = /mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/XiaomiMI6Pkg/AcpiTables/AcpiTables/DEBUG
 DEST_DIR_OUTPUT = $(OUTPUT_DIR)
 DEST_DIR_DEBUG = $(DEBUG_DIR)
 
@@ -169,7 +169,7 @@ PP_FLAGS = $(ARCHCC_FLAGS) $(PLATFORM_FLAGS) -E -x assembler-with-cpp -include $
 VFRPP = aarch64-linux-gnu-gcc
 VFRPP_FLAGS = $(ARCHCC_FLAGS) $(PLATFORM_FLAGS) -x c -E -P -DVFRCOMPILE --include $(DEST_DIR_DEBUG)/$(MODULE_NAME)StrDefs.h
 
-DLINK_FLAGS = -Wl,--emit-relocs -nostdlib -Wl,--gc-sections -u $(IMAGE_ENTRY_POINT) -Wl,-e,$(IMAGE_ENTRY_POINT),-Map,$(DEST_DIR_DEBUG)/$(BASE_NAME).map -z common-page-size=0x20 -z common-page-size=0x1000 -flto -Os -L/home/evsio0n/src/edk2sdm/edk2/ArmPkg/Library/GccLto -llto-aarch64 -Wl,-plugin-opt=-pass-through=-llto-aarch64 -Wno-lto-type-mismatch
+DLINK_FLAGS = -Wl,--emit-relocs -nostdlib -Wl,--gc-sections -u $(IMAGE_ENTRY_POINT) -Wl,-e,$(IMAGE_ENTRY_POINT),-Map,$(DEST_DIR_DEBUG)/$(BASE_NAME).map -z common-page-size=0x20 -z common-page-size=0x1000 -flto -Os -L/mnt/d/TARGET/edk2sdm/edk2/ArmPkg/Library/GccLto -llto-aarch64 -Wl,-plugin-opt=-pass-through=-llto-aarch64 -Wno-lto-type-mismatch
 DLINK_XIPFLAGS =  -z common-page-size=0x20
 DLINK = aarch64-linux-gnu-gcc
 
@@ -199,23 +199,23 @@ MAKE_FILE = $(MODULE_BUILD_DIR)/GNUmakefile
 # Build Macro
 #
 INC =  \
-    -I/home/evsio0n/src/edk2sdm/Sdm835/XiaomiMI6Pkg/AcpiTables \
+    -I/mnt/d/TARGET/edk2sdm/Sdm835/XiaomiMI6Pkg/AcpiTables \
     -I$(DEBUG_DIR) \
-    -I/home/evsio0n/src/edk2sdm/edk2/ArmPkg \
-    -I/home/evsio0n/src/edk2sdm/edk2/ArmPkg/Include \
-    -I/home/evsio0n/src/edk2sdm/edk2/ArmPlatformPkg \
-    -I/home/evsio0n/src/edk2sdm/edk2/ArmPlatformPkg/Include \
-    -I/home/evsio0n/src/edk2sdm/edk2/EmbeddedPkg \
-    -I/home/evsio0n/src/edk2sdm/edk2/EmbeddedPkg/Include \
-    -I/home/evsio0n/src/edk2sdm/edk2/MdePkg \
-    -I/home/evsio0n/src/edk2sdm/edk2/MdePkg/Include \
-    -I/home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/AArch64 \
-    -I/home/evsio0n/src/edk2sdm/edk2/MdeModulePkg \
-    -I/home/evsio0n/src/edk2sdm/edk2/MdeModulePkg/Include \
-    -I/home/evsio0n/src/edk2sdm/Sdm835/XiaomiMI6Pkg \
-    -I/home/evsio0n/src/edk2sdm/Sdm835/XiaomiMI6Pkg/Include
+    -I/mnt/d/TARGET/edk2sdm/edk2/ArmPkg \
+    -I/mnt/d/TARGET/edk2sdm/edk2/ArmPkg/Include \
+    -I/mnt/d/TARGET/edk2sdm/edk2/ArmPlatformPkg \
+    -I/mnt/d/TARGET/edk2sdm/edk2/ArmPlatformPkg/Include \
+    -I/mnt/d/TARGET/edk2sdm/edk2/EmbeddedPkg \
+    -I/mnt/d/TARGET/edk2sdm/edk2/EmbeddedPkg/Include \
+    -I/mnt/d/TARGET/edk2sdm/edk2/MdePkg \
+    -I/mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include \
+    -I/mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/AArch64 \
+    -I/mnt/d/TARGET/edk2sdm/edk2/MdeModulePkg \
+    -I/mnt/d/TARGET/edk2sdm/edk2/MdeModulePkg/Include \
+    -I/mnt/d/TARGET/edk2sdm/Sdm835/XiaomiMI6Pkg \
+    -I/mnt/d/TARGET/edk2sdm/Sdm835/XiaomiMI6Pkg/Include
 
-INC_LIST = /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/XiaomiMI6Pkg/AcpiTables/AcpiTables/OUTPUT/inc.lst
+INC_LIST = /mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/XiaomiMI6Pkg/AcpiTables/AcpiTables/OUTPUT/inc.lst
 
 
 COMMON_DEPS = 
@@ -227,11 +227,11 @@ FORCE_REBUILD = force_build
 INIT_TARGET = init
 PCH_TARGET =
 BC_TARGET = 
-CODA_TARGET = /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/XiaomiMI6Pkg/AcpiTables/AcpiTables/OUTPUT/Dsdt.aml \
-              /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/XiaomiMI6Pkg/AcpiTables/AcpiTables/OUTPUT/Fadt.acpi \
-              /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/XiaomiMI6Pkg/AcpiTables/AcpiTables/OUTPUT/Dbg2.acpi \
-              /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/XiaomiMI6Pkg/AcpiTables/AcpiTables/OUTPUT/Gtdt.acpi \
-              /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/XiaomiMI6Pkg/AcpiTables/AcpiTables/OUTPUT/Madt.acpi \
+CODA_TARGET = /mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/XiaomiMI6Pkg/AcpiTables/AcpiTables/OUTPUT/Dbg2.acpi \
+              /mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/XiaomiMI6Pkg/AcpiTables/AcpiTables/OUTPUT/Fadt.acpi \
+              /mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/XiaomiMI6Pkg/AcpiTables/AcpiTables/OUTPUT/Madt.acpi \
+              /mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/XiaomiMI6Pkg/AcpiTables/AcpiTables/OUTPUT/Dsdt.aml \
+              /mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/XiaomiMI6Pkg/AcpiTables/AcpiTables/OUTPUT/Gtdt.acpi \
               
 
 #
@@ -304,179 +304,179 @@ gen_fds:
 # Individual Object Build Targets
 #
 $(OUTPUT_DIR)/Dsdt.aml : $(MAKE_FILE)
-$(OUTPUT_DIR)/Dsdt.aml : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Library/PcdLib.h
-$(OUTPUT_DIR)/Dsdt.aml : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/AArch64/ProcessorBind.h
-$(OUTPUT_DIR)/Dsdt.aml : /home/evsio0n/src/edk2sdm/Sdm835/XiaomiMI6Pkg/Include/ArmPlatform.h
+$(OUTPUT_DIR)/Dsdt.aml : /mnt/d/TARGET/edk2sdm/Sdm835/XiaomiMI6Pkg/Include/ArmPlatform.h
+$(OUTPUT_DIR)/Dsdt.aml : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Library/PcdLib.h
+$(OUTPUT_DIR)/Dsdt.aml : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/AArch64/ProcessorBind.h
+$(OUTPUT_DIR)/Dsdt.aml : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Base.h
 $(OUTPUT_DIR)/Dsdt.aml : $(DEBUG_DIR)/AutoGen.h
-$(OUTPUT_DIR)/Dsdt.aml : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Base.h
-$(OUTPUT_DIR)/Dsdt.aml : /home/evsio0n/src/edk2sdm/Sdm835/XiaomiMI6Pkg/AcpiTables/Dsdt.asl
-	Trim --asl-file -o $(OUTPUT_DIR)/./Dsdt.i -i $(INC_LIST) /home/evsio0n/src/edk2sdm/Sdm835/XiaomiMI6Pkg/AcpiTables/Dsdt.asl
-	"$(ASLPP)" $(ASLPP_FLAGS) $(INC) -I/home/evsio0n/src/edk2sdm/Sdm835/XiaomiMI6Pkg/AcpiTables $(OUTPUT_DIR)/./Dsdt.i > $(OUTPUT_DIR)/./Dsdt.iii
+$(OUTPUT_DIR)/Dsdt.aml : /mnt/d/TARGET/edk2sdm/Sdm835/XiaomiMI6Pkg/AcpiTables/Dsdt.asl
+	Trim --asl-file -o $(OUTPUT_DIR)/./Dsdt.i -i $(INC_LIST) /mnt/d/TARGET/edk2sdm/Sdm835/XiaomiMI6Pkg/AcpiTables/Dsdt.asl
+	"$(ASLPP)" $(ASLPP_FLAGS) $(INC) -I/mnt/d/TARGET/edk2sdm/Sdm835/XiaomiMI6Pkg/AcpiTables $(OUTPUT_DIR)/./Dsdt.i > $(OUTPUT_DIR)/./Dsdt.iii
 	Trim --source-code -l -o $(OUTPUT_DIR)/./Dsdt.iiii $(OUTPUT_DIR)/./Dsdt.iii
-	"$(ASL)" $(ASL_FLAGS) $(ASL_OUTFLAGS)/home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/XiaomiMI6Pkg/AcpiTables/AcpiTables/OUTPUT/./Dsdt.aml $(OUTPUT_DIR)/./Dsdt.iiii
+	"$(ASL)" $(ASL_FLAGS) $(ASL_OUTFLAGS)/mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/XiaomiMI6Pkg/AcpiTables/AcpiTables/OUTPUT/./Dsdt.aml $(OUTPUT_DIR)/./Dsdt.iiii
 
 $(OUTPUT_DIR)/Gtdt.acpi : $(MAKE_FILE)
-$(OUTPUT_DIR)/Gtdt.acpi : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/IndustryStandard/Acpi50.h
-$(OUTPUT_DIR)/Gtdt.acpi : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Protocol/SimpleTextOut.h
-$(OUTPUT_DIR)/Gtdt.acpi : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/IndustryStandard/Acpi20.h
-$(OUTPUT_DIR)/Gtdt.acpi : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Guid/WinCertificate.h
-$(OUTPUT_DIR)/Gtdt.acpi : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Protocol/SimpleTextIn.h
-$(OUTPUT_DIR)/Gtdt.acpi : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Uefi/UefiMultiPhase.h
-$(OUTPUT_DIR)/Gtdt.acpi : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/IndustryStandard/Acpi30.h
-$(OUTPUT_DIR)/Gtdt.acpi : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/IndustryStandard/Acpi40.h
-$(OUTPUT_DIR)/Gtdt.acpi : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Uefi/UefiInternalFormRepresentation.h
-$(OUTPUT_DIR)/Gtdt.acpi : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/AArch64/ProcessorBind.h
-$(OUTPUT_DIR)/Gtdt.acpi : /home/evsio0n/src/edk2sdm/edk2/EmbeddedPkg/Include/Library/AcpiLib.h
-$(OUTPUT_DIR)/Gtdt.acpi : /home/evsio0n/src/edk2sdm/Sdm835/XiaomiMI6Pkg/Include/ArmPlatform.h
-$(OUTPUT_DIR)/Gtdt.acpi : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Uefi.h
-$(OUTPUT_DIR)/Gtdt.acpi : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Protocol/DevicePath.h
-$(OUTPUT_DIR)/Gtdt.acpi : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Guid/PcAnsi.h
-$(OUTPUT_DIR)/Gtdt.acpi : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Uefi/UefiPxe.h
-$(OUTPUT_DIR)/Gtdt.acpi : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Base.h
-$(OUTPUT_DIR)/Gtdt.acpi : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Guid/HiiFormMapMethodGuid.h
-$(OUTPUT_DIR)/Gtdt.acpi : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/IndustryStandard/Acpi.h
-$(OUTPUT_DIR)/Gtdt.acpi : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/IndustryStandard/Bluetooth.h
-$(OUTPUT_DIR)/Gtdt.acpi : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/IndustryStandard/Acpi10.h
+$(OUTPUT_DIR)/Gtdt.acpi : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Guid/HiiFormMapMethodGuid.h
+$(OUTPUT_DIR)/Gtdt.acpi : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Uefi/UefiGpt.h
+$(OUTPUT_DIR)/Gtdt.acpi : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Uefi/UefiInternalFormRepresentation.h
+$(OUTPUT_DIR)/Gtdt.acpi : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/IndustryStandard/Bluetooth.h
+$(OUTPUT_DIR)/Gtdt.acpi : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Protocol/DevicePath.h
+$(OUTPUT_DIR)/Gtdt.acpi : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Protocol/SimpleTextOut.h
+$(OUTPUT_DIR)/Gtdt.acpi : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/IndustryStandard/Acpi10.h
+$(OUTPUT_DIR)/Gtdt.acpi : /mnt/d/TARGET/edk2sdm/Sdm835/XiaomiMI6Pkg/Include/ArmPlatform.h
+$(OUTPUT_DIR)/Gtdt.acpi : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/IndustryStandard/Acpi60.h
+$(OUTPUT_DIR)/Gtdt.acpi : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Uefi.h
+$(OUTPUT_DIR)/Gtdt.acpi : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Guid/WinCertificate.h
+$(OUTPUT_DIR)/Gtdt.acpi : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/IndustryStandard/Acpi51.h
+$(OUTPUT_DIR)/Gtdt.acpi : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Protocol/SimpleTextInEx.h
 $(OUTPUT_DIR)/Gtdt.acpi : $(DEBUG_DIR)/AutoGen.h
-$(OUTPUT_DIR)/Gtdt.acpi : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/IndustryStandard/AcpiAml.h
-$(OUTPUT_DIR)/Gtdt.acpi : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/IndustryStandard/Acpi62.h
-$(OUTPUT_DIR)/Gtdt.acpi : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/IndustryStandard/Acpi51.h
-$(OUTPUT_DIR)/Gtdt.acpi : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Uefi/UefiSpec.h
-$(OUTPUT_DIR)/Gtdt.acpi : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Library/PcdLib.h
-$(OUTPUT_DIR)/Gtdt.acpi : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Uefi/UefiBaseType.h
-$(OUTPUT_DIR)/Gtdt.acpi : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Protocol/SimpleTextInEx.h
-$(OUTPUT_DIR)/Gtdt.acpi : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/IndustryStandard/Acpi60.h
-$(OUTPUT_DIR)/Gtdt.acpi : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Uefi/UefiGpt.h
-$(OUTPUT_DIR)/Gtdt.acpi : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/IndustryStandard/Acpi61.h
-$(OUTPUT_DIR)/Gtdt.acpi : /home/evsio0n/src/edk2sdm/Sdm835/XiaomiMI6Pkg/AcpiTables/Gtdt.aslc
-	"$(ASLCC)" -c -o $(OUTPUT_DIR)/./Gtdt.obj $(CC_FLAGS) $(ASLCC_FLAGS) $(INC) /home/evsio0n/src/edk2sdm/Sdm835/XiaomiMI6Pkg/AcpiTables/Gtdt.aslc
+$(OUTPUT_DIR)/Gtdt.acpi : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Library/PcdLib.h
+$(OUTPUT_DIR)/Gtdt.acpi : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/IndustryStandard/Acpi61.h
+$(OUTPUT_DIR)/Gtdt.acpi : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Protocol/SimpleTextIn.h
+$(OUTPUT_DIR)/Gtdt.acpi : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/AArch64/ProcessorBind.h
+$(OUTPUT_DIR)/Gtdt.acpi : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Uefi/UefiPxe.h
+$(OUTPUT_DIR)/Gtdt.acpi : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/IndustryStandard/Acpi62.h
+$(OUTPUT_DIR)/Gtdt.acpi : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Guid/PcAnsi.h
+$(OUTPUT_DIR)/Gtdt.acpi : /mnt/d/TARGET/edk2sdm/edk2/EmbeddedPkg/Include/Library/AcpiLib.h
+$(OUTPUT_DIR)/Gtdt.acpi : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Uefi/UefiMultiPhase.h
+$(OUTPUT_DIR)/Gtdt.acpi : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/IndustryStandard/Acpi.h
+$(OUTPUT_DIR)/Gtdt.acpi : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/IndustryStandard/Acpi50.h
+$(OUTPUT_DIR)/Gtdt.acpi : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/IndustryStandard/Acpi20.h
+$(OUTPUT_DIR)/Gtdt.acpi : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/IndustryStandard/AcpiAml.h
+$(OUTPUT_DIR)/Gtdt.acpi : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/IndustryStandard/Acpi30.h
+$(OUTPUT_DIR)/Gtdt.acpi : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Base.h
+$(OUTPUT_DIR)/Gtdt.acpi : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Uefi/UefiBaseType.h
+$(OUTPUT_DIR)/Gtdt.acpi : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/IndustryStandard/Acpi40.h
+$(OUTPUT_DIR)/Gtdt.acpi : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Uefi/UefiSpec.h
+$(OUTPUT_DIR)/Gtdt.acpi : /mnt/d/TARGET/edk2sdm/Sdm835/XiaomiMI6Pkg/AcpiTables/Gtdt.aslc
+	"$(ASLCC)" -c -o $(OUTPUT_DIR)/./Gtdt.obj $(CC_FLAGS) $(ASLCC_FLAGS) $(INC) /mnt/d/TARGET/edk2sdm/Sdm835/XiaomiMI6Pkg/AcpiTables/Gtdt.aslc
 	"$(ASLDLINK)" -o $(OUTPUT_DIR)/./Gtdt.dll $(ASLDLINK_FLAGS) $(OUTPUT_DIR)/./Gtdt.obj
-	"$(GENFW)" -o /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/XiaomiMI6Pkg/AcpiTables/AcpiTables/OUTPUT/./Gtdt.acpi -c $(OUTPUT_DIR)/./Gtdt.dll $(GENFW_FLAGS)
+	"$(GENFW)" -o /mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/XiaomiMI6Pkg/AcpiTables/AcpiTables/OUTPUT/./Gtdt.acpi -c $(OUTPUT_DIR)/./Gtdt.dll $(GENFW_FLAGS)
 
 $(OUTPUT_DIR)/Madt.acpi : $(MAKE_FILE)
-$(OUTPUT_DIR)/Madt.acpi : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/IndustryStandard/Acpi50.h
-$(OUTPUT_DIR)/Madt.acpi : /home/evsio0n/src/edk2sdm/edk2/ArmPkg/Include/Chipset/AArch64Mmu.h
-$(OUTPUT_DIR)/Madt.acpi : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/IndustryStandard/Acpi20.h
-$(OUTPUT_DIR)/Madt.acpi : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Protocol/SimpleTextOut.h
-$(OUTPUT_DIR)/Madt.acpi : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Guid/WinCertificate.h
-$(OUTPUT_DIR)/Madt.acpi : /home/evsio0n/src/edk2sdm/edk2/ArmPkg/Include/Library/ArmLib.h
-$(OUTPUT_DIR)/Madt.acpi : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Protocol/SimpleTextIn.h
-$(OUTPUT_DIR)/Madt.acpi : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Uefi/UefiMultiPhase.h
-$(OUTPUT_DIR)/Madt.acpi : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/IndustryStandard/Acpi30.h
-$(OUTPUT_DIR)/Madt.acpi : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/IndustryStandard/Acpi40.h
-$(OUTPUT_DIR)/Madt.acpi : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Uefi/UefiInternalFormRepresentation.h
-$(OUTPUT_DIR)/Madt.acpi : /home/evsio0n/src/edk2sdm/edk2/ArmPkg/Include/Chipset/ArmV7.h
-$(OUTPUT_DIR)/Madt.acpi : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/AArch64/ProcessorBind.h
-$(OUTPUT_DIR)/Madt.acpi : /home/evsio0n/src/edk2sdm/edk2/EmbeddedPkg/Include/Library/AcpiLib.h
-$(OUTPUT_DIR)/Madt.acpi : /home/evsio0n/src/edk2sdm/Sdm835/XiaomiMI6Pkg/Include/ArmPlatform.h
-$(OUTPUT_DIR)/Madt.acpi : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Uefi.h
-$(OUTPUT_DIR)/Madt.acpi : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Protocol/DevicePath.h
-$(OUTPUT_DIR)/Madt.acpi : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Guid/PcAnsi.h
-$(OUTPUT_DIR)/Madt.acpi : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Uefi/UefiPxe.h
-$(OUTPUT_DIR)/Madt.acpi : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Base.h
-$(OUTPUT_DIR)/Madt.acpi : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Guid/HiiFormMapMethodGuid.h
-$(OUTPUT_DIR)/Madt.acpi : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/IndustryStandard/Acpi.h
-$(OUTPUT_DIR)/Madt.acpi : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/IndustryStandard/Bluetooth.h
-$(OUTPUT_DIR)/Madt.acpi : /home/evsio0n/src/edk2sdm/edk2/ArmPkg/Include/Chipset/AArch64.h
-$(OUTPUT_DIR)/Madt.acpi : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/IndustryStandard/Acpi10.h
+$(OUTPUT_DIR)/Madt.acpi : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Guid/HiiFormMapMethodGuid.h
+$(OUTPUT_DIR)/Madt.acpi : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Uefi/UefiGpt.h
+$(OUTPUT_DIR)/Madt.acpi : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Uefi/UefiInternalFormRepresentation.h
+$(OUTPUT_DIR)/Madt.acpi : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/IndustryStandard/Bluetooth.h
+$(OUTPUT_DIR)/Madt.acpi : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Protocol/DevicePath.h
+$(OUTPUT_DIR)/Madt.acpi : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Protocol/SimpleTextOut.h
+$(OUTPUT_DIR)/Madt.acpi : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/IndustryStandard/Acpi10.h
+$(OUTPUT_DIR)/Madt.acpi : /mnt/d/TARGET/edk2sdm/Sdm835/XiaomiMI6Pkg/Include/ArmPlatform.h
+$(OUTPUT_DIR)/Madt.acpi : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/IndustryStandard/Acpi60.h
+$(OUTPUT_DIR)/Madt.acpi : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Uefi.h
+$(OUTPUT_DIR)/Madt.acpi : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/IndustryStandard/Acpi40.h
+$(OUTPUT_DIR)/Madt.acpi : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Guid/WinCertificate.h
+$(OUTPUT_DIR)/Madt.acpi : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/IndustryStandard/Acpi51.h
+$(OUTPUT_DIR)/Madt.acpi : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Protocol/SimpleTextInEx.h
 $(OUTPUT_DIR)/Madt.acpi : $(DEBUG_DIR)/AutoGen.h
-$(OUTPUT_DIR)/Madt.acpi : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/IndustryStandard/AcpiAml.h
-$(OUTPUT_DIR)/Madt.acpi : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/IndustryStandard/Acpi62.h
-$(OUTPUT_DIR)/Madt.acpi : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/IndustryStandard/Acpi51.h
-$(OUTPUT_DIR)/Madt.acpi : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Uefi/UefiSpec.h
-$(OUTPUT_DIR)/Madt.acpi : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Library/PcdLib.h
-$(OUTPUT_DIR)/Madt.acpi : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Uefi/UefiBaseType.h
-$(OUTPUT_DIR)/Madt.acpi : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Protocol/SimpleTextInEx.h
-$(OUTPUT_DIR)/Madt.acpi : /home/evsio0n/src/edk2sdm/edk2/ArmPkg/Include/Chipset/ArmV7Mmu.h
-$(OUTPUT_DIR)/Madt.acpi : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/IndustryStandard/Acpi60.h
-$(OUTPUT_DIR)/Madt.acpi : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Uefi/UefiGpt.h
-$(OUTPUT_DIR)/Madt.acpi : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/IndustryStandard/Acpi61.h
-$(OUTPUT_DIR)/Madt.acpi : /home/evsio0n/src/edk2sdm/Sdm835/XiaomiMI6Pkg/AcpiTables/Madt.aslc
-	"$(ASLCC)" -c -o $(OUTPUT_DIR)/./Madt.obj $(CC_FLAGS) $(ASLCC_FLAGS) $(INC) /home/evsio0n/src/edk2sdm/Sdm835/XiaomiMI6Pkg/AcpiTables/Madt.aslc
+$(OUTPUT_DIR)/Madt.acpi : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Library/PcdLib.h
+$(OUTPUT_DIR)/Madt.acpi : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/IndustryStandard/Acpi61.h
+$(OUTPUT_DIR)/Madt.acpi : /mnt/d/TARGET/edk2sdm/edk2/ArmPkg/Include/Chipset/ArmV7.h
+$(OUTPUT_DIR)/Madt.acpi : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Protocol/SimpleTextIn.h
+$(OUTPUT_DIR)/Madt.acpi : /mnt/d/TARGET/edk2sdm/edk2/ArmPkg/Include/Library/ArmLib.h
+$(OUTPUT_DIR)/Madt.acpi : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/AArch64/ProcessorBind.h
+$(OUTPUT_DIR)/Madt.acpi : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Uefi/UefiPxe.h
+$(OUTPUT_DIR)/Madt.acpi : /mnt/d/TARGET/edk2sdm/edk2/ArmPkg/Include/Chipset/AArch64.h
+$(OUTPUT_DIR)/Madt.acpi : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/IndustryStandard/Acpi62.h
+$(OUTPUT_DIR)/Madt.acpi : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Guid/PcAnsi.h
+$(OUTPUT_DIR)/Madt.acpi : /mnt/d/TARGET/edk2sdm/edk2/EmbeddedPkg/Include/Library/AcpiLib.h
+$(OUTPUT_DIR)/Madt.acpi : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Uefi/UefiMultiPhase.h
+$(OUTPUT_DIR)/Madt.acpi : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/IndustryStandard/Acpi.h
+$(OUTPUT_DIR)/Madt.acpi : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/IndustryStandard/Acpi50.h
+$(OUTPUT_DIR)/Madt.acpi : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/IndustryStandard/Acpi20.h
+$(OUTPUT_DIR)/Madt.acpi : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/IndustryStandard/AcpiAml.h
+$(OUTPUT_DIR)/Madt.acpi : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/IndustryStandard/Acpi30.h
+$(OUTPUT_DIR)/Madt.acpi : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Base.h
+$(OUTPUT_DIR)/Madt.acpi : /mnt/d/TARGET/edk2sdm/edk2/ArmPkg/Include/Chipset/ArmV7Mmu.h
+$(OUTPUT_DIR)/Madt.acpi : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Uefi/UefiBaseType.h
+$(OUTPUT_DIR)/Madt.acpi : /mnt/d/TARGET/edk2sdm/edk2/ArmPkg/Include/Chipset/AArch64Mmu.h
+$(OUTPUT_DIR)/Madt.acpi : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Uefi/UefiSpec.h
+$(OUTPUT_DIR)/Madt.acpi : /mnt/d/TARGET/edk2sdm/Sdm835/XiaomiMI6Pkg/AcpiTables/Madt.aslc
+	"$(ASLCC)" -c -o $(OUTPUT_DIR)/./Madt.obj $(CC_FLAGS) $(ASLCC_FLAGS) $(INC) /mnt/d/TARGET/edk2sdm/Sdm835/XiaomiMI6Pkg/AcpiTables/Madt.aslc
 	"$(ASLDLINK)" -o $(OUTPUT_DIR)/./Madt.dll $(ASLDLINK_FLAGS) $(OUTPUT_DIR)/./Madt.obj
-	"$(GENFW)" -o /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/XiaomiMI6Pkg/AcpiTables/AcpiTables/OUTPUT/./Madt.acpi -c $(OUTPUT_DIR)/./Madt.dll $(GENFW_FLAGS)
+	"$(GENFW)" -o /mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/XiaomiMI6Pkg/AcpiTables/AcpiTables/OUTPUT/./Madt.acpi -c $(OUTPUT_DIR)/./Madt.dll $(GENFW_FLAGS)
 
 $(OUTPUT_DIR)/Dbg2.acpi : $(MAKE_FILE)
-$(OUTPUT_DIR)/Dbg2.acpi : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/IndustryStandard/Acpi50.h
-$(OUTPUT_DIR)/Dbg2.acpi : /home/evsio0n/src/edk2sdm/edk2/ArmPkg/Include/Chipset/AArch64Mmu.h
-$(OUTPUT_DIR)/Dbg2.acpi : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/IndustryStandard/Acpi20.h
-$(OUTPUT_DIR)/Dbg2.acpi : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Protocol/SimpleTextOut.h
-$(OUTPUT_DIR)/Dbg2.acpi : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Guid/WinCertificate.h
-$(OUTPUT_DIR)/Dbg2.acpi : /home/evsio0n/src/edk2sdm/edk2/ArmPkg/Include/Library/ArmLib.h
-$(OUTPUT_DIR)/Dbg2.acpi : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Protocol/SimpleTextIn.h
-$(OUTPUT_DIR)/Dbg2.acpi : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Uefi/UefiMultiPhase.h
-$(OUTPUT_DIR)/Dbg2.acpi : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/IndustryStandard/Acpi30.h
-$(OUTPUT_DIR)/Dbg2.acpi : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/IndustryStandard/Acpi40.h
-$(OUTPUT_DIR)/Dbg2.acpi : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Uefi/UefiInternalFormRepresentation.h
-$(OUTPUT_DIR)/Dbg2.acpi : /home/evsio0n/src/edk2sdm/edk2/ArmPkg/Include/Chipset/ArmV7.h
-$(OUTPUT_DIR)/Dbg2.acpi : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/AArch64/ProcessorBind.h
-$(OUTPUT_DIR)/Dbg2.acpi : /home/evsio0n/src/edk2sdm/edk2/EmbeddedPkg/Include/Library/AcpiLib.h
-$(OUTPUT_DIR)/Dbg2.acpi : /home/evsio0n/src/edk2sdm/Sdm835/XiaomiMI6Pkg/Include/ArmPlatform.h
-$(OUTPUT_DIR)/Dbg2.acpi : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/IndustryStandard/DebugPort2Table.h
-$(OUTPUT_DIR)/Dbg2.acpi : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Uefi.h
-$(OUTPUT_DIR)/Dbg2.acpi : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Protocol/DevicePath.h
-$(OUTPUT_DIR)/Dbg2.acpi : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Guid/PcAnsi.h
-$(OUTPUT_DIR)/Dbg2.acpi : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Uefi/UefiPxe.h
-$(OUTPUT_DIR)/Dbg2.acpi : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Base.h
-$(OUTPUT_DIR)/Dbg2.acpi : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Guid/HiiFormMapMethodGuid.h
-$(OUTPUT_DIR)/Dbg2.acpi : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/IndustryStandard/Acpi.h
-$(OUTPUT_DIR)/Dbg2.acpi : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/IndustryStandard/Bluetooth.h
-$(OUTPUT_DIR)/Dbg2.acpi : /home/evsio0n/src/edk2sdm/edk2/ArmPkg/Include/Chipset/AArch64.h
-$(OUTPUT_DIR)/Dbg2.acpi : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/IndustryStandard/Acpi10.h
+$(OUTPUT_DIR)/Dbg2.acpi : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Guid/HiiFormMapMethodGuid.h
+$(OUTPUT_DIR)/Dbg2.acpi : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Uefi/UefiGpt.h
+$(OUTPUT_DIR)/Dbg2.acpi : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Uefi/UefiInternalFormRepresentation.h
+$(OUTPUT_DIR)/Dbg2.acpi : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/IndustryStandard/Bluetooth.h
+$(OUTPUT_DIR)/Dbg2.acpi : /mnt/d/TARGET/edk2sdm/edk2/ArmPkg/Include/Chipset/AArch64Mmu.h
+$(OUTPUT_DIR)/Dbg2.acpi : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Protocol/DevicePath.h
+$(OUTPUT_DIR)/Dbg2.acpi : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Protocol/SimpleTextOut.h
+$(OUTPUT_DIR)/Dbg2.acpi : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/IndustryStandard/Acpi10.h
+$(OUTPUT_DIR)/Dbg2.acpi : /mnt/d/TARGET/edk2sdm/Sdm835/XiaomiMI6Pkg/Include/ArmPlatform.h
+$(OUTPUT_DIR)/Dbg2.acpi : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/IndustryStandard/Acpi60.h
+$(OUTPUT_DIR)/Dbg2.acpi : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Uefi.h
+$(OUTPUT_DIR)/Dbg2.acpi : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Guid/WinCertificate.h
+$(OUTPUT_DIR)/Dbg2.acpi : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/IndustryStandard/Acpi51.h
+$(OUTPUT_DIR)/Dbg2.acpi : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Protocol/SimpleTextInEx.h
 $(OUTPUT_DIR)/Dbg2.acpi : $(DEBUG_DIR)/AutoGen.h
-$(OUTPUT_DIR)/Dbg2.acpi : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/IndustryStandard/AcpiAml.h
-$(OUTPUT_DIR)/Dbg2.acpi : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/IndustryStandard/Acpi62.h
-$(OUTPUT_DIR)/Dbg2.acpi : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/IndustryStandard/Acpi51.h
-$(OUTPUT_DIR)/Dbg2.acpi : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Uefi/UefiSpec.h
-$(OUTPUT_DIR)/Dbg2.acpi : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Library/PcdLib.h
-$(OUTPUT_DIR)/Dbg2.acpi : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Uefi/UefiBaseType.h
-$(OUTPUT_DIR)/Dbg2.acpi : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Protocol/SimpleTextInEx.h
-$(OUTPUT_DIR)/Dbg2.acpi : /home/evsio0n/src/edk2sdm/edk2/ArmPkg/Include/Chipset/ArmV7Mmu.h
-$(OUTPUT_DIR)/Dbg2.acpi : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/IndustryStandard/Acpi60.h
-$(OUTPUT_DIR)/Dbg2.acpi : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Uefi/UefiGpt.h
-$(OUTPUT_DIR)/Dbg2.acpi : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/IndustryStandard/Acpi61.h
-$(OUTPUT_DIR)/Dbg2.acpi : /home/evsio0n/src/edk2sdm/Sdm835/XiaomiMI6Pkg/AcpiTables/Dbg2.aslc
-	"$(ASLCC)" -c -o $(OUTPUT_DIR)/./Dbg2.obj $(CC_FLAGS) $(ASLCC_FLAGS) $(INC) /home/evsio0n/src/edk2sdm/Sdm835/XiaomiMI6Pkg/AcpiTables/Dbg2.aslc
+$(OUTPUT_DIR)/Dbg2.acpi : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Library/PcdLib.h
+$(OUTPUT_DIR)/Dbg2.acpi : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/IndustryStandard/Acpi61.h
+$(OUTPUT_DIR)/Dbg2.acpi : /mnt/d/TARGET/edk2sdm/edk2/ArmPkg/Include/Chipset/ArmV7.h
+$(OUTPUT_DIR)/Dbg2.acpi : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Protocol/SimpleTextIn.h
+$(OUTPUT_DIR)/Dbg2.acpi : /mnt/d/TARGET/edk2sdm/edk2/ArmPkg/Include/Library/ArmLib.h
+$(OUTPUT_DIR)/Dbg2.acpi : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/AArch64/ProcessorBind.h
+$(OUTPUT_DIR)/Dbg2.acpi : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Uefi/UefiPxe.h
+$(OUTPUT_DIR)/Dbg2.acpi : /mnt/d/TARGET/edk2sdm/edk2/ArmPkg/Include/Chipset/AArch64.h
+$(OUTPUT_DIR)/Dbg2.acpi : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/IndustryStandard/Acpi62.h
+$(OUTPUT_DIR)/Dbg2.acpi : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Guid/PcAnsi.h
+$(OUTPUT_DIR)/Dbg2.acpi : /mnt/d/TARGET/edk2sdm/edk2/EmbeddedPkg/Include/Library/AcpiLib.h
+$(OUTPUT_DIR)/Dbg2.acpi : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Uefi/UefiMultiPhase.h
+$(OUTPUT_DIR)/Dbg2.acpi : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/IndustryStandard/Acpi.h
+$(OUTPUT_DIR)/Dbg2.acpi : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/IndustryStandard/Acpi50.h
+$(OUTPUT_DIR)/Dbg2.acpi : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/IndustryStandard/Acpi20.h
+$(OUTPUT_DIR)/Dbg2.acpi : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/IndustryStandard/AcpiAml.h
+$(OUTPUT_DIR)/Dbg2.acpi : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/IndustryStandard/Acpi30.h
+$(OUTPUT_DIR)/Dbg2.acpi : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/IndustryStandard/DebugPort2Table.h
+$(OUTPUT_DIR)/Dbg2.acpi : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Base.h
+$(OUTPUT_DIR)/Dbg2.acpi : /mnt/d/TARGET/edk2sdm/edk2/ArmPkg/Include/Chipset/ArmV7Mmu.h
+$(OUTPUT_DIR)/Dbg2.acpi : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Uefi/UefiBaseType.h
+$(OUTPUT_DIR)/Dbg2.acpi : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/IndustryStandard/Acpi40.h
+$(OUTPUT_DIR)/Dbg2.acpi : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Uefi/UefiSpec.h
+$(OUTPUT_DIR)/Dbg2.acpi : /mnt/d/TARGET/edk2sdm/Sdm835/XiaomiMI6Pkg/AcpiTables/Dbg2.aslc
+	"$(ASLCC)" -c -o $(OUTPUT_DIR)/./Dbg2.obj $(CC_FLAGS) $(ASLCC_FLAGS) $(INC) /mnt/d/TARGET/edk2sdm/Sdm835/XiaomiMI6Pkg/AcpiTables/Dbg2.aslc
 	"$(ASLDLINK)" -o $(OUTPUT_DIR)/./Dbg2.dll $(ASLDLINK_FLAGS) $(OUTPUT_DIR)/./Dbg2.obj
-	"$(GENFW)" -o /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/XiaomiMI6Pkg/AcpiTables/AcpiTables/OUTPUT/./Dbg2.acpi -c $(OUTPUT_DIR)/./Dbg2.dll $(GENFW_FLAGS)
+	"$(GENFW)" -o /mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/XiaomiMI6Pkg/AcpiTables/AcpiTables/OUTPUT/./Dbg2.acpi -c $(OUTPUT_DIR)/./Dbg2.dll $(GENFW_FLAGS)
 
 $(OUTPUT_DIR)/Fadt.acpi : $(MAKE_FILE)
-$(OUTPUT_DIR)/Fadt.acpi : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/IndustryStandard/Acpi50.h
-$(OUTPUT_DIR)/Fadt.acpi : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Protocol/SimpleTextOut.h
-$(OUTPUT_DIR)/Fadt.acpi : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/IndustryStandard/Acpi20.h
-$(OUTPUT_DIR)/Fadt.acpi : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Guid/WinCertificate.h
-$(OUTPUT_DIR)/Fadt.acpi : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Protocol/SimpleTextIn.h
-$(OUTPUT_DIR)/Fadt.acpi : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Uefi/UefiMultiPhase.h
-$(OUTPUT_DIR)/Fadt.acpi : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/IndustryStandard/Acpi30.h
-$(OUTPUT_DIR)/Fadt.acpi : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/IndustryStandard/Acpi40.h
-$(OUTPUT_DIR)/Fadt.acpi : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Uefi/UefiInternalFormRepresentation.h
-$(OUTPUT_DIR)/Fadt.acpi : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/AArch64/ProcessorBind.h
-$(OUTPUT_DIR)/Fadt.acpi : /home/evsio0n/src/edk2sdm/edk2/EmbeddedPkg/Include/Library/AcpiLib.h
-$(OUTPUT_DIR)/Fadt.acpi : /home/evsio0n/src/edk2sdm/Sdm835/XiaomiMI6Pkg/Include/ArmPlatform.h
-$(OUTPUT_DIR)/Fadt.acpi : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Uefi.h
-$(OUTPUT_DIR)/Fadt.acpi : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Protocol/DevicePath.h
-$(OUTPUT_DIR)/Fadt.acpi : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Guid/PcAnsi.h
-$(OUTPUT_DIR)/Fadt.acpi : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Uefi/UefiPxe.h
-$(OUTPUT_DIR)/Fadt.acpi : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Base.h
-$(OUTPUT_DIR)/Fadt.acpi : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Guid/HiiFormMapMethodGuid.h
-$(OUTPUT_DIR)/Fadt.acpi : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/IndustryStandard/Acpi.h
-$(OUTPUT_DIR)/Fadt.acpi : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/IndustryStandard/Bluetooth.h
-$(OUTPUT_DIR)/Fadt.acpi : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/IndustryStandard/Acpi10.h
+$(OUTPUT_DIR)/Fadt.acpi : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Guid/HiiFormMapMethodGuid.h
+$(OUTPUT_DIR)/Fadt.acpi : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Uefi/UefiGpt.h
+$(OUTPUT_DIR)/Fadt.acpi : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Uefi/UefiInternalFormRepresentation.h
+$(OUTPUT_DIR)/Fadt.acpi : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/IndustryStandard/Bluetooth.h
+$(OUTPUT_DIR)/Fadt.acpi : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Protocol/DevicePath.h
+$(OUTPUT_DIR)/Fadt.acpi : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Protocol/SimpleTextOut.h
+$(OUTPUT_DIR)/Fadt.acpi : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/IndustryStandard/Acpi10.h
+$(OUTPUT_DIR)/Fadt.acpi : /mnt/d/TARGET/edk2sdm/Sdm835/XiaomiMI6Pkg/Include/ArmPlatform.h
+$(OUTPUT_DIR)/Fadt.acpi : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/IndustryStandard/Acpi60.h
+$(OUTPUT_DIR)/Fadt.acpi : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Uefi.h
+$(OUTPUT_DIR)/Fadt.acpi : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Guid/WinCertificate.h
+$(OUTPUT_DIR)/Fadt.acpi : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/IndustryStandard/Acpi51.h
+$(OUTPUT_DIR)/Fadt.acpi : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Protocol/SimpleTextInEx.h
 $(OUTPUT_DIR)/Fadt.acpi : $(DEBUG_DIR)/AutoGen.h
-$(OUTPUT_DIR)/Fadt.acpi : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/IndustryStandard/AcpiAml.h
-$(OUTPUT_DIR)/Fadt.acpi : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/IndustryStandard/Acpi62.h
-$(OUTPUT_DIR)/Fadt.acpi : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/IndustryStandard/Acpi51.h
-$(OUTPUT_DIR)/Fadt.acpi : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Uefi/UefiSpec.h
-$(OUTPUT_DIR)/Fadt.acpi : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Library/PcdLib.h
-$(OUTPUT_DIR)/Fadt.acpi : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Uefi/UefiBaseType.h
-$(OUTPUT_DIR)/Fadt.acpi : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Protocol/SimpleTextInEx.h
-$(OUTPUT_DIR)/Fadt.acpi : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/IndustryStandard/Acpi60.h
-$(OUTPUT_DIR)/Fadt.acpi : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Uefi/UefiGpt.h
-$(OUTPUT_DIR)/Fadt.acpi : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/IndustryStandard/Acpi61.h
-$(OUTPUT_DIR)/Fadt.acpi : /home/evsio0n/src/edk2sdm/Sdm835/XiaomiMI6Pkg/AcpiTables/Fadt.aslc
-	"$(ASLCC)" -c -o $(OUTPUT_DIR)/./Fadt.obj $(CC_FLAGS) $(ASLCC_FLAGS) $(INC) /home/evsio0n/src/edk2sdm/Sdm835/XiaomiMI6Pkg/AcpiTables/Fadt.aslc
+$(OUTPUT_DIR)/Fadt.acpi : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Library/PcdLib.h
+$(OUTPUT_DIR)/Fadt.acpi : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/IndustryStandard/Acpi61.h
+$(OUTPUT_DIR)/Fadt.acpi : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Protocol/SimpleTextIn.h
+$(OUTPUT_DIR)/Fadt.acpi : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/AArch64/ProcessorBind.h
+$(OUTPUT_DIR)/Fadt.acpi : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Uefi/UefiPxe.h
+$(OUTPUT_DIR)/Fadt.acpi : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/IndustryStandard/Acpi62.h
+$(OUTPUT_DIR)/Fadt.acpi : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Guid/PcAnsi.h
+$(OUTPUT_DIR)/Fadt.acpi : /mnt/d/TARGET/edk2sdm/edk2/EmbeddedPkg/Include/Library/AcpiLib.h
+$(OUTPUT_DIR)/Fadt.acpi : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Uefi/UefiMultiPhase.h
+$(OUTPUT_DIR)/Fadt.acpi : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/IndustryStandard/Acpi.h
+$(OUTPUT_DIR)/Fadt.acpi : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/IndustryStandard/Acpi50.h
+$(OUTPUT_DIR)/Fadt.acpi : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/IndustryStandard/Acpi20.h
+$(OUTPUT_DIR)/Fadt.acpi : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/IndustryStandard/AcpiAml.h
+$(OUTPUT_DIR)/Fadt.acpi : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/IndustryStandard/Acpi30.h
+$(OUTPUT_DIR)/Fadt.acpi : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Base.h
+$(OUTPUT_DIR)/Fadt.acpi : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Uefi/UefiBaseType.h
+$(OUTPUT_DIR)/Fadt.acpi : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/IndustryStandard/Acpi40.h
+$(OUTPUT_DIR)/Fadt.acpi : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Uefi/UefiSpec.h
+$(OUTPUT_DIR)/Fadt.acpi : /mnt/d/TARGET/edk2sdm/Sdm835/XiaomiMI6Pkg/AcpiTables/Fadt.aslc
+	"$(ASLCC)" -c -o $(OUTPUT_DIR)/./Fadt.obj $(CC_FLAGS) $(ASLCC_FLAGS) $(INC) /mnt/d/TARGET/edk2sdm/Sdm835/XiaomiMI6Pkg/AcpiTables/Fadt.aslc
 	"$(ASLDLINK)" -o $(OUTPUT_DIR)/./Fadt.dll $(ASLDLINK_FLAGS) $(OUTPUT_DIR)/./Fadt.obj
-	"$(GENFW)" -o /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/XiaomiMI6Pkg/AcpiTables/AcpiTables/OUTPUT/./Fadt.acpi -c $(OUTPUT_DIR)/./Fadt.dll $(GENFW_FLAGS)
+	"$(GENFW)" -o /mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/XiaomiMI6Pkg/AcpiTables/AcpiTables/OUTPUT/./Fadt.acpi -c $(OUTPUT_DIR)/./Fadt.dll $(GENFW_FLAGS)
 
 
 

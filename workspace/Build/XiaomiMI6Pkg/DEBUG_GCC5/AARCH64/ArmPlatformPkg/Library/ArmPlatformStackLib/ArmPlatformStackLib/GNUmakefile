@@ -19,7 +19,7 @@ PLATFORM_NAME = XiaomiMI6Pkg
 PLATFORM_GUID = 28f1a3bf-193a-47e3-a7b9-5a435eaab2ee
 PLATFORM_VERSION = 0.1
 PLATFORM_RELATIVE_DIR = XiaomiMI6Pkg
-PLATFORM_DIR = /home/evsio0n/src/edk2sdm/Sdm835/XiaomiMI6Pkg
+PLATFORM_DIR = /mnt/d/TARGET/edk2sdm/Sdm835/XiaomiMI6Pkg
 PLATFORM_OUTPUT_DIR = Build/XiaomiMI6Pkg
 
 #
@@ -35,8 +35,8 @@ MODULE_FILE_BASE_NAME = ArmPlatformStackLib
 BASE_NAME = $(MODULE_NAME)
 MODULE_RELATIVE_DIR = ArmPlatformPkg/Library/ArmPlatformStackLib
 PACKAGE_RELATIVE_DIR = Library/ArmPlatformStackLib
-MODULE_DIR = /home/evsio0n/src/edk2sdm/edk2/ArmPlatformPkg/Library/ArmPlatformStackLib
-FFS_OUTPUT_DIR = /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/FV/Ffs/5e2e44af-53c1-44c2-a801-9c149f3d6ba0ArmPlatformStackLib
+MODULE_DIR = /mnt/d/TARGET/edk2sdm/edk2/ArmPlatformPkg/Library/ArmPlatformStackLib
+FFS_OUTPUT_DIR = /mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/FV/Ffs/5e2e44af-53c1-44c2-a801-9c149f3d6ba0ArmPlatformStackLib
 
 MODULE_ENTRY_POINT = _ModuleEntryPoint
 ARCH_ENTRY_POINT = _ModuleEntryPoint
@@ -59,13 +59,13 @@ TARGET = DEBUG
 #
 # Build Directory Macro Definition
 #
-# PLATFORM_BUILD_DIR = /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5
-BUILD_DIR = /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5
+# PLATFORM_BUILD_DIR = /mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5
+BUILD_DIR = /mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5
 BIN_DIR = $(BUILD_DIR)/AARCH64
 LIB_DIR = $(BIN_DIR)
-MODULE_BUILD_DIR = /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPlatformPkg/Library/ArmPlatformStackLib/ArmPlatformStackLib
-OUTPUT_DIR = /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPlatformPkg/Library/ArmPlatformStackLib/ArmPlatformStackLib/OUTPUT
-DEBUG_DIR = /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPlatformPkg/Library/ArmPlatformStackLib/ArmPlatformStackLib/DEBUG
+MODULE_BUILD_DIR = /mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPlatformPkg/Library/ArmPlatformStackLib/ArmPlatformStackLib
+OUTPUT_DIR = /mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPlatformPkg/Library/ArmPlatformStackLib/ArmPlatformStackLib/OUTPUT
+DEBUG_DIR = /mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPlatformPkg/Library/ArmPlatformStackLib/ArmPlatformStackLib/DEBUG
 DEST_DIR_OUTPUT = $(OUTPUT_DIR)
 DEST_DIR_DEBUG = $(DEBUG_DIR)
 
@@ -169,7 +169,7 @@ PP_FLAGS = $(ARCHCC_FLAGS) $(PLATFORM_FLAGS) -E -x assembler-with-cpp -include $
 VFRPP = aarch64-linux-gnu-gcc
 VFRPP_FLAGS = $(ARCHCC_FLAGS) $(PLATFORM_FLAGS) -x c -E -P -DVFRCOMPILE --include $(DEST_DIR_DEBUG)/$(MODULE_NAME)StrDefs.h
 
-DLINK_FLAGS = -Wl,--emit-relocs -nostdlib -Wl,--gc-sections -u $(IMAGE_ENTRY_POINT) -Wl,-e,$(IMAGE_ENTRY_POINT),-Map,$(DEST_DIR_DEBUG)/$(BASE_NAME).map -z common-page-size=0x20 -z common-page-size=0x1000 -flto -Os -L/home/evsio0n/src/edk2sdm/edk2/ArmPkg/Library/GccLto -llto-aarch64 -Wl,-plugin-opt=-pass-through=-llto-aarch64 -Wno-lto-type-mismatch
+DLINK_FLAGS = -Wl,--emit-relocs -nostdlib -Wl,--gc-sections -u $(IMAGE_ENTRY_POINT) -Wl,-e,$(IMAGE_ENTRY_POINT),-Map,$(DEST_DIR_DEBUG)/$(BASE_NAME).map -z common-page-size=0x20 -z common-page-size=0x1000 -flto -Os -L/mnt/d/TARGET/edk2sdm/edk2/ArmPkg/Library/GccLto -llto-aarch64 -Wl,-plugin-opt=-pass-through=-llto-aarch64 -Wno-lto-type-mismatch
 DLINK_XIPFLAGS =  -z common-page-size=0x20
 DLINK = aarch64-linux-gnu-gcc
 
@@ -202,20 +202,20 @@ OBJECT_FILES =  \
     $(OUTPUT_DIR)/AArch64/ArmPlatformStackLib.obj
 
 INC =  \
-    -I/home/evsio0n/src/edk2sdm/edk2/ArmPlatformPkg/Library/ArmPlatformStackLib/AArch64 \
-    -I/home/evsio0n/src/edk2sdm/edk2/ArmPlatformPkg/Library/ArmPlatformStackLib \
+    -I/mnt/d/TARGET/edk2sdm/edk2/ArmPlatformPkg/Library/ArmPlatformStackLib/AArch64 \
+    -I/mnt/d/TARGET/edk2sdm/edk2/ArmPlatformPkg/Library/ArmPlatformStackLib \
     -I$(DEBUG_DIR) \
-    -I/home/evsio0n/src/edk2sdm/edk2/MdePkg \
-    -I/home/evsio0n/src/edk2sdm/edk2/MdePkg/Include \
-    -I/home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/AArch64 \
-    -I/home/evsio0n/src/edk2sdm/edk2/MdeModulePkg \
-    -I/home/evsio0n/src/edk2sdm/edk2/MdeModulePkg/Include \
-    -I/home/evsio0n/src/edk2sdm/edk2/ArmPkg \
-    -I/home/evsio0n/src/edk2sdm/edk2/ArmPkg/Include \
-    -I/home/evsio0n/src/edk2sdm/edk2/ArmPlatformPkg \
-    -I/home/evsio0n/src/edk2sdm/edk2/ArmPlatformPkg/Include
+    -I/mnt/d/TARGET/edk2sdm/edk2/MdePkg \
+    -I/mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include \
+    -I/mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/AArch64 \
+    -I/mnt/d/TARGET/edk2sdm/edk2/MdeModulePkg \
+    -I/mnt/d/TARGET/edk2sdm/edk2/MdeModulePkg/Include \
+    -I/mnt/d/TARGET/edk2sdm/edk2/ArmPkg \
+    -I/mnt/d/TARGET/edk2sdm/edk2/ArmPkg/Include \
+    -I/mnt/d/TARGET/edk2sdm/edk2/ArmPlatformPkg \
+    -I/mnt/d/TARGET/edk2sdm/edk2/ArmPlatformPkg/Include
 
-OBJECT_FILES_LIST = /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPlatformPkg/Library/ArmPlatformStackLib/ArmPlatformStackLib/OUTPUT/object_files.lst
+OBJECT_FILES_LIST = /mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPlatformPkg/Library/ArmPlatformStackLib/ArmPlatformStackLib/OUTPUT/object_files.lst
 
 
 COMMON_DEPS = 
@@ -227,7 +227,7 @@ FORCE_REBUILD = force_build
 INIT_TARGET = init
 PCH_TARGET =
 BC_TARGET = 
-CODA_TARGET = /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPlatformPkg/Library/ArmPlatformStackLib/ArmPlatformStackLib/OUTPUT/ArmPlatformStackLib.lib \
+CODA_TARGET = /mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPlatformPkg/Library/ArmPlatformStackLib/ArmPlatformStackLib/OUTPUT/ArmPlatformStackLib.lib \
               
 
 #
@@ -300,20 +300,20 @@ gen_fds:
 # Individual Object Build Targets
 #
 $(OUTPUT_DIR)/AArch64/ArmPlatformStackLib.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/AArch64/ArmPlatformStackLib.obj : /mnt/d/TARGET/edk2sdm/edk2/ArmPkg/Include/AsmMacroIoLibV8.h
+$(OUTPUT_DIR)/AArch64/ArmPlatformStackLib.obj : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Library/PcdLib.h
+$(OUTPUT_DIR)/AArch64/ArmPlatformStackLib.obj : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/AArch64/ProcessorBind.h
 $(OUTPUT_DIR)/AArch64/ArmPlatformStackLib.obj : $(DEBUG_DIR)/AutoGen.h
-$(OUTPUT_DIR)/AArch64/ArmPlatformStackLib.obj : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Library/PcdLib.h
-$(OUTPUT_DIR)/AArch64/ArmPlatformStackLib.obj : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/AArch64/ProcessorBind.h
-$(OUTPUT_DIR)/AArch64/ArmPlatformStackLib.obj : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Base.h
-$(OUTPUT_DIR)/AArch64/ArmPlatformStackLib.obj : /home/evsio0n/src/edk2sdm/edk2/ArmPkg/Include/AsmMacroIoLibV8.h
-$(OUTPUT_DIR)/AArch64/ArmPlatformStackLib.obj : /home/evsio0n/src/edk2sdm/edk2/ArmPlatformPkg/Library/ArmPlatformStackLib/AArch64/ArmPlatformStackLib.S
-	"$(PP)" $(PP_FLAGS) $(INC) /home/evsio0n/src/edk2sdm/edk2/ArmPlatformPkg/Library/ArmPlatformStackLib/AArch64/ArmPlatformStackLib.S > /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPlatformPkg/Library/ArmPlatformStackLib/ArmPlatformStackLib/OUTPUT/AArch64/ArmPlatformStackLib.i
-	Trim --trim-long --source-code -o /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPlatformPkg/Library/ArmPlatformStackLib/ArmPlatformStackLib/OUTPUT/AArch64/ArmPlatformStackLib.iii /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPlatformPkg/Library/ArmPlatformStackLib/ArmPlatformStackLib/OUTPUT/AArch64/ArmPlatformStackLib.i
-	"$(ASM)" $(ASM_FLAGS) -o /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPlatformPkg/Library/ArmPlatformStackLib/ArmPlatformStackLib/OUTPUT/AArch64/ArmPlatformStackLib.obj $(INC) /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPlatformPkg/Library/ArmPlatformStackLib/ArmPlatformStackLib/OUTPUT/AArch64/ArmPlatformStackLib.iii
+$(OUTPUT_DIR)/AArch64/ArmPlatformStackLib.obj : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Base.h
+$(OUTPUT_DIR)/AArch64/ArmPlatformStackLib.obj : /mnt/d/TARGET/edk2sdm/edk2/ArmPlatformPkg/Library/ArmPlatformStackLib/AArch64/ArmPlatformStackLib.S
+	"$(PP)" $(PP_FLAGS) $(INC) /mnt/d/TARGET/edk2sdm/edk2/ArmPlatformPkg/Library/ArmPlatformStackLib/AArch64/ArmPlatformStackLib.S > /mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPlatformPkg/Library/ArmPlatformStackLib/ArmPlatformStackLib/OUTPUT/AArch64/ArmPlatformStackLib.i
+	Trim --trim-long --source-code -o /mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPlatformPkg/Library/ArmPlatformStackLib/ArmPlatformStackLib/OUTPUT/AArch64/ArmPlatformStackLib.iii /mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPlatformPkg/Library/ArmPlatformStackLib/ArmPlatformStackLib/OUTPUT/AArch64/ArmPlatformStackLib.i
+	"$(ASM)" $(ASM_FLAGS) -o /mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPlatformPkg/Library/ArmPlatformStackLib/ArmPlatformStackLib/OUTPUT/AArch64/ArmPlatformStackLib.obj $(INC) /mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPlatformPkg/Library/ArmPlatformStackLib/ArmPlatformStackLib/OUTPUT/AArch64/ArmPlatformStackLib.iii
 
 $(OUTPUT_DIR)/ArmPlatformStackLib.lib : $(OBJECT_FILES)
 $(OUTPUT_DIR)/ArmPlatformStackLib.lib : $(OBJECT_FILES_LIST)
-	$(RM) /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPlatformPkg/Library/ArmPlatformStackLib/ArmPlatformStackLib/OUTPUT/ArmPlatformStackLib.lib
-	"$(SLINK)" cr /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPlatformPkg/Library/ArmPlatformStackLib/ArmPlatformStackLib/OUTPUT/ArmPlatformStackLib.lib $(SLINK_FLAGS) @$(OBJECT_FILES_LIST)
+	$(RM) /mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPlatformPkg/Library/ArmPlatformStackLib/ArmPlatformStackLib/OUTPUT/ArmPlatformStackLib.lib
+	"$(SLINK)" cr /mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPlatformPkg/Library/ArmPlatformStackLib/ArmPlatformStackLib/OUTPUT/ArmPlatformStackLib.lib $(SLINK_FLAGS) @$(OBJECT_FILES_LIST)
 
 
 

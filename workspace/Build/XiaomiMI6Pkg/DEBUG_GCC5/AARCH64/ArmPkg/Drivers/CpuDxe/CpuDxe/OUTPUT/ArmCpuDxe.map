@@ -1,546 +1,546 @@
-由于文件 (符号) 而包含了归档成员
+Archive member included to satisfy reference by file (symbol)
 
-/home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/CompilerIntrinsicsLib/CompilerIntrinsicsLib/OUTPUT/CompilerIntrinsicsLib.lib(memcpy.obj)
-                              /home/evsio0n/src/edk2sdm/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a (memcpy)
-/home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/CompilerIntrinsicsLib/CompilerIntrinsicsLib/OUTPUT/CompilerIntrinsicsLib.lib(memset.obj)
-                              /home/evsio0n/src/edk2sdm/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a (memset)
-/home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/UefiDriverEntryPoint/UefiDriverEntryPoint/OUTPUT/UefiDriverEntryPoint.lib(DriverEntryPoint.obj)
+/mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/CompilerIntrinsicsLib/CompilerIntrinsicsLib/OUTPUT/CompilerIntrinsicsLib.lib(memcpy.obj)
+                              /mnt/d/TARGET/edk2sdm/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a (memcpy)
+/mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/CompilerIntrinsicsLib/CompilerIntrinsicsLib/OUTPUT/CompilerIntrinsicsLib.lib(memset.obj)
+                              /mnt/d/TARGET/edk2sdm/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a (memset)
+/mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/UefiDriverEntryPoint/UefiDriverEntryPoint/OUTPUT/UefiDriverEntryPoint.lib(DriverEntryPoint.obj)
                               (_ModuleEntryPoint)
-/home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseStackCheckLib/BaseStackCheckLib/OUTPUT/BaseStackCheckLib.lib(BaseStackCheckGcc.obj)
-                              /home/evsio0n/src/edk2sdm/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a (__stack_chk_fail)
-/home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Drivers/CpuDxe/CpuDxe/OUTPUT/ArmCpuDxe.lib(AutoGen.obj)
+/mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseStackCheckLib/BaseStackCheckLib/OUTPUT/BaseStackCheckLib.lib(BaseStackCheckGcc.obj)
+                              /mnt/d/TARGET/edk2sdm/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a (__stack_chk_fail)
+/mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Drivers/CpuDxe/CpuDxe/OUTPUT/ArmCpuDxe.lib(AutoGen.obj)
                               DriverEntryPoint.obj (symbol from plugin) (ProcessLibraryConstructorList)
-/home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Drivers/CpuDxe/CpuDxe/OUTPUT/ArmCpuDxe.lib(CpuDxe.obj)
+/mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Drivers/CpuDxe/CpuDxe/OUTPUT/ArmCpuDxe.lib(CpuDxe.obj)
                               AutoGen.obj (symbol from plugin) (CpuDxeInitialize)
-/home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Drivers/CpuDxe/CpuDxe/OUTPUT/ArmCpuDxe.lib(CpuMpCore.obj)
+/mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Drivers/CpuDxe/CpuDxe/OUTPUT/ArmCpuDxe.lib(CpuMpCore.obj)
                               CpuDxe.obj (symbol from plugin) (PublishArmProcessorTable)
-/home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Drivers/CpuDxe/CpuDxe/OUTPUT/ArmCpuDxe.lib(CpuMmuCommon.obj)
+/mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Drivers/CpuDxe/CpuDxe/OUTPUT/ArmCpuDxe.lib(CpuMmuCommon.obj)
                               CpuDxe.obj (symbol from plugin) (CpuSetMemoryAttributes)
-/home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Drivers/CpuDxe/CpuDxe/OUTPUT/ArmCpuDxe.lib(Exception.obj)
+/mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Drivers/CpuDxe/CpuDxe/OUTPUT/ArmCpuDxe.lib(Exception.obj)
                               CpuDxe.obj (symbol from plugin) (InitializeExceptions)
-/home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Drivers/CpuDxe/CpuDxe/OUTPUT/ArmCpuDxe.lib(Mmu.obj)
+/mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Drivers/CpuDxe/CpuDxe/OUTPUT/ArmCpuDxe.lib(Mmu.obj)
                               CpuDxe.obj (symbol from plugin) (SyncCacheConfig)
-/home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(CpuDeadLoop.obj)
+/mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(CpuDeadLoop.obj)
                               BaseStackCheckGcc.obj (symbol from plugin) (CpuDeadLoop)
-/home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(CpuBreakpoint.obj)
+/mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(CpuBreakpoint.obj)
                               BaseStackCheckGcc.obj (symbol from plugin) (CpuBreakpoint)
-/home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(MemLibGuid.obj)
+/mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(MemLibGuid.obj)
                               CpuMpCore.obj (symbol from plugin) (CompareGuid)
-/home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(CopyMemWrapper.obj)
+/mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(CopyMemWrapper.obj)
                               CpuMpCore.obj (symbol from plugin) (CopyMem)
-/home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(CopyMem.obj)
+/mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(CopyMem.obj)
                               MemLibGuid.obj (symbol from plugin) (InternalMemCopyMem)
-/home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(CompareGuid.obj)
+/mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(CompareGuid.obj)
                               MemLibGuid.obj (symbol from plugin) (InternalMemCompareGuid)
-/home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(ArmLib.obj)
+/mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(ArmLib.obj)
                               CpuDxe.obj (symbol from plugin) (ArmCacheWritebackGranule)
-/home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(ArmLibSupport.obj)
+/mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(ArmLibSupport.obj)
                               ArmLib.obj (symbol from plugin) (ArmCacheInfo)
-/home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(ArmLibSupportV8.obj)
+/mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(ArmLibSupportV8.obj)
                               CpuDxe.obj (symbol from plugin) (ArmIsMpCore)
-/home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(AArch64Support.obj)
+/mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(AArch64Support.obj)
                               Mmu.obj (symbol from plugin) (ArmMmuEnabled)
-/home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmCacheMaintenanceLib/ArmCacheMaintenanceLib/OUTPUT/ArmCacheMaintenanceLib.lib(ArmCacheMaintenanceLib.obj)
+/mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmCacheMaintenanceLib/ArmCacheMaintenanceLib/OUTPUT/ArmCacheMaintenanceLib.lib(ArmCacheMaintenanceLib.obj)
                               CpuDxe.obj (symbol from plugin) (WriteBackInvalidateDataCacheRange)
-/home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseDebugLibSerialPort/BaseDebugLibSerialPort/OUTPUT/BaseDebugLibSerialPort.lib(DebugLib.obj)
+/mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseDebugLibSerialPort/BaseDebugLibSerialPort/OUTPUT/BaseDebugLibSerialPort.lib(DebugLib.obj)
                               AutoGen.obj (symbol from plugin) (BaseDebugLibSerialPortConstructor)
-/home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/UefiBootServicesTableLib/UefiBootServicesTableLib/OUTPUT/UefiBootServicesTableLib.lib(UefiBootServicesTableLib.obj)
+/mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/UefiBootServicesTableLib/UefiBootServicesTableLib/OUTPUT/UefiBootServicesTableLib.lib(UefiBootServicesTableLib.obj)
                               AutoGen.obj (symbol from plugin) (UefiBootServicesTableLibConstructor)
-/home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/UefiMemoryAllocationLib/UefiMemoryAllocationLib/OUTPUT/UefiMemoryAllocationLib.lib(MemoryAllocationLib.obj)
+/mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/UefiMemoryAllocationLib/UefiMemoryAllocationLib/OUTPUT/UefiMemoryAllocationLib.lib(MemoryAllocationLib.obj)
                               CpuMpCore.obj (symbol from plugin) (AllocateRuntimePool)
-/home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/UefiRuntimeServicesTableLib/UefiRuntimeServicesTableLib/OUTPUT/UefiRuntimeServicesTableLib.lib(UefiRuntimeServicesTableLib.obj)
+/mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/UefiRuntimeServicesTableLib/UefiRuntimeServicesTableLib/OUTPUT/UefiRuntimeServicesTableLib.lib(UefiRuntimeServicesTableLib.obj)
                               AutoGen.obj (symbol from plugin) (UefiRuntimeServicesTableLibConstructor)
-/home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/UefiLib/UefiLib/OUTPUT/UefiLib.lib(UefiLib.obj)
+/mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/UefiLib/UefiLib/OUTPUT/UefiLib.lib(UefiLib.obj)
                               AutoGen.obj (symbol from plugin) (UefiLibConstructor)
-/home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/DxeHobLib/DxeHobLib/OUTPUT/DxeHobLib.lib(HobLib.obj)
+/mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/DxeHobLib/DxeHobLib/OUTPUT/DxeHobLib.lib(HobLib.obj)
                               CpuMpCore.obj (symbol from plugin) (GetHobList)
-/home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmMmuLib/ArmMmuBaseLib/OUTPUT/ArmMmuBaseLib.lib(ArmMmuLibCore.obj)
+/mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmMmuLib/ArmMmuBaseLib/OUTPUT/ArmMmuBaseLib.lib(ArmMmuLibCore.obj)
                               Mmu.obj (symbol from plugin) (PageAttributeToGcdAttribute)
-/home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmMmuLib/ArmMmuBaseLib/OUTPUT/ArmMmuBaseLib.lib(ArmMmuLibReplaceEntry.obj)
+/mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmMmuLib/ArmMmuBaseLib/OUTPUT/ArmMmuBaseLib.lib(ArmMmuLibReplaceEntry.obj)
                               ArmMmuLibCore.obj (symbol from plugin) (ArmReplaceLiveTranslationEntry)
-/home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseCpuLib/BaseCpuLib/OUTPUT/BaseCpuLib.lib(CpuSleep.obj)
+/mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseCpuLib/BaseCpuLib/OUTPUT/BaseCpuLib.lib(CpuSleep.obj)
                               CpuDxe.obj (symbol from plugin) (CpuSleep)
-/home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmExceptionLib/ArmExceptionLib/OUTPUT/ArmExceptionLib.lib(ArmExceptionLib.obj)
+/mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmExceptionLib/ArmExceptionLib/OUTPUT/ArmExceptionLib.lib(ArmExceptionLib.obj)
                               Exception.obj (symbol from plugin) (InitializeCpuExceptionHandlers)
-/home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmExceptionLib/ArmExceptionLib/OUTPUT/ArmExceptionLib.lib(AArch64Exception.obj)
+/mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmExceptionLib/ArmExceptionLib/OUTPUT/ArmExceptionLib.lib(AArch64Exception.obj)
                               ArmExceptionLib.obj (symbol from plugin) (ArchVectorConfig)
-/home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmExceptionLib/ArmExceptionLib/OUTPUT/ArmExceptionLib.lib(ExceptionSupport.obj)
+/mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmExceptionLib/ArmExceptionLib/OUTPUT/ArmExceptionLib.lib(ExceptionSupport.obj)
                               AArch64Exception.obj (symbol from plugin) (RegisterEl0Stack)
-/home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/DxeServicesTableLib/DxeServicesTableLib/OUTPUT/DxeServicesTableLib.lib(DxeServicesTableLib.obj)
+/mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/DxeServicesTableLib/DxeServicesTableLib/OUTPUT/DxeServicesTableLib.lib(DxeServicesTableLib.obj)
                               AutoGen.obj (symbol from plugin) (DxeServicesTableLibConstructor)
-/home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(LShiftU64.obj)
+/mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(LShiftU64.obj)
                               ArmMmuLibCore.obj (symbol from plugin) (LShiftU64)
-/home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(LowBitSet64.obj)
+/mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(LowBitSet64.obj)
                               ArmMmuLibCore.obj (symbol from plugin) (LowBitSet64)
-/home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(String.obj)
+/mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(String.obj)
                               UefiLib.obj (symbol from plugin) (StrSize)
-/home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(Unaligned.obj)
+/mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(Unaligned.obj)
                               UefiLib.obj (symbol from plugin) (ReadUnaligned24)
-/home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(Math64.obj)
+/mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(Math64.obj)
                               LShiftU64.obj (symbol from plugin) (InternalMathLShiftU64)
-/home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(SwapBytes32.obj)
+/mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(SwapBytes32.obj)
                               Math64.obj (symbol from plugin) (SwapBytes32)
-/home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(SwapBytes16.obj)
+/mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(SwapBytes16.obj)
                               SwapBytes32.obj (symbol from plugin) (SwapBytes16)
-/home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(RShiftU64.obj)
+/mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(RShiftU64.obj)
                               LowBitSet64.obj (symbol from plugin) (RShiftU64)
-/home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(SafeString.obj)
+/mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(SafeString.obj)
                               String.obj (symbol from plugin) (StrDecimalToUintnS)
-/home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(MultU64x32.obj)
+/mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(MultU64x32.obj)
                               SafeString.obj (symbol from plugin) (MultU64x32)
-/home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(DivU64x32.obj)
+/mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(DivU64x32.obj)
                               SafeString.obj (symbol from plugin) (DivU64x32)
-/home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(ZeroMemWrapper.obj)
+/mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(ZeroMemWrapper.obj)
                               MemoryAllocationLib.obj (symbol from plugin) (ZeroMem)
-/home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(SetMemWrapper.obj)
+/mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(SetMemWrapper.obj)
                               DebugLib.obj (symbol from plugin) (SetMem)
-/home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(SetMem.obj)
+/mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(SetMem.obj)
                               ZeroMemWrapper.obj (symbol from plugin) (InternalMemZeroMem)
-/home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(SetMem64Wrapper.obj)
+/mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(SetMem64Wrapper.obj)
                               SetMemWrapper.obj (symbol from plugin) (SetMem64)
-/home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(AArch64Lib.obj)
+/mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(AArch64Lib.obj)
                               ArmMmuLibCore.obj (symbol from plugin) (ArmCleanInvalidateDataCache)
-/home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseDebugPrintErrorLevelLib/BaseDebugPrintErrorLevelLib/OUTPUT/BaseDebugPrintErrorLevelLib.lib(BaseDebugPrintErrorLevelLib.obj)
+/mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseDebugPrintErrorLevelLib/BaseDebugPrintErrorLevelLib/OUTPUT/BaseDebugPrintErrorLevelLib.lib(BaseDebugPrintErrorLevelLib.obj)
                               DebugLib.obj (symbol from plugin) (GetDebugPrintErrorLevel)
-/home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/XiaomiMI6Pkg/Library/FrameBufferSerialPortLib/FrameBufferSerialPortLib/OUTPUT/FrameBufferSerialPortLib.lib(FrameBufferSerialPortLib.obj)
+/mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/XiaomiMI6Pkg/Library/FrameBufferSerialPortLib/FrameBufferSerialPortLib/OUTPUT/FrameBufferSerialPortLib.lib(FrameBufferSerialPortLib.obj)
                               DebugLib.obj (symbol from plugin) (SerialPortInitialize)
-/home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/BasePrintLib/BasePrintLib/OUTPUT/BasePrintLib.lib(PrintLib.obj)
+/mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/BasePrintLib/BasePrintLib/OUTPUT/BasePrintLib.lib(PrintLib.obj)
                               DebugLib.obj (symbol from plugin) (AsciiVSPrint)
-/home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/BasePrintLib/BasePrintLib/OUTPUT/BasePrintLib.lib(PrintLibInternal.obj)
+/mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/BasePrintLib/BasePrintLib/OUTPUT/BasePrintLib.lib(PrintLibInternal.obj)
                               PrintLib.obj (symbol from plugin) (BasePrintLibConvertValueToString)
-/home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/UefiDevicePathLib/UefiDevicePathLib/OUTPUT/UefiDevicePathLib.lib(DevicePathUtilities.obj)
+/mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/UefiDevicePathLib/UefiDevicePathLib/OUTPUT/UefiDevicePathLib.lib(DevicePathUtilities.obj)
                               UefiLib.obj (symbol from plugin) (DevicePathType)
-/home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/UefiDevicePathLib/UefiDevicePathLib/OUTPUT/UefiDevicePathLib.lib(UefiDevicePathLib.obj)
+/mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/UefiDevicePathLib/UefiDevicePathLib/OUTPUT/UefiDevicePathLib.lib(UefiDevicePathLib.obj)
                               DevicePathUtilities.obj (symbol from plugin) (GetDevicePathSize)
-/home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/UefiDevicePathLib/UefiDevicePathLib/OUTPUT/UefiDevicePathLib.lib(DevicePathToText.obj)
+/mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/UefiDevicePathLib/UefiDevicePathLib/OUTPUT/UefiDevicePathLib.lib(DevicePathToText.obj)
                               UefiDevicePathLib.obj (symbol from plugin) (UefiDevicePathLibConvertDeviceNodeToText)
-/home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/UefiDevicePathLib/UefiDevicePathLib/OUTPUT/UefiDevicePathLib.lib(DevicePathFromText.obj)
+/mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/UefiDevicePathLib/UefiDevicePathLib/OUTPUT/UefiDevicePathLib.lib(DevicePathFromText.obj)
                               UefiDevicePathLib.obj (symbol from plugin) (UefiDevicePathLibConvertTextToDeviceNode)
-/home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/DefaultExceptionHandlerLib/DefaultExceptionHandlerLib/OUTPUT/DefaultExceptionHandlerLib.lib(DefaultExceptionHandler.obj)
+/mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/DefaultExceptionHandlerLib/DefaultExceptionHandlerLib/OUTPUT/DefaultExceptionHandlerLib.lib(DefaultExceptionHandler.obj)
                               ArmExceptionLib.obj (symbol from plugin) (DefaultExceptionHandler)
-/home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/DefaultExceptionHandlerLib/DefaultExceptionHandlerLib/OUTPUT/DefaultExceptionHandlerLib.lib(DefaultExceptionHandlerUefi.obj)
+/mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/DefaultExceptionHandlerLib/DefaultExceptionHandlerLib/OUTPUT/DefaultExceptionHandlerLib.lib(DefaultExceptionHandlerUefi.obj)
                               DefaultExceptionHandler.obj (symbol from plugin) (GetImageName)
-/home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(SwapBytes64.obj)
+/mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(SwapBytes64.obj)
                               DevicePathFromText.obj (symbol from plugin) (SwapBytes64)
-/home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(DivU64x32Remainder.obj)
+/mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(DivU64x32Remainder.obj)
                               PrintLibInternal.obj (symbol from plugin) (DivU64x32Remainder)
-/home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/UefiLib/UefiLib/OUTPUT/UefiLib.lib(UefiLibPrint.obj)
+/mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/UefiLib/UefiLib/OUTPUT/UefiLib.lib(UefiLibPrint.obj)
                               DefaultExceptionHandler.obj (symbol from plugin) (AsciiPrint)
-/home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/BasePeCoffGetEntryPointLib/BasePeCoffGetEntryPointLib/OUTPUT/BasePeCoffGetEntryPointLib.lib(PeCoffGetEntryPoint.obj)
+/mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/BasePeCoffGetEntryPointLib/BasePeCoffGetEntryPointLib/OUTPUT/BasePeCoffGetEntryPointLib.lib(PeCoffGetEntryPoint.obj)
                               DefaultExceptionHandlerUefi.obj (symbol from plugin) (PeCoffLoaderGetPdbPointer)
 
-舍弃的输入节
+Discarded input sections
 
- .text          0x0000000000000000       0x10 /home/evsio0n/src/edk2sdm/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
- .data          0x0000000000000000        0x0 /home/evsio0n/src/edk2sdm/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
- .bss           0x0000000000000000        0x0 /home/evsio0n/src/edk2sdm/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
- .text          0x0000000000000000        0x0 /tmp/ccUCodm9.ltrans0.ltrans.o
- .data          0x0000000000000000        0x0 /tmp/ccUCodm9.ltrans0.ltrans.o
- .bss           0x0000000000000000        0x0 /tmp/ccUCodm9.ltrans0.ltrans.o
+ .text          0x0000000000000000       0x10 /mnt/d/TARGET/edk2sdm/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
+ .data          0x0000000000000000        0x0 /mnt/d/TARGET/edk2sdm/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
+ .bss           0x0000000000000000        0x0 /mnt/d/TARGET/edk2sdm/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
+ .text          0x0000000000000000        0x0 /tmp/ccTXUTCN.ltrans0.ltrans.o
+ .data          0x0000000000000000        0x0 /tmp/ccTXUTCN.ltrans0.ltrans.o
+ .bss           0x0000000000000000        0x0 /tmp/ccTXUTCN.ltrans0.ltrans.o
  .text._DriverUnloadHandler
-                0x0000000000000000        0x8 /tmp/ccUCodm9.ltrans0.ltrans.o
+                0x0000000000000000        0x8 /tmp/ccTXUTCN.ltrans0.ltrans.o
  .text.StrnLenS
-                0x0000000000000000       0x7c /tmp/ccUCodm9.ltrans0.ltrans.o
+                0x0000000000000000       0x7c /tmp/ccTXUTCN.ltrans0.ltrans.o
  .text.__memset
-                0x0000000000000000       0x1c /tmp/ccUCodm9.ltrans0.ltrans.o
+                0x0000000000000000       0x1c /tmp/ccTXUTCN.ltrans0.ltrans.o
  .rodata.StrnLenS.str1.1
-                0x0000000000000000       0x66 /tmp/ccUCodm9.ltrans0.ltrans.o
- .comment       0x0000000000000000       0x33 /tmp/ccUCodm9.ltrans0.ltrans.o
+                0x0000000000000000       0x62 /tmp/ccTXUTCN.ltrans0.ltrans.o
+ .comment       0x0000000000000000       0x31 /tmp/ccTXUTCN.ltrans0.ltrans.o
  .note.GNU-stack
-                0x0000000000000000        0x0 /tmp/ccUCodm9.ltrans0.ltrans.o
- .text          0x0000000000000000        0x8 /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(CpuBreakpoint.obj)
- .data          0x0000000000000000        0x0 /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(CpuBreakpoint.obj)
- .bss           0x0000000000000000        0x0 /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(CpuBreakpoint.obj)
- .data          0x0000000000000000        0x0 /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(CopyMem.obj)
- .bss           0x0000000000000000        0x0 /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(CopyMem.obj)
- .data          0x0000000000000000        0x0 /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(CompareGuid.obj)
- .bss           0x0000000000000000        0x0 /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(CompareGuid.obj)
- .text          0x0000000000000000        0x0 /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(ArmLibSupport.obj)
- .data          0x0000000000000000        0x0 /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(ArmLibSupport.obj)
- .bss           0x0000000000000000        0x0 /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(ArmLibSupport.obj)
+                0x0000000000000000        0x0 /tmp/ccTXUTCN.ltrans0.ltrans.o
+ .text          0x0000000000000000        0x8 /mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(CpuBreakpoint.obj)
+ .data          0x0000000000000000        0x0 /mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(CpuBreakpoint.obj)
+ .bss           0x0000000000000000        0x0 /mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(CpuBreakpoint.obj)
+ .data          0x0000000000000000        0x0 /mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(CopyMem.obj)
+ .bss           0x0000000000000000        0x0 /mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(CopyMem.obj)
+ .data          0x0000000000000000        0x0 /mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(CompareGuid.obj)
+ .bss           0x0000000000000000        0x0 /mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(CompareGuid.obj)
+ .text          0x0000000000000000        0x0 /mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(ArmLibSupport.obj)
+ .data          0x0000000000000000        0x0 /mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(ArmLibSupport.obj)
+ .bss           0x0000000000000000        0x0 /mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(ArmLibSupport.obj)
  .text.ArmReadMidr
-                0x0000000000000000        0x8 /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(ArmLibSupport.obj)
+                0x0000000000000000        0x8 /mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(ArmLibSupport.obj)
  .text.ArmWriteCpacr
-                0x0000000000000000        0x8 /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(ArmLibSupport.obj)
+                0x0000000000000000        0x8 /mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(ArmLibSupport.obj)
  .text.ArmWriteAuxCr
-                0x0000000000000000       0x28 /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(ArmLibSupport.obj)
+                0x0000000000000000       0x28 /mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(ArmLibSupport.obj)
  .text.ArmReadAuxCr
-                0x0000000000000000       0x28 /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(ArmLibSupport.obj)
+                0x0000000000000000       0x28 /mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(ArmLibSupport.obj)
  .text.ArmSetTTBR0
-                0x0000000000000000       0x34 /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(ArmLibSupport.obj)
+                0x0000000000000000       0x34 /mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(ArmLibSupport.obj)
  .text.ArmSetTCR
-                0x0000000000000000       0x34 /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(ArmLibSupport.obj)
+                0x0000000000000000       0x34 /mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(ArmLibSupport.obj)
  .text.ArmGetMAIR
-                0x0000000000000000       0x34 /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(ArmLibSupport.obj)
+                0x0000000000000000       0x34 /mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(ArmLibSupport.obj)
  .text.ArmSetMAIR
-                0x0000000000000000       0x34 /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(ArmLibSupport.obj)
+                0x0000000000000000       0x34 /mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(ArmLibSupport.obj)
  .text.ArmInvalidateTlb
-                0x0000000000000000       0x38 /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(ArmLibSupport.obj)
+                0x0000000000000000       0x38 /mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(ArmLibSupport.obj)
  .text.ArmWriteCptr
-                0x0000000000000000        0x8 /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(ArmLibSupport.obj)
+                0x0000000000000000        0x8 /mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(ArmLibSupport.obj)
  .text.ArmWriteScr
-                0x0000000000000000        0xc /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(ArmLibSupport.obj)
+                0x0000000000000000        0xc /mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(ArmLibSupport.obj)
  .text.ArmWriteMVBar
-                0x0000000000000000        0x8 /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(ArmLibSupport.obj)
+                0x0000000000000000        0x8 /mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(ArmLibSupport.obj)
  .text.ArmCallWFE
-                0x0000000000000000        0x8 /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(ArmLibSupport.obj)
+                0x0000000000000000        0x8 /mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(ArmLibSupport.obj)
  .text.ArmCallSEV
-                0x0000000000000000        0x8 /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(ArmLibSupport.obj)
+                0x0000000000000000        0x8 /mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(ArmLibSupport.obj)
  .text.ArmReadCpuActlr
-                0x0000000000000000        0x8 /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(ArmLibSupport.obj)
+                0x0000000000000000        0x8 /mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(ArmLibSupport.obj)
  .text.ArmWriteCpuActlr
-                0x0000000000000000       0x10 /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(ArmLibSupport.obj)
+                0x0000000000000000       0x10 /mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(ArmLibSupport.obj)
  .text.ArmReadSctlr
-                0x0000000000000000       0x30 /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(ArmLibSupport.obj)
+                0x0000000000000000       0x30 /mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(ArmLibSupport.obj)
  .text.ArmWriteSctlr
-                0x0000000000000000       0x30 /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(ArmLibSupport.obj)
+                0x0000000000000000       0x30 /mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(ArmLibSupport.obj)
  .text.ArmGetPhysicalAddressBits
-                0x0000000000000000       0x24 /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(ArmLibSupport.obj)
- .text          0x0000000000000000        0x0 /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(ArmLibSupportV8.obj)
- .data          0x0000000000000000        0x0 /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(ArmLibSupportV8.obj)
- .bss           0x0000000000000000        0x0 /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(ArmLibSupportV8.obj)
+                0x0000000000000000       0x24 /mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(ArmLibSupport.obj)
+ .text          0x0000000000000000        0x0 /mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(ArmLibSupportV8.obj)
+ .data          0x0000000000000000        0x0 /mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(ArmLibSupportV8.obj)
+ .bss           0x0000000000000000        0x0 /mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(ArmLibSupportV8.obj)
  .text.ArmDisableAsynchronousAbort
-                0x0000000000000000        0xc /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(ArmLibSupportV8.obj)
+                0x0000000000000000        0xc /mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(ArmLibSupportV8.obj)
  .text.ArmEnableIrq
-                0x0000000000000000        0xc /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(ArmLibSupportV8.obj)
+                0x0000000000000000        0xc /mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(ArmLibSupportV8.obj)
  .text.ArmDisableIrq
-                0x0000000000000000        0xc /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(ArmLibSupportV8.obj)
+                0x0000000000000000        0xc /mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(ArmLibSupportV8.obj)
  .text.ArmDisableAllExceptions
-                0x0000000000000000        0xc /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(ArmLibSupportV8.obj)
+                0x0000000000000000        0xc /mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(ArmLibSupportV8.obj)
  .text.ReadCCSIDR
-                0x0000000000000000       0x10 /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(ArmLibSupportV8.obj)
+                0x0000000000000000       0x10 /mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(ArmLibSupportV8.obj)
  .text.ReadCLIDR
-                0x0000000000000000        0x8 /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(ArmLibSupportV8.obj)
- .text          0x0000000000000000        0x0 /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(AArch64Support.obj)
- .data          0x0000000000000000        0x0 /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(AArch64Support.obj)
- .bss           0x0000000000000000        0x0 /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(AArch64Support.obj)
+                0x0000000000000000        0x8 /mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(ArmLibSupportV8.obj)
+ .text          0x0000000000000000        0x0 /mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(AArch64Support.obj)
+ .data          0x0000000000000000        0x0 /mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(AArch64Support.obj)
+ .bss           0x0000000000000000        0x0 /mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(AArch64Support.obj)
  .text.ArmCleanDataCacheEntryToPoUByMVA
-                0x0000000000000000        0x8 /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(AArch64Support.obj)
+                0x0000000000000000        0x8 /mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(AArch64Support.obj)
  .text.ArmInvalidateInstructionCacheEntryToPoUByMVA
-                0x0000000000000000        0x8 /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(AArch64Support.obj)
+                0x0000000000000000        0x8 /mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(AArch64Support.obj)
  .text.ArmInvalidateDataCacheEntryBySetWay
-                0x0000000000000000        0x8 /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(AArch64Support.obj)
+                0x0000000000000000        0x8 /mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(AArch64Support.obj)
  .text.ArmCleanInvalidateDataCacheEntryBySetWay
-                0x0000000000000000        0x8 /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(AArch64Support.obj)
+                0x0000000000000000        0x8 /mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(AArch64Support.obj)
  .text.ArmCleanDataCacheEntryBySetWay
-                0x0000000000000000        0x8 /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(AArch64Support.obj)
+                0x0000000000000000        0x8 /mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(AArch64Support.obj)
  .text.ArmInvalidateInstructionCache
-                0x0000000000000000       0x10 /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(AArch64Support.obj)
+                0x0000000000000000       0x10 /mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(AArch64Support.obj)
  .text.ArmEnableMmu
-                0x0000000000000000       0x88 /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(AArch64Support.obj)
+                0x0000000000000000       0x88 /mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(AArch64Support.obj)
  .text.ArmDisableMmu
-                0x0000000000000000       0x74 /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(AArch64Support.obj)
+                0x0000000000000000       0x74 /mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(AArch64Support.obj)
  .text.ArmDisableCachesAndMmu
-                0x0000000000000000       0x6c /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(AArch64Support.obj)
+                0x0000000000000000       0x6c /mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(AArch64Support.obj)
  .text.ArmEnableDataCache
-                0x0000000000000000       0x68 /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(AArch64Support.obj)
+                0x0000000000000000       0x68 /mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(AArch64Support.obj)
  .text.ArmDisableDataCache
-                0x0000000000000000       0x68 /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(AArch64Support.obj)
+                0x0000000000000000       0x68 /mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(AArch64Support.obj)
  .text.ArmEnableInstructionCache
-                0x0000000000000000       0x68 /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(AArch64Support.obj)
+                0x0000000000000000       0x68 /mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(AArch64Support.obj)
  .text.ArmDisableInstructionCache
-                0x0000000000000000       0x68 /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(AArch64Support.obj)
+                0x0000000000000000       0x68 /mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(AArch64Support.obj)
  .text.ArmEnableAlignmentCheck
-                0x0000000000000000       0x58 /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(AArch64Support.obj)
+                0x0000000000000000       0x58 /mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(AArch64Support.obj)
  .text.ArmDisableAlignmentCheck
-                0x0000000000000000       0x68 /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(AArch64Support.obj)
+                0x0000000000000000       0x68 /mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(AArch64Support.obj)
  .text.ArmEnableStackAlignmentCheck
-                0x0000000000000000       0x58 /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(AArch64Support.obj)
+                0x0000000000000000       0x58 /mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(AArch64Support.obj)
  .text.ArmDisableStackAlignmentCheck
-                0x0000000000000000       0x68 /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(AArch64Support.obj)
+                0x0000000000000000       0x68 /mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(AArch64Support.obj)
  .text.ArmEnableBranchPrediction
-                0x0000000000000000        0x4 /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(AArch64Support.obj)
+                0x0000000000000000        0x4 /mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(AArch64Support.obj)
  .text.ArmDisableBranchPrediction
-                0x0000000000000000        0x4 /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(AArch64Support.obj)
+                0x0000000000000000        0x4 /mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(AArch64Support.obj)
  .text.AArch64AllDataCachesOperation
-                0x0000000000000000       0xa8 /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(AArch64Support.obj)
+                0x0000000000000000       0xa8 /mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(AArch64Support.obj)
  .text.ArmDataMemoryBarrier
-                0x0000000000000000        0x8 /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(AArch64Support.obj)
+                0x0000000000000000        0x8 /mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(AArch64Support.obj)
  .text.ArmInstructionSynchronizationBarrier
-                0x0000000000000000        0x8 /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(AArch64Support.obj)
+                0x0000000000000000        0x8 /mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(AArch64Support.obj)
  .text.ArmReadVBar
-                0x0000000000000000       0x30 /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(AArch64Support.obj)
+                0x0000000000000000       0x30 /mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(AArch64Support.obj)
  .text.ArmEnableVFP
-                0x0000000000000000       0x64 /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(AArch64Support.obj)
+                0x0000000000000000       0x64 /mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(AArch64Support.obj)
  .text.ArmCallWFI
-                0x0000000000000000        0x8 /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(AArch64Support.obj)
+                0x0000000000000000        0x8 /mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(AArch64Support.obj)
  .text.ArmReadMpidr
-                0x0000000000000000        0x8 /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(AArch64Support.obj)
+                0x0000000000000000        0x8 /mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(AArch64Support.obj)
  .text.ArmReadTpidrurw
-                0x0000000000000000        0x8 /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(AArch64Support.obj)
+                0x0000000000000000        0x8 /mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(AArch64Support.obj)
  .text.ArmWriteTpidrurw
-                0x0000000000000000        0x8 /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(AArch64Support.obj)
+                0x0000000000000000        0x8 /mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(AArch64Support.obj)
  .text.ArmIsArchTimerImplemented
-                0x0000000000000000        0x8 /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(AArch64Support.obj)
+                0x0000000000000000        0x8 /mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(AArch64Support.obj)
  .text.ArmReadIdPfr0
-                0x0000000000000000        0x8 /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(AArch64Support.obj)
+                0x0000000000000000        0x8 /mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(AArch64Support.obj)
  .text.ArmReadIdPfr1
-                0x0000000000000000        0x8 /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(AArch64Support.obj)
+                0x0000000000000000        0x8 /mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(AArch64Support.obj)
  .text.ArmReadCntHctl
-                0x0000000000000000        0x8 /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(AArch64Support.obj)
+                0x0000000000000000        0x8 /mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(AArch64Support.obj)
  .text.ArmWriteCntHctl
-                0x0000000000000000        0x8 /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(AArch64Support.obj)
- .text          0x0000000000000000        0x0 /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmMmuLib/ArmMmuBaseLib/OUTPUT/ArmMmuBaseLib.lib(ArmMmuLibReplaceEntry.obj)
- .data          0x0000000000000000        0x0 /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmMmuLib/ArmMmuBaseLib/OUTPUT/ArmMmuBaseLib.lib(ArmMmuLibReplaceEntry.obj)
- .bss           0x0000000000000000        0x0 /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmMmuLib/ArmMmuBaseLib/OUTPUT/ArmMmuBaseLib.lib(ArmMmuLibReplaceEntry.obj)
- .data          0x0000000000000000        0x0 /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseCpuLib/BaseCpuLib/OUTPUT/BaseCpuLib.lib(CpuSleep.obj)
- .bss           0x0000000000000000        0x0 /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseCpuLib/BaseCpuLib/OUTPUT/BaseCpuLib.lib(CpuSleep.obj)
- .data          0x0000000000000000        0x0 /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmExceptionLib/ArmExceptionLib/OUTPUT/ArmExceptionLib.lib(ExceptionSupport.obj)
- .bss           0x0000000000000000        0x0 /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmExceptionLib/ArmExceptionLib/OUTPUT/ArmExceptionLib.lib(ExceptionSupport.obj)
- .data          0x0000000000000000        0x0 /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(SetMem.obj)
- .bss           0x0000000000000000        0x0 /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(SetMem.obj)
+                0x0000000000000000        0x8 /mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(AArch64Support.obj)
+ .text          0x0000000000000000        0x0 /mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmMmuLib/ArmMmuBaseLib/OUTPUT/ArmMmuBaseLib.lib(ArmMmuLibReplaceEntry.obj)
+ .data          0x0000000000000000        0x0 /mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmMmuLib/ArmMmuBaseLib/OUTPUT/ArmMmuBaseLib.lib(ArmMmuLibReplaceEntry.obj)
+ .bss           0x0000000000000000        0x0 /mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmMmuLib/ArmMmuBaseLib/OUTPUT/ArmMmuBaseLib.lib(ArmMmuLibReplaceEntry.obj)
+ .data          0x0000000000000000        0x0 /mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseCpuLib/BaseCpuLib/OUTPUT/BaseCpuLib.lib(CpuSleep.obj)
+ .bss           0x0000000000000000        0x0 /mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseCpuLib/BaseCpuLib/OUTPUT/BaseCpuLib.lib(CpuSleep.obj)
+ .data          0x0000000000000000        0x0 /mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmExceptionLib/ArmExceptionLib/OUTPUT/ArmExceptionLib.lib(ExceptionSupport.obj)
+ .bss           0x0000000000000000        0x0 /mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmExceptionLib/ArmExceptionLib/OUTPUT/ArmExceptionLib.lib(ExceptionSupport.obj)
+ .data          0x0000000000000000        0x0 /mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(SetMem.obj)
+ .bss           0x0000000000000000        0x0 /mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(SetMem.obj)
 
-内存配置
+Memory Configuration
 
-名称           来源             长度             属性
+Name             Origin             Length             Attributes
 *default*        0x0000000000000000 0xffffffffffffffff
 
-链结器命令稿和内存映射
+Linker script and memory map
 
-LOAD /home/evsio0n/src/edk2sdm/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
-LOAD /tmp/ccUCodm9.ltrans0.ltrans.o
+LOAD /mnt/d/TARGET/edk2sdm/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
+LOAD /tmp/ccTXUTCN.ltrans0.ltrans.o
 START GROUP
-LOAD /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/DxePcdLib/DxePcdLib/OUTPUT/DxePcdLib.lib
-LOAD /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib
-LOAD /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib
-LOAD /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib
-LOAD /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseIoLibIntrinsic/BaseIoLibIntrinsic/OUTPUT/BaseIoLibIntrinsic.lib
-LOAD /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/CompilerIntrinsicsLib/CompilerIntrinsicsLib/OUTPUT/CompilerIntrinsicsLib.lib
-LOAD /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmCacheMaintenanceLib/ArmCacheMaintenanceLib/OUTPUT/ArmCacheMaintenanceLib.lib
-LOAD /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseDebugPrintErrorLevelLib/BaseDebugPrintErrorLevelLib/OUTPUT/BaseDebugPrintErrorLevelLib.lib
-LOAD /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/XiaomiMI6Pkg/Library/FrameBufferSerialPortLib/FrameBufferSerialPortLib/OUTPUT/FrameBufferSerialPortLib.lib
-LOAD /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/BasePrintLib/BasePrintLib/OUTPUT/BasePrintLib.lib
-LOAD /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseDebugLibSerialPort/BaseDebugLibSerialPort/OUTPUT/BaseDebugLibSerialPort.lib
-LOAD /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/UefiBootServicesTableLib/UefiBootServicesTableLib/OUTPUT/UefiBootServicesTableLib.lib
-LOAD /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/UefiMemoryAllocationLib/UefiMemoryAllocationLib/OUTPUT/UefiMemoryAllocationLib.lib
-LOAD /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/UefiRuntimeServicesTableLib/UefiRuntimeServicesTableLib/OUTPUT/UefiRuntimeServicesTableLib.lib
-LOAD /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/UefiDevicePathLib/UefiDevicePathLib/OUTPUT/UefiDevicePathLib.lib
-LOAD /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/UefiLib/UefiLib/OUTPUT/UefiLib.lib
-LOAD /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/DxeHobLib/DxeHobLib/OUTPUT/DxeHobLib.lib
-LOAD /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/BasePeCoffGetEntryPointLib/BasePeCoffGetEntryPointLib/OUTPUT/BasePeCoffGetEntryPointLib.lib
-LOAD /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmDisassemblerLib/ArmDisassemblerLib/OUTPUT/ArmDisassemblerLib.lib
-LOAD /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/DefaultExceptionHandlerLib/DefaultExceptionHandlerLib/OUTPUT/DefaultExceptionHandlerLib.lib
-LOAD /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmMmuLib/ArmMmuBaseLib/OUTPUT/ArmMmuBaseLib.lib
-LOAD /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseCpuLib/BaseCpuLib/OUTPUT/BaseCpuLib.lib
-LOAD /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmExceptionLib/ArmExceptionLib/OUTPUT/ArmExceptionLib.lib
-LOAD /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/DxeServicesTableLib/DxeServicesTableLib/OUTPUT/DxeServicesTableLib.lib
-LOAD /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/UefiDriverEntryPoint/UefiDriverEntryPoint/OUTPUT/UefiDriverEntryPoint.lib
-LOAD /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseStackCheckLib/BaseStackCheckLib/OUTPUT/BaseStackCheckLib.lib
-LOAD /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Drivers/CpuDxe/CpuDxe/OUTPUT/ArmCpuDxe.lib
+LOAD /mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/DxePcdLib/DxePcdLib/OUTPUT/DxePcdLib.lib
+LOAD /mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib
+LOAD /mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib
+LOAD /mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib
+LOAD /mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseIoLibIntrinsic/BaseIoLibIntrinsic/OUTPUT/BaseIoLibIntrinsic.lib
+LOAD /mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/CompilerIntrinsicsLib/CompilerIntrinsicsLib/OUTPUT/CompilerIntrinsicsLib.lib
+LOAD /mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmCacheMaintenanceLib/ArmCacheMaintenanceLib/OUTPUT/ArmCacheMaintenanceLib.lib
+LOAD /mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseDebugPrintErrorLevelLib/BaseDebugPrintErrorLevelLib/OUTPUT/BaseDebugPrintErrorLevelLib.lib
+LOAD /mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/XiaomiMI6Pkg/Library/FrameBufferSerialPortLib/FrameBufferSerialPortLib/OUTPUT/FrameBufferSerialPortLib.lib
+LOAD /mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/BasePrintLib/BasePrintLib/OUTPUT/BasePrintLib.lib
+LOAD /mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseDebugLibSerialPort/BaseDebugLibSerialPort/OUTPUT/BaseDebugLibSerialPort.lib
+LOAD /mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/UefiBootServicesTableLib/UefiBootServicesTableLib/OUTPUT/UefiBootServicesTableLib.lib
+LOAD /mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/UefiMemoryAllocationLib/UefiMemoryAllocationLib/OUTPUT/UefiMemoryAllocationLib.lib
+LOAD /mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/UefiRuntimeServicesTableLib/UefiRuntimeServicesTableLib/OUTPUT/UefiRuntimeServicesTableLib.lib
+LOAD /mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/UefiDevicePathLib/UefiDevicePathLib/OUTPUT/UefiDevicePathLib.lib
+LOAD /mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/UefiLib/UefiLib/OUTPUT/UefiLib.lib
+LOAD /mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/DxeHobLib/DxeHobLib/OUTPUT/DxeHobLib.lib
+LOAD /mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/BasePeCoffGetEntryPointLib/BasePeCoffGetEntryPointLib/OUTPUT/BasePeCoffGetEntryPointLib.lib
+LOAD /mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmDisassemblerLib/ArmDisassemblerLib/OUTPUT/ArmDisassemblerLib.lib
+LOAD /mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/DefaultExceptionHandlerLib/DefaultExceptionHandlerLib/OUTPUT/DefaultExceptionHandlerLib.lib
+LOAD /mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmMmuLib/ArmMmuBaseLib/OUTPUT/ArmMmuBaseLib.lib
+LOAD /mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseCpuLib/BaseCpuLib/OUTPUT/BaseCpuLib.lib
+LOAD /mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmExceptionLib/ArmExceptionLib/OUTPUT/ArmExceptionLib.lib
+LOAD /mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/DxeServicesTableLib/DxeServicesTableLib/OUTPUT/DxeServicesTableLib.lib
+LOAD /mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/UefiDriverEntryPoint/UefiDriverEntryPoint/OUTPUT/UefiDriverEntryPoint.lib
+LOAD /mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseStackCheckLib/BaseStackCheckLib/OUTPUT/BaseStackCheckLib.lib
+LOAD /mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Drivers/CpuDxe/CpuDxe/OUTPUT/ArmCpuDxe.lib
 END GROUP
                 0x0000000000000228                . = PECOFF_HEADER_SIZE
 
 .gnu.version_d  0x0000000000000228        0x0
  .gnu.version_d
-                0x0000000000000228        0x0 /home/evsio0n/src/edk2sdm/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
+                0x0000000000000228        0x0 /mnt/d/TARGET/edk2sdm/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
 
 .gnu.version    0x0000000000000228        0x0
- .gnu.version   0x0000000000000228        0x0 /home/evsio0n/src/edk2sdm/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
+ .gnu.version   0x0000000000000228        0x0 /mnt/d/TARGET/edk2sdm/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
 
 .gnu.version_r  0x0000000000000228        0x0
  .gnu.version_r
-                0x0000000000000228        0x0 /home/evsio0n/src/edk2sdm/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
+                0x0000000000000228        0x0 /mnt/d/TARGET/edk2sdm/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
 
-.text           0x0000000000001000     0x70c0
+.text           0x0000000000001000     0x7068
  *(.text .text.* .stub .gnu.linkonce.t.*)
  .text.InternalAllocatePages.constprop.12
-                0x0000000000001000       0x6c /tmp/ccUCodm9.ltrans0.ltrans.o
+                0x0000000000001000       0x6c /tmp/ccTXUTCN.ltrans0.ltrans.o
  .text.DebugPrintLevelEnabled
-                0x000000000000106c        0x8 /tmp/ccUCodm9.ltrans0.ltrans.o
+                0x000000000000106c        0x8 /tmp/ccTXUTCN.ltrans0.ltrans.o
  .text.BasePrintLibFillBuffer
-                0x0000000000001074       0x34 /tmp/ccUCodm9.ltrans0.ltrans.o
+                0x0000000000001074       0x34 /tmp/ccTXUTCN.ltrans0.ltrans.o
  .text.AsciiStrnLenS
-                0x00000000000010a8       0x3c /tmp/ccUCodm9.ltrans0.ltrans.o
+                0x00000000000010a8       0x3c /tmp/ccTXUTCN.ltrans0.ltrans.o
  .text.RegisterCpuInterruptHandler
-                0x00000000000010e4       0x40 /tmp/ccUCodm9.ltrans0.ltrans.o
+                0x00000000000010e4       0x40 /tmp/ccTXUTCN.ltrans0.ltrans.o
  .text.GetRootTranslationTableInfo
-                0x0000000000001124       0x2c /tmp/ccUCodm9.ltrans0.ltrans.o
+                0x0000000000001124       0x2c /tmp/ccTXUTCN.ltrans0.ltrans.o
  .text.InternalAllocatePool
-                0x0000000000001150       0x64 /tmp/ccUCodm9.ltrans0.ltrans.o
+                0x0000000000001150       0x64 /tmp/ccTXUTCN.ltrans0.ltrans.o
  .text.DebugCodeEnabled
-                0x00000000000011b4        0x8 /tmp/ccUCodm9.ltrans0.ltrans.o
+                0x00000000000011b4        0x8 /tmp/ccTXUTCN.ltrans0.ltrans.o
  .text.DebugPrintEnabled
-                0x00000000000011bc        0x8 /tmp/ccUCodm9.ltrans0.ltrans.o
+                0x00000000000011bc        0x8 /tmp/ccTXUTCN.ltrans0.ltrans.o
  .text.DebugAssertEnabled
-                0x00000000000011c4        0x8 /tmp/ccUCodm9.ltrans0.ltrans.o
+                0x00000000000011c4        0x8 /tmp/ccTXUTCN.ltrans0.ltrans.o
  .text.CpuDeadLoop
-                0x00000000000011cc       0x18 /tmp/ccUCodm9.ltrans0.ltrans.o
+                0x00000000000011cc       0x18 /tmp/ccTXUTCN.ltrans0.ltrans.o
  .text.GetMemoryRegionRec
-                0x00000000000011e4      0x114 /tmp/ccUCodm9.ltrans0.ltrans.o
+                0x00000000000011e4      0x114 /tmp/ccTXUTCN.ltrans0.ltrans.o
  .text.CpuGetTimerValue
-                0x00000000000012f8        0x8 /tmp/ccUCodm9.ltrans0.ltrans.o
+                0x00000000000012f8        0x8 /tmp/ccTXUTCN.ltrans0.ltrans.o
  .text.CpuRegisterInterruptHandler
-                0x0000000000001300        0xc /tmp/ccUCodm9.ltrans0.ltrans.o
- .text.CpuInit  0x000000000000130c        0x8 /tmp/ccUCodm9.ltrans0.ltrans.o
+                0x0000000000001300        0xc /tmp/ccTXUTCN.ltrans0.ltrans.o
+ .text.CpuInit  0x000000000000130c        0x8 /tmp/ccTXUTCN.ltrans0.ltrans.o
  .text.CpuEnableInterrupt
-                0x0000000000001314       0x18 /tmp/ccUCodm9.ltrans0.ltrans.o
+                0x0000000000001314       0x18 /tmp/ccTXUTCN.ltrans0.ltrans.o
  .text.CpuDisableInterrupt
-                0x000000000000132c       0x18 /tmp/ccUCodm9.ltrans0.ltrans.o
+                0x000000000000132c       0x18 /tmp/ccTXUTCN.ltrans0.ltrans.o
  .text.BaseDebugLibSerialPortConstructor
-                0x0000000000001344       0x84 /tmp/ccUCodm9.ltrans0.ltrans.o
+                0x0000000000001344       0x84 /tmp/ccTXUTCN.ltrans0.ltrans.o
  .text.CpuGetInterruptState
-                0x00000000000013c8       0x38 /tmp/ccUCodm9.ltrans0.ltrans.o
+                0x00000000000013c8       0x38 /tmp/ccTXUTCN.ltrans0.ltrans.o
  .text.LowBitSet64
-                0x0000000000001400       0x28 /tmp/ccUCodm9.ltrans0.ltrans.o
+                0x0000000000001400       0x28 /tmp/ccTXUTCN.ltrans0.ltrans.o
  .text.ArmCacheWritebackGranule
-                0x0000000000001428       0x30 /tmp/ccUCodm9.ltrans0.ltrans.o
+                0x0000000000001428       0x30 /tmp/ccTXUTCN.ltrans0.ltrans.o
  .text.ArmDataCacheLineLength
-                0x0000000000001458       0x24 /tmp/ccUCodm9.ltrans0.ltrans.o
+                0x0000000000001458       0x24 /tmp/ccTXUTCN.ltrans0.ltrans.o
  .text.InvalidateDataCacheRange
-                0x000000000000147c       0x5c /tmp/ccUCodm9.ltrans0.ltrans.o
+                0x000000000000147c       0x5c /tmp/ccTXUTCN.ltrans0.ltrans.o
  .text.WriteBackDataCacheRange
-                0x00000000000014d8       0x5c /tmp/ccUCodm9.ltrans0.ltrans.o
+                0x00000000000014d8       0x5c /tmp/ccTXUTCN.ltrans0.ltrans.o
  .text.ArmMmuBaseLibConstructor
-                0x0000000000001534       0x28 /tmp/ccUCodm9.ltrans0.ltrans.o
+                0x0000000000001534       0x28 /tmp/ccTXUTCN.ltrans0.ltrans.o
  .text.WriteBackInvalidateDataCacheRange
-                0x000000000000155c       0x5c /tmp/ccUCodm9.ltrans0.ltrans.o
+                0x000000000000155c       0x5c /tmp/ccTXUTCN.ltrans0.ltrans.o
  .text.FbConFlush
-                0x00000000000015b8       0x10 /tmp/ccUCodm9.ltrans0.ltrans.o
+                0x00000000000015b8       0x10 /tmp/ccTXUTCN.ltrans0.ltrans.o
  .text.SerialPortWrite
-                0x00000000000015c8      0x418 /tmp/ccUCodm9.ltrans0.ltrans.o
+                0x00000000000015c8      0x418 /tmp/ccTXUTCN.ltrans0.ltrans.o
  .text.DebugAssert
-                0x00000000000019e0       0x7c /tmp/ccUCodm9.ltrans0.ltrans.o
+                0x00000000000019e0       0x7c /tmp/ccTXUTCN.ltrans0.ltrans.o
  .text.InitializeCpuExceptionHandlers.constprop.10
-                0x0000000000001a5c       0x84 /tmp/ccUCodm9.ltrans0.ltrans.o
+                0x0000000000001a5c       0x84 /tmp/ccTXUTCN.ltrans0.ltrans.o
  .text.unlikely.ReadUnaligned16
-                0x0000000000001ae0       0x68 /tmp/ccUCodm9.ltrans0.ltrans.o
+                0x0000000000001ae0       0x68 /tmp/ccTXUTCN.ltrans0.ltrans.o
  .text.BasePrintLibSPrintMarker.constprop.17
-                0x0000000000001b48      0xd80 /tmp/ccUCodm9.ltrans0.ltrans.o
+                0x0000000000001b48      0xd80 /tmp/ccTXUTCN.ltrans0.ltrans.o
  .text.unlikely.BasePrintLibSPrint.constprop.18
-                0x00000000000028c8       0x9c /tmp/ccUCodm9.ltrans0.ltrans.o
+                0x00000000000028c8       0x9c /tmp/ccTXUTCN.ltrans0.ltrans.o
  .text.AsciiSPrint
-                0x0000000000002964       0xb4 /tmp/ccUCodm9.ltrans0.ltrans.o
+                0x0000000000002964       0xb4 /tmp/ccTXUTCN.ltrans0.ltrans.o
  .text.UnicodeVSPrintAsciiFormat
-                0x0000000000002a18       0x80 /tmp/ccUCodm9.ltrans0.ltrans.o
+                0x0000000000002a18       0x80 /tmp/ccTXUTCN.ltrans0.ltrans.o
  .text.AsciiStrLen
-                0x0000000000002a98       0xa0 /tmp/ccUCodm9.ltrans0.ltrans.o
+                0x0000000000002a98       0xa0 /tmp/ccTXUTCN.ltrans0.ltrans.o
  .text.BaseName
-                0x0000000000002b38       0x54 /tmp/ccUCodm9.ltrans0.ltrans.o
+                0x0000000000002b38       0x54 /tmp/ccTXUTCN.ltrans0.ltrans.o
  .text.DebugPrint
-                0x0000000000002b8c       0xd0 /tmp/ccUCodm9.ltrans0.ltrans.o
+                0x0000000000002b8c       0xd0 /tmp/ccTXUTCN.ltrans0.ltrans.o
  .text.DescribeInstructionOrDataAbort
-                0x0000000000002c5c       0x58 /tmp/ccUCodm9.ltrans0.ltrans.o
+                0x0000000000002c5c       0x58 /tmp/ccTXUTCN.ltrans0.ltrans.o
  .text.ArmSetMemoryAttributes
-                0x0000000000002cb4      0x498 /tmp/ccUCodm9.ltrans0.ltrans.o
+                0x0000000000002cb4      0x498 /tmp/ccTXUTCN.ltrans0.ltrans.o
  .text.PageAttributeToGcdAttribute
-                0x000000000000314c       0xb8 /tmp/ccUCodm9.ltrans0.ltrans.o
+                0x000000000000314c       0xb8 /tmp/ccTXUTCN.ltrans0.ltrans.o
  .text.FreePool
-                0x0000000000003204       0x7c /tmp/ccUCodm9.ltrans0.ltrans.o
+                0x0000000000003204       0x7c /tmp/ccTXUTCN.ltrans0.ltrans.o
  .text.AsciiPrint
-                0x0000000000003280      0x170 /tmp/ccUCodm9.ltrans0.ltrans.o
+                0x0000000000003280      0x170 /tmp/ccTXUTCN.ltrans0.ltrans.o
  .text.CpuSetMemoryAttributes
-                0x00000000000033f0      0x1c0 /tmp/ccUCodm9.ltrans0.ltrans.o
+                0x00000000000033f0      0x1c0 /tmp/ccTXUTCN.ltrans0.ltrans.o
  .text.SetGcdMemorySpaceAttributes
-                0x00000000000035b0      0x180 /tmp/ccUCodm9.ltrans0.ltrans.o
+                0x00000000000035b0      0x180 /tmp/ccTXUTCN.ltrans0.ltrans.o
  .text.GetNextEntryAttribute
-                0x0000000000003730      0x28c /tmp/ccUCodm9.ltrans0.ltrans.o
+                0x0000000000003730      0x28c /tmp/ccTXUTCN.ltrans0.ltrans.o
  .text.CpuFlushCpuDataCache
-                0x00000000000039bc       0x50 /tmp/ccUCodm9.ltrans0.ltrans.o
- .text.CopyMem  0x0000000000003a0c       0xb0 /tmp/ccUCodm9.ltrans0.ltrans.o
+                0x00000000000039bc       0x50 /tmp/ccTXUTCN.ltrans0.ltrans.o
+ .text.CopyMem  0x0000000000003a0c       0xb0 /tmp/ccTXUTCN.ltrans0.ltrans.o
  .text.CompareGuid
-                0x0000000000003abc       0x54 /tmp/ccUCodm9.ltrans0.ltrans.o
+                0x0000000000003abc       0x54 /tmp/ccTXUTCN.ltrans0.ltrans.o
  .text.EfiGetSystemConfigurationTable
-                0x0000000000003b10       0x94 /tmp/ccUCodm9.ltrans0.ltrans.o
+                0x0000000000003b10       0x94 /tmp/ccTXUTCN.ltrans0.ltrans.o
  .text.GetImageName
-                0x0000000000003ba4      0x300 /tmp/ccUCodm9.ltrans0.ltrans.o
+                0x0000000000003ba4      0x300 /tmp/ccTXUTCN.ltrans0.ltrans.o
  .text.GetHobList
-                0x0000000000003ea4       0xb4 /tmp/ccUCodm9.ltrans0.ltrans.o
+                0x0000000000003ea4       0xb4 /tmp/ccTXUTCN.ltrans0.ltrans.o
  .text.IdleLoopEventCallback
-                0x0000000000003f58        0x4 /tmp/ccUCodm9.ltrans0.ltrans.o
+                0x0000000000003f58        0x4 /tmp/ccTXUTCN.ltrans0.ltrans.o
  .text.CommonCExceptionHandler
-                0x0000000000003f5c      0x6e0 /tmp/ccUCodm9.ltrans0.ltrans.o
+                0x0000000000003f5c      0x6e0 /tmp/ccTXUTCN.ltrans0.ltrans.o
                 0x0000000000003f5c                CommonCExceptionHandler
  .text.__stack_chk_fail
-                0x000000000000463c       0x34 /tmp/ccUCodm9.ltrans0.ltrans.o
+                0x000000000000463c       0x34 /tmp/ccTXUTCN.ltrans0.ltrans.o
                 0x000000000000463c                __stack_chk_fail
  .text._ModuleEntryPoint
-                0x0000000000004670      0x6c0 /tmp/ccUCodm9.ltrans0.ltrans.o
+                0x0000000000004670      0x6c0 /tmp/ccTXUTCN.ltrans0.ltrans.o
                 0x0000000000004670                _ModuleEntryPoint
- .text.memcpy   0x0000000000004d30       0x20 /tmp/ccUCodm9.ltrans0.ltrans.o
+ .text.memcpy   0x0000000000004d30       0x20 /tmp/ccTXUTCN.ltrans0.ltrans.o
                 0x0000000000004d30                memcpy
- .text          0x0000000000004d50      0x218 /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(CopyMem.obj)
+ .text          0x0000000000004d50      0x218 /mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(CopyMem.obj)
                 0x0000000000004ebc                InternalMemCopyMem
  *fill*         0x0000000000004f68       0x18 
- .text          0x0000000000004f80       0x20 /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(CompareGuid.obj)
+ .text          0x0000000000004f80       0x20 /mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(CompareGuid.obj)
                 0x0000000000004f80                InternalMemCompareGuid
  .text.ArmCacheInfo
-                0x0000000000004fa0        0x8 /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(ArmLibSupport.obj)
+                0x0000000000004fa0        0x8 /mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(ArmLibSupport.obj)
                 0x0000000000004fa0                ArmCacheInfo
  .text.ArmGetInterruptState
-                0x0000000000004fa8       0x10 /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(ArmLibSupport.obj)
+                0x0000000000004fa8       0x10 /mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(ArmLibSupport.obj)
                 0x0000000000004fa8                ArmGetInterruptState
  .text.ArmGetFiqState
-                0x0000000000004fb8       0x10 /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(ArmLibSupport.obj)
+                0x0000000000004fb8       0x10 /mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(ArmLibSupport.obj)
                 0x0000000000004fb8                ArmGetFiqState
  .text.ArmGetTTBR0BaseAddress
-                0x0000000000004fc8       0x30 /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(ArmLibSupport.obj)
+                0x0000000000004fc8       0x30 /mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(ArmLibSupport.obj)
                 0x0000000000004fc8                ArmGetTTBR0BaseAddress
  .text.ArmGetTCR
-                0x0000000000004ff8       0x34 /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(ArmLibSupport.obj)
+                0x0000000000004ff8       0x34 /mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(ArmLibSupport.obj)
                 0x0000000000004ff8                ArmGetTCR
  .text.ArmUpdateTranslationTableEntry
-                0x000000000000502c       0x40 /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(ArmLibSupport.obj)
+                0x000000000000502c       0x40 /mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(ArmLibSupport.obj)
                 0x000000000000502c                ArmUpdateTranslationTableEntry
  .text.ArmIsMpCore
-                0x000000000000506c       0x14 /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(ArmLibSupportV8.obj)
+                0x000000000000506c       0x14 /mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(ArmLibSupportV8.obj)
                 0x000000000000506c                ArmIsMpCore
  .text.ArmEnableAsynchronousAbort
-                0x0000000000005080        0xc /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(ArmLibSupportV8.obj)
+                0x0000000000005080        0xc /mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(ArmLibSupportV8.obj)
                 0x0000000000005080                ArmEnableAsynchronousAbort
  .text.ArmEnableFiq
-                0x000000000000508c        0xc /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(ArmLibSupportV8.obj)
+                0x000000000000508c        0xc /mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(ArmLibSupportV8.obj)
                 0x000000000000508c                ArmEnableFiq
  .text.ArmDisableFiq
-                0x0000000000005098        0xc /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(ArmLibSupportV8.obj)
+                0x0000000000005098        0xc /mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(ArmLibSupportV8.obj)
                 0x0000000000005098                ArmDisableFiq
  .text.ArmEnableInterrupts
-                0x00000000000050a4        0xc /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(ArmLibSupportV8.obj)
+                0x00000000000050a4        0xc /mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(ArmLibSupportV8.obj)
                 0x00000000000050a4                ArmEnableInterrupts
  .text.ArmDisableInterrupts
-                0x00000000000050b0        0xc /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(ArmLibSupportV8.obj)
+                0x00000000000050b0        0xc /mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(ArmLibSupportV8.obj)
                 0x00000000000050b0                ArmDisableInterrupts
  .text.ArmInvalidateDataCacheEntryByMVA
-                0x00000000000050bc        0x8 /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(AArch64Support.obj)
+                0x00000000000050bc        0x8 /mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(AArch64Support.obj)
                 0x00000000000050bc                ArmInvalidateDataCacheEntryByMVA
  .text.ArmCleanDataCacheEntryByMVA
-                0x00000000000050c4        0x8 /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(AArch64Support.obj)
+                0x00000000000050c4        0x8 /mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(AArch64Support.obj)
                 0x00000000000050c4                ArmCleanDataCacheEntryByMVA
  .text.ArmCleanInvalidateDataCacheEntryByMVA
-                0x00000000000050cc        0x8 /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(AArch64Support.obj)
+                0x00000000000050cc        0x8 /mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(AArch64Support.obj)
                 0x00000000000050cc                ArmCleanInvalidateDataCacheEntryByMVA
  .text.ArmMmuEnabled
-                0x00000000000050d4       0x34 /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(AArch64Support.obj)
+                0x00000000000050d4       0x34 /mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(AArch64Support.obj)
                 0x00000000000050d4                ArmMmuEnabled
  .text.ArmDataSynchronizationBarrier
-                0x0000000000005108        0x8 /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(AArch64Support.obj)
+                0x0000000000005108        0x8 /mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(AArch64Support.obj)
                 0x0000000000005108                ArmDataSynchronizationBarrier
  .text.ArmWriteVBar
-                0x0000000000005110       0x34 /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(AArch64Support.obj)
+                0x0000000000005110       0x34 /mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(AArch64Support.obj)
                 0x0000000000005110                ArmWriteVBar
  .text.ArmWriteHcr
-                0x0000000000005144        0x8 /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(AArch64Support.obj)
+                0x0000000000005144        0x8 /mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(AArch64Support.obj)
                 0x0000000000005144                ArmWriteHcr
  .text.ArmReadHcr
-                0x000000000000514c        0x8 /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(AArch64Support.obj)
+                0x000000000000514c        0x8 /mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(AArch64Support.obj)
                 0x000000000000514c                ArmReadHcr
  .text.ArmReadCurrentEL
-                0x0000000000005154        0x8 /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(AArch64Support.obj)
+                0x0000000000005154        0x8 /mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(AArch64Support.obj)
                 0x0000000000005154                ArmReadCurrentEL
  .text.ArmReplaceLiveTranslationEntry
-                0x000000000000515c       0xd0 /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmMmuLib/ArmMmuBaseLib/OUTPUT/ArmMmuBaseLib.lib(ArmMmuLibReplaceEntry.obj)
+                0x000000000000515c       0xd0 /mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmMmuLib/ArmMmuBaseLib/OUTPUT/ArmMmuBaseLib.lib(ArmMmuLibReplaceEntry.obj)
                 0x000000000000515c                ArmReplaceLiveTranslationEntry
                 0x0000000000005228                ArmReplaceLiveTranslationEntrySize
  *fill*         0x000000000000522c        0x4 
- .text          0x0000000000005230        0x8 /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseCpuLib/BaseCpuLib/OUTPUT/BaseCpuLib.lib(CpuSleep.obj)
+ .text          0x0000000000005230        0x8 /mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseCpuLib/BaseCpuLib/OUTPUT/BaseCpuLib.lib(CpuSleep.obj)
                 0x0000000000005230                CpuSleep
- .text          0x0000000000005238      0x184 /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmExceptionLib/ArmExceptionLib/OUTPUT/ArmExceptionLib.lib(ExceptionSupport.obj)
+ .text          0x0000000000005238      0x184 /mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmExceptionLib/ArmExceptionLib/OUTPUT/ArmExceptionLib.lib(ExceptionSupport.obj)
                 0x0000000000005238                ExceptionHandlersEnd
                 0x00000000000053b4                RegisterEl0Stack
  *fill*         0x00000000000053bc      0x444 
  .text.ExceptionHandlersStart
-                0x0000000000005800      0x800 /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmExceptionLib/ArmExceptionLib/OUTPUT/ArmExceptionLib.lib(ExceptionSupport.obj)
+                0x0000000000005800      0x800 /mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmExceptionLib/ArmExceptionLib/OUTPUT/ArmExceptionLib.lib(ExceptionSupport.obj)
                 0x0000000000005800                ExceptionHandlersStart
- .text          0x0000000000006000      0x200 /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(SetMem.obj)
+ .text          0x0000000000006000      0x200 /mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(SetMem.obj)
                 0x0000000000006000                InternalMemSetMem16
                 0x000000000000600c                InternalMemSetMem32
                 0x0000000000006018                InternalMemSetMem64
@@ -548,157 +548,156 @@ END GROUP
                 0x000000000000602c                InternalMemSetMem
  *(.rodata .rodata.* .gnu.linkonce.r.*)
  .rodata.PageAttributeToGcdAttribute
-                0x0000000000006200        0xd /tmp/ccUCodm9.ltrans0.ltrans.o
+                0x0000000000006200        0xd /tmp/ccTXUTCN.ltrans0.ltrans.o
  *fill*         0x000000000000620d        0x3 
  .rodata.CpuSetMemoryAttributes
-                0x0000000000006210        0x8 /tmp/ccUCodm9.ltrans0.ltrans.o
+                0x0000000000006210        0x8 /tmp/ccTXUTCN.ltrans0.ltrans.o
  .rodata.CommonCExceptionHandler
-                0x0000000000006218       0x11 /tmp/ccUCodm9.ltrans0.ltrans.o
+                0x0000000000006218       0x11 /tmp/ccTXUTCN.ltrans0.ltrans.o
  .rodata.ArmSetMemoryAttributes.str1.1
-                0x0000000000006229      0x136 /tmp/ccUCodm9.ltrans0.ltrans.o
+                0x0000000000006229      0x12e /tmp/ccTXUTCN.ltrans0.ltrans.o
  .rodata.AsciiPrint.str1.1
-                0x000000000000635f       0x5d /tmp/ccUCodm9.ltrans0.ltrans.o
+                0x0000000000006357       0x59 /tmp/ccTXUTCN.ltrans0.ltrans.o
  .rodata.AsciiStrLen.str1.1
-                0x00000000000063bc       0x8e /tmp/ccUCodm9.ltrans0.ltrans.o
+                0x00000000000063b0       0x8a /tmp/ccTXUTCN.ltrans0.ltrans.o
  .rodata.BasePrintLibSPrintMarker.constprop.17.str1.1
-                0x000000000000644a      0x202 /tmp/ccUCodm9.ltrans0.ltrans.o
- *fill*         0x000000000000664c        0x4 
+                0x000000000000643a      0x1fe /tmp/ccTXUTCN.ltrans0.ltrans.o
  .rodata.CSWTCH.10
-                0x0000000000006650      0x1b8 /tmp/ccUCodm9.ltrans0.ltrans.o
+                0x0000000000006638      0x1b8 /tmp/ccTXUTCN.ltrans0.ltrans.o
  .rodata.CSWTCH.28
-                0x0000000000006808       0x10 /tmp/ccUCodm9.ltrans0.ltrans.o
+                0x00000000000067f0       0x10 /tmp/ccTXUTCN.ltrans0.ltrans.o
  .rodata.CommonCExceptionHandler.str1.1
-                0x0000000000006818      0x6a6 /tmp/ccUCodm9.ltrans0.ltrans.o
-                                        0x6b1 (松开之前的大小)
+                0x0000000000006800      0x6a2 /tmp/ccTXUTCN.ltrans0.ltrans.o
+                                        0x6ad (size before relaxing)
  .rodata.CompareGuid.str1.1
-                0x0000000000006ebe       0x69 /tmp/ccUCodm9.ltrans0.ltrans.o
+                0x0000000000006ea2       0x65 /tmp/ccTXUTCN.ltrans0.ltrans.o
  .rodata.CopyMem.str1.1
-                0x0000000000006f27       0xd4 /tmp/ccUCodm9.ltrans0.ltrans.o
+                0x0000000000006f07       0xd0 /tmp/ccTXUTCN.ltrans0.ltrans.o
  .rodata.CpuSetMemoryAttributes.str1.1
-                0x0000000000006ffb       0x47 /tmp/ccUCodm9.ltrans0.ltrans.o
+                0x0000000000006fd7       0x47 /tmp/ccTXUTCN.ltrans0.ltrans.o
  .rodata.DebugAssert.str1.1
-                0x0000000000007042       0x22 /tmp/ccUCodm9.ltrans0.ltrans.o
+                0x000000000000701e       0x22 /tmp/ccTXUTCN.ltrans0.ltrans.o
  .rodata.DescribeInstructionOrDataAbort.str1.1
-                0x0000000000007064        0x9 /tmp/ccUCodm9.ltrans0.ltrans.o
-                                          0xa (松开之前的大小)
+                0x0000000000007040        0x9 /tmp/ccTXUTCN.ltrans0.ltrans.o
+                                          0xa (size before relaxing)
  .rodata.FreePool.str1.1
-                0x000000000000706d       0x70 /tmp/ccUCodm9.ltrans0.ltrans.o
+                0x0000000000007049       0x6c /tmp/ccTXUTCN.ltrans0.ltrans.o
  .rodata.GetHobList.str1.1
-                0x00000000000070dd       0x5a /tmp/ccUCodm9.ltrans0.ltrans.o
+                0x00000000000070b5       0x56 /tmp/ccTXUTCN.ltrans0.ltrans.o
  .rodata.GetImageName.str1.1
-                0x0000000000007137       0x78 /tmp/ccUCodm9.ltrans0.ltrans.o
+                0x000000000000710b       0x74 /tmp/ccTXUTCN.ltrans0.ltrans.o
  .rodata.GetNextEntryAttribute.str1.1
-                0x00000000000071af       0x62 /tmp/ccUCodm9.ltrans0.ltrans.o
+                0x000000000000717f       0x5e /tmp/ccTXUTCN.ltrans0.ltrans.o
  .rodata.InitializeCpuExceptionHandlers.constprop.10.str1.1
-                0x0000000000007211       0x95 /tmp/ccUCodm9.ltrans0.ltrans.o
+                0x00000000000071dd       0x91 /tmp/ccTXUTCN.ltrans0.ltrans.o
  .rodata.Message.11288
-                0x00000000000072a6       0x3b /tmp/ccUCodm9.ltrans0.ltrans.o
+                0x000000000000726e       0x3b /tmp/ccTXUTCN.ltrans0.ltrans.o
  .rodata.PageAttributeToGcdAttribute.str1.1
-                0x00000000000072e1       0x42 /tmp/ccUCodm9.ltrans0.ltrans.o
-                                         0x44 (松开之前的大小)
+                0x00000000000072a9       0x42 /tmp/ccTXUTCN.ltrans0.ltrans.o
+                                         0x44 (size before relaxing)
  .rodata.ReadUnaligned16.str1.1
-                0x0000000000007323       0x5d /tmp/ccUCodm9.ltrans0.ltrans.o
+                0x00000000000072eb       0x59 /tmp/ccTXUTCN.ltrans0.ltrans.o
  .rodata.SetGcdMemorySpaceAttributes.str1.1
-                0x0000000000007380       0x98 /tmp/ccUCodm9.ltrans0.ltrans.o
+                0x0000000000007344       0x98 /tmp/ccTXUTCN.ltrans0.ltrans.o
  .rodata.UnicodeVSPrintAsciiFormat.str1.1
-                0x0000000000007418       0x6e /tmp/ccUCodm9.ltrans0.ltrans.o
+                0x00000000000073dc       0x6a /tmp/ccTXUTCN.ltrans0.ltrans.o
  .rodata._ModuleEntryPoint.str1.1
-                0x0000000000007486      0x31e /tmp/ccUCodm9.ltrans0.ltrans.o
+                0x0000000000007446      0x306 /tmp/ccTXUTCN.ltrans0.ltrans.o
  .rodata.__stack_chk_fail.str1.1
-                0x00000000000077a4       0x2e /tmp/ccUCodm9.ltrans0.ltrans.o
- *fill*         0x00000000000077d2        0x6 
+                0x000000000000774c       0x2e /tmp/ccTXUTCN.ltrans0.ltrans.o
+ *fill*         0x000000000000777a        0x6 
  .rodata.gExceptionTypeString
-                0x00000000000077d8       0x20 /tmp/ccUCodm9.ltrans0.ltrans.o
+                0x0000000000007780       0x20 /tmp/ccTXUTCN.ltrans0.ltrans.o
  .rodata.mHexStr
-                0x00000000000077f8       0x10 /tmp/ccUCodm9.ltrans0.ltrans.o
+                0x00000000000077a0       0x10 /tmp/ccTXUTCN.ltrans0.ltrans.o
  .rodata.mStatusString
-                0x0000000000007808      0x138 /tmp/ccUCodm9.ltrans0.ltrans.o
+                0x00000000000077b0      0x138 /tmp/ccTXUTCN.ltrans0.ltrans.o
  .rodata.str1.1
-                0x0000000000007940      0x759 /tmp/ccUCodm9.ltrans0.ltrans.o
-                                        0x76a (松开之前的大小)
+                0x00000000000078e8      0x759 /tmp/ccTXUTCN.ltrans0.ltrans.o
+                                        0x76a (size before relaxing)
  *(.got .got.*)
- *fill*         0x0000000000008099        0x7 
- .got           0x00000000000080a0        0x8 /home/evsio0n/src/edk2sdm/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
-                0x00000000000080a0                _GLOBAL_OFFSET_TABLE_
- .got.plt       0x00000000000080a8       0x18 /home/evsio0n/src/edk2sdm/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
+ *fill*         0x0000000000008041        0x7 
+ .got           0x0000000000008048        0x8 /mnt/d/TARGET/edk2sdm/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
+                0x0000000000008048                _GLOBAL_OFFSET_TABLE_
+ .got.plt       0x0000000000008050       0x18 /mnt/d/TARGET/edk2sdm/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
  *:AutoGen.obj(.data.g*Guid)
 
-.plt            0x00000000000080c0        0x0
- .plt           0x00000000000080c0        0x0 /home/evsio0n/src/edk2sdm/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
+.plt            0x0000000000008068        0x0
+ .plt           0x0000000000008068        0x0 /mnt/d/TARGET/edk2sdm/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
 
 .data           0x0000000000009000      0x4b8
  *(.data .data.* .gnu.linkonce.d.*)
- .data.rel.ro   0x0000000000009000        0x0 /home/evsio0n/src/edk2sdm/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
+ .data.rel.ro   0x0000000000009000        0x0 /mnt/d/TARGET/edk2sdm/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
  .data.__stack_chk_guard
-                0x0000000000009000        0x8 /tmp/ccUCodm9.ltrans0.ltrans.o
+                0x0000000000009000        0x8 /tmp/ccTXUTCN.ltrans0.ltrans.o
                 0x0000000000009000                __stack_chk_guard
  .data.font5x12
-                0x0000000000009008      0x300 /tmp/ccUCodm9.ltrans0.ltrans.o
+                0x0000000000009008      0x300 /tmp/ccTXUTCN.ltrans0.ltrans.o
  .data.gArmMpCoreInfoGuid
-                0x0000000000009308       0x10 /tmp/ccUCodm9.ltrans0.ltrans.o
+                0x0000000000009308       0x10 /tmp/ccTXUTCN.ltrans0.ltrans.o
  .data.gEfiCpuArchProtocolGuid
-                0x0000000000009318       0x10 /tmp/ccUCodm9.ltrans0.ltrans.o
+                0x0000000000009318       0x10 /tmp/ccTXUTCN.ltrans0.ltrans.o
  .data.gEfiDebugImageInfoTableGuid
-                0x0000000000009328       0x10 /tmp/ccUCodm9.ltrans0.ltrans.o
+                0x0000000000009328       0x10 /tmp/ccTXUTCN.ltrans0.ltrans.o
  .data.gEfiDxeServicesTableGuid
-                0x0000000000009338       0x10 /tmp/ccUCodm9.ltrans0.ltrans.o
+                0x0000000000009338       0x10 /tmp/ccTXUTCN.ltrans0.ltrans.o
  .data.gEfiHobListGuid
-                0x0000000000009348       0x10 /tmp/ccUCodm9.ltrans0.ltrans.o
+                0x0000000000009348       0x10 /tmp/ccTXUTCN.ltrans0.ltrans.o
  .data.gEfiVectorHandoffTableGuid
-                0x0000000000009358       0x10 /tmp/ccUCodm9.ltrans0.ltrans.o
+                0x0000000000009358       0x10 /tmp/ccTXUTCN.ltrans0.ltrans.o
  .data.gIdleLoopEventGuid
-                0x0000000000009368       0x10 /tmp/ccUCodm9.ltrans0.ltrans.o
+                0x0000000000009368       0x10 /tmp/ccTXUTCN.ltrans0.ltrans.o
  .data.mArmProcessorTableTemplate
-                0x0000000000009378       0x60 /tmp/ccUCodm9.ltrans0.ltrans.o
- .data.mCpu     0x00000000000093d8       0x48 /tmp/ccUCodm9.ltrans0.ltrans.o
+                0x0000000000009378       0x60 /tmp/ccTXUTCN.ltrans0.ltrans.o
+ .data.mCpu     0x00000000000093d8       0x48 /tmp/ccTXUTCN.ltrans0.ltrans.o
  *(.bss .bss.*)
- .bss.gBS       0x0000000000009420        0x8 /tmp/ccUCodm9.ltrans0.ltrans.o
- .bss.gDS       0x0000000000009428        0x8 /tmp/ccUCodm9.ltrans0.ltrans.o
+ .bss.gBS       0x0000000000009420        0x8 /tmp/ccTXUTCN.ltrans0.ltrans.o
+ .bss.gDS       0x0000000000009428        0x8 /tmp/ccTXUTCN.ltrans0.ltrans.o
  .bss.gExceptionHandlers
-                0x0000000000009430       0x20 /tmp/ccUCodm9.ltrans0.ltrans.o
+                0x0000000000009430       0x20 /tmp/ccTXUTCN.ltrans0.ltrans.o
  .bss.gImageHandle
-                0x0000000000009450        0x8 /tmp/ccUCodm9.ltrans0.ltrans.o
- .bss.gRT       0x0000000000009458        0x8 /tmp/ccUCodm9.ltrans0.ltrans.o
- .bss.gST       0x0000000000009460        0x8 /tmp/ccUCodm9.ltrans0.ltrans.o
+                0x0000000000009450        0x8 /tmp/ccTXUTCN.ltrans0.ltrans.o
+ .bss.gRT       0x0000000000009458        0x8 /tmp/ccTXUTCN.ltrans0.ltrans.o
+ .bss.gST       0x0000000000009460        0x8 /tmp/ccTXUTCN.ltrans0.ltrans.o
  .bss.mCpuHandle
-                0x0000000000009468        0x8 /tmp/ccUCodm9.ltrans0.ltrans.o
- .bss.mHobList  0x0000000000009470        0x8 /tmp/ccUCodm9.ltrans0.ltrans.o
+                0x0000000000009468        0x8 /tmp/ccTXUTCN.ltrans0.ltrans.o
+ .bss.mHobList  0x0000000000009470        0x8 /tmp/ccTXUTCN.ltrans0.ltrans.o
  .bss.mIsFlushingGCD
-                0x0000000000009478        0x1 /tmp/ccUCodm9.ltrans0.ltrans.o
+                0x0000000000009478        0x1 /tmp/ccTXUTCN.ltrans0.ltrans.o
  .bss.mRecursiveException
-                0x0000000000009479        0x1 /tmp/ccUCodm9.ltrans0.ltrans.o
+                0x0000000000009479        0x1 /tmp/ccTXUTCN.ltrans0.ltrans.o
  *fill*         0x000000000000947a        0x6 
- .bss.m_Color   0x0000000000009480       0x10 /tmp/ccUCodm9.ltrans0.ltrans.o
+ .bss.m_Color   0x0000000000009480       0x10 /tmp/ccTXUTCN.ltrans0.ltrans.o
  .bss.m_Initialized
-                0x0000000000009490        0x1 /tmp/ccUCodm9.ltrans0.ltrans.o
+                0x0000000000009490        0x1 /tmp/ccTXUTCN.ltrans0.ltrans.o
  *fill*         0x0000000000009491        0x7 
  .bss.m_MaxPosition
-                0x0000000000009498       0x10 /tmp/ccUCodm9.ltrans0.ltrans.o
+                0x0000000000009498       0x10 /tmp/ccTXUTCN.ltrans0.ltrans.o
  .bss.m_Position
-                0x00000000000094a8       0x10 /tmp/ccUCodm9.ltrans0.ltrans.o
+                0x00000000000094a8       0x10 /tmp/ccTXUTCN.ltrans0.ltrans.o
 
 .dynbss         0x00000000000094b8        0x0
- .dynbss        0x00000000000094b8        0x0 /home/evsio0n/src/edk2sdm/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
+ .dynbss        0x00000000000094b8        0x0 /mnt/d/TARGET/edk2sdm/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
 
 .eh_frame
  *(.eh_frame)
 
 .rela           0x00000000000094b8      0x9f0
  *(.rela .rela.*)
- .rela.got      0x00000000000094b8        0x0 /home/evsio0n/src/edk2sdm/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
- .rela.plt      0x00000000000094b8        0x0 /home/evsio0n/src/edk2sdm/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
- .rela.bss      0x00000000000094b8        0x0 /home/evsio0n/src/edk2sdm/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
+ .rela.got      0x00000000000094b8        0x0 /mnt/d/TARGET/edk2sdm/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
+ .rela.plt      0x00000000000094b8        0x0 /mnt/d/TARGET/edk2sdm/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
+ .rela.bss      0x00000000000094b8        0x0 /mnt/d/TARGET/edk2sdm/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
  .rela.data.rel.ro
-                0x00000000000094b8        0x0 /home/evsio0n/src/edk2sdm/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
- .rela.ifunc    0x00000000000094b8        0x0 /home/evsio0n/src/edk2sdm/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
+                0x00000000000094b8        0x0 /mnt/d/TARGET/edk2sdm/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
+ .rela.ifunc    0x00000000000094b8        0x0 /mnt/d/TARGET/edk2sdm/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
  .rela.data.mCpu
-                0x00000000000094b8       0xc0 /home/evsio0n/src/edk2sdm/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
+                0x00000000000094b8       0xc0 /mnt/d/TARGET/edk2sdm/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
  .rela.rodata.CSWTCH.10
-                0x0000000000009578      0x528 /home/evsio0n/src/edk2sdm/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
+                0x0000000000009578      0x528 /mnt/d/TARGET/edk2sdm/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
  .rela.rodata.gExceptionTypeString
-                0x0000000000009aa0       0x60 /home/evsio0n/src/edk2sdm/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
+                0x0000000000009aa0       0x60 /mnt/d/TARGET/edk2sdm/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
  .rela.rodata.mStatusString
-                0x0000000000009b00      0x3a8 /home/evsio0n/src/edk2sdm/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
+                0x0000000000009b00      0x3a8 /mnt/d/TARGET/edk2sdm/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
 
 .hii
  *(.hii)
@@ -706,7 +705,7 @@ END GROUP
 .build-id       0x0000000000009ea8       0x24
  *(.note.gnu.build-id)
  .note.gnu.build-id
-                0x0000000000009ea8       0x24 /home/evsio0n/src/edk2sdm/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
+                0x0000000000009ea8       0x24 /mnt/d/TARGET/edk2sdm/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
 
 /DISCARD/
  *(.note.GNU-stack)
@@ -719,30 +718,30 @@ END GROUP
  *(.comment)
  *(COMMON)
                 0x0000000000000228                PECOFF_HEADER_SIZE = 0x228
-OUTPUT(/home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Drivers/CpuDxe/CpuDxe/DEBUG/ArmCpuDxe.dll elf64-littleaarch64)
+OUTPUT(/mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Drivers/CpuDxe/CpuDxe/DEBUG/ArmCpuDxe.dll elf64-littleaarch64)
 
 .debug_info     0x0000000000000000     0xbf08
- .debug_info    0x0000000000000000     0xbf08 /tmp/ccUCodm9.ltrans0.ltrans.o
+ .debug_info    0x0000000000000000     0xbf08 /tmp/ccTXUTCN.ltrans0.ltrans.o
 
 .debug_abbrev   0x0000000000000000      0x693
- .debug_abbrev  0x0000000000000000      0x693 /tmp/ccUCodm9.ltrans0.ltrans.o
+ .debug_abbrev  0x0000000000000000      0x693 /tmp/ccTXUTCN.ltrans0.ltrans.o
 
 .debug_loc      0x0000000000000000     0x80ec
- .debug_loc     0x0000000000000000     0x80ec /tmp/ccUCodm9.ltrans0.ltrans.o
+ .debug_loc     0x0000000000000000     0x80ec /tmp/ccTXUTCN.ltrans0.ltrans.o
 
 .debug_aranges  0x0000000000000000      0x3e0
  .debug_aranges
-                0x0000000000000000      0x3e0 /tmp/ccUCodm9.ltrans0.ltrans.o
+                0x0000000000000000      0x3e0 /tmp/ccTXUTCN.ltrans0.ltrans.o
 
 .debug_ranges   0x0000000000000000      0xda0
- .debug_ranges  0x0000000000000000      0xda0 /tmp/ccUCodm9.ltrans0.ltrans.o
+ .debug_ranges  0x0000000000000000      0xda0 /tmp/ccTXUTCN.ltrans0.ltrans.o
 
-.debug_line     0x0000000000000000     0x1d32
- .debug_line    0x0000000000000000     0x1d32 /tmp/ccUCodm9.ltrans0.ltrans.o
+.debug_line     0x0000000000000000     0x1c96
+ .debug_line    0x0000000000000000     0x1c96 /tmp/ccTXUTCN.ltrans0.ltrans.o
 
-.debug_str      0x0000000000000000     0x3a9e
- .debug_str     0x0000000000000000     0x3a9e /tmp/ccUCodm9.ltrans0.ltrans.o
-                                       0x3f5d (松开之前的大小)
+.debug_str      0x0000000000000000     0x3a9a
+ .debug_str     0x0000000000000000     0x3a9a /tmp/ccTXUTCN.ltrans0.ltrans.o
+                                       0x3f59 (size before relaxing)
 
 .debug_frame    0x0000000000000000      0xb38
- .debug_frame   0x0000000000000000      0xb38 /tmp/ccUCodm9.ltrans0.ltrans.o
+ .debug_frame   0x0000000000000000      0xb38 /tmp/ccTXUTCN.ltrans0.ltrans.o

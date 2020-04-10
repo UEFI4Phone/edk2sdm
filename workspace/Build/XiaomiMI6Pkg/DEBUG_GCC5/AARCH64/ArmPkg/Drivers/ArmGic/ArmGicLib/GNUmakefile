@@ -19,7 +19,7 @@ PLATFORM_NAME = XiaomiMI6Pkg
 PLATFORM_GUID = 28f1a3bf-193a-47e3-a7b9-5a435eaab2ee
 PLATFORM_VERSION = 0.1
 PLATFORM_RELATIVE_DIR = XiaomiMI6Pkg
-PLATFORM_DIR = /home/evsio0n/src/edk2sdm/Sdm835/XiaomiMI6Pkg
+PLATFORM_DIR = /mnt/d/TARGET/edk2sdm/Sdm835/XiaomiMI6Pkg
 PLATFORM_OUTPUT_DIR = Build/XiaomiMI6Pkg
 
 #
@@ -35,8 +35,8 @@ MODULE_FILE_BASE_NAME = ArmGicLib
 BASE_NAME = $(MODULE_NAME)
 MODULE_RELATIVE_DIR = ArmPkg/Drivers/ArmGic
 PACKAGE_RELATIVE_DIR = Drivers/ArmGic
-MODULE_DIR = /home/evsio0n/src/edk2sdm/edk2/ArmPkg/Drivers/ArmGic
-FFS_OUTPUT_DIR = /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/FV/Ffs/03d05ee4-cdeb-458c-9dfc-993f09bdf405ArmGicLib
+MODULE_DIR = /mnt/d/TARGET/edk2sdm/edk2/ArmPkg/Drivers/ArmGic
+FFS_OUTPUT_DIR = /mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/FV/Ffs/03d05ee4-cdeb-458c-9dfc-993f09bdf405ArmGicLib
 
 MODULE_ENTRY_POINT = _ModuleEntryPoint
 ARCH_ENTRY_POINT = _ModuleEntryPoint
@@ -59,13 +59,13 @@ TARGET = DEBUG
 #
 # Build Directory Macro Definition
 #
-# PLATFORM_BUILD_DIR = /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5
-BUILD_DIR = /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5
+# PLATFORM_BUILD_DIR = /mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5
+BUILD_DIR = /mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5
 BIN_DIR = $(BUILD_DIR)/AARCH64
 LIB_DIR = $(BIN_DIR)
-MODULE_BUILD_DIR = /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Drivers/ArmGic/ArmGicLib
-OUTPUT_DIR = /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Drivers/ArmGic/ArmGicLib/OUTPUT
-DEBUG_DIR = /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Drivers/ArmGic/ArmGicLib/DEBUG
+MODULE_BUILD_DIR = /mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Drivers/ArmGic/ArmGicLib
+OUTPUT_DIR = /mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Drivers/ArmGic/ArmGicLib/OUTPUT
+DEBUG_DIR = /mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Drivers/ArmGic/ArmGicLib/DEBUG
 DEST_DIR_OUTPUT = $(OUTPUT_DIR)
 DEST_DIR_DEBUG = $(DEBUG_DIR)
 
@@ -169,7 +169,7 @@ PP_FLAGS = $(ARCHCC_FLAGS) $(PLATFORM_FLAGS) -E -x assembler-with-cpp -include $
 VFRPP = aarch64-linux-gnu-gcc
 VFRPP_FLAGS = $(ARCHCC_FLAGS) $(PLATFORM_FLAGS) -x c -E -P -DVFRCOMPILE --include $(DEST_DIR_DEBUG)/$(MODULE_NAME)StrDefs.h
 
-DLINK_FLAGS = -Wl,--emit-relocs -nostdlib -Wl,--gc-sections -u $(IMAGE_ENTRY_POINT) -Wl,-e,$(IMAGE_ENTRY_POINT),-Map,$(DEST_DIR_DEBUG)/$(BASE_NAME).map -z common-page-size=0x20 -z common-page-size=0x1000 -flto -Os -L/home/evsio0n/src/edk2sdm/edk2/ArmPkg/Library/GccLto -llto-aarch64 -Wl,-plugin-opt=-pass-through=-llto-aarch64 -Wno-lto-type-mismatch
+DLINK_FLAGS = -Wl,--emit-relocs -nostdlib -Wl,--gc-sections -u $(IMAGE_ENTRY_POINT) -Wl,-e,$(IMAGE_ENTRY_POINT),-Map,$(DEST_DIR_DEBUG)/$(BASE_NAME).map -z common-page-size=0x20 -z common-page-size=0x1000 -flto -Os -L/mnt/d/TARGET/edk2sdm/edk2/ArmPkg/Library/GccLto -llto-aarch64 -Wl,-plugin-opt=-pass-through=-llto-aarch64 -Wno-lto-type-mismatch
 DLINK_XIPFLAGS =  -z common-page-size=0x20
 DLINK = aarch64-linux-gnu-gcc
 
@@ -206,46 +206,46 @@ OBJECT_FILES =  \
     $(OUTPUT_DIR)/GicV3/AArch64/ArmGicV3.obj
 
 INC =  \
-    -I/home/evsio0n/src/edk2sdm/edk2/ArmPkg/Drivers/ArmGic/GicV3/AArch64 \
-    -I/home/evsio0n/src/edk2sdm/edk2/ArmPkg/Drivers/ArmGic/GicV2 \
-    -I/home/evsio0n/src/edk2sdm/edk2/ArmPkg/Drivers/ArmGic \
+    -I/mnt/d/TARGET/edk2sdm/edk2/ArmPkg/Drivers/ArmGic/GicV3/AArch64 \
+    -I/mnt/d/TARGET/edk2sdm/edk2/ArmPkg/Drivers/ArmGic/GicV2 \
+    -I/mnt/d/TARGET/edk2sdm/edk2/ArmPkg/Drivers/ArmGic \
     -I$(DEBUG_DIR) \
-    -I/home/evsio0n/src/edk2sdm/edk2/ArmPkg \
-    -I/home/evsio0n/src/edk2sdm/edk2/ArmPkg/Include \
-    -I/home/evsio0n/src/edk2sdm/edk2/ArmPlatformPkg \
-    -I/home/evsio0n/src/edk2sdm/edk2/ArmPlatformPkg/Include \
-    -I/home/evsio0n/src/edk2sdm/edk2/MdePkg \
-    -I/home/evsio0n/src/edk2sdm/edk2/MdePkg/Include \
-    -I/home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/AArch64
+    -I/mnt/d/TARGET/edk2sdm/edk2/ArmPkg \
+    -I/mnt/d/TARGET/edk2sdm/edk2/ArmPkg/Include \
+    -I/mnt/d/TARGET/edk2sdm/edk2/ArmPlatformPkg \
+    -I/mnt/d/TARGET/edk2sdm/edk2/ArmPlatformPkg/Include \
+    -I/mnt/d/TARGET/edk2sdm/edk2/MdePkg \
+    -I/mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include \
+    -I/mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/AArch64
 
-OBJECT_FILES_LIST = /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Drivers/ArmGic/ArmGicLib/OUTPUT/object_files.lst
+OBJECT_FILES_LIST = /mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Drivers/ArmGic/ArmGicLib/OUTPUT/object_files.lst
 
 
-COMMON_DEPS = /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Pi/PiHob.h \
+COMMON_DEPS = /mnt/d/TARGET/edk2sdm/edk2/ArmPkg/Include/Library/ArmGicArchLib.h \
+              /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Library/IoLib.h \
+              /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Ppi/CpuIo.h \
+              /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Pi/PiBootMode.h \
+              /mnt/d/TARGET/edk2sdm/edk2/ArmPkg/Include/Library/ArmGicLib.h \
+              /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/IndustryStandard/PeImage.h \
+              /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Pi/PiPeiCis.h \
+              /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Pi/PiMultiPhase.h \
+              /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Protocol/DebugSupport.h \
+              /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Pi/PiFirmwareFile.h \
+              /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Pi/PiHob.h \
+              /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Guid/WinCertificate.h \
+              /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Pi/PiFirmwareVolume.h \
+              /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Ppi/PciCfg2.h \
+              /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Pi/PiS3BootScript.h \
+              /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Pi/PiDependency.h \
+              /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Library/PcdLib.h \
               $(DEBUG_DIR)/AutoGen.h \
-              /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Guid/WinCertificate.h \
-              /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Ppi/PciCfg2.h \
-              /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Ppi/CpuIo.h \
-              /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Pi/PiFirmwareFile.h \
-              /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Uefi/UefiMultiPhase.h \
-              /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Pi/PiS3BootScript.h \
-              /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/AArch64/ProcessorBind.h \
-              /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Pi/PiStatusCode.h \
-              /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Pi/PiPeiCis.h \
-              /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/PiPei.h \
-              /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/IndustryStandard/PeImage.h \
-              /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Base.h \
-              /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Library/IoLib.h \
-              /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Library/BaseLib.h \
-              /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Pi/PiMultiPhase.h \
-              /home/evsio0n/src/edk2sdm/edk2/ArmPkg/Include/Library/ArmGicArchLib.h \
-              /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Pi/PiDependency.h \
-              /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Protocol/DebugSupport.h \
-              /home/evsio0n/src/edk2sdm/edk2/ArmPkg/Include/Library/ArmGicLib.h \
-              /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Pi/PiFirmwareVolume.h \
-              /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Library/PcdLib.h \
-              /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Uefi/UefiBaseType.h \
-              /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Pi/PiBootMode.h \
+              /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/PiPei.h \
+              /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/AArch64/ProcessorBind.h \
+              /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Library/BaseLib.h \
+              /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Uefi/UefiMultiPhase.h \
+              /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Base.h \
+              /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Pi/PiStatusCode.h \
+              /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Uefi/UefiBaseType.h \
               
 
 #
@@ -255,7 +255,7 @@ FORCE_REBUILD = force_build
 INIT_TARGET = init
 PCH_TARGET =
 BC_TARGET = 
-CODA_TARGET = /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Drivers/ArmGic/ArmGicLib/OUTPUT/ArmGicLib.lib \
+CODA_TARGET = /mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Drivers/ArmGic/ArmGicLib/OUTPUT/ArmGicLib.lib \
               
 
 #
@@ -327,105 +327,105 @@ gen_fds:
 #
 # Individual Object Build Targets
 #
-$(OUTPUT_DIR)/GicV2/ArmGicV2Lib.obj : $(MAKE_FILE)
-$(OUTPUT_DIR)/GicV2/ArmGicV2Lib.obj : $(COMMON_DEPS)
-$(OUTPUT_DIR)/GicV2/ArmGicV2Lib.obj : /home/evsio0n/src/edk2sdm/edk2/ArmPkg/Drivers/ArmGic/GicV2/ArmGicV2Lib.c
-	"$(CC)" $(CC_FLAGS) $(CC_XIPFLAGS) -c -o /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Drivers/ArmGic/ArmGicLib/OUTPUT/GicV2/ArmGicV2Lib.obj $(INC) /home/evsio0n/src/edk2sdm/edk2/ArmPkg/Drivers/ArmGic/GicV2/ArmGicV2Lib.c
+$(OUTPUT_DIR)/ArmGicLib.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/ArmGicLib.obj : $(COMMON_DEPS)
+$(OUTPUT_DIR)/ArmGicLib.obj : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Library/DebugLib.h
+$(OUTPUT_DIR)/ArmGicLib.obj : /mnt/d/TARGET/edk2sdm/edk2/ArmPkg/Include/Chipset/ArmV7.h
+$(OUTPUT_DIR)/ArmGicLib.obj : /mnt/d/TARGET/edk2sdm/edk2/ArmPkg/Include/Library/ArmLib.h
+$(OUTPUT_DIR)/ArmGicLib.obj : /mnt/d/TARGET/edk2sdm/edk2/ArmPkg/Include/Chipset/AArch64.h
+$(OUTPUT_DIR)/ArmGicLib.obj : /mnt/d/TARGET/edk2sdm/edk2/ArmPkg/Include/Chipset/ArmV7Mmu.h
+$(OUTPUT_DIR)/ArmGicLib.obj : /mnt/d/TARGET/edk2sdm/edk2/ArmPkg/Include/Chipset/AArch64Mmu.h
+$(OUTPUT_DIR)/ArmGicLib.obj : /mnt/d/TARGET/edk2sdm/edk2/ArmPkg/Drivers/ArmGic/ArmGicLib.c
+	"$(CC)" $(CC_FLAGS) $(CC_XIPFLAGS) -c -o /mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Drivers/ArmGic/ArmGicLib/OUTPUT/./ArmGicLib.obj $(INC) /mnt/d/TARGET/edk2sdm/edk2/ArmPkg/Drivers/ArmGic/ArmGicLib.c
 
 $(OUTPUT_DIR)/GicV2/ArmGicV2NonSecLib.obj : $(MAKE_FILE)
 $(OUTPUT_DIR)/GicV2/ArmGicV2NonSecLib.obj : $(COMMON_DEPS)
-$(OUTPUT_DIR)/GicV2/ArmGicV2NonSecLib.obj : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/IndustryStandard/Acpi50.h
-$(OUTPUT_DIR)/GicV2/ArmGicV2NonSecLib.obj : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Protocol/SimpleTextOut.h
-$(OUTPUT_DIR)/GicV2/ArmGicV2NonSecLib.obj : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/IndustryStandard/Acpi20.h
-$(OUTPUT_DIR)/GicV2/ArmGicV2NonSecLib.obj : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Protocol/SimpleTextIn.h
-$(OUTPUT_DIR)/GicV2/ArmGicV2NonSecLib.obj : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/IndustryStandard/Acpi30.h
-$(OUTPUT_DIR)/GicV2/ArmGicV2NonSecLib.obj : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Uefi/UefiInternalFormRepresentation.h
-$(OUTPUT_DIR)/GicV2/ArmGicV2NonSecLib.obj : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/IndustryStandard/Acpi40.h
-$(OUTPUT_DIR)/GicV2/ArmGicV2NonSecLib.obj : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Uefi.h
-$(OUTPUT_DIR)/GicV2/ArmGicV2NonSecLib.obj : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Protocol/DevicePath.h
-$(OUTPUT_DIR)/GicV2/ArmGicV2NonSecLib.obj : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Guid/PcAnsi.h
-$(OUTPUT_DIR)/GicV2/ArmGicV2NonSecLib.obj : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Uefi/UefiPxe.h
-$(OUTPUT_DIR)/GicV2/ArmGicV2NonSecLib.obj : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Guid/HiiFormMapMethodGuid.h
-$(OUTPUT_DIR)/GicV2/ArmGicV2NonSecLib.obj : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/IndustryStandard/Bluetooth.h
-$(OUTPUT_DIR)/GicV2/ArmGicV2NonSecLib.obj : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/IndustryStandard/Acpi10.h
-$(OUTPUT_DIR)/GicV2/ArmGicV2NonSecLib.obj : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Uefi/UefiSpec.h
-$(OUTPUT_DIR)/GicV2/ArmGicV2NonSecLib.obj : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/IndustryStandard/Acpi51.h
-$(OUTPUT_DIR)/GicV2/ArmGicV2NonSecLib.obj : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/IndustryStandard/AcpiAml.h
-$(OUTPUT_DIR)/GicV2/ArmGicV2NonSecLib.obj : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Protocol/SimpleTextInEx.h
-$(OUTPUT_DIR)/GicV2/ArmGicV2NonSecLib.obj : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/IndustryStandard/Acpi60.h
-$(OUTPUT_DIR)/GicV2/ArmGicV2NonSecLib.obj : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Uefi/UefiGpt.h
-$(OUTPUT_DIR)/GicV2/ArmGicV2NonSecLib.obj : /home/evsio0n/src/edk2sdm/edk2/ArmPkg/Drivers/ArmGic/GicV2/ArmGicV2NonSecLib.c
-	"$(CC)" $(CC_FLAGS) $(CC_XIPFLAGS) -c -o /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Drivers/ArmGic/ArmGicLib/OUTPUT/GicV2/ArmGicV2NonSecLib.obj $(INC) /home/evsio0n/src/edk2sdm/edk2/ArmPkg/Drivers/ArmGic/GicV2/ArmGicV2NonSecLib.c
+$(OUTPUT_DIR)/GicV2/ArmGicV2NonSecLib.obj : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Guid/HiiFormMapMethodGuid.h
+$(OUTPUT_DIR)/GicV2/ArmGicV2NonSecLib.obj : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Uefi/UefiGpt.h
+$(OUTPUT_DIR)/GicV2/ArmGicV2NonSecLib.obj : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Uefi/UefiInternalFormRepresentation.h
+$(OUTPUT_DIR)/GicV2/ArmGicV2NonSecLib.obj : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/IndustryStandard/Bluetooth.h
+$(OUTPUT_DIR)/GicV2/ArmGicV2NonSecLib.obj : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Protocol/DevicePath.h
+$(OUTPUT_DIR)/GicV2/ArmGicV2NonSecLib.obj : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Protocol/SimpleTextOut.h
+$(OUTPUT_DIR)/GicV2/ArmGicV2NonSecLib.obj : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/IndustryStandard/Acpi10.h
+$(OUTPUT_DIR)/GicV2/ArmGicV2NonSecLib.obj : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/IndustryStandard/Acpi60.h
+$(OUTPUT_DIR)/GicV2/ArmGicV2NonSecLib.obj : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Uefi.h
+$(OUTPUT_DIR)/GicV2/ArmGicV2NonSecLib.obj : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/IndustryStandard/Acpi51.h
+$(OUTPUT_DIR)/GicV2/ArmGicV2NonSecLib.obj : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Protocol/SimpleTextInEx.h
+$(OUTPUT_DIR)/GicV2/ArmGicV2NonSecLib.obj : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Protocol/SimpleTextIn.h
+$(OUTPUT_DIR)/GicV2/ArmGicV2NonSecLib.obj : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Uefi/UefiPxe.h
+$(OUTPUT_DIR)/GicV2/ArmGicV2NonSecLib.obj : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Guid/PcAnsi.h
+$(OUTPUT_DIR)/GicV2/ArmGicV2NonSecLib.obj : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/IndustryStandard/Acpi50.h
+$(OUTPUT_DIR)/GicV2/ArmGicV2NonSecLib.obj : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/IndustryStandard/Acpi20.h
+$(OUTPUT_DIR)/GicV2/ArmGicV2NonSecLib.obj : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/IndustryStandard/AcpiAml.h
+$(OUTPUT_DIR)/GicV2/ArmGicV2NonSecLib.obj : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/IndustryStandard/Acpi30.h
+$(OUTPUT_DIR)/GicV2/ArmGicV2NonSecLib.obj : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/IndustryStandard/Acpi40.h
+$(OUTPUT_DIR)/GicV2/ArmGicV2NonSecLib.obj : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Uefi/UefiSpec.h
+$(OUTPUT_DIR)/GicV2/ArmGicV2NonSecLib.obj : /mnt/d/TARGET/edk2sdm/edk2/ArmPkg/Drivers/ArmGic/GicV2/ArmGicV2NonSecLib.c
+	"$(CC)" $(CC_FLAGS) $(CC_XIPFLAGS) -c -o /mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Drivers/ArmGic/ArmGicLib/OUTPUT/GicV2/ArmGicV2NonSecLib.obj $(INC) /mnt/d/TARGET/edk2sdm/edk2/ArmPkg/Drivers/ArmGic/GicV2/ArmGicV2NonSecLib.c
+
+$(OUTPUT_DIR)/GicV2/ArmGicV2Lib.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/GicV2/ArmGicV2Lib.obj : $(COMMON_DEPS)
+$(OUTPUT_DIR)/GicV2/ArmGicV2Lib.obj : /mnt/d/TARGET/edk2sdm/edk2/ArmPkg/Drivers/ArmGic/GicV2/ArmGicV2Lib.c
+	"$(CC)" $(CC_FLAGS) $(CC_XIPFLAGS) -c -o /mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Drivers/ArmGic/ArmGicLib/OUTPUT/GicV2/ArmGicV2Lib.obj $(INC) /mnt/d/TARGET/edk2sdm/edk2/ArmPkg/Drivers/ArmGic/GicV2/ArmGicV2Lib.c
 
 $(OUTPUT_DIR)/ArmGicNonSecLib.obj : $(MAKE_FILE)
 $(OUTPUT_DIR)/ArmGicNonSecLib.obj : $(COMMON_DEPS)
-$(OUTPUT_DIR)/ArmGicNonSecLib.obj : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/IndustryStandard/Acpi50.h
-$(OUTPUT_DIR)/ArmGicNonSecLib.obj : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Protocol/SimpleTextOut.h
-$(OUTPUT_DIR)/ArmGicNonSecLib.obj : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/IndustryStandard/Acpi20.h
-$(OUTPUT_DIR)/ArmGicNonSecLib.obj : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Protocol/SimpleTextIn.h
-$(OUTPUT_DIR)/ArmGicNonSecLib.obj : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/IndustryStandard/Acpi30.h
-$(OUTPUT_DIR)/ArmGicNonSecLib.obj : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Uefi/UefiInternalFormRepresentation.h
-$(OUTPUT_DIR)/ArmGicNonSecLib.obj : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/IndustryStandard/Acpi40.h
-$(OUTPUT_DIR)/ArmGicNonSecLib.obj : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Uefi.h
-$(OUTPUT_DIR)/ArmGicNonSecLib.obj : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Protocol/DevicePath.h
-$(OUTPUT_DIR)/ArmGicNonSecLib.obj : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Guid/PcAnsi.h
-$(OUTPUT_DIR)/ArmGicNonSecLib.obj : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Uefi/UefiPxe.h
-$(OUTPUT_DIR)/ArmGicNonSecLib.obj : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Guid/HiiFormMapMethodGuid.h
-$(OUTPUT_DIR)/ArmGicNonSecLib.obj : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/IndustryStandard/Bluetooth.h
-$(OUTPUT_DIR)/ArmGicNonSecLib.obj : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/IndustryStandard/Acpi10.h
-$(OUTPUT_DIR)/ArmGicNonSecLib.obj : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Uefi/UefiSpec.h
-$(OUTPUT_DIR)/ArmGicNonSecLib.obj : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/IndustryStandard/Acpi51.h
-$(OUTPUT_DIR)/ArmGicNonSecLib.obj : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/IndustryStandard/AcpiAml.h
-$(OUTPUT_DIR)/ArmGicNonSecLib.obj : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Protocol/SimpleTextInEx.h
-$(OUTPUT_DIR)/ArmGicNonSecLib.obj : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/IndustryStandard/Acpi60.h
-$(OUTPUT_DIR)/ArmGicNonSecLib.obj : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Uefi/UefiGpt.h
-$(OUTPUT_DIR)/ArmGicNonSecLib.obj : /home/evsio0n/src/edk2sdm/edk2/ArmPkg/Drivers/ArmGic/ArmGicNonSecLib.c
-	"$(CC)" $(CC_FLAGS) $(CC_XIPFLAGS) -c -o /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Drivers/ArmGic/ArmGicLib/OUTPUT/./ArmGicNonSecLib.obj $(INC) /home/evsio0n/src/edk2sdm/edk2/ArmPkg/Drivers/ArmGic/ArmGicNonSecLib.c
-
-$(OUTPUT_DIR)/ArmGicLib.obj : $(MAKE_FILE)
-$(OUTPUT_DIR)/ArmGicLib.obj : $(COMMON_DEPS)
-$(OUTPUT_DIR)/ArmGicLib.obj : /home/evsio0n/src/edk2sdm/edk2/ArmPkg/Include/Chipset/AArch64Mmu.h
-$(OUTPUT_DIR)/ArmGicLib.obj : /home/evsio0n/src/edk2sdm/edk2/ArmPkg/Include/Library/ArmLib.h
-$(OUTPUT_DIR)/ArmGicLib.obj : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Library/DebugLib.h
-$(OUTPUT_DIR)/ArmGicLib.obj : /home/evsio0n/src/edk2sdm/edk2/ArmPkg/Include/Chipset/ArmV7.h
-$(OUTPUT_DIR)/ArmGicLib.obj : /home/evsio0n/src/edk2sdm/edk2/ArmPkg/Include/Chipset/AArch64.h
-$(OUTPUT_DIR)/ArmGicLib.obj : /home/evsio0n/src/edk2sdm/edk2/ArmPkg/Include/Chipset/ArmV7Mmu.h
-$(OUTPUT_DIR)/ArmGicLib.obj : /home/evsio0n/src/edk2sdm/edk2/ArmPkg/Drivers/ArmGic/ArmGicLib.c
-	"$(CC)" $(CC_FLAGS) $(CC_XIPFLAGS) -c -o /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Drivers/ArmGic/ArmGicLib/OUTPUT/./ArmGicLib.obj $(INC) /home/evsio0n/src/edk2sdm/edk2/ArmPkg/Drivers/ArmGic/ArmGicLib.c
+$(OUTPUT_DIR)/ArmGicNonSecLib.obj : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Guid/HiiFormMapMethodGuid.h
+$(OUTPUT_DIR)/ArmGicNonSecLib.obj : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Uefi/UefiGpt.h
+$(OUTPUT_DIR)/ArmGicNonSecLib.obj : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Uefi/UefiInternalFormRepresentation.h
+$(OUTPUT_DIR)/ArmGicNonSecLib.obj : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/IndustryStandard/Bluetooth.h
+$(OUTPUT_DIR)/ArmGicNonSecLib.obj : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Protocol/DevicePath.h
+$(OUTPUT_DIR)/ArmGicNonSecLib.obj : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Protocol/SimpleTextOut.h
+$(OUTPUT_DIR)/ArmGicNonSecLib.obj : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/IndustryStandard/Acpi10.h
+$(OUTPUT_DIR)/ArmGicNonSecLib.obj : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/IndustryStandard/Acpi60.h
+$(OUTPUT_DIR)/ArmGicNonSecLib.obj : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Uefi.h
+$(OUTPUT_DIR)/ArmGicNonSecLib.obj : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/IndustryStandard/Acpi51.h
+$(OUTPUT_DIR)/ArmGicNonSecLib.obj : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Protocol/SimpleTextInEx.h
+$(OUTPUT_DIR)/ArmGicNonSecLib.obj : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Protocol/SimpleTextIn.h
+$(OUTPUT_DIR)/ArmGicNonSecLib.obj : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Uefi/UefiPxe.h
+$(OUTPUT_DIR)/ArmGicNonSecLib.obj : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Guid/PcAnsi.h
+$(OUTPUT_DIR)/ArmGicNonSecLib.obj : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/IndustryStandard/Acpi50.h
+$(OUTPUT_DIR)/ArmGicNonSecLib.obj : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/IndustryStandard/Acpi20.h
+$(OUTPUT_DIR)/ArmGicNonSecLib.obj : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/IndustryStandard/AcpiAml.h
+$(OUTPUT_DIR)/ArmGicNonSecLib.obj : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/IndustryStandard/Acpi30.h
+$(OUTPUT_DIR)/ArmGicNonSecLib.obj : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/IndustryStandard/Acpi40.h
+$(OUTPUT_DIR)/ArmGicNonSecLib.obj : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Uefi/UefiSpec.h
+$(OUTPUT_DIR)/ArmGicNonSecLib.obj : /mnt/d/TARGET/edk2sdm/edk2/ArmPkg/Drivers/ArmGic/ArmGicNonSecLib.c
+	"$(CC)" $(CC_FLAGS) $(CC_XIPFLAGS) -c -o /mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Drivers/ArmGic/ArmGicLib/OUTPUT/./ArmGicNonSecLib.obj $(INC) /mnt/d/TARGET/edk2sdm/edk2/ArmPkg/Drivers/ArmGic/ArmGicNonSecLib.c
 
 $(OUTPUT_DIR)/ArmGicLib.lib : $(OBJECT_FILES)
 $(OUTPUT_DIR)/ArmGicLib.lib : $(OBJECT_FILES_LIST)
-	$(RM) /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Drivers/ArmGic/ArmGicLib/OUTPUT/ArmGicLib.lib
-	"$(SLINK)" cr /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Drivers/ArmGic/ArmGicLib/OUTPUT/ArmGicLib.lib $(SLINK_FLAGS) @$(OBJECT_FILES_LIST)
+	$(RM) /mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Drivers/ArmGic/ArmGicLib/OUTPUT/ArmGicLib.lib
+	"$(SLINK)" cr /mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Drivers/ArmGic/ArmGicLib/OUTPUT/ArmGicLib.lib $(SLINK_FLAGS) @$(OBJECT_FILES_LIST)
 
 $(OUTPUT_DIR)/GicV3/AArch64/ArmGicV3.obj : $(MAKE_FILE)
-$(OUTPUT_DIR)/GicV3/AArch64/ArmGicV3.obj : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Pi/PiHob.h
+$(OUTPUT_DIR)/GicV3/AArch64/ArmGicV3.obj : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Ppi/CpuIo.h
+$(OUTPUT_DIR)/GicV3/AArch64/ArmGicV3.obj : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Pi/PiBootMode.h
+$(OUTPUT_DIR)/GicV3/AArch64/ArmGicV3.obj : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/IndustryStandard/PeImage.h
+$(OUTPUT_DIR)/GicV3/AArch64/ArmGicV3.obj : /mnt/d/TARGET/edk2sdm/edk2/ArmPkg/Include/AsmMacroIoLibV8.h
+$(OUTPUT_DIR)/GicV3/AArch64/ArmGicV3.obj : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Pi/PiPeiCis.h
+$(OUTPUT_DIR)/GicV3/AArch64/ArmGicV3.obj : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Pi/PiMultiPhase.h
+$(OUTPUT_DIR)/GicV3/AArch64/ArmGicV3.obj : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Protocol/DebugSupport.h
+$(OUTPUT_DIR)/GicV3/AArch64/ArmGicV3.obj : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Pi/PiFirmwareFile.h
+$(OUTPUT_DIR)/GicV3/AArch64/ArmGicV3.obj : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Pi/PiHob.h
+$(OUTPUT_DIR)/GicV3/AArch64/ArmGicV3.obj : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Guid/WinCertificate.h
+$(OUTPUT_DIR)/GicV3/AArch64/ArmGicV3.obj : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Pi/PiFirmwareVolume.h
+$(OUTPUT_DIR)/GicV3/AArch64/ArmGicV3.obj : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Ppi/PciCfg2.h
+$(OUTPUT_DIR)/GicV3/AArch64/ArmGicV3.obj : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Pi/PiS3BootScript.h
+$(OUTPUT_DIR)/GicV3/AArch64/ArmGicV3.obj : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Pi/PiDependency.h
+$(OUTPUT_DIR)/GicV3/AArch64/ArmGicV3.obj : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Library/PcdLib.h
 $(OUTPUT_DIR)/GicV3/AArch64/ArmGicV3.obj : $(DEBUG_DIR)/AutoGen.h
-$(OUTPUT_DIR)/GicV3/AArch64/ArmGicV3.obj : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Guid/WinCertificate.h
-$(OUTPUT_DIR)/GicV3/AArch64/ArmGicV3.obj : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Ppi/PciCfg2.h
-$(OUTPUT_DIR)/GicV3/AArch64/ArmGicV3.obj : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Ppi/CpuIo.h
-$(OUTPUT_DIR)/GicV3/AArch64/ArmGicV3.obj : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Pi/PiFirmwareFile.h
-$(OUTPUT_DIR)/GicV3/AArch64/ArmGicV3.obj : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Uefi/UefiMultiPhase.h
-$(OUTPUT_DIR)/GicV3/AArch64/ArmGicV3.obj : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Pi/PiS3BootScript.h
-$(OUTPUT_DIR)/GicV3/AArch64/ArmGicV3.obj : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/AArch64/ProcessorBind.h
-$(OUTPUT_DIR)/GicV3/AArch64/ArmGicV3.obj : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Pi/PiStatusCode.h
-$(OUTPUT_DIR)/GicV3/AArch64/ArmGicV3.obj : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Pi/PiPeiCis.h
-$(OUTPUT_DIR)/GicV3/AArch64/ArmGicV3.obj : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/PiPei.h
-$(OUTPUT_DIR)/GicV3/AArch64/ArmGicV3.obj : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/IndustryStandard/PeImage.h
-$(OUTPUT_DIR)/GicV3/AArch64/ArmGicV3.obj : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Base.h
-$(OUTPUT_DIR)/GicV3/AArch64/ArmGicV3.obj : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Library/BaseLib.h
-$(OUTPUT_DIR)/GicV3/AArch64/ArmGicV3.obj : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Pi/PiMultiPhase.h
-$(OUTPUT_DIR)/GicV3/AArch64/ArmGicV3.obj : /home/evsio0n/src/edk2sdm/edk2/ArmPkg/Include/AsmMacroIoLibV8.h
-$(OUTPUT_DIR)/GicV3/AArch64/ArmGicV3.obj : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Pi/PiDependency.h
-$(OUTPUT_DIR)/GicV3/AArch64/ArmGicV3.obj : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Protocol/DebugSupport.h
-$(OUTPUT_DIR)/GicV3/AArch64/ArmGicV3.obj : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Pi/PiFirmwareVolume.h
-$(OUTPUT_DIR)/GicV3/AArch64/ArmGicV3.obj : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Library/PcdLib.h
-$(OUTPUT_DIR)/GicV3/AArch64/ArmGicV3.obj : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Uefi/UefiBaseType.h
-$(OUTPUT_DIR)/GicV3/AArch64/ArmGicV3.obj : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Pi/PiBootMode.h
-$(OUTPUT_DIR)/GicV3/AArch64/ArmGicV3.obj : /home/evsio0n/src/edk2sdm/edk2/ArmPkg/Drivers/ArmGic/GicV3/AArch64/ArmGicV3.S
-	"$(PP)" $(PP_FLAGS) $(INC) /home/evsio0n/src/edk2sdm/edk2/ArmPkg/Drivers/ArmGic/GicV3/AArch64/ArmGicV3.S > /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Drivers/ArmGic/ArmGicLib/OUTPUT/GicV3/AArch64/ArmGicV3.i
-	Trim --trim-long --source-code -o /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Drivers/ArmGic/ArmGicLib/OUTPUT/GicV3/AArch64/ArmGicV3.iii /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Drivers/ArmGic/ArmGicLib/OUTPUT/GicV3/AArch64/ArmGicV3.i
-	"$(ASM)" $(ASM_FLAGS) -o /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Drivers/ArmGic/ArmGicLib/OUTPUT/GicV3/AArch64/ArmGicV3.obj $(INC) /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Drivers/ArmGic/ArmGicLib/OUTPUT/GicV3/AArch64/ArmGicV3.iii
+$(OUTPUT_DIR)/GicV3/AArch64/ArmGicV3.obj : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/PiPei.h
+$(OUTPUT_DIR)/GicV3/AArch64/ArmGicV3.obj : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/AArch64/ProcessorBind.h
+$(OUTPUT_DIR)/GicV3/AArch64/ArmGicV3.obj : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Library/BaseLib.h
+$(OUTPUT_DIR)/GicV3/AArch64/ArmGicV3.obj : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Uefi/UefiMultiPhase.h
+$(OUTPUT_DIR)/GicV3/AArch64/ArmGicV3.obj : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Base.h
+$(OUTPUT_DIR)/GicV3/AArch64/ArmGicV3.obj : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Pi/PiStatusCode.h
+$(OUTPUT_DIR)/GicV3/AArch64/ArmGicV3.obj : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Uefi/UefiBaseType.h
+$(OUTPUT_DIR)/GicV3/AArch64/ArmGicV3.obj : /mnt/d/TARGET/edk2sdm/edk2/ArmPkg/Drivers/ArmGic/GicV3/AArch64/ArmGicV3.S
+	"$(PP)" $(PP_FLAGS) $(INC) /mnt/d/TARGET/edk2sdm/edk2/ArmPkg/Drivers/ArmGic/GicV3/AArch64/ArmGicV3.S > /mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Drivers/ArmGic/ArmGicLib/OUTPUT/GicV3/AArch64/ArmGicV3.i
+	Trim --trim-long --source-code -o /mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Drivers/ArmGic/ArmGicLib/OUTPUT/GicV3/AArch64/ArmGicV3.iii /mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Drivers/ArmGic/ArmGicLib/OUTPUT/GicV3/AArch64/ArmGicV3.i
+	"$(ASM)" $(ASM_FLAGS) -o /mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Drivers/ArmGic/ArmGicLib/OUTPUT/GicV3/AArch64/ArmGicV3.obj $(INC) /mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Drivers/ArmGic/ArmGicLib/OUTPUT/GicV3/AArch64/ArmGicV3.iii
 
 
 

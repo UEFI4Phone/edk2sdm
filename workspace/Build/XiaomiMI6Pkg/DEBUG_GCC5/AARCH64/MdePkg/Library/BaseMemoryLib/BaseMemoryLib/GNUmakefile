@@ -19,7 +19,7 @@ PLATFORM_NAME = XiaomiMI6Pkg
 PLATFORM_GUID = 28f1a3bf-193a-47e3-a7b9-5a435eaab2ee
 PLATFORM_VERSION = 0.1
 PLATFORM_RELATIVE_DIR = XiaomiMI6Pkg
-PLATFORM_DIR = /home/evsio0n/src/edk2sdm/Sdm835/XiaomiMI6Pkg
+PLATFORM_DIR = /mnt/d/TARGET/edk2sdm/Sdm835/XiaomiMI6Pkg
 PLATFORM_OUTPUT_DIR = Build/XiaomiMI6Pkg
 
 #
@@ -35,8 +35,8 @@ MODULE_FILE_BASE_NAME = BaseMemoryLib
 BASE_NAME = $(MODULE_NAME)
 MODULE_RELATIVE_DIR = MdePkg/Library/BaseMemoryLib
 PACKAGE_RELATIVE_DIR = Library/BaseMemoryLib
-MODULE_DIR = /home/evsio0n/src/edk2sdm/edk2/MdePkg/Library/BaseMemoryLib
-FFS_OUTPUT_DIR = /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/FV/Ffs/fd44e603-002a-4b29-9f5f-529e815b6165BaseMemoryLib
+MODULE_DIR = /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Library/BaseMemoryLib
+FFS_OUTPUT_DIR = /mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/FV/Ffs/fd44e603-002a-4b29-9f5f-529e815b6165BaseMemoryLib
 
 MODULE_ENTRY_POINT = _ModuleEntryPoint
 ARCH_ENTRY_POINT = _ModuleEntryPoint
@@ -60,13 +60,13 @@ TARGET = DEBUG
 #
 # Build Directory Macro Definition
 #
-# PLATFORM_BUILD_DIR = /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5
-BUILD_DIR = /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5
+# PLATFORM_BUILD_DIR = /mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5
+BUILD_DIR = /mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5
 BIN_DIR = $(BUILD_DIR)/AARCH64
 LIB_DIR = $(BIN_DIR)
-MODULE_BUILD_DIR = /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLib/BaseMemoryLib
-OUTPUT_DIR = /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLib/BaseMemoryLib/OUTPUT
-DEBUG_DIR = /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLib/BaseMemoryLib/DEBUG
+MODULE_BUILD_DIR = /mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLib/BaseMemoryLib
+OUTPUT_DIR = /mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLib/BaseMemoryLib/OUTPUT
+DEBUG_DIR = /mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLib/BaseMemoryLib/DEBUG
 DEST_DIR_OUTPUT = $(OUTPUT_DIR)
 DEST_DIR_DEBUG = $(DEBUG_DIR)
 
@@ -170,7 +170,7 @@ PP_FLAGS = $(ARCHCC_FLAGS) $(PLATFORM_FLAGS) -E -x assembler-with-cpp -include $
 VFRPP = aarch64-linux-gnu-gcc
 VFRPP_FLAGS = $(ARCHCC_FLAGS) $(PLATFORM_FLAGS) -x c -E -P -DVFRCOMPILE --include $(DEST_DIR_DEBUG)/$(MODULE_NAME)StrDefs.h
 
-DLINK_FLAGS = -Wl,--emit-relocs -nostdlib -Wl,--gc-sections -u $(IMAGE_ENTRY_POINT) -Wl,-e,$(IMAGE_ENTRY_POINT),-Map,$(DEST_DIR_DEBUG)/$(BASE_NAME).map -z common-page-size=0x20 -z common-page-size=0x1000 -flto -Os -L/home/evsio0n/src/edk2sdm/edk2/ArmPkg/Library/GccLto -llto-aarch64 -Wl,-plugin-opt=-pass-through=-llto-aarch64 -Wno-lto-type-mismatch
+DLINK_FLAGS = -Wl,--emit-relocs -nostdlib -Wl,--gc-sections -u $(IMAGE_ENTRY_POINT) -Wl,-e,$(IMAGE_ENTRY_POINT),-Map,$(DEST_DIR_DEBUG)/$(BASE_NAME).map -z common-page-size=0x20 -z common-page-size=0x1000 -flto -Os -L/mnt/d/TARGET/edk2sdm/edk2/ArmPkg/Library/GccLto -llto-aarch64 -Wl,-plugin-opt=-pass-through=-llto-aarch64 -Wno-lto-type-mismatch
 DLINK_XIPFLAGS =  -z common-page-size=0x20
 DLINK = aarch64-linux-gnu-gcc
 
@@ -218,22 +218,22 @@ OBJECT_FILES =  \
     $(OUTPUT_DIR)/CopyMem.obj
 
 INC =  \
-    -I/home/evsio0n/src/edk2sdm/edk2/MdePkg/Library/BaseMemoryLib \
+    -I/mnt/d/TARGET/edk2sdm/edk2/MdePkg/Library/BaseMemoryLib \
     -I$(DEBUG_DIR) \
-    -I/home/evsio0n/src/edk2sdm/edk2/MdePkg \
-    -I/home/evsio0n/src/edk2sdm/edk2/MdePkg/Include \
-    -I/home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/AArch64
+    -I/mnt/d/TARGET/edk2sdm/edk2/MdePkg \
+    -I/mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include \
+    -I/mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/AArch64
 
-OBJECT_FILES_LIST = /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLib/BaseMemoryLib/OUTPUT/object_files.lst
+OBJECT_FILES_LIST = /mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLib/BaseMemoryLib/OUTPUT/object_files.lst
 
 
-COMMON_DEPS = /home/evsio0n/src/edk2sdm/edk2/MdePkg/Library/BaseMemoryLib/MemLibInternals.h \
-              /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Library/BaseMemoryLib.h \
-              /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/AArch64/ProcessorBind.h \
-              /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Library/DebugLib.h \
+COMMON_DEPS = /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Library/BaseMemoryLib/MemLibInternals.h \
               $(DEBUG_DIR)/AutoGen.h \
-              /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Base.h \
-              /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Library/BaseLib.h \
+              /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/AArch64/ProcessorBind.h \
+              /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Base.h \
+              /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Library/DebugLib.h \
+              /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Library/BaseLib.h \
+              /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Library/BaseMemoryLib.h \
               
 
 #
@@ -243,7 +243,7 @@ FORCE_REBUILD = force_build
 INIT_TARGET = init
 PCH_TARGET =
 BC_TARGET = 
-CODA_TARGET = /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLib/BaseMemoryLib/OUTPUT/BaseMemoryLib.lib \
+CODA_TARGET = /mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLib/BaseMemoryLib/OUTPUT/BaseMemoryLib.lib \
               
 
 #
@@ -315,90 +315,90 @@ gen_fds:
 #
 # Individual Object Build Targets
 #
-$(OUTPUT_DIR)/ScanMem16Wrapper.obj : $(MAKE_FILE)
-$(OUTPUT_DIR)/ScanMem16Wrapper.obj : $(COMMON_DEPS)
-$(OUTPUT_DIR)/ScanMem16Wrapper.obj : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Library/BaseMemoryLib/ScanMem16Wrapper.c
-	"$(CC)" $(CC_FLAGS) $(CC_XIPFLAGS) -c -o /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLib/BaseMemoryLib/OUTPUT/./ScanMem16Wrapper.obj $(INC) /home/evsio0n/src/edk2sdm/edk2/MdePkg/Library/BaseMemoryLib/ScanMem16Wrapper.c
-
-$(OUTPUT_DIR)/ScanMem32Wrapper.obj : $(MAKE_FILE)
-$(OUTPUT_DIR)/ScanMem32Wrapper.obj : $(COMMON_DEPS)
-$(OUTPUT_DIR)/ScanMem32Wrapper.obj : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Library/BaseMemoryLib/ScanMem32Wrapper.c
-	"$(CC)" $(CC_FLAGS) $(CC_XIPFLAGS) -c -o /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLib/BaseMemoryLib/OUTPUT/./ScanMem32Wrapper.obj $(INC) /home/evsio0n/src/edk2sdm/edk2/MdePkg/Library/BaseMemoryLib/ScanMem32Wrapper.c
-
 $(OUTPUT_DIR)/ZeroMemWrapper.obj : $(MAKE_FILE)
 $(OUTPUT_DIR)/ZeroMemWrapper.obj : $(COMMON_DEPS)
-$(OUTPUT_DIR)/ZeroMemWrapper.obj : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Library/BaseMemoryLib/ZeroMemWrapper.c
-	"$(CC)" $(CC_FLAGS) $(CC_XIPFLAGS) -c -o /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLib/BaseMemoryLib/OUTPUT/./ZeroMemWrapper.obj $(INC) /home/evsio0n/src/edk2sdm/edk2/MdePkg/Library/BaseMemoryLib/ZeroMemWrapper.c
-
-$(OUTPUT_DIR)/SetMemWrapper.obj : $(MAKE_FILE)
-$(OUTPUT_DIR)/SetMemWrapper.obj : $(COMMON_DEPS)
-$(OUTPUT_DIR)/SetMemWrapper.obj : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Library/BaseMemoryLib/SetMemWrapper.c
-	"$(CC)" $(CC_FLAGS) $(CC_XIPFLAGS) -c -o /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLib/BaseMemoryLib/OUTPUT/./SetMemWrapper.obj $(INC) /home/evsio0n/src/edk2sdm/edk2/MdePkg/Library/BaseMemoryLib/SetMemWrapper.c
-
-$(OUTPUT_DIR)/ScanMem8Wrapper.obj : $(MAKE_FILE)
-$(OUTPUT_DIR)/ScanMem8Wrapper.obj : $(COMMON_DEPS)
-$(OUTPUT_DIR)/ScanMem8Wrapper.obj : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Library/BaseMemoryLib/ScanMem8Wrapper.c
-	"$(CC)" $(CC_FLAGS) $(CC_XIPFLAGS) -c -o /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLib/BaseMemoryLib/OUTPUT/./ScanMem8Wrapper.obj $(INC) /home/evsio0n/src/edk2sdm/edk2/MdePkg/Library/BaseMemoryLib/ScanMem8Wrapper.c
+$(OUTPUT_DIR)/ZeroMemWrapper.obj : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Library/BaseMemoryLib/ZeroMemWrapper.c
+	"$(CC)" $(CC_FLAGS) $(CC_XIPFLAGS) -c -o /mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLib/BaseMemoryLib/OUTPUT/./ZeroMemWrapper.obj $(INC) /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Library/BaseMemoryLib/ZeroMemWrapper.c
 
 $(OUTPUT_DIR)/SetMem64Wrapper.obj : $(MAKE_FILE)
 $(OUTPUT_DIR)/SetMem64Wrapper.obj : $(COMMON_DEPS)
-$(OUTPUT_DIR)/SetMem64Wrapper.obj : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Library/BaseMemoryLib/SetMem64Wrapper.c
-	"$(CC)" $(CC_FLAGS) $(CC_XIPFLAGS) -c -o /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLib/BaseMemoryLib/OUTPUT/./SetMem64Wrapper.obj $(INC) /home/evsio0n/src/edk2sdm/edk2/MdePkg/Library/BaseMemoryLib/SetMem64Wrapper.c
+$(OUTPUT_DIR)/SetMem64Wrapper.obj : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Library/BaseMemoryLib/SetMem64Wrapper.c
+	"$(CC)" $(CC_FLAGS) $(CC_XIPFLAGS) -c -o /mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLib/BaseMemoryLib/OUTPUT/./SetMem64Wrapper.obj $(INC) /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Library/BaseMemoryLib/SetMem64Wrapper.c
 
-$(OUTPUT_DIR)/ScanMem64Wrapper.obj : $(MAKE_FILE)
-$(OUTPUT_DIR)/ScanMem64Wrapper.obj : $(COMMON_DEPS)
-$(OUTPUT_DIR)/ScanMem64Wrapper.obj : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Library/BaseMemoryLib/ScanMem64Wrapper.c
-	"$(CC)" $(CC_FLAGS) $(CC_XIPFLAGS) -c -o /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLib/BaseMemoryLib/OUTPUT/./ScanMem64Wrapper.obj $(INC) /home/evsio0n/src/edk2sdm/edk2/MdePkg/Library/BaseMemoryLib/ScanMem64Wrapper.c
-
-$(OUTPUT_DIR)/IsZeroBufferWrapper.obj : $(MAKE_FILE)
-$(OUTPUT_DIR)/IsZeroBufferWrapper.obj : $(COMMON_DEPS)
-$(OUTPUT_DIR)/IsZeroBufferWrapper.obj : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Library/BaseMemoryLib/IsZeroBufferWrapper.c
-	"$(CC)" $(CC_FLAGS) $(CC_XIPFLAGS) -c -o /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLib/BaseMemoryLib/OUTPUT/./IsZeroBufferWrapper.obj $(INC) /home/evsio0n/src/edk2sdm/edk2/MdePkg/Library/BaseMemoryLib/IsZeroBufferWrapper.c
-
-$(OUTPUT_DIR)/MemLibGeneric.obj : $(MAKE_FILE)
-$(OUTPUT_DIR)/MemLibGeneric.obj : $(COMMON_DEPS)
-$(OUTPUT_DIR)/MemLibGeneric.obj : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Library/BaseMemoryLib/MemLibGeneric.c
-	"$(CC)" $(CC_FLAGS) $(CC_XIPFLAGS) -c -o /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLib/BaseMemoryLib/OUTPUT/./MemLibGeneric.obj $(INC) /home/evsio0n/src/edk2sdm/edk2/MdePkg/Library/BaseMemoryLib/MemLibGeneric.c
-
-$(OUTPUT_DIR)/SetMem16Wrapper.obj : $(MAKE_FILE)
-$(OUTPUT_DIR)/SetMem16Wrapper.obj : $(COMMON_DEPS)
-$(OUTPUT_DIR)/SetMem16Wrapper.obj : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Library/BaseMemoryLib/SetMem16Wrapper.c
-	"$(CC)" $(CC_FLAGS) $(CC_XIPFLAGS) -c -o /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLib/BaseMemoryLib/OUTPUT/./SetMem16Wrapper.obj $(INC) /home/evsio0n/src/edk2sdm/edk2/MdePkg/Library/BaseMemoryLib/SetMem16Wrapper.c
-
-$(OUTPUT_DIR)/MemLibGuid.obj : $(MAKE_FILE)
-$(OUTPUT_DIR)/MemLibGuid.obj : $(COMMON_DEPS)
-$(OUTPUT_DIR)/MemLibGuid.obj : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Library/BaseMemoryLib/MemLibGuid.c
-	"$(CC)" $(CC_FLAGS) $(CC_XIPFLAGS) -c -o /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLib/BaseMemoryLib/OUTPUT/./MemLibGuid.obj $(INC) /home/evsio0n/src/edk2sdm/edk2/MdePkg/Library/BaseMemoryLib/MemLibGuid.c
-
-$(OUTPUT_DIR)/SetMem.obj : $(MAKE_FILE)
-$(OUTPUT_DIR)/SetMem.obj : $(COMMON_DEPS)
-$(OUTPUT_DIR)/SetMem.obj : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Library/BaseMemoryLib/SetMem.c
-	"$(CC)" $(CC_FLAGS) $(CC_XIPFLAGS) -c -o /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLib/BaseMemoryLib/OUTPUT/./SetMem.obj $(INC) /home/evsio0n/src/edk2sdm/edk2/MdePkg/Library/BaseMemoryLib/SetMem.c
-
-$(OUTPUT_DIR)/CopyMemWrapper.obj : $(MAKE_FILE)
-$(OUTPUT_DIR)/CopyMemWrapper.obj : $(COMMON_DEPS)
-$(OUTPUT_DIR)/CopyMemWrapper.obj : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Library/BaseMemoryLib/CopyMemWrapper.c
-	"$(CC)" $(CC_FLAGS) $(CC_XIPFLAGS) -c -o /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLib/BaseMemoryLib/OUTPUT/./CopyMemWrapper.obj $(INC) /home/evsio0n/src/edk2sdm/edk2/MdePkg/Library/BaseMemoryLib/CopyMemWrapper.c
-
-$(OUTPUT_DIR)/CompareMemWrapper.obj : $(MAKE_FILE)
-$(OUTPUT_DIR)/CompareMemWrapper.obj : $(COMMON_DEPS)
-$(OUTPUT_DIR)/CompareMemWrapper.obj : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Library/BaseMemoryLib/CompareMemWrapper.c
-	"$(CC)" $(CC_FLAGS) $(CC_XIPFLAGS) -c -o /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLib/BaseMemoryLib/OUTPUT/./CompareMemWrapper.obj $(INC) /home/evsio0n/src/edk2sdm/edk2/MdePkg/Library/BaseMemoryLib/CompareMemWrapper.c
-
-$(OUTPUT_DIR)/CopyMem.obj : $(MAKE_FILE)
-$(OUTPUT_DIR)/CopyMem.obj : $(COMMON_DEPS)
-$(OUTPUT_DIR)/CopyMem.obj : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Library/BaseMemoryLib/CopyMem.c
-	"$(CC)" $(CC_FLAGS) $(CC_XIPFLAGS) -c -o /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLib/BaseMemoryLib/OUTPUT/./CopyMem.obj $(INC) /home/evsio0n/src/edk2sdm/edk2/MdePkg/Library/BaseMemoryLib/CopyMem.c
+$(OUTPUT_DIR)/ScanMem32Wrapper.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/ScanMem32Wrapper.obj : $(COMMON_DEPS)
+$(OUTPUT_DIR)/ScanMem32Wrapper.obj : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Library/BaseMemoryLib/ScanMem32Wrapper.c
+	"$(CC)" $(CC_FLAGS) $(CC_XIPFLAGS) -c -o /mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLib/BaseMemoryLib/OUTPUT/./ScanMem32Wrapper.obj $(INC) /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Library/BaseMemoryLib/ScanMem32Wrapper.c
 
 $(OUTPUT_DIR)/SetMem32Wrapper.obj : $(MAKE_FILE)
 $(OUTPUT_DIR)/SetMem32Wrapper.obj : $(COMMON_DEPS)
-$(OUTPUT_DIR)/SetMem32Wrapper.obj : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Library/BaseMemoryLib/SetMem32Wrapper.c
-	"$(CC)" $(CC_FLAGS) $(CC_XIPFLAGS) -c -o /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLib/BaseMemoryLib/OUTPUT/./SetMem32Wrapper.obj $(INC) /home/evsio0n/src/edk2sdm/edk2/MdePkg/Library/BaseMemoryLib/SetMem32Wrapper.c
+$(OUTPUT_DIR)/SetMem32Wrapper.obj : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Library/BaseMemoryLib/SetMem32Wrapper.c
+	"$(CC)" $(CC_FLAGS) $(CC_XIPFLAGS) -c -o /mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLib/BaseMemoryLib/OUTPUT/./SetMem32Wrapper.obj $(INC) /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Library/BaseMemoryLib/SetMem32Wrapper.c
+
+$(OUTPUT_DIR)/CopyMemWrapper.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/CopyMemWrapper.obj : $(COMMON_DEPS)
+$(OUTPUT_DIR)/CopyMemWrapper.obj : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Library/BaseMemoryLib/CopyMemWrapper.c
+	"$(CC)" $(CC_FLAGS) $(CC_XIPFLAGS) -c -o /mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLib/BaseMemoryLib/OUTPUT/./CopyMemWrapper.obj $(INC) /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Library/BaseMemoryLib/CopyMemWrapper.c
+
+$(OUTPUT_DIR)/ScanMem8Wrapper.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/ScanMem8Wrapper.obj : $(COMMON_DEPS)
+$(OUTPUT_DIR)/ScanMem8Wrapper.obj : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Library/BaseMemoryLib/ScanMem8Wrapper.c
+	"$(CC)" $(CC_FLAGS) $(CC_XIPFLAGS) -c -o /mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLib/BaseMemoryLib/OUTPUT/./ScanMem8Wrapper.obj $(INC) /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Library/BaseMemoryLib/ScanMem8Wrapper.c
+
+$(OUTPUT_DIR)/CopyMem.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/CopyMem.obj : $(COMMON_DEPS)
+$(OUTPUT_DIR)/CopyMem.obj : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Library/BaseMemoryLib/CopyMem.c
+	"$(CC)" $(CC_FLAGS) $(CC_XIPFLAGS) -c -o /mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLib/BaseMemoryLib/OUTPUT/./CopyMem.obj $(INC) /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Library/BaseMemoryLib/CopyMem.c
+
+$(OUTPUT_DIR)/ScanMem64Wrapper.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/ScanMem64Wrapper.obj : $(COMMON_DEPS)
+$(OUTPUT_DIR)/ScanMem64Wrapper.obj : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Library/BaseMemoryLib/ScanMem64Wrapper.c
+	"$(CC)" $(CC_FLAGS) $(CC_XIPFLAGS) -c -o /mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLib/BaseMemoryLib/OUTPUT/./ScanMem64Wrapper.obj $(INC) /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Library/BaseMemoryLib/ScanMem64Wrapper.c
+
+$(OUTPUT_DIR)/ScanMem16Wrapper.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/ScanMem16Wrapper.obj : $(COMMON_DEPS)
+$(OUTPUT_DIR)/ScanMem16Wrapper.obj : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Library/BaseMemoryLib/ScanMem16Wrapper.c
+	"$(CC)" $(CC_FLAGS) $(CC_XIPFLAGS) -c -o /mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLib/BaseMemoryLib/OUTPUT/./ScanMem16Wrapper.obj $(INC) /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Library/BaseMemoryLib/ScanMem16Wrapper.c
+
+$(OUTPUT_DIR)/IsZeroBufferWrapper.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/IsZeroBufferWrapper.obj : $(COMMON_DEPS)
+$(OUTPUT_DIR)/IsZeroBufferWrapper.obj : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Library/BaseMemoryLib/IsZeroBufferWrapper.c
+	"$(CC)" $(CC_FLAGS) $(CC_XIPFLAGS) -c -o /mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLib/BaseMemoryLib/OUTPUT/./IsZeroBufferWrapper.obj $(INC) /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Library/BaseMemoryLib/IsZeroBufferWrapper.c
+
+$(OUTPUT_DIR)/SetMem.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/SetMem.obj : $(COMMON_DEPS)
+$(OUTPUT_DIR)/SetMem.obj : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Library/BaseMemoryLib/SetMem.c
+	"$(CC)" $(CC_FLAGS) $(CC_XIPFLAGS) -c -o /mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLib/BaseMemoryLib/OUTPUT/./SetMem.obj $(INC) /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Library/BaseMemoryLib/SetMem.c
+
+$(OUTPUT_DIR)/CompareMemWrapper.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/CompareMemWrapper.obj : $(COMMON_DEPS)
+$(OUTPUT_DIR)/CompareMemWrapper.obj : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Library/BaseMemoryLib/CompareMemWrapper.c
+	"$(CC)" $(CC_FLAGS) $(CC_XIPFLAGS) -c -o /mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLib/BaseMemoryLib/OUTPUT/./CompareMemWrapper.obj $(INC) /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Library/BaseMemoryLib/CompareMemWrapper.c
+
+$(OUTPUT_DIR)/SetMemWrapper.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/SetMemWrapper.obj : $(COMMON_DEPS)
+$(OUTPUT_DIR)/SetMemWrapper.obj : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Library/BaseMemoryLib/SetMemWrapper.c
+	"$(CC)" $(CC_FLAGS) $(CC_XIPFLAGS) -c -o /mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLib/BaseMemoryLib/OUTPUT/./SetMemWrapper.obj $(INC) /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Library/BaseMemoryLib/SetMemWrapper.c
+
+$(OUTPUT_DIR)/MemLibGuid.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/MemLibGuid.obj : $(COMMON_DEPS)
+$(OUTPUT_DIR)/MemLibGuid.obj : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Library/BaseMemoryLib/MemLibGuid.c
+	"$(CC)" $(CC_FLAGS) $(CC_XIPFLAGS) -c -o /mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLib/BaseMemoryLib/OUTPUT/./MemLibGuid.obj $(INC) /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Library/BaseMemoryLib/MemLibGuid.c
+
+$(OUTPUT_DIR)/MemLibGeneric.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/MemLibGeneric.obj : $(COMMON_DEPS)
+$(OUTPUT_DIR)/MemLibGeneric.obj : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Library/BaseMemoryLib/MemLibGeneric.c
+	"$(CC)" $(CC_FLAGS) $(CC_XIPFLAGS) -c -o /mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLib/BaseMemoryLib/OUTPUT/./MemLibGeneric.obj $(INC) /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Library/BaseMemoryLib/MemLibGeneric.c
+
+$(OUTPUT_DIR)/SetMem16Wrapper.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/SetMem16Wrapper.obj : $(COMMON_DEPS)
+$(OUTPUT_DIR)/SetMem16Wrapper.obj : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Library/BaseMemoryLib/SetMem16Wrapper.c
+	"$(CC)" $(CC_FLAGS) $(CC_XIPFLAGS) -c -o /mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLib/BaseMemoryLib/OUTPUT/./SetMem16Wrapper.obj $(INC) /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Library/BaseMemoryLib/SetMem16Wrapper.c
 
 $(OUTPUT_DIR)/BaseMemoryLib.lib : $(OBJECT_FILES)
 $(OUTPUT_DIR)/BaseMemoryLib.lib : $(OBJECT_FILES_LIST)
-	$(RM) /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLib/BaseMemoryLib/OUTPUT/BaseMemoryLib.lib
-	"$(SLINK)" cr /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLib/BaseMemoryLib/OUTPUT/BaseMemoryLib.lib $(SLINK_FLAGS) @$(OBJECT_FILES_LIST)
+	$(RM) /mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLib/BaseMemoryLib/OUTPUT/BaseMemoryLib.lib
+	"$(SLINK)" cr /mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLib/BaseMemoryLib/OUTPUT/BaseMemoryLib.lib $(SLINK_FLAGS) @$(OBJECT_FILES_LIST)
 
 
 

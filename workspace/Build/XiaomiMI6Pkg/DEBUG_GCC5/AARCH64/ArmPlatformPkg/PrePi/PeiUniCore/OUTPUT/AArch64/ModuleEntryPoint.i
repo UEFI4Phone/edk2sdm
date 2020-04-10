@@ -1,19 +1,19 @@
-# 1 "/home/evsio0n/src/edk2sdm/edk2/ArmPlatformPkg/PrePi/AArch64/ModuleEntryPoint.S"
+# 1 "/mnt/d/TARGET/edk2sdm/edk2/ArmPlatformPkg/PrePi/AArch64/ModuleEntryPoint.S"
 # 1 "<built-in>"
 # 1 "<command-line>"
 # 31 "<command-line>"
 # 1 "/usr/aarch64-linux-gnu/include/stdc-predef.h" 1 3
 # 32 "<command-line>" 2
-# 1 "/home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPlatformPkg/PrePi/PeiUniCore/DEBUG/AutoGen.h" 1
-# 16 "/home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPlatformPkg/PrePi/PeiUniCore/DEBUG/AutoGen.h"
-# 1 "/home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/PiPei.h" 1
-# 17 "/home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/PiPei.h"
-# 1 "/home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Uefi/UefiBaseType.h" 1
-# 14 "/home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Uefi/UefiBaseType.h"
-# 1 "/home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Base.h" 1
-# 22 "/home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Base.h"
-# 1 "/home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/AArch64/ProcessorBind.h" 1
-# 94 "/home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/AArch64/ProcessorBind.h"
+# 1 "/mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPlatformPkg/PrePi/PeiUniCore/DEBUG/AutoGen.h" 1
+# 16 "/mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPlatformPkg/PrePi/PeiUniCore/DEBUG/AutoGen.h"
+# 1 "/mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/PiPei.h" 1
+# 17 "/mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/PiPei.h"
+# 1 "/mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Uefi/UefiBaseType.h" 1
+# 14 "/mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Uefi/UefiBaseType.h"
+# 1 "/mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Base.h" 1
+# 22 "/mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Base.h"
+# 1 "/mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/AArch64/ProcessorBind.h" 1
+# 94 "/mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/AArch64/ProcessorBind.h"
   typedef unsigned long long UINT64;
   typedef long long INT64;
   typedef unsigned int UINT32;
@@ -39,8 +39,8 @@ typedef UINT64 UINTN;
 
 
 typedef INT64 INTN;
-# 23 "/home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Base.h" 2
-# 48 "/home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Base.h"
+# 23 "/mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Base.h" 2
+# 48 "/mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Base.h"
 extern UINT8 _VerifySizeofBOOLEAN[(sizeof(BOOLEAN) == (1)) / (sizeof(BOOLEAN) == (1))];
 extern UINT8 _VerifySizeofINT8[(sizeof(INT8) == (1)) / (sizeof(INT8) == (1))];
 extern UINT8 _VerifySizeofUINT8[(sizeof(UINT8) == (1)) / (sizeof(UINT8) == (1))];
@@ -52,7 +52,7 @@ extern UINT8 _VerifySizeofINT64[(sizeof(INT64) == (8)) / (sizeof(INT64) == (8))]
 extern UINT8 _VerifySizeofUINT64[(sizeof(UINT64) == (8)) / (sizeof(UINT64) == (8))];
 extern UINT8 _VerifySizeofCHAR8[(sizeof(CHAR8) == (1)) / (sizeof(CHAR8) == (1))];
 extern UINT8 _VerifySizeofCHAR16[(sizeof(CHAR16) == (2)) / (sizeof(CHAR16) == (2))];
-# 67 "/home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Base.h"
+# 67 "/mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Base.h"
 typedef enum {
   __VerifyUint8EnumValue = 0xff
 } __VERIFY_UINT8_ENUM_SIZE;
@@ -68,7 +68,7 @@ typedef enum {
 extern UINT8 _VerifySizeof__VERIFY_UINT8_ENUM_SIZE[(sizeof(__VERIFY_UINT8_ENUM_SIZE) == (4)) / (sizeof(__VERIFY_UINT8_ENUM_SIZE) == (4))];
 extern UINT8 _VerifySizeof__VERIFY_UINT16_ENUM_SIZE[(sizeof(__VERIFY_UINT16_ENUM_SIZE) == (4)) / (sizeof(__VERIFY_UINT16_ENUM_SIZE) == (4))];
 extern UINT8 _VerifySizeof__VERIFY_UINT32_ENUM_SIZE[(sizeof(__VERIFY_UINT32_ENUM_SIZE) == (4)) / (sizeof(__VERIFY_UINT32_ENUM_SIZE) == (4))];
-# 274 "/home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Base.h"
+# 274 "/mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Base.h"
 typedef struct {
   UINT32 Data1;
   UINT16 Data2;
@@ -107,16 +107,16 @@ struct _LIST_ENTRY {
   LIST_ENTRY *ForwardLink;
   LIST_ENTRY *BackLink;
 };
-# 709 "/home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Base.h"
+# 709 "/mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Base.h"
 typedef __builtin_va_list VA_LIST;
-# 794 "/home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Base.h"
+# 794 "/mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Base.h"
 typedef UINTN *BASE_LIST;
-# 958 "/home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Base.h"
+# 958 "/mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Base.h"
 typedef UINTN RETURN_STATUS;
-# 1274 "/home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Base.h"
+# 1274 "/mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Base.h"
   void * __builtin_return_address (unsigned int level);
-# 15 "/home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Uefi/UefiBaseType.h" 2
-# 23 "/home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Uefi/UefiBaseType.h"
+# 15 "/mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Uefi/UefiBaseType.h" 2
+# 23 "/mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Uefi/UefiBaseType.h"
 typedef GUID EFI_GUID;
 
 
@@ -148,7 +148,7 @@ typedef UINT64 EFI_PHYSICAL_ADDRESS;
 
 
 typedef UINT64 EFI_VIRTUAL_ADDRESS;
-# 66 "/home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Uefi/UefiBaseType.h"
+# 66 "/mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Uefi/UefiBaseType.h"
 typedef struct {
   UINT16 Year;
   UINT8 Month;
@@ -190,13 +190,13 @@ typedef union {
   EFI_IPv4_ADDRESS v4;
   EFI_IPv6_ADDRESS v6;
 } EFI_IP_ADDRESS;
-# 18 "/home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/PiPei.h" 2
-# 1 "/home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Pi/PiPeiCis.h" 1
-# 15 "/home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Pi/PiPeiCis.h"
-# 1 "/home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Uefi/UefiMultiPhase.h" 1
-# 34 "/home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Uefi/UefiMultiPhase.h"
-# 1 "/home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Guid/WinCertificate.h" 1
-# 24 "/home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Guid/WinCertificate.h"
+# 18 "/mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/PiPei.h" 2
+# 1 "/mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Pi/PiPeiCis.h" 1
+# 15 "/mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Pi/PiPeiCis.h"
+# 1 "/mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Uefi/UefiMultiPhase.h" 1
+# 34 "/mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Uefi/UefiMultiPhase.h"
+# 1 "/mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Guid/WinCertificate.h" 1
+# 24 "/mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Guid/WinCertificate.h"
 typedef struct {
 
 
@@ -221,7 +221,7 @@ typedef struct {
 
 
 } WIN_CERTIFICATE;
-# 58 "/home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Guid/WinCertificate.h"
+# 58 "/mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Guid/WinCertificate.h"
 typedef struct {
   EFI_GUID HashType;
   UINT8 PublicKey[256];
@@ -251,7 +251,7 @@ typedef struct {
 
   UINT8 CertData[1];
 } WIN_CERTIFICATE_UEFI_GUID;
-# 97 "/home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Guid/WinCertificate.h"
+# 97 "/mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Guid/WinCertificate.h"
 typedef struct {
 
 
@@ -263,11 +263,11 @@ typedef struct {
 
 
   EFI_GUID HashAlgorithm;
-# 118 "/home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Guid/WinCertificate.h"
+# 118 "/mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Guid/WinCertificate.h"
 } WIN_CERTIFICATE_EFI_PKCS1_15;
 
 extern EFI_GUID gEfiCertTypeRsa2048Sha256Guid;
-# 35 "/home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Uefi/UefiMultiPhase.h" 2
+# 35 "/mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Uefi/UefiMultiPhase.h" 2
 
 
 
@@ -406,7 +406,7 @@ typedef struct {
 
   UINT32 Reserved;
 } EFI_TABLE_HEADER;
-# 189 "/home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Uefi/UefiMultiPhase.h"
+# 189 "/mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Uefi/UefiMultiPhase.h"
 typedef struct {
 
 
@@ -415,10 +415,10 @@ typedef struct {
 
 
   UINT64 MonotonicCount;
-# 205 "/home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Uefi/UefiMultiPhase.h"
+# 205 "/mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Uefi/UefiMultiPhase.h"
   WIN_CERTIFICATE_UEFI_GUID AuthInfo;
 } EFI_VARIABLE_AUTHENTICATION;
-# 216 "/home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Uefi/UefiMultiPhase.h"
+# 216 "/mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Uefi/UefiMultiPhase.h"
 typedef struct {
 
 
@@ -430,15 +430,15 @@ typedef struct {
 
   WIN_CERTIFICATE_UEFI_GUID AuthInfo;
  } EFI_VARIABLE_AUTHENTICATION_2;
-# 16 "/home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Pi/PiPeiCis.h" 2
-# 1 "/home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Pi/PiMultiPhase.h" 1
-# 15 "/home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Pi/PiMultiPhase.h"
-# 1 "/home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Pi/PiFirmwareVolume.h" 1
-# 18 "/home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Pi/PiFirmwareVolume.h"
+# 16 "/mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Pi/PiPeiCis.h" 2
+# 1 "/mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Pi/PiMultiPhase.h" 1
+# 15 "/mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Pi/PiMultiPhase.h"
+# 1 "/mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Pi/PiFirmwareVolume.h" 1
+# 18 "/mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Pi/PiFirmwareVolume.h"
 typedef UINT32 EFI_FV_FILE_ATTRIBUTES;
-# 30 "/home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Pi/PiFirmwareVolume.h"
+# 30 "/mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Pi/PiFirmwareVolume.h"
 typedef UINT32 EFI_FVB_ATTRIBUTES_2;
-# 85 "/home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Pi/PiFirmwareVolume.h"
+# 85 "/mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Pi/PiFirmwareVolume.h"
 typedef struct {
 
 
@@ -503,7 +503,7 @@ typedef struct {
 
   EFI_FV_BLOCK_MAP_ENTRY BlockMap[1];
 } EFI_FIRMWARE_VOLUME_HEADER;
-# 160 "/home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Pi/PiFirmwareVolume.h"
+# 160 "/mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Pi/PiFirmwareVolume.h"
 typedef struct {
 
 
@@ -590,9 +590,9 @@ typedef struct {
 
   UINT32 UsedSize;
 } EFI_FIRMWARE_VOLUME_EXT_ENTRY_USED_SIZE_TYPE;
-# 16 "/home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Pi/PiMultiPhase.h" 2
-# 1 "/home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Pi/PiFirmwareFile.h" 1
-# 20 "/home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Pi/PiFirmwareFile.h"
+# 16 "/mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Pi/PiMultiPhase.h" 2
+# 1 "/mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Pi/PiFirmwareFile.h" 1
+# 20 "/mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Pi/PiFirmwareFile.h"
 typedef union {
   struct {
 
@@ -601,7 +601,7 @@ typedef union {
 
 
     UINT8 Header;
-# 37 "/home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Pi/PiFirmwareFile.h"
+# 37 "/mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Pi/PiFirmwareFile.h"
     UINT8 File;
   } Checksum;
 
@@ -619,7 +619,7 @@ typedef union {
 typedef UINT8 EFI_FV_FILETYPE;
 typedef UINT8 EFI_FFS_FILE_ATTRIBUTES;
 typedef UINT8 EFI_FFS_FILE_STATE;
-# 108 "/home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Pi/PiFirmwareFile.h"
+# 108 "/mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Pi/PiFirmwareFile.h"
 typedef struct {
 
 
@@ -669,7 +669,7 @@ typedef struct {
 
 
   EFI_FFS_FILE_ATTRIBUTES Attributes;
-# 165 "/home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Pi/PiFirmwareFile.h"
+# 165 "/mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Pi/PiFirmwareFile.h"
   UINT8 Size[3];
 
 
@@ -683,9 +683,9 @@ typedef struct {
 
   UINT64 ExtendedSize;
 } EFI_FFS_FILE_HEADER2;
-# 195 "/home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Pi/PiFirmwareFile.h"
+# 195 "/mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Pi/PiFirmwareFile.h"
 typedef UINT8 EFI_SECTION_TYPE;
-# 232 "/home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Pi/PiFirmwareFile.h"
+# 232 "/mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Pi/PiFirmwareFile.h"
 typedef struct {
 
 
@@ -720,7 +720,7 @@ typedef struct {
 
 typedef EFI_COMMON_SECTION_HEADER EFI_COMPATIBILITY16_SECTION;
 typedef EFI_COMMON_SECTION_HEADER2 EFI_COMPATIBILITY16_SECTION2;
-# 276 "/home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Pi/PiFirmwareFile.h"
+# 276 "/mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Pi/PiFirmwareFile.h"
 typedef struct {
 
 
@@ -750,7 +750,7 @@ typedef struct {
 
   UINT8 CompressionType;
 } EFI_COMPRESSION_SECTION2;
-# 315 "/home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Pi/PiFirmwareFile.h"
+# 315 "/mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Pi/PiFirmwareFile.h"
 typedef EFI_COMMON_SECTION_HEADER EFI_DISPOSABLE_SECTION;
 typedef EFI_COMMON_SECTION_HEADER2 EFI_DISPOSABLE_SECTION2;
 
@@ -790,7 +790,7 @@ typedef struct {
 
   EFI_GUID SubTypeGuid;
 } EFI_FREEFORM_SUBTYPE_GUID_SECTION2;
-# 363 "/home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Pi/PiFirmwareFile.h"
+# 363 "/mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Pi/PiFirmwareFile.h"
 typedef struct {
 
 
@@ -840,7 +840,7 @@ typedef EFI_COMMON_SECTION_HEADER2 EFI_PE32_SECTION2;
 
 typedef EFI_COMMON_SECTION_HEADER EFI_PEI_DEPEX_SECTION;
 typedef EFI_COMMON_SECTION_HEADER2 EFI_PEI_DEPEX_SECTION2;
-# 422 "/home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Pi/PiFirmwareFile.h"
+# 422 "/mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Pi/PiFirmwareFile.h"
 typedef EFI_COMMON_SECTION_HEADER EFI_PIC_SECTION;
 typedef EFI_COMMON_SECTION_HEADER2 EFI_PIC_SECTION2;
 
@@ -855,7 +855,7 @@ typedef EFI_COMMON_SECTION_HEADER2 EFI_TE_SECTION2;
 
 typedef EFI_COMMON_SECTION_HEADER EFI_RAW_SECTION;
 typedef EFI_COMMON_SECTION_HEADER2 EFI_RAW_SECTION2;
-# 445 "/home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Pi/PiFirmwareFile.h"
+# 445 "/mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Pi/PiFirmwareFile.h"
 typedef EFI_COMMON_SECTION_HEADER EFI_SMM_DEPEX_SECTION;
 typedef EFI_COMMON_SECTION_HEADER2 EFI_SMM_DEPEX_SECTION2;
 
@@ -900,13 +900,13 @@ typedef struct {
   UINT16 BuildNumber;
   CHAR16 VersionString[1];
 } EFI_VERSION_SECTION2;
-# 17 "/home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Pi/PiMultiPhase.h" 2
-# 1 "/home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Pi/PiBootMode.h" 1
-# 18 "/home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Pi/PiBootMode.h"
+# 17 "/mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Pi/PiMultiPhase.h" 2
+# 1 "/mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Pi/PiBootMode.h" 1
+# 18 "/mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Pi/PiBootMode.h"
 typedef UINT32 EFI_BOOT_MODE;
-# 18 "/home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Pi/PiMultiPhase.h" 2
-# 1 "/home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Pi/PiHob.h" 1
-# 36 "/home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Pi/PiHob.h"
+# 18 "/mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Pi/PiMultiPhase.h" 2
+# 1 "/mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Pi/PiHob.h" 1
+# 36 "/mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Pi/PiHob.h"
 typedef struct {
 
 
@@ -921,7 +921,7 @@ typedef struct {
 
   UINT32 Reserved;
 } EFI_HOB_GENERIC_HEADER;
-# 61 "/home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Pi/PiHob.h"
+# 61 "/mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Pi/PiHob.h"
 typedef struct {
 
 
@@ -1087,9 +1087,9 @@ typedef struct {
 
 
 typedef UINT32 EFI_RESOURCE_TYPE;
-# 242 "/home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Pi/PiHob.h"
+# 242 "/mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Pi/PiHob.h"
 typedef UINT32 EFI_RESOURCE_ATTRIBUTE_TYPE;
-# 306 "/home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Pi/PiHob.h"
+# 306 "/mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Pi/PiHob.h"
 typedef struct {
 
 
@@ -1251,7 +1251,7 @@ typedef struct {
 
   EFI_HOB_GENERIC_HEADER Header;
 } EFI_HOB_MEMORY_POOL;
-# 475 "/home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Pi/PiHob.h"
+# 475 "/mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Pi/PiHob.h"
 typedef struct {
 
 
@@ -1287,15 +1287,15 @@ typedef union {
   EFI_HOB_UEFI_CAPSULE *Capsule;
   UINT8 *Raw;
 } EFI_PEI_HOB_POINTERS;
-# 19 "/home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Pi/PiMultiPhase.h" 2
-# 1 "/home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Pi/PiDependency.h" 1
-# 20 "/home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Pi/PiMultiPhase.h" 2
-# 1 "/home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Pi/PiStatusCode.h" 1
-# 19 "/home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Pi/PiStatusCode.h"
-# 1 "/home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Protocol/DebugSupport.h" 1
-# 18 "/home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Protocol/DebugSupport.h"
-# 1 "/home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/IndustryStandard/PeImage.h" 1
-# 50 "/home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/IndustryStandard/PeImage.h"
+# 19 "/mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Pi/PiMultiPhase.h" 2
+# 1 "/mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Pi/PiDependency.h" 1
+# 20 "/mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Pi/PiMultiPhase.h" 2
+# 1 "/mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Pi/PiStatusCode.h" 1
+# 19 "/mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Pi/PiStatusCode.h"
+# 1 "/mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Protocol/DebugSupport.h" 1
+# 18 "/mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Protocol/DebugSupport.h"
+# 1 "/mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/IndustryStandard/PeImage.h" 1
+# 50 "/mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/IndustryStandard/PeImage.h"
 typedef struct {
   UINT16 e_magic;
   UINT16 e_cblp;
@@ -1330,12 +1330,12 @@ typedef struct {
   UINT16 SizeOfOptionalHeader;
   UINT16 Characteristics;
 } EFI_IMAGE_FILE_HEADER;
-# 107 "/home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/IndustryStandard/PeImage.h"
+# 107 "/mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/IndustryStandard/PeImage.h"
 typedef struct {
   UINT32 VirtualAddress;
   UINT32 Size;
 } EFI_IMAGE_DATA_DIRECTORY;
-# 140 "/home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/IndustryStandard/PeImage.h"
+# 140 "/mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/IndustryStandard/PeImage.h"
 typedef struct {
 
 
@@ -1375,7 +1375,7 @@ typedef struct {
   UINT32 NumberOfRvaAndSizes;
   EFI_IMAGE_DATA_DIRECTORY DataDirectory[16];
 } EFI_IMAGE_OPTIONAL_HEADER32;
-# 191 "/home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/IndustryStandard/PeImage.h"
+# 191 "/mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/IndustryStandard/PeImage.h"
 typedef struct {
 
 
@@ -1437,7 +1437,7 @@ typedef struct {
   EFI_IMAGE_FILE_HEADER FileHeader;
   EFI_IMAGE_OPTIONAL_HEADER64 OptionalHeader;
 } EFI_IMAGE_NT_HEADERS64;
-# 273 "/home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/IndustryStandard/PeImage.h"
+# 273 "/mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/IndustryStandard/PeImage.h"
 typedef struct {
   UINT8 Name[8];
   union {
@@ -1453,18 +1453,18 @@ typedef struct {
   UINT16 NumberOfLinenumbers;
   UINT32 Characteristics;
 } EFI_IMAGE_SECTION_HEADER;
-# 423 "/home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/IndustryStandard/PeImage.h"
+# 423 "/mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/IndustryStandard/PeImage.h"
 typedef struct {
   UINT32 VirtualAddress;
   UINT32 SymbolTableIndex;
   UINT16 Type;
 } EFI_IMAGE_RELOCATION;
-# 471 "/home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/IndustryStandard/PeImage.h"
+# 471 "/mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/IndustryStandard/PeImage.h"
 typedef struct {
   UINT32 VirtualAddress;
   UINT32 SizeOfBlock;
 } EFI_IMAGE_BASE_RELOCATION;
-# 499 "/home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/IndustryStandard/PeImage.h"
+# 499 "/mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/IndustryStandard/PeImage.h"
 typedef struct {
   union {
     UINT32 SymbolTableIndex;
@@ -1472,7 +1472,7 @@ typedef struct {
   } Type;
   UINT16 Linenumber;
 } EFI_IMAGE_LINENUMBER;
-# 525 "/home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/IndustryStandard/PeImage.h"
+# 525 "/mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/IndustryStandard/PeImage.h"
 typedef struct {
   UINT8 Name[16];
   UINT8 Date[12];
@@ -1482,7 +1482,7 @@ typedef struct {
   UINT8 Size[10];
   UINT8 EndHeader[2];
 } EFI_IMAGE_ARCHIVE_MEMBER_HEADER;
-# 548 "/home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/IndustryStandard/PeImage.h"
+# 548 "/mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/IndustryStandard/PeImage.h"
 typedef struct {
   UINT32 Characteristics;
   UINT32 TimeDateStamp;
@@ -1515,7 +1515,7 @@ typedef struct {
     EFI_IMAGE_IMPORT_BY_NAME *AddressOfData;
   } u1;
 } EFI_IMAGE_THUNK_DATA;
-# 588 "/home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/IndustryStandard/PeImage.h"
+# 588 "/mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/IndustryStandard/PeImage.h"
 typedef struct {
   UINT32 Characteristics;
   UINT32 TimeDateStamp;
@@ -1651,7 +1651,7 @@ typedef struct {
   UINT64 ImageBase;
   EFI_IMAGE_DATA_DIRECTORY DataDirectory[2];
 } EFI_TE_IMAGE_HEADER;
-# 737 "/home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/IndustryStandard/PeImage.h"
+# 737 "/mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/IndustryStandard/PeImage.h"
 typedef union {
   EFI_IMAGE_NT_HEADERS32 Pe32;
   EFI_IMAGE_NT_HEADERS64 Pe32Plus;
@@ -1664,12 +1664,12 @@ typedef union {
   EFI_TE_IMAGE_HEADER *Te;
   EFI_IMAGE_OPTIONAL_HEADER_UNION *Union;
 } EFI_IMAGE_OPTIONAL_HEADER_PTR_UNION;
-# 19 "/home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Protocol/DebugSupport.h" 2
+# 19 "/mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Protocol/DebugSupport.h" 2
 
 typedef struct _EFI_DEBUG_SUPPORT_PROTOCOL EFI_DEBUG_SUPPORT_PROTOCOL;
-# 34 "/home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Protocol/DebugSupport.h"
+# 34 "/mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Protocol/DebugSupport.h"
 typedef INTN EFI_EXCEPTION_TYPE;
-# 61 "/home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Protocol/DebugSupport.h"
+# 61 "/mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Protocol/DebugSupport.h"
 typedef struct {
   UINT16 Fcw;
   UINT16 Fsw;
@@ -1738,7 +1738,7 @@ typedef struct {
   UINT32 Ecx;
   UINT32 Eax;
 } EFI_SYSTEM_CONTEXT_IA32;
-# 155 "/home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Protocol/DebugSupport.h"
+# 155 "/mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Protocol/DebugSupport.h"
 typedef struct {
   UINT16 Fcw;
   UINT16 Fsw;
@@ -1816,7 +1816,7 @@ typedef struct {
   UINT64 R14;
   UINT64 R15;
 } EFI_SYSTEM_CONTEXT_X64;
-# 281 "/home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Protocol/DebugSupport.h"
+# 281 "/mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Protocol/DebugSupport.h"
 typedef struct {
 
 
@@ -1969,7 +1969,7 @@ typedef struct {
   UINT64 IntNat;
 
 } EFI_SYSTEM_CONTEXT_IPF;
-# 456 "/home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Protocol/DebugSupport.h"
+# 456 "/mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Protocol/DebugSupport.h"
 typedef struct {
   UINT64 R0;
   UINT64 R1;
@@ -1983,7 +1983,7 @@ typedef struct {
   UINT64 ControlFlags;
   UINT64 Ip;
 } EFI_SYSTEM_CONTEXT_EBC;
-# 492 "/home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Protocol/DebugSupport.h"
+# 492 "/mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Protocol/DebugSupport.h"
 typedef struct {
   UINT32 R0;
   UINT32 R1;
@@ -2007,7 +2007,7 @@ typedef struct {
   UINT32 IFSR;
   UINT32 IFAR;
 } EFI_SYSTEM_CONTEXT_ARM;
-# 530 "/home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Protocol/DebugSupport.h"
+# 530 "/mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Protocol/DebugSupport.h"
 typedef struct {
 
   UINT64 X0;
@@ -2096,7 +2096,7 @@ typedef union {
   EFI_SYSTEM_CONTEXT_ARM *SystemContextArm;
   EFI_SYSTEM_CONTEXT_AARCH64 *SystemContextAArch64;
 } EFI_SYSTEM_CONTEXT;
-# 630 "/home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Protocol/DebugSupport.h"
+# 630 "/mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Protocol/DebugSupport.h"
 typedef
 void
 ( *EFI_EXCEPTION_CALLBACK)(
@@ -2127,14 +2127,14 @@ typedef enum {
   IsaArm = 0x01c2,
   IsaAArch64 = 0xAA64
 } EFI_INSTRUCTION_SET_ARCHITECTURE;
-# 677 "/home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Protocol/DebugSupport.h"
+# 677 "/mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Protocol/DebugSupport.h"
 typedef
 EFI_STATUS
 ( *EFI_GET_MAXIMUM_PROCESSOR_INDEX)(
   EFI_DEBUG_SUPPORT_PROTOCOL *This,
   UINTN *MaxProcessorIndex
   );
-# 699 "/home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Protocol/DebugSupport.h"
+# 699 "/mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Protocol/DebugSupport.h"
 typedef
 EFI_STATUS
 ( *EFI_REGISTER_PERIODIC_CALLBACK)(
@@ -2142,7 +2142,7 @@ EFI_STATUS
   UINTN ProcessorIndex,
   EFI_PERIODIC_CALLBACK PeriodicCallback
   );
-# 723 "/home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Protocol/DebugSupport.h"
+# 723 "/mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Protocol/DebugSupport.h"
 typedef
 EFI_STATUS
 ( *EFI_REGISTER_EXCEPTION_CALLBACK)(
@@ -2151,7 +2151,7 @@ EFI_STATUS
   EFI_EXCEPTION_CALLBACK ExceptionCallback,
   EFI_EXCEPTION_TYPE ExceptionType
   );
-# 745 "/home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Protocol/DebugSupport.h"
+# 745 "/mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Protocol/DebugSupport.h"
 typedef
 EFI_STATUS
 ( *EFI_INVALIDATE_INSTRUCTION_CACHE)(
@@ -2178,15 +2178,15 @@ struct _EFI_DEBUG_SUPPORT_PROTOCOL {
 };
 
 extern EFI_GUID gEfiDebugSupportProtocolGuid;
-# 20 "/home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Pi/PiStatusCode.h" 2
+# 20 "/mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Pi/PiStatusCode.h" 2
 
 
 
 
 typedef UINT32 EFI_STATUS_CODE_TYPE;
-# 67 "/home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Pi/PiStatusCode.h"
+# 67 "/mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Pi/PiStatusCode.h"
 typedef UINT32 EFI_STATUS_CODE_VALUE;
-# 84 "/home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Pi/PiStatusCode.h"
+# 84 "/mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Pi/PiStatusCode.h"
 typedef struct {
 
 
@@ -2201,9 +2201,9 @@ typedef struct {
 
   EFI_GUID Type;
 } EFI_STATUS_CODE_DATA;
-# 21 "/home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Pi/PiMultiPhase.h" 2
-# 1 "/home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Pi/PiS3BootScript.h" 1
-# 37 "/home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Pi/PiS3BootScript.h"
+# 21 "/mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Pi/PiMultiPhase.h" 2
+# 1 "/mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Pi/PiS3BootScript.h" 1
+# 37 "/mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Pi/PiS3BootScript.h"
 typedef enum {
   EfiBootScriptWidthUint8,
   EfiBootScriptWidthUint16,
@@ -2219,8 +2219,8 @@ typedef enum {
   EfiBootScriptWidthFillUint64,
   EfiBootScriptWidthMaximum
 } EFI_BOOT_SCRIPT_WIDTH;
-# 22 "/home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Pi/PiMultiPhase.h" 2
-# 109 "/home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Pi/PiMultiPhase.h"
+# 22 "/mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Pi/PiMultiPhase.h" 2
+# 109 "/mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Pi/PiMultiPhase.h"
 typedef struct {
 
 
@@ -2276,13 +2276,13 @@ typedef struct {
 
   CHAR8 *PcdName;
 } EFI_PCD_INFO;
-# 173 "/home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Pi/PiMultiPhase.h"
+# 173 "/mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Pi/PiMultiPhase.h"
 typedef
 void
 ( *EFI_AP_PROCEDURE)(
   void *Buffer
   );
-# 17 "/home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Pi/PiPeiCis.h" 2
+# 17 "/mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Pi/PiPeiCis.h" 2
 
 
 
@@ -2305,8 +2305,8 @@ typedef struct _EFI_PEI_SERVICES EFI_PEI_SERVICES;
 typedef struct _EFI_PEI_NOTIFY_DESCRIPTOR EFI_PEI_NOTIFY_DESCRIPTOR;
 
 
-# 1 "/home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Ppi/CpuIo.h" 1
-# 19 "/home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Ppi/CpuIo.h"
+# 1 "/mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Ppi/CpuIo.h" 1
+# 19 "/mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Ppi/CpuIo.h"
 typedef struct _EFI_PEI_CPU_IO_PPI EFI_PEI_CPU_IO_PPI;
 
 
@@ -2327,7 +2327,7 @@ typedef enum {
   EfiPeiCpuIoWidthFillUint64,
   EfiPeiCpuIoWidthMaximum
 } EFI_PEI_CPU_IO_PPI_WIDTH;
-# 55 "/home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Ppi/CpuIo.h"
+# 55 "/mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Ppi/CpuIo.h"
 typedef
 EFI_STATUS
 ( *EFI_PEI_CPU_IO_PPI_IO_MEM)(
@@ -2352,7 +2352,7 @@ typedef struct {
 
   EFI_PEI_CPU_IO_PPI_IO_MEM Write;
 } EFI_PEI_CPU_IO_PPI_ACCESS;
-# 91 "/home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Ppi/CpuIo.h"
+# 91 "/mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Ppi/CpuIo.h"
 typedef
 UINT8
 ( *EFI_PEI_CPU_IO_PPI_IO_READ8)(
@@ -2360,7 +2360,7 @@ UINT8
   const EFI_PEI_CPU_IO_PPI *This,
   UINT64 Address
   );
-# 110 "/home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Ppi/CpuIo.h"
+# 110 "/mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Ppi/CpuIo.h"
 typedef
 UINT16
 ( *EFI_PEI_CPU_IO_PPI_IO_READ16)(
@@ -2368,7 +2368,7 @@ UINT16
   const EFI_PEI_CPU_IO_PPI *This,
   UINT64 Address
   );
-# 129 "/home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Ppi/CpuIo.h"
+# 129 "/mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Ppi/CpuIo.h"
 typedef
 UINT32
 ( *EFI_PEI_CPU_IO_PPI_IO_READ32)(
@@ -2376,7 +2376,7 @@ UINT32
   const EFI_PEI_CPU_IO_PPI *This,
   UINT64 Address
   );
-# 148 "/home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Ppi/CpuIo.h"
+# 148 "/mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Ppi/CpuIo.h"
 typedef
 UINT64
 ( *EFI_PEI_CPU_IO_PPI_IO_READ64)(
@@ -2384,7 +2384,7 @@ UINT64
   const EFI_PEI_CPU_IO_PPI *This,
   UINT64 Address
   );
-# 166 "/home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Ppi/CpuIo.h"
+# 166 "/mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Ppi/CpuIo.h"
 typedef
 void
 ( *EFI_PEI_CPU_IO_PPI_IO_WRITE8)(
@@ -2393,7 +2393,7 @@ void
   UINT64 Address,
   UINT8 Data
   );
-# 185 "/home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Ppi/CpuIo.h"
+# 185 "/mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Ppi/CpuIo.h"
 typedef
 void
 ( *EFI_PEI_CPU_IO_PPI_IO_WRITE16)(
@@ -2402,7 +2402,7 @@ void
   UINT64 Address,
   UINT16 Data
   );
-# 204 "/home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Ppi/CpuIo.h"
+# 204 "/mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Ppi/CpuIo.h"
 typedef
 void
 ( *EFI_PEI_CPU_IO_PPI_IO_WRITE32)(
@@ -2411,7 +2411,7 @@ void
   UINT64 Address,
   UINT32 Data
   );
-# 223 "/home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Ppi/CpuIo.h"
+# 223 "/mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Ppi/CpuIo.h"
 typedef
 void
 ( *EFI_PEI_CPU_IO_PPI_IO_WRITE64)(
@@ -2420,7 +2420,7 @@ void
   UINT64 Address,
   UINT64 Data
   );
-# 243 "/home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Ppi/CpuIo.h"
+# 243 "/mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Ppi/CpuIo.h"
 typedef
 UINT8
 ( *EFI_PEI_CPU_IO_PPI_MEM_READ8)(
@@ -2428,7 +2428,7 @@ UINT8
   const EFI_PEI_CPU_IO_PPI *This,
   UINT64 Address
   );
-# 262 "/home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Ppi/CpuIo.h"
+# 262 "/mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Ppi/CpuIo.h"
 typedef
 UINT16
 ( *EFI_PEI_CPU_IO_PPI_MEM_READ16)(
@@ -2436,7 +2436,7 @@ UINT16
   const EFI_PEI_CPU_IO_PPI *This,
   UINT64 Address
   );
-# 281 "/home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Ppi/CpuIo.h"
+# 281 "/mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Ppi/CpuIo.h"
 typedef
 UINT32
 ( *EFI_PEI_CPU_IO_PPI_MEM_READ32)(
@@ -2444,7 +2444,7 @@ UINT32
   const EFI_PEI_CPU_IO_PPI *This,
   UINT64 Address
   );
-# 300 "/home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Ppi/CpuIo.h"
+# 300 "/mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Ppi/CpuIo.h"
 typedef
 UINT64
 ( *EFI_PEI_CPU_IO_PPI_MEM_READ64)(
@@ -2452,7 +2452,7 @@ UINT64
   const EFI_PEI_CPU_IO_PPI *This,
   UINT64 Address
   );
-# 318 "/home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Ppi/CpuIo.h"
+# 318 "/mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Ppi/CpuIo.h"
 typedef
 void
 ( *EFI_PEI_CPU_IO_PPI_MEM_WRITE8)(
@@ -2461,7 +2461,7 @@ void
   UINT64 Address,
   UINT8 Data
   );
-# 337 "/home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Ppi/CpuIo.h"
+# 337 "/mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Ppi/CpuIo.h"
 typedef
 void
 ( *EFI_PEI_CPU_IO_PPI_MEM_WRITE16)(
@@ -2470,7 +2470,7 @@ void
   UINT64 Address,
   UINT16 Data
   );
-# 356 "/home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Ppi/CpuIo.h"
+# 356 "/mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Ppi/CpuIo.h"
 typedef
 void
 ( *EFI_PEI_CPU_IO_PPI_MEM_WRITE32)(
@@ -2479,7 +2479,7 @@ void
   UINT64 Address,
   UINT32 Data
   );
-# 375 "/home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Ppi/CpuIo.h"
+# 375 "/mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Ppi/CpuIo.h"
 typedef
 void
 ( *EFI_PEI_CPU_IO_PPI_MEM_WRITE64)(
@@ -2526,11 +2526,11 @@ struct _EFI_PEI_CPU_IO_PPI {
 };
 
 extern EFI_GUID gEfiPeiCpuIoPpiInstalledGuid;
-# 40 "/home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Pi/PiPeiCis.h" 2
-# 1 "/home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Ppi/PciCfg2.h" 1
-# 18 "/home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Ppi/PciCfg2.h"
-# 1 "/home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Library/BaseLib.h" 1
-# 96 "/home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Library/BaseLib.h"
+# 40 "/mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Pi/PiPeiCis.h" 2
+# 1 "/mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Ppi/PciCfg2.h" 1
+# 18 "/mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Ppi/PciCfg2.h"
+# 1 "/mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Library/BaseLib.h" 1
+# 96 "/mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Library/BaseLib.h"
 typedef struct {
 
   UINT64 X19;
@@ -2557,21 +2557,21 @@ typedef struct {
   UINT64 D14;
   UINT64 D15;
 } BASE_LIBRARY_JUMP_BUFFER;
-# 149 "/home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Library/BaseLib.h"
+# 149 "/mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Library/BaseLib.h"
 UINTN
 
 StrnLenS (
   const CHAR16 *String,
   UINTN MaxSize
   );
-# 177 "/home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Library/BaseLib.h"
+# 177 "/mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Library/BaseLib.h"
 UINTN
 
 StrnSizeS (
   const CHAR16 *String,
   UINTN MaxSize
   );
-# 211 "/home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Library/BaseLib.h"
+# 211 "/mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Library/BaseLib.h"
 RETURN_STATUS
 
 StrCpyS (
@@ -2579,7 +2579,7 @@ StrCpyS (
   UINTN DestMax,
   const CHAR16 *Source
   );
-# 249 "/home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Library/BaseLib.h"
+# 249 "/mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Library/BaseLib.h"
 RETURN_STATUS
 
 StrnCpyS (
@@ -2588,7 +2588,7 @@ StrnCpyS (
   const CHAR16 *Source,
   UINTN Length
   );
-# 288 "/home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Library/BaseLib.h"
+# 288 "/mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Library/BaseLib.h"
 RETURN_STATUS
 
 StrCatS (
@@ -2596,7 +2596,7 @@ StrCatS (
   UINTN DestMax,
   const CHAR16 *Source
   );
-# 329 "/home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Library/BaseLib.h"
+# 329 "/mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Library/BaseLib.h"
 RETURN_STATUS
 
 StrnCatS (
@@ -2605,7 +2605,7 @@ StrnCatS (
   const CHAR16 *Source,
   UINTN Length
   );
-# 386 "/home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Library/BaseLib.h"
+# 386 "/mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Library/BaseLib.h"
 RETURN_STATUS
 
 StrDecimalToUintnS (
@@ -2613,7 +2613,7 @@ StrDecimalToUintnS (
   CHAR16 **EndPointer,
   UINTN *Data
   );
-# 442 "/home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Library/BaseLib.h"
+# 442 "/mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Library/BaseLib.h"
 RETURN_STATUS
 
 StrDecimalToUint64S (
@@ -2621,7 +2621,7 @@ StrDecimalToUint64S (
   CHAR16 **EndPointer,
   UINT64 *Data
   );
-# 503 "/home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Library/BaseLib.h"
+# 503 "/mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Library/BaseLib.h"
 RETURN_STATUS
 
 StrHexToUintnS (
@@ -2629,7 +2629,7 @@ StrHexToUintnS (
   CHAR16 **EndPointer,
   UINTN *Data
   );
-# 564 "/home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Library/BaseLib.h"
+# 564 "/mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Library/BaseLib.h"
 RETURN_STATUS
 
 StrHexToUint64S (
@@ -2637,21 +2637,21 @@ StrHexToUint64S (
   CHAR16 **EndPointer,
   UINT64 *Data
   );
-# 586 "/home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Library/BaseLib.h"
+# 586 "/mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Library/BaseLib.h"
 UINTN
 
 AsciiStrnLenS (
   const CHAR8 *String,
   UINTN MaxSize
   );
-# 612 "/home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Library/BaseLib.h"
+# 612 "/mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Library/BaseLib.h"
 UINTN
 
 AsciiStrnSizeS (
   const CHAR8 *String,
   UINTN MaxSize
   );
-# 644 "/home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Library/BaseLib.h"
+# 644 "/mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Library/BaseLib.h"
 RETURN_STATUS
 
 AsciiStrCpyS (
@@ -2659,7 +2659,7 @@ AsciiStrCpyS (
   UINTN DestMax,
   const CHAR8 *Source
   );
-# 680 "/home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Library/BaseLib.h"
+# 680 "/mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Library/BaseLib.h"
 RETURN_STATUS
 
 AsciiStrnCpyS (
@@ -2668,7 +2668,7 @@ AsciiStrnCpyS (
   const CHAR8 *Source,
   UINTN Length
   );
-# 717 "/home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Library/BaseLib.h"
+# 717 "/mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Library/BaseLib.h"
 RETURN_STATUS
 
 AsciiStrCatS (
@@ -2676,7 +2676,7 @@ AsciiStrCatS (
   UINTN DestMax,
   const CHAR8 *Source
   );
-# 756 "/home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Library/BaseLib.h"
+# 756 "/mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Library/BaseLib.h"
 RETURN_STATUS
 
 AsciiStrnCatS (
@@ -2685,7 +2685,7 @@ AsciiStrnCatS (
   const CHAR8 *Source,
   UINTN Length
   );
-# 812 "/home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Library/BaseLib.h"
+# 812 "/mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Library/BaseLib.h"
 RETURN_STATUS
 
 AsciiStrDecimalToUintnS (
@@ -2693,7 +2693,7 @@ AsciiStrDecimalToUintnS (
   CHAR8 **EndPointer,
   UINTN *Data
   );
-# 867 "/home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Library/BaseLib.h"
+# 867 "/mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Library/BaseLib.h"
 RETURN_STATUS
 
 AsciiStrDecimalToUint64S (
@@ -2701,7 +2701,7 @@ AsciiStrDecimalToUint64S (
   CHAR8 **EndPointer,
   UINT64 *Data
   );
-# 926 "/home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Library/BaseLib.h"
+# 926 "/mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Library/BaseLib.h"
 RETURN_STATUS
 
 AsciiStrHexToUintnS (
@@ -2709,7 +2709,7 @@ AsciiStrHexToUintnS (
   CHAR8 **EndPointer,
   UINTN *Data
   );
-# 985 "/home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Library/BaseLib.h"
+# 985 "/mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Library/BaseLib.h"
 RETURN_STATUS
 
 AsciiStrHexToUint64S (
@@ -2717,14 +2717,14 @@ AsciiStrHexToUint64S (
   CHAR8 **EndPointer,
   UINT64 *Data
   );
-# 1021 "/home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Library/BaseLib.h"
+# 1021 "/mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Library/BaseLib.h"
 CHAR16 *
 
 StrCpy (
   CHAR16 *Destination,
   const CHAR16 *Source
   );
-# 1061 "/home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Library/BaseLib.h"
+# 1061 "/mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Library/BaseLib.h"
 CHAR16 *
 
 StrnCpy (
@@ -2732,26 +2732,26 @@ StrnCpy (
   const CHAR16 *Source,
   UINTN Length
   );
-# 1087 "/home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Library/BaseLib.h"
+# 1087 "/mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Library/BaseLib.h"
 UINTN
 
 StrLen (
   const CHAR16 *String
   );
-# 1112 "/home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Library/BaseLib.h"
+# 1112 "/mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Library/BaseLib.h"
 UINTN
 
 StrSize (
   const CHAR16 *String
   );
-# 1147 "/home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Library/BaseLib.h"
+# 1147 "/mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Library/BaseLib.h"
 INTN
 
 StrCmp (
   const CHAR16 *FirstString,
   const CHAR16 *SecondString
   );
-# 1187 "/home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Library/BaseLib.h"
+# 1187 "/mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Library/BaseLib.h"
 INTN
 
 StrnCmp (
@@ -2759,14 +2759,14 @@ StrnCmp (
   const CHAR16 *SecondString,
   UINTN Length
   );
-# 1232 "/home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Library/BaseLib.h"
+# 1232 "/mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Library/BaseLib.h"
 CHAR16 *
 
 StrCat (
   CHAR16 *Destination,
   const CHAR16 *Source
   );
-# 1280 "/home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Library/BaseLib.h"
+# 1280 "/mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Library/BaseLib.h"
 CHAR16 *
 
 StrnCat (
@@ -2774,38 +2774,38 @@ StrnCat (
   const CHAR16 *Source,
   UINTN Length
   );
-# 1314 "/home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Library/BaseLib.h"
+# 1314 "/mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Library/BaseLib.h"
 CHAR16 *
 
 StrStr (
   const CHAR16 *String,
   const CHAR16 *SearchString
   );
-# 1355 "/home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Library/BaseLib.h"
+# 1355 "/mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Library/BaseLib.h"
 UINTN
 
 StrDecimalToUintn (
   const CHAR16 *String
   );
-# 1395 "/home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Library/BaseLib.h"
+# 1395 "/mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Library/BaseLib.h"
 UINT64
 
 StrDecimalToUint64 (
   const CHAR16 *String
   );
-# 1437 "/home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Library/BaseLib.h"
+# 1437 "/mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Library/BaseLib.h"
 UINTN
 
 StrHexToUintn (
   const CHAR16 *String
   );
-# 1479 "/home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Library/BaseLib.h"
+# 1479 "/mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Library/BaseLib.h"
 UINT64
 
 StrHexToUint64 (
   const CHAR16 *String
   );
-# 1543 "/home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Library/BaseLib.h"
+# 1543 "/mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Library/BaseLib.h"
 RETURN_STATUS
 
 StrToIpv6Address (
@@ -2814,7 +2814,7 @@ StrToIpv6Address (
   IPv6_ADDRESS *Address,
   UINT8 *PrefixLength
   );
-# 1601 "/home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Library/BaseLib.h"
+# 1601 "/mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Library/BaseLib.h"
 RETURN_STATUS
 
 StrToIpv4Address (
@@ -2823,14 +2823,14 @@ StrToIpv4Address (
   IPv4_ADDRESS *Address,
   UINT8 *PrefixLength
   );
-# 1656 "/home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Library/BaseLib.h"
+# 1656 "/mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Library/BaseLib.h"
 RETURN_STATUS
 
 StrToGuid (
   const CHAR16 *String,
   GUID *Guid
   );
-# 1707 "/home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Library/BaseLib.h"
+# 1707 "/mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Library/BaseLib.h"
 RETURN_STATUS
 
 StrHexToBytes (
@@ -2839,14 +2839,14 @@ StrHexToBytes (
   UINT8 *Buffer,
   UINTN MaxBufferSize
   );
-# 1753 "/home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Library/BaseLib.h"
+# 1753 "/mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Library/BaseLib.h"
 CHAR8 *
 
 UnicodeStrToAsciiStr (
   const CHAR16 *Source,
   CHAR8 *Destination
   );
-# 1803 "/home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Library/BaseLib.h"
+# 1803 "/mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Library/BaseLib.h"
 RETURN_STATUS
 
 UnicodeStrToAsciiStrS (
@@ -2854,7 +2854,7 @@ UnicodeStrToAsciiStrS (
   CHAR8 *Destination,
   UINTN DestMax
   );
-# 1855 "/home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Library/BaseLib.h"
+# 1855 "/mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Library/BaseLib.h"
 RETURN_STATUS
 
 UnicodeStrnToAsciiStrS (
@@ -2864,14 +2864,14 @@ UnicodeStrnToAsciiStrS (
   UINTN DestMax,
   UINTN *DestinationLength
   );
-# 1890 "/home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Library/BaseLib.h"
+# 1890 "/mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Library/BaseLib.h"
 CHAR8 *
 
 AsciiStrCpy (
   CHAR8 *Destination,
   const CHAR8 *Source
   );
-# 1927 "/home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Library/BaseLib.h"
+# 1927 "/mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Library/BaseLib.h"
 CHAR8 *
 
 AsciiStrnCpy (
@@ -2879,33 +2879,33 @@ AsciiStrnCpy (
   const CHAR8 *Source,
   UINTN Length
   );
-# 1953 "/home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Library/BaseLib.h"
+# 1953 "/mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Library/BaseLib.h"
 UINTN
 
 AsciiStrLen (
   const CHAR8 *String
   );
-# 1977 "/home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Library/BaseLib.h"
+# 1977 "/mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Library/BaseLib.h"
 UINTN
 
 AsciiStrSize (
   const CHAR8 *String
   );
-# 2010 "/home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Library/BaseLib.h"
+# 2010 "/mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Library/BaseLib.h"
 INTN
 
 AsciiStrCmp (
   const CHAR8 *FirstString,
   const CHAR8 *SecondString
   );
-# 2047 "/home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Library/BaseLib.h"
+# 2047 "/mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Library/BaseLib.h"
 INTN
 
 AsciiStriCmp (
   const CHAR8 *FirstString,
   const CHAR8 *SecondString
   );
-# 2085 "/home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Library/BaseLib.h"
+# 2085 "/mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Library/BaseLib.h"
 INTN
 
 AsciiStrnCmp (
@@ -2913,14 +2913,14 @@ AsciiStrnCmp (
   const CHAR8 *SecondString,
   UINTN Length
   );
-# 2125 "/home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Library/BaseLib.h"
+# 2125 "/mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Library/BaseLib.h"
 CHAR8 *
 
 AsciiStrCat (
   CHAR8 *Destination,
   const CHAR8 *Source
   );
-# 2171 "/home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Library/BaseLib.h"
+# 2171 "/mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Library/BaseLib.h"
 CHAR8 *
 
 AsciiStrnCat (
@@ -2928,38 +2928,38 @@ AsciiStrnCat (
   const CHAR8 *Source,
   UINTN Length
   );
-# 2204 "/home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Library/BaseLib.h"
+# 2204 "/mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Library/BaseLib.h"
 CHAR8 *
 
 AsciiStrStr (
   const CHAR8 *String,
   const CHAR8 *SearchString
   );
-# 2242 "/home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Library/BaseLib.h"
+# 2242 "/mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Library/BaseLib.h"
 UINTN
 
 AsciiStrDecimalToUintn (
   const CHAR8 *String
   );
-# 2279 "/home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Library/BaseLib.h"
+# 2279 "/mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Library/BaseLib.h"
 UINT64
 
 AsciiStrDecimalToUint64 (
   const CHAR8 *String
   );
-# 2320 "/home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Library/BaseLib.h"
+# 2320 "/mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Library/BaseLib.h"
 UINTN
 
 AsciiStrHexToUintn (
   const CHAR8 *String
   );
-# 2361 "/home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Library/BaseLib.h"
+# 2361 "/mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Library/BaseLib.h"
 UINT64
 
 AsciiStrHexToUint64 (
   const CHAR8 *String
   );
-# 2419 "/home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Library/BaseLib.h"
+# 2419 "/mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Library/BaseLib.h"
 RETURN_STATUS
 
 AsciiStrToIpv6Address (
@@ -2968,7 +2968,7 @@ AsciiStrToIpv6Address (
   IPv6_ADDRESS *Address,
   UINT8 *PrefixLength
   );
-# 2471 "/home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Library/BaseLib.h"
+# 2471 "/mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Library/BaseLib.h"
 RETURN_STATUS
 
 AsciiStrToIpv4Address (
@@ -2977,14 +2977,14 @@ AsciiStrToIpv4Address (
   IPv4_ADDRESS *Address,
   UINT8 *PrefixLength
   );
-# 2523 "/home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Library/BaseLib.h"
+# 2523 "/mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Library/BaseLib.h"
 RETURN_STATUS
 
 AsciiStrToGuid (
   const CHAR8 *String,
   GUID *Guid
   );
-# 2572 "/home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Library/BaseLib.h"
+# 2572 "/mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Library/BaseLib.h"
 RETURN_STATUS
 
 AsciiStrHexToBytes (
@@ -2993,14 +2993,14 @@ AsciiStrHexToBytes (
   UINT8 *Buffer,
   UINTN MaxBufferSize
   );
-# 2612 "/home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Library/BaseLib.h"
+# 2612 "/mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Library/BaseLib.h"
 CHAR16 *
 
 AsciiStrToUnicodeStr (
   const CHAR8 *Source,
   CHAR16 *Destination
   );
-# 2658 "/home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Library/BaseLib.h"
+# 2658 "/mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Library/BaseLib.h"
 RETURN_STATUS
 
 AsciiStrToUnicodeStrS (
@@ -3008,7 +3008,7 @@ AsciiStrToUnicodeStrS (
   CHAR16 *Destination,
   UINTN DestMax
   );
-# 2709 "/home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Library/BaseLib.h"
+# 2709 "/mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Library/BaseLib.h"
 RETURN_STATUS
 
 AsciiStrnToUnicodeStrS (
@@ -3018,19 +3018,19 @@ AsciiStrnToUnicodeStrS (
   UINTN DestMax,
   UINTN *DestinationLength
   );
-# 2734 "/home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Library/BaseLib.h"
+# 2734 "/mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Library/BaseLib.h"
 CHAR16
 
 CharToUpper (
   CHAR16 Char
   );
-# 2753 "/home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Library/BaseLib.h"
+# 2753 "/mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Library/BaseLib.h"
 CHAR8
 
 AsciiCharToUpper (
   CHAR8 Chr
   );
-# 2778 "/home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Library/BaseLib.h"
+# 2778 "/mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Library/BaseLib.h"
 RETURN_STATUS
 
 Base64Encode (
@@ -3039,7 +3039,7 @@ Base64Encode (
   CHAR8 *Destination ,
   UINTN *DestinationSize
   );
-# 2806 "/home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Library/BaseLib.h"
+# 2806 "/mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Library/BaseLib.h"
 RETURN_STATUS
 
 Base64Decode (
@@ -3048,249 +3048,249 @@ Base64Decode (
   UINT8 *Destination ,
   UINTN *DestinationSize
   );
-# 2828 "/home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Library/BaseLib.h"
+# 2828 "/mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Library/BaseLib.h"
 UINT8
 
 DecimalToBcd8 (
   UINT8 Value
   );
-# 2849 "/home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Library/BaseLib.h"
+# 2849 "/mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Library/BaseLib.h"
 UINT8
 
 BcdToDecimal8 (
   UINT8 Value
   );
-# 2867 "/home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Library/BaseLib.h"
+# 2867 "/mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Library/BaseLib.h"
 BOOLEAN
 
 PathRemoveLastItem(
   CHAR16 *Path
   );
-# 2886 "/home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Library/BaseLib.h"
+# 2886 "/mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Library/BaseLib.h"
 CHAR16*
 
 PathCleanUpDirectories(
   CHAR16 *Path
   );
-# 2932 "/home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Library/BaseLib.h"
+# 2932 "/mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Library/BaseLib.h"
 BOOLEAN
 
 IsNodeInList (
   const LIST_ENTRY *FirstEntry,
   const LIST_ENTRY *SecondEntry
   );
-# 2956 "/home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Library/BaseLib.h"
+# 2956 "/mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Library/BaseLib.h"
 LIST_ENTRY *
 
 InitializeListHead (
   LIST_ENTRY *ListHead
   );
-# 2985 "/home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Library/BaseLib.h"
+# 2985 "/mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Library/BaseLib.h"
 LIST_ENTRY *
 
 InsertHeadList (
   LIST_ENTRY *ListHead,
   LIST_ENTRY *Entry
   );
-# 3015 "/home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Library/BaseLib.h"
+# 3015 "/mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Library/BaseLib.h"
 LIST_ENTRY *
 
 InsertTailList (
   LIST_ENTRY *ListHead,
   LIST_ENTRY *Entry
   );
-# 3043 "/home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Library/BaseLib.h"
+# 3043 "/mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Library/BaseLib.h"
 LIST_ENTRY *
 
 GetFirstNode (
   const LIST_ENTRY *List
   );
-# 3071 "/home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Library/BaseLib.h"
+# 3071 "/mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Library/BaseLib.h"
 LIST_ENTRY *
 
 GetNextNode (
   const LIST_ENTRY *List,
   const LIST_ENTRY *Node
   );
-# 3100 "/home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Library/BaseLib.h"
+# 3100 "/mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Library/BaseLib.h"
 LIST_ENTRY *
 
 GetPreviousNode (
   const LIST_ENTRY *List,
   const LIST_ENTRY *Node
   );
-# 3127 "/home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Library/BaseLib.h"
+# 3127 "/mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Library/BaseLib.h"
 BOOLEAN
 
 IsListEmpty (
   const LIST_ENTRY *ListHead
   );
-# 3160 "/home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Library/BaseLib.h"
+# 3160 "/mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Library/BaseLib.h"
 BOOLEAN
 
 IsNull (
   const LIST_ENTRY *List,
   const LIST_ENTRY *Node
   );
-# 3191 "/home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Library/BaseLib.h"
+# 3191 "/mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Library/BaseLib.h"
 BOOLEAN
 
 IsNodeAtEnd (
   const LIST_ENTRY *List,
   const LIST_ENTRY *Node
   );
-# 3225 "/home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Library/BaseLib.h"
+# 3225 "/mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Library/BaseLib.h"
 LIST_ENTRY *
 
 SwapListEntries (
   LIST_ENTRY *FirstEntry,
   LIST_ENTRY *SecondEntry
   );
-# 3254 "/home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Library/BaseLib.h"
+# 3254 "/mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Library/BaseLib.h"
 LIST_ENTRY *
 
 RemoveEntryList (
   const LIST_ENTRY *Entry
   );
-# 3279 "/home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Library/BaseLib.h"
+# 3279 "/mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Library/BaseLib.h"
 UINT64
 
 LShiftU64 (
   UINT64 Operand,
   UINTN Count
   );
-# 3302 "/home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Library/BaseLib.h"
+# 3302 "/mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Library/BaseLib.h"
 UINT64
 
 RShiftU64 (
   UINT64 Operand,
   UINTN Count
   );
-# 3325 "/home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Library/BaseLib.h"
+# 3325 "/mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Library/BaseLib.h"
 UINT64
 
 ARShiftU64 (
   UINT64 Operand,
   UINTN Count
   );
-# 3349 "/home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Library/BaseLib.h"
+# 3349 "/mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Library/BaseLib.h"
 UINT32
 
 LRotU32 (
   UINT32 Operand,
   UINTN Count
   );
-# 3373 "/home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Library/BaseLib.h"
+# 3373 "/mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Library/BaseLib.h"
 UINT32
 
 RRotU32 (
   UINT32 Operand,
   UINTN Count
   );
-# 3397 "/home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Library/BaseLib.h"
+# 3397 "/mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Library/BaseLib.h"
 UINT64
 
 LRotU64 (
   UINT64 Operand,
   UINTN Count
   );
-# 3421 "/home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Library/BaseLib.h"
+# 3421 "/mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Library/BaseLib.h"
 UINT64
 
 RRotU64 (
   UINT64 Operand,
   UINTN Count
   );
-# 3442 "/home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Library/BaseLib.h"
+# 3442 "/mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Library/BaseLib.h"
 INTN
 
 LowBitSet32 (
   UINT32 Operand
   );
-# 3463 "/home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Library/BaseLib.h"
+# 3463 "/mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Library/BaseLib.h"
 INTN
 
 LowBitSet64 (
   UINT64 Operand
   );
-# 3484 "/home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Library/BaseLib.h"
+# 3484 "/mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Library/BaseLib.h"
 INTN
 
 HighBitSet32 (
   UINT32 Operand
   );
-# 3505 "/home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Library/BaseLib.h"
+# 3505 "/mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Library/BaseLib.h"
 INTN
 
 HighBitSet64 (
   UINT64 Operand
   );
-# 3525 "/home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Library/BaseLib.h"
+# 3525 "/mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Library/BaseLib.h"
 UINT32
 
 GetPowerOfTwo32 (
   UINT32 Operand
   );
-# 3545 "/home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Library/BaseLib.h"
+# 3545 "/mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Library/BaseLib.h"
 UINT64
 
 GetPowerOfTwo64 (
   UINT64 Operand
   );
-# 3564 "/home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Library/BaseLib.h"
+# 3564 "/mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Library/BaseLib.h"
 UINT16
 
 SwapBytes16 (
   UINT16 Value
   );
-# 3583 "/home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Library/BaseLib.h"
+# 3583 "/mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Library/BaseLib.h"
 UINT32
 
 SwapBytes32 (
   UINT32 Value
   );
-# 3602 "/home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Library/BaseLib.h"
+# 3602 "/mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Library/BaseLib.h"
 UINT64
 
 SwapBytes64 (
   UINT64 Value
   );
-# 3623 "/home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Library/BaseLib.h"
+# 3623 "/mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Library/BaseLib.h"
 UINT64
 
 MultU64x32 (
   UINT64 Multiplicand,
   UINT32 Multiplier
   );
-# 3645 "/home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Library/BaseLib.h"
+# 3645 "/mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Library/BaseLib.h"
 UINT64
 
 MultU64x64 (
   UINT64 Multiplicand,
   UINT64 Multiplier
   );
-# 3667 "/home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Library/BaseLib.h"
+# 3667 "/mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Library/BaseLib.h"
 INT64
 
 MultS64x64 (
   INT64 Multiplicand,
   INT64 Multiplier
   );
-# 3691 "/home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Library/BaseLib.h"
+# 3691 "/mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Library/BaseLib.h"
 UINT64
 
 DivU64x32 (
   UINT64 Dividend,
   UINT32 Divisor
   );
-# 3715 "/home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Library/BaseLib.h"
+# 3715 "/mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Library/BaseLib.h"
 UINT32
 
 ModU64x32 (
   UINT64 Dividend,
   UINT32 Divisor
   );
-# 3742 "/home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Library/BaseLib.h"
+# 3742 "/mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Library/BaseLib.h"
 UINT64
 
 DivU64x32Remainder (
@@ -3298,7 +3298,7 @@ DivU64x32Remainder (
   UINT32 Divisor,
   UINT32 *Remainder
   );
-# 3770 "/home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Library/BaseLib.h"
+# 3770 "/mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Library/BaseLib.h"
 UINT64
 
 DivU64x64Remainder (
@@ -3306,7 +3306,7 @@ DivU64x64Remainder (
   UINT64 Divisor,
   UINT64 *Remainder
   );
-# 3802 "/home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Library/BaseLib.h"
+# 3802 "/mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Library/BaseLib.h"
 INT64
 
 DivS64x64Remainder (
@@ -3314,59 +3314,59 @@ DivS64x64Remainder (
   INT64 Divisor,
   INT64 *Remainder
   );
-# 3824 "/home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Library/BaseLib.h"
+# 3824 "/mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Library/BaseLib.h"
 UINT16
 
 ReadUnaligned16 (
   const UINT16 *Buffer
   );
-# 3846 "/home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Library/BaseLib.h"
+# 3846 "/mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Library/BaseLib.h"
 UINT16
 
 WriteUnaligned16 (
   UINT16 *Buffer,
   UINT16 Value
   );
-# 3867 "/home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Library/BaseLib.h"
+# 3867 "/mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Library/BaseLib.h"
 UINT32
 
 ReadUnaligned24 (
   const UINT32 *Buffer
   );
-# 3889 "/home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Library/BaseLib.h"
+# 3889 "/mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Library/BaseLib.h"
 UINT32
 
 WriteUnaligned24 (
   UINT32 *Buffer,
   UINT32 Value
   );
-# 3910 "/home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Library/BaseLib.h"
+# 3910 "/mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Library/BaseLib.h"
 UINT32
 
 ReadUnaligned32 (
   const UINT32 *Buffer
   );
-# 3932 "/home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Library/BaseLib.h"
+# 3932 "/mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Library/BaseLib.h"
 UINT32
 
 WriteUnaligned32 (
   UINT32 *Buffer,
   UINT32 Value
   );
-# 3953 "/home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Library/BaseLib.h"
+# 3953 "/mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Library/BaseLib.h"
 UINT64
 
 ReadUnaligned64 (
   const UINT64 *Buffer
   );
-# 3975 "/home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Library/BaseLib.h"
+# 3975 "/mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Library/BaseLib.h"
 UINT64
 
 WriteUnaligned64 (
   UINT64 *Buffer,
   UINT64 Value
   );
-# 4006 "/home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Library/BaseLib.h"
+# 4006 "/mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Library/BaseLib.h"
 UINT8
 
 BitFieldRead8 (
@@ -3374,7 +3374,7 @@ BitFieldRead8 (
   UINTN StartBit,
   UINTN EndBit
   );
-# 4038 "/home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Library/BaseLib.h"
+# 4038 "/mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Library/BaseLib.h"
 UINT8
 
 BitFieldWrite8 (
@@ -3383,7 +3383,7 @@ BitFieldWrite8 (
   UINTN EndBit,
   UINT8 Value
   );
-# 4072 "/home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Library/BaseLib.h"
+# 4072 "/mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Library/BaseLib.h"
 UINT8
 
 BitFieldOr8 (
@@ -3392,7 +3392,7 @@ BitFieldOr8 (
   UINTN EndBit,
   UINT8 OrData
   );
-# 4106 "/home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Library/BaseLib.h"
+# 4106 "/mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Library/BaseLib.h"
 UINT8
 
 BitFieldAnd8 (
@@ -3401,7 +3401,7 @@ BitFieldAnd8 (
   UINTN EndBit,
   UINT8 AndData
   );
-# 4143 "/home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Library/BaseLib.h"
+# 4143 "/mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Library/BaseLib.h"
 UINT8
 
 BitFieldAndThenOr8 (
@@ -3411,7 +3411,7 @@ BitFieldAndThenOr8 (
   UINT8 AndData,
   UINT8 OrData
   );
-# 4173 "/home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Library/BaseLib.h"
+# 4173 "/mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Library/BaseLib.h"
 UINT16
 
 BitFieldRead16 (
@@ -3419,7 +3419,7 @@ BitFieldRead16 (
   UINTN StartBit,
   UINTN EndBit
   );
-# 4205 "/home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Library/BaseLib.h"
+# 4205 "/mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Library/BaseLib.h"
 UINT16
 
 BitFieldWrite16 (
@@ -3428,7 +3428,7 @@ BitFieldWrite16 (
   UINTN EndBit,
   UINT16 Value
   );
-# 4239 "/home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Library/BaseLib.h"
+# 4239 "/mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Library/BaseLib.h"
 UINT16
 
 BitFieldOr16 (
@@ -3437,7 +3437,7 @@ BitFieldOr16 (
   UINTN EndBit,
   UINT16 OrData
   );
-# 4273 "/home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Library/BaseLib.h"
+# 4273 "/mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Library/BaseLib.h"
 UINT16
 
 BitFieldAnd16 (
@@ -3446,7 +3446,7 @@ BitFieldAnd16 (
   UINTN EndBit,
   UINT16 AndData
   );
-# 4310 "/home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Library/BaseLib.h"
+# 4310 "/mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Library/BaseLib.h"
 UINT16
 
 BitFieldAndThenOr16 (
@@ -3456,7 +3456,7 @@ BitFieldAndThenOr16 (
   UINT16 AndData,
   UINT16 OrData
   );
-# 4340 "/home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Library/BaseLib.h"
+# 4340 "/mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Library/BaseLib.h"
 UINT32
 
 BitFieldRead32 (
@@ -3464,7 +3464,7 @@ BitFieldRead32 (
   UINTN StartBit,
   UINTN EndBit
   );
-# 4372 "/home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Library/BaseLib.h"
+# 4372 "/mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Library/BaseLib.h"
 UINT32
 
 BitFieldWrite32 (
@@ -3473,7 +3473,7 @@ BitFieldWrite32 (
   UINTN EndBit,
   UINT32 Value
   );
-# 4406 "/home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Library/BaseLib.h"
+# 4406 "/mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Library/BaseLib.h"
 UINT32
 
 BitFieldOr32 (
@@ -3482,7 +3482,7 @@ BitFieldOr32 (
   UINTN EndBit,
   UINT32 OrData
   );
-# 4440 "/home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Library/BaseLib.h"
+# 4440 "/mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Library/BaseLib.h"
 UINT32
 
 BitFieldAnd32 (
@@ -3491,7 +3491,7 @@ BitFieldAnd32 (
   UINTN EndBit,
   UINT32 AndData
   );
-# 4477 "/home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Library/BaseLib.h"
+# 4477 "/mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Library/BaseLib.h"
 UINT32
 
 BitFieldAndThenOr32 (
@@ -3501,7 +3501,7 @@ BitFieldAndThenOr32 (
   UINT32 AndData,
   UINT32 OrData
   );
-# 4507 "/home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Library/BaseLib.h"
+# 4507 "/mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Library/BaseLib.h"
 UINT64
 
 BitFieldRead64 (
@@ -3509,7 +3509,7 @@ BitFieldRead64 (
   UINTN StartBit,
   UINTN EndBit
   );
-# 4539 "/home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Library/BaseLib.h"
+# 4539 "/mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Library/BaseLib.h"
 UINT64
 
 BitFieldWrite64 (
@@ -3518,7 +3518,7 @@ BitFieldWrite64 (
   UINTN EndBit,
   UINT64 Value
   );
-# 4573 "/home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Library/BaseLib.h"
+# 4573 "/mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Library/BaseLib.h"
 UINT64
 
 BitFieldOr64 (
@@ -3527,7 +3527,7 @@ BitFieldOr64 (
   UINTN EndBit,
   UINT64 OrData
   );
-# 4607 "/home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Library/BaseLib.h"
+# 4607 "/mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Library/BaseLib.h"
 UINT64
 
 BitFieldAnd64 (
@@ -3536,7 +3536,7 @@ BitFieldAnd64 (
   UINTN EndBit,
   UINT64 AndData
   );
-# 4644 "/home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Library/BaseLib.h"
+# 4644 "/mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Library/BaseLib.h"
 UINT64
 
 BitFieldAndThenOr64 (
@@ -3546,7 +3546,7 @@ BitFieldAndThenOr64 (
   UINT64 AndData,
   UINT64 OrData
   );
-# 4674 "/home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Library/BaseLib.h"
+# 4674 "/mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Library/BaseLib.h"
 UINT8
 
 BitFieldCountOnes32 (
@@ -3554,7 +3554,7 @@ BitFieldCountOnes32 (
   UINTN StartBit,
   UINTN EndBit
   );
-# 4702 "/home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Library/BaseLib.h"
+# 4702 "/mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Library/BaseLib.h"
 UINT8
 
 BitFieldCountOnes64 (
@@ -3562,90 +3562,90 @@ BitFieldCountOnes64 (
   UINTN StartBit,
   UINTN EndBit
   );
-# 4732 "/home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Library/BaseLib.h"
+# 4732 "/mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Library/BaseLib.h"
 UINT8
 
 CalculateSum8 (
   const UINT8 *Buffer,
   UINTN Length
   );
-# 4758 "/home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Library/BaseLib.h"
+# 4758 "/mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Library/BaseLib.h"
 UINT8
 
 CalculateCheckSum8 (
   const UINT8 *Buffer,
   UINTN Length
   );
-# 4785 "/home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Library/BaseLib.h"
+# 4785 "/mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Library/BaseLib.h"
 UINT16
 
 CalculateSum16 (
   const UINT16 *Buffer,
   UINTN Length
   );
-# 4813 "/home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Library/BaseLib.h"
+# 4813 "/mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Library/BaseLib.h"
 UINT16
 
 CalculateCheckSum16 (
   const UINT16 *Buffer,
   UINTN Length
   );
-# 4840 "/home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Library/BaseLib.h"
+# 4840 "/mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Library/BaseLib.h"
 UINT32
 
 CalculateSum32 (
   const UINT32 *Buffer,
   UINTN Length
   );
-# 4868 "/home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Library/BaseLib.h"
+# 4868 "/mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Library/BaseLib.h"
 UINT32
 
 CalculateCheckSum32 (
   const UINT32 *Buffer,
   UINTN Length
   );
-# 4895 "/home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Library/BaseLib.h"
+# 4895 "/mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Library/BaseLib.h"
 UINT64
 
 CalculateSum64 (
   const UINT64 *Buffer,
   UINTN Length
   );
-# 4923 "/home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Library/BaseLib.h"
+# 4923 "/mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Library/BaseLib.h"
 UINT64
 
 CalculateCheckSum64 (
   const UINT64 *Buffer,
   UINTN Length
   );
-# 4943 "/home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Library/BaseLib.h"
+# 4943 "/mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Library/BaseLib.h"
 UINT32
 
 CalculateCrc32(
   void *Buffer,
   UINTN Length
   );
-# 4961 "/home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Library/BaseLib.h"
+# 4961 "/mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Library/BaseLib.h"
 typedef
 void
 ( *SWITCH_STACK_ENTRY_POINT)(
   void *Context1,
   void *Context2
   );
-# 4976 "/home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Library/BaseLib.h"
+# 4976 "/mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Library/BaseLib.h"
 void
 
 MemoryFence (
   void
   );
-# 5004 "/home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Library/BaseLib.h"
+# 5004 "/mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Library/BaseLib.h"
 __attribute__((returns_twice))
 UINTN
 
 SetJump (
   BASE_LIBRARY_JUMP_BUFFER *JumpBuffer
   );
-# 5028 "/home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Library/BaseLib.h"
+# 5028 "/mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Library/BaseLib.h"
 void
 
 LongJump (
@@ -3674,7 +3674,7 @@ void
 DisableInterrupts (
   void
   );
-# 5066 "/home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Library/BaseLib.h"
+# 5066 "/mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Library/BaseLib.h"
 BOOLEAN
 
 SaveAndDisableInterrupts (
@@ -3692,25 +3692,25 @@ void
 EnableDisableInterrupts (
   void
   );
-# 5095 "/home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Library/BaseLib.h"
+# 5095 "/mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Library/BaseLib.h"
 BOOLEAN
 
 GetInterruptState (
   void
   );
-# 5116 "/home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Library/BaseLib.h"
+# 5116 "/mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Library/BaseLib.h"
 BOOLEAN
 
 SetInterruptState (
   BOOLEAN InterruptState
   );
-# 5130 "/home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Library/BaseLib.h"
+# 5130 "/mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Library/BaseLib.h"
 void
 
 CpuPause (
   void
   );
-# 5166 "/home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Library/BaseLib.h"
+# 5166 "/mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Library/BaseLib.h"
 void
 
 SwitchStack (
@@ -3720,31 +3720,31 @@ SwitchStack (
   void *NewStack,
   ...
   );
-# 5184 "/home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Library/BaseLib.h"
+# 5184 "/mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Library/BaseLib.h"
 void
 
 CpuBreakpoint (
   void
   );
-# 5200 "/home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Library/BaseLib.h"
+# 5200 "/mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Library/BaseLib.h"
 void
 
 CpuDeadLoop (
   void
   );
-# 5214 "/home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Library/BaseLib.h"
+# 5214 "/mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Library/BaseLib.h"
 void
 
 SpeculationBarrier (
   void
   );
-# 19 "/home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Ppi/PciCfg2.h" 2
+# 19 "/mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Ppi/PciCfg2.h" 2
 
 
 
 
 typedef struct _EFI_PEI_PCI_CFG2_PPI EFI_PEI_PCI_CFG2_PPI;
-# 35 "/home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Ppi/PciCfg2.h"
+# 35 "/mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Ppi/PciCfg2.h"
 typedef enum {
 
 
@@ -3794,7 +3794,7 @@ typedef struct {
 
   UINT32 ExtendedRegister;
 } EFI_PEI_PCI_CFG_PPI_PCI_ADDRESS;
-# 109 "/home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Ppi/PciCfg2.h"
+# 109 "/mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Ppi/PciCfg2.h"
 typedef
 EFI_STATUS
 ( *EFI_PEI_PCI_CFG2_PPI_IO)(
@@ -3804,7 +3804,7 @@ EFI_STATUS
   UINT64 Address,
   void *Buffer
 );
-# 150 "/home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Ppi/PciCfg2.h"
+# 150 "/mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Ppi/PciCfg2.h"
 typedef
 EFI_STATUS
 ( *EFI_PEI_PCI_CFG2_PPI_RW)(
@@ -3832,15 +3832,15 @@ struct _EFI_PEI_PCI_CFG2_PPI {
 
 
 extern EFI_GUID gEfiPciCfg2PpiGuid;
-# 41 "/home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Pi/PiPeiCis.h" 2
-# 54 "/home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Pi/PiPeiCis.h"
+# 41 "/mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Pi/PiPeiCis.h" 2
+# 54 "/mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Pi/PiPeiCis.h"
 typedef
 EFI_STATUS
 ( *EFI_PEIM_ENTRY_POINT2)(
   EFI_PEI_FILE_HANDLE FileHandle,
   const EFI_PEI_SERVICES **PeiServices
   );
-# 71 "/home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Pi/PiPeiCis.h"
+# 71 "/mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Pi/PiPeiCis.h"
 typedef
 EFI_STATUS
 ( *EFI_PEIM_NOTIFY_ENTRY_POINT)(
@@ -3848,7 +3848,7 @@ EFI_STATUS
   EFI_PEI_NOTIFY_DESCRIPTOR *NotifyDescriptor,
   void *Ppi
   );
-# 92 "/home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Pi/PiPeiCis.h"
+# 92 "/mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Pi/PiPeiCis.h"
 typedef struct {
 
 
@@ -3898,14 +3898,14 @@ typedef union {
 
   EFI_PEI_PPI_DESCRIPTOR Ppi;
 } EFI_PEI_DESCRIPTOR;
-# 159 "/home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Pi/PiPeiCis.h"
+# 159 "/mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Pi/PiPeiCis.h"
 typedef
 EFI_STATUS
 ( *EFI_PEI_INSTALL_PPI)(
   const EFI_PEI_SERVICES **PeiServices,
   const EFI_PEI_PPI_DESCRIPTOR *PpiList
   );
-# 184 "/home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Pi/PiPeiCis.h"
+# 184 "/mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Pi/PiPeiCis.h"
 typedef
 EFI_STATUS
 ( *EFI_PEI_REINSTALL_PPI)(
@@ -3913,7 +3913,7 @@ EFI_STATUS
   const EFI_PEI_PPI_DESCRIPTOR *OldPpi,
   const EFI_PEI_PPI_DESCRIPTOR *NewPpi
   );
-# 205 "/home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Pi/PiPeiCis.h"
+# 205 "/mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Pi/PiPeiCis.h"
 typedef
 EFI_STATUS
 ( *EFI_PEI_LOCATE_PPI)(
@@ -3923,35 +3923,35 @@ EFI_STATUS
   EFI_PEI_PPI_DESCRIPTOR **PpiDescriptor ,
   void **Ppi
   );
-# 230 "/home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Pi/PiPeiCis.h"
+# 230 "/mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Pi/PiPeiCis.h"
 typedef
 EFI_STATUS
 ( *EFI_PEI_NOTIFY_PPI)(
   const EFI_PEI_SERVICES **PeiServices,
   const EFI_PEI_NOTIFY_DESCRIPTOR *NotifyList
   );
-# 246 "/home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Pi/PiPeiCis.h"
+# 246 "/mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Pi/PiPeiCis.h"
 typedef
 EFI_STATUS
 ( *EFI_PEI_GET_BOOT_MODE)(
   const EFI_PEI_SERVICES **PeiServices,
   EFI_BOOT_MODE *BootMode
   );
-# 262 "/home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Pi/PiPeiCis.h"
+# 262 "/mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Pi/PiPeiCis.h"
 typedef
 EFI_STATUS
 ( *EFI_PEI_SET_BOOT_MODE)(
   const EFI_PEI_SERVICES **PeiServices,
   EFI_BOOT_MODE BootMode
   );
-# 279 "/home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Pi/PiPeiCis.h"
+# 279 "/mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Pi/PiPeiCis.h"
 typedef
 EFI_STATUS
 ( *EFI_PEI_GET_HOB_LIST)(
   const EFI_PEI_SERVICES **PeiServices,
   void **HobList
   );
-# 298 "/home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Pi/PiPeiCis.h"
+# 298 "/mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Pi/PiPeiCis.h"
 typedef
 EFI_STATUS
 ( *EFI_PEI_CREATE_HOB)(
@@ -3960,7 +3960,7 @@ EFI_STATUS
   UINT16 Length,
   void **Hob
   );
-# 326 "/home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Pi/PiPeiCis.h"
+# 326 "/mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Pi/PiPeiCis.h"
 typedef
 EFI_STATUS
 ( *EFI_PEI_FFS_FIND_NEXT_VOLUME2)(
@@ -3968,7 +3968,7 @@ EFI_STATUS
   UINTN Instance,
   EFI_PEI_FV_HANDLE *VolumeHandle
   );
-# 355 "/home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Pi/PiPeiCis.h"
+# 355 "/mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Pi/PiPeiCis.h"
 typedef
 EFI_STATUS
 ( *EFI_PEI_FFS_FIND_NEXT_FILE2)(
@@ -3977,7 +3977,7 @@ EFI_STATUS
   const EFI_PEI_FV_HANDLE FvHandle,
   EFI_PEI_FILE_HANDLE *FileHandle
   );
-# 383 "/home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Pi/PiPeiCis.h"
+# 383 "/mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Pi/PiPeiCis.h"
 typedef
 EFI_STATUS
 ( *EFI_PEI_FFS_FIND_SECTION_DATA2)(
@@ -3986,7 +3986,7 @@ EFI_STATUS
   EFI_PEI_FILE_HANDLE FileHandle,
   void **SectionData
   );
-# 413 "/home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Pi/PiPeiCis.h"
+# 413 "/mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Pi/PiPeiCis.h"
 typedef
 EFI_STATUS
 ( *EFI_PEI_FFS_FIND_SECTION_DATA3)(
@@ -3997,7 +3997,7 @@ EFI_STATUS
   void **SectionData,
   UINT32 *AuthenticationStatus
   );
-# 436 "/home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Pi/PiPeiCis.h"
+# 436 "/mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Pi/PiPeiCis.h"
 typedef
 EFI_STATUS
 ( *EFI_PEI_INSTALL_PEI_MEMORY)(
@@ -4005,7 +4005,7 @@ EFI_STATUS
   EFI_PHYSICAL_ADDRESS MemoryBegin,
   UINT64 MemoryLength
   );
-# 466 "/home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Pi/PiPeiCis.h"
+# 466 "/mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Pi/PiPeiCis.h"
 typedef
 EFI_STATUS
 ( *EFI_PEI_ALLOCATE_PAGES)(
@@ -4014,7 +4014,7 @@ EFI_STATUS
   UINTN Pages,
   EFI_PHYSICAL_ADDRESS *Memory
   );
-# 488 "/home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Pi/PiPeiCis.h"
+# 488 "/mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Pi/PiPeiCis.h"
 typedef
 EFI_STATUS
 ( *EFI_PEI_FREE_PAGES) (
@@ -4022,7 +4022,7 @@ EFI_STATUS
   EFI_PHYSICAL_ADDRESS Memory,
   UINTN Pages
   );
-# 508 "/home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Pi/PiPeiCis.h"
+# 508 "/mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Pi/PiPeiCis.h"
 typedef
 EFI_STATUS
 ( *EFI_PEI_ALLOCATE_POOL)(
@@ -4030,7 +4030,7 @@ EFI_STATUS
   UINTN Size,
   void **Buffer
   );
-# 524 "/home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Pi/PiPeiCis.h"
+# 524 "/mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Pi/PiPeiCis.h"
 typedef
 void
 ( *EFI_PEI_COPY_MEM)(
@@ -4038,7 +4038,7 @@ void
   void *Source,
   UINTN Length
   );
-# 540 "/home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Pi/PiPeiCis.h"
+# 540 "/mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Pi/PiPeiCis.h"
 typedef
 void
 ( *EFI_PEI_SET_MEM)(
@@ -4046,7 +4046,7 @@ void
   UINTN Size,
   UINT8 Value
   );
-# 577 "/home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Pi/PiPeiCis.h"
+# 577 "/mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Pi/PiPeiCis.h"
 typedef
 EFI_STATUS
 ( *EFI_PEI_REPORT_STATUS_CODE)(
@@ -4057,13 +4057,13 @@ EFI_STATUS
   const EFI_GUID *CallerId ,
   const EFI_STATUS_CODE_DATA *Data
   );
-# 601 "/home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Pi/PiPeiCis.h"
+# 601 "/mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Pi/PiPeiCis.h"
 typedef
 EFI_STATUS
 ( *EFI_PEI_RESET_SYSTEM)(
   const EFI_PEI_SERVICES **PeiServices
   );
-# 620 "/home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Pi/PiPeiCis.h"
+# 620 "/mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Pi/PiPeiCis.h"
 typedef
 void
 ( *EFI_PEI_RESET2_SYSTEM) (
@@ -4072,7 +4072,7 @@ void
   UINTN DataSize,
   void *ResetData
   );
-# 649 "/home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Pi/PiPeiCis.h"
+# 649 "/mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Pi/PiPeiCis.h"
 typedef
 EFI_STATUS
 ( *EFI_PEI_FFS_FIND_BY_NAME)(
@@ -4140,14 +4140,14 @@ typedef struct {
 
   UINT32 AuthenticationStatus;
 } EFI_FV_FILE_INFO2;
-# 735 "/home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Pi/PiPeiCis.h"
+# 735 "/mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Pi/PiPeiCis.h"
 typedef
 EFI_STATUS
 ( *EFI_PEI_FFS_GET_FILE_INFO)(
   EFI_PEI_FILE_HANDLE FileHandle,
   EFI_FV_FILE_INFO *FileInfo
   );
-# 759 "/home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Pi/PiPeiCis.h"
+# 759 "/mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Pi/PiPeiCis.h"
 typedef
 EFI_STATUS
 ( *EFI_PEI_FFS_GET_FILE_INFO2)(
@@ -4182,20 +4182,20 @@ typedef struct {
 
   UINT64 FvSize;
 } EFI_FV_INFO;
-# 811 "/home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Pi/PiPeiCis.h"
+# 811 "/mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Pi/PiPeiCis.h"
 typedef
 EFI_STATUS
 ( *EFI_PEI_FFS_GET_VOLUME_INFO)(
   EFI_PEI_FV_HANDLE VolumeHandle,
   EFI_FV_INFO *VolumeInfo
   );
-# 842 "/home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Pi/PiPeiCis.h"
+# 842 "/mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Pi/PiPeiCis.h"
 typedef
 EFI_STATUS
 ( *EFI_PEI_REGISTER_FOR_SHADOW)(
   EFI_PEI_FILE_HANDLE FileHandle
   );
-# 880 "/home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Pi/PiPeiCis.h"
+# 880 "/mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Pi/PiPeiCis.h"
 struct _EFI_PEI_SERVICES {
 
 
@@ -4301,7 +4301,7 @@ typedef struct _EFI_SEC_PEI_HAND_OFF {
 
 
   UINTN TemporaryRamSize;
-# 995 "/home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Pi/PiPeiCis.h"
+# 995 "/mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Pi/PiPeiCis.h"
   void *PeiTemporaryRamBase;
 
 
@@ -4323,142 +4323,142 @@ typedef struct _EFI_SEC_PEI_HAND_OFF {
 
   UINTN StackSize;
 } EFI_SEC_PEI_HAND_OFF;
-# 1054 "/home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Pi/PiPeiCis.h"
+# 1054 "/mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Pi/PiPeiCis.h"
 typedef
 void
 ( *EFI_PEI_CORE_ENTRY_POINT)(
   const EFI_SEC_PEI_HAND_OFF *SecCoreData,
   const EFI_PEI_PPI_DESCRIPTOR *PpiList
 );
-# 19 "/home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/PiPei.h" 2
-# 17 "/home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPlatformPkg/PrePi/PeiUniCore/DEBUG/AutoGen.h" 2
-# 1 "/home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Library/PcdLib.h" 1
-# 1076 "/home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Library/PcdLib.h"
+# 19 "/mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/PiPei.h" 2
+# 17 "/mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPlatformPkg/PrePi/PeiUniCore/DEBUG/AutoGen.h" 2
+# 1 "/mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Library/PcdLib.h" 1
+# 1076 "/mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Library/PcdLib.h"
 UINTN
 
 LibPcdSetSku (
   UINTN SkuId
   );
-# 1093 "/home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Library/PcdLib.h"
+# 1093 "/mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Library/PcdLib.h"
 UINT8
 
 LibPcdGet8 (
   UINTN TokenNumber
   );
-# 1110 "/home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Library/PcdLib.h"
+# 1110 "/mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Library/PcdLib.h"
 UINT16
 
 LibPcdGet16 (
   UINTN TokenNumber
   );
-# 1127 "/home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Library/PcdLib.h"
+# 1127 "/mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Library/PcdLib.h"
 UINT32
 
 LibPcdGet32 (
   UINTN TokenNumber
   );
-# 1144 "/home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Library/PcdLib.h"
+# 1144 "/mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Library/PcdLib.h"
 UINT64
 
 LibPcdGet64 (
   UINTN TokenNumber
   );
-# 1161 "/home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Library/PcdLib.h"
+# 1161 "/mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Library/PcdLib.h"
 void *
 
 LibPcdGetPtr (
   UINTN TokenNumber
   );
-# 1178 "/home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Library/PcdLib.h"
+# 1178 "/mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Library/PcdLib.h"
 BOOLEAN
 
 LibPcdGetBool (
   UINTN TokenNumber
   );
-# 1193 "/home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Library/PcdLib.h"
+# 1193 "/mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Library/PcdLib.h"
 UINTN
 
 LibPcdGetSize (
   UINTN TokenNumber
   );
-# 1214 "/home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Library/PcdLib.h"
+# 1214 "/mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Library/PcdLib.h"
 UINT8
 
 LibPcdGetEx8 (
   const GUID *Guid,
   UINTN TokenNumber
   );
-# 1236 "/home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Library/PcdLib.h"
+# 1236 "/mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Library/PcdLib.h"
 UINT16
 
 LibPcdGetEx16 (
   const GUID *Guid,
   UINTN TokenNumber
   );
-# 1255 "/home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Library/PcdLib.h"
+# 1255 "/mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Library/PcdLib.h"
 UINT32
 
 LibPcdGetEx32 (
   const GUID *Guid,
   UINTN TokenNumber
   );
-# 1277 "/home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Library/PcdLib.h"
+# 1277 "/mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Library/PcdLib.h"
 UINT64
 
 LibPcdGetEx64 (
   const GUID *Guid,
   UINTN TokenNumber
   );
-# 1299 "/home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Library/PcdLib.h"
+# 1299 "/mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Library/PcdLib.h"
 void *
 
 LibPcdGetExPtr (
   const GUID *Guid,
   UINTN TokenNumber
   );
-# 1321 "/home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Library/PcdLib.h"
+# 1321 "/mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Library/PcdLib.h"
 BOOLEAN
 
 LibPcdGetExBool (
   const GUID *Guid,
   UINTN TokenNumber
   );
-# 1343 "/home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Library/PcdLib.h"
+# 1343 "/mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Library/PcdLib.h"
 UINTN
 
 LibPcdGetExSize (
   const GUID *Guid,
   UINTN TokenNumber
   );
-# 1364 "/home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Library/PcdLib.h"
+# 1364 "/mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Library/PcdLib.h"
 UINT8
 
 LibPcdSet8 (
   UINTN TokenNumber,
   UINT8 Value
   );
-# 1384 "/home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Library/PcdLib.h"
+# 1384 "/mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Library/PcdLib.h"
 UINT16
 
 LibPcdSet16 (
   UINTN TokenNumber,
   UINT16 Value
   );
-# 1404 "/home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Library/PcdLib.h"
+# 1404 "/mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Library/PcdLib.h"
 UINT32
 
 LibPcdSet32 (
   UINTN TokenNumber,
   UINT32 Value
   );
-# 1424 "/home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Library/PcdLib.h"
+# 1424 "/mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Library/PcdLib.h"
 UINT64
 
 LibPcdSet64 (
   UINTN TokenNumber,
   UINT64 Value
   );
-# 1454 "/home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Library/PcdLib.h"
+# 1454 "/mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Library/PcdLib.h"
 void *
 
 LibPcdSetPtr (
@@ -4466,14 +4466,14 @@ LibPcdSetPtr (
   UINTN *SizeOfBuffer,
   const void *Buffer
   );
-# 1475 "/home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Library/PcdLib.h"
+# 1475 "/mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Library/PcdLib.h"
 BOOLEAN
 
 LibPcdSetBool (
   UINTN TokenNumber,
   BOOLEAN Value
   );
-# 1499 "/home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Library/PcdLib.h"
+# 1499 "/mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Library/PcdLib.h"
 UINT8
 
 LibPcdSetEx8 (
@@ -4481,7 +4481,7 @@ LibPcdSetEx8 (
   UINTN TokenNumber,
   UINT8 Value
   );
-# 1524 "/home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Library/PcdLib.h"
+# 1524 "/mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Library/PcdLib.h"
 UINT16
 
 LibPcdSetEx16 (
@@ -4489,7 +4489,7 @@ LibPcdSetEx16 (
   UINTN TokenNumber,
   UINT16 Value
   );
-# 1549 "/home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Library/PcdLib.h"
+# 1549 "/mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Library/PcdLib.h"
 UINT32
 
 LibPcdSetEx32 (
@@ -4497,7 +4497,7 @@ LibPcdSetEx32 (
   UINTN TokenNumber,
   UINT32 Value
   );
-# 1574 "/home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Library/PcdLib.h"
+# 1574 "/mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Library/PcdLib.h"
 UINT64
 
 LibPcdSetEx64 (
@@ -4505,7 +4505,7 @@ LibPcdSetEx64 (
   UINTN TokenNumber,
   UINT64 Value
   );
-# 1605 "/home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Library/PcdLib.h"
+# 1605 "/mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Library/PcdLib.h"
 void *
 
 LibPcdSetExPtr (
@@ -4514,7 +4514,7 @@ LibPcdSetExPtr (
   UINTN *SizeOfBuffer,
   void *Buffer
   );
-# 1631 "/home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Library/PcdLib.h"
+# 1631 "/mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Library/PcdLib.h"
 BOOLEAN
 
 LibPcdSetExBool (
@@ -4522,35 +4522,35 @@ LibPcdSetExBool (
   UINTN TokenNumber,
   BOOLEAN Value
   );
-# 1652 "/home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Library/PcdLib.h"
+# 1652 "/mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Library/PcdLib.h"
 RETURN_STATUS
 
 LibPcdSet8S (
   UINTN TokenNumber,
   UINT8 Value
   );
-# 1671 "/home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Library/PcdLib.h"
+# 1671 "/mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Library/PcdLib.h"
 RETURN_STATUS
 
 LibPcdSet16S (
   UINTN TokenNumber,
   UINT16 Value
   );
-# 1690 "/home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Library/PcdLib.h"
+# 1690 "/mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Library/PcdLib.h"
 RETURN_STATUS
 
 LibPcdSet32S (
   UINTN TokenNumber,
   UINT32 Value
   );
-# 1709 "/home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Library/PcdLib.h"
+# 1709 "/mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Library/PcdLib.h"
 RETURN_STATUS
 
 LibPcdSet64S (
   UINTN TokenNumber,
   UINT64 Value
   );
-# 1738 "/home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Library/PcdLib.h"
+# 1738 "/mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Library/PcdLib.h"
 RETURN_STATUS
 
 LibPcdSetPtrS (
@@ -4558,14 +4558,14 @@ LibPcdSetPtrS (
   UINTN *SizeOfBuffer,
   const void *Buffer
   );
-# 1758 "/home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Library/PcdLib.h"
+# 1758 "/mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Library/PcdLib.h"
 RETURN_STATUS
 
 LibPcdSetBoolS (
   UINTN TokenNumber,
   BOOLEAN Value
   );
-# 1781 "/home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Library/PcdLib.h"
+# 1781 "/mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Library/PcdLib.h"
 RETURN_STATUS
 
 LibPcdSetEx8S (
@@ -4573,7 +4573,7 @@ LibPcdSetEx8S (
   UINTN TokenNumber,
   UINT8 Value
   );
-# 1805 "/home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Library/PcdLib.h"
+# 1805 "/mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Library/PcdLib.h"
 RETURN_STATUS
 
 LibPcdSetEx16S (
@@ -4581,7 +4581,7 @@ LibPcdSetEx16S (
   UINTN TokenNumber,
   UINT16 Value
   );
-# 1829 "/home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Library/PcdLib.h"
+# 1829 "/mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Library/PcdLib.h"
 RETURN_STATUS
 
 LibPcdSetEx32S (
@@ -4589,7 +4589,7 @@ LibPcdSetEx32S (
   UINTN TokenNumber,
   UINT32 Value
   );
-# 1853 "/home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Library/PcdLib.h"
+# 1853 "/mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Library/PcdLib.h"
 RETURN_STATUS
 
 LibPcdSetEx64S (
@@ -4597,7 +4597,7 @@ LibPcdSetEx64S (
   UINTN TokenNumber,
   UINT64 Value
   );
-# 1883 "/home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Library/PcdLib.h"
+# 1883 "/mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Library/PcdLib.h"
 RETURN_STATUS
 
 LibPcdSetExPtrS (
@@ -4606,7 +4606,7 @@ LibPcdSetExPtrS (
   UINTN *SizeOfBuffer,
   void *Buffer
   );
-# 1908 "/home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Library/PcdLib.h"
+# 1908 "/mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Library/PcdLib.h"
 RETURN_STATUS
 
 LibPcdSetExBoolS (
@@ -4614,7 +4614,7 @@ LibPcdSetExBoolS (
   UINTN TokenNumber,
   BOOLEAN Value
   );
-# 1932 "/home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Library/PcdLib.h"
+# 1932 "/mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Library/PcdLib.h"
 typedef
 void
 ( *PCD_CALLBACK)(
@@ -4623,7 +4623,7 @@ void
   void *TokenData,
   UINTN TokenDataSize
   );
-# 1958 "/home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Library/PcdLib.h"
+# 1958 "/mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Library/PcdLib.h"
 void
 
 LibPcdCallbackOnSet (
@@ -4631,7 +4631,7 @@ LibPcdCallbackOnSet (
   UINTN TokenNumber,
   PCD_CALLBACK NotificationFunction
   );
-# 1980 "/home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Library/PcdLib.h"
+# 1980 "/mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Library/PcdLib.h"
 void
 
 LibPcdCancelCallback (
@@ -4639,20 +4639,20 @@ LibPcdCancelCallback (
   UINTN TokenNumber,
   PCD_CALLBACK NotificationFunction
   );
-# 2008 "/home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Library/PcdLib.h"
+# 2008 "/mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Library/PcdLib.h"
 UINTN
 
 LibPcdGetNextToken (
   const GUID *Guid,
   UINTN TokenNumber
   );
-# 2030 "/home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Library/PcdLib.h"
+# 2030 "/mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Library/PcdLib.h"
 GUID *
 
 LibPcdGetNextTokenSpace (
   const GUID *TokenSpaceGuid
   );
-# 2060 "/home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Library/PcdLib.h"
+# 2060 "/mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Library/PcdLib.h"
 void *
 
 LibPatchPcdSetPtr (
@@ -4661,7 +4661,7 @@ LibPatchPcdSetPtr (
   UINTN *SizeOfBuffer,
   const void *Buffer
   );
-# 2092 "/home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Library/PcdLib.h"
+# 2092 "/mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Library/PcdLib.h"
 RETURN_STATUS
 
 LibPatchPcdSetPtrS (
@@ -4670,7 +4670,7 @@ LibPatchPcdSetPtrS (
   UINTN *SizeOfBuffer,
   const void *Buffer
   );
-# 2126 "/home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Library/PcdLib.h"
+# 2126 "/mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Library/PcdLib.h"
 void *
 
 LibPatchPcdSetPtrAndSize (
@@ -4680,7 +4680,7 @@ LibPatchPcdSetPtrAndSize (
   UINTN *SizeOfBuffer,
   const void *Buffer
   );
-# 2161 "/home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Library/PcdLib.h"
+# 2161 "/mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Library/PcdLib.h"
 RETURN_STATUS
 
 LibPatchPcdSetPtrAndSizeS (
@@ -4719,14 +4719,14 @@ typedef struct {
 
   CHAR8 *PcdName;
 } PCD_INFO;
-# 2213 "/home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Library/PcdLib.h"
+# 2213 "/mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Library/PcdLib.h"
 void
 
 LibPcdGetInfo (
   UINTN TokenNumber,
   PCD_INFO *PcdInfo
   );
-# 2233 "/home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Library/PcdLib.h"
+# 2233 "/mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Library/PcdLib.h"
 void
 
 LibPcdGetInfoEx (
@@ -4734,13 +4734,13 @@ LibPcdGetInfoEx (
   UINTN TokenNumber,
   PCD_INFO *PcdInfo
   );
-# 2248 "/home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Library/PcdLib.h"
+# 2248 "/mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Library/PcdLib.h"
 UINTN
 
 LibPcdGetSku (
   void
   );
-# 18 "/home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPlatformPkg/PrePi/PeiUniCore/DEBUG/AutoGen.h" 2
+# 18 "/mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPlatformPkg/PrePi/PeiUniCore/DEBUG/AutoGen.h" 2
 
 extern GUID gEfiCallerIdGuid;
 extern CHAR8 *gEfiCallerBaseName;
@@ -4948,7 +4948,7 @@ extern const BOOLEAN _gPcd_FixedAtBuild_PcdSendSgiToBringUpSecondaryCores;
 
 
 extern const UINT16 _gPcd_FixedAtBuild_PcdFirmwareVersionString[6];
-# 234 "/home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPlatformPkg/PrePi/PeiUniCore/DEBUG/AutoGen.h"
+# 234 "/mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPlatformPkg/PrePi/PeiUniCore/DEBUG/AutoGen.h"
 extern const UINT64 _gPcd_FixedAtBuild_PcdSystemMemoryBase;
 
 
@@ -4959,7 +4959,7 @@ extern const UINT64 _gPcd_FixedAtBuild_PcdSystemMemoryBase;
 
 extern const UINT64 _gPcd_FixedAtBuild_PcdSystemMemorySize;
 # 32 "<command-line>" 2
-# 1 "/home/evsio0n/src/edk2sdm/edk2/ArmPlatformPkg/PrePi/AArch64/ModuleEntryPoint.S"
+# 1 "/mnt/d/TARGET/edk2sdm/edk2/ArmPlatformPkg/PrePi/AArch64/ModuleEntryPoint.S"
 
 
 
@@ -4967,8 +4967,8 @@ extern const UINT64 _gPcd_FixedAtBuild_PcdSystemMemorySize;
 
 
 
-# 1 "/home/evsio0n/src/edk2sdm/edk2/ArmPkg/Include/AsmMacroIoLibV8.h" 1
-# 9 "/home/evsio0n/src/edk2sdm/edk2/ArmPlatformPkg/PrePi/AArch64/ModuleEntryPoint.S" 2
+# 1 "/mnt/d/TARGET/edk2sdm/edk2/ArmPkg/Include/AsmMacroIoLibV8.h" 1
+# 9 "/mnt/d/TARGET/edk2sdm/edk2/ArmPlatformPkg/PrePi/AArch64/ModuleEntryPoint.S" 2
 
 .global _ModuleEntryPoint ; .section ".text._ModuleEntryPoint", "ax" ; .type _ModuleEntryPoint, %function ; _ModuleEntryPoint:
 

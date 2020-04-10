@@ -19,7 +19,7 @@ PLATFORM_NAME = XiaomiMI6Pkg
 PLATFORM_GUID = 28f1a3bf-193a-47e3-a7b9-5a435eaab2ee
 PLATFORM_VERSION = 0.1
 PLATFORM_RELATIVE_DIR = XiaomiMI6Pkg
-PLATFORM_DIR = /home/evsio0n/src/edk2sdm/Sdm835/XiaomiMI6Pkg
+PLATFORM_DIR = /mnt/d/TARGET/edk2sdm/Sdm835/XiaomiMI6Pkg
 PLATFORM_OUTPUT_DIR = Build/XiaomiMI6Pkg
 
 #
@@ -35,8 +35,8 @@ MODULE_FILE_BASE_NAME = BaseCpuLib
 BASE_NAME = $(MODULE_NAME)
 MODULE_RELATIVE_DIR = MdePkg/Library/BaseCpuLib
 PACKAGE_RELATIVE_DIR = Library/BaseCpuLib
-MODULE_DIR = /home/evsio0n/src/edk2sdm/edk2/MdePkg/Library/BaseCpuLib
-FFS_OUTPUT_DIR = /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/FV/Ffs/4FBD2538-249C-4b50-8F4A-A9E66609CBF6BaseCpuLib
+MODULE_DIR = /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Library/BaseCpuLib
+FFS_OUTPUT_DIR = /mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/FV/Ffs/4FBD2538-249C-4b50-8F4A-A9E66609CBF6BaseCpuLib
 
 MODULE_ENTRY_POINT = _ModuleEntryPoint
 ARCH_ENTRY_POINT = _ModuleEntryPoint
@@ -60,13 +60,13 @@ TARGET = DEBUG
 #
 # Build Directory Macro Definition
 #
-# PLATFORM_BUILD_DIR = /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5
-BUILD_DIR = /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5
+# PLATFORM_BUILD_DIR = /mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5
+BUILD_DIR = /mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5
 BIN_DIR = $(BUILD_DIR)/AARCH64
 LIB_DIR = $(BIN_DIR)
-MODULE_BUILD_DIR = /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseCpuLib/BaseCpuLib
-OUTPUT_DIR = /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseCpuLib/BaseCpuLib/OUTPUT
-DEBUG_DIR = /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseCpuLib/BaseCpuLib/DEBUG
+MODULE_BUILD_DIR = /mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseCpuLib/BaseCpuLib
+OUTPUT_DIR = /mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseCpuLib/BaseCpuLib/OUTPUT
+DEBUG_DIR = /mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseCpuLib/BaseCpuLib/DEBUG
 DEST_DIR_OUTPUT = $(OUTPUT_DIR)
 DEST_DIR_DEBUG = $(DEBUG_DIR)
 
@@ -170,7 +170,7 @@ PP_FLAGS = $(ARCHCC_FLAGS) $(PLATFORM_FLAGS) -E -x assembler-with-cpp -include $
 VFRPP = aarch64-linux-gnu-gcc
 VFRPP_FLAGS = $(ARCHCC_FLAGS) $(PLATFORM_FLAGS) -x c -E -P -DVFRCOMPILE --include $(DEST_DIR_DEBUG)/$(MODULE_NAME)StrDefs.h
 
-DLINK_FLAGS = -Wl,--emit-relocs -nostdlib -Wl,--gc-sections -u $(IMAGE_ENTRY_POINT) -Wl,-e,$(IMAGE_ENTRY_POINT),-Map,$(DEST_DIR_DEBUG)/$(BASE_NAME).map -z common-page-size=0x20 -z common-page-size=0x1000 -flto -Os -L/home/evsio0n/src/edk2sdm/edk2/ArmPkg/Library/GccLto -llto-aarch64 -Wl,-plugin-opt=-pass-through=-llto-aarch64 -Wno-lto-type-mismatch
+DLINK_FLAGS = -Wl,--emit-relocs -nostdlib -Wl,--gc-sections -u $(IMAGE_ENTRY_POINT) -Wl,-e,$(IMAGE_ENTRY_POINT),-Map,$(DEST_DIR_DEBUG)/$(BASE_NAME).map -z common-page-size=0x20 -z common-page-size=0x1000 -flto -Os -L/mnt/d/TARGET/edk2sdm/edk2/ArmPkg/Library/GccLto -llto-aarch64 -Wl,-plugin-opt=-pass-through=-llto-aarch64 -Wno-lto-type-mismatch
 DLINK_XIPFLAGS =  -z common-page-size=0x20
 DLINK = aarch64-linux-gnu-gcc
 
@@ -204,14 +204,14 @@ OBJECT_FILES =  \
     $(OUTPUT_DIR)/AArch64/CpuSleep.obj
 
 INC =  \
-    -I/home/evsio0n/src/edk2sdm/edk2/MdePkg/Library/BaseCpuLib/AArch64 \
-    -I/home/evsio0n/src/edk2sdm/edk2/MdePkg/Library/BaseCpuLib \
+    -I/mnt/d/TARGET/edk2sdm/edk2/MdePkg/Library/BaseCpuLib/AArch64 \
+    -I/mnt/d/TARGET/edk2sdm/edk2/MdePkg/Library/BaseCpuLib \
     -I$(DEBUG_DIR) \
-    -I/home/evsio0n/src/edk2sdm/edk2/MdePkg \
-    -I/home/evsio0n/src/edk2sdm/edk2/MdePkg/Include \
-    -I/home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/AArch64
+    -I/mnt/d/TARGET/edk2sdm/edk2/MdePkg \
+    -I/mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include \
+    -I/mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/AArch64
 
-OBJECT_FILES_LIST = /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseCpuLib/BaseCpuLib/OUTPUT/object_files.lst
+OBJECT_FILES_LIST = /mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseCpuLib/BaseCpuLib/OUTPUT/object_files.lst
 
 
 COMMON_DEPS = 
@@ -223,7 +223,7 @@ FORCE_REBUILD = force_build
 INIT_TARGET = init
 PCH_TARGET =
 BC_TARGET = 
-CODA_TARGET = /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseCpuLib/BaseCpuLib/OUTPUT/BaseCpuLib.lib \
+CODA_TARGET = /mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseCpuLib/BaseCpuLib/OUTPUT/BaseCpuLib.lib \
               
 
 #
@@ -296,27 +296,27 @@ gen_fds:
 # Individual Object Build Targets
 #
 $(OUTPUT_DIR)/AArch64/CpuFlushTlb.obj : $(MAKE_FILE)
-$(OUTPUT_DIR)/AArch64/CpuFlushTlb.obj : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Base.h
-$(OUTPUT_DIR)/AArch64/CpuFlushTlb.obj : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/AArch64/ProcessorBind.h
+$(OUTPUT_DIR)/AArch64/CpuFlushTlb.obj : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/AArch64/ProcessorBind.h
 $(OUTPUT_DIR)/AArch64/CpuFlushTlb.obj : $(DEBUG_DIR)/AutoGen.h
-$(OUTPUT_DIR)/AArch64/CpuFlushTlb.obj : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Library/BaseCpuLib/AArch64/CpuFlushTlb.S
-	"$(PP)" $(PP_FLAGS) $(INC) /home/evsio0n/src/edk2sdm/edk2/MdePkg/Library/BaseCpuLib/AArch64/CpuFlushTlb.S > /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseCpuLib/BaseCpuLib/OUTPUT/AArch64/CpuFlushTlb.i
-	Trim --trim-long --source-code -o /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseCpuLib/BaseCpuLib/OUTPUT/AArch64/CpuFlushTlb.iii /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseCpuLib/BaseCpuLib/OUTPUT/AArch64/CpuFlushTlb.i
-	"$(ASM)" $(ASM_FLAGS) -o /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseCpuLib/BaseCpuLib/OUTPUT/AArch64/CpuFlushTlb.obj $(INC) /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseCpuLib/BaseCpuLib/OUTPUT/AArch64/CpuFlushTlb.iii
+$(OUTPUT_DIR)/AArch64/CpuFlushTlb.obj : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Base.h
+$(OUTPUT_DIR)/AArch64/CpuFlushTlb.obj : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Library/BaseCpuLib/AArch64/CpuFlushTlb.S
+	"$(PP)" $(PP_FLAGS) $(INC) /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Library/BaseCpuLib/AArch64/CpuFlushTlb.S > /mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseCpuLib/BaseCpuLib/OUTPUT/AArch64/CpuFlushTlb.i
+	Trim --trim-long --source-code -o /mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseCpuLib/BaseCpuLib/OUTPUT/AArch64/CpuFlushTlb.iii /mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseCpuLib/BaseCpuLib/OUTPUT/AArch64/CpuFlushTlb.i
+	"$(ASM)" $(ASM_FLAGS) -o /mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseCpuLib/BaseCpuLib/OUTPUT/AArch64/CpuFlushTlb.obj $(INC) /mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseCpuLib/BaseCpuLib/OUTPUT/AArch64/CpuFlushTlb.iii
 
 $(OUTPUT_DIR)/AArch64/CpuSleep.obj : $(MAKE_FILE)
-$(OUTPUT_DIR)/AArch64/CpuSleep.obj : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Base.h
-$(OUTPUT_DIR)/AArch64/CpuSleep.obj : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/AArch64/ProcessorBind.h
+$(OUTPUT_DIR)/AArch64/CpuSleep.obj : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/AArch64/ProcessorBind.h
 $(OUTPUT_DIR)/AArch64/CpuSleep.obj : $(DEBUG_DIR)/AutoGen.h
-$(OUTPUT_DIR)/AArch64/CpuSleep.obj : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Library/BaseCpuLib/AArch64/CpuSleep.S
-	"$(PP)" $(PP_FLAGS) $(INC) /home/evsio0n/src/edk2sdm/edk2/MdePkg/Library/BaseCpuLib/AArch64/CpuSleep.S > /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseCpuLib/BaseCpuLib/OUTPUT/AArch64/CpuSleep.i
-	Trim --trim-long --source-code -o /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseCpuLib/BaseCpuLib/OUTPUT/AArch64/CpuSleep.iii /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseCpuLib/BaseCpuLib/OUTPUT/AArch64/CpuSleep.i
-	"$(ASM)" $(ASM_FLAGS) -o /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseCpuLib/BaseCpuLib/OUTPUT/AArch64/CpuSleep.obj $(INC) /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseCpuLib/BaseCpuLib/OUTPUT/AArch64/CpuSleep.iii
+$(OUTPUT_DIR)/AArch64/CpuSleep.obj : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Base.h
+$(OUTPUT_DIR)/AArch64/CpuSleep.obj : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Library/BaseCpuLib/AArch64/CpuSleep.S
+	"$(PP)" $(PP_FLAGS) $(INC) /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Library/BaseCpuLib/AArch64/CpuSleep.S > /mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseCpuLib/BaseCpuLib/OUTPUT/AArch64/CpuSleep.i
+	Trim --trim-long --source-code -o /mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseCpuLib/BaseCpuLib/OUTPUT/AArch64/CpuSleep.iii /mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseCpuLib/BaseCpuLib/OUTPUT/AArch64/CpuSleep.i
+	"$(ASM)" $(ASM_FLAGS) -o /mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseCpuLib/BaseCpuLib/OUTPUT/AArch64/CpuSleep.obj $(INC) /mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseCpuLib/BaseCpuLib/OUTPUT/AArch64/CpuSleep.iii
 
 $(OUTPUT_DIR)/BaseCpuLib.lib : $(OBJECT_FILES)
 $(OUTPUT_DIR)/BaseCpuLib.lib : $(OBJECT_FILES_LIST)
-	$(RM) /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseCpuLib/BaseCpuLib/OUTPUT/BaseCpuLib.lib
-	"$(SLINK)" cr /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseCpuLib/BaseCpuLib/OUTPUT/BaseCpuLib.lib $(SLINK_FLAGS) @$(OBJECT_FILES_LIST)
+	$(RM) /mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseCpuLib/BaseCpuLib/OUTPUT/BaseCpuLib.lib
+	"$(SLINK)" cr /mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseCpuLib/BaseCpuLib/OUTPUT/BaseCpuLib.lib $(SLINK_FLAGS) @$(OBJECT_FILES_LIST)
 
 
 

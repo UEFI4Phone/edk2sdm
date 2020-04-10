@@ -19,7 +19,7 @@ PLATFORM_NAME = XiaomiMI6Pkg
 PLATFORM_GUID = 28f1a3bf-193a-47e3-a7b9-5a435eaab2ee
 PLATFORM_VERSION = 0.1
 PLATFORM_RELATIVE_DIR = XiaomiMI6Pkg
-PLATFORM_DIR = /home/evsio0n/src/edk2sdm/Sdm835/XiaomiMI6Pkg
+PLATFORM_DIR = /mnt/d/TARGET/edk2sdm/Sdm835/XiaomiMI6Pkg
 PLATFORM_OUTPUT_DIR = Build/XiaomiMI6Pkg
 
 #
@@ -35,8 +35,8 @@ MODULE_FILE_BASE_NAME = UefiShellLevel2CommandsLib
 BASE_NAME = $(MODULE_NAME)
 MODULE_RELATIVE_DIR = ShellPkg/Library/UefiShellLevel2CommandsLib
 PACKAGE_RELATIVE_DIR = Library/UefiShellLevel2CommandsLib
-MODULE_DIR = /home/evsio0n/src/edk2sdm/edk2/ShellPkg/Library/UefiShellLevel2CommandsLib
-FFS_OUTPUT_DIR = /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/FV/Ffs/CBF3931C-A2DF-40e5-B77E-CCA9555E9755UefiShellLevel2CommandsLib
+MODULE_DIR = /mnt/d/TARGET/edk2sdm/edk2/ShellPkg/Library/UefiShellLevel2CommandsLib
+FFS_OUTPUT_DIR = /mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/FV/Ffs/CBF3931C-A2DF-40e5-B77E-CCA9555E9755UefiShellLevel2CommandsLib
 
 MODULE_ENTRY_POINT = _ModuleEntryPoint
 ARCH_ENTRY_POINT = _ModuleEntryPoint
@@ -59,13 +59,13 @@ TARGET = DEBUG
 #
 # Build Directory Macro Definition
 #
-# PLATFORM_BUILD_DIR = /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5
-BUILD_DIR = /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5
+# PLATFORM_BUILD_DIR = /mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5
+BUILD_DIR = /mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5
 BIN_DIR = $(BUILD_DIR)/AARCH64
 LIB_DIR = $(BIN_DIR)
-MODULE_BUILD_DIR = /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ShellPkg/Library/UefiShellLevel2CommandsLib/UefiShellLevel2CommandsLib
-OUTPUT_DIR = /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ShellPkg/Library/UefiShellLevel2CommandsLib/UefiShellLevel2CommandsLib/OUTPUT
-DEBUG_DIR = /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ShellPkg/Library/UefiShellLevel2CommandsLib/UefiShellLevel2CommandsLib/DEBUG
+MODULE_BUILD_DIR = /mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ShellPkg/Library/UefiShellLevel2CommandsLib/UefiShellLevel2CommandsLib
+OUTPUT_DIR = /mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ShellPkg/Library/UefiShellLevel2CommandsLib/UefiShellLevel2CommandsLib/OUTPUT
+DEBUG_DIR = /mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ShellPkg/Library/UefiShellLevel2CommandsLib/UefiShellLevel2CommandsLib/DEBUG
 DEST_DIR_OUTPUT = $(OUTPUT_DIR)
 DEST_DIR_DEBUG = $(DEBUG_DIR)
 
@@ -169,7 +169,7 @@ PP_FLAGS = $(ARCHCC_FLAGS) $(PLATFORM_FLAGS) -E -x assembler-with-cpp -include $
 VFRPP = aarch64-linux-gnu-gcc
 VFRPP_FLAGS = $(ARCHCC_FLAGS) $(PLATFORM_FLAGS) -x c -E -P -DVFRCOMPILE --include $(DEST_DIR_DEBUG)/$(MODULE_NAME)StrDefs.h
 
-DLINK_FLAGS = -Wl,--emit-relocs -nostdlib -Wl,--gc-sections -u $(IMAGE_ENTRY_POINT) -Wl,-e,$(IMAGE_ENTRY_POINT),-Map,$(DEST_DIR_DEBUG)/$(BASE_NAME).map -z common-page-size=0x20 -z common-page-size=0x1000 -flto -Os -L/home/evsio0n/src/edk2sdm/edk2/ArmPkg/Library/GccLto -llto-aarch64 -Wl,-plugin-opt=-pass-through=-llto-aarch64 -Wno-lto-type-mismatch
+DLINK_FLAGS = -Wl,--emit-relocs -nostdlib -Wl,--gc-sections -u $(IMAGE_ENTRY_POINT) -Wl,-e,$(IMAGE_ENTRY_POINT),-Map,$(DEST_DIR_DEBUG)/$(BASE_NAME).map -z common-page-size=0x20 -z common-page-size=0x1000 -flto -Os -L/mnt/d/TARGET/edk2sdm/edk2/ArmPkg/Library/GccLto -llto-aarch64 -Wl,-plugin-opt=-pass-through=-llto-aarch64 -Wno-lto-type-mismatch
 DLINK_XIPFLAGS =  -z common-page-size=0x20
 DLINK = aarch64-linux-gnu-gcc
 
@@ -217,81 +217,81 @@ OBJECT_FILES =  \
     $(OUTPUT_DIR)/AutoGen.obj
 
 INC =  \
-    -I/home/evsio0n/src/edk2sdm/edk2/ShellPkg/Library/UefiShellLevel2CommandsLib \
+    -I/mnt/d/TARGET/edk2sdm/edk2/ShellPkg/Library/UefiShellLevel2CommandsLib \
     -I$(DEBUG_DIR) \
-    -I/home/evsio0n/src/edk2sdm/edk2/MdePkg \
-    -I/home/evsio0n/src/edk2sdm/edk2/MdePkg/Include \
-    -I/home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/AArch64 \
-    -I/home/evsio0n/src/edk2sdm/edk2/ShellPkg \
-    -I/home/evsio0n/src/edk2sdm/edk2/ShellPkg/Include \
-    -I/home/evsio0n/src/edk2sdm/edk2/MdeModulePkg \
-    -I/home/evsio0n/src/edk2sdm/edk2/MdeModulePkg/Include
+    -I/mnt/d/TARGET/edk2sdm/edk2/MdePkg \
+    -I/mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include \
+    -I/mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/AArch64 \
+    -I/mnt/d/TARGET/edk2sdm/edk2/ShellPkg \
+    -I/mnt/d/TARGET/edk2sdm/edk2/ShellPkg/Include \
+    -I/mnt/d/TARGET/edk2sdm/edk2/MdeModulePkg \
+    -I/mnt/d/TARGET/edk2sdm/edk2/MdeModulePkg/Include
 
-OBJECT_FILES_LIST = /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ShellPkg/Library/UefiShellLevel2CommandsLib/UefiShellLevel2CommandsLib/OUTPUT/object_files.lst
+OBJECT_FILES_LIST = /mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ShellPkg/Library/UefiShellLevel2CommandsLib/UefiShellLevel2CommandsLib/OUTPUT/object_files.lst
 
 
-COMMON_DEPS = /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/IndustryStandard/Acpi50.h \
-              /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Library/UefiRuntimeServicesTableLib.h \
-              /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Protocol/GraphicsOutput.h \
-              /home/evsio0n/src/edk2sdm/edk2/ShellPkg/Library/UefiShellLevel2CommandsLib/UefiShellLevel2CommandsLib.h \
-              /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Protocol/SimpleTextOut.h \
-              /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/IndustryStandard/Acpi20.h \
-              /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Guid/WinCertificate.h \
-              /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Protocol/LoadedImage.h \
-              /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Protocol/DriverDiagnostics2.h \
-              /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Protocol/ComponentName.h \
-              /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Library/DebugLib.h \
-              /home/evsio0n/src/edk2sdm/edk2/ShellPkg/Include/Protocol/EfiShellInterface.h \
-              $(DEBUG_DIR)/AutoGen.h \
-              /home/evsio0n/src/edk2sdm/edk2/ShellPkg/Include/Guid/ShellLibHiiGuid.h \
-              /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Protocol/SimpleTextIn.h \
-              /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Guid/GlobalVariable.h \
-              /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Protocol/DriverConfiguration.h \
-              /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Protocol/Shell.h \
-              /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Uefi/UefiMultiPhase.h \
-              /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/IndustryStandard/Acpi30.h \
-              /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Uefi/UefiInternalFormRepresentation.h \
-              /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/IndustryStandard/Acpi40.h \
-              /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Library/MemoryAllocationLib.h \
-              /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/AArch64/ProcessorBind.h \
-              /home/evsio0n/src/edk2sdm/edk2/MdeModulePkg/Include/Library/HiiLib.h \
-              /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Protocol/DriverBinding.h \
-              /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Uefi.h \
-              /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Protocol/DevicePath.h \
-              /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Library/UefiLib.h \
-              /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Guid/PcAnsi.h \
-              /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Protocol/ShellParameters.h \
-              /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Uefi/UefiPxe.h \
-              /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Library/UefiBootServicesTableLib.h \
-              /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Base.h \
-              /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Library/BaseLib.h \
-              /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Guid/HiiFormMapMethodGuid.h \
-              /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/IndustryStandard/Acpi.h \
-              /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/IndustryStandard/Bluetooth.h \
-              /home/evsio0n/src/edk2sdm/edk2/ShellPkg/Include/Protocol/EfiShellEnvironment2.h \
-              /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Library/BaseMemoryLib.h \
-              /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/IndustryStandard/Acpi10.h \
-              /home/evsio0n/src/edk2sdm/edk2/ShellPkg/Include/Library/ShellCommandLib.h \
-              /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Protocol/DriverDiagnostics.h \
-              /home/evsio0n/src/edk2sdm/edk2/ShellPkg/Include/Library/ShellLib.h \
-              /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Guid/FileInfo.h \
-              /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Protocol/ComponentName2.h \
-              /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/IndustryStandard/AcpiAml.h \
-              /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Uefi/UefiSpec.h \
-              /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/IndustryStandard/Acpi51.h \
-              /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/IndustryStandard/Acpi62.h \
+COMMON_DEPS = /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Guid/HiiFormMapMethodGuid.h \
+              /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Uefi/UefiGpt.h \
+              /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Protocol/LoadedImage.h \
+              /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Uefi/UefiInternalFormRepresentation.h \
+              /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/IndustryStandard/Bluetooth.h \
+              /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Protocol/DevicePath.h \
+              /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Library/MemoryAllocationLib.h \
+              /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Protocol/SimpleFileSystem.h \
+              /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Protocol/SimpleTextOut.h \
+              /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/IndustryStandard/Acpi10.h \
+              /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Library/UefiBootServicesTableLib.h \
+              /mnt/d/TARGET/edk2sdm/edk2/ShellPkg/Include/Protocol/EfiShellInterface.h \
+              /mnt/d/TARGET/edk2sdm/edk2/MdeModulePkg/Include/Library/SortLib.h \
+              /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Protocol/DriverDiagnostics.h \
+              /mnt/d/TARGET/edk2sdm/edk2/ShellPkg/Include/Library/ShellCommandLib.h \
+              /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Guid/GlobalVariable.h \
+              /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Library/FileHandleLib.h \
+              /mnt/d/TARGET/edk2sdm/edk2/ShellPkg/Library/UefiShellLevel2CommandsLib/UefiShellLevel2CommandsLib.h \
+              /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/IndustryStandard/Acpi60.h \
+              /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Uefi.h \
+              /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Protocol/ShellParameters.h \
+              /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Protocol/DriverDiagnostics2.h \
+              /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Guid/WinCertificate.h \
+              /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Protocol/ComponentName.h \
+              /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/IndustryStandard/Acpi51.h \
+              /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Library/DebugLib.h \
+              /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Protocol/ComponentName2.h \
+              /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Protocol/GraphicsOutput.h \
+              /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Protocol/DriverConfiguration2.h \
+              /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Protocol/SimpleTextInEx.h \
+              /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Protocol/DriverConfiguration.h \
+              /mnt/d/TARGET/edk2sdm/edk2/MdeModulePkg/Include/Library/HiiLib.h \
+              /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Library/PcdLib.h \
+              /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Guid/FileInfo.h \
+              /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Protocol/SimpleTextIn.h \
+              /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/IndustryStandard/Acpi61.h \
+              /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/AArch64/ProcessorBind.h \
+              /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Protocol/UnicodeCollation.h \
+              /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Uefi/UefiPxe.h \
+              /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Library/BaseLib.h \
+              /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Library/BaseMemoryLib.h \
+              /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/IndustryStandard/Acpi62.h \
+              /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Guid/PcAnsi.h \
+              /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Uefi/UefiMultiPhase.h \
+              /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Protocol/DriverBinding.h \
+              /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/IndustryStandard/Acpi.h \
               $(DEBUG_DIR)/UefiShellLevel2CommandsLibStrDefs.h \
-              /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Protocol/UnicodeCollation.h \
-              /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Library/PcdLib.h \
-              /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Uefi/UefiBaseType.h \
-              /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Protocol/SimpleFileSystem.h \
-              /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Protocol/DriverConfiguration2.h \
-              /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Protocol/SimpleTextInEx.h \
-              /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Library/FileHandleLib.h \
-              /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/IndustryStandard/Acpi60.h \
-              /home/evsio0n/src/edk2sdm/edk2/MdeModulePkg/Include/Library/SortLib.h \
-              /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Uefi/UefiGpt.h \
-              /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/IndustryStandard/Acpi61.h \
+              /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/IndustryStandard/Acpi50.h \
+              $(DEBUG_DIR)/AutoGen.h \
+              /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/IndustryStandard/Acpi20.h \
+              /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/IndustryStandard/AcpiAml.h \
+              /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/IndustryStandard/Acpi30.h \
+              /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Library/UefiLib.h \
+              /mnt/d/TARGET/edk2sdm/edk2/ShellPkg/Include/Guid/ShellLibHiiGuid.h \
+              /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Base.h \
+              /mnt/d/TARGET/edk2sdm/edk2/ShellPkg/Include/Library/ShellLib.h \
+              /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Library/UefiRuntimeServicesTableLib.h \
+              /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Uefi/UefiBaseType.h \
+              /mnt/d/TARGET/edk2sdm/edk2/ShellPkg/Include/Protocol/EfiShellEnvironment2.h \
+              /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Protocol/Shell.h \
+              /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/IndustryStandard/Acpi40.h \
+              /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Uefi/UefiSpec.h \
               
 
 #
@@ -301,7 +301,7 @@ FORCE_REBUILD = force_build
 INIT_TARGET = init
 PCH_TARGET =
 BC_TARGET = 
-CODA_TARGET = /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ShellPkg/Library/UefiShellLevel2CommandsLib/UefiShellLevel2CommandsLib/OUTPUT/UefiShellLevel2CommandsLib.lib \
+CODA_TARGET = /mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ShellPkg/Library/UefiShellLevel2CommandsLib/UefiShellLevel2CommandsLib/OUTPUT/UefiShellLevel2CommandsLib.lib \
               
 
 #
@@ -373,125 +373,125 @@ gen_fds:
 #
 # Individual Object Build Targets
 #
-$(OUTPUT_DIR)/Mv.obj : $(MAKE_FILE)
-$(OUTPUT_DIR)/Mv.obj : $(COMMON_DEPS)
-$(OUTPUT_DIR)/Mv.obj : /home/evsio0n/src/edk2sdm/edk2/ShellPkg/Library/UefiShellLevel2CommandsLib/Mv.c
-	"$(CC)" $(CC_FLAGS) -c -o /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ShellPkg/Library/UefiShellLevel2CommandsLib/UefiShellLevel2CommandsLib/OUTPUT/./Mv.obj $(INC) /home/evsio0n/src/edk2sdm/edk2/ShellPkg/Library/UefiShellLevel2CommandsLib/Mv.c
+$(OUTPUT_DIR)/UefiShellLevel2CommandsLib.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/UefiShellLevel2CommandsLib.obj : $(COMMON_DEPS)
+$(OUTPUT_DIR)/UefiShellLevel2CommandsLib.obj : /mnt/d/TARGET/edk2sdm/edk2/ShellPkg/Library/UefiShellLevel2CommandsLib/UefiShellLevel2CommandsLib.c
+	"$(CC)" $(CC_FLAGS) -c -o /mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ShellPkg/Library/UefiShellLevel2CommandsLib/UefiShellLevel2CommandsLib/OUTPUT/./UefiShellLevel2CommandsLib.obj $(INC) /mnt/d/TARGET/edk2sdm/edk2/ShellPkg/Library/UefiShellLevel2CommandsLib/UefiShellLevel2CommandsLib.c
 
 $(OUTPUT_DIR)/Vol.obj : $(MAKE_FILE)
 $(OUTPUT_DIR)/Vol.obj : $(COMMON_DEPS)
-$(OUTPUT_DIR)/Vol.obj : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Guid/FileSystemVolumeLabelInfo.h
-$(OUTPUT_DIR)/Vol.obj : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Guid/FileSystemInfo.h
-$(OUTPUT_DIR)/Vol.obj : /home/evsio0n/src/edk2sdm/edk2/ShellPkg/Library/UefiShellLevel2CommandsLib/Vol.c
-	"$(CC)" $(CC_FLAGS) -c -o /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ShellPkg/Library/UefiShellLevel2CommandsLib/UefiShellLevel2CommandsLib/OUTPUT/./Vol.obj $(INC) /home/evsio0n/src/edk2sdm/edk2/ShellPkg/Library/UefiShellLevel2CommandsLib/Vol.c
+$(OUTPUT_DIR)/Vol.obj : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Guid/FileSystemVolumeLabelInfo.h
+$(OUTPUT_DIR)/Vol.obj : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Guid/FileSystemInfo.h
+$(OUTPUT_DIR)/Vol.obj : /mnt/d/TARGET/edk2sdm/edk2/ShellPkg/Library/UefiShellLevel2CommandsLib/Vol.c
+	"$(CC)" $(CC_FLAGS) -c -o /mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ShellPkg/Library/UefiShellLevel2CommandsLib/UefiShellLevel2CommandsLib/OUTPUT/./Vol.obj $(INC) /mnt/d/TARGET/edk2sdm/edk2/ShellPkg/Library/UefiShellLevel2CommandsLib/Vol.c
 
-$(OUTPUT_DIR)/AutoGen.obj : $(MAKE_FILE)
-$(OUTPUT_DIR)/AutoGen.obj : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/IndustryStandard/Acpi50.h
-$(OUTPUT_DIR)/AutoGen.obj : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Protocol/SimpleTextOut.h
-$(OUTPUT_DIR)/AutoGen.obj : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/IndustryStandard/Acpi20.h
-$(OUTPUT_DIR)/AutoGen.obj : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Guid/WinCertificate.h
-$(OUTPUT_DIR)/AutoGen.obj : $(DEBUG_DIR)/AutoGen.h
-$(OUTPUT_DIR)/AutoGen.obj : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Protocol/SimpleTextIn.h
-$(OUTPUT_DIR)/AutoGen.obj : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Uefi/UefiMultiPhase.h
-$(OUTPUT_DIR)/AutoGen.obj : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/IndustryStandard/Acpi30.h
-$(OUTPUT_DIR)/AutoGen.obj : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Uefi/UefiInternalFormRepresentation.h
-$(OUTPUT_DIR)/AutoGen.obj : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/IndustryStandard/Acpi40.h
-$(OUTPUT_DIR)/AutoGen.obj : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/AArch64/ProcessorBind.h
-$(OUTPUT_DIR)/AutoGen.obj : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Uefi.h
-$(OUTPUT_DIR)/AutoGen.obj : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Protocol/DevicePath.h
-$(OUTPUT_DIR)/AutoGen.obj : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Guid/PcAnsi.h
-$(OUTPUT_DIR)/AutoGen.obj : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Uefi/UefiPxe.h
-$(OUTPUT_DIR)/AutoGen.obj : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Base.h
-$(OUTPUT_DIR)/AutoGen.obj : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Guid/HiiFormMapMethodGuid.h
-$(OUTPUT_DIR)/AutoGen.obj : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/IndustryStandard/Bluetooth.h
-$(OUTPUT_DIR)/AutoGen.obj : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/IndustryStandard/Acpi10.h
-$(OUTPUT_DIR)/AutoGen.obj : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/IndustryStandard/AcpiAml.h
-$(OUTPUT_DIR)/AutoGen.obj : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Uefi/UefiSpec.h
-$(OUTPUT_DIR)/AutoGen.obj : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/IndustryStandard/Acpi51.h
-$(OUTPUT_DIR)/AutoGen.obj : $(DEBUG_DIR)/UefiShellLevel2CommandsLibStrDefs.h
-$(OUTPUT_DIR)/AutoGen.obj : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Library/PcdLib.h
-$(OUTPUT_DIR)/AutoGen.obj : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Uefi/UefiBaseType.h
-$(OUTPUT_DIR)/AutoGen.obj : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Protocol/SimpleTextInEx.h
-$(OUTPUT_DIR)/AutoGen.obj : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/IndustryStandard/Acpi60.h
-$(OUTPUT_DIR)/AutoGen.obj : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Uefi/UefiGpt.h
-$(OUTPUT_DIR)/AutoGen.obj : $(DEBUG_DIR)/AutoGen.c
-	"$(CC)" $(CC_FLAGS) -c -o /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ShellPkg/Library/UefiShellLevel2CommandsLib/UefiShellLevel2CommandsLib/OUTPUT/./AutoGen.obj $(INC) /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ShellPkg/Library/UefiShellLevel2CommandsLib/UefiShellLevel2CommandsLib/DEBUG/AutoGen.c
-
-$(OUTPUT_DIR)/Set.obj : $(MAKE_FILE)
-$(OUTPUT_DIR)/Set.obj : $(COMMON_DEPS)
-$(OUTPUT_DIR)/Set.obj : /home/evsio0n/src/edk2sdm/edk2/ShellPkg/Library/UefiShellLevel2CommandsLib/Set.c
-	"$(CC)" $(CC_FLAGS) -c -o /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ShellPkg/Library/UefiShellLevel2CommandsLib/UefiShellLevel2CommandsLib/OUTPUT/./Set.obj $(INC) /home/evsio0n/src/edk2sdm/edk2/ShellPkg/Library/UefiShellLevel2CommandsLib/Set.c
+$(OUTPUT_DIR)/Mv.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/Mv.obj : $(COMMON_DEPS)
+$(OUTPUT_DIR)/Mv.obj : /mnt/d/TARGET/edk2sdm/edk2/ShellPkg/Library/UefiShellLevel2CommandsLib/Mv.c
+	"$(CC)" $(CC_FLAGS) -c -o /mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ShellPkg/Library/UefiShellLevel2CommandsLib/UefiShellLevel2CommandsLib/OUTPUT/./Mv.obj $(INC) /mnt/d/TARGET/edk2sdm/edk2/ShellPkg/Library/UefiShellLevel2CommandsLib/Mv.c
 
 $(OUTPUT_DIR)/Cd.obj : $(MAKE_FILE)
 $(OUTPUT_DIR)/Cd.obj : $(COMMON_DEPS)
-$(OUTPUT_DIR)/Cd.obj : /home/evsio0n/src/edk2sdm/edk2/ShellPkg/Library/UefiShellLevel2CommandsLib/Cd.c
-	"$(CC)" $(CC_FLAGS) -c -o /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ShellPkg/Library/UefiShellLevel2CommandsLib/UefiShellLevel2CommandsLib/OUTPUT/./Cd.obj $(INC) /home/evsio0n/src/edk2sdm/edk2/ShellPkg/Library/UefiShellLevel2CommandsLib/Cd.c
-
-$(OUTPUT_DIR)/Cp.obj : $(MAKE_FILE)
-$(OUTPUT_DIR)/Cp.obj : $(COMMON_DEPS)
-$(OUTPUT_DIR)/Cp.obj : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Guid/FileSystemVolumeLabelInfo.h
-$(OUTPUT_DIR)/Cp.obj : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Guid/FileSystemInfo.h
-$(OUTPUT_DIR)/Cp.obj : /home/evsio0n/src/edk2sdm/edk2/ShellPkg/Library/UefiShellLevel2CommandsLib/Cp.c
-	"$(CC)" $(CC_FLAGS) -c -o /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ShellPkg/Library/UefiShellLevel2CommandsLib/UefiShellLevel2CommandsLib/OUTPUT/./Cp.obj $(INC) /home/evsio0n/src/edk2sdm/edk2/ShellPkg/Library/UefiShellLevel2CommandsLib/Cp.c
-
-$(OUTPUT_DIR)/Parse.obj : $(MAKE_FILE)
-$(OUTPUT_DIR)/Parse.obj : $(COMMON_DEPS)
-$(OUTPUT_DIR)/Parse.obj : /home/evsio0n/src/edk2sdm/edk2/ShellPkg/Library/UefiShellLevel2CommandsLib/Parse.c
-	"$(CC)" $(CC_FLAGS) -c -o /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ShellPkg/Library/UefiShellLevel2CommandsLib/UefiShellLevel2CommandsLib/OUTPUT/./Parse.obj $(INC) /home/evsio0n/src/edk2sdm/edk2/ShellPkg/Library/UefiShellLevel2CommandsLib/Parse.c
-
-$(OUTPUT_DIR)/Rm.obj : $(MAKE_FILE)
-$(OUTPUT_DIR)/Rm.obj : $(COMMON_DEPS)
-$(OUTPUT_DIR)/Rm.obj : /home/evsio0n/src/edk2sdm/edk2/ShellPkg/Library/UefiShellLevel2CommandsLib/Rm.c
-	"$(CC)" $(CC_FLAGS) -c -o /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ShellPkg/Library/UefiShellLevel2CommandsLib/UefiShellLevel2CommandsLib/OUTPUT/./Rm.obj $(INC) /home/evsio0n/src/edk2sdm/edk2/ShellPkg/Library/UefiShellLevel2CommandsLib/Rm.c
-
-$(OUTPUT_DIR)/Attrib.obj : $(MAKE_FILE)
-$(OUTPUT_DIR)/Attrib.obj : $(COMMON_DEPS)
-$(OUTPUT_DIR)/Attrib.obj : /home/evsio0n/src/edk2sdm/edk2/ShellPkg/Library/UefiShellLevel2CommandsLib/Attrib.c
-	"$(CC)" $(CC_FLAGS) -c -o /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ShellPkg/Library/UefiShellLevel2CommandsLib/UefiShellLevel2CommandsLib/OUTPUT/./Attrib.obj $(INC) /home/evsio0n/src/edk2sdm/edk2/ShellPkg/Library/UefiShellLevel2CommandsLib/Attrib.c
+$(OUTPUT_DIR)/Cd.obj : /mnt/d/TARGET/edk2sdm/edk2/ShellPkg/Library/UefiShellLevel2CommandsLib/Cd.c
+	"$(CC)" $(CC_FLAGS) -c -o /mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ShellPkg/Library/UefiShellLevel2CommandsLib/UefiShellLevel2CommandsLib/OUTPUT/./Cd.obj $(INC) /mnt/d/TARGET/edk2sdm/edk2/ShellPkg/Library/UefiShellLevel2CommandsLib/Cd.c
 
 $(OUTPUT_DIR)/Reset.obj : $(MAKE_FILE)
 $(OUTPUT_DIR)/Reset.obj : $(COMMON_DEPS)
-$(OUTPUT_DIR)/Reset.obj : /home/evsio0n/src/edk2sdm/edk2/ShellPkg/Library/UefiShellLevel2CommandsLib/Reset.c
-	"$(CC)" $(CC_FLAGS) -c -o /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ShellPkg/Library/UefiShellLevel2CommandsLib/UefiShellLevel2CommandsLib/OUTPUT/./Reset.obj $(INC) /home/evsio0n/src/edk2sdm/edk2/ShellPkg/Library/UefiShellLevel2CommandsLib/Reset.c
+$(OUTPUT_DIR)/Reset.obj : /mnt/d/TARGET/edk2sdm/edk2/ShellPkg/Library/UefiShellLevel2CommandsLib/Reset.c
+	"$(CC)" $(CC_FLAGS) -c -o /mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ShellPkg/Library/UefiShellLevel2CommandsLib/UefiShellLevel2CommandsLib/OUTPUT/./Reset.obj $(INC) /mnt/d/TARGET/edk2sdm/edk2/ShellPkg/Library/UefiShellLevel2CommandsLib/Reset.c
 
-$(OUTPUT_DIR)/Ls.obj : $(MAKE_FILE)
-$(OUTPUT_DIR)/Ls.obj : $(COMMON_DEPS)
-$(OUTPUT_DIR)/Ls.obj : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Guid/FileSystemInfo.h
-$(OUTPUT_DIR)/Ls.obj : /home/evsio0n/src/edk2sdm/edk2/ShellPkg/Library/UefiShellLevel2CommandsLib/Ls.c
-	"$(CC)" $(CC_FLAGS) -c -o /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ShellPkg/Library/UefiShellLevel2CommandsLib/UefiShellLevel2CommandsLib/OUTPUT/./Ls.obj $(INC) /home/evsio0n/src/edk2sdm/edk2/ShellPkg/Library/UefiShellLevel2CommandsLib/Ls.c
+$(OUTPUT_DIR)/Cp.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/Cp.obj : $(COMMON_DEPS)
+$(OUTPUT_DIR)/Cp.obj : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Guid/FileSystemVolumeLabelInfo.h
+$(OUTPUT_DIR)/Cp.obj : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Guid/FileSystemInfo.h
+$(OUTPUT_DIR)/Cp.obj : /mnt/d/TARGET/edk2sdm/edk2/ShellPkg/Library/UefiShellLevel2CommandsLib/Cp.c
+	"$(CC)" $(CC_FLAGS) -c -o /mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ShellPkg/Library/UefiShellLevel2CommandsLib/UefiShellLevel2CommandsLib/OUTPUT/./Cp.obj $(INC) /mnt/d/TARGET/edk2sdm/edk2/ShellPkg/Library/UefiShellLevel2CommandsLib/Cp.c
+
+$(OUTPUT_DIR)/Attrib.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/Attrib.obj : $(COMMON_DEPS)
+$(OUTPUT_DIR)/Attrib.obj : /mnt/d/TARGET/edk2sdm/edk2/ShellPkg/Library/UefiShellLevel2CommandsLib/Attrib.c
+	"$(CC)" $(CC_FLAGS) -c -o /mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ShellPkg/Library/UefiShellLevel2CommandsLib/UefiShellLevel2CommandsLib/OUTPUT/./Attrib.obj $(INC) /mnt/d/TARGET/edk2sdm/edk2/ShellPkg/Library/UefiShellLevel2CommandsLib/Attrib.c
+
+$(OUTPUT_DIR)/Parse.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/Parse.obj : $(COMMON_DEPS)
+$(OUTPUT_DIR)/Parse.obj : /mnt/d/TARGET/edk2sdm/edk2/ShellPkg/Library/UefiShellLevel2CommandsLib/Parse.c
+	"$(CC)" $(CC_FLAGS) -c -o /mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ShellPkg/Library/UefiShellLevel2CommandsLib/UefiShellLevel2CommandsLib/OUTPUT/./Parse.obj $(INC) /mnt/d/TARGET/edk2sdm/edk2/ShellPkg/Library/UefiShellLevel2CommandsLib/Parse.c
+
+$(OUTPUT_DIR)/Rm.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/Rm.obj : $(COMMON_DEPS)
+$(OUTPUT_DIR)/Rm.obj : /mnt/d/TARGET/edk2sdm/edk2/ShellPkg/Library/UefiShellLevel2CommandsLib/Rm.c
+	"$(CC)" $(CC_FLAGS) -c -o /mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ShellPkg/Library/UefiShellLevel2CommandsLib/UefiShellLevel2CommandsLib/OUTPUT/./Rm.obj $(INC) /mnt/d/TARGET/edk2sdm/edk2/ShellPkg/Library/UefiShellLevel2CommandsLib/Rm.c
 
 $(OUTPUT_DIR)/Load.obj : $(MAKE_FILE)
 $(OUTPUT_DIR)/Load.obj : $(COMMON_DEPS)
-$(OUTPUT_DIR)/Load.obj : /home/evsio0n/src/edk2sdm/edk2/ShellPkg/Library/UefiShellLevel2CommandsLib/Load.c
-	"$(CC)" $(CC_FLAGS) -c -o /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ShellPkg/Library/UefiShellLevel2CommandsLib/UefiShellLevel2CommandsLib/OUTPUT/./Load.obj $(INC) /home/evsio0n/src/edk2sdm/edk2/ShellPkg/Library/UefiShellLevel2CommandsLib/Load.c
+$(OUTPUT_DIR)/Load.obj : /mnt/d/TARGET/edk2sdm/edk2/ShellPkg/Library/UefiShellLevel2CommandsLib/Load.c
+	"$(CC)" $(CC_FLAGS) -c -o /mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ShellPkg/Library/UefiShellLevel2CommandsLib/UefiShellLevel2CommandsLib/OUTPUT/./Load.obj $(INC) /mnt/d/TARGET/edk2sdm/edk2/ShellPkg/Library/UefiShellLevel2CommandsLib/Load.c
 
-$(OUTPUT_DIR)/UefiShellLevel2CommandsLib.obj : $(MAKE_FILE)
-$(OUTPUT_DIR)/UefiShellLevel2CommandsLib.obj : $(COMMON_DEPS)
-$(OUTPUT_DIR)/UefiShellLevel2CommandsLib.obj : /home/evsio0n/src/edk2sdm/edk2/ShellPkg/Library/UefiShellLevel2CommandsLib/UefiShellLevel2CommandsLib.c
-	"$(CC)" $(CC_FLAGS) -c -o /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ShellPkg/Library/UefiShellLevel2CommandsLib/UefiShellLevel2CommandsLib/OUTPUT/./UefiShellLevel2CommandsLib.obj $(INC) /home/evsio0n/src/edk2sdm/edk2/ShellPkg/Library/UefiShellLevel2CommandsLib/UefiShellLevel2CommandsLib.c
+$(OUTPUT_DIR)/Set.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/Set.obj : $(COMMON_DEPS)
+$(OUTPUT_DIR)/Set.obj : /mnt/d/TARGET/edk2sdm/edk2/ShellPkg/Library/UefiShellLevel2CommandsLib/Set.c
+	"$(CC)" $(CC_FLAGS) -c -o /mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ShellPkg/Library/UefiShellLevel2CommandsLib/UefiShellLevel2CommandsLib/OUTPUT/./Set.obj $(INC) /mnt/d/TARGET/edk2sdm/edk2/ShellPkg/Library/UefiShellLevel2CommandsLib/Set.c
+
+$(OUTPUT_DIR)/AutoGen.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/AutoGen.obj : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Guid/HiiFormMapMethodGuid.h
+$(OUTPUT_DIR)/AutoGen.obj : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Uefi/UefiGpt.h
+$(OUTPUT_DIR)/AutoGen.obj : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Uefi/UefiInternalFormRepresentation.h
+$(OUTPUT_DIR)/AutoGen.obj : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/IndustryStandard/Bluetooth.h
+$(OUTPUT_DIR)/AutoGen.obj : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Protocol/DevicePath.h
+$(OUTPUT_DIR)/AutoGen.obj : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Protocol/SimpleTextOut.h
+$(OUTPUT_DIR)/AutoGen.obj : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/IndustryStandard/Acpi10.h
+$(OUTPUT_DIR)/AutoGen.obj : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/IndustryStandard/Acpi60.h
+$(OUTPUT_DIR)/AutoGen.obj : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Uefi.h
+$(OUTPUT_DIR)/AutoGen.obj : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Guid/WinCertificate.h
+$(OUTPUT_DIR)/AutoGen.obj : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/IndustryStandard/Acpi51.h
+$(OUTPUT_DIR)/AutoGen.obj : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Protocol/SimpleTextInEx.h
+$(OUTPUT_DIR)/AutoGen.obj : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Library/PcdLib.h
+$(OUTPUT_DIR)/AutoGen.obj : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Protocol/SimpleTextIn.h
+$(OUTPUT_DIR)/AutoGen.obj : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/AArch64/ProcessorBind.h
+$(OUTPUT_DIR)/AutoGen.obj : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Uefi/UefiPxe.h
+$(OUTPUT_DIR)/AutoGen.obj : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Guid/PcAnsi.h
+$(OUTPUT_DIR)/AutoGen.obj : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Uefi/UefiMultiPhase.h
+$(OUTPUT_DIR)/AutoGen.obj : $(DEBUG_DIR)/UefiShellLevel2CommandsLibStrDefs.h
+$(OUTPUT_DIR)/AutoGen.obj : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/IndustryStandard/Acpi50.h
+$(OUTPUT_DIR)/AutoGen.obj : $(DEBUG_DIR)/AutoGen.h
+$(OUTPUT_DIR)/AutoGen.obj : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/IndustryStandard/Acpi20.h
+$(OUTPUT_DIR)/AutoGen.obj : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/IndustryStandard/AcpiAml.h
+$(OUTPUT_DIR)/AutoGen.obj : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/IndustryStandard/Acpi30.h
+$(OUTPUT_DIR)/AutoGen.obj : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Base.h
+$(OUTPUT_DIR)/AutoGen.obj : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Uefi/UefiBaseType.h
+$(OUTPUT_DIR)/AutoGen.obj : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/IndustryStandard/Acpi40.h
+$(OUTPUT_DIR)/AutoGen.obj : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Uefi/UefiSpec.h
+$(OUTPUT_DIR)/AutoGen.obj : $(DEBUG_DIR)/AutoGen.c
+	"$(CC)" $(CC_FLAGS) -c -o /mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ShellPkg/Library/UefiShellLevel2CommandsLib/UefiShellLevel2CommandsLib/OUTPUT/./AutoGen.obj $(INC) /mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ShellPkg/Library/UefiShellLevel2CommandsLib/UefiShellLevel2CommandsLib/DEBUG/AutoGen.c
 
 $(OUTPUT_DIR)/MkDir.obj : $(MAKE_FILE)
 $(OUTPUT_DIR)/MkDir.obj : $(COMMON_DEPS)
-$(OUTPUT_DIR)/MkDir.obj : /home/evsio0n/src/edk2sdm/edk2/ShellPkg/Library/UefiShellLevel2CommandsLib/MkDir.c
-	"$(CC)" $(CC_FLAGS) -c -o /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ShellPkg/Library/UefiShellLevel2CommandsLib/UefiShellLevel2CommandsLib/OUTPUT/./MkDir.obj $(INC) /home/evsio0n/src/edk2sdm/edk2/ShellPkg/Library/UefiShellLevel2CommandsLib/MkDir.c
+$(OUTPUT_DIR)/MkDir.obj : /mnt/d/TARGET/edk2sdm/edk2/ShellPkg/Library/UefiShellLevel2CommandsLib/MkDir.c
+	"$(CC)" $(CC_FLAGS) -c -o /mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ShellPkg/Library/UefiShellLevel2CommandsLib/UefiShellLevel2CommandsLib/OUTPUT/./MkDir.obj $(INC) /mnt/d/TARGET/edk2sdm/edk2/ShellPkg/Library/UefiShellLevel2CommandsLib/MkDir.c
+
+$(OUTPUT_DIR)/Ls.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/Ls.obj : $(COMMON_DEPS)
+$(OUTPUT_DIR)/Ls.obj : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Guid/FileSystemInfo.h
+$(OUTPUT_DIR)/Ls.obj : /mnt/d/TARGET/edk2sdm/edk2/ShellPkg/Library/UefiShellLevel2CommandsLib/Ls.c
+	"$(CC)" $(CC_FLAGS) -c -o /mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ShellPkg/Library/UefiShellLevel2CommandsLib/UefiShellLevel2CommandsLib/OUTPUT/./Ls.obj $(INC) /mnt/d/TARGET/edk2sdm/edk2/ShellPkg/Library/UefiShellLevel2CommandsLib/Ls.c
 
 $(OUTPUT_DIR)/Map.obj : $(MAKE_FILE)
 $(OUTPUT_DIR)/Map.obj : $(COMMON_DEPS)
-$(OUTPUT_DIR)/Map.obj : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Library/DevicePathLib.h
-$(OUTPUT_DIR)/Map.obj : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Protocol/BlockIo.h
-$(OUTPUT_DIR)/Map.obj : /home/evsio0n/src/edk2sdm/edk2/ShellPkg/Include/Library/HandleParsingLib.h
-$(OUTPUT_DIR)/Map.obj : /home/evsio0n/src/edk2sdm/edk2/ShellPkg/Library/UefiShellLevel2CommandsLib/Map.c
-	"$(CC)" $(CC_FLAGS) -c -o /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ShellPkg/Library/UefiShellLevel2CommandsLib/UefiShellLevel2CommandsLib/OUTPUT/./Map.obj $(INC) /home/evsio0n/src/edk2sdm/edk2/ShellPkg/Library/UefiShellLevel2CommandsLib/Map.c
+$(OUTPUT_DIR)/Map.obj : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Library/DevicePathLib.h
+$(OUTPUT_DIR)/Map.obj : /mnt/d/TARGET/edk2sdm/edk2/ShellPkg/Include/Library/HandleParsingLib.h
+$(OUTPUT_DIR)/Map.obj : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Protocol/BlockIo.h
+$(OUTPUT_DIR)/Map.obj : /mnt/d/TARGET/edk2sdm/edk2/ShellPkg/Library/UefiShellLevel2CommandsLib/Map.c
+	"$(CC)" $(CC_FLAGS) -c -o /mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ShellPkg/Library/UefiShellLevel2CommandsLib/UefiShellLevel2CommandsLib/OUTPUT/./Map.obj $(INC) /mnt/d/TARGET/edk2sdm/edk2/ShellPkg/Library/UefiShellLevel2CommandsLib/Map.c
 
 $(OUTPUT_DIR)/TimeDate.obj : $(MAKE_FILE)
 $(OUTPUT_DIR)/TimeDate.obj : $(COMMON_DEPS)
-$(OUTPUT_DIR)/TimeDate.obj : /home/evsio0n/src/edk2sdm/edk2/ShellPkg/Library/UefiShellLevel2CommandsLib/TimeDate.c
-	"$(CC)" $(CC_FLAGS) -c -o /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ShellPkg/Library/UefiShellLevel2CommandsLib/UefiShellLevel2CommandsLib/OUTPUT/./TimeDate.obj $(INC) /home/evsio0n/src/edk2sdm/edk2/ShellPkg/Library/UefiShellLevel2CommandsLib/TimeDate.c
+$(OUTPUT_DIR)/TimeDate.obj : /mnt/d/TARGET/edk2sdm/edk2/ShellPkg/Library/UefiShellLevel2CommandsLib/TimeDate.c
+	"$(CC)" $(CC_FLAGS) -c -o /mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ShellPkg/Library/UefiShellLevel2CommandsLib/UefiShellLevel2CommandsLib/OUTPUT/./TimeDate.obj $(INC) /mnt/d/TARGET/edk2sdm/edk2/ShellPkg/Library/UefiShellLevel2CommandsLib/TimeDate.c
 
 $(OUTPUT_DIR)/UefiShellLevel2CommandsLib.lib : $(OBJECT_FILES)
 $(OUTPUT_DIR)/UefiShellLevel2CommandsLib.lib : $(OBJECT_FILES_LIST)
-	$(RM) /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ShellPkg/Library/UefiShellLevel2CommandsLib/UefiShellLevel2CommandsLib/OUTPUT/UefiShellLevel2CommandsLib.lib
-	"$(SLINK)" cr /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ShellPkg/Library/UefiShellLevel2CommandsLib/UefiShellLevel2CommandsLib/OUTPUT/UefiShellLevel2CommandsLib.lib $(SLINK_FLAGS) @$(OBJECT_FILES_LIST)
+	$(RM) /mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ShellPkg/Library/UefiShellLevel2CommandsLib/UefiShellLevel2CommandsLib/OUTPUT/UefiShellLevel2CommandsLib.lib
+	"$(SLINK)" cr /mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ShellPkg/Library/UefiShellLevel2CommandsLib/UefiShellLevel2CommandsLib/OUTPUT/UefiShellLevel2CommandsLib.lib $(SLINK_FLAGS) @$(OBJECT_FILES_LIST)
 
 
 

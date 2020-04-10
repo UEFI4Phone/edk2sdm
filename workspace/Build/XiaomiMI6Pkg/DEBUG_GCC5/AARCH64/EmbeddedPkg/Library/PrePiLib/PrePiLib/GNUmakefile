@@ -19,7 +19,7 @@ PLATFORM_NAME = XiaomiMI6Pkg
 PLATFORM_GUID = 28f1a3bf-193a-47e3-a7b9-5a435eaab2ee
 PLATFORM_VERSION = 0.1
 PLATFORM_RELATIVE_DIR = XiaomiMI6Pkg
-PLATFORM_DIR = /home/evsio0n/src/edk2sdm/Sdm835/XiaomiMI6Pkg
+PLATFORM_DIR = /mnt/d/TARGET/edk2sdm/Sdm835/XiaomiMI6Pkg
 PLATFORM_OUTPUT_DIR = Build/XiaomiMI6Pkg
 
 #
@@ -35,8 +35,8 @@ MODULE_FILE_BASE_NAME = PrePiLib
 BASE_NAME = $(MODULE_NAME)
 MODULE_RELATIVE_DIR = EmbeddedPkg/Library/PrePiLib
 PACKAGE_RELATIVE_DIR = Library/PrePiLib
-MODULE_DIR = /home/evsio0n/src/edk2sdm/edk2/EmbeddedPkg/Library/PrePiLib
-FFS_OUTPUT_DIR = /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/FV/Ffs/1F3A3278-82EB-4C0D-86F1-5BCDA5846CB2PrePiLib
+MODULE_DIR = /mnt/d/TARGET/edk2sdm/edk2/EmbeddedPkg/Library/PrePiLib
+FFS_OUTPUT_DIR = /mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/FV/Ffs/1F3A3278-82EB-4C0D-86F1-5BCDA5846CB2PrePiLib
 
 MODULE_ENTRY_POINT = _ModuleEntryPoint
 ARCH_ENTRY_POINT = _ModuleEntryPoint
@@ -59,13 +59,13 @@ TARGET = DEBUG
 #
 # Build Directory Macro Definition
 #
-# PLATFORM_BUILD_DIR = /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5
-BUILD_DIR = /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5
+# PLATFORM_BUILD_DIR = /mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5
+BUILD_DIR = /mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5
 BIN_DIR = $(BUILD_DIR)/AARCH64
 LIB_DIR = $(BIN_DIR)
-MODULE_BUILD_DIR = /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/EmbeddedPkg/Library/PrePiLib/PrePiLib
-OUTPUT_DIR = /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/EmbeddedPkg/Library/PrePiLib/PrePiLib/OUTPUT
-DEBUG_DIR = /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/EmbeddedPkg/Library/PrePiLib/PrePiLib/DEBUG
+MODULE_BUILD_DIR = /mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/EmbeddedPkg/Library/PrePiLib/PrePiLib
+OUTPUT_DIR = /mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/EmbeddedPkg/Library/PrePiLib/PrePiLib/OUTPUT
+DEBUG_DIR = /mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/EmbeddedPkg/Library/PrePiLib/PrePiLib/DEBUG
 DEST_DIR_OUTPUT = $(OUTPUT_DIR)
 DEST_DIR_DEBUG = $(DEBUG_DIR)
 
@@ -169,7 +169,7 @@ PP_FLAGS = $(ARCHCC_FLAGS) $(PLATFORM_FLAGS) -E -x assembler-with-cpp -include $
 VFRPP = aarch64-linux-gnu-gcc
 VFRPP_FLAGS = $(ARCHCC_FLAGS) $(PLATFORM_FLAGS) -x c -E -P -DVFRCOMPILE --include $(DEST_DIR_DEBUG)/$(MODULE_NAME)StrDefs.h
 
-DLINK_FLAGS = -Wl,--emit-relocs -nostdlib -Wl,--gc-sections -u $(IMAGE_ENTRY_POINT) -Wl,-e,$(IMAGE_ENTRY_POINT),-Map,$(DEST_DIR_DEBUG)/$(BASE_NAME).map -z common-page-size=0x20 -z common-page-size=0x1000 -flto -Os -L/home/evsio0n/src/edk2sdm/edk2/ArmPkg/Library/GccLto -llto-aarch64 -Wl,-plugin-opt=-pass-through=-llto-aarch64 -Wno-lto-type-mismatch
+DLINK_FLAGS = -Wl,--emit-relocs -nostdlib -Wl,--gc-sections -u $(IMAGE_ENTRY_POINT) -Wl,-e,$(IMAGE_ENTRY_POINT),-Map,$(DEST_DIR_DEBUG)/$(BASE_NAME).map -z common-page-size=0x20 -z common-page-size=0x1000 -flto -Os -L/mnt/d/TARGET/edk2sdm/edk2/ArmPkg/Library/GccLto -llto-aarch64 -Wl,-plugin-opt=-pass-through=-llto-aarch64 -Wno-lto-type-mismatch
 DLINK_XIPFLAGS =  -z common-page-size=0x20
 DLINK = aarch64-linux-gnu-gcc
 
@@ -204,58 +204,58 @@ OBJECT_FILES =  \
     $(OUTPUT_DIR)/ReportStatusCode.obj
 
 INC =  \
-    -I/home/evsio0n/src/edk2sdm/edk2/EmbeddedPkg/Library/PrePiLib \
+    -I/mnt/d/TARGET/edk2sdm/edk2/EmbeddedPkg/Library/PrePiLib \
     -I$(DEBUG_DIR) \
-    -I/home/evsio0n/src/edk2sdm/edk2/MdePkg \
-    -I/home/evsio0n/src/edk2sdm/edk2/MdePkg/Include \
-    -I/home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/AArch64 \
-    -I/home/evsio0n/src/edk2sdm/edk2/EmbeddedPkg \
-    -I/home/evsio0n/src/edk2sdm/edk2/EmbeddedPkg/Include \
-    -I/home/evsio0n/src/edk2sdm/edk2/MdeModulePkg \
-    -I/home/evsio0n/src/edk2sdm/edk2/MdeModulePkg/Include \
-    -I/home/evsio0n/src/edk2sdm/edk2/IntelFrameworkPkg \
-    -I/home/evsio0n/src/edk2sdm/edk2/IntelFrameworkPkg/Include \
-    -I/home/evsio0n/src/edk2sdm/edk2/IntelFrameworkModulePkg \
-    -I/home/evsio0n/src/edk2sdm/edk2/IntelFrameworkModulePkg/Include
+    -I/mnt/d/TARGET/edk2sdm/edk2/MdePkg \
+    -I/mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include \
+    -I/mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/AArch64 \
+    -I/mnt/d/TARGET/edk2sdm/edk2/EmbeddedPkg \
+    -I/mnt/d/TARGET/edk2sdm/edk2/EmbeddedPkg/Include \
+    -I/mnt/d/TARGET/edk2sdm/edk2/MdeModulePkg \
+    -I/mnt/d/TARGET/edk2sdm/edk2/MdeModulePkg/Include \
+    -I/mnt/d/TARGET/edk2sdm/edk2/IntelFrameworkPkg \
+    -I/mnt/d/TARGET/edk2sdm/edk2/IntelFrameworkPkg/Include \
+    -I/mnt/d/TARGET/edk2sdm/edk2/IntelFrameworkModulePkg \
+    -I/mnt/d/TARGET/edk2sdm/edk2/IntelFrameworkModulePkg/Include
 
-OBJECT_FILES_LIST = /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/EmbeddedPkg/Library/PrePiLib/PrePiLib/OUTPUT/object_files.lst
+OBJECT_FILES_LIST = /mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/EmbeddedPkg/Library/PrePiLib/PrePiLib/OUTPUT/object_files.lst
 
 
-COMMON_DEPS = /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Pi/PiHob.h \
-              /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Library/TimerLib.h \
-              /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Guid/WinCertificate.h \
-              /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Library/UefiDecompressLib.h \
-              /home/evsio0n/src/edk2sdm/edk2/EmbeddedPkg/Library/PrePiLib/PrePi.h \
-              /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Ppi/PciCfg2.h \
-              /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Library/DebugLib.h \
-              /home/evsio0n/src/edk2sdm/edk2/EmbeddedPkg/Include/Guid/ExtractSection.h \
-              /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Ppi/CpuIo.h \
-              /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Pi/PiFirmwareFile.h \
-              /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Uefi/UefiMultiPhase.h \
-              /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Pi/PiS3BootScript.h \
-              /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Library/MemoryAllocationLib.h \
-              /home/evsio0n/src/edk2sdm/edk2/EmbeddedPkg/Include/Library/PrePiLib.h \
-              /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/AArch64/ProcessorBind.h \
-              /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Pi/PiStatusCode.h \
-              /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Library/ExtractGuidedSectionLib.h \
-              /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Pi/PiPeiCis.h \
-              /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/PiPei.h \
-              /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/IndustryStandard/PeImage.h \
-              /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Guid/MemoryAllocationHob.h \
-              /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Base.h \
-              /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Library/BaseLib.h \
-              /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Pi/PiMultiPhase.h \
-              /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Library/PeCoffLib.h \
-              /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Library/BaseMemoryLib.h \
-              /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Pi/PiDependency.h \
-              /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Protocol/DebugSupport.h \
-              /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Pi/PiFirmwareVolume.h \
-              /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Library/PcdLib.h \
-              /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Uefi/UefiBaseType.h \
+COMMON_DEPS = /mnt/d/TARGET/edk2sdm/edk2/EmbeddedPkg/Library/PrePiLib/PrePi.h \
+              /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Ppi/CpuIo.h \
+              /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Library/MemoryAllocationLib.h \
+              /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Library/PerformanceLib.h \
+              /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Pi/PiBootMode.h \
+              /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/IndustryStandard/PeImage.h \
+              /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Pi/PiPeiCis.h \
+              /mnt/d/TARGET/edk2sdm/edk2/EmbeddedPkg/Include/Guid/ExtractSection.h \
+              /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Pi/PiMultiPhase.h \
+              /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Protocol/DebugSupport.h \
               $(DEBUG_DIR)/AutoGen.h \
-              /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Library/CacheMaintenanceLib.h \
-              /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Library/PerformanceLib.h \
-              /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Pi/PiBootMode.h \
+              /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Pi/PiFirmwareFile.h \
+              /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Pi/PiHob.h \
+              /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Guid/WinCertificate.h \
+              /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Pi/PiFirmwareVolume.h \
+              /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Ppi/PciCfg2.h \
+              /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Library/DebugLib.h \
+              /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Pi/PiS3BootScript.h \
+              /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Pi/PiDependency.h \
+              /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Guid/MemoryAllocationHob.h \
+              /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Library/PcdLib.h \
+              /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/PiPei.h \
+              /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/AArch64/ProcessorBind.h \
+              /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Pi/PiStatusCode.h \
+              /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Library/PeCoffLib.h \
+              /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Library/BaseLib.h \
+              /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Library/BaseMemoryLib.h \
+              /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Library/CacheMaintenanceLib.h \
+              /mnt/d/TARGET/edk2sdm/edk2/EmbeddedPkg/Include/Library/PrePiLib.h \
+              /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Uefi/UefiMultiPhase.h \
+              /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Library/UefiDecompressLib.h \
+              /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Base.h \
+              /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Library/ExtractGuidedSectionLib.h \
+              /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Library/TimerLib.h \
+              /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Uefi/UefiBaseType.h \
               
 
 #
@@ -265,7 +265,7 @@ FORCE_REBUILD = force_build
 INIT_TARGET = init
 PCH_TARGET =
 BC_TARGET = 
-CODA_TARGET = /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/EmbeddedPkg/Library/PrePiLib/PrePiLib/OUTPUT/PrePiLib.lib \
+CODA_TARGET = /mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/EmbeddedPkg/Library/PrePiLib/PrePiLib/OUTPUT/PrePiLib.lib \
               
 
 #
@@ -337,61 +337,61 @@ gen_fds:
 #
 # Individual Object Build Targets
 #
-$(OUTPUT_DIR)/ReportStatusCode.obj : $(MAKE_FILE)
-$(OUTPUT_DIR)/ReportStatusCode.obj : $(COMMON_DEPS)
-$(OUTPUT_DIR)/ReportStatusCode.obj : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/IndustryStandard/Acpi50.h
-$(OUTPUT_DIR)/ReportStatusCode.obj : /home/evsio0n/src/edk2sdm/edk2/IntelFrameworkPkg/Include/Framework/Hob.h
-$(OUTPUT_DIR)/ReportStatusCode.obj : /home/evsio0n/src/edk2sdm/edk2/IntelFrameworkPkg/Include/Framework/FirmwareVolumeHeader.h
-$(OUTPUT_DIR)/ReportStatusCode.obj : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/IndustryStandard/Acpi20.h
-$(OUTPUT_DIR)/ReportStatusCode.obj : /home/evsio0n/src/edk2sdm/edk2/IntelFrameworkPkg/Include/Framework/PeiCis.h
-$(OUTPUT_DIR)/ReportStatusCode.obj : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Pi/PiDxeCis.h
-$(OUTPUT_DIR)/ReportStatusCode.obj : /home/evsio0n/src/edk2sdm/edk2/IntelFrameworkPkg/Include/Framework/StatusCode.h
-$(OUTPUT_DIR)/ReportStatusCode.obj : /home/evsio0n/src/edk2sdm/edk2/IntelFrameworkPkg/Include/Framework/BootScript.h
-$(OUTPUT_DIR)/ReportStatusCode.obj : /home/evsio0n/src/edk2sdm/edk2/IntelFrameworkPkg/Include/Framework/FirmwareVolumeImageFormat.h
-$(OUTPUT_DIR)/ReportStatusCode.obj : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Guid/StatusCodeDataTypeId.h
-$(OUTPUT_DIR)/ReportStatusCode.obj : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/IndustryStandard/Acpi30.h
-$(OUTPUT_DIR)/ReportStatusCode.obj : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Guid/PcAnsi.h
-$(OUTPUT_DIR)/ReportStatusCode.obj : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Uefi/UefiSpec.h
-$(OUTPUT_DIR)/ReportStatusCode.obj : /home/evsio0n/src/edk2sdm/edk2/MdeModulePkg/Include/Guid/StatusCodeDataTypeDebug.h
-$(OUTPUT_DIR)/ReportStatusCode.obj : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Protocol/SimpleTextInEx.h
-$(OUTPUT_DIR)/ReportStatusCode.obj : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Library/ReportStatusCodeLib.h
-$(OUTPUT_DIR)/ReportStatusCode.obj : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Protocol/SimpleTextOut.h
-$(OUTPUT_DIR)/ReportStatusCode.obj : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Protocol/SimpleTextIn.h
-$(OUTPUT_DIR)/ReportStatusCode.obj : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Protocol/SerialIo.h
-$(OUTPUT_DIR)/ReportStatusCode.obj : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/PiDxe.h
-$(OUTPUT_DIR)/ReportStatusCode.obj : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Uefi/UefiInternalFormRepresentation.h
-$(OUTPUT_DIR)/ReportStatusCode.obj : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/IndustryStandard/Acpi40.h
-$(OUTPUT_DIR)/ReportStatusCode.obj : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Protocol/DevicePath.h
-$(OUTPUT_DIR)/ReportStatusCode.obj : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Uefi/UefiPxe.h
-$(OUTPUT_DIR)/ReportStatusCode.obj : /home/evsio0n/src/edk2sdm/edk2/IntelFrameworkPkg/Include/FrameworkPei.h
-$(OUTPUT_DIR)/ReportStatusCode.obj : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Guid/HiiFormMapMethodGuid.h
-$(OUTPUT_DIR)/ReportStatusCode.obj : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Library/SerialPortLib.h
-$(OUTPUT_DIR)/ReportStatusCode.obj : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Protocol/StatusCode.h
-$(OUTPUT_DIR)/ReportStatusCode.obj : /home/evsio0n/src/edk2sdm/edk2/IntelFrameworkPkg/Include/Ppi/PciCfg.h
-$(OUTPUT_DIR)/ReportStatusCode.obj : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/IndustryStandard/Bluetooth.h
-$(OUTPUT_DIR)/ReportStatusCode.obj : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/IndustryStandard/Acpi10.h
-$(OUTPUT_DIR)/ReportStatusCode.obj : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/IndustryStandard/AcpiAml.h
-$(OUTPUT_DIR)/ReportStatusCode.obj : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/IndustryStandard/Acpi51.h
-$(OUTPUT_DIR)/ReportStatusCode.obj : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Library/PrintLib.h
-$(OUTPUT_DIR)/ReportStatusCode.obj : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/IndustryStandard/Acpi60.h
-$(OUTPUT_DIR)/ReportStatusCode.obj : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Uefi/UefiGpt.h
-$(OUTPUT_DIR)/ReportStatusCode.obj : /home/evsio0n/src/edk2sdm/edk2/EmbeddedPkg/Library/PrePiLib/ReportStatusCode.c
-	"$(CC)" $(CC_FLAGS) $(CC_XIPFLAGS) -c -o /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/EmbeddedPkg/Library/PrePiLib/PrePiLib/OUTPUT/./ReportStatusCode.obj $(INC) /home/evsio0n/src/edk2sdm/edk2/EmbeddedPkg/Library/PrePiLib/ReportStatusCode.c
-
 $(OUTPUT_DIR)/PrePiLib.obj : $(MAKE_FILE)
 $(OUTPUT_DIR)/PrePiLib.obj : $(COMMON_DEPS)
-$(OUTPUT_DIR)/PrePiLib.obj : /home/evsio0n/src/edk2sdm/edk2/EmbeddedPkg/Library/PrePiLib/PrePiLib.c
-	"$(CC)" $(CC_FLAGS) $(CC_XIPFLAGS) -c -o /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/EmbeddedPkg/Library/PrePiLib/PrePiLib/OUTPUT/./PrePiLib.obj $(INC) /home/evsio0n/src/edk2sdm/edk2/EmbeddedPkg/Library/PrePiLib/PrePiLib.c
+$(OUTPUT_DIR)/PrePiLib.obj : /mnt/d/TARGET/edk2sdm/edk2/EmbeddedPkg/Library/PrePiLib/PrePiLib.c
+	"$(CC)" $(CC_FLAGS) $(CC_XIPFLAGS) -c -o /mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/EmbeddedPkg/Library/PrePiLib/PrePiLib/OUTPUT/./PrePiLib.obj $(INC) /mnt/d/TARGET/edk2sdm/edk2/EmbeddedPkg/Library/PrePiLib/PrePiLib.c
+
+$(OUTPUT_DIR)/ReportStatusCode.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/ReportStatusCode.obj : $(COMMON_DEPS)
+$(OUTPUT_DIR)/ReportStatusCode.obj : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Uefi/UefiGpt.h
+$(OUTPUT_DIR)/ReportStatusCode.obj : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/IndustryStandard/Acpi10.h
+$(OUTPUT_DIR)/ReportStatusCode.obj : /mnt/d/TARGET/edk2sdm/edk2/IntelFrameworkPkg/Include/Framework/Hob.h
+$(OUTPUT_DIR)/ReportStatusCode.obj : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Protocol/SerialIo.h
+$(OUTPUT_DIR)/ReportStatusCode.obj : /mnt/d/TARGET/edk2sdm/edk2/IntelFrameworkPkg/Include/FrameworkPei.h
+$(OUTPUT_DIR)/ReportStatusCode.obj : /mnt/d/TARGET/edk2sdm/edk2/IntelFrameworkPkg/Include/Ppi/PciCfg.h
+$(OUTPUT_DIR)/ReportStatusCode.obj : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Protocol/StatusCode.h
+$(OUTPUT_DIR)/ReportStatusCode.obj : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/IndustryStandard/Acpi51.h
+$(OUTPUT_DIR)/ReportStatusCode.obj : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Protocol/SimpleTextInEx.h
+$(OUTPUT_DIR)/ReportStatusCode.obj : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Protocol/SimpleTextIn.h
+$(OUTPUT_DIR)/ReportStatusCode.obj : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Uefi/UefiPxe.h
+$(OUTPUT_DIR)/ReportStatusCode.obj : /mnt/d/TARGET/edk2sdm/edk2/IntelFrameworkPkg/Include/Framework/BootScript.h
+$(OUTPUT_DIR)/ReportStatusCode.obj : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Guid/StatusCodeDataTypeId.h
+$(OUTPUT_DIR)/ReportStatusCode.obj : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/IndustryStandard/Acpi50.h
+$(OUTPUT_DIR)/ReportStatusCode.obj : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/IndustryStandard/Acpi20.h
+$(OUTPUT_DIR)/ReportStatusCode.obj : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/IndustryStandard/Acpi30.h
+$(OUTPUT_DIR)/ReportStatusCode.obj : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Pi/PiDxeCis.h
+$(OUTPUT_DIR)/ReportStatusCode.obj : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/PiDxe.h
+$(OUTPUT_DIR)/ReportStatusCode.obj : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/IndustryStandard/Acpi40.h
+$(OUTPUT_DIR)/ReportStatusCode.obj : /mnt/d/TARGET/edk2sdm/edk2/IntelFrameworkPkg/Include/Framework/PeiCis.h
+$(OUTPUT_DIR)/ReportStatusCode.obj : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Uefi/UefiSpec.h
+$(OUTPUT_DIR)/ReportStatusCode.obj : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Guid/HiiFormMapMethodGuid.h
+$(OUTPUT_DIR)/ReportStatusCode.obj : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Uefi/UefiInternalFormRepresentation.h
+$(OUTPUT_DIR)/ReportStatusCode.obj : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Library/SerialPortLib.h
+$(OUTPUT_DIR)/ReportStatusCode.obj : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/IndustryStandard/Bluetooth.h
+$(OUTPUT_DIR)/ReportStatusCode.obj : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Protocol/DevicePath.h
+$(OUTPUT_DIR)/ReportStatusCode.obj : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Protocol/SimpleTextOut.h
+$(OUTPUT_DIR)/ReportStatusCode.obj : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/IndustryStandard/Acpi60.h
+$(OUTPUT_DIR)/ReportStatusCode.obj : /mnt/d/TARGET/edk2sdm/edk2/IntelFrameworkPkg/Include/Framework/StatusCode.h
+$(OUTPUT_DIR)/ReportStatusCode.obj : /mnt/d/TARGET/edk2sdm/edk2/MdeModulePkg/Include/Guid/StatusCodeDataTypeDebug.h
+$(OUTPUT_DIR)/ReportStatusCode.obj : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Library/PrintLib.h
+$(OUTPUT_DIR)/ReportStatusCode.obj : /mnt/d/TARGET/edk2sdm/edk2/IntelFrameworkPkg/Include/Framework/FirmwareVolumeImageFormat.h
+$(OUTPUT_DIR)/ReportStatusCode.obj : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Guid/PcAnsi.h
+$(OUTPUT_DIR)/ReportStatusCode.obj : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Library/ReportStatusCodeLib.h
+$(OUTPUT_DIR)/ReportStatusCode.obj : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/IndustryStandard/AcpiAml.h
+$(OUTPUT_DIR)/ReportStatusCode.obj : /mnt/d/TARGET/edk2sdm/edk2/IntelFrameworkPkg/Include/Framework/FirmwareVolumeHeader.h
+$(OUTPUT_DIR)/ReportStatusCode.obj : /mnt/d/TARGET/edk2sdm/edk2/EmbeddedPkg/Library/PrePiLib/ReportStatusCode.c
+	"$(CC)" $(CC_FLAGS) $(CC_XIPFLAGS) -c -o /mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/EmbeddedPkg/Library/PrePiLib/PrePiLib/OUTPUT/./ReportStatusCode.obj $(INC) /mnt/d/TARGET/edk2sdm/edk2/EmbeddedPkg/Library/PrePiLib/ReportStatusCode.c
 
 $(OUTPUT_DIR)/FwVol.obj : $(MAKE_FILE)
 $(OUTPUT_DIR)/FwVol.obj : $(COMMON_DEPS)
-$(OUTPUT_DIR)/FwVol.obj : /home/evsio0n/src/edk2sdm/edk2/EmbeddedPkg/Library/PrePiLib/FwVol.c
-	"$(CC)" $(CC_FLAGS) $(CC_XIPFLAGS) -c -o /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/EmbeddedPkg/Library/PrePiLib/PrePiLib/OUTPUT/./FwVol.obj $(INC) /home/evsio0n/src/edk2sdm/edk2/EmbeddedPkg/Library/PrePiLib/FwVol.c
+$(OUTPUT_DIR)/FwVol.obj : /mnt/d/TARGET/edk2sdm/edk2/EmbeddedPkg/Library/PrePiLib/FwVol.c
+	"$(CC)" $(CC_FLAGS) $(CC_XIPFLAGS) -c -o /mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/EmbeddedPkg/Library/PrePiLib/PrePiLib/OUTPUT/./FwVol.obj $(INC) /mnt/d/TARGET/edk2sdm/edk2/EmbeddedPkg/Library/PrePiLib/FwVol.c
 
 $(OUTPUT_DIR)/PrePiLib.lib : $(OBJECT_FILES)
 $(OUTPUT_DIR)/PrePiLib.lib : $(OBJECT_FILES_LIST)
-	$(RM) /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/EmbeddedPkg/Library/PrePiLib/PrePiLib/OUTPUT/PrePiLib.lib
-	"$(SLINK)" cr /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/EmbeddedPkg/Library/PrePiLib/PrePiLib/OUTPUT/PrePiLib.lib $(SLINK_FLAGS) @$(OBJECT_FILES_LIST)
+	$(RM) /mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/EmbeddedPkg/Library/PrePiLib/PrePiLib/OUTPUT/PrePiLib.lib
+	"$(SLINK)" cr /mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/EmbeddedPkg/Library/PrePiLib/PrePiLib/OUTPUT/PrePiLib.lib $(SLINK_FLAGS) @$(OBJECT_FILES_LIST)
 
 
 

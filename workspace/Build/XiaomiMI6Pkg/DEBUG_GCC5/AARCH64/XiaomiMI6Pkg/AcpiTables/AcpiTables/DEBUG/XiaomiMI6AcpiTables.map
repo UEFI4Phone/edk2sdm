@@ -1,81 +1,81 @@
-/home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/XiaomiMI6Pkg/AcpiTables/AcpiTables/OUTPUT/./Madt.obj: dynamic relocation against `Madt' in read-only section `.rodata.ReferenceAcpiTable'
+/mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/XiaomiMI6Pkg/AcpiTables/AcpiTables/OUTPUT/./Gtdt.obj: dynamic relocation against `Gtdt' in read-only section `.rodata.ReferenceAcpiTable'
 
-舍弃的输入节
+Discarded input sections
 
- .text          0x0000000000000000        0x0 /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/XiaomiMI6Pkg/AcpiTables/AcpiTables/OUTPUT/./Madt.obj
- .data          0x0000000000000000        0x0 /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/XiaomiMI6Pkg/AcpiTables/AcpiTables/OUTPUT/./Madt.obj
- .bss           0x0000000000000000        0x0 /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/XiaomiMI6Pkg/AcpiTables/AcpiTables/OUTPUT/./Madt.obj
- .comment       0x0000000000000000       0x33 /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/XiaomiMI6Pkg/AcpiTables/AcpiTables/OUTPUT/./Madt.obj
+ .text          0x0000000000000000        0x0 /mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/XiaomiMI6Pkg/AcpiTables/AcpiTables/OUTPUT/./Gtdt.obj
+ .data          0x0000000000000000        0x0 /mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/XiaomiMI6Pkg/AcpiTables/AcpiTables/OUTPUT/./Gtdt.obj
+ .bss           0x0000000000000000        0x0 /mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/XiaomiMI6Pkg/AcpiTables/AcpiTables/OUTPUT/./Gtdt.obj
+ .comment       0x0000000000000000       0x31 /mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/XiaomiMI6Pkg/AcpiTables/AcpiTables/OUTPUT/./Gtdt.obj
  .note.GNU-stack
-                0x0000000000000000        0x0 /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/XiaomiMI6Pkg/AcpiTables/AcpiTables/OUTPUT/./Madt.obj
+                0x0000000000000000        0x0 /mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/XiaomiMI6Pkg/AcpiTables/AcpiTables/OUTPUT/./Gtdt.obj
 
-内存配置
+Memory Configuration
 
-名称           来源             长度             属性
+Name             Origin             Length             Attributes
 *default*        0x0000000000000000 0xffffffffffffffff
 
-链结器命令稿和内存映射
+Linker script and memory map
 
                 0x0000000000000000                PECOFF_HEADER_SIZE = 0x0
 
 .gnu.version_d  0x0000000000000000        0x0
  .gnu.version_d
-                0x0000000000000000        0x0 /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/XiaomiMI6Pkg/AcpiTables/AcpiTables/OUTPUT/./Madt.obj
+                0x0000000000000000        0x0 /mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/XiaomiMI6Pkg/AcpiTables/AcpiTables/OUTPUT/./Gtdt.obj
 
 .gnu.version    0x0000000000000000        0x0
- .gnu.version   0x0000000000000000        0x0 /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/XiaomiMI6Pkg/AcpiTables/AcpiTables/OUTPUT/./Madt.obj
+ .gnu.version   0x0000000000000000        0x0 /mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/XiaomiMI6Pkg/AcpiTables/AcpiTables/OUTPUT/./Gtdt.obj
 
 .gnu.version_r  0x0000000000000000        0x0
  .gnu.version_r
-                0x0000000000000000        0x0 /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/XiaomiMI6Pkg/AcpiTables/AcpiTables/OUTPUT/./Madt.obj
+                0x0000000000000000        0x0 /mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/XiaomiMI6Pkg/AcpiTables/AcpiTables/OUTPUT/./Gtdt.obj
                 0x0000000000000000                . = PECOFF_HEADER_SIZE
 
 .text           0x0000000000000000       0x28
  *(.text .text.* .stub .gnu.linkonce.t.*)
  *(.rodata .rodata.* .gnu.linkonce.r.*)
  .rodata.ReferenceAcpiTable
-                0x0000000000000000        0x8 /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/XiaomiMI6Pkg/AcpiTables/AcpiTables/OUTPUT/./Madt.obj
+                0x0000000000000000        0x8 /mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/XiaomiMI6Pkg/AcpiTables/AcpiTables/OUTPUT/./Gtdt.obj
                 0x0000000000000000                ReferenceAcpiTable
  *(.got .got.*)
- .got           0x0000000000000008        0x8 /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/XiaomiMI6Pkg/AcpiTables/AcpiTables/OUTPUT/./Madt.obj
+ .got           0x0000000000000008        0x8 /mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/XiaomiMI6Pkg/AcpiTables/AcpiTables/OUTPUT/./Gtdt.obj
                 0x0000000000000008                _GLOBAL_OFFSET_TABLE_
- .got.plt       0x0000000000000010       0x18 /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/XiaomiMI6Pkg/AcpiTables/AcpiTables/OUTPUT/./Madt.obj
+ .got.plt       0x0000000000000010       0x18 /mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/XiaomiMI6Pkg/AcpiTables/AcpiTables/OUTPUT/./Gtdt.obj
  *:AutoGen.obj(.data.g*Guid)
 
 .plt            0x0000000000000028        0x0
- .plt           0x0000000000000028        0x0 /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/XiaomiMI6Pkg/AcpiTables/AcpiTables/OUTPUT/./Madt.obj
+ .plt           0x0000000000000028        0x0 /mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/XiaomiMI6Pkg/AcpiTables/AcpiTables/OUTPUT/./Gtdt.obj
 
-.data           0x0000000000000040       0xa0
+.data           0x0000000000000040       0x60
  *(.data .data.* .gnu.linkonce.d.*)
- .data.Madt     0x0000000000000040       0xa0 /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/XiaomiMI6Pkg/AcpiTables/AcpiTables/OUTPUT/./Madt.obj
-                0x0000000000000040                Madt
- .data.rel.ro   0x00000000000000e0        0x0 /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/XiaomiMI6Pkg/AcpiTables/AcpiTables/OUTPUT/./Madt.obj
+ .data.Gtdt     0x0000000000000040       0x60 /mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/XiaomiMI6Pkg/AcpiTables/AcpiTables/OUTPUT/./Gtdt.obj
+                0x0000000000000040                Gtdt
+ .data.rel.ro   0x00000000000000a0        0x0 /mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/XiaomiMI6Pkg/AcpiTables/AcpiTables/OUTPUT/./Gtdt.obj
  *(.bss .bss.*)
 
-.dynbss         0x00000000000000e0        0x0
- .dynbss        0x00000000000000e0        0x0 /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/XiaomiMI6Pkg/AcpiTables/AcpiTables/OUTPUT/./Madt.obj
+.dynbss         0x00000000000000a0        0x0
+ .dynbss        0x00000000000000a0        0x0 /mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/XiaomiMI6Pkg/AcpiTables/AcpiTables/OUTPUT/./Gtdt.obj
 
 .eh_frame
  *(.eh_frame)
 
-.rela           0x00000000000000e0       0x18
+.rela           0x00000000000000a0       0x18
  *(.rela .rela.*)
- .rela.got      0x00000000000000e0        0x0 /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/XiaomiMI6Pkg/AcpiTables/AcpiTables/OUTPUT/./Madt.obj
- .rela.plt      0x00000000000000e0        0x0 /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/XiaomiMI6Pkg/AcpiTables/AcpiTables/OUTPUT/./Madt.obj
- .rela.bss      0x00000000000000e0        0x0 /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/XiaomiMI6Pkg/AcpiTables/AcpiTables/OUTPUT/./Madt.obj
+ .rela.got      0x00000000000000a0        0x0 /mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/XiaomiMI6Pkg/AcpiTables/AcpiTables/OUTPUT/./Gtdt.obj
+ .rela.plt      0x00000000000000a0        0x0 /mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/XiaomiMI6Pkg/AcpiTables/AcpiTables/OUTPUT/./Gtdt.obj
+ .rela.bss      0x00000000000000a0        0x0 /mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/XiaomiMI6Pkg/AcpiTables/AcpiTables/OUTPUT/./Gtdt.obj
  .rela.data.rel.ro
-                0x00000000000000e0        0x0 /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/XiaomiMI6Pkg/AcpiTables/AcpiTables/OUTPUT/./Madt.obj
- .rela.ifunc    0x00000000000000e0        0x0 /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/XiaomiMI6Pkg/AcpiTables/AcpiTables/OUTPUT/./Madt.obj
+                0x00000000000000a0        0x0 /mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/XiaomiMI6Pkg/AcpiTables/AcpiTables/OUTPUT/./Gtdt.obj
+ .rela.ifunc    0x00000000000000a0        0x0 /mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/XiaomiMI6Pkg/AcpiTables/AcpiTables/OUTPUT/./Gtdt.obj
  .rela.rodata.ReferenceAcpiTable
-                0x00000000000000e0       0x18 /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/XiaomiMI6Pkg/AcpiTables/AcpiTables/OUTPUT/./Madt.obj
+                0x00000000000000a0       0x18 /mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/XiaomiMI6Pkg/AcpiTables/AcpiTables/OUTPUT/./Gtdt.obj
 
 .hii
  *(.hii)
 
-.build-id       0x00000000000000f8       0x24
+.build-id       0x00000000000000b8       0x24
  *(.note.gnu.build-id)
  .note.gnu.build-id
-                0x00000000000000f8       0x24 /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/XiaomiMI6Pkg/AcpiTables/AcpiTables/OUTPUT/./Madt.obj
+                0x00000000000000b8       0x24 /mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/XiaomiMI6Pkg/AcpiTables/AcpiTables/OUTPUT/./Gtdt.obj
 
 /DISCARD/
  *(.note.GNU-stack)
@@ -87,22 +87,22 @@
  *(.hash .gnu.hash)
  *(.comment)
  *(COMMON)
-LOAD /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/XiaomiMI6Pkg/AcpiTables/AcpiTables/OUTPUT/./Madt.obj
-OUTPUT(/home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/XiaomiMI6Pkg/AcpiTables/AcpiTables/OUTPUT/./Madt.dll elf64-littleaarch64)
+LOAD /mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/XiaomiMI6Pkg/AcpiTables/AcpiTables/OUTPUT/./Gtdt.obj
+OUTPUT(/mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/XiaomiMI6Pkg/AcpiTables/AcpiTables/OUTPUT/./Gtdt.dll elf64-littleaarch64)
 
-.debug_info     0x0000000000000000      0x689
- .debug_info    0x0000000000000000      0x689 /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/XiaomiMI6Pkg/AcpiTables/AcpiTables/OUTPUT/./Madt.obj
+.debug_info     0x0000000000000000      0x526
+ .debug_info    0x0000000000000000      0x526 /mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/XiaomiMI6Pkg/AcpiTables/AcpiTables/OUTPUT/./Gtdt.obj
 
 .debug_abbrev   0x0000000000000000       0xd9
- .debug_abbrev  0x0000000000000000       0xd9 /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/XiaomiMI6Pkg/AcpiTables/AcpiTables/OUTPUT/./Madt.obj
+ .debug_abbrev  0x0000000000000000       0xd9 /mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/XiaomiMI6Pkg/AcpiTables/AcpiTables/OUTPUT/./Gtdt.obj
 
 .debug_aranges  0x0000000000000000       0x20
  .debug_aranges
-                0x0000000000000000       0x20 /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/XiaomiMI6Pkg/AcpiTables/AcpiTables/OUTPUT/./Madt.obj
+                0x0000000000000000       0x20 /mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/XiaomiMI6Pkg/AcpiTables/AcpiTables/OUTPUT/./Gtdt.obj
 
-.debug_line     0x0000000000000000      0x305
- .debug_line    0x0000000000000000      0x305 /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/XiaomiMI6Pkg/AcpiTables/AcpiTables/OUTPUT/./Madt.obj
+.debug_line     0x0000000000000000      0x2cd
+ .debug_line    0x0000000000000000      0x2cd /mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/XiaomiMI6Pkg/AcpiTables/AcpiTables/OUTPUT/./Gtdt.obj
 
-.debug_str      0x0000000000000000      0xae5
- .debug_str     0x0000000000000000      0xae5 /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/XiaomiMI6Pkg/AcpiTables/AcpiTables/OUTPUT/./Madt.obj
-                                        0xb4b (松开之前的大小)
+.debug_str      0x0000000000000000      0x9ea
+ .debug_str     0x0000000000000000      0x9ea /mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/XiaomiMI6Pkg/AcpiTables/AcpiTables/OUTPUT/./Gtdt.obj
+                                        0xa90 (size before relaxing)

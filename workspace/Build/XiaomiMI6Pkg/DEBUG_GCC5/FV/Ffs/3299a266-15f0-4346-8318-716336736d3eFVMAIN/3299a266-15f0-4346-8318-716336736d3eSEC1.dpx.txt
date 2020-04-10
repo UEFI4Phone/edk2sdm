@@ -1,1 +1,1 @@
-GenSec -s EFI_SECTION_DXE_DEPEX -o /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/FV/Ffs/3299a266-15f0-4346-8318-716336736d3eFVMAIN/3299a266-15f0-4346-8318-716336736d3eSEC1.dpx /home/evsio0n/src/edk2sdm/Sdm835/XiaomiMI6Pkg/Binary/UsbDeviceDxe/UsbDeviceDxe.depex
+GenSec -s EFI_SECTION_DXE_DEPEX -o /mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/FV/Ffs/3299a266-15f0-4346-8318-716336736d3eFVMAIN/3299a266-15f0-4346-8318-716336736d3eSEC1.dpx /mnt/d/TARGET/edk2sdm/Sdm835/XiaomiMI6Pkg/Binary/UsbDeviceDxe/UsbDeviceDxe.depex

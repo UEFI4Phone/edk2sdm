@@ -1,8 +1,8 @@
-/home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ShellPkg/Library/UefiShellLevel1CommandsLib/UefiShellLevel1CommandsLib/OUTPUT/UefiShellLevel1CommandsLib.obj
-/home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ShellPkg/Library/UefiShellLevel1CommandsLib/UefiShellLevel1CommandsLib/OUTPUT/Exit.obj
-/home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ShellPkg/Library/UefiShellLevel1CommandsLib/UefiShellLevel1CommandsLib/OUTPUT/Goto.obj
-/home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ShellPkg/Library/UefiShellLevel1CommandsLib/UefiShellLevel1CommandsLib/OUTPUT/If.obj
-/home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ShellPkg/Library/UefiShellLevel1CommandsLib/UefiShellLevel1CommandsLib/OUTPUT/For.obj
-/home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ShellPkg/Library/UefiShellLevel1CommandsLib/UefiShellLevel1CommandsLib/OUTPUT/Shift.obj
-/home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ShellPkg/Library/UefiShellLevel1CommandsLib/UefiShellLevel1CommandsLib/OUTPUT/Stall.obj
-/home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ShellPkg/Library/UefiShellLevel1CommandsLib/UefiShellLevel1CommandsLib/OUTPUT/AutoGen.obj
+/mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ShellPkg/Library/UefiShellLevel1CommandsLib/UefiShellLevel1CommandsLib/OUTPUT/UefiShellLevel1CommandsLib.obj
+/mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ShellPkg/Library/UefiShellLevel1CommandsLib/UefiShellLevel1CommandsLib/OUTPUT/Exit.obj
+/mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ShellPkg/Library/UefiShellLevel1CommandsLib/UefiShellLevel1CommandsLib/OUTPUT/Goto.obj
+/mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ShellPkg/Library/UefiShellLevel1CommandsLib/UefiShellLevel1CommandsLib/OUTPUT/If.obj
+/mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ShellPkg/Library/UefiShellLevel1CommandsLib/UefiShellLevel1CommandsLib/OUTPUT/For.obj
+/mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ShellPkg/Library/UefiShellLevel1CommandsLib/UefiShellLevel1CommandsLib/OUTPUT/Shift.obj
+/mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ShellPkg/Library/UefiShellLevel1CommandsLib/UefiShellLevel1CommandsLib/OUTPUT/Stall.obj
+/mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ShellPkg/Library/UefiShellLevel1CommandsLib/UefiShellLevel1CommandsLib/OUTPUT/AutoGen.obj

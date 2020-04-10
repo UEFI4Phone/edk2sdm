@@ -19,7 +19,7 @@ PLATFORM_NAME = XiaomiMI6Pkg
 PLATFORM_GUID = 28f1a3bf-193a-47e3-a7b9-5a435eaab2ee
 PLATFORM_VERSION = 0.1
 PLATFORM_RELATIVE_DIR = XiaomiMI6Pkg
-PLATFORM_DIR = /home/evsio0n/src/edk2sdm/Sdm835/XiaomiMI6Pkg
+PLATFORM_DIR = /mnt/d/TARGET/edk2sdm/Sdm835/XiaomiMI6Pkg
 PLATFORM_OUTPUT_DIR = Build/XiaomiMI6Pkg
 
 #
@@ -35,8 +35,8 @@ MODULE_FILE_BASE_NAME = ArmBaseLib
 BASE_NAME = $(MODULE_NAME)
 MODULE_RELATIVE_DIR = ArmPkg/Library/ArmLib
 PACKAGE_RELATIVE_DIR = Library/ArmLib
-MODULE_DIR = /home/evsio0n/src/edk2sdm/edk2/ArmPkg/Library/ArmLib
-FFS_OUTPUT_DIR = /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/FV/Ffs/f1d943b6-99c5-46d5-af5a-66ec67662700ArmBaseLib
+MODULE_DIR = /mnt/d/TARGET/edk2sdm/edk2/ArmPkg/Library/ArmLib
+FFS_OUTPUT_DIR = /mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/FV/Ffs/f1d943b6-99c5-46d5-af5a-66ec67662700ArmBaseLib
 
 MODULE_ENTRY_POINT = _ModuleEntryPoint
 ARCH_ENTRY_POINT = _ModuleEntryPoint
@@ -59,13 +59,13 @@ TARGET = DEBUG
 #
 # Build Directory Macro Definition
 #
-# PLATFORM_BUILD_DIR = /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5
-BUILD_DIR = /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5
+# PLATFORM_BUILD_DIR = /mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5
+BUILD_DIR = /mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5
 BIN_DIR = $(BUILD_DIR)/AARCH64
 LIB_DIR = $(BIN_DIR)
-MODULE_BUILD_DIR = /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib
-OUTPUT_DIR = /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT
-DEBUG_DIR = /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/DEBUG
+MODULE_BUILD_DIR = /mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib
+OUTPUT_DIR = /mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT
+DEBUG_DIR = /mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/DEBUG
 DEST_DIR_OUTPUT = $(OUTPUT_DIR)
 DEST_DIR_DEBUG = $(DEBUG_DIR)
 
@@ -169,7 +169,7 @@ PP_FLAGS = $(ARCHCC_FLAGS) $(PLATFORM_FLAGS) -E -x assembler-with-cpp -include $
 VFRPP = aarch64-linux-gnu-gcc
 VFRPP_FLAGS = $(ARCHCC_FLAGS) $(PLATFORM_FLAGS) -x c -E -P -DVFRCOMPILE --include $(DEST_DIR_DEBUG)/$(MODULE_NAME)StrDefs.h
 
-DLINK_FLAGS = -Wl,--emit-relocs -nostdlib -Wl,--gc-sections -u $(IMAGE_ENTRY_POINT) -Wl,-e,$(IMAGE_ENTRY_POINT),-Map,$(DEST_DIR_DEBUG)/$(BASE_NAME).map -z common-page-size=0x20 -z common-page-size=0x1000 -flto -Os -L/home/evsio0n/src/edk2sdm/edk2/ArmPkg/Library/GccLto -llto-aarch64 -Wl,-plugin-opt=-pass-through=-llto-aarch64 -Wno-lto-type-mismatch
+DLINK_FLAGS = -Wl,--emit-relocs -nostdlib -Wl,--gc-sections -u $(IMAGE_ENTRY_POINT) -Wl,-e,$(IMAGE_ENTRY_POINT),-Map,$(DEST_DIR_DEBUG)/$(BASE_NAME).map -z common-page-size=0x20 -z common-page-size=0x1000 -flto -Os -L/mnt/d/TARGET/edk2sdm/edk2/ArmPkg/Library/GccLto -llto-aarch64 -Wl,-plugin-opt=-pass-through=-llto-aarch64 -Wno-lto-type-mismatch
 DLINK_XIPFLAGS =  -z common-page-size=0x20
 DLINK = aarch64-linux-gnu-gcc
 
@@ -207,28 +207,28 @@ OBJECT_FILES =  \
     $(OUTPUT_DIR)/AArch64/AArch64ArchTimerSupport.obj
 
 INC =  \
-    -I/home/evsio0n/src/edk2sdm/edk2/ArmPkg/Library/ArmLib/AArch64 \
-    -I/home/evsio0n/src/edk2sdm/edk2/ArmPkg/Library/ArmLib \
+    -I/mnt/d/TARGET/edk2sdm/edk2/ArmPkg/Library/ArmLib/AArch64 \
+    -I/mnt/d/TARGET/edk2sdm/edk2/ArmPkg/Library/ArmLib \
     -I$(DEBUG_DIR) \
-    -I/home/evsio0n/src/edk2sdm/edk2/ArmPkg \
-    -I/home/evsio0n/src/edk2sdm/edk2/ArmPkg/Include \
-    -I/home/evsio0n/src/edk2sdm/edk2/MdePkg \
-    -I/home/evsio0n/src/edk2sdm/edk2/MdePkg/Include \
-    -I/home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/AArch64
+    -I/mnt/d/TARGET/edk2sdm/edk2/ArmPkg \
+    -I/mnt/d/TARGET/edk2sdm/edk2/ArmPkg/Include \
+    -I/mnt/d/TARGET/edk2sdm/edk2/MdePkg \
+    -I/mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include \
+    -I/mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/AArch64
 
-OBJECT_FILES_LIST = /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/object_files.lst
+OBJECT_FILES_LIST = /mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/object_files.lst
 
 
-COMMON_DEPS = /home/evsio0n/src/edk2sdm/edk2/ArmPkg/Include/Chipset/AArch64Mmu.h \
-              /home/evsio0n/src/edk2sdm/edk2/ArmPkg/Library/ArmLib/ArmLibPrivate.h \
-              /home/evsio0n/src/edk2sdm/edk2/ArmPkg/Include/Chipset/ArmV7.h \
-              /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/AArch64/ProcessorBind.h \
-              /home/evsio0n/src/edk2sdm/edk2/ArmPkg/Include/Chipset/AArch64.h \
-              /home/evsio0n/src/edk2sdm/edk2/ArmPkg/Include/Library/ArmLib.h \
-              /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Uefi/UefiBaseType.h \
+COMMON_DEPS = /mnt/d/TARGET/edk2sdm/edk2/ArmPkg/Include/Chipset/ArmV7.h \
+              /mnt/d/TARGET/edk2sdm/edk2/ArmPkg/Include/Library/ArmLib.h \
               $(DEBUG_DIR)/AutoGen.h \
-              /home/evsio0n/src/edk2sdm/edk2/ArmPkg/Include/Chipset/ArmV7Mmu.h \
-              /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Base.h \
+              /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/AArch64/ProcessorBind.h \
+              /mnt/d/TARGET/edk2sdm/edk2/ArmPkg/Library/ArmLib/ArmLibPrivate.h \
+              /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Base.h \
+              /mnt/d/TARGET/edk2sdm/edk2/ArmPkg/Include/Chipset/ArmV7Mmu.h \
+              /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Uefi/UefiBaseType.h \
+              /mnt/d/TARGET/edk2sdm/edk2/ArmPkg/Include/Chipset/AArch64.h \
+              /mnt/d/TARGET/edk2sdm/edk2/ArmPkg/Include/Chipset/AArch64Mmu.h \
               
 
 #
@@ -238,7 +238,7 @@ FORCE_REBUILD = force_build
 INIT_TARGET = init
 PCH_TARGET =
 BC_TARGET = 
-CODA_TARGET = /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib \
+CODA_TARGET = /mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib \
               
 
 #
@@ -312,87 +312,87 @@ gen_fds:
 #
 $(OUTPUT_DIR)/AArch64/AArch64Lib.obj : $(MAKE_FILE)
 $(OUTPUT_DIR)/AArch64/AArch64Lib.obj : $(COMMON_DEPS)
-$(OUTPUT_DIR)/AArch64/AArch64Lib.obj : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/IndustryStandard/Acpi50.h
-$(OUTPUT_DIR)/AArch64/AArch64Lib.obj : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Protocol/SimpleTextOut.h
-$(OUTPUT_DIR)/AArch64/AArch64Lib.obj : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/IndustryStandard/Acpi20.h
-$(OUTPUT_DIR)/AArch64/AArch64Lib.obj : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Guid/WinCertificate.h
-$(OUTPUT_DIR)/AArch64/AArch64Lib.obj : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Protocol/SimpleTextIn.h
-$(OUTPUT_DIR)/AArch64/AArch64Lib.obj : /home/evsio0n/src/edk2sdm/edk2/ArmPkg/Library/ArmLib/AArch64/AArch64Lib.h
-$(OUTPUT_DIR)/AArch64/AArch64Lib.obj : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Uefi/UefiMultiPhase.h
-$(OUTPUT_DIR)/AArch64/AArch64Lib.obj : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/IndustryStandard/Acpi30.h
-$(OUTPUT_DIR)/AArch64/AArch64Lib.obj : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Uefi/UefiInternalFormRepresentation.h
-$(OUTPUT_DIR)/AArch64/AArch64Lib.obj : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/IndustryStandard/Acpi40.h
-$(OUTPUT_DIR)/AArch64/AArch64Lib.obj : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Uefi.h
-$(OUTPUT_DIR)/AArch64/AArch64Lib.obj : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Protocol/DevicePath.h
-$(OUTPUT_DIR)/AArch64/AArch64Lib.obj : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Guid/PcAnsi.h
-$(OUTPUT_DIR)/AArch64/AArch64Lib.obj : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Uefi/UefiPxe.h
-$(OUTPUT_DIR)/AArch64/AArch64Lib.obj : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Library/IoLib.h
-$(OUTPUT_DIR)/AArch64/AArch64Lib.obj : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Library/BaseLib.h
-$(OUTPUT_DIR)/AArch64/AArch64Lib.obj : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Guid/HiiFormMapMethodGuid.h
-$(OUTPUT_DIR)/AArch64/AArch64Lib.obj : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/IndustryStandard/Bluetooth.h
-$(OUTPUT_DIR)/AArch64/AArch64Lib.obj : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/IndustryStandard/Acpi10.h
-$(OUTPUT_DIR)/AArch64/AArch64Lib.obj : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/IndustryStandard/AcpiAml.h
-$(OUTPUT_DIR)/AArch64/AArch64Lib.obj : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Uefi/UefiSpec.h
-$(OUTPUT_DIR)/AArch64/AArch64Lib.obj : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/IndustryStandard/Acpi51.h
-$(OUTPUT_DIR)/AArch64/AArch64Lib.obj : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Protocol/SimpleTextInEx.h
-$(OUTPUT_DIR)/AArch64/AArch64Lib.obj : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/IndustryStandard/Acpi60.h
-$(OUTPUT_DIR)/AArch64/AArch64Lib.obj : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Uefi/UefiGpt.h
-$(OUTPUT_DIR)/AArch64/AArch64Lib.obj : /home/evsio0n/src/edk2sdm/edk2/ArmPkg/Library/ArmLib/AArch64/AArch64Lib.c
-	"$(CC)" $(CC_FLAGS) $(CC_XIPFLAGS) -c -o /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/AArch64/AArch64Lib.obj $(INC) /home/evsio0n/src/edk2sdm/edk2/ArmPkg/Library/ArmLib/AArch64/AArch64Lib.c
+$(OUTPUT_DIR)/AArch64/AArch64Lib.obj : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Guid/HiiFormMapMethodGuid.h
+$(OUTPUT_DIR)/AArch64/AArch64Lib.obj : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Uefi/UefiGpt.h
+$(OUTPUT_DIR)/AArch64/AArch64Lib.obj : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Library/IoLib.h
+$(OUTPUT_DIR)/AArch64/AArch64Lib.obj : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/IndustryStandard/Bluetooth.h
+$(OUTPUT_DIR)/AArch64/AArch64Lib.obj : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Uefi/UefiInternalFormRepresentation.h
+$(OUTPUT_DIR)/AArch64/AArch64Lib.obj : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Protocol/DevicePath.h
+$(OUTPUT_DIR)/AArch64/AArch64Lib.obj : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Protocol/SimpleTextOut.h
+$(OUTPUT_DIR)/AArch64/AArch64Lib.obj : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/IndustryStandard/Acpi10.h
+$(OUTPUT_DIR)/AArch64/AArch64Lib.obj : /mnt/d/TARGET/edk2sdm/edk2/ArmPkg/Library/ArmLib/AArch64/AArch64Lib.h
+$(OUTPUT_DIR)/AArch64/AArch64Lib.obj : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/IndustryStandard/Acpi60.h
+$(OUTPUT_DIR)/AArch64/AArch64Lib.obj : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Uefi.h
+$(OUTPUT_DIR)/AArch64/AArch64Lib.obj : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Guid/WinCertificate.h
+$(OUTPUT_DIR)/AArch64/AArch64Lib.obj : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/IndustryStandard/Acpi51.h
+$(OUTPUT_DIR)/AArch64/AArch64Lib.obj : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Protocol/SimpleTextInEx.h
+$(OUTPUT_DIR)/AArch64/AArch64Lib.obj : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Protocol/SimpleTextIn.h
+$(OUTPUT_DIR)/AArch64/AArch64Lib.obj : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Uefi/UefiPxe.h
+$(OUTPUT_DIR)/AArch64/AArch64Lib.obj : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Library/BaseLib.h
+$(OUTPUT_DIR)/AArch64/AArch64Lib.obj : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Guid/PcAnsi.h
+$(OUTPUT_DIR)/AArch64/AArch64Lib.obj : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Uefi/UefiMultiPhase.h
+$(OUTPUT_DIR)/AArch64/AArch64Lib.obj : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/IndustryStandard/Acpi50.h
+$(OUTPUT_DIR)/AArch64/AArch64Lib.obj : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/IndustryStandard/Acpi20.h
+$(OUTPUT_DIR)/AArch64/AArch64Lib.obj : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/IndustryStandard/AcpiAml.h
+$(OUTPUT_DIR)/AArch64/AArch64Lib.obj : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/IndustryStandard/Acpi30.h
+$(OUTPUT_DIR)/AArch64/AArch64Lib.obj : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/IndustryStandard/Acpi40.h
+$(OUTPUT_DIR)/AArch64/AArch64Lib.obj : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Uefi/UefiSpec.h
+$(OUTPUT_DIR)/AArch64/AArch64Lib.obj : /mnt/d/TARGET/edk2sdm/edk2/ArmPkg/Library/ArmLib/AArch64/AArch64Lib.c
+	"$(CC)" $(CC_FLAGS) $(CC_XIPFLAGS) -c -o /mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/AArch64/AArch64Lib.obj $(INC) /mnt/d/TARGET/edk2sdm/edk2/ArmPkg/Library/ArmLib/AArch64/AArch64Lib.c
 
 $(OUTPUT_DIR)/ArmLib.obj : $(MAKE_FILE)
 $(OUTPUT_DIR)/ArmLib.obj : $(COMMON_DEPS)
-$(OUTPUT_DIR)/ArmLib.obj : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Library/DebugLib.h
-$(OUTPUT_DIR)/ArmLib.obj : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Library/PcdLib.h
-$(OUTPUT_DIR)/ArmLib.obj : /home/evsio0n/src/edk2sdm/edk2/ArmPkg/Library/ArmLib/ArmLib.c
-	"$(CC)" $(CC_FLAGS) $(CC_XIPFLAGS) -c -o /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/./ArmLib.obj $(INC) /home/evsio0n/src/edk2sdm/edk2/ArmPkg/Library/ArmLib/ArmLib.c
+$(OUTPUT_DIR)/ArmLib.obj : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Library/DebugLib.h
+$(OUTPUT_DIR)/ArmLib.obj : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Library/PcdLib.h
+$(OUTPUT_DIR)/ArmLib.obj : /mnt/d/TARGET/edk2sdm/edk2/ArmPkg/Library/ArmLib/ArmLib.c
+	"$(CC)" $(CC_FLAGS) $(CC_XIPFLAGS) -c -o /mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/./ArmLib.obj $(INC) /mnt/d/TARGET/edk2sdm/edk2/ArmPkg/Library/ArmLib/ArmLib.c
 
 $(OUTPUT_DIR)/ArmBaseLib.lib : $(OBJECT_FILES)
 $(OUTPUT_DIR)/ArmBaseLib.lib : $(OBJECT_FILES_LIST)
-	$(RM) /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib
-	"$(SLINK)" cr /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib $(SLINK_FLAGS) @$(OBJECT_FILES_LIST)
+	$(RM) /mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib
+	"$(SLINK)" cr /mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib $(SLINK_FLAGS) @$(OBJECT_FILES_LIST)
 
 $(OUTPUT_DIR)/AArch64/ArmLibSupportV8.obj : $(MAKE_FILE)
-$(OUTPUT_DIR)/AArch64/ArmLibSupportV8.obj : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Base.h
-$(OUTPUT_DIR)/AArch64/ArmLibSupportV8.obj : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/AArch64/ProcessorBind.h
 $(OUTPUT_DIR)/AArch64/ArmLibSupportV8.obj : $(DEBUG_DIR)/AutoGen.h
-$(OUTPUT_DIR)/AArch64/ArmLibSupportV8.obj : /home/evsio0n/src/edk2sdm/edk2/ArmPkg/Include/AsmMacroIoLibV8.h
-$(OUTPUT_DIR)/AArch64/ArmLibSupportV8.obj : /home/evsio0n/src/edk2sdm/edk2/ArmPkg/Library/ArmLib/AArch64/ArmLibSupportV8.S
-	"$(PP)" $(PP_FLAGS) $(INC) /home/evsio0n/src/edk2sdm/edk2/ArmPkg/Library/ArmLib/AArch64/ArmLibSupportV8.S > /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/AArch64/ArmLibSupportV8.i
-	Trim --trim-long --source-code -o /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/AArch64/ArmLibSupportV8.iii /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/AArch64/ArmLibSupportV8.i
-	"$(ASM)" $(ASM_FLAGS) -o /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/AArch64/ArmLibSupportV8.obj $(INC) /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/AArch64/ArmLibSupportV8.iii
-
-$(OUTPUT_DIR)/AArch64/AArch64ArchTimerSupport.obj : $(MAKE_FILE)
-$(OUTPUT_DIR)/AArch64/AArch64ArchTimerSupport.obj : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Base.h
-$(OUTPUT_DIR)/AArch64/AArch64ArchTimerSupport.obj : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/AArch64/ProcessorBind.h
-$(OUTPUT_DIR)/AArch64/AArch64ArchTimerSupport.obj : $(DEBUG_DIR)/AutoGen.h
-$(OUTPUT_DIR)/AArch64/AArch64ArchTimerSupport.obj : /home/evsio0n/src/edk2sdm/edk2/ArmPkg/Include/AsmMacroIoLibV8.h
-$(OUTPUT_DIR)/AArch64/AArch64ArchTimerSupport.obj : /home/evsio0n/src/edk2sdm/edk2/ArmPkg/Library/ArmLib/AArch64/AArch64ArchTimerSupport.S
-	"$(PP)" $(PP_FLAGS) $(INC) /home/evsio0n/src/edk2sdm/edk2/ArmPkg/Library/ArmLib/AArch64/AArch64ArchTimerSupport.S > /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/AArch64/AArch64ArchTimerSupport.i
-	Trim --trim-long --source-code -o /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/AArch64/AArch64ArchTimerSupport.iii /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/AArch64/AArch64ArchTimerSupport.i
-	"$(ASM)" $(ASM_FLAGS) -o /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/AArch64/AArch64ArchTimerSupport.obj $(INC) /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/AArch64/AArch64ArchTimerSupport.iii
-
-$(OUTPUT_DIR)/AArch64/AArch64Support.obj : $(MAKE_FILE)
-$(OUTPUT_DIR)/AArch64/AArch64Support.obj : /home/evsio0n/src/edk2sdm/edk2/ArmPkg/Include/Chipset/AArch64Mmu.h
-$(OUTPUT_DIR)/AArch64/AArch64Support.obj : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/AArch64/ProcessorBind.h
-$(OUTPUT_DIR)/AArch64/AArch64Support.obj : /home/evsio0n/src/edk2sdm/edk2/ArmPkg/Include/Chipset/AArch64.h
-$(OUTPUT_DIR)/AArch64/AArch64Support.obj : $(DEBUG_DIR)/AutoGen.h
-$(OUTPUT_DIR)/AArch64/AArch64Support.obj : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Base.h
-$(OUTPUT_DIR)/AArch64/AArch64Support.obj : /home/evsio0n/src/edk2sdm/edk2/ArmPkg/Include/AsmMacroIoLibV8.h
-$(OUTPUT_DIR)/AArch64/AArch64Support.obj : /home/evsio0n/src/edk2sdm/edk2/ArmPkg/Library/ArmLib/AArch64/AArch64Support.S
-	"$(PP)" $(PP_FLAGS) $(INC) /home/evsio0n/src/edk2sdm/edk2/ArmPkg/Library/ArmLib/AArch64/AArch64Support.S > /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/AArch64/AArch64Support.i
-	Trim --trim-long --source-code -o /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/AArch64/AArch64Support.iii /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/AArch64/AArch64Support.i
-	"$(ASM)" $(ASM_FLAGS) -o /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/AArch64/AArch64Support.obj $(INC) /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/AArch64/AArch64Support.iii
+$(OUTPUT_DIR)/AArch64/ArmLibSupportV8.obj : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/AArch64/ProcessorBind.h
+$(OUTPUT_DIR)/AArch64/ArmLibSupportV8.obj : /mnt/d/TARGET/edk2sdm/edk2/ArmPkg/Include/AsmMacroIoLibV8.h
+$(OUTPUT_DIR)/AArch64/ArmLibSupportV8.obj : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Base.h
+$(OUTPUT_DIR)/AArch64/ArmLibSupportV8.obj : /mnt/d/TARGET/edk2sdm/edk2/ArmPkg/Library/ArmLib/AArch64/ArmLibSupportV8.S
+	"$(PP)" $(PP_FLAGS) $(INC) /mnt/d/TARGET/edk2sdm/edk2/ArmPkg/Library/ArmLib/AArch64/ArmLibSupportV8.S > /mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/AArch64/ArmLibSupportV8.i
+	Trim --trim-long --source-code -o /mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/AArch64/ArmLibSupportV8.iii /mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/AArch64/ArmLibSupportV8.i
+	"$(ASM)" $(ASM_FLAGS) -o /mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/AArch64/ArmLibSupportV8.obj $(INC) /mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/AArch64/ArmLibSupportV8.iii
 
 $(OUTPUT_DIR)/AArch64/ArmLibSupport.obj : $(MAKE_FILE)
-$(OUTPUT_DIR)/AArch64/ArmLibSupport.obj : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Base.h
-$(OUTPUT_DIR)/AArch64/ArmLibSupport.obj : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/AArch64/ProcessorBind.h
 $(OUTPUT_DIR)/AArch64/ArmLibSupport.obj : $(DEBUG_DIR)/AutoGen.h
-$(OUTPUT_DIR)/AArch64/ArmLibSupport.obj : /home/evsio0n/src/edk2sdm/edk2/ArmPkg/Include/AsmMacroIoLibV8.h
-$(OUTPUT_DIR)/AArch64/ArmLibSupport.obj : /home/evsio0n/src/edk2sdm/edk2/ArmPkg/Library/ArmLib/AArch64/ArmLibSupport.S
-	"$(PP)" $(PP_FLAGS) $(INC) /home/evsio0n/src/edk2sdm/edk2/ArmPkg/Library/ArmLib/AArch64/ArmLibSupport.S > /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/AArch64/ArmLibSupport.i
-	Trim --trim-long --source-code -o /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/AArch64/ArmLibSupport.iii /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/AArch64/ArmLibSupport.i
-	"$(ASM)" $(ASM_FLAGS) -o /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/AArch64/ArmLibSupport.obj $(INC) /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/AArch64/ArmLibSupport.iii
+$(OUTPUT_DIR)/AArch64/ArmLibSupport.obj : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/AArch64/ProcessorBind.h
+$(OUTPUT_DIR)/AArch64/ArmLibSupport.obj : /mnt/d/TARGET/edk2sdm/edk2/ArmPkg/Include/AsmMacroIoLibV8.h
+$(OUTPUT_DIR)/AArch64/ArmLibSupport.obj : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Base.h
+$(OUTPUT_DIR)/AArch64/ArmLibSupport.obj : /mnt/d/TARGET/edk2sdm/edk2/ArmPkg/Library/ArmLib/AArch64/ArmLibSupport.S
+	"$(PP)" $(PP_FLAGS) $(INC) /mnt/d/TARGET/edk2sdm/edk2/ArmPkg/Library/ArmLib/AArch64/ArmLibSupport.S > /mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/AArch64/ArmLibSupport.i
+	Trim --trim-long --source-code -o /mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/AArch64/ArmLibSupport.iii /mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/AArch64/ArmLibSupport.i
+	"$(ASM)" $(ASM_FLAGS) -o /mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/AArch64/ArmLibSupport.obj $(INC) /mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/AArch64/ArmLibSupport.iii
+
+$(OUTPUT_DIR)/AArch64/AArch64ArchTimerSupport.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/AArch64/AArch64ArchTimerSupport.obj : $(DEBUG_DIR)/AutoGen.h
+$(OUTPUT_DIR)/AArch64/AArch64ArchTimerSupport.obj : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/AArch64/ProcessorBind.h
+$(OUTPUT_DIR)/AArch64/AArch64ArchTimerSupport.obj : /mnt/d/TARGET/edk2sdm/edk2/ArmPkg/Include/AsmMacroIoLibV8.h
+$(OUTPUT_DIR)/AArch64/AArch64ArchTimerSupport.obj : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Base.h
+$(OUTPUT_DIR)/AArch64/AArch64ArchTimerSupport.obj : /mnt/d/TARGET/edk2sdm/edk2/ArmPkg/Library/ArmLib/AArch64/AArch64ArchTimerSupport.S
+	"$(PP)" $(PP_FLAGS) $(INC) /mnt/d/TARGET/edk2sdm/edk2/ArmPkg/Library/ArmLib/AArch64/AArch64ArchTimerSupport.S > /mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/AArch64/AArch64ArchTimerSupport.i
+	Trim --trim-long --source-code -o /mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/AArch64/AArch64ArchTimerSupport.iii /mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/AArch64/AArch64ArchTimerSupport.i
+	"$(ASM)" $(ASM_FLAGS) -o /mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/AArch64/AArch64ArchTimerSupport.obj $(INC) /mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/AArch64/AArch64ArchTimerSupport.iii
+
+$(OUTPUT_DIR)/AArch64/AArch64Support.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/AArch64/AArch64Support.obj : /mnt/d/TARGET/edk2sdm/edk2/ArmPkg/Include/AsmMacroIoLibV8.h
+$(OUTPUT_DIR)/AArch64/AArch64Support.obj : $(DEBUG_DIR)/AutoGen.h
+$(OUTPUT_DIR)/AArch64/AArch64Support.obj : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/AArch64/ProcessorBind.h
+$(OUTPUT_DIR)/AArch64/AArch64Support.obj : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Base.h
+$(OUTPUT_DIR)/AArch64/AArch64Support.obj : /mnt/d/TARGET/edk2sdm/edk2/ArmPkg/Include/Chipset/AArch64.h
+$(OUTPUT_DIR)/AArch64/AArch64Support.obj : /mnt/d/TARGET/edk2sdm/edk2/ArmPkg/Include/Chipset/AArch64Mmu.h
+$(OUTPUT_DIR)/AArch64/AArch64Support.obj : /mnt/d/TARGET/edk2sdm/edk2/ArmPkg/Library/ArmLib/AArch64/AArch64Support.S
+	"$(PP)" $(PP_FLAGS) $(INC) /mnt/d/TARGET/edk2sdm/edk2/ArmPkg/Library/ArmLib/AArch64/AArch64Support.S > /mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/AArch64/AArch64Support.i
+	Trim --trim-long --source-code -o /mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/AArch64/AArch64Support.iii /mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/AArch64/AArch64Support.i
+	"$(ASM)" $(ASM_FLAGS) -o /mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/AArch64/AArch64Support.obj $(INC) /mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/AArch64/AArch64Support.iii
 
 
 

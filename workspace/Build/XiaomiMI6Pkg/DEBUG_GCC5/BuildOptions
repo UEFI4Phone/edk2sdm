@@ -1,4 +1,4 @@
 gCommandLineDefines: {'ARCH': 'AARCH64'}
 BuildOptionPcd: []
-Active Platform: /home/evsio0n/src/edk2sdm/Sdm835/XiaomiMI6Pkg/XiaomiMI6Pkg.dsc
-Flash Image Definition: /home/evsio0n/src/edk2sdm/Sdm835/XiaomiMI6Pkg/XiaomiMI6Pkg.fdf
+Active Platform: /mnt/d/TARGET/edk2sdm/Sdm835/XiaomiMI6Pkg/XiaomiMI6Pkg.dsc
+Flash Image Definition: /mnt/d/TARGET/edk2sdm/Sdm835/XiaomiMI6Pkg/XiaomiMI6Pkg.fdf

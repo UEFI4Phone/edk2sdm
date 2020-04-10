@@ -19,7 +19,7 @@ PLATFORM_NAME = XiaomiMI6Pkg
 PLATFORM_GUID = 28f1a3bf-193a-47e3-a7b9-5a435eaab2ee
 PLATFORM_VERSION = 0.1
 PLATFORM_RELATIVE_DIR = XiaomiMI6Pkg
-PLATFORM_DIR = /home/evsio0n/src/edk2sdm/Sdm835/XiaomiMI6Pkg
+PLATFORM_DIR = /mnt/d/TARGET/edk2sdm/Sdm835/XiaomiMI6Pkg
 PLATFORM_OUTPUT_DIR = Build/XiaomiMI6Pkg
 
 #
@@ -35,8 +35,8 @@ MODULE_FILE_BASE_NAME = BaseMemoryLibOptDxe
 BASE_NAME = $(MODULE_NAME)
 MODULE_RELATIVE_DIR = MdePkg/Library/BaseMemoryLibOptDxe
 PACKAGE_RELATIVE_DIR = Library/BaseMemoryLibOptDxe
-MODULE_DIR = /home/evsio0n/src/edk2sdm/edk2/MdePkg/Library/BaseMemoryLibOptDxe
-FFS_OUTPUT_DIR = /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/FV/Ffs/02BD55C2-AB1D-4b75-B0FD-9A63AE09B31DBaseMemoryLibOptDxe
+MODULE_DIR = /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Library/BaseMemoryLibOptDxe
+FFS_OUTPUT_DIR = /mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/FV/Ffs/02BD55C2-AB1D-4b75-B0FD-9A63AE09B31DBaseMemoryLibOptDxe
 
 MODULE_ENTRY_POINT = _ModuleEntryPoint
 ARCH_ENTRY_POINT = _ModuleEntryPoint
@@ -60,13 +60,13 @@ TARGET = DEBUG
 #
 # Build Directory Macro Definition
 #
-# PLATFORM_BUILD_DIR = /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5
-BUILD_DIR = /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5
+# PLATFORM_BUILD_DIR = /mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5
+BUILD_DIR = /mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5
 BIN_DIR = $(BUILD_DIR)/AARCH64
 LIB_DIR = $(BIN_DIR)
-MODULE_BUILD_DIR = /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe
-OUTPUT_DIR = /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT
-DEBUG_DIR = /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/DEBUG
+MODULE_BUILD_DIR = /mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe
+OUTPUT_DIR = /mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT
+DEBUG_DIR = /mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/DEBUG
 DEST_DIR_OUTPUT = $(OUTPUT_DIR)
 DEST_DIR_DEBUG = $(DEBUG_DIR)
 
@@ -170,7 +170,7 @@ PP_FLAGS = $(ARCHCC_FLAGS) $(PLATFORM_FLAGS) -E -x assembler-with-cpp -include $
 VFRPP = aarch64-linux-gnu-gcc
 VFRPP_FLAGS = $(ARCHCC_FLAGS) $(PLATFORM_FLAGS) -x c -E -P -DVFRCOMPILE --include $(DEST_DIR_DEBUG)/$(MODULE_NAME)StrDefs.h
 
-DLINK_FLAGS = -Wl,--emit-relocs -nostdlib -Wl,--gc-sections -u $(IMAGE_ENTRY_POINT) -Wl,-e,$(IMAGE_ENTRY_POINT),-Map,$(DEST_DIR_DEBUG)/$(BASE_NAME).map -z common-page-size=0x20 -z common-page-size=0x1000 -flto -Os -L/home/evsio0n/src/edk2sdm/edk2/ArmPkg/Library/GccLto -llto-aarch64 -Wl,-plugin-opt=-pass-through=-llto-aarch64 -Wno-lto-type-mismatch
+DLINK_FLAGS = -Wl,--emit-relocs -nostdlib -Wl,--gc-sections -u $(IMAGE_ENTRY_POINT) -Wl,-e,$(IMAGE_ENTRY_POINT),-Map,$(DEST_DIR_DEBUG)/$(BASE_NAME).map -z common-page-size=0x20 -z common-page-size=0x1000 -flto -Os -L/mnt/d/TARGET/edk2sdm/edk2/ArmPkg/Library/GccLto -llto-aarch64 -Wl,-plugin-opt=-pass-through=-llto-aarch64 -Wno-lto-type-mismatch
 DLINK_XIPFLAGS =  -z common-page-size=0x20
 DLINK = aarch64-linux-gnu-gcc
 
@@ -221,24 +221,24 @@ OBJECT_FILES =  \
     $(OUTPUT_DIR)/IsZeroBufferWrapper.obj
 
 INC =  \
-    -I/home/evsio0n/src/edk2sdm/edk2/MdePkg/Library/BaseMemoryLibOptDxe/Arm \
-    -I/home/evsio0n/src/edk2sdm/edk2/MdePkg/Library/BaseMemoryLibOptDxe/AArch64 \
-    -I/home/evsio0n/src/edk2sdm/edk2/MdePkg/Library/BaseMemoryLibOptDxe \
+    -I/mnt/d/TARGET/edk2sdm/edk2/MdePkg/Library/BaseMemoryLibOptDxe/Arm \
+    -I/mnt/d/TARGET/edk2sdm/edk2/MdePkg/Library/BaseMemoryLibOptDxe/AArch64 \
+    -I/mnt/d/TARGET/edk2sdm/edk2/MdePkg/Library/BaseMemoryLibOptDxe \
     -I$(DEBUG_DIR) \
-    -I/home/evsio0n/src/edk2sdm/edk2/MdePkg \
-    -I/home/evsio0n/src/edk2sdm/edk2/MdePkg/Include \
-    -I/home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/AArch64
+    -I/mnt/d/TARGET/edk2sdm/edk2/MdePkg \
+    -I/mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include \
+    -I/mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/AArch64
 
-OBJECT_FILES_LIST = /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/object_files.lst
+OBJECT_FILES_LIST = /mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/object_files.lst
 
 
-COMMON_DEPS = /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Library/BaseMemoryLib.h \
-              /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/AArch64/ProcessorBind.h \
+COMMON_DEPS = /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/AArch64/ProcessorBind.h \
+              /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Library/BaseMemoryLibOptDxe/MemLibInternals.h \
+              /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Base.h \
               $(DEBUG_DIR)/AutoGen.h \
-              /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Library/DebugLib.h \
-              /home/evsio0n/src/edk2sdm/edk2/MdePkg/Library/BaseMemoryLibOptDxe/MemLibInternals.h \
-              /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Base.h \
-              /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Library/BaseLib.h \
+              /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Library/DebugLib.h \
+              /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Library/BaseLib.h \
+              /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Library/BaseMemoryLib.h \
               
 
 #
@@ -248,7 +248,7 @@ FORCE_REBUILD = force_build
 INIT_TARGET = init
 PCH_TARGET =
 BC_TARGET = 
-CODA_TARGET = /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib \
+CODA_TARGET = /mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib \
               
 
 #
@@ -321,124 +321,124 @@ gen_fds:
 # Individual Object Build Targets
 #
 $(OUTPUT_DIR)/AArch64/CopyMem.obj : $(MAKE_FILE)
-$(OUTPUT_DIR)/AArch64/CopyMem.obj : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Base.h
-$(OUTPUT_DIR)/AArch64/CopyMem.obj : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/AArch64/ProcessorBind.h
+$(OUTPUT_DIR)/AArch64/CopyMem.obj : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/AArch64/ProcessorBind.h
+$(OUTPUT_DIR)/AArch64/CopyMem.obj : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Base.h
 $(OUTPUT_DIR)/AArch64/CopyMem.obj : $(DEBUG_DIR)/AutoGen.h
-$(OUTPUT_DIR)/AArch64/CopyMem.obj : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Library/BaseMemoryLibOptDxe/AArch64/CopyMem.S
-	"$(PP)" $(PP_FLAGS) $(INC) /home/evsio0n/src/edk2sdm/edk2/MdePkg/Library/BaseMemoryLibOptDxe/AArch64/CopyMem.S > /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/AArch64/CopyMem.i
-	Trim --trim-long --source-code -o /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/AArch64/CopyMem.iii /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/AArch64/CopyMem.i
-	"$(ASM)" $(ASM_FLAGS) -o /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/AArch64/CopyMem.obj $(INC) /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/AArch64/CopyMem.iii
-
-$(OUTPUT_DIR)/AArch64/CompareMem.obj : $(MAKE_FILE)
-$(OUTPUT_DIR)/AArch64/CompareMem.obj : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Base.h
-$(OUTPUT_DIR)/AArch64/CompareMem.obj : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/AArch64/ProcessorBind.h
-$(OUTPUT_DIR)/AArch64/CompareMem.obj : $(DEBUG_DIR)/AutoGen.h
-$(OUTPUT_DIR)/AArch64/CompareMem.obj : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Library/BaseMemoryLibOptDxe/AArch64/CompareMem.S
-	"$(PP)" $(PP_FLAGS) $(INC) /home/evsio0n/src/edk2sdm/edk2/MdePkg/Library/BaseMemoryLibOptDxe/AArch64/CompareMem.S > /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/AArch64/CompareMem.i
-	Trim --trim-long --source-code -o /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/AArch64/CompareMem.iii /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/AArch64/CompareMem.i
-	"$(ASM)" $(ASM_FLAGS) -o /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/AArch64/CompareMem.obj $(INC) /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/AArch64/CompareMem.iii
-
-$(OUTPUT_DIR)/AArch64/SetMem.obj : $(MAKE_FILE)
-$(OUTPUT_DIR)/AArch64/SetMem.obj : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Base.h
-$(OUTPUT_DIR)/AArch64/SetMem.obj : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/AArch64/ProcessorBind.h
-$(OUTPUT_DIR)/AArch64/SetMem.obj : $(DEBUG_DIR)/AutoGen.h
-$(OUTPUT_DIR)/AArch64/SetMem.obj : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Library/BaseMemoryLibOptDxe/AArch64/SetMem.S
-	"$(PP)" $(PP_FLAGS) $(INC) /home/evsio0n/src/edk2sdm/edk2/MdePkg/Library/BaseMemoryLibOptDxe/AArch64/SetMem.S > /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/AArch64/SetMem.i
-	Trim --trim-long --source-code -o /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/AArch64/SetMem.iii /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/AArch64/SetMem.i
-	"$(ASM)" $(ASM_FLAGS) -o /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/AArch64/SetMem.obj $(INC) /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/AArch64/SetMem.iii
-
-$(OUTPUT_DIR)/AArch64/ScanMem.obj : $(MAKE_FILE)
-$(OUTPUT_DIR)/AArch64/ScanMem.obj : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Base.h
-$(OUTPUT_DIR)/AArch64/ScanMem.obj : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/AArch64/ProcessorBind.h
-$(OUTPUT_DIR)/AArch64/ScanMem.obj : $(DEBUG_DIR)/AutoGen.h
-$(OUTPUT_DIR)/AArch64/ScanMem.obj : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Library/BaseMemoryLibOptDxe/AArch64/ScanMem.S
-	"$(PP)" $(PP_FLAGS) $(INC) /home/evsio0n/src/edk2sdm/edk2/MdePkg/Library/BaseMemoryLibOptDxe/AArch64/ScanMem.S > /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/AArch64/ScanMem.i
-	Trim --trim-long --source-code -o /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/AArch64/ScanMem.iii /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/AArch64/ScanMem.i
-	"$(ASM)" $(ASM_FLAGS) -o /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/AArch64/ScanMem.obj $(INC) /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/AArch64/ScanMem.iii
+$(OUTPUT_DIR)/AArch64/CopyMem.obj : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Library/BaseMemoryLibOptDxe/AArch64/CopyMem.S
+	"$(PP)" $(PP_FLAGS) $(INC) /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Library/BaseMemoryLibOptDxe/AArch64/CopyMem.S > /mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/AArch64/CopyMem.i
+	Trim --trim-long --source-code -o /mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/AArch64/CopyMem.iii /mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/AArch64/CopyMem.i
+	"$(ASM)" $(ASM_FLAGS) -o /mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/AArch64/CopyMem.obj $(INC) /mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/AArch64/CopyMem.iii
 
 $(OUTPUT_DIR)/AArch64/CompareGuid.obj : $(MAKE_FILE)
-$(OUTPUT_DIR)/AArch64/CompareGuid.obj : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/Base.h
-$(OUTPUT_DIR)/AArch64/CompareGuid.obj : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Include/AArch64/ProcessorBind.h
+$(OUTPUT_DIR)/AArch64/CompareGuid.obj : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/AArch64/ProcessorBind.h
+$(OUTPUT_DIR)/AArch64/CompareGuid.obj : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Base.h
 $(OUTPUT_DIR)/AArch64/CompareGuid.obj : $(DEBUG_DIR)/AutoGen.h
-$(OUTPUT_DIR)/AArch64/CompareGuid.obj : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Library/BaseMemoryLibOptDxe/AArch64/CompareGuid.S
-	"$(PP)" $(PP_FLAGS) $(INC) /home/evsio0n/src/edk2sdm/edk2/MdePkg/Library/BaseMemoryLibOptDxe/AArch64/CompareGuid.S > /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/AArch64/CompareGuid.i
-	Trim --trim-long --source-code -o /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/AArch64/CompareGuid.iii /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/AArch64/CompareGuid.i
-	"$(ASM)" $(ASM_FLAGS) -o /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/AArch64/CompareGuid.obj $(INC) /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/AArch64/CompareGuid.iii
+$(OUTPUT_DIR)/AArch64/CompareGuid.obj : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Library/BaseMemoryLibOptDxe/AArch64/CompareGuid.S
+	"$(PP)" $(PP_FLAGS) $(INC) /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Library/BaseMemoryLibOptDxe/AArch64/CompareGuid.S > /mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/AArch64/CompareGuid.i
+	Trim --trim-long --source-code -o /mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/AArch64/CompareGuid.iii /mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/AArch64/CompareGuid.i
+	"$(ASM)" $(ASM_FLAGS) -o /mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/AArch64/CompareGuid.obj $(INC) /mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/AArch64/CompareGuid.iii
+
+$(OUTPUT_DIR)/AArch64/SetMem.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/AArch64/SetMem.obj : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/AArch64/ProcessorBind.h
+$(OUTPUT_DIR)/AArch64/SetMem.obj : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Base.h
+$(OUTPUT_DIR)/AArch64/SetMem.obj : $(DEBUG_DIR)/AutoGen.h
+$(OUTPUT_DIR)/AArch64/SetMem.obj : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Library/BaseMemoryLibOptDxe/AArch64/SetMem.S
+	"$(PP)" $(PP_FLAGS) $(INC) /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Library/BaseMemoryLibOptDxe/AArch64/SetMem.S > /mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/AArch64/SetMem.i
+	Trim --trim-long --source-code -o /mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/AArch64/SetMem.iii /mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/AArch64/SetMem.i
+	"$(ASM)" $(ASM_FLAGS) -o /mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/AArch64/SetMem.obj $(INC) /mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/AArch64/SetMem.iii
+
+$(OUTPUT_DIR)/AArch64/ScanMem.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/AArch64/ScanMem.obj : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/AArch64/ProcessorBind.h
+$(OUTPUT_DIR)/AArch64/ScanMem.obj : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Base.h
+$(OUTPUT_DIR)/AArch64/ScanMem.obj : $(DEBUG_DIR)/AutoGen.h
+$(OUTPUT_DIR)/AArch64/ScanMem.obj : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Library/BaseMemoryLibOptDxe/AArch64/ScanMem.S
+	"$(PP)" $(PP_FLAGS) $(INC) /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Library/BaseMemoryLibOptDxe/AArch64/ScanMem.S > /mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/AArch64/ScanMem.i
+	Trim --trim-long --source-code -o /mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/AArch64/ScanMem.iii /mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/AArch64/ScanMem.i
+	"$(ASM)" $(ASM_FLAGS) -o /mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/AArch64/ScanMem.obj $(INC) /mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/AArch64/ScanMem.iii
+
+$(OUTPUT_DIR)/AArch64/CompareMem.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/AArch64/CompareMem.obj : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/AArch64/ProcessorBind.h
+$(OUTPUT_DIR)/AArch64/CompareMem.obj : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Include/Base.h
+$(OUTPUT_DIR)/AArch64/CompareMem.obj : $(DEBUG_DIR)/AutoGen.h
+$(OUTPUT_DIR)/AArch64/CompareMem.obj : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Library/BaseMemoryLibOptDxe/AArch64/CompareMem.S
+	"$(PP)" $(PP_FLAGS) $(INC) /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Library/BaseMemoryLibOptDxe/AArch64/CompareMem.S > /mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/AArch64/CompareMem.i
+	Trim --trim-long --source-code -o /mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/AArch64/CompareMem.iii /mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/AArch64/CompareMem.i
+	"$(ASM)" $(ASM_FLAGS) -o /mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/AArch64/CompareMem.obj $(INC) /mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/AArch64/CompareMem.iii
 
 $(OUTPUT_DIR)/BaseMemoryLibOptDxe.lib : $(OBJECT_FILES)
 $(OUTPUT_DIR)/BaseMemoryLibOptDxe.lib : $(OBJECT_FILES_LIST)
-	$(RM) /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib
-	"$(SLINK)" cr /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib $(SLINK_FLAGS) @$(OBJECT_FILES_LIST)
-
-$(OUTPUT_DIR)/ScanMem64Wrapper.obj : $(MAKE_FILE)
-$(OUTPUT_DIR)/ScanMem64Wrapper.obj : $(COMMON_DEPS)
-$(OUTPUT_DIR)/ScanMem64Wrapper.obj : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Library/BaseMemoryLibOptDxe/ScanMem64Wrapper.c
-	"$(CC)" $(CC_FLAGS) $(CC_XIPFLAGS) -c -o /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/./ScanMem64Wrapper.obj $(INC) /home/evsio0n/src/edk2sdm/edk2/MdePkg/Library/BaseMemoryLibOptDxe/ScanMem64Wrapper.c
-
-$(OUTPUT_DIR)/Arm/ScanMemGeneric.obj : $(MAKE_FILE)
-$(OUTPUT_DIR)/Arm/ScanMemGeneric.obj : $(COMMON_DEPS)
-$(OUTPUT_DIR)/Arm/ScanMemGeneric.obj : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Library/BaseMemoryLibOptDxe/Arm/ScanMemGeneric.c
-	"$(CC)" $(CC_FLAGS) $(CC_XIPFLAGS) -c -o /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/Arm/ScanMemGeneric.obj $(INC) /home/evsio0n/src/edk2sdm/edk2/MdePkg/Library/BaseMemoryLibOptDxe/Arm/ScanMemGeneric.c
-
-$(OUTPUT_DIR)/ZeroMemWrapper.obj : $(MAKE_FILE)
-$(OUTPUT_DIR)/ZeroMemWrapper.obj : $(COMMON_DEPS)
-$(OUTPUT_DIR)/ZeroMemWrapper.obj : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Library/BaseMemoryLibOptDxe/ZeroMemWrapper.c
-	"$(CC)" $(CC_FLAGS) $(CC_XIPFLAGS) -c -o /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/./ZeroMemWrapper.obj $(INC) /home/evsio0n/src/edk2sdm/edk2/MdePkg/Library/BaseMemoryLibOptDxe/ZeroMemWrapper.c
-
-$(OUTPUT_DIR)/ScanMem16Wrapper.obj : $(MAKE_FILE)
-$(OUTPUT_DIR)/ScanMem16Wrapper.obj : $(COMMON_DEPS)
-$(OUTPUT_DIR)/ScanMem16Wrapper.obj : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Library/BaseMemoryLibOptDxe/ScanMem16Wrapper.c
-	"$(CC)" $(CC_FLAGS) $(CC_XIPFLAGS) -c -o /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/./ScanMem16Wrapper.obj $(INC) /home/evsio0n/src/edk2sdm/edk2/MdePkg/Library/BaseMemoryLibOptDxe/ScanMem16Wrapper.c
-
-$(OUTPUT_DIR)/ScanMem32Wrapper.obj : $(MAKE_FILE)
-$(OUTPUT_DIR)/ScanMem32Wrapper.obj : $(COMMON_DEPS)
-$(OUTPUT_DIR)/ScanMem32Wrapper.obj : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Library/BaseMemoryLibOptDxe/ScanMem32Wrapper.c
-	"$(CC)" $(CC_FLAGS) $(CC_XIPFLAGS) -c -o /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/./ScanMem32Wrapper.obj $(INC) /home/evsio0n/src/edk2sdm/edk2/MdePkg/Library/BaseMemoryLibOptDxe/ScanMem32Wrapper.c
-
-$(OUTPUT_DIR)/CopyMemWrapper.obj : $(MAKE_FILE)
-$(OUTPUT_DIR)/CopyMemWrapper.obj : $(COMMON_DEPS)
-$(OUTPUT_DIR)/CopyMemWrapper.obj : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Library/BaseMemoryLibOptDxe/CopyMemWrapper.c
-	"$(CC)" $(CC_FLAGS) $(CC_XIPFLAGS) -c -o /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/./CopyMemWrapper.obj $(INC) /home/evsio0n/src/edk2sdm/edk2/MdePkg/Library/BaseMemoryLibOptDxe/CopyMemWrapper.c
-
-$(OUTPUT_DIR)/ScanMem8Wrapper.obj : $(MAKE_FILE)
-$(OUTPUT_DIR)/ScanMem8Wrapper.obj : $(COMMON_DEPS)
-$(OUTPUT_DIR)/ScanMem8Wrapper.obj : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Library/BaseMemoryLibOptDxe/ScanMem8Wrapper.c
-	"$(CC)" $(CC_FLAGS) $(CC_XIPFLAGS) -c -o /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/./ScanMem8Wrapper.obj $(INC) /home/evsio0n/src/edk2sdm/edk2/MdePkg/Library/BaseMemoryLibOptDxe/ScanMem8Wrapper.c
-
-$(OUTPUT_DIR)/Arm/MemLibGuid.obj : $(MAKE_FILE)
-$(OUTPUT_DIR)/Arm/MemLibGuid.obj : $(COMMON_DEPS)
-$(OUTPUT_DIR)/Arm/MemLibGuid.obj : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Library/BaseMemoryLibOptDxe/Arm/MemLibGuid.c
-	"$(CC)" $(CC_FLAGS) $(CC_XIPFLAGS) -c -o /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/Arm/MemLibGuid.obj $(INC) /home/evsio0n/src/edk2sdm/edk2/MdePkg/Library/BaseMemoryLibOptDxe/Arm/MemLibGuid.c
-
-$(OUTPUT_DIR)/SetMem16Wrapper.obj : $(MAKE_FILE)
-$(OUTPUT_DIR)/SetMem16Wrapper.obj : $(COMMON_DEPS)
-$(OUTPUT_DIR)/SetMem16Wrapper.obj : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Library/BaseMemoryLibOptDxe/SetMem16Wrapper.c
-	"$(CC)" $(CC_FLAGS) $(CC_XIPFLAGS) -c -o /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/./SetMem16Wrapper.obj $(INC) /home/evsio0n/src/edk2sdm/edk2/MdePkg/Library/BaseMemoryLibOptDxe/SetMem16Wrapper.c
+	$(RM) /mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib
+	"$(SLINK)" cr /mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib $(SLINK_FLAGS) @$(OBJECT_FILES_LIST)
 
 $(OUTPUT_DIR)/IsZeroBufferWrapper.obj : $(MAKE_FILE)
 $(OUTPUT_DIR)/IsZeroBufferWrapper.obj : $(COMMON_DEPS)
-$(OUTPUT_DIR)/IsZeroBufferWrapper.obj : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Library/BaseMemoryLibOptDxe/IsZeroBufferWrapper.c
-	"$(CC)" $(CC_FLAGS) $(CC_XIPFLAGS) -c -o /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/./IsZeroBufferWrapper.obj $(INC) /home/evsio0n/src/edk2sdm/edk2/MdePkg/Library/BaseMemoryLibOptDxe/IsZeroBufferWrapper.c
+$(OUTPUT_DIR)/IsZeroBufferWrapper.obj : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Library/BaseMemoryLibOptDxe/IsZeroBufferWrapper.c
+	"$(CC)" $(CC_FLAGS) $(CC_XIPFLAGS) -c -o /mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/./IsZeroBufferWrapper.obj $(INC) /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Library/BaseMemoryLibOptDxe/IsZeroBufferWrapper.c
+
+$(OUTPUT_DIR)/Arm/ScanMemGeneric.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/Arm/ScanMemGeneric.obj : $(COMMON_DEPS)
+$(OUTPUT_DIR)/Arm/ScanMemGeneric.obj : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Library/BaseMemoryLibOptDxe/Arm/ScanMemGeneric.c
+	"$(CC)" $(CC_FLAGS) $(CC_XIPFLAGS) -c -o /mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/Arm/ScanMemGeneric.obj $(INC) /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Library/BaseMemoryLibOptDxe/Arm/ScanMemGeneric.c
 
 $(OUTPUT_DIR)/CompareMemWrapper.obj : $(MAKE_FILE)
 $(OUTPUT_DIR)/CompareMemWrapper.obj : $(COMMON_DEPS)
-$(OUTPUT_DIR)/CompareMemWrapper.obj : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Library/BaseMemoryLibOptDxe/CompareMemWrapper.c
-	"$(CC)" $(CC_FLAGS) $(CC_XIPFLAGS) -c -o /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/./CompareMemWrapper.obj $(INC) /home/evsio0n/src/edk2sdm/edk2/MdePkg/Library/BaseMemoryLibOptDxe/CompareMemWrapper.c
+$(OUTPUT_DIR)/CompareMemWrapper.obj : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Library/BaseMemoryLibOptDxe/CompareMemWrapper.c
+	"$(CC)" $(CC_FLAGS) $(CC_XIPFLAGS) -c -o /mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/./CompareMemWrapper.obj $(INC) /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Library/BaseMemoryLibOptDxe/CompareMemWrapper.c
+
+$(OUTPUT_DIR)/ZeroMemWrapper.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/ZeroMemWrapper.obj : $(COMMON_DEPS)
+$(OUTPUT_DIR)/ZeroMemWrapper.obj : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Library/BaseMemoryLibOptDxe/ZeroMemWrapper.c
+	"$(CC)" $(CC_FLAGS) $(CC_XIPFLAGS) -c -o /mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/./ZeroMemWrapper.obj $(INC) /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Library/BaseMemoryLibOptDxe/ZeroMemWrapper.c
+
+$(OUTPUT_DIR)/ScanMem32Wrapper.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/ScanMem32Wrapper.obj : $(COMMON_DEPS)
+$(OUTPUT_DIR)/ScanMem32Wrapper.obj : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Library/BaseMemoryLibOptDxe/ScanMem32Wrapper.c
+	"$(CC)" $(CC_FLAGS) $(CC_XIPFLAGS) -c -o /mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/./ScanMem32Wrapper.obj $(INC) /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Library/BaseMemoryLibOptDxe/ScanMem32Wrapper.c
+
+$(OUTPUT_DIR)/ScanMem64Wrapper.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/ScanMem64Wrapper.obj : $(COMMON_DEPS)
+$(OUTPUT_DIR)/ScanMem64Wrapper.obj : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Library/BaseMemoryLibOptDxe/ScanMem64Wrapper.c
+	"$(CC)" $(CC_FLAGS) $(CC_XIPFLAGS) -c -o /mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/./ScanMem64Wrapper.obj $(INC) /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Library/BaseMemoryLibOptDxe/ScanMem64Wrapper.c
+
+$(OUTPUT_DIR)/ScanMem16Wrapper.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/ScanMem16Wrapper.obj : $(COMMON_DEPS)
+$(OUTPUT_DIR)/ScanMem16Wrapper.obj : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Library/BaseMemoryLibOptDxe/ScanMem16Wrapper.c
+	"$(CC)" $(CC_FLAGS) $(CC_XIPFLAGS) -c -o /mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/./ScanMem16Wrapper.obj $(INC) /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Library/BaseMemoryLibOptDxe/ScanMem16Wrapper.c
 
 $(OUTPUT_DIR)/SetMem64Wrapper.obj : $(MAKE_FILE)
 $(OUTPUT_DIR)/SetMem64Wrapper.obj : $(COMMON_DEPS)
-$(OUTPUT_DIR)/SetMem64Wrapper.obj : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Library/BaseMemoryLibOptDxe/SetMem64Wrapper.c
-	"$(CC)" $(CC_FLAGS) $(CC_XIPFLAGS) -c -o /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/./SetMem64Wrapper.obj $(INC) /home/evsio0n/src/edk2sdm/edk2/MdePkg/Library/BaseMemoryLibOptDxe/SetMem64Wrapper.c
+$(OUTPUT_DIR)/SetMem64Wrapper.obj : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Library/BaseMemoryLibOptDxe/SetMem64Wrapper.c
+	"$(CC)" $(CC_FLAGS) $(CC_XIPFLAGS) -c -o /mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/./SetMem64Wrapper.obj $(INC) /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Library/BaseMemoryLibOptDxe/SetMem64Wrapper.c
+
+$(OUTPUT_DIR)/CopyMemWrapper.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/CopyMemWrapper.obj : $(COMMON_DEPS)
+$(OUTPUT_DIR)/CopyMemWrapper.obj : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Library/BaseMemoryLibOptDxe/CopyMemWrapper.c
+	"$(CC)" $(CC_FLAGS) $(CC_XIPFLAGS) -c -o /mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/./CopyMemWrapper.obj $(INC) /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Library/BaseMemoryLibOptDxe/CopyMemWrapper.c
+
+$(OUTPUT_DIR)/Arm/MemLibGuid.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/Arm/MemLibGuid.obj : $(COMMON_DEPS)
+$(OUTPUT_DIR)/Arm/MemLibGuid.obj : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Library/BaseMemoryLibOptDxe/Arm/MemLibGuid.c
+	"$(CC)" $(CC_FLAGS) $(CC_XIPFLAGS) -c -o /mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/Arm/MemLibGuid.obj $(INC) /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Library/BaseMemoryLibOptDxe/Arm/MemLibGuid.c
+
+$(OUTPUT_DIR)/SetMem16Wrapper.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/SetMem16Wrapper.obj : $(COMMON_DEPS)
+$(OUTPUT_DIR)/SetMem16Wrapper.obj : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Library/BaseMemoryLibOptDxe/SetMem16Wrapper.c
+	"$(CC)" $(CC_FLAGS) $(CC_XIPFLAGS) -c -o /mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/./SetMem16Wrapper.obj $(INC) /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Library/BaseMemoryLibOptDxe/SetMem16Wrapper.c
+
+$(OUTPUT_DIR)/ScanMem8Wrapper.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/ScanMem8Wrapper.obj : $(COMMON_DEPS)
+$(OUTPUT_DIR)/ScanMem8Wrapper.obj : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Library/BaseMemoryLibOptDxe/ScanMem8Wrapper.c
+	"$(CC)" $(CC_FLAGS) $(CC_XIPFLAGS) -c -o /mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/./ScanMem8Wrapper.obj $(INC) /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Library/BaseMemoryLibOptDxe/ScanMem8Wrapper.c
 
 $(OUTPUT_DIR)/SetMem32Wrapper.obj : $(MAKE_FILE)
 $(OUTPUT_DIR)/SetMem32Wrapper.obj : $(COMMON_DEPS)
-$(OUTPUT_DIR)/SetMem32Wrapper.obj : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Library/BaseMemoryLibOptDxe/SetMem32Wrapper.c
-	"$(CC)" $(CC_FLAGS) $(CC_XIPFLAGS) -c -o /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/./SetMem32Wrapper.obj $(INC) /home/evsio0n/src/edk2sdm/edk2/MdePkg/Library/BaseMemoryLibOptDxe/SetMem32Wrapper.c
+$(OUTPUT_DIR)/SetMem32Wrapper.obj : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Library/BaseMemoryLibOptDxe/SetMem32Wrapper.c
+	"$(CC)" $(CC_FLAGS) $(CC_XIPFLAGS) -c -o /mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/./SetMem32Wrapper.obj $(INC) /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Library/BaseMemoryLibOptDxe/SetMem32Wrapper.c
 
 $(OUTPUT_DIR)/SetMemWrapper.obj : $(MAKE_FILE)
 $(OUTPUT_DIR)/SetMemWrapper.obj : $(COMMON_DEPS)
-$(OUTPUT_DIR)/SetMemWrapper.obj : /home/evsio0n/src/edk2sdm/edk2/MdePkg/Library/BaseMemoryLibOptDxe/SetMemWrapper.c
-	"$(CC)" $(CC_FLAGS) $(CC_XIPFLAGS) -c -o /home/evsio0n/src/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/./SetMemWrapper.obj $(INC) /home/evsio0n/src/edk2sdm/edk2/MdePkg/Library/BaseMemoryLibOptDxe/SetMemWrapper.c
+$(OUTPUT_DIR)/SetMemWrapper.obj : /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Library/BaseMemoryLibOptDxe/SetMemWrapper.c
+	"$(CC)" $(CC_FLAGS) $(CC_XIPFLAGS) -c -o /mnt/d/TARGET/edk2sdm/workspace/Build/XiaomiMI6Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/./SetMemWrapper.obj $(INC) /mnt/d/TARGET/edk2sdm/edk2/MdePkg/Library/BaseMemoryLibOptDxe/SetMemWrapper.c
 
 
 
