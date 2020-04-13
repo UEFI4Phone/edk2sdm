@@ -37,7 +37,7 @@
   ArmPlatformPkg/ArmPlatformPkg.dec
   MdeModulePkg/MdeModulePkg.dec
   MdePkg/MdePkg.dec
-  XiaomiMI6Pkg/XiaomiMI6Pkg.dec
+  SamsungS8Pkg/SamsungS8Pkg.dec
 
 [LibraryClasses]
   ArmLib

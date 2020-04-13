@@ -31,7 +31,7 @@ echo "[Evsio0n]		Now make zImages..."
 #cat uefi.img devicetree.dtb >> ./tools/split_img/boot.img-zImage
 #bash ./tools/repackimg.sh
 echo "[Evsio0n]		Build done..........."
-sudo rm -rf $PWD/workspace/*
+#sudo rm -rf $PWD/workspace/*
 echo "[Evsio0n]		Make Boot.img done..."
 echo "[Evsio0n]		You can see it at ./tools/images-new.img"
 echo "[Evsio0n]		./clean.sh can clean build boot.img"

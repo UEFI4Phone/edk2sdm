@@ -34,7 +34,7 @@
 #include <Protocol/LoadedImage.h>
 #include <Protocol/PlatformBootManager.h>
 
-#include "XiaomiMI6Dxe.h"
+#include "SamsungS8Dxe.h"
 
 EFI_CPU_ARCH_PROTOCOL     *gCpu;
 
@@ -81,7 +81,7 @@ OnEndOfDxe (
 
 EFI_STATUS
 EFIAPI
-XiaomiMI6EntryPoint (
+SamsungS8EntryPoint (
   IN EFI_HANDLE         ImageHandle,
   IN EFI_SYSTEM_TABLE   *SystemTable
   )

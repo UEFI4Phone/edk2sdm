@@ -24,7 +24,7 @@
 #
 ################################################################################
 
-[FD.XiaomiMI6Pkg_UEFI]
+[FD.SamsungS8Pkg_UEFI]
 BaseAddress   = 0xd0000000|gArmTokenSpaceGuid.PcdFdBaseAddress  # The base address of the Firmware in NOR Flash.
 Size          = 0x00200000|gArmTokenSpaceGuid.PcdFdSize         # The size in bytes of the FLASH Device
 ErasePolarity = 1
@@ -116,51 +116,51 @@ READ_LOCK_STATUS   = TRUE
     INF MdeModulePkg/Universal/WatchdogTimerDxe/WatchdogTimer.inf
 
     FILE DRIVER = f541d663-4a48-40aa-aabf-ff158ccae34c {
-      SECTION DXE_DEPEX = XiaomiMI6Pkg/Binary/SmemDxe/SmemDxe.depex
-      SECTION PE32 = XiaomiMI6Pkg/Binary/SmemDxe/SmemDxe.efi
+      SECTION DXE_DEPEX = SamsungS8Pkg/Binary/SmemDxe/SmemDxe.depex
+      SECTION PE32 = SamsungS8Pkg/Binary/SmemDxe/SmemDxe.efi
       SECTION UI = "SmemDxe"
     }
 
     FILE DRIVER = 8e9bd160-b184-11df-94e2-0800200c9a66 {
-      SECTION DXE_DEPEX = XiaomiMI6Pkg/Binary/DALSys/DALSys.depex
-      SECTION PE32 = XiaomiMI6Pkg/Binary/DALSys/DALSys.efi
+      SECTION DXE_DEPEX = SamsungS8Pkg/Binary/DALSys/DALSys.depex
+      SECTION PE32 = SamsungS8Pkg/Binary/DALSys/DALSys.efi
       SECTION UI = "DALSys"
     }
 
     FILE DRIVER = af9763a2-033b-4109-8e17-56a98d380c92 {
-      SECTION DXE_DEPEX = XiaomiMI6Pkg/Binary/HWIODxeDriver/HWIODxeDriver.depex
-      SECTION PE32 = XiaomiMI6Pkg/Binary/HWIODxeDriver/HWIODxeDriver.efi
+      SECTION DXE_DEPEX = SamsungS8Pkg/Binary/HWIODxeDriver/HWIODxeDriver.depex
+      SECTION PE32 = SamsungS8Pkg/Binary/HWIODxeDriver/HWIODxeDriver.efi
       SECTION UI = "HWIODxeDriver"
     }
 
     FILE DRIVER = 10e193df-9966-44e7-b17c-59dd831e20fc {
-      SECTION DXE_DEPEX = XiaomiMI6Pkg/Binary/ChipInfo/ChipInfo.depex
-      SECTION PE32 = XiaomiMI6Pkg/Binary/ChipInfo/ChipInfo.efi
+      SECTION DXE_DEPEX = SamsungS8Pkg/Binary/ChipInfo/ChipInfo.depex
+      SECTION PE32 = SamsungS8Pkg/Binary/ChipInfo/ChipInfo.efi
       SECTION UI = "ChipInfo"
     }
 
     FILE DRIVER = b105211b-bbbd-4add-a3b0-d1cf4a52154c {
-      SECTION DXE_DEPEX = XiaomiMI6Pkg/Binary/PlatformInfoDxeDriver/PlatformInfoDxeDriver.depex
-      SECTION PE32 = XiaomiMI6Pkg/Binary/PlatformInfoDxeDriver/PlatformInfoDxeDriver.efi
+      SECTION DXE_DEPEX = SamsungS8Pkg/Binary/PlatformInfoDxeDriver/PlatformInfoDxeDriver.depex
+      SECTION PE32 = SamsungS8Pkg/Binary/PlatformInfoDxeDriver/PlatformInfoDxeDriver.efi
       SECTION UI = "PlatformInfoDxeDriver"
     }
 
     FILE DRIVER = 7942a7eb-b7d5-4e2e-b908-831e4de55b58 {
-      SECTION DXE_DEPEX = XiaomiMI6Pkg/Binary/GlinkDxe/GlinkDxe.depex
-      SECTION PE32 = XiaomiMI6Pkg/Binary/GlinkDxe/GlinkDxe.efi
+      SECTION DXE_DEPEX = SamsungS8Pkg/Binary/GlinkDxe/GlinkDxe.depex
+      SECTION PE32 = SamsungS8Pkg/Binary/GlinkDxe/GlinkDxe.efi
       SECTION UI = "GlinkDxe"
     }
 
     FILE DRIVER = e43128a8-8692-42b6-8afa-676158578d18 {
-      SECTION DXE_DEPEX = XiaomiMI6Pkg/Binary/ULogDxe/ULogDxe.depex
-      SECTION PE32 = XiaomiMI6Pkg/Binary/ULogDxe/ULogDxe.efi
+      SECTION DXE_DEPEX = SamsungS8Pkg/Binary/ULogDxe/ULogDxe.depex
+      SECTION PE32 = SamsungS8Pkg/Binary/ULogDxe/ULogDxe.efi
       SECTION UI = "ULogDxe"
     }
 
 
   #	FILE DRIVER = 2a7b4bef-80cd-49e1-b473-374ba4d673fc {
-  #  SECTION DXE_DEPEX = XiaomiMI6Pkg/Binary/SPMI/SPMI.depex
-  #  SECTION PE32 = XiaomiMI6Pkg/Binary/SPMI/SPMI.efi
+  #  SECTION DXE_DEPEX = SamsungS8Pkg/Binary/SPMI/SPMI.depex
+  #  SECTION PE32 = SamsungS8Pkg/Binary/SPMI/SPMI.efi
   #  SECTION UI = "SPMI"
   #}
   }
@@ -204,8 +204,8 @@ READ_LOCK_STATUS   = TRUE
   #
   INF EmbeddedPkg/Drivers/VirtualKeyboardDxe/VirtualKeyboardDxe.inf
 
-  INF XiaomiMI6Pkg/XiaomiMI6Dxe/XiaomiMI6Dxe.inf
-  INF XiaomiMI6Pkg/SimpleFbDxe/SimpleFbDxe.inf
+  INF SamsungS8Pkg/SamsungS8Dxe/SamsungS8Dxe.inf
+  INF SamsungS8Pkg/SimpleFbDxe/SimpleFbDxe.inf
 
 
   #
@@ -246,23 +246,23 @@ READ_LOCK_STATUS   = TRUE
   INF MdeModulePkg/Universal/Acpi/AcpiTableDxe/AcpiTableDxe.inf
   INF MdeModulePkg/Universal/Acpi/AcpiPlatformDxe/AcpiPlatformDxe.inf
   INF MdeModulePkg/Universal/Acpi/BootGraphicsResourceTableDxe/BootGraphicsResourceTableDxe.inf
-  INF RuleOverride = ACPITABLE XiaomiMI6Pkg/AcpiTables/AcpiTables.inf
+  INF RuleOverride = ACPITABLE SamsungS8Pkg/AcpiTables/AcpiTables.inf
  #   FILE FREEFORM = 7E374E25-8E01-4FEE-87F2-390C23C606CD {
-#	SECTION RAW = XiaomiMI6Pkg/AcpiTables/8998/DBG2.aml
-#	SECTION RAW = XiaomiMI6Pkg/AcpiTables/8998/DSDT.aml
-#	SECTION RAW = XiaomiMI6Pkg/AcpiTables/8998/FACS.aml
-#	SECTION RAW = XiaomiMI6Pkg/AcpiTables/8998/FADT.aml
-#	SECTION RAW = XiaomiMI6Pkg/AcpiTables/8998/GTDT.aml
-#	SECTION RAW = XiaomiMI6Pkg/AcpiTables/8998/MADT.aml
-#	SECTION RAW = XiaomiMI6Pkg/AcpiTables/8998/MCFG.aml
-#	SECTION RAW = XiaomiMI6Pkg/AcpiTables/8998/CSRT.aml
+#	SECTION RAW = SamsungS8Pkg/AcpiTables/8998/DBG2.aml
+#	SECTION RAW = SamsungS8Pkg/AcpiTables/8998/DSDT.aml
+#	SECTION RAW = SamsungS8Pkg/AcpiTables/8998/FACS.aml
+#	SECTION RAW = SamsungS8Pkg/AcpiTables/8998/FADT.aml
+#	SECTION RAW = SamsungS8Pkg/AcpiTables/8998/GTDT.aml
+#	SECTION RAW = SamsungS8Pkg/AcpiTables/8998/MADT.aml
+#	SECTION RAW = SamsungS8Pkg/AcpiTables/8998/MCFG.aml
+#	SECTION RAW = SamsungS8Pkg/AcpiTables/8998/CSRT.aml
 #	SECTION UI = "AcpiTables"
  # }
 
   #
   # SMBIOS Support
   #
-  INF XiaomiMI6Pkg/Drivers/SmbiosPlatformDxe/SmbiosPlatformDxe.inf
+  INF SamsungS8Pkg/Drivers/SmbiosPlatformDxe/SmbiosPlatformDxe.inf
   INF MdeModulePkg/Universal/SmbiosDxe/SmbiosDxe.inf
 
   #
@@ -283,105 +283,105 @@ READ_LOCK_STATUS   = TRUE
   INF MdeModulePkg/Universal/DriverHealthManagerDxe/DriverHealthManagerDxe.inf
   INF MdeModulePkg/Universal/BdsDxe/BdsDxe.inf
   INF MdeModulePkg/Application/UiApp/UiApp.inf
-  INF XiaomiMI6Pkg/Drivers/LogoDxe/LogoDxe.inf
+  INF SamsungS8Pkg/Drivers/LogoDxe/LogoDxe.inf
 
   #
   #Binary DXE drivers from Lenovo MSM8998
   #
 
   FILE DRIVER = f541d663-4a48-40aa-aabf-ff158ccae34c {
-    SECTION DXE_DEPEX = XiaomiMI6Pkg/Binary/SmemDxe/SmemDxe.depex
-    SECTION PE32 = XiaomiMI6Pkg/Binary/SmemDxe/SmemDxe.efi
+    SECTION DXE_DEPEX = SamsungS8Pkg/Binary/SmemDxe/SmemDxe.depex
+    SECTION PE32 = SamsungS8Pkg/Binary/SmemDxe/SmemDxe.efi
     SECTION UI = "SmemDxe"
   }
 
   FILE DRIVER = 8e9bd160-b184-11df-94e2-0800200c9a66 {
-    SECTION DXE_DEPEX = XiaomiMI6Pkg/Binary/DALSys/DALSys.depex
-    SECTION PE32 = XiaomiMI6Pkg/Binary/DALSys/DALSys.efi
+    SECTION DXE_DEPEX = SamsungS8Pkg/Binary/DALSys/DALSys.depex
+    SECTION PE32 = SamsungS8Pkg/Binary/DALSys/DALSys.efi
     SECTION UI = "DALSys"
   }
 
   FILE DRIVER = af9763a2-033b-4109-8e17-56a98d380c92 {
-    SECTION DXE_DEPEX = XiaomiMI6Pkg/Binary/HWIODxeDriver/HWIODxeDriver.depex
-    SECTION PE32 = XiaomiMI6Pkg/Binary/HWIODxeDriver/HWIODxeDriver.efi
+    SECTION DXE_DEPEX = SamsungS8Pkg/Binary/HWIODxeDriver/HWIODxeDriver.depex
+    SECTION PE32 = SamsungS8Pkg/Binary/HWIODxeDriver/HWIODxeDriver.efi
     SECTION UI = "HWIODxeDriver"
   }
 
   FILE DRIVER = 10e193df-9966-44e7-b17c-59dd831e20fc {
-    SECTION DXE_DEPEX = XiaomiMI6Pkg/Binary/ChipInfo/ChipInfo.depex
-    SECTION PE32 = XiaomiMI6Pkg/Binary/ChipInfo/ChipInfo.efi
+    SECTION DXE_DEPEX = SamsungS8Pkg/Binary/ChipInfo/ChipInfo.depex
+    SECTION PE32 = SamsungS8Pkg/Binary/ChipInfo/ChipInfo.efi
     SECTION UI = "ChipInfo"
   }
 
   FILE DRIVER = b105211b-bbbd-4add-a3b0-d1cf4a52154c {
-    SECTION DXE_DEPEX = XiaomiMI6Pkg/Binary/PlatformInfoDxeDriver/PlatformInfoDxeDriver.depex
-    SECTION PE32 = XiaomiMI6Pkg/Binary/PlatformInfoDxeDriver/PlatformInfoDxeDriver.efi
+    SECTION DXE_DEPEX = SamsungS8Pkg/Binary/PlatformInfoDxeDriver/PlatformInfoDxeDriver.depex
+    SECTION PE32 = SamsungS8Pkg/Binary/PlatformInfoDxeDriver/PlatformInfoDxeDriver.efi
     SECTION UI = "PlatformInfoDxeDriver"
   }
 
   FILE DRIVER = 7942a7eb-b7d5-4e2e-b908-831e4de55b58 {
-    SECTION DXE_DEPEX = XiaomiMI6Pkg/Binary/GlinkDxe/GlinkDxe.depex
-    SECTION PE32 = XiaomiMI6Pkg/Binary/GlinkDxe/GlinkDxe.efi
+    SECTION DXE_DEPEX = SamsungS8Pkg/Binary/GlinkDxe/GlinkDxe.depex
+    SECTION PE32 = SamsungS8Pkg/Binary/GlinkDxe/GlinkDxe.efi
     SECTION UI = "GlinkDxe"
   }
 
   FILE DRIVER = e43128a8-8692-42b6-8afa-676158578d18 {
-    SECTION DXE_DEPEX = XiaomiMI6Pkg/Binary/ULogDxe/ULogDxe.depex
-    SECTION PE32 = XiaomiMI6Pkg/Binary/ULogDxe/ULogDxe.efi
+    SECTION DXE_DEPEX = SamsungS8Pkg/Binary/ULogDxe/ULogDxe.depex
+    SECTION PE32 = SamsungS8Pkg/Binary/ULogDxe/ULogDxe.efi
     SECTION UI = "ULogDxe"
   }
 
 #  FILE DRIVER = cb29f4d1-7f37-4692-a416-93e82e219711 {
-#    SECTION DXE_DEPEX = XiaomiMI6Pkg/Binary/NpaDxe/NpaDxe.depex
-#    SECTION PE32 = XiaomiMI6Pkg/Binary/NpaDxe/NpaDxe.efi
+#    SECTION DXE_DEPEX = SamsungS8Pkg/Binary/NpaDxe/NpaDxe.depex
+#    SECTION PE32 = SamsungS8Pkg/Binary/NpaDxe/NpaDxe.efi
 #    SECTION UI = "NpaDxe"
 #  }
 
 #  FILE DRIVER = 4db5dea6-5302-4d1a-8a82-677a683b0d29 {
-#    SECTION DXE_DEPEX = XiaomiMI6Pkg/Binary/ClockDxe/ClockDxe.depex
-#    SECTION PE32 = XiaomiMI6Pkg/Binary/ClockDxe/ClockDxe.efi
+#    SECTION DXE_DEPEX = SamsungS8Pkg/Binary/ClockDxe/ClockDxe.depex
+#    SECTION PE32 = SamsungS8Pkg/Binary/ClockDxe/ClockDxe.efi
 #    SECTION UI = "ClockDxe"
 #  }
 
   FILE DRIVER = 0d35cd8e-97ea-4f9a-96af-0f0d89f76567 {
-    SECTION DXE_DEPEX = XiaomiMI6Pkg/Binary/UFSDxe/UFSDxe.depex
-    SECTION PE32 = XiaomiMI6Pkg/Binary/UFSDxe/UFSDxe.efi
+    SECTION DXE_DEPEX = SamsungS8Pkg/Binary/UFSDxe/UFSDxe.depex
+    SECTION PE32 = SamsungS8Pkg/Binary/UFSDxe/UFSDxe.efi
     SECTION UI = "UFSDxe"
   }
 
   FILE DRIVER = 8681cc5a-0df6-441e-b4b8-e915c538f067 {
-    SECTION DXE_DEPEX = XiaomiMI6Pkg/Binary/DALTLMM/DALTLMM.depex
-    SECTION PE32 = XiaomiMI6Pkg/Binary/DALTLMM/DALTLMM.efi
+    SECTION DXE_DEPEX = SamsungS8Pkg/Binary/DALTLMM/DALTLMM.depex
+    SECTION PE32 = SamsungS8Pkg/Binary/DALTLMM/DALTLMM.efi
     SECTION UI = "DALTLMM"
   }
 
   FILE DRIVER = 04de8591-d2b3-4077-bbbe-b12070094eb6 {
-    SECTION DXE_DEPEX = XiaomiMI6Pkg/Binary/I2C/I2C.depex
-    SECTION PE32 = XiaomiMI6Pkg/Binary/I2C/I2C.efi
+    SECTION DXE_DEPEX = SamsungS8Pkg/Binary/I2C/I2C.depex
+    SECTION PE32 = SamsungS8Pkg/Binary/I2C/I2C.efi
     SECTION UI = "I2C"
   }
 
  # FILE DRIVER = 2a7b4bef-80cd-49e1-b473-374ba4d673fc {
- #   SECTION DXE_DEPEX = XiaomiMI6Pkg/Binary/SPMI/SPMI.depex
- #   SECTION PE32 = XiaomiMI6Pkg/Binary/SPMI/SPMI.efi
+ #   SECTION DXE_DEPEX = SamsungS8Pkg/Binary/SPMI/SPMI.depex
+ #   SECTION PE32 = SamsungS8Pkg/Binary/SPMI/SPMI.efi
  #   SECTION UI = "SPMI"
  # }
 
   FILE DRIVER = 7a32bd23-f735-4f57-aa1a-447d2fe3be0d {
-    SECTION DXE_DEPEX = XiaomiMI6Pkg/Binary/SPI/SPI.depex
-    SECTION PE32 = XiaomiMI6Pkg/Binary/SPI/SPI.efi
+    SECTION DXE_DEPEX = SamsungS8Pkg/Binary/SPI/SPI.depex
+    SECTION PE32 = SamsungS8Pkg/Binary/SPI/SPI.efi
     SECTION UI = "SPI"
   }
 
 #  FILE DRIVER = 5776232e-082d-4b75-9a0e-fe1d13f7a5d9 {
-#    SECTION DXE_DEPEX = XiaomiMI6Pkg/Binary/PmicDxe/PmicDxe.depex
-#    SECTION PE32 = XiaomiMI6Pkg/Binary/PmicDxe/PmicDxe.efi
+#    SECTION DXE_DEPEX = SamsungS8Pkg/Binary/PmicDxe/PmicDxe.depex
+#    SECTION PE32 = SamsungS8Pkg/Binary/PmicDxe/PmicDxe.efi
 #    SECTION UI = "PmicDxe"
 #  }
 
   FILE DRIVER = 5bd181db-0487-4f1a-ae73-820e165611b3 {
-    SECTION DXE_DEPEX = XiaomiMI6Pkg/Binary/ButtonsDxe/ButtonsDxe.depex
-    SECTION PE32 = XiaomiMI6Pkg/Binary/ButtonsDxe/ButtonsDxe.efi
+    SECTION DXE_DEPEX = SamsungS8Pkg/Binary/ButtonsDxe/ButtonsDxe.depex
+    SECTION PE32 = SamsungS8Pkg/Binary/ButtonsDxe/ButtonsDxe.efi
     SECTION UI = "ButtonsDxe"
   }
 
@@ -412,6 +412,6 @@ READ_LOCK_STATUS   = TRUE
     }
   }
 
-!include XiaomiMI6Pkg/CommonFdf.fdf.inc
+!include SamsungS8Pkg/CommonFdf.fdf.inc
 
 
