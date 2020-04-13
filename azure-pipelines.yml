@@ -2,11 +2,11 @@ trigger:
 - master
 
 pool:
-  vmImage: 'Ubuntu-16.04'
+  vmImage: 'Ubuntu-18.04'
 
 steps:
 - script: |
-    sudo ./build.sh
+    sudo ./azure-build.sh
   displayName: 'fv build'
 
 #- task: GitHubRelease@0
