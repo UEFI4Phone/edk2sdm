@@ -1,0 +1,30 @@
+[Defines]
+  INF_VERSION    = 0x00010005
+  BASE_NAME      = FrameBufferSerialPortLib
+  MODULE_TYPE    = BASE
+  VERSION_STRING = 1.0
+  LIBRARY_CLASS  = SerialPortLib
+
+[Sources.common]
+  FrameBufferSerialPortLib.c
+
+[Packages]
+  MdePkg/MdePkg.dec
+  ArmPkg/ArmPkg.dec
+  SamsungS8Pkg/SamsungS8Pkg.dec
+
+[LibraryClasses]
+  ArmLib
+  PcdLib
+  IoLib
+  HobLib
+  CompilerIntrinsicsLib
+  CacheMaintenanceLib
+
+[Pcd]
+  gSamsungS8PkgTokenSpaceGuid.PcdMipiFrameBufferAddress
+  gSamsungS8PkgTokenSpaceGuid.PcdMipiFrameBufferWidth
+  gSamsungS8PkgTokenSpaceGuid.PcdMipiFrameBufferHeight
+  gSamsungS8PkgTokenSpaceGuid.PcdMipiFrameBufferPixelBpp
+  gSamsungS8PkgTokenSpaceGuid.PcdMipiFrameBufferVisibleWidth
+  gSamsungS8PkgTokenSpaceGuid.PcdMipiFrameBufferVisibleHeight

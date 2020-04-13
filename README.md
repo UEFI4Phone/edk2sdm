@@ -26,17 +26,13 @@ You'll get boot.img at
 
 `./tools/image-new.img`
 
-## Screenshots
-[![1](https://i.loli.net/2019/11/22/pnwQi7y3JFUHBuL.jpg)](https://i.loli.net/2019/11/22/pnwQi7y3JFUHBuL.jpg)
-[![2](https://i.loli.net/2019/11/22/LsuYZFVDx1Cf83b.jpg)](https://i.loli.net/2019/11/22/LsuYZFVDx1Cf83b.jpg)
-[![3](https://i.loli.net/2019/11/22/2h4zTZyNIqGv9Dx.jpg)](https://i.loli.net/2019/11/22/2h4zTZyNIqGv9Dx.jpg)
-Screen is Up.
-Maybe have memory issue.
+MMU Works Fine now.
+Currently can load Windows Boot.wim.
+Thanks to @fxsheep @imbushuo 
 
 ## Flash instructions 
 
 Flash a newest official rom with TWRP recovery, then download boot.img at release page flash it then you can get UEFI loader now.Or you can build your self with my script.
 
 ## Status
-I'm building recovery with Mass storage gadget so that some work can be done for Windows ARM64 (Done✅)
-Fix memory with MADT and ACPI stuff.
+MMU Seems Fine. Need to implment some ACPI tables.
