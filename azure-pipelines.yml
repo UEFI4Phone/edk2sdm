@@ -6,7 +6,7 @@ pool:
 
 steps:
 - script: |
-    sudo ./azure-build.sh
+    bash ./azure-build.sh
   displayName: 'fv build'
 
 #- task: GitHubRelease@0
