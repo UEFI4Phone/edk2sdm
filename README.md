@@ -35,4 +35,4 @@ Thanks to @fxsheep @imbushuo
 Flash a newest official rom with TWRP recovery, then download boot.img at release page flash it then you can get UEFI loader now.Or you can build your self with my script.
 
 ## Status
-MMU Seems Fine. Need to implment some ACPI tables.
+MMU Seems Fine. Need to implement some ACPI tables.
