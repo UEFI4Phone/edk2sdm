@@ -36,3 +36,6 @@ Flash a newest official rom with TWRP recovery, then download boot.img at releas
 
 ## Status
 MMU Seems Fine. Need to implement some ACPI tables.
+
+## Videos
+[Video Link](https://www.youtube.com/watch?v=k6zNKBpKHwo)
