@@ -12,6 +12,7 @@ sudo apt update
 sudo apt install -y build-essential uuid-dev iasl git nasm gcc-aarch64-linux-gnu bc python3-pip python3-distutils
 curdir="$PWD"
 cd "$curdir"
+sudo chmod a+x * -R
 #mkdir $PWD/workspace
 export GCC5_AARCH64_PREFIX=aarch64-linux-gnu-
 export PACKAGES_PATH=$PWD/edk2:$PWD/edk2-platforms:$PWD/Sdm835
