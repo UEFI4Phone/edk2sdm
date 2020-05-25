@@ -1,8 +1,8 @@
 # Samsung S8 EDK2 Port
 
-[![GitHub stars](https://img.shields.io/github/stars/evsio0n/edk2sdm)](https://github.com/evsio0n/edk2sdm/stargazers)
-[![GitHub forks](https://img.shields.io/github/forks/evsio0n/edk2sdm)](https://github.com/evsio0n/edk2sdm/network)
-[![GitHub issues](https://img.shields.io/github/issues/evsio0n/edk2sdm)](https://github.com/evsio0n/edk2sdm/issues)
+[![GitHub stars](https://img.shields.io/github/stars/UEFI4Phone/edk2sdm)](https://github.com/UEFI4Phone/edk2sdm/stargazers)
+[![GitHub forks](https://img.shields.io/github/forks/UEFI4Phone/edk2sdm)](https://github.com/UEFI4Phone/edk2sdm/network)
+[![GitHub issues](https://img.shields.io/github/issues/UEFI4Phone/edk2sdm)](https://github.com/UEFI4Phone/edk2sdm/issues)
 
 
 Build status:
