@@ -16,5 +16,5 @@ jobs:
     - name: make
       run: make build
     - name: build
-      run: ./build
+      run: export TERM=dumb && ./build
 
