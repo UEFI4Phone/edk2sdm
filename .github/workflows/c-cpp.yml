@@ -16,5 +16,5 @@ jobs:
     - name: make
       run: make build
     - name: build
-      run: /bin/bash ./build
+      run: export TERM=xterm-256color &&chmod a+x ./build.sh && /bin/bash ./build.sh
 
