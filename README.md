@@ -13,10 +13,12 @@ Build status:
 
 Tested in :
 
-System|Version
--|-
-Ubuntu|18.04LTS
-Ubuntu|16.04LTS
+System|Version|Status
+-|-|-
+Ubuntu|18.04LTS|✅
+Ubuntu|16.04LTS|✅
+Ubuntu|20.04LTS|❌
+Debian|Buster|✅
 
 Build with 
 
