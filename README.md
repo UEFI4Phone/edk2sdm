@@ -7,9 +7,9 @@
 
 Build status:
 
-[![Build Status](https://dev.azure.com/1344729087/edk2sdm/_apis/build/status/Evsio0n.edk2sdm?branchName=master)](https://dev.azure.com/1344729087/edk2sdm/_build/latest?definitionId=2&branchName=master)
+![CI Build Status](https://github.com/UEFI4Phone/edk2sdm/workflows/C/C++%20CI/badge.svg)
 
-## How to build
+## How to build（Dirty）
 
 Tested in :
 
@@ -17,7 +17,7 @@ System|Version|Status
 -|-|-
 Ubuntu|18.04LTS|✅
 Ubuntu|16.04LTS|✅
-Ubuntu|20.04LTS|❌
+Ubuntu|20.04LTS|✅
 Debian|Buster|✅
 
 Build with 
