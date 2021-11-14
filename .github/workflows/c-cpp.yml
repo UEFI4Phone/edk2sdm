@@ -25,5 +25,5 @@ jobs:
         automatic_release_tag: "latest"
         prerelease: false
         files: |
-          tools/boot.img
+          *.img
 
